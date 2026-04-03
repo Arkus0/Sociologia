@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Runtime outputs
+sociology_kb_starter/data/raw/
+sociology_kb_starter/data/wiki/answered_questions/
