@@ -7,10 +7,10 @@ Sociology-only knowledge base where raw documents are evidence and markdown note
 ## Directory model
 
 - `data/raw/<semester>/<course>/...` raw files and sidecars (`*.meta.json`)
-- `data/wiki/sources/...` compiled source notes
-- `data/wiki/concepts/...` concept notes
-- `data/wiki/authors/...` author notes
-- `data/wiki/courses/...` course notes
+- `data/wiki/sources/...` compiled source notes (canonical)
+- `data/wiki/concepts/...` derived concept notes from canonical source notes
+- `data/wiki/authors/...` derived author notes from canonical source notes
+- `data/wiki/courses/...` derived course notes from canonical source notes
 - `data/qa/answered_questions/...` answered QA artifacts with evidence
 - `data/qa/open_questions/...` unresolved questions extracted from source notes
 - `data/graph/atlas_graph.json` generated graph nodes/edges
@@ -39,12 +39,14 @@ Sociology-only knowledge base where raw documents are evidence and markdown note
 - `kb_core/graph_index.py`
   - derive graph nodes/edges from markdown notes
   - write `atlas_graph.json`
-- `kb_core/qa.py`
-  - deterministic weighted retrieval
-  - optional LLM answer generation
-  - persist answers with provenance
-- `kb_core/lint.py`
-  - detect missing frontmatter, failed raw docs, orphan concepts, duplicates
+- `kb_core/services.py`
+  - reusable knowledge operations consumed by Streamlit and MCP
+  - deterministic read APIs
+  - safe PR-oriented write APIs
+- `kb_core/mcp_tools.py`
+  - MCP-facing tool handlers with stable names and simple schemas
+- `mcp_server.py`
+  - remote MCP app, read tools first, write tool for PR workflows
 
 ## Ingestion lifecycle
 
@@ -62,19 +64,21 @@ Raw file save and parse/compile are independent. A parse failure cannot block ra
 
 Field-weighted lexical ranking (title, concepts, authors, summary, body), with accent/case normalization and TF-IDF-like weighting for deterministic behavior.
 
+## Safe write strategy
+
+- Do not expose destructive direct filesystem edits as primary tool path.
+- Preferred write flow:
+  1. Propose note update (`propose_note_edit`)
+  2. Build a reviewable patch (`build_patch_for_note`)
+  3. Create branch + commit for PR review (`create_branch_and_pr_for_changes`)
+- GitHub PR is the operational write boundary.
+
+## External agent readiness
+
+- Stable markdown paths + explicit frontmatter schema.
+- Deterministic retrieval and graph generation.
+- MCP tool names are explicit (`kb_*`) and use concise, typed inputs.
+
 ## Notion export
 
 Notion is optional and downstream only. Markdown remains source of truth.
-
-## Known limitations
-
-- No OCR yet for scanned PDFs.
-- LLM JSON output is schema-validated, but low-context sources still produce shallow notes.
-- Graph rendering depends on `streamlit-agraph` for interactive selection.
-
-## Future extension points
-
-- OCR plugin on `ExtractionStatus.EMPTY`
-- richer course/synthesis notes
-- optional embeddings layer alongside deterministic retrieval
-- MCP server over markdown + graph artifacts
