@@ -11,3 +11,4 @@ anthropic>=0.25.0
 pytest>=8.2.0
 
 streamlit-agraph>=0.0.45
+mcp>=1.2.0

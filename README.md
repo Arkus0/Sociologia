@@ -29,3 +29,8 @@ pytest
 ```
 
 For architecture and flow details, see `sociology_kb_starter/docs/architecture.md`.
+
+
+## MCP-ready remote app
+
+The starter now includes reusable services plus `mcp_server.py` so the sociology KB can be exposed to ChatGPT through a custom remote MCP app while keeping markdown as canonical and GitHub PRs as the safe write path.
