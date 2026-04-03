@@ -81,7 +81,7 @@ def run_lint_checks() -> list[dict]:
                 }
             )
 
-    for concept_note in list_files_recursive(SETTINGS.by_concept_dir, suffixes=(".md",)):
+    for concept_note in list_files_recursive(SETTINGS.concepts_dir, suffixes=(".md",)):
         frontmatter, _ = load_markdown_file(concept_note)
         title = str(frontmatter.get("title", "")).strip().lower()
         if title and title not in concept_references:

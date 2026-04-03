@@ -31,24 +31,28 @@ class Settings:
         return self.kb_root / "wiki"
 
     @property
-    def notes_dir(self) -> Path:
-        return self.wiki_dir / "notes"
+    def sources_dir(self) -> Path:
+        return self.wiki_dir / "sources"
 
     @property
-    def by_course_dir(self) -> Path:
-        return self.notes_dir / "by_course"
+    def concepts_dir(self) -> Path:
+        return self.wiki_dir / "concepts"
 
     @property
-    def by_concept_dir(self) -> Path:
-        return self.notes_dir / "by_concept"
+    def authors_dir(self) -> Path:
+        return self.wiki_dir / "authors"
 
     @property
-    def by_author_dir(self) -> Path:
-        return self.notes_dir / "by_author"
+    def courses_dir(self) -> Path:
+        return self.wiki_dir / "courses"
 
     @property
     def syntheses_dir(self) -> Path:
         return self.kb_root / "syntheses"
+
+    @property
+    def graph_dir(self) -> Path:
+        return self.kb_root / "graph"
 
     @property
     def qa_dir(self) -> Path:

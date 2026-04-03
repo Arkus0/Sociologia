@@ -96,7 +96,7 @@ def extract_text(path: Path) -> ExtractionResult:
             status=ExtractionStatus.EMPTY,
             text="",
             mime_hint=suffix,
-            page_count=0,
+            page_count=len(reader.pages),
             pages_with_text=0,
             diagnostics=diagnostics,
             message="No extractable text found. PDF may be scanned/image-based.",
