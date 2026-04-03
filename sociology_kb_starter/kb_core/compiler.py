@@ -8,60 +8,25 @@ from pydantic import ValidationError
 
 from kb_core.config import SETTINGS
 from kb_core.extraction import extract_text
+from kb_core.graph_index import build_graph_index
 from kb_core.llm import LLMClient
 from kb_core.models import CompilationResult, CompiledSourcePayload, DocumentStatus, ExtractionStatus
-from kb_core.storage import (
-    list_raw_documents,
-    read_metadata,
-    update_metadata_status,
-    write_note,
-)
+from kb_core.storage import list_raw_documents, read_metadata, update_metadata_status, write_note
 from kb_core.utils import list_files_recursive, load_markdown_file, slugify, utc_now_iso, write_text
 
-
 SOURCE_PROMPT = """You are compiling a sociology knowledge base.
-Return strict JSON with these keys:
-- title: string
-- summary: string
-- core_ideas: list[string]
-- concepts: list[string]
-- authors: list[string]
-- methods: list[string]
-- exam_questions: list[string]
-- open_questions: list[string]
-- source_anchors: list[string]
+Return strict JSON with keys: title, summary, core_ideas, concepts, authors, methods, exam_questions, open_questions, source_anchors.
 Rules:
-- Be conservative.
-- Do not invent citations or page numbers.
-- If uncertain, leave a list short rather than hallucinating.
-- Prefer sociological terminology when supported by the source.
-"""
-
-CONCEPT_PROMPT = """You are synthesizing a concept page for a sociology wiki.
-Write concise markdown with these sections:
-## Definition
-## Why it matters
-## Cross-course links
-## Source notes
-Use only the supplied evidence.
-"""
-
-AUTHOR_PROMPT = """You are synthesizing an author page for a sociology wiki.
-Write concise markdown with these sections:
-## Core ideas
-## Related concepts
-## Cross-course relevance
-## Source notes
-Use only the supplied evidence.
+- Be conservative and grounded in the source text.
+- Do not invent references or page numbers.
+- Keep unknown fields short.
 """
 
 FALLBACK_SUMMARY_LIMIT = 1200
 
 
 def compile_all_raw_documents() -> list[CompilationResult]:
-    results: list[CompilationResult] = []
-    for item in list_raw_documents():
-        results.append(compile_raw_document(item["path"]))
+    results = [compile_raw_document(item["path"]) for item in list_raw_documents()]
     rebuild_indexes()
     return results
 
@@ -72,47 +37,28 @@ def compile_raw_document(raw_path: Path) -> CompilationResult:
 
     extraction = extract_text(raw_path)
     if extraction.status in {ExtractionStatus.UNSUPPORTED, ExtractionStatus.ENCRYPTED, ExtractionStatus.PARSE_ERROR, ExtractionStatus.EMPTY}:
-        status = DocumentStatus.PARSE_FAILED
         update_metadata_status(
             raw_path,
-            status=status,
+            status=DocumentStatus.PARSE_FAILED,
             error_category=extraction.error_category,
             error_message=extraction.message,
         )
         return CompilationResult(
             ok=False,
             raw_path=str(raw_path),
-            status=status,
+            status=DocumentStatus.PARSE_FAILED,
             message=extraction.message,
             error_category=extraction.error_category,
             extraction=extraction,
         )
 
-    llm = LLMClient()
-    payload = {
-        "source_path": str(raw_path.relative_to(SETTINGS.kb_root)),
-        "semester": metadata.semester,
-        "course": metadata.course,
-        "filename": raw_path.name,
-        "text_excerpt": extraction.text[:12000],
-    }
-
-    llm_result = llm.complete(SOURCE_PROMPT, json.dumps(payload, ensure_ascii=False, indent=2), max_tokens=2000) if llm.available() else None
-
-    compiled_payload: CompiledSourcePayload
-    if llm_result and llm_result.content:
-        compiled_payload = _parse_compiled_payload(llm_result.content, raw_path, extraction.text)
-    else:
-        compiled_payload = _fallback_payload(raw_path, extraction.text)
+    payload = _build_compilation_payload(raw_path, extraction.text, metadata.semester, metadata.course)
+    compiled = _compile_payload(raw_path, extraction.text, payload)
 
     try:
-        note_path = _write_source_note(raw_path, metadata.semester, metadata.course, metadata.manual_concepts, metadata.manual_authors, compiled_payload, llm_result.provider if llm_result else "fallback", llm_result.model if llm_result else "fallback")
-        _store_open_questions(slugify(compiled_payload.title), compiled_payload.open_questions, metadata.semester, metadata.course)
-        update_metadata_status(
-            raw_path,
-            status=DocumentStatus.COMPILED,
-            compiled_note_path=str(note_path.relative_to(SETTINGS.kb_root)),
-        )
+        note_path = _write_source_note(raw_path, metadata.semester, metadata.course, metadata.manual_concepts, metadata.manual_authors, compiled["payload"], compiled["provider"], compiled["model"])
+        _store_open_questions(slugify(compiled["payload"].title), compiled["payload"].open_questions, metadata.semester, metadata.course)
+        update_metadata_status(raw_path, status=DocumentStatus.COMPILED, compiled_note_path=str(note_path.relative_to(SETTINGS.kb_root)))
         return CompilationResult(
             ok=True,
             raw_path=str(raw_path),
@@ -120,8 +66,8 @@ def compile_raw_document(raw_path: Path) -> CompilationResult:
             status=DocumentStatus.COMPILED,
             message="Compilation finished successfully.",
             extraction=extraction,
-            llm_provider=llm_result.provider if llm_result else "fallback",
-            llm_model=llm_result.model if llm_result else "fallback",
+            llm_provider=compiled["provider"],
+            llm_model=compiled["model"],
         )
     except Exception as exc:
         update_metadata_status(
@@ -141,51 +87,100 @@ def compile_raw_document(raw_path: Path) -> CompilationResult:
         )
 
 
+def _build_compilation_payload(raw_path: Path, text: str, semester: str, course: str) -> dict:
+    return {
+        "source_path": str(raw_path.relative_to(SETTINGS.kb_root)),
+        "semester": semester,
+        "course": course,
+        "filename": raw_path.name,
+        "text_excerpt": text[:12000],
+    }
+
+
+def _compile_payload(raw_path: Path, text: str, payload: dict) -> dict:
+    llm = LLMClient()
+    llm_result = llm.complete(SOURCE_PROMPT, json.dumps(payload, ensure_ascii=False, indent=2), max_tokens=2000) if llm.available() else None
+    if llm_result and llm_result.content:
+        parsed = _parse_compiled_payload(llm_result.content, raw_path, text)
+        return {"payload": parsed, "provider": llm_result.provider, "model": llm_result.model}
+    return {"payload": _fallback_payload(raw_path, text), "provider": "fallback", "model": "fallback"}
+
+
 def rebuild_indexes() -> None:
     source_notes = _load_source_notes()
     concept_map: dict[str, list[dict]] = defaultdict(list)
     author_map: dict[str, list[dict]] = defaultdict(list)
+    course_map: dict[str, list[dict]] = defaultdict(list)
 
     for note in source_notes:
         front = note["frontmatter"]
+        course_map[str(front.get("course", "general"))].append(note)
         for concept in front.get("concepts", []):
-            concept_map[concept].append(note)
+            concept_map[str(concept)].append(note)
         for author in front.get("authors", []):
-            author_map[author].append(note)
-
-    llm = LLMClient()
+            author_map[str(author)].append(note)
 
     for concept, notes in concept_map.items():
-        slug = slugify(concept)
-        path = SETTINGS.by_concept_dir / f"{slug}.md"
-        body = _build_concept_or_author_body(concept, notes, mode="concept", llm=llm)
-        frontmatter = {
-            "id": slug,
-            "title": concept,
-            "note_type": "concept",
-            "updated_at": utc_now_iso(),
-            "source_notes": [str(item["path"].relative_to(SETTINGS.kb_root)) for item in notes],
-        }
-        write_note(path, frontmatter, body)
+        write_note(
+            SETTINGS.concepts_dir / f"{slugify(concept)}.md",
+            {
+                "id": slugify(concept),
+                "title": concept,
+                "note_type": "concept",
+                "updated_at": utc_now_iso(),
+                "source_notes": [str(item["path"].relative_to(SETTINGS.kb_root)) for item in notes],
+            },
+            _build_entity_body(concept, notes, "concept"),
+        )
 
     for author, notes in author_map.items():
-        slug = slugify(author)
-        path = SETTINGS.by_author_dir / f"{slug}.md"
-        body = _build_concept_or_author_body(author, notes, mode="author", llm=llm)
-        frontmatter = {
-            "id": slug,
-            "title": author,
-            "note_type": "author",
-            "updated_at": utc_now_iso(),
-            "source_notes": [str(item["path"].relative_to(SETTINGS.kb_root)) for item in notes],
-        }
-        write_note(path, frontmatter, body)
+        write_note(
+            SETTINGS.authors_dir / f"{slugify(author)}.md",
+            {
+                "id": slugify(author),
+                "title": author,
+                "note_type": "author",
+                "updated_at": utc_now_iso(),
+                "source_notes": [str(item["path"].relative_to(SETTINGS.kb_root)) for item in notes],
+            },
+            _build_entity_body(author, notes, "author"),
+        )
+
+    for course, notes in course_map.items():
+        all_concepts = sorted({c for n in notes for c in n["frontmatter"].get("concepts", [])})
+        all_authors = sorted({a for n in notes for a in n["frontmatter"].get("authors", [])})
+        body = "\n".join(
+            [
+                "## Scope",
+                f"Sociology course node for **{course}**.",
+                "",
+                "## Core concepts",
+                "\n".join(f"- {c}" for c in all_concepts) or "- None yet",
+                "",
+                "## Authors",
+                "\n".join(f"- {a}" for a in all_authors) or "- None yet",
+                "",
+                "## Source notes",
+                "\n".join(f"- {n['frontmatter'].get('title', n['path'].stem)} ({n['path'].relative_to(SETTINGS.kb_root)})" for n in notes),
+            ]
+        )
+        write_note(
+            SETTINGS.courses_dir / f"{slugify(course)}.md",
+            {
+                "id": slugify(course),
+                "title": course,
+                "note_type": "course",
+                "updated_at": utc_now_iso(),
+            },
+            body,
+        )
+
+    build_graph_index()
 
 
 def _parse_compiled_payload(raw_content: str, raw_path: Path, extracted_text: str) -> CompiledSourcePayload:
     try:
-        parsed = json.loads(raw_content)
-        return CompiledSourcePayload.model_validate(parsed)
+        return CompiledSourcePayload.model_validate(json.loads(raw_content))
     except (json.JSONDecodeError, ValidationError, TypeError):
         return _fallback_payload(raw_path, extracted_text)
 
@@ -193,32 +188,20 @@ def _parse_compiled_payload(raw_content: str, raw_path: Path, extracted_text: st
 def _fallback_payload(raw_path: Path, text: str) -> CompiledSourcePayload:
     excerpt = text.strip()[:FALLBACK_SUMMARY_LIMIT]
     lines = [line.strip() for line in excerpt.splitlines() if line.strip()]
-    summary = lines[0] if lines else f"Fallback summary for {raw_path.stem}."
     return CompiledSourcePayload(
         title=raw_path.stem.replace("_", " ").replace("-", " ").title(),
-        summary=summary,
+        summary=lines[0] if lines else f"Fallback summary for {raw_path.stem}.",
         core_ideas=lines[1:4],
         source_anchors=lines[:3],
     )
 
 
-def _write_source_note(
-    raw_path: Path,
-    semester: str,
-    course: str,
-    manual_concepts: list[str],
-    manual_authors: list[str],
-    payload: CompiledSourcePayload,
-    llm_provider: str,
-    llm_model: str,
-) -> Path:
+def _write_source_note(raw_path: Path, semester: str, course: str, manual_concepts: list[str], manual_authors: list[str], payload: CompiledSourcePayload, llm_provider: str, llm_model: str) -> Path:
     concepts = _unique_strings(manual_concepts + payload.concepts)
     authors = _unique_strings(manual_authors + payload.authors)
-
     title = payload.title or raw_path.stem.replace("_", " ").replace("-", " ").title()
     note_slug = slugify(title)
-    course_slug = slugify(course)
-    note_path = SETTINGS.by_course_dir / course_slug / f"{note_slug}.md"
+    note_path = SETTINGS.sources_dir / slugify(semester) / slugify(course) / f"{note_slug}.md"
 
     frontmatter = {
         "id": note_slug,
@@ -237,34 +220,13 @@ def _write_source_note(
         "llm_model": llm_model,
     }
 
-    body = _format_source_note(
-        title=title,
-        summary=payload.summary,
-        core_ideas=payload.core_ideas,
-        concepts=concepts,
-        authors=authors,
-        methods=payload.methods,
-        exam_questions=payload.exam_questions,
-        open_questions=payload.open_questions,
-        source_anchors=payload.source_anchors,
-    )
+    body = _format_source_note(title, payload.summary, payload.core_ideas, concepts, authors, payload.methods, payload.exam_questions, payload.open_questions, payload.source_anchors)
     write_note(note_path, frontmatter, body)
     return note_path
 
 
-def _format_source_note(
-    *,
-    title: str,
-    summary: str,
-    core_ideas: list[str],
-    concepts: list[str],
-    authors: list[str],
-    methods: list[str],
-    exam_questions: list[str],
-    open_questions: list[str],
-    source_anchors: list[str],
-) -> str:
-    def bullet_block(items: list[str]) -> str:
+def _format_source_note(title: str, summary: str, core_ideas: list[str], concepts: list[str], authors: list[str], methods: list[str], exam_questions: list[str], open_questions: list[str], source_anchors: list[str]) -> str:
+    def bullets(items: list[str]) -> str:
         return "\n".join(f"- {item}" for item in items) if items else "- None yet"
 
     return f"""# {title}
@@ -273,72 +235,54 @@ def _format_source_note(
 {summary or 'No summary generated yet.'}
 
 ## Core ideas
-{bullet_block(core_ideas)}
+{bullets(core_ideas)}
 
 ## Concepts
-{bullet_block(concepts)}
+{bullets(concepts)}
 
 ## Authors
-{bullet_block(authors)}
+{bullets(authors)}
 
 ## Methods
-{bullet_block(methods)}
+{bullets(methods)}
 
 ## Possible exam questions
-{bullet_block(exam_questions)}
+{bullets(exam_questions)}
 
 ## Open questions
-{bullet_block(open_questions)}
+{bullets(open_questions)}
 
 ## Source anchors
-{bullet_block(source_anchors)}
+{bullets(source_anchors)}
 """
 
 
-def _build_concept_or_author_body(entity: str, notes: list[dict], mode: str, llm: LLMClient) -> str:
+def _build_entity_body(entity: str, notes: list[dict], mode: str) -> str:
+    header = "Definition" if mode == "concept" else "Core ideas"
     references = "\n".join(
-        f"- {item['frontmatter'].get('title', item['path'].stem)} ({item['frontmatter'].get('course', 'unknown course')}) -> {item['path'].relative_to(SETTINGS.kb_root)}"
+        f"- {item['frontmatter'].get('title', item['path'].stem)} ({item['frontmatter'].get('course', 'general')}) -> {item['path'].relative_to(SETTINGS.kb_root)}"
         for item in notes
     )
-    payload = {
-        "entity": entity,
-        "mode": mode,
-        "evidence": [
-            {
-                "title": item["frontmatter"].get("title"),
-                "course": item["frontmatter"].get("course"),
-                "summary": _extract_section(item["body"], "## Summary", "## Core ideas"),
-                "core_ideas": _extract_section(item["body"], "## Core ideas", "## Concepts"),
-                "path": str(item["path"].relative_to(SETTINGS.kb_root)),
-            }
-            for item in notes
-        ],
-    }
+    return f"""## {header}
+This page aggregates references to **{entity}** across the sociology wiki.
 
-    prompt = CONCEPT_PROMPT if mode == "concept" else AUTHOR_PROMPT
-    llm_result = llm.complete(prompt, json.dumps(payload, ensure_ascii=False, indent=2), max_tokens=1400) if llm.available() else None
-    if llm_result and llm_result.content:
-        body = llm_result.content.strip()
-    else:
-        heading = "Definition" if mode == "concept" else "Core ideas"
-        body = f"## {heading}\nThis page aggregates references to **{entity}** across the current wiki.\n\n## Source notes\n{references}\n"
-    if "## Source notes" not in body:
-        body = f"{body.rstrip()}\n\n## Source notes\n{references}\n"
-    return body
+## Source notes
+{references}
+"""
 
 
-def _extract_section(body: str, start_marker: str, end_marker: str) -> str:
-    if start_marker not in body:
-        return ""
-    section = body.split(start_marker, 1)[1]
-    if end_marker in section:
-        section = section.split(end_marker, 1)[0]
-    return section.strip()
+def _store_open_questions(source_slug: str, questions: list[str], semester: str, course: str) -> None:
+    if not questions:
+        return
+    path = SETTINGS.open_questions_dir / f"{slugify(semester)}-{slugify(course)}-{source_slug}.md"
+    lines = [f"# Open questions from {source_slug}", ""]
+    lines.extend(f"- {question}" for question in questions)
+    write_text(path, "\n".join(lines) + "\n")
 
 
 def _load_source_notes() -> list[dict]:
-    notes: list[dict] = []
-    for path in list_files_recursive(SETTINGS.by_course_dir, suffixes=(".md",)):
+    notes = []
+    for path in list_files_recursive(SETTINGS.sources_dir, suffixes=(".md",)):
         frontmatter, body = load_markdown_file(path)
         notes.append({"path": path, "frontmatter": frontmatter, "body": body})
     return notes
@@ -357,14 +301,3 @@ def _unique_strings(items: list[str]) -> list[str]:
         seen.add(key)
         result.append(clean)
     return result
-
-
-def _store_open_questions(source_id: str, questions: list[str], semester: str, course: str) -> None:
-    if not questions:
-        return
-    lines = [f"# Open questions from {source_id}", "", f"- semester: {semester}", f"- course: {course}", ""]
-    for question in questions:
-        lines.append(f"- [ ] {question}")
-    body = "\n".join(lines) + "\n"
-    path = SETTINGS.open_questions_dir / f"{source_id}.md"
-    write_text(path, body)

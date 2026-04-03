@@ -1,42 +1,54 @@
-# Sociology KB Architecture (Refactor 2026-04-03)
+# Sociology Atlas Architecture
 
-## Layered modules
+## Purpose
 
-- **UI (Streamlit)**: `app.py`
-- **Configuration**: `kb_core/config.py`
-- **Storage & metadata**: `kb_core/storage.py`, `kb_core/models.py`
-- **Extraction**: `kb_core/extraction.py`
-- **Compilation pipeline**: `kb_core/compiler.py`
-- **Retrieval and QA**: `kb_core/qa.py`
-- **Notion export**: `kb_core/notion_sync.py`
-- **Health/lint checks**: `kb_core/lint.py`
+Sociology-only knowledge base where raw documents are evidence and markdown notes are the canonical working layer.
 
-## Ingestion flow
+## Directory model
 
-1. User uploads file(s) in Streamlit.
-2. `save_uploaded_bytes()` writes raw file to `data/raw/<semester>/<course>/`.
-3. Sidecar metadata (`*.meta.json`) is validated with Pydantic and persisted.
-4. File status moves to `compile_pending`.
+- `data/raw/<semester>/<course>/...` raw files and sidecars (`*.meta.json`)
+- `data/wiki/sources/...` compiled source notes
+- `data/wiki/concepts/...` concept notes
+- `data/wiki/authors/...` author notes
+- `data/wiki/courses/...` course notes
+- `data/qa/answered_questions/...` answered QA artifacts with evidence
+- `data/qa/open_questions/...` unresolved questions extracted from source notes
+- `data/graph/atlas_graph.json` generated graph nodes/edges
 
-Important: **raw save is independent from parse or compile**.
+## Module responsibilities
 
-## Compilation flow
+- `kb_core/models.py`
+  - status enums
+  - extraction result schema
+  - metadata schema validation
+  - compilation payload schema
+- `kb_core/storage.py`
+  - create required directories
+  - save raw files
+  - create and read metadata sidecars
+  - maintain status transitions
+- `kb_core/extraction.py`
+  - extract text from `.pdf`, `.txt`, `.md`
+  - return structured diagnostics
+  - classify failures: unsupported, encrypted, parse_error, empty
+- `kb_core/compiler.py`
+  - explicit compilation stages
+  - fallback behavior when LLM is unavailable/invalid
+  - write canonical source markdown
+  - rebuild concept/author/course pages
+- `kb_core/graph_index.py`
+  - derive graph nodes/edges from markdown notes
+  - write `atlas_graph.json`
+- `kb_core/qa.py`
+  - deterministic weighted retrieval
+  - optional LLM answer generation
+  - persist answers with provenance
+- `kb_core/lint.py`
+  - detect missing frontmatter, failed raw docs, orphan concepts, duplicates
 
-`compile_raw_document()` stages:
+## Ingestion lifecycle
 
-1. Set status to `compiling`.
-2. Run extraction with `extract_text()`.
-3. If extraction fails (`encrypted`, `parse_error`, `empty`, `unsupported`) set `parse_failed` and stop gracefully.
-4. Build source payload for LLM or fallback.
-5. Validate LLM JSON into `CompiledSourcePayload`.
-6. Write source note markdown.
-7. Persist open questions.
-8. Update metadata status to `compiled` (or `compile_failed` if note write crashes).
-
-## Status model
-
-`DocumentStatus` values:
-
+Document statuses:
 - `saved_raw`
 - `compile_pending`
 - `compiling`
@@ -44,18 +56,25 @@ Important: **raw save is independent from parse or compile**.
 - `parse_failed`
 - `compile_failed`
 
-## Retrieval model
+Raw file save and parse/compile are independent. A parse failure cannot block raw persistence.
 
-`retrieve_notes()` uses deterministic weighted lexical ranking:
+## Retrieval design
 
-- normalized (case + accents)
-- weighted fields (`title`, `concepts`, `authors`, `summary`, `body`)
-- TF-IDF-like scoring
+Field-weighted lexical ranking (title, concepts, authors, summary, body), with accent/case normalization and TF-IDF-like weighting for deterministic behavior.
 
-This keeps retrieval local and inspectable while improving over plain token overlap.
+## Notion export
 
-## Extension points
+Notion is optional and downstream only. Markdown remains source of truth.
 
-- OCR plugin can be added after `ExtractionStatus.EMPTY` for scanned PDFs.
-- Metadata schema can be extended in `RawDocumentMetadata`.
-- Additional exporters can follow `notion_sync.py` pattern.
+## Known limitations
+
+- No OCR yet for scanned PDFs.
+- LLM JSON output is schema-validated, but low-context sources still produce shallow notes.
+- Graph rendering depends on `streamlit-agraph` for interactive selection.
+
+## Future extension points
+
+- OCR plugin on `ExtractionStatus.EMPTY`
+- richer course/synthesis notes
+- optional embeddings layer alongside deterministic retrieval
+- MCP server over markdown + graph artifacts

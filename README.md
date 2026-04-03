@@ -1,16 +1,15 @@
-# Sociología Knowledge Base
+# Programacionscidat — Sociology Atlas v1
 
-This repository is now **single-purpose**: a sociology-focused knowledge-base product for ingesting class material, compiling structured notes, and answering questions over the generated wiki.
+A focused, markdown-first sociology knowledge-base system.
 
-Legacy coursework and unrelated artifacts were removed to keep the repository intentional and domain-focused.
+This repository is intentionally single-purpose: ingest sociology source material, compile canonical markdown notes, generate a knowledge graph, and support inspectable retrieval/Q&A.
 
-## Project layout
+## Product identity
 
-- `sociology_kb_starter/` — core sociology KB application and pipeline
-  - `app.py` — Streamlit app
-  - `kb_core/` — ingestion, extraction, compilation, retrieval, lint, storage
-  - `tests/` — automated tests
-  - `docs/` — architecture and Notion schema docs
+- **Domain:** sociology only
+- **Canonical layer:** markdown (`data/wiki/...`)
+- **Raw evidence layer:** uploaded source files (`data/raw/...`)
+- **Derived layer:** graph/index artifacts (`data/graph/...`)
 
 ## Quick start
 
@@ -22,14 +21,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Testing
+## Tests
 
 ```bash
 cd sociology_kb_starter
 pytest
 ```
 
-## Notes on repository name
-
-I cannot rename the remote GitHub repository from this local workspace.
-If you want the repo name changed to `sociologia`/`sociología`, rename it in GitHub repository settings.
+For architecture and flow details, see `sociology_kb_starter/docs/architecture.md`.

@@ -54,9 +54,9 @@ class AtlasNode:
 @st.cache_data(show_spinner=False)
 def _stats() -> dict[str, int]:
     raw_docs = list_raw_documents()
-    course_notes = list_files_recursive(SETTINGS.by_course_dir, suffixes=(".md",))
-    concept_notes = list_files_recursive(SETTINGS.by_concept_dir, suffixes=(".md",))
-    author_notes = list_files_recursive(SETTINGS.by_author_dir, suffixes=(".md",))
+    course_notes = list_files_recursive(SETTINGS.sources_dir, suffixes=(".md",))
+    concept_notes = list_files_recursive(SETTINGS.concepts_dir, suffixes=(".md",))
+    author_notes = list_files_recursive(SETTINGS.authors_dir, suffixes=(".md",))
     answered = list_files_recursive(SETTINGS.answered_questions_dir, suffixes=(".md",))
     return {
         "raw_docs": len(raw_docs),
@@ -97,7 +97,7 @@ def _extract_section(body: str, start_marker: str, end_marker: str) -> str:
 @st.cache_data(show_spinner=False)
 def _load_source_notes() -> list[dict]:
     notes: list[dict] = []
-    for path in list_files_recursive(SETTINGS.by_course_dir, suffixes=(".md",)):
+    for path in list_files_recursive(SETTINGS.sources_dir, suffixes=(".md",)):
         frontmatter, body = load_markdown_file(path)
         notes.append({"path": path, "frontmatter": frontmatter, "body": body})
     return notes
@@ -115,8 +115,8 @@ def _load_entity_notes(base_dir) -> list[dict]:
 @st.cache_data(show_spinner=False)
 def _build_graph_payload() -> dict:
     source_notes = _load_source_notes()
-    concept_notes = _load_entity_notes(SETTINGS.by_concept_dir)
-    author_notes = _load_entity_notes(SETTINGS.by_author_dir)
+    concept_notes = _load_entity_notes(SETTINGS.concepts_dir)
+    author_notes = _load_entity_notes(SETTINGS.authors_dir)
 
     nodes: dict[str, AtlasNode] = {}
     edges: set[tuple[str, str, str]] = set()

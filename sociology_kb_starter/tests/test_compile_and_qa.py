@@ -23,7 +23,7 @@ def test_compile_fallback_and_note_written(kb_tmp) -> None:
     metadata = read_metadata(raw_path)
     assert metadata.status == DocumentStatus.COMPILED
 
-    notes = list_files_recursive(SETTINGS.by_course_dir, suffixes=(".md",))
+    notes = list_files_recursive(SETTINGS.sources_dir, suffixes=(".md",))
     assert notes, "expected at least one compiled note"
     frontmatter, body = load_markdown_file(notes[0])
     assert frontmatter["note_type"] == "source"

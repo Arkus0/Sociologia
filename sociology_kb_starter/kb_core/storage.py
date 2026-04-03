@@ -13,10 +13,12 @@ from kb_core.utils import list_files_recursive, read_json, save_markdown_file, s
 
 REQUIRED_DIRS = [
     SETTINGS.raw_dir,
-    SETTINGS.by_course_dir,
-    SETTINGS.by_concept_dir,
-    SETTINGS.by_author_dir,
+    SETTINGS.sources_dir,
+    SETTINGS.concepts_dir,
+    SETTINGS.authors_dir,
+    SETTINGS.courses_dir,
     SETTINGS.syntheses_dir,
+    SETTINGS.graph_dir,
     SETTINGS.answered_questions_dir,
     SETTINGS.open_questions_dir,
 ]
