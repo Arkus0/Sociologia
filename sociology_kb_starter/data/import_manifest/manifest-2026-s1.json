@@ -1,0 +1,112 @@
+[
+  {
+    "source_filename": "giddens2.pdf",
+    "target_path": "raw/2026-s1/teoria-sociologica/giddens2.pdf",
+    "semester": "2026-S1",
+    "course": "teoria-sociologica",
+    "title_hint": "Diferenciación social y división del trabajo",
+    "authors": [
+      "Anthony Giddens",
+      "Karl Marx",
+      "Max Weber",
+      "Émile Durkheim"
+    ],
+    "concepts": [
+      "diferenciación social",
+      "división del trabajo",
+      "alienación",
+      "anomia",
+      "modernidad",
+      "solidaridad",
+      "estado de naturaleza"
+    ]
+  },
+  {
+    "source_filename": "introsociologia2.pdf",
+    "target_path": "raw/2026-s1/teoria-sociologica/introsociologia2.pdf",
+    "semester": "2026-S1",
+    "course": "teoria-sociologica",
+    "title_hint": "El pensamiento sociológico (I). Los fundadores",
+    "authors": [
+      "Antoni Estradé i Saltó",
+      "Auguste Comte",
+      "Karl Marx",
+      "Émile Durkheim",
+      "Max Weber"
+    ],
+    "concepts": [
+      "modernidad",
+      "positivismo",
+      "materialismo histórico",
+      "alienación",
+      "solidaridad",
+      "anomia",
+      "racionalización",
+      "ciencia social"
+    ]
+  },
+  {
+    "source_filename": "hamilton.pdf",
+    "target_path": "raw/2026-s1/teoria-sociologica/hamilton.pdf",
+    "semester": "2026-S1",
+    "course": "teoria-sociologica",
+    "title_hint": "The Enlightenment and the Birth of Social Science",
+    "authors": [
+      "Peter Hamilton",
+      "Montesquieu",
+      "David Hume",
+      "Adam Ferguson",
+      "Saint-Simon",
+      "Auguste Comte"
+    ],
+    "concepts": [
+      "Ilustración",
+      "modernidad",
+      "ciencia social",
+      "razón",
+      "progreso",
+      "sociedad civil",
+      "revolución",
+      "tradición"
+    ]
+  },
+  {
+    "source_filename": "CUADERNO_METODOLOGICO_026_copia.pdf",
+    "target_path": "raw/2026-s1/metodologia/CUADERNO_METODOLOGICO_026_copia.pdf",
+    "semester": "2026-S1",
+    "course": "metodologia",
+    "title_hint": "Cuestionarios",
+    "authors": [
+      "María José Azofra"
+    ],
+    "concepts": [
+      "cuestionario",
+      "preguntas",
+      "sesgo",
+      "precodificación",
+      "entrevista",
+      "encuesta",
+      "trabajo de campo"
+    ]
+  },
+  {
+    "source_filename": "metodologia3",
+    "target_path": "raw/2026-s1/metodologia/metodologia3.pdf",
+    "semester": "2026-S1",
+    "course": "metodologia",
+    "title_hint": "La investigación cuantitativa",
+    "authors": [
+      "Rosa Borge Bravo",
+      "Albert Padró-Solanet i Grau"
+    ],
+    "concepts": [
+      "investigación cuantitativa",
+      "encuesta",
+      "muestra",
+      "muestreo",
+      "experimento",
+      "análisis estadístico",
+      "variables"
+    ]
+  }
+]
