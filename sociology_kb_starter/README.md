@@ -1,85 +1,89 @@
 # Sociology Knowledge Base Starter
 
-A practical starter project for building an incremental sociology wiki by semester using:
+Production-minded, markdown-first sociology knowledge base with Streamlit console.
 
-- **Streamlit** as the operating console
-- **Markdown** as the long-term source of truth
-- **Optional LLM providers** (OpenAI or Anthropic) for source compilation, concept synthesis, and Q&A
-- **Optional Notion sync** as a dashboard/export layer, not the core database
+## What this now prioritizes
 
-## What this project already includes
-
-- A working Streamlit app with tabs for Dashboard, Ingest, Compile, Explore, Ask, Lint, and Notion
-- A file-based wiki structure with course notes, concept notes, author notes, syntheses, and open questions
-- Raw document ingestion for `.md`, `.txt`, and `.pdf`
-- Sidecar metadata files so each source keeps semester/course provenance
-- A compiler that turns raw sources into structured markdown notes with YAML frontmatter
-- Incremental concept and author indexes
-- Basic local retrieval + optional LLM-grounded answers with note citations
-- Health checks for missing metadata, missing source anchors, orphan concepts, and duplicate titles
-- A sample bootstrap script with sociology content
-
-## Why this structure
-
-The design treats **Markdown as the durable knowledge layer**. Notion is optional and useful for coordination, but the wiki itself is stored in versionable plain text so you can audit, diff, and evolve it across the full degree.
+- Low-friction ingestion (upload now, compile now or later)
+- Strict separation between **raw storage** and **compilation/parsing**
+- Defensive PDF extraction with structured diagnostics
+- Explicit metadata schema validation
+- Deterministic retrieval with weighted ranking
+- Testable compilation pipeline and status tracking
 
 ## Quick start
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate   # On Windows: .venv\Scripts\activate
+source .venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env
-python scripts/bootstrap_sample.py
 streamlit run app.py
 ```
 
 ## Environment variables
 
-See `.env.example`.
+- `KB_ROOT` (optional, defaults to `sociology_kb_starter/data`)
+- `LLM_PROVIDER` (`openai` or `anthropic`)
+- `OPENAI_API_KEY`, `OPENAI_MODEL`
+- `ANTHROPIC_API_KEY`, `ANTHROPIC_MODEL`
+- `NOTION_TOKEN`, `NOTION_DATABASE_ID`
 
-You can run the project with **no API keys**. In that case it will still ingest files, compile fallback notes, build indexes, run lint checks, and produce retrieval packs. If you add an API key, the app becomes much more useful.
+The app works without API keys using fallback compilation and fallback Q&A.
 
-Supported providers:
+## Ingestion and metadata
 
-- `OPENAI_API_KEY` + `LLM_PROVIDER=openai`
-- `ANTHROPIC_API_KEY` + `LLM_PROVIDER=anthropic`
+Primary flow:
 
-## Recommended usage during a semester
+1. Upload files (`pdf`, `md`, `txt`)
+2. Optionally set semester/course
+3. Save raw sources
+4. Compile immediately or defer to Compile tab
 
-1. Upload raw files into `data/raw/<semester>/<course>/`
-2. Add or review metadata during upload in the Streamlit UI
-3. Compile raw sources into source notes
-4. Rebuild concept and author notes incrementally
-5. Ask questions against the wiki
-6. Review lint issues every week
-7. Export selected notes to Notion if useful
+Each raw file gets a sidecar `*.meta.json` with validated metadata and status.
 
-## Important design rule
+## Compilation model
 
-This system is only worth using if **traceability stays mandatory**.
+Pipeline stages:
 
-Each note should preserve:
+1. Load metadata and set status `compiling`
+2. Extract text (resilient extraction result object)
+3. Build compilation payload
+4. LLM compile or fallback compile
+5. Validate output schema
+6. Write markdown source note
+7. Persist open questions
+8. Set final status (`compiled`, `parse_failed`, or `compile_failed`)
 
-- source path
-- semester
-- course
-- concepts and authors involved
-- whether the note is reviewed or not
-- source anchors or citations whenever possible
+## QA and retrieval
 
-Without that, the wiki becomes polished nonsense.
+- Local retrieval across wiki markdown
+- Normalized tokenization (case + accent normalization)
+- Weighted ranking by fields (`title`, `concepts`, `authors`, `summary`, `body`)
+- Saved Q&A outputs with evidence paths and scores
 
-## Suggested next steps after this starter
+## Notion export
 
-- Add Git version control and commit after each lecture pack
-- Add image extraction and OCR only if you truly need it
-- Add better semantic search later, not first
-- Add a proper graph view once your concept coverage is stable
-- Add assignment-specific output templates for PECs, essays, oral exams, and flashcards
+Notion remains optional and one-way from markdown notes.
+See `docs/notion_schema.md`.
 
-## Notion position
+## Lint and health checks
 
-Use Notion as a planning and dashboard layer, not as the final knowledge store. This repo is the knowledge store.
+Lint checks include:
 
-See `docs/notion_schema.md` for a recommended database design.
+- missing required frontmatter
+- missing source anchor section
+- duplicate titles
+- orphan concepts
+- raw files that previously failed parse/compile
+
+## Tests
+
+```bash
+pytest
+```
+
+Test suite covers metadata/schema, sidecar generation, extraction failure handling, compile fallback, note writing, and retrieval ranking.
+
+## Architecture
+
+See `docs/architecture.md` for module responsibilities and extension points.
