@@ -1,11 +1,13 @@
 from __future__ import annotations
 
+from datetime import date
 from pathlib import Path
 
 from kb_core.config import SETTINGS
 from kb_core.storage import ensure_project_dirs, write_note
 from kb_core.wiki_renderer import (
     extract_toc,
+    get_recent_articles,
     list_articles_by_type,
     load_article,
     render_breadcrumbs,
@@ -144,3 +146,35 @@ def test_renderer_does_not_modify_wiki_content(kb_tmp: Path):
 
     after = target.read_text(encoding="utf-8")
     assert after == before
+
+
+def test_get_recent_articles_accepts_mixed_timestamp_types(kb_tmp: Path):
+    ensure_project_dirs()
+
+    write_note(
+        SETTINGS.concepts_dir / "dated-concept.md",
+        {
+            "id": "dated-concept",
+            "title": "Dated Concept",
+            "note_type": "concept",
+            "updated_at": date(2026, 4, 5),
+        },
+        "# Dated Concept\n\n## Definition\nBody",
+    )
+    note_dir = SETTINGS.sources_dir / "2026-s1" / "teoria"
+    note_dir.mkdir(parents=True, exist_ok=True)
+    write_note(
+        note_dir / "timed-source.md",
+        {
+            "id": "timed-source",
+            "title": "Timed Source",
+            "note_type": "source",
+            "compiled_at": "2026-04-05T18:00:00+00:00",
+        },
+        "# Timed Source\n\n## Summary\nBody",
+    )
+
+    recent = get_recent_articles(limit=5)
+    recent_ids = [item["id"] for item in recent]
+    assert "dated-concept" in recent_ids
+    assert "timed-source" in recent_ids

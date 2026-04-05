@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import date, datetime, timezone
 import html
 from pathlib import Path
 import re
@@ -228,22 +228,43 @@ def _extract_preview(body: str) -> str:
     return ""
 
 
+def _normalize_timestamp(value: object) -> datetime | None:
+    if isinstance(value, datetime):
+        dt = value
+    elif isinstance(value, date):
+        dt = datetime(value.year, value.month, value.day)
+    else:
+        text = str(value or "").strip()
+        if not text:
+            return None
+        text = text.replace("Z", "+00:00")
+        try:
+            dt = datetime.fromisoformat(text)
+        except ValueError:
+            dt = None
+            for fmt in ("%Y-%m-%d", "%Y/%m/%d"):
+                try:
+                    dt = datetime.strptime(text, fmt)
+                    break
+                except ValueError:
+                    continue
+            if dt is None:
+                return None
+
+    if dt.tzinfo is None:
+        return dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc)
+
+
 def _article_timestamp(path: Path, frontmatter: dict) -> datetime:
     for key in ("updated_at", "compiled_at"):
         value = frontmatter.get(key)
         if not value:
             continue
-        text = str(value).strip().replace("Z", "+00:00")
-        try:
-            return datetime.fromisoformat(text)
-        except ValueError:
-            pass
-        for fmt in ("%Y-%m-%d", "%Y/%m/%d"):
-            try:
-                return datetime.strptime(text, fmt)
-            except ValueError:
-                continue
-    return datetime.fromtimestamp(path.stat().st_mtime)
+        normalized = _normalize_timestamp(value)
+        if normalized is not None:
+            return normalized
+    return datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc)
 
 
 def list_articles_by_type(note_type: str) -> list[dict]:
