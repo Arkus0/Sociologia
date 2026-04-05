@@ -51,7 +51,7 @@ def test_render_markdown_html_supports_article_elements():
     assert "<ul>" in html
     assert "<blockquote>" in html
     assert "<table>" in html
-    assert 'href="?article=anomia&type=concept"' in html
+    assert 'href="?article=anomia&amp;type=concept"' in html
 
 
 def test_render_toc_html():

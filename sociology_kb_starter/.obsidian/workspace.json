@@ -180,6 +180,9 @@
   },
   "active": "bff3d226e44dfa41",
   "lastOpenFiles": [
+    "tests/__pycache__/test_wiki_renderer.cpython-314.pyc",
+    "__pycache__/app.cpython-314.pyc",
+    "README.md",
     "tests/test_wiki_renderer.py",
     "app.py",
     "kb_core/wiki_renderer.py",
@@ -212,10 +215,7 @@
     "data/wiki/authors/francesc-nunez-mosteo.md",
     "data/wiki/authors/esther-fernandez-mostaza.md",
     "data/wiki/authors/jose-ortega-y-gasset.md",
-    "data/wiki/authors/sigmund-freud.md",
     "scripts/_extracted/metod_modulo2.txt",
-    "scripts/_extracted/intro_modulo1.txt",
-    "scripts/_extracted/metod_modulo3.txt",
     "data/Sin título.canvas"
   ]
 }

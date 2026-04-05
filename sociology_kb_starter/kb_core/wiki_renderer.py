@@ -147,9 +147,9 @@ def render_breadcrumbs(note_type: str, title: str) -> str:
     return (
         '<nav class="wiki-breadcrumbs">'
         f'<a href="{_escape(build_url(view="home"))}">Jotapedia</a>'
-        '<span class="wiki-breadcrumbs__sep">›</span>'
+        '<span class="wiki-breadcrumbs__sep">&rsaquo;</span>'
         f'<a href="{_escape(build_url(view="category", type=note_type))}">{_escape(category)}</a>'
-        '<span class="wiki-breadcrumbs__sep">›</span>'
+        '<span class="wiki-breadcrumbs__sep">&rsaquo;</span>'
         f"<span>{_escape(title)}</span>"
         "</nav>"
     )
@@ -422,7 +422,7 @@ def render_search_results_html(query: str, results: list[dict]) -> str:
         rendered.append(
             '<article class="wiki-search-result">'
             f'<h2><a href="{_escape(build_url(article=item["id"], type=note_type))}">{_escape(item["title"])}</a></h2>'
-            f'<div class="wiki-search-result__meta">{_escape(" · ".join(meta_bits))}</div>'
+            f'<div class="wiki-search-result__meta">{_escape(" | ".join(meta_bits))}</div>'
             f'<p>{_escape(item.get("snippet", ""))}</p>'
             "</article>"
         )
@@ -454,7 +454,7 @@ def render_category_view_html(note_type: str, articles: list[dict], filter_query
             meta_bits.append(str(article["course"]))
         if article.get("semester"):
             meta_bits.append(str(article["semester"]))
-        meta = f'<div class="wiki-index__meta">{_escape(" · ".join(meta_bits))}</div>' if meta_bits else ""
+        meta = f'<div class="wiki-index__meta">{_escape(" | ".join(meta_bits))}</div>' if meta_bits else ""
         preview = f'<p>{_escape(article["preview"])}</p>' if article.get("preview") else ""
         items.append(
             '<article class="wiki-index__item">'
@@ -508,6 +508,8 @@ def render_home_html(counts: dict[str, int], recent_articles: list[dict]) -> str
             "</li>"
         )
 
+    recent_html = "".join(recent_items) or '<li class="wiki-muted">Todavia no hay articulos recientes.</li>'
+
     return (
         '<section class="wiki-home">'
         '<div class="wiki-home__hero">'
@@ -528,7 +530,7 @@ def render_home_html(counts: dict[str, int], recent_articles: list[dict]) -> str
         "</section>"
         '<section class="wiki-home__panel">'
         '<h2>Adiciones recientes</h2>'
-        f'<ul class="wiki-home__recent">{"".join(recent_items) or "<li class=\\"wiki-muted\\">Todavia no hay articulos recientes.</li>"}</ul>'
+        f'<ul class="wiki-home__recent">{recent_html}</ul>'
         "</section>"
         "</div>"
         "</section>"
@@ -559,6 +561,8 @@ def render_sidebar_html(counts: dict[str, int], recent_articles: list[dict], act
             "</li>"
         )
 
+    recent_links_html = "".join(recent_html) or '<li class="wiki-muted">Sin cambios recientes.</li>'
+
     return (
         '<aside class="jp-sidebar">'
         '<section class="jp-portlet">'
@@ -571,7 +575,7 @@ def render_sidebar_html(counts: dict[str, int], recent_articles: list[dict], act
         "</section>"
         '<section class="jp-portlet">'
         '<h2>Reciente</h2>'
-        f'<ul class="jp-recent-links">{"".join(recent_html) or "<li class=\\"wiki-muted\\">Sin cambios recientes.</li>"}</ul>'
+        f'<ul class="jp-recent-links">{recent_links_html}</ul>'
         "</section>"
         "</aside>"
     )

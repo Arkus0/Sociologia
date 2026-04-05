@@ -57,7 +57,7 @@ PDF/TXT/MD  →  Ingestión  →  Compilación LLM  →  Wiki (Obsidian)
 | `mcp_server.py` | 7 herramientas MCP registradas (17 total) |
 | `compiler.py` | Post-compile ahora también reconstruye embedding index (si hay API key OpenAI) |
 | `lint.py` | Nuevas reglas RAG-quality: detecta notas sin sección resumen/definición, cursos sin semestre |
-| `app.py` | Nueva pestaña **Wiki** (Wikipedia-style browser) junto a Atlas y Studio |
+| `app.py` | Jotapedia: wiki Streamlit pública con portada, búsqueda, categorías y artículos |
 
 ---
 
@@ -120,7 +120,7 @@ python -m pytest tests/ -v
 # 5. Iniciar MCP server
 python mcp_server.py
 
-# 6. Dashboard Streamlit (Atlas + Wiki + Studio)
+# 6. Jotapedia en Streamlit
 streamlit run app.py
 
 # 7. Reconstruir embeddings
@@ -203,7 +203,7 @@ Las 5 notas fuente del semestre 2026-S1 fueron recompiladas manualmente (provide
 3. **Obsidian**: Abrir `sociology_kb_starter/` como vault e instalar Marp Slides, Dataview, Canvas Watcher.
 4. **MCP en ChatGPT Desktop**: Ver sección 12 de `docs/obsidian_quickstart.md`.
 5. **Construir embeddings**: Ejecutar `python -c "from kb_core.embeddings import EmbeddingIndex; EmbeddingIndex().build()"` para activar búsqueda semántica (requiere `OPENAI_API_KEY`).
-6. **Wiki Streamlit**: Abrir `streamlit run app.py` → pestaña Wiki para navegar artículos estilo Wikipedia.
+6. **Jotapedia**: Abrir `streamlit run app.py` para navegar la wiki privada estilo Wikipedia.
 7. **Workflow reviewed** (futuro): Conectar el campo `reviewed: false` con filtros de búsqueda y herramienta MCP `kb_mark_reviewed`.
 
 ---
