@@ -45,15 +45,15 @@ Diversas tradiciones sociológicas han teorizado la curiosidad intelectual como 
 
 - **C. Wright Mills** vinculó la curiosidad con la [[imaginacion-sociologica]]: la capacidad de conectar biografía individual e historia colectiva. Sin curiosidad por las intersecciones entre lo privado y lo público, el sociólogo queda atrapado en la abstracción vacía o el empirismo ciego.
 
-- **Georg Simmel** exploró la curiosidad del extranjero (*Der Fremde*, 1908), cuya posición simultáneamente cercana y distante le otorga una objetividad particular. La mirada curiosa del forastero no está atada a las lealtades del grupo y puede percibir lo que los insiders naturalizan.
+- **Georg Simmel** exploró la curiosidad del extranjero (*Der Fremde*, 1908), cuya posición simultáneamente cercana y distante le permite percibir lo que los insiders naturalizan.
 
-- **Max Weber** teorizó la ciencia como vocación (*Wissenschaft als Beruf*, 1919), subrayando que la pasión intelectual — la curiosidad disciplinada por el método — es condición necesaria del trabajo científico. Sin «entusiasmo interior», los hallazgos carecen de relevancia.
+- **Max Weber** teorizó la ciencia como vocación (*Wissenschaft als Beruf*, 1919): la pasión intelectual, disciplinada por el método, es condición necesaria del trabajo científico.
 
-- **Robert K. Merton** acuñó el concepto de *serendipity pattern*: el encuentro fortuito con un hallazgo inesperado que solo produce conocimiento cuando se combina con una mente preparada. La curiosidad estructura la atención del investigador para que pueda reconocer lo significativo en lo accidental.
+- **Robert K. Merton** acuñó el concepto de *serendipity pattern*: el hallazgo inesperado solo produce conocimiento cuando se combina con una mente preparada. La curiosidad estructura la atención para reconocer lo significativo en lo accidental.
 
-- **Karl Popper** reformuló la curiosidad como actitud crítica dentro del [[racionalismo-critico]]: no se trata solo de desear saber, sino de someter cada respuesta a intentos rigurosos de refutación. La curiosidad popperiana es conjetura más crítica.
+- **Karl Popper** reformuló la curiosidad como actitud crítica dentro del [[racionalismo-critico]]: no basta desear saber; cada respuesta debe someterse a intentos rigurosos de refutación.
 
-- **Norbert Elias** sostuvo que el distanciamiento emocional — la capacidad de suspender las pasiones inmediatas — constituye la precondición del conocimiento sociológico. La curiosidad intelectual requiere, paradójicamente, cierta frialdad analítica frente al objeto de estudio.
+- **Norbert Elias** sostuvo que el distanciamiento emocional constituye la precondición del conocimiento sociológico. La curiosidad intelectual requiere, paradójicamente, cierta frialdad analítica.
 
 ## Relación con otros conceptos
 
@@ -67,7 +67,7 @@ La sociología crítica, por su parte, ha señalado que la curiosidad no es pol�
 
 ## Vigencia contemporánea
 
-En el contexto actual, la curiosidad intelectual enfrenta desafíos inéditos. La sobreabundancia informativa digital amenaza con sustituir la indagación profunda por el consumo superficial de datos. Simultáneamente, el movimiento de ciencia abierta (*open science*) y la interdisciplinariedad contemporánea revitalizan la curiosidad como motor de innovación. La investigación psicológica reciente distingue entre curiosidad epistémica — deseo de conocimiento profundo — y curiosidad perceptual — atracción por la novedad inmediata —, distinción que resuena con la diferencia sociológica entre comprender y meramente describir. La formación universitaria en sociología sigue dependiendo de la capacidad de cultivar en los estudiantes esa «mirada curiosa» que Berger consideraba irreemplazable.
+La sobreabundancia informativa digital amenaza con sustituir la indagación profunda por el consumo superficial de datos. Simultáneamente, el movimiento de ciencia abierta (*open science*) y la interdisciplinariedad revitalizan la curiosidad como motor de innovación. La psicología reciente distingue entre curiosidad epistémica — deseo de conocimiento profundo — y curiosidad perceptual — atracción por la novedad inmediata —, distinción que resuena con la diferencia sociológica entre comprender y meramente describir. La formación en sociología sigue dependiendo de cultivar esa «mirada curiosa» que Berger consideraba irreemplazable.
 
 ## Ejemplo empírico
 

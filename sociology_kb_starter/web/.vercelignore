@@ -1,0 +1,6 @@
+.next
+out
+.generated
+node_modules
+.env
+.env.*

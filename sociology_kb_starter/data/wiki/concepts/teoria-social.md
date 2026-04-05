@@ -28,13 +28,13 @@ updated_at: "2026-04-05"
 
 ## Definición
 
-La **teoría social** designa el conjunto de marcos analíticos y paradigmas sistemáticos destinados a comprender, explicar e interpretar los fenómenos sociales. En sentido amplio, la teoría social trasciende los límites de la [[sociologia]] como disciplina particular: incorpora aportes de la filosofía política, la economía, la historia y la antropología. Se distingue así de la *teoría sociológica* en sentido estricto, que se circunscribe a los esquemas explicativos desarrollados dentro de la tradición disciplinar inaugurada por Comte y consolidada por Durkheim, Weber y Marx. La teoría social constituye, en palabras de Callinicos (1999), un campo interdisciplinario de reflexión sobre la naturaleza del orden social, la acción humana y las transformaciones históricas.
+La **teoría social** designa el conjunto de marcos analíticos y paradigmas sistemáticos destinados a comprender e interpretar los fenómenos sociales. Trasciende los límites de la [[sociologia]] como disciplina particular: incorpora aportes de la filosofía política, la economía, la historia y la antropología. Se distingue así de la *teoría sociológica* en sentido estricto, circunscrita a los esquemas explicativos de la tradición inaugurada por Comte y consolidada por Durkheim, Weber y Marx. Constituye, en palabras de Callinicos (1999), un campo interdisciplinario de reflexión sobre el orden social, la acción humana y las transformaciones históricas.
 
-Desde la [[perspectiva-sociologica]], la teoría social provee los instrumentos conceptuales para formular preguntas fundamentales: ¿cómo es posible el orden social?, ¿qué fuerzas impulsan el cambio?, ¿cuál es la relación entre estructura y agencia? Su desarrollo se vincula estrechamente con la [[imaginacion-sociologica]], en tanto capacidad de conectar biografía e historia, vida privada y procesos colectivos.
+Desde la [[perspectiva-sociologica]], la teoría social provee instrumentos para formular preguntas fundamentales: ¿cómo es posible el orden social?, ¿qué fuerzas impulsan el cambio?, ¿cuál es la relación entre estructura y agencia? Su desarrollo se vincula estrechamente con la [[imaginacion-sociologica]].
 
 ## Origen
 
-Los antecedentes remotos de la teoría social se encuentran en la filosofía política antigua — Platón, Aristóteles — y en la reflexión medieval de Ibn Jaldún, quien en su *Muqaddima* (siglo XIV) formuló una proto-sociología de la cohesión grupal (*asabiyya*). Sin embargo, la teoría social moderna emerge con la Ilustración europea. Thomas Hobbes, John Locke y Jean-Jacques Rousseau elaboraron las teorías del contrato social, planteando el problema del fundamento legítimo del orden político y anticipando la distinción entre Estado y sociedad civil. Montesquieu, en *El espíritu de las leyes*, propuso que las instituciones sociales obedecen a regularidades explicables, sentando bases para el análisis comparativo. Adam Smith, por su parte, articuló una teoría de la regulación social a través del mercado.
+Los antecedentes remotos se encuentran en la filosofía política antigua — Platón, Aristóteles — y en Ibn Jaldún, quien en su *Muqaddima* (siglo XIV) formuló una proto-sociología de la cohesión grupal. La teoría social moderna emerge con la Ilustración: Hobbes, Locke y Rousseau elaboraron las teorías del contrato social, planteando el fundamento del orden político. Montesquieu propuso que las instituciones obedecen a regularidades explicables, y Adam Smith articuló una teoría de regulación social a través del mercado.
 
 ## Desarrollo teórico
 
@@ -44,17 +44,17 @@ Auguste Comte acuñó el término *sociología* y formuló el programa [[positiv
 
 ### Teoría social moderna del siglo XX
 
-Talcott Parsons elaboró el funcionalismo estructural como gran síntesis teórica, aspirando a un esquema conceptual general capaz de integrar la acción individual y el sistema social. Su proyecto fue criticado tanto por su conservadurismo implícito como por su nivel de abstracción. Robert K. Merton propuso como alternativa las [[teorias-de-alcance-medio]]: teorías de alcance limitado, empíricamente verificables, que mediaran entre las hipótesis de trabajo y las grandes especulaciones teóricas. Esta distinción entre teoría de alcance medio y gran teoría sigue siendo un eje organizador del debate.
+Talcott Parsons elaboró el funcionalismo estructural como gran síntesis teórica, aspirando a integrar acción individual y sistema social. Robert K. Merton propuso como alternativa las [[teorias-de-alcance-medio]]: teorías empíricamente verificables que mediaran entre hipótesis de trabajo y grandes especulaciones. Esta distinción sigue siendo un eje organizador del debate.
 
-Jürgen Habermas, heredero de la Escuela de Fráncfort, desarrolló la teoría de la acción comunicativa, integrando la tradición crítica marxista con la pragmática del lenguaje. Pierre Bourdieu propuso una economía general de las prácticas articulada en torno a los conceptos de campo, habitus y capital (económico, cultural, social, simbólico). Anthony Giddens formuló la teoría de la estructuración, buscando superar el dualismo entre estructura y agencia mediante la noción de dualidad de la estructura. Niklas Luhmann construyó una teoría de sistemas sociales autopoiéticos, radicalmente funcionalista y de alcance universal.
+Jürgen Habermas desarrolló la teoría de la acción comunicativa, integrando la tradición crítica con la pragmática del lenguaje. Pierre Bourdieu propuso los conceptos de campo, habitus y capital. Anthony Giddens formuló la teoría de la estructuración, superando el dualismo estructura-agencia. Niklas Luhmann construyó una teoría de sistemas sociales autopoiéticos de alcance universal.
 
 ### La tradición analítica y liberal
 
-James Coleman y Raymond Boudon representan la corriente de la elección racional y la sociología analítica, que explica los fenómenos sociales a partir de mecanismos y decisiones individuales. Karl Popper, desde la filosofía de la ciencia, criticó el historicismo de las grandes narrativas sociales y defendió la *ingeniería social gradual* (*piecemeal social engineering*) como alternativa a la planificación utópica. Friedrich Hayek elaboró la noción de orden espontáneo, argumentando que las instituciones sociales más complejas son producto de la acción humana pero no del diseño deliberado, una contribución relevante para la teoría social desde la tradición liberal. Robert Nisbet, en *La tradición sociológica*, reinterpretó las categorías fundacionales de la disciplina — comunidad, autoridad, estatus, lo sagrado, alienación — como respuestas intelectuales a la doble revolución francesa e industrial.
+James Coleman y Raymond Boudon representan la elección racional y la sociología analítica, que explica fenómenos sociales a partir de mecanismos individuales. Karl Popper criticó el historicismo de las grandes narrativas y defendió la *ingeniería social gradual*. Friedrich Hayek elaboró la noción de orden espontáneo, argumentando que las instituciones complejas son producto de la acción humana pero no del diseño deliberado. Robert Nisbet, en *La tradición sociológica*, reinterpretó las categorías fundacionales — comunidad, autoridad, estatus, lo sagrado, alienación — como respuestas a la doble revolución francesa e industrial.
 
 ### Posmodernidad y giros contemporáneos
 
-Michel Foucault desplazó el análisis hacia las relaciones de poder-saber y las formas de subjetivación. Jean-François Lyotard diagnosticó la crisis de los grandes relatos legitimadores. Jean Baudrillard teorizó la sociedad del simulacro y la hiperrealidad mediática. Estas perspectivas posmodernas cuestionaron los supuestos de progreso, racionalidad y totalidad que habían sustentado la teoría social clásica y moderna.
+Michel Foucault desplazó el análisis hacia las relaciones de poder-saber. Jean-François Lyotard diagnosticó la crisis de los grandes relatos legitimadores. Jean Baudrillard teorizó la sociedad del simulacro. Estas perspectivas cuestionaron los supuestos de progreso y racionalidad de la teoría social clásica y moderna.
 
 ## Relación con otros conceptos
 
@@ -70,7 +70,7 @@ En el siglo XXI, la globalización, las transformaciones digitales y las desigua
 
 ## Ejemplo empírico
 
-El estudio de Durkheim sobre el suicidio (1897) constituye un caso paradigmático de aplicación de teoría social: mediante datos estadísticos, demostró que las tasas de suicidio varían según el grado de integración social de los grupos (confesión religiosa, estado civil, cohesión familiar), estableciendo que un fenómeno aparentemente individual obedece a causas sociales — los [[hecho-social|hechos sociales]] — y validando empíricamente la autonomía explicativa de la sociología.
+El estudio de Durkheim sobre el suicidio (1897) constituye un caso paradigmático: mediante datos estadísticos, demostró que las tasas de suicidio varían según el grado de integración social de los grupos, estableciendo que un fenómeno aparentemente individual obedece a causas sociales — los [[hecho-social|hechos sociales]] — y validando la autonomía explicativa de la sociología.
 
 ## Véase también
 

@@ -1,0 +1,32 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "npm run wiki:generate",
+    "dev": "next dev",
+    "prebuild": "npm run wiki:generate",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "tsx --test src/lib/wiki-build.test.ts src/lib/wiki-routes.test.ts",
+    "wiki:generate": "tsx scripts/generate-wiki.ts"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.1",
+    "markdown-it-anchor": "^9.2.0",
+    "next": "16.2.2",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5"
+  }
+}
