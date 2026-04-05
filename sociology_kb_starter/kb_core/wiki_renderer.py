@@ -7,6 +7,7 @@ import re
 from urllib.parse import urlencode
 
 import markdown
+import yaml
 
 from kb_core.config import SETTINGS
 from kb_core.utils import WIKILINK_RE, list_files_recursive, load_markdown_file, slugify
@@ -43,6 +44,15 @@ def _type_dirs() -> dict[str, Path]:
         "research": SETTINGS.research_dir,
         "slide": SETTINGS.slides_dir,
     }
+
+
+def _paths_for_type(note_type: str) -> list[Path]:
+    if note_type == "source":
+        return list_files_recursive(SETTINGS.sources_dir, suffixes=(".md",))
+    base_dir = _type_dirs().get(note_type)
+    if base_dir is None:
+        return []
+    return list_files_recursive(base_dir, suffixes=(".md",))
 
 
 def build_url(**params: str | None) -> str:
@@ -228,6 +238,40 @@ def _extract_preview(body: str) -> str:
     return ""
 
 
+def _read_frontmatter_only(path: Path) -> dict:
+    frontmatter_lines: list[str] = []
+    with path.open("r", encoding="utf-8") as handle:
+        first_line = handle.readline()
+        if first_line.strip() != "---":
+            return {}
+        for line in handle:
+            if line.strip() == "---":
+                break
+            frontmatter_lines.append(line)
+    return yaml.safe_load("".join(frontmatter_lines)) or {}
+
+
+def _extract_preview_from_path(path: Path) -> str:
+    with path.open("r", encoding="utf-8") as handle:
+        in_frontmatter = False
+        first_line = True
+        for line in handle:
+            stripped = line.strip()
+            if first_line and stripped == "---":
+                in_frontmatter = True
+                first_line = False
+                continue
+            first_line = False
+            if in_frontmatter:
+                if stripped == "---":
+                    in_frontmatter = False
+                continue
+            if not stripped or stripped.startswith(("#", "|", "-", ">")):
+                continue
+            return stripped[:220]
+    return ""
+
+
 def _normalize_timestamp(value: object) -> datetime | None:
     if isinstance(value, datetime):
         dt = value
@@ -267,46 +311,51 @@ def _article_timestamp(path: Path, frontmatter: dict) -> datetime:
     return datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc)
 
 
-def list_articles_by_type(note_type: str) -> list[dict]:
-    dirs = _type_dirs()
-    base_dir = dirs.get(note_type)
-    if note_type == "source":
-        base_dir = SETTINGS.sources_dir
-    if base_dir is None:
-        return []
+def _build_article_record(path: Path, default_type: str, include_preview: bool = False) -> dict:
+    frontmatter = _read_frontmatter_only(path)
+    record = {
+        "id": frontmatter.get("id", path.stem),
+        "title": frontmatter.get("title", path.stem),
+        "note_type": frontmatter.get("note_type", default_type),
+        "path": str(path.relative_to(SETTINGS.kb_root)),
+        "preview": _extract_preview_from_path(path) if include_preview else "",
+        "course": frontmatter.get("course", ""),
+        "semester": frontmatter.get("semester", ""),
+        "updated_at": frontmatter.get("updated_at", ""),
+        "compiled_at": frontmatter.get("compiled_at", ""),
+        "timestamp": _article_timestamp(path, frontmatter),
+    }
+    return record
 
+
+def get_wiki_catalog() -> list[dict]:
     articles = []
-    for path in list_files_recursive(base_dir, suffixes=(".md",)):
-        frontmatter, body = load_markdown_file(path)
-        articles.append(
-            {
-                "id": frontmatter.get("id", path.stem),
-                "title": frontmatter.get("title", path.stem),
-                "note_type": frontmatter.get("note_type", note_type),
-                "path": str(path.relative_to(SETTINGS.kb_root)),
-                "preview": _extract_preview(body),
-                "course": frontmatter.get("course", ""),
-                "semester": frontmatter.get("semester", ""),
-                "updated_at": frontmatter.get("updated_at", ""),
-                "compiled_at": frontmatter.get("compiled_at", ""),
-            }
-        )
+    for note_type in _SEARCHABLE_TYPES:
+        for path in _paths_for_type(note_type):
+            articles.append(_build_article_record(path, note_type, include_preview=False))
+    return articles
+
+
+def list_articles_by_type(note_type: str) -> list[dict]:
+    articles = []
+    for path in _paths_for_type(note_type):
+        articles.append(_build_article_record(path, note_type, include_preview=True))
     articles.sort(key=lambda item: item["title"].lower())
     return articles
 
 
-def get_wiki_counts() -> dict[str, int]:
-    return {note_type: len(list_articles_by_type(note_type)) for note_type in _SEARCHABLE_TYPES}
+def get_wiki_counts(catalog: list[dict] | None = None) -> dict[str, int]:
+    catalog = catalog if catalog is not None else get_wiki_catalog()
+    counts = {note_type: 0 for note_type in _SEARCHABLE_TYPES}
+    for article in catalog:
+        note_type = str(article.get("note_type", ""))
+        if note_type in counts:
+            counts[note_type] += 1
+    return counts
 
 
-def get_recent_articles(limit: int = 8) -> list[dict]:
-    articles = []
-    for note_type in _SEARCHABLE_TYPES:
-        for article in list_articles_by_type(note_type):
-            path = SETTINGS.kb_root / article["path"]
-            frontmatter, _ = load_markdown_file(path)
-            article["timestamp"] = _article_timestamp(path, frontmatter)
-            articles.append(article)
+def get_recent_articles(limit: int = 8, catalog: list[dict] | None = None) -> list[dict]:
+    articles = list(catalog) if catalog is not None else get_wiki_catalog()
     articles.sort(key=lambda item: item["timestamp"], reverse=True)
     return articles[:limit]
 

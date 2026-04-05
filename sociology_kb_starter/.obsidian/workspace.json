@@ -11,10 +11,14 @@
             "id": "bff3d226e44dfa41",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "data/wiki/concepts/capitalismo.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "capitalismo"
             }
           }
         ]
@@ -180,6 +184,10 @@
   },
   "active": "bff3d226e44dfa41",
   "lastOpenFiles": [
+    "data/wiki/concepts/causalidad.md",
+    "data/wiki/concepts/burocracia.md",
+    "data/wiki/concepts/autonomia.md",
+    "data/wiki/concepts/androcentrismo.md",
     "tests/__pycache__/test_wiki_renderer.cpython-314.pyc",
     "__pycache__/app.cpython-314.pyc",
     "README.md",
@@ -212,10 +220,6 @@
     "data/wiki/authors/deborah-tannen.md",
     "data/wiki/authors/hannah-arendt.md",
     "data/wiki/authors/arnold-gehlen.md",
-    "data/wiki/authors/francesc-nunez-mosteo.md",
-    "data/wiki/authors/esther-fernandez-mostaza.md",
-    "data/wiki/authors/jose-ortega-y-gasset.md",
-    "scripts/_extracted/metod_modulo2.txt",
     "data/Sin título.canvas"
   ]
 }
