@@ -211,3 +211,6 @@ Formato: stub→enriched = reescritura completa | new = entrada creada desde cer
 | 201 | `sesgo-de-seleccion-de-casos` | stub→enriched | — |
 | 202 | `sesgo-omision-de-variables-relevantes` | stub→enriched | — |
 | 203 | `situacion-de-mercado-informado` | stub→enriched | — |
+| 204 | `situacion-de-mercado-no-informado` | stub→enriched | — |
+| 205 | `sobredeterminacion` | stub→enriched | — |
+| 206 | `variable-interviniente` | stub→enriched | — |
