@@ -2,11 +2,13 @@
 id: robert-keohane
 title: Robert Keohane
 note_type: author
-updated_at: '2026-04-05T15:04:14+00:00'
+updated_at: '2026-04-05T15:33:06+00:00'
 source_notes:
 - wiki\sources\2026-s1\metodologia-de-las-ciencias-sociales\el-proceso-de-formulacion-teorica.md
 - wiki\sources\2026-s1\metodologia-de-las-ciencias-sociales\el-proceso-de-investigacion-en-las-ciencias-sociales.md
 - wiki\sources\2026-s1\metodologia-de-las-ciencias-sociales\la-investigacion-cuantitativa.md
+- wiki\sources\2026-s1\metodologia-de-las-ciencias-sociales\modulo-2.md
+- wiki\sources\2026-s1\metodologia-de-las-ciencias-sociales\modulo-3.md
 ---
 
 ## Core ideas
@@ -16,3 +18,5 @@ This page aggregates references to **Robert Keohane** across the sociology wiki.
 - [[el-proceso-de-formulacion-teorica]] (Metodologia de las ciencias sociales)
 - [[el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico]] (Metodologia de las ciencias sociales)
 - [[la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico]] (Metodologia de las ciencias sociales)
+- [[procedimientos-y-decisiones-para-determinar-que-se-observara]] (Metodologia de las ciencias sociales)
+- [[la-investigacion-cuantitativa]] (Metodologia de las ciencias sociales)

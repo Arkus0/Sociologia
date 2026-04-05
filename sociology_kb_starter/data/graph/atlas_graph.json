@@ -43,6 +43,12 @@
       "path": null
     },
     {
+      "id": "author::arnold-gehlen",
+      "title": "Arnold Gehlen",
+      "type": "author",
+      "path": null
+    },
+    {
       "id": "author::auguste-comte",
       "title": "Auguste Comte",
       "type": "author",
@@ -51,6 +57,12 @@
     {
       "id": "author::beatrice-potter-webb",
       "title": "Beatrice Potter Webb",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::c-wright-mills",
+      "title": "C. Wright Mills",
       "type": "author",
       "path": null
     },
@@ -79,8 +91,20 @@
       "path": null
     },
     {
+      "id": "author::d-collier",
+      "title": "D. Collier",
+      "type": "author",
+      "path": null
+    },
+    {
       "id": "author::david-hume",
       "title": "David Hume",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::deborah-tannen",
+      "title": "Deborah Tannen",
       "type": "author",
       "path": null
     },
@@ -109,6 +133,24 @@
       "path": null
     },
     {
+      "id": "author::erving-goffman",
+      "title": "Erving Goffman",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::esther-fernandez-mostaza",
+      "title": "Esther Fernández Mostaza",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::eva-anduiza",
+      "title": "Eva Anduiza",
+      "type": "author",
+      "path": null
+    },
+    {
       "id": "author::florence-kelley",
       "title": "Florence Kelley",
       "type": "author",
@@ -121,14 +163,44 @@
       "path": null
     },
     {
+      "id": "author::francesc-nunez-mosteo",
+      "title": "Francesc Núñez Mosteo",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::g-king",
+      "title": "G. King",
+      "type": "author",
+      "path": null
+    },
+    {
       "id": "author::gary-king",
       "title": "Gary King",
       "type": "author",
       "path": null
     },
     {
+      "id": "author::gemma-sala",
+      "title": "Gemma Sala",
+      "type": "author",
+      "path": null
+    },
+    {
       "id": "author::georg-wilhelm-friedrich-hegel",
       "title": "Georg Wilhelm Friedrich Hegel",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::george-herbert-mead",
+      "title": "George Herbert Mead",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::george-orwell",
+      "title": "George Orwell",
       "type": "author",
       "path": null
     },
@@ -151,6 +223,18 @@
       "path": null
     },
     {
+      "id": "author::h-e-brady",
+      "title": "H. E. Brady",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::hannah-arendt",
+      "title": "Hannah Arendt",
+      "type": "author",
+      "path": null
+    },
+    {
       "id": "author::harriet-martineau",
       "title": "Harriet Martineau",
       "type": "author",
@@ -163,14 +247,32 @@
       "path": null
     },
     {
+      "id": "author::i-lago",
+      "title": "I. Lago",
+      "type": "author",
+      "path": null
+    },
+    {
       "id": "author::ida-wells-barnett",
       "title": "Ida Wells-Barnett",
       "type": "author",
       "path": null
     },
     {
+      "id": "author::ignacio-lago",
+      "title": "Ignacio Lago",
+      "type": "author",
+      "path": null
+    },
+    {
       "id": "author::immanuel-kant",
       "title": "Immanuel Kant",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::ismael-crespo",
+      "title": "Ismael Crespo",
       "type": "author",
       "path": null
     },
@@ -193,6 +295,18 @@
       "path": null
     },
     {
+      "id": "author::jean-paul-sartre",
+      "title": "Jean-Paul Sartre",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::joan-estruch-i-gibert",
+      "title": "Joan Estruch i Gibert",
+      "type": "author",
+      "path": null
+    },
+    {
       "id": "author::john-h-goldthorpe",
       "title": "John H. Goldthorpe",
       "type": "author",
@@ -201,6 +315,18 @@
     {
       "id": "author::john-laub",
       "title": "John Laub",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::jose-mansilla",
+      "title": "Jose Mansilla",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::jose-ortega-y-gasset",
+      "title": "José Ortega y Gasset",
       "type": "author",
       "path": null
     },
@@ -223,6 +349,12 @@
       "path": null
     },
     {
+      "id": "author::luc-van-campenhoudt",
+      "title": "Luc Van Campenhoudt",
+      "type": "author",
+      "path": null
+    },
+    {
       "id": "author::manheim-y-rich",
       "title": "Manheim y Rich",
       "type": "author",
@@ -237,6 +369,12 @@
     {
       "id": "author::marion-talbot",
       "title": "Marion Talbot",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::marta-rovira",
+      "title": "Marta Rovira",
       "type": "author",
       "path": null
     },
@@ -265,6 +403,12 @@
       "path": null
     },
     {
+      "id": "author::monica-mendez",
+      "title": "Mónica Méndez",
+      "type": "author",
+      "path": null
+    },
+    {
       "id": "author::patricia-lengermann",
       "title": "Patricia Lengermann",
       "type": "author",
@@ -289,8 +433,26 @@
       "path": null
     },
     {
+      "id": "author::peter-l-berger",
+      "title": "Peter L. Berger",
+      "type": "author",
+      "path": null
+    },
+    {
       "id": "author::piergiorgio-corbetta",
       "title": "Piergiorgio Corbetta",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::r-keohane",
+      "title": "R. Keohane",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::raymond-quivy",
+      "title": "Raymond Quivy",
       "type": "author",
       "path": null
     },
@@ -331,6 +493,12 @@
       "path": null
     },
     {
+      "id": "author::roger-martinez",
+      "title": "Roger Martínez",
+      "type": "author",
+      "path": null
+    },
+    {
       "id": "author::roger-martinez-sanmarti",
       "title": "Roger Martínez Sanmartí",
       "type": "author",
@@ -339,6 +507,18 @@
     {
       "id": "author::rosa-borge-bravo",
       "title": "Rosa Borge Bravo",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::s-verba",
+      "title": "S. Verba",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::salvador-cardus",
+      "title": "Salvador Cardús",
       "type": "author",
       "path": null
     },
@@ -355,8 +535,20 @@
       "path": null
     },
     {
+      "id": "author::sigmund-freud",
+      "title": "Sigmund Freud",
+      "type": "author",
+      "path": null
+    },
+    {
       "id": "author::sophonisba-breckinridge",
       "title": "Sophonisba Breckinridge",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::thomas-luckmann",
+      "title": "Thomas Luckmann",
       "type": "author",
       "path": null
     },
@@ -379,8 +571,20 @@
       "path": null
     },
     {
+      "id": "concept::agentes-de-socializacion",
+      "title": "Agentes de socialización",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::alienacion",
       "title": "Alienación",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::alternacion",
+      "title": "Alternación",
       "type": "concept",
       "path": null
     },
@@ -427,14 +631,32 @@
       "path": null
     },
     {
+      "id": "concept::chi-cuadrado",
+      "title": "Chi-cuadrado",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::ciencia-y-razon",
       "title": "Ciencia y razón",
       "type": "concept",
       "path": null
     },
     {
+      "id": "concept::clase-social",
+      "title": "Clase social",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::codificacion",
       "title": "Codificación",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::completitud",
+      "title": "Completitud",
       "type": "concept",
       "path": null
     },
@@ -457,8 +679,26 @@
       "path": null
     },
     {
+      "id": "concept::consistencia",
+      "title": "Consistencia",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::contrastabilidad",
       "title": "Contrastabilidad",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::control-social",
+      "title": "Control social",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::correlacion",
+      "title": "Correlación",
       "type": "concept",
       "path": null
     },
@@ -469,8 +709,20 @@
       "path": null
     },
     {
+      "id": "concept::cuasiexperimento",
+      "title": "Cuasiexperimento",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::cuestionario",
       "title": "Cuestionario",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::culpa",
+      "title": "Culpa",
       "type": "concept",
       "path": null
     },
@@ -505,6 +757,48 @@
       "path": null
     },
     {
+      "id": "concept::desenmascaramiento",
+      "title": "Desenmascaramiento",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::desviacion-estandar",
+      "title": "Desviación estándar",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::desviacion-social",
+      "title": "Desviación social",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::diagrama-de-barras",
+      "title": "Diagrama de barras",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::diagrama-de-lineas",
+      "title": "Diagrama de líneas",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::dialectica-social",
+      "title": "Dialéctica social",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::diseno-de-investigacion",
+      "title": "Diseño de investigación",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::diseno-de-investigacion-empirica",
       "title": "Diseño de investigación empírica",
       "type": "concept",
@@ -519,6 +813,36 @@
     {
       "id": "concept::division-del-trabajo",
       "title": "División del trabajo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::doble-jornada",
+      "title": "Doble jornada",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::dominacion-carismatica",
+      "title": "Dominación carismática",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::dominacion-legal-racional",
+      "title": "Dominación legal-racional",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::dominacion-tradicional",
+      "title": "Dominación tradicional",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::educacion",
+      "title": "Educación",
       "type": "concept",
       "path": null
     },
@@ -541,8 +865,32 @@
       "path": null
     },
     {
+      "id": "concept::encuesta-de-opinion",
+      "title": "Encuesta de opinión",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::encyclopedie",
       "title": "Encyclopédie",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::endogeneidad",
+      "title": "Endogeneidad",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::endogeneidad-confusion-de-causas-y-de-consecuencias",
+      "title": "Endogeneidad: confusión de causas y de consecuencias",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::error-en-la-medida-de-las-variables",
+      "title": "Error en la medida de las variables",
       "type": "concept",
       "path": null
     },
@@ -589,8 +937,26 @@
       "path": null
     },
     {
+      "id": "concept::estigma",
+      "title": "Estigma",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::estratificacion-social",
+      "title": "Estratificación social",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::estatica-y-dinamica-social",
       "title": "Estática y dinámica social",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::etiquetaje",
+      "title": "Etiquetaje",
       "type": "concept",
       "path": null
     },
@@ -601,8 +967,20 @@
       "path": null
     },
     {
+      "id": "concept::exteriorizacion",
+      "title": "Exteriorización",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::fetichismo-de-la-mercancia",
       "title": "Fetichismo de la mercancía",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::fiabilidad",
+      "title": "Fiabilidad",
       "type": "concept",
       "path": null
     },
@@ -621,6 +999,12 @@
     {
       "id": "concept::grupo-experimental",
       "title": "Grupo experimental",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::genero",
+      "title": "Género",
       "type": "concept",
       "path": null
     },
@@ -661,8 +1045,26 @@
       "path": null
     },
     {
+      "id": "concept::identidad-social",
+      "title": "Identidad social",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::ilustracion",
       "title": "Ilustración",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::imaginacion-sociologica",
+      "title": "Imaginación sociológica",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::indeterminacion",
+      "title": "Indeterminación",
       "type": "concept",
       "path": null
     },
@@ -685,8 +1087,26 @@
       "path": null
     },
     {
+      "id": "concept::ineficiencia-estadistica",
+      "title": "Ineficiencia estadística",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::ineficiencia-inclusion-de-variables-irrelevantes",
+      "title": "Ineficiencia: inclusión de variables irrelevantes",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::inferencia",
       "title": "Inferencia",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::inferencia-cientifica",
+      "title": "Inferencia científica",
       "type": "concept",
       "path": null
     },
@@ -697,8 +1117,26 @@
       "path": null
     },
     {
+      "id": "concept::institucionalizacion",
+      "title": "Institucionalización",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::institucion-social",
+      "title": "Institución social",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::instrumento-de-medicion",
       "title": "Instrumento de medición",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::interiorizacion",
+      "title": "Interiorización",
       "type": "concept",
       "path": null
     },
@@ -723,6 +1161,18 @@
     {
       "id": "concept::jaula-de-hierro",
       "title": "Jaula de hierro",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::legitimidad",
+      "title": "Legitimidad",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::lenguaje",
+      "title": "Lenguaje",
       "type": "concept",
       "path": null
     },
@@ -763,6 +1213,24 @@
       "path": null
     },
     {
+      "id": "concept::media-aritmetica",
+      "title": "Media aritmética",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::mediana",
+      "title": "Mediana",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::moda",
+      "title": "Moda",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::modernidad",
       "title": "Modernidad",
       "type": "concept",
@@ -771,6 +1239,18 @@
     {
       "id": "concept::modo-de-produccion",
       "title": "Modo de producción",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::movilidad-social",
+      "title": "Movilidad social",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::muestra",
+      "title": "Muestra",
       "type": "concept",
       "path": null
     },
@@ -793,8 +1273,38 @@
       "path": null
     },
     {
+      "id": "concept::muestreo-polietapico",
+      "title": "Muestreo polietápico",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::muestreo-por-conglomerados",
       "title": "Muestreo por conglomerados",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::multicolinealidad",
+      "title": "Multicolinealidad",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::mundo-dado-por-descontado",
+      "title": "Mundo dado por descontado",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::metodo-cualitativo",
+      "title": "Método cualitativo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::metodo-cuantitativo",
+      "title": "Método cuantitativo",
       "type": "concept",
       "path": null
     },
@@ -811,6 +1321,24 @@
       "path": null
     },
     {
+      "id": "concept::normalidad",
+      "title": "Normalidad",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::objetivacion",
+      "title": "Objetivación",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::omision-de-variables",
+      "title": "Omisión de variables",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::operacionalizacion",
       "title": "Operacionalización",
       "type": "concept",
@@ -823,8 +1351,38 @@
       "path": null
     },
     {
+      "id": "concept::otro-generalizado",
+      "title": "Otro generalizado",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::otros-significativos",
+      "title": "Otros significativos",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::patriarcado",
+      "title": "Patriarcado",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::perspectiva-de-genero",
       "title": "Perspectiva de género",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::perspectiva-sociologica",
+      "title": "Perspectiva sociológica",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::poder",
+      "title": "Poder",
       "type": "concept",
       "path": null
     },
@@ -883,6 +1441,18 @@
       "path": null
     },
     {
+      "id": "concept::problema-social",
+      "title": "Problema social",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::problema-sociologico",
+      "title": "Problema sociológico",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::proceso-de-investigacion",
       "title": "Proceso de investigación",
       "type": "concept",
@@ -907,8 +1477,32 @@
       "path": null
     },
     {
+      "id": "concept::regresion",
+      "title": "Regresión",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::reificacion",
+      "title": "Reificación",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::relaciones-primarias",
+      "title": "Relaciones primarias",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::relaciones-raciales",
       "title": "Relaciones raciales",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::relaciones-secundarias",
+      "title": "Relaciones secundarias",
       "type": "concept",
       "path": null
     },
@@ -919,14 +1513,56 @@
       "path": null
     },
     {
+      "id": "concept::relativizacion",
+      "title": "Relativización",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::religion",
+      "title": "Religión",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::representacion-visual-de-datos",
       "title": "Representación visual de datos",
       "type": "concept",
       "path": null
     },
     {
+      "id": "concept::representatividad",
+      "title": "Representatividad",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::reproduccion-social",
+      "title": "Reproducción social",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::resocializacion",
+      "title": "Resocialización",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::revision-bibliografica",
       "title": "Revisión bibliográfica",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::rol-social",
+      "title": "Rol social",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::rutinizacion",
+      "title": "Rutinización",
       "type": "concept",
       "path": null
     },
@@ -949,8 +1585,50 @@
       "path": null
     },
     {
+      "id": "concept::seleccion-de-casos",
+      "title": "Selección de casos",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::seleccion-de-variables",
+      "title": "Selección de variables",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::sesgo-de-seleccion",
+      "title": "Sesgo de selección",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::sesgo-de-seleccion-de-casos",
+      "title": "Sesgo de selección de casos",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::sesgo-del-entrevistador",
       "title": "Sesgo del entrevistador",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::sesgo-omision-de-variables-relevantes",
+      "title": "Sesgo: omisión de variables relevantes",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::situacion-de-mercado-informado",
+      "title": "Situación de mercado informado",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::situacion-de-mercado-no-informado",
+      "title": "Situación de mercado no informado",
       "type": "concept",
       "path": null
     },
@@ -961,8 +1639,38 @@
       "path": null
     },
     {
+      "id": "concept::sobredeterminacion",
+      "title": "Sobredeterminación",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::socialismo",
       "title": "Socialismo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::socializacion",
+      "title": "Socialización",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::socializacion-primaria",
+      "title": "Socialización primaria",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::socializacion-secundaria",
+      "title": "Socialización secundaria",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::sociedad",
+      "title": "Sociedad",
       "type": "concept",
       "path": null
     },
@@ -979,6 +1687,12 @@
       "path": null
     },
     {
+      "id": "concept::sociologia-como-ciencia",
+      "title": "Sociología como ciencia",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::solidaridad-mecanica",
       "title": "Solidaridad mecánica",
       "type": "concept",
@@ -987,6 +1701,12 @@
     {
       "id": "concept::solidaridad-organica",
       "title": "Solidaridad orgánica",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::tabla-de-contingencia",
+      "title": "Tabla de contingencia",
       "type": "concept",
       "path": null
     },
@@ -1045,6 +1765,18 @@
       "path": null
     },
     {
+      "id": "concept::tecnicas-cualitativas",
+      "title": "Técnicas cualitativas",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::tecnicas-cuantitativas",
+      "title": "Técnicas cuantitativas",
+      "type": "concept",
+      "path": null
+    },
+    {
       "id": "concept::universalismo",
       "title": "Universalismo",
       "type": "concept",
@@ -1095,6 +1827,24 @@
     {
       "id": "concept::variables-sociodemograficas",
       "title": "Variables sociodemográficas",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::varianza",
+      "title": "Varianza",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::verguenza",
+      "title": "Vergüenza",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::vida-cotidiana",
+      "title": "Vida cotidiana",
       "type": "concept",
       "path": null
     },
@@ -1159,10 +1909,22 @@
       "path": "wiki\\sources\\2026-s1\\metodologia-de-las-ciencias-sociales\\el-proceso-de-investigacion-en-las-ciencias-sociales.md"
     },
     {
+      "id": "source::el-proceso-de-socializacion",
+      "title": "El proceso de socialización",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\el-proceso-de-socializacion.md"
+    },
+    {
       "id": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
       "title": "La curiosidad y el surgimiento de la sociología",
       "type": "source",
       "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\la-curiosidad-y-el-surgimiento-de-la-sociologia.md"
+    },
+    {
+      "id": "source::la-investigacion-cuantitativa",
+      "title": "La investigación cuantitativa",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\metodologia-de-las-ciencias-sociales\\modulo-3.md"
     },
     {
       "id": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
@@ -1171,22 +1933,40 @@
       "path": "wiki\\sources\\2026-s1\\metodologia-de-las-ciencias-sociales\\la-investigacion-cuantitativa.md"
     },
     {
-      "id": "source::modulo-1",
-      "title": "Modulo 1",
+      "id": "source::la-perspectiva-sociologica",
+      "title": "La perspectiva sociológica",
       "type": "source",
-      "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\modulo-1.md"
+      "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\la-perspectiva-sociologica.md"
     },
     {
-      "id": "source::modulo-2",
-      "title": "Modulo 2",
+      "id": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "title": "La sociedad (I). El proceso de socialización",
       "type": "source",
       "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\modulo-2.md"
     },
     {
-      "id": "source::modulo-3",
-      "title": "Modulo 3",
+      "id": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "title": "La sociedad (II). El proceso de institucionalización",
       "type": "source",
       "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\modulo-3.md"
+    },
+    {
+      "id": "source::metodologia-de-las-ciencias-sociales",
+      "title": "Metodología de las Ciencias Sociales",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\metodologia-de-las-ciencias-sociales\\metodologia-de-las-ciencias-sociales.md"
+    },
+    {
+      "id": "source::normalidad-desviacion-y-poder",
+      "title": "Normalidad, desviación y poder",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\normalidad-desviacion-y-poder.md"
+    },
+    {
+      "id": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "title": "Procedimientos y decisiones para determinar qué se observará",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\metodologia-de-las-ciencias-sociales\\modulo-2.md"
     },
     {
       "id": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
@@ -1234,12 +2014,22 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "author::arnold-gehlen",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "author::auguste-comte",
       "type": "course_to_author"
     },
     {
       "source": "course::introduccion-a-la-sociologia",
       "target": "author::beatrice-potter-webb",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::c-wright-mills",
       "type": "course_to_author"
     },
     {
@@ -1269,6 +2059,11 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "author::deborah-tannen",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "author::denis-diderot",
       "type": "course_to_author"
     },
@@ -1294,6 +2089,16 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "author::erving-goffman",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::esther-fernandez-mostaza",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "author::florence-kelley",
       "type": "course_to_author"
     },
@@ -1304,7 +2109,22 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "author::francesc-nunez-mosteo",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "author::georg-wilhelm-friedrich-hegel",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::george-herbert-mead",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::george-orwell",
       "type": "course_to_author"
     },
     {
@@ -1315,6 +2135,11 @@
     {
       "source": "course::introduccion-a-la-sociologia",
       "target": "author::grace-abbott",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::hannah-arendt",
       "type": "course_to_author"
     },
     {
@@ -1354,6 +2179,26 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "author::jean-paul-sartre",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::joan-estruch-i-gibert",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::jose-mansilla",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::jose-ortega-y-gasset",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "author::julia-lathrop",
       "type": "course_to_author"
     },
@@ -1364,12 +2209,22 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "author::luc-van-campenhoudt",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "author::marianne-weber",
       "type": "course_to_author"
     },
     {
       "source": "course::introduccion-a-la-sociologia",
       "target": "author::marion-talbot",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::marta-rovira",
       "type": "course_to_author"
     },
     {
@@ -1409,7 +2264,22 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "author::peter-l-berger",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::raymond-quivy",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "author::robert-nisbet",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::roger-martinez",
       "type": "course_to_author"
     },
     {
@@ -1419,12 +2289,27 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "author::salvador-cardus",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "author::san-agustin",
       "type": "course_to_author"
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "author::sigmund-freud",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "author::sophonisba-breckinridge",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::thomas-luckmann",
       "type": "course_to_author"
     },
     {
@@ -1439,7 +2324,17 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::agentes-de-socializacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "concept::alienacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::alternacion",
       "type": "course_to_concept"
     },
     {
@@ -1474,7 +2369,22 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::clase-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "concept::conciencia-colectiva",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::control-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::culpa",
       "type": "course_to_concept"
     },
     {
@@ -1494,7 +2404,47 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::desenmascaramiento",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::desviacion-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::dialectica-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "concept::division-del-trabajo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::doble-jornada",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::dominacion-carismatica",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::dominacion-legal-racional",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::dominacion-tradicional",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::educacion",
       "type": "course_to_concept"
     },
     {
@@ -1505,6 +2455,11 @@
     {
       "source": "course::introduccion-a-la-sociologia",
       "target": "concept::empirismo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::encuesta-de-opinion",
       "type": "course_to_concept"
     },
     {
@@ -1529,6 +2484,16 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::estigma",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::estratificacion-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "concept::etica-protestante",
       "type": "course_to_concept"
     },
@@ -1539,7 +2504,22 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::etiquetaje",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::exteriorizacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "concept::fetichismo-de-la-mercancia",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::genero",
       "type": "course_to_concept"
     },
     {
@@ -1559,7 +2539,17 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::identidad-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "concept::ilustracion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::imaginacion-sociologica",
       "type": "course_to_concept"
     },
     {
@@ -1574,12 +2564,37 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::institucion-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::institucionalizacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::interiorizacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "concept::investigacion-participante",
       "type": "course_to_concept"
     },
     {
       "source": "course::introduccion-a-la-sociologia",
       "target": "concept::jaula-de-hierro",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::legitimidad",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::lenguaje",
       "type": "course_to_concept"
     },
     {
@@ -1619,7 +2634,42 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::movilidad-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::mundo-dado-por-descontado",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::normalidad",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::objetivacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "concept::orden-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::otro-generalizado",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::otros-significativos",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::patriarcado",
       "type": "course_to_concept"
     },
     {
@@ -1629,7 +2679,27 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::perspectiva-sociologica",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::poder",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "concept::positivismo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::problema-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::problema-sociologico",
       "type": "course_to_concept"
     },
     {
@@ -1649,7 +2719,52 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::reificacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::relaciones-primarias",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "concept::relaciones-raciales",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::relaciones-secundarias",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::relativizacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::religion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::reproduccion-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::resocializacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::rol-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::rutinizacion",
       "type": "course_to_concept"
     },
     {
@@ -1669,6 +2784,16 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::situacion-de-mercado-informado",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::situacion-de-mercado-no-informado",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "concept::soberbia",
       "type": "course_to_concept"
     },
@@ -1679,12 +2804,37 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::socializacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::socializacion-primaria",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::socializacion-secundaria",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::sociedad",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "concept::sociologia",
       "type": "course_to_concept"
     },
     {
       "source": "course::introduccion-a-la-sociologia",
       "target": "concept::sociologia-clasica",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::sociologia-como-ciencia",
       "type": "course_to_concept"
     },
     {
@@ -1729,6 +2879,16 @@
     },
     {
       "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::verguenza",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::vida-cotidiana",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
       "target": "semester::2026-s1",
       "type": "course_to_semester"
     },
@@ -1739,12 +2899,52 @@
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::d-collier",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::eva-anduiza",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::g-king",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "author::gary-king",
       "type": "course_to_author"
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::gemma-sala",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "author::giovanni-sartori",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::h-e-brady",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::i-lago",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::ignacio-lago",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::ismael-crespo",
       "type": "course_to_author"
     },
     {
@@ -1774,7 +2974,17 @@
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::monica-mendez",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "author::piergiorgio-corbetta",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::r-keohane",
       "type": "course_to_author"
     },
     {
@@ -1809,6 +3019,11 @@
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::s-verba",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "author::sidney-verba",
       "type": "course_to_author"
     },
@@ -1824,7 +3039,17 @@
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::chi-cuadrado",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::codificacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::completitud",
       "type": "course_to_concept"
     },
     {
@@ -1839,12 +3064,27 @@
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::consistencia",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::contrastabilidad",
       "type": "course_to_concept"
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::correlacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::covarianza",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::cuasiexperimento",
       "type": "course_to_concept"
     },
     {
@@ -1864,6 +3104,26 @@
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::desviacion-estandar",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::diagrama-de-barras",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::diagrama-de-lineas",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::diseno-de-investigacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::diseno-de-investigacion-empirica",
       "type": "course_to_concept"
     },
@@ -1875,6 +3135,21 @@
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::encuesta",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::endogeneidad",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::endogeneidad-confusion-de-causas-y-de-consecuencias",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::error-en-la-medida-de-las-variables",
       "type": "course_to_concept"
     },
     {
@@ -1909,6 +3184,11 @@
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::fiabilidad",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::formulacion-teorica",
       "type": "course_to_concept"
     },
@@ -1939,6 +3219,11 @@
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::indeterminacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::indicador",
       "type": "course_to_concept"
     },
@@ -1949,7 +3234,22 @@
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::ineficiencia-estadistica",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::ineficiencia-inclusion-de-variables-irrelevantes",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::inferencia",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::inferencia-cientifica",
       "type": "course_to_concept"
     },
     {
@@ -1974,6 +3274,36 @@
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::media-aritmetica",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::mediana",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::metodo-cualitativo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::metodo-cuantitativo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::moda",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::muestra",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::muestreo",
       "type": "course_to_concept"
     },
@@ -1989,7 +3319,17 @@
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::muestreo-polietapico",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::muestreo-por-conglomerados",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::multicolinealidad",
       "type": "course_to_concept"
     },
     {
@@ -2000,6 +3340,11 @@
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::niveles-de-medicion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::omision-de-variables",
       "type": "course_to_concept"
     },
     {
@@ -2054,6 +3399,11 @@
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::regresion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::relacion-espurea",
       "type": "course_to_concept"
     },
@@ -2064,7 +3414,32 @@
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::representatividad",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::revision-bibliografica",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::seleccion-de-casos",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::seleccion-de-variables",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::sesgo-de-seleccion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::sesgo-de-seleccion-de-casos",
       "type": "course_to_concept"
     },
     {
@@ -2074,7 +3449,32 @@
     },
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::sesgo-omision-de-variables-relevantes",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::sobredeterminacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::tabla-de-contingencia",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::tamano-de-la-muestra",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::tecnicas-cualitativas",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::tecnicas-cuantitativas",
       "type": "course_to_concept"
     },
     {
@@ -2130,6 +3530,11 @@
     {
       "source": "course::metodologia-de-las-ciencias-sociales",
       "target": "concept::variables-sociodemograficas",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::varianza",
       "type": "course_to_concept"
     },
     {
@@ -2778,6 +4183,116 @@
       "type": "source_to_course"
     },
     {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "author::erving-goffman",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "author::george-herbert-mead",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "author::karl-marx",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "author::marta-rovira",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "author::peter-berger",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "author::thomas-luckmann",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::agentes-de-socializacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::alternacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::control-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::culpa",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::estigma",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::interiorizacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::mundo-dado-por-descontado",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::otro-generalizado",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::otros-significativos",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::resocializacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::rol-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::socializacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::socializacion-primaria",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::socializacion-secundaria",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "concept::verguenza",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-socializacion",
+      "target": "course::introduccion-a-la-sociologia",
+      "type": "source_to_course"
+    },
+    {
       "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
       "target": "author::antoni-estrade-i-salto",
       "type": "source_to_author"
@@ -2850,6 +4365,216 @@
     {
       "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
       "target": "course::introduccion-a-la-sociologia",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "author::albert-padro-solanet-i-grau",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "author::eva-anduiza",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "author::gary-king",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "author::ismael-crespo",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "author::monica-mendez",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "author::piergiorgio-corbetta",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "author::robert-keohane",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "author::rosa-borge-bravo",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "author::sidney-verba",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::censo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::chi-cuadrado",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::correlacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::cuasiexperimento",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::cuestionario",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::desviacion-estandar",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::diagrama-de-barras",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::diagrama-de-lineas",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::encuesta",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::error-muestral",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::estadistica-descriptiva",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::estadistica-inferencial",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::estadistica-multivariada",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::estadistica-univariada",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::experimento",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::grupo-de-control",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::grupo-experimental",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::media-aritmetica",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::mediana",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::moda",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::muestra",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::muestreo-aleatorio",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::muestreo-estratificado",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::muestreo-polietapico",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::muestreo-por-conglomerados",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::nivel-de-confianza",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::regresion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::representatividad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::tabla-de-contingencia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::tecnicas-cualitativas",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::tecnicas-cuantitativas",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "concept::varianza",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa",
+      "target": "course::metodologia-de-las-ciencias-sociales",
       "type": "source_to_course"
     },
     {
@@ -3023,27 +4748,792 @@
       "type": "source_to_course"
     },
     {
-      "source": "source::modulo-1",
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::anthony-giddens",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::auguste-comte",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::c-wright-mills",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::emile-durkheim",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::erving-goffman",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::george-herbert-mead",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::jean-paul-sartre",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::joan-estruch-i-gibert",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::jose-ortega-y-gasset",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::karl-marx",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::luc-van-campenhoudt",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::max-weber",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::peter-berger",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::peter-l-berger",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::raymond-quivy",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::salvador-cardus",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::sigmund-freud",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "author::thomas-luckmann",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::control-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::desenmascaramiento",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::encuesta-de-opinion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::imaginacion-sociologica",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::institucion-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::otro-generalizado",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::otros-significativos",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::perspectiva-sociologica",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::problema-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::problema-sociologico",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::reificacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::relaciones-primarias",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::relaciones-secundarias",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::relativizacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::rol-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::rutinizacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::situacion-de-mercado-informado",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::situacion-de-mercado-no-informado",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::socializacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::sociedad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::sociologia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::sociologia-como-ciencia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
+      "target": "concept::vida-cotidiana",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-perspectiva-sociologica",
       "target": "course::introduccion-a-la-sociologia",
       "type": "source_to_course"
     },
     {
-      "source": "source::modulo-2",
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "author::erving-goffman",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "author::esther-fernandez-mostaza",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "author::george-herbert-mead",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "author::peter-berger",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "author::roger-martinez-sanmarti",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "author::salvador-cardus",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "author::thomas-luckmann",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::agentes-de-socializacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::control-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::desviacion-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::etiquetaje",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::identidad-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::interiorizacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::lenguaje",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::normalidad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::otro-generalizado",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::otros-significativos",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::resocializacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::rol-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::socializacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::socializacion-primaria",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
+      "target": "concept::socializacion-secundaria",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-i-el-proceso-de-socializacion",
       "target": "course::introduccion-a-la-sociologia",
       "type": "source_to_course"
     },
     {
-      "source": "source::modulo-2",
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "author::arnold-gehlen",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "author::deborah-tannen",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "author::emile-durkheim",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "author::erving-goffman",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "author::francesc-nunez-mosteo",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "author::hannah-arendt",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "author::karl-marx",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "author::max-weber",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "author::peter-berger",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "author::roger-martinez-sanmarti",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "author::thomas-luckmann",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::burocracia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::clase-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::control-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::dialectica-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::doble-jornada",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::dominacion-carismatica",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::dominacion-legal-racional",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::dominacion-tradicional",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::educacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::estratificacion-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::exteriorizacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::genero",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::hecho-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::institucion-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::institucionalizacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::interiorizacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::legitimidad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::movilidad-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::objetivacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::patriarcado",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::religion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::rol-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "concept::trabajo-domestico",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-sociedad-ii-el-proceso-de-institucionalizacion",
+      "target": "course::introduccion-a-la-sociologia",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::metodologia-de-las-ciencias-sociales",
+      "target": "author::d-collier",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::metodologia-de-las-ciencias-sociales",
+      "target": "author::g-king",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::metodologia-de-las-ciencias-sociales",
+      "target": "author::h-e-brady",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::metodologia-de-las-ciencias-sociales",
+      "target": "author::i-lago",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::metodologia-de-las-ciencias-sociales",
+      "target": "author::r-keohane",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::metodologia-de-las-ciencias-sociales",
+      "target": "author::s-verba",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::metodologia-de-las-ciencias-sociales",
+      "target": "concept::endogeneidad-confusion-de-causas-y-de-consecuencias",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::metodologia-de-las-ciencias-sociales",
+      "target": "concept::error-en-la-medida-de-las-variables",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::metodologia-de-las-ciencias-sociales",
+      "target": "concept::indeterminacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::metodologia-de-las-ciencias-sociales",
+      "target": "concept::ineficiencia-inclusion-de-variables-irrelevantes",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::metodologia-de-las-ciencias-sociales",
+      "target": "concept::multicolinealidad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::metodologia-de-las-ciencias-sociales",
+      "target": "concept::sesgo-de-seleccion-de-casos",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::metodologia-de-las-ciencias-sociales",
+      "target": "concept::sesgo-omision-de-variables-relevantes",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::metodologia-de-las-ciencias-sociales",
       "target": "course::metodologia-de-las-ciencias-sociales",
       "type": "source_to_course"
     },
     {
-      "source": "source::modulo-3",
+      "source": "source::normalidad-desviacion-y-poder",
+      "target": "author::erving-goffman",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::normalidad-desviacion-y-poder",
+      "target": "author::george-orwell",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::normalidad-desviacion-y-poder",
+      "target": "author::jose-mansilla",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::normalidad-desviacion-y-poder",
+      "target": "author::roger-martinez",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::normalidad-desviacion-y-poder",
+      "target": "concept::control-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::normalidad-desviacion-y-poder",
+      "target": "concept::culpa",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::normalidad-desviacion-y-poder",
+      "target": "concept::desviacion-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::normalidad-desviacion-y-poder",
+      "target": "concept::estigma",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::normalidad-desviacion-y-poder",
+      "target": "concept::etiquetaje",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::normalidad-desviacion-y-poder",
+      "target": "concept::normalidad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::normalidad-desviacion-y-poder",
+      "target": "concept::poder",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::normalidad-desviacion-y-poder",
+      "target": "concept::reproduccion-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::normalidad-desviacion-y-poder",
+      "target": "concept::verguenza",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::normalidad-desviacion-y-poder",
       "target": "course::introduccion-a-la-sociologia",
       "type": "source_to_course"
     },
     {
-      "source": "source::modulo-3",
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "author::albert-padro-solanet-i-grau",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "author::eva-anduiza",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "author::gary-king",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "author::gemma-sala",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "author::ignacio-lago",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "author::ismael-crespo",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "author::monica-mendez",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "author::robert-keohane",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "author::rosa-borge-bravo",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "author::sidney-verba",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::completitud",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::consistencia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::diseno-de-investigacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::endogeneidad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::fiabilidad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::indeterminacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::ineficiencia-estadistica",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::inferencia-cientifica",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::metodo-cualitativo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::metodo-cuantitativo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::multicolinealidad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::omision-de-variables",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::seleccion-de-casos",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::seleccion-de-variables",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::sesgo-de-seleccion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::sobredeterminacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::validez",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::variable-dependiente",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
+      "target": "concept::variable-independiente",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::procedimientos-y-decisiones-para-determinar-que-se-observara",
       "target": "course::metodologia-de-las-ciencias-sociales",
       "type": "source_to_course"
     },
@@ -3394,7 +5884,7 @@
     }
   ],
   "stats": {
-    "node_count": 200,
-    "edge_count": 438
+    "node_count": 330,
+    "edge_count": 780
   }
 }

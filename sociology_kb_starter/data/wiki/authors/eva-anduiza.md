@@ -1,0 +1,16 @@
+---
+id: eva-anduiza
+title: Eva Anduiza
+note_type: author
+updated_at: '2026-04-05T15:33:06+00:00'
+source_notes:
+- wiki\sources\2026-s1\metodologia-de-las-ciencias-sociales\modulo-2.md
+- wiki\sources\2026-s1\metodologia-de-las-ciencias-sociales\modulo-3.md
+---
+
+## Core ideas
+This page aggregates references to **Eva Anduiza** across the sociology wiki.
+
+## Source notes
+- [[procedimientos-y-decisiones-para-determinar-que-se-observara]] (Metodologia de las ciencias sociales)
+- [[la-investigacion-cuantitativa]] (Metodologia de las ciencias sociales)

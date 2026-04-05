@@ -2,7 +2,7 @@
 id: robert-k-merton
 title: Robert K. Merton
 note_type: author
-updated_at: '2026-04-05T15:04:14+00:00'
+updated_at: '2026-04-05T15:33:06+00:00'
 source_notes:
 - wiki\sources\2026-s1\metodologia-de-las-ciencias-sociales\el-proceso-de-formulacion-teorica.md
 - wiki\sources\2026-s1\metodologia-de-las-ciencias-sociales\el-proceso-de-investigacion-en-las-ciencias-sociales.md

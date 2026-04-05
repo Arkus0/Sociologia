@@ -1,0 +1,1478 @@
+La perspectiva
+sociológica
+PID_00267831
+Joan Estruch i Gibert
+Tiempo mínimo de dedicación recomendado: 3 horas
+© FUOC • PID_00267831
+La perspectiva sociológica
+Joan Estruch i Gibert
+Catedrático de Sociología y direc-
+tor del Centro de Investigaciones en
+Sociología de la Religión (ISOR), de
+la Universidad Autónoma de Barce-
+lona. Entre otros, ha publicado La
+innovación religiosa (1972), Plegar
+de viure (1981) y L'Opus Dei i les se-
+ves paradoxes: un estudi sociològic
+(1993).
+La revisión de este recurso de aprendizaje UOC ha sido coordinada
+por el profesor: Roger Martínez Sanmartí (2019)
+Tercera edición: septiembre 2019
+© Joan Estruch i Gibert
+Todos los derechos reservados
+© de esta edición, FUOC, 2019
+Av. Tibidabo, 39-43, 08035 Barcelona
+Realización editorial: FUOC
+Ninguna parte de esta publicación, incluido el diseño general y la cubierta, puede ser copiada,
+reproducida, almacenada o transmitida de ninguna forma, ni por ningún medio, sea este eléctrico,
+químico, mecánico, óptico, grabación, fotocopia, o cualquier otro, sin la previa autorización escrita
+de los titulares de los derechos.
+© FUOC • PID_00267831
+La perspectiva sociológica
+Índice
+ 
+Introducción...............................................................................................
+5
+ 
+Objetivos.......................................................................................................
+7
+ 
+1.
+Las ambigüedades de la sociología...............................................
+9
+1.1.
+Sociología y filantropía ...............................................................
+11
+1.2.
+Sociología y reforma social .........................................................
+12
+1.3.
+Sociología y encuestas .................................................................
+13
+ 
+2.
+Las principales características de la perspectiva sociológica.
+17
+2.1.
+Una perspectiva parcial ...............................................................
+17
+2.2.
+Una perspectiva crítica ................................................................
+19
+2.3.
+Una perspectiva desenmascaradora ............................................
+20
+2.4.
+Una perspectiva relativizadora ....................................................
+21
+ 
+3.
+El objeto de estudio de la sociología: la sociedad......................
+24
+3.1.
+La persona como ser social .........................................................
+24
+3.2.
+La rutinación de la experiencia ..................................................
+26
+3.3.
+Relaciones personales y relaciones anónimas .............................
+28
+3.4.
+El marco de la vida cotidiana .....................................................
+30
+ 
+Resumen.......................................................................................................
+32
+ 
+Ejercicios de autoevaluación..................................................................
+35
+ 
+Solucionario................................................................................................
+36
+ 
+Bibliografía.................................................................................................
+37
+© FUOC • PID_00267831
+5
+La perspectiva sociológica
+Introducción
+Los sociólogos tenemos fama de hacer muchas preguntas, e incluso de fisgo-
+nes, así que disponeos, en el marco de esta asignatura, a encontrar muchas más
+preguntas que respuestas. Las respuestas de la ciencia son, en el mejor de los
+casos, fragmentarias y, por definición, siempre provisionales. Las preguntas,
+cuando son acertadas y pertinentes, serán eternas y siempre nuevas al mismo
+tiempo. Aprender sociología es aprender a interrogar: a hacer preguntas y a
+hacerse preguntas.
+Y es que si el científico es alguien que busca un gato negro en una habitación
+oscura con los ojos vendados, el científico social –y, por tanto, el sociólogo– es
+aquél que busca un gato negro en una habitación oscura con los ojos también
+vendados, y que no sabe a ciencia cierta si el gato está o no está en la habita-
+ción. A quienes presumen de "científicos" les suele molestar que se les recuerde
+esto. No os fiéis nunca, en cualquier caso, de los sociólogos que al cabo de
+unos segundos de fingir que buscan al gato dicen que ya lo han encontrado.
+No son pocos los sociólogos de este tipo que vais a encontrar escribiendo en
+periódicos, hablando por televisión, e incluso dando clases en la universidad.
+Haced entonces como el Principito: decíos a vosotros mismos que por estos
+mundos hay gente muy extraña, y no perdáis mucho el tiempo.
+¿Y si, puestos a hacernos preguntas, comenzásemos directamente preguntán-
+donos el porqué del título que encabeza este módulo? ¿Por qué motivo se ha-
+bla en él de la perspectiva￿sociológica y no, por ejemplo, de la "disciplina so-
+ciológica" o de "la sociología como ciencia"? Al fin y al cabo, la tradición aca-
+démica solía imponer que se iniciasen las clases justificando "la importancia
+de la asignatura". Aquí, en cambio, parece que queremos empezar bajándole
+un poco los humos.
+En efecto, el lenguaje no es nunca inocente, y la opción de elegir un título
+determinado tiene sin duda su intención. En nuestro caso, la intención ha si-
+do subrayar que la sociología es una manera determinada de situarse ante la
+realidad y de interrogarse sobre esta. Cuando hablamos, si es que queremos
+entender a nuestro interlocutor y queremos que el interlocutor nos entienda,
+es sin duda fundamental que tanto el uno como el otro sepamos de￿qué es-
+tamos hablando; pero también es indispensable que previamente uno y otro
+sepamos y entendamos desde￿dónde hablamos.
+Por este motivo vamos a estructurar el presente módulo de carácter introduc-
+torio en tres apartados. Los dos primeros se dedicarán a considerar en qué
+consiste la perspectiva sociológica y cuáles son sus principales características;
+es decir, a explicitar cuál es esta forma de situarse ante la realidad propia de
+la sociología. Solo después de esto, después de haber visto cuáles son las po-
+Lecturas recomendadas
+A pesar de que es difícil que
+lo encontréis citado en algu-
+na bibliografía, cuando estéis
+trabajando este módulo y los
+que siguen, releed El Principi-
+to, de Saint-Exupéry, pues-
+to que en este libro encontra-
+réis tantos elementos de bue-
+na sociología como en el me-
+jor de los manuales que pue-
+da haber sobre la materia.
+Hablando de manuales: hay
+uno que tendríais que leer
+obligatoriamente de arriba
+abajo y más de una vez. Es
+más que una lectura com-
+plementaria: es sencillamen-
+te indispensable. Se trata
+del libro de Peter￿L.￿Berger
+(1994). Introducción a la socio-
+logía. México: Limusa.
+© FUOC • PID_00267831
+6
+La perspectiva sociológica
+sibilidades y las limitaciones de la perspectiva sociológica –es decir, cuando
+sepamos dónde estamos situados y desde dónde hablamos–, empezaremos a
+introducir, en el tercer apartado, los elementos básicos de nuestro objeto de
+estudio –aquello de lo que hablábamos–, y que se desarrollarán posteriormen-
+te en los módulos que seguirán a continuación.
+Todavía nos queda una tercera observación: esta forma –poco académica en el
+mal sentido de la palabra académica– de invitaros a una aproximación a la so-
+ciología concebida como una forma, quizá nueva e inhabitual, de enfrentarse
+a la realidad puede suscitar resistencias. Porque tiene que quedar claro que no
+se trata solo de acercarse a la realidad interrogándola, ya que el hecho de que-
+rer interrogar a la realidad supone, al mismo tiempo, estar dispuesto a dejarse
+interrogar por ella. De hecho, es como si os estuviésemos invitando a un juego
+que al mismo tiempo es una aventura, y no a todo el mundo le gustan los
+juegos ni las aventuras, en la medida en que no dejan de comportar un cierto
+riesgo. El riesgo, en este caso, es el de tener que olvidarse de una serie de ideas
+preconcebidas, de unos ciertos prejuicios, y de tener que ponerse a reflexionar.
+En tal caso, la adopción de la perspectiva sociológica puede provocar resisten-
+cias: la resistencia pasiva de quien se limita a contemplar el juego como es-
+pectador, sin involucrarse, o bien la resistencia activa de aquel que se niega
+decididamente a plantearse interrogantes, y que se niega, sobre todo, a dejarse
+interrogar y a dejarse interpelar. Si descubrieseis que este es vuestro caso, pen-
+sad que la pregunta "¿qué es la sociología?" es muy fácil de contestar. Es una
+asignatura que os conviene aprobar cuanto antes y sin quebraderos de cabeza.
+La otra pregunta, "¿para qué sirve?", ni siquiera hace falta que os la planteéis.
+Es casi seguro que nunca os servirá para nada.
+En cambio, si descubrís que el juego que os proponemos os resulta atractivo y
+si os vais involucrando, puede ser que acabéis por encontrar una aventura apa-
+sionada y apasionante. A medida que os vayáis dando cuenta de los estrechos
+lazos que vinculan esto que llamamos la sociedad con la historia y con vuestra
+propia biografía, veréis que la adopción de la perspectiva sociológica supone
+no solo una forma de conocimiento, sino también una forma de conciencia.
+© FUOC • PID_00267831
+7
+La perspectiva sociológica
+Objetivos
+Los objetivos de este módulo, de acuerdo con lo que acabamos de decir en la
+introducción, se pueden resumir en dos:
+1.
+Entender qué queremos decir cuando afirmamos que la sociología es una
+forma determinada de situarse ante la realidad y de interrogarse sobre esta,
+así como una forma de ver cuáles son las características principales de di-
+cha perspectiva sociológica. Es decir, saber desde dónde hablamos cuando
+hablamos desde la sociología.
+2.
+Empezar a entender el objetivo de la sociología, aquello que los siguientes
+módulos se encargarán de explicar de manera más sistemática, o lo que es
+lo mismo, saber de qué hablamos cuando hablamos de la sociedad.
+© FUOC • PID_00267831
+9
+La perspectiva sociológica
+1. Las ambigüedades de la sociología
+¿Por qué hay tan pocos chistes sobre sociólogos? Con este mismo interrogante
+empieza Peter Berger su libro Introducción a la sociología. Pues bien, para que
+se puedan hacer chistes sobre un determinado tipo de personaje, o sobre una
+determinada actividad profesional, es necesario que exista un estereotipo o un
+cliché con la complicidad tácita que supone el hecho de que, sin decirlo, todo
+el mundo conoce y comparte el estereotipo: la exageración del cliché, o bien
+su inesperada y sorprendente negación mediante el chiste, es precisamente lo
+que hace que nos riamos.
+Aquí, hace cuarenta años eran mucho menos abundantes los chistes sobre psi-
+cólogos que hoy día; en cambio, eran más frecuentes los chistes de curas que
+en la actualidad. Y esto quiere decir que en el decurso de este periodo la ima-
+gen popular de la figura del psicólogo ha ido cristalizando en un estereotipo,
+mientras que, por otra parte, los clichés prefabricados acerca de los curas se
+han ido difuminando de manera gradual: hoy por hoy, el número de curas
+es menor, tienen menos poder, e incluso hay quien opina que ni ellos saben
+para qué sirven. Chistes de médicos o de políticos se explicaban entonces y
+también ahora; de sociólogos prácticamente nunca ha habido chistes.
+Esto significa que no existe una imagen clara de lo que es un sociólogo: no se
+sabe demasiado ni qué hace, ni de qué sirve lo que hace. La sociología es una
+disciplina que se ha puesto relativamente de moda, pero, al mismo tiempo,
+constituye una ciencia cuya percepción es borrosa. No se puede descartar por
+completo la posibilidad de que se establezca entre estos dos elementos una
+relación de causa y efecto: es decir, que esté poco o mucho de moda precisa-
+mente porque no se acaba de saber con precisión qué es.
+En relación con este hecho, nos encontramos con un segundo factor que de-
+bemos tener en cuenta para entender la posición peculiar que la sociología
+ocupa en la actualidad en el conjunto de las disciplinas que se presentan como
+ciencias. Una noción que suelen utilizar los economistas nos ayudará a expli-
+carlo. Se dice que un consumidor se encuentra en situación￿de￿mercado￿in-
+formado cuando considera que dispone de criterios autónomos de evaluación
+del producto, y en situación￿de￿mercado￿no￿informado, en el caso contrario.
+Un metro y medio de libros
+Imaginad por ejemplo el caso de una persona que entra en una librería y hace un pedido
+de un metro y medio de libros. El ejemplo no es inventado: un librero de Barcelona se
+encontró con este caso en una ocasión. Se trataba de alguien que acababa de comprar
+un mueble nuevo para la televisión, la cadena de alta fidelidad, etc. y el decorador le
+había aconsejado que colocase unos cuantos libros para adornar el mueble. El cliente
+no entendía nada de libros y le daba igual una obra que otra, siempre y cuando al final
+consiguiese llenar el metro y medio de espacio que tenía libre.
+© FUOC • PID_00267831
+10
+La perspectiva sociológica
+Es obvio que vosotros nunca haríais eso, porque cuando compráis libros no sois indi-
+ferentes al contenido de las obras, ya que tenéis ciertos criterios de evaluación de este
+contenido. Podría ser, en cambio, que quienes nos encontramos en situación de merca-
+do informado a la hora de adquirir libros acabásemos comprando un aparato de televi-
+sión fijándonos más en el color de la caja o en el niquelado de los botones que en las
+características técnicas del aparato. O bien, que en el momento de comprar un coche
+nos importase sobre todo el color de la carrocería o la tapicería de los asientos, y que, en
+cambio, ni abriésemos el capó del motor porque de todos modos no entendemos nada
+de válvulas o de cilindros.
+En pocas palabras, todos nos encontramos en situación de mercado informado en deter-
+minadas ocasiones, y en situación de mercado no informado en otras.
+Pues bien, en nuestra sociedad, la mayor parte de la población tiende a con-
+siderar que se encuentra en situación de mercado no informado en aquellos
+ámbitos de la ciencia o de la técnica en los que carece de un conocimiento de
+experto. Si no sabemos medicina, nos fiaremos del diagnóstico del médico, y
+no se nos pasará por la cabeza decir que sus indicaciones son solo su "opinión".
+Si se nos estropea el coche y el mecánico afirma que ha localizado la avería
+concreta, tampoco se lo discutiremos.
+En cambio, en el terreno de la literatura, las artes o la religión, por ejemplo, en
+la actualidad la mayoría de la población tiende a reaccionar como si dispusie-
+se de criterios autónomos de evaluación. Podemos no saber nada de música
+y atrevernos, en cambio, a juzgar la calidad de una pieza musical. Asimismo,
+podemos atrevernos a opinar sobre una determinada doctrina religiosa sin te-
+ner que estudiar nunca teología ni tener la más remota idea de historia de la
+Iglesia. Los denominados "programas de debate" de las televisiones proporcio-
+nan múltiples ejemplos de estas situaciones, en las que el público se comporta
+como si se encontrase en una situación de mercado informado.
+Pues bien, la situación paradójica de la sociología se explica por el hecho
+de que, a diferencia de la mayoría del resto de las disciplinas científicas,
+se tiende a considerar como una cuestión de opiniones, y casi de gustos:
+todo el mundo se ve preparado para opinar, manifestar su acuerdo o
+desacuerdo con respecto a las afirmaciones del sociólogo. Es como si,
+ante la sociología, todos nos encontrásemos en situación de mercado
+informado.
+Hay dos razones￿principales que explican esta singularidad:
+1) Por una parte, el hecho de que en la mayor parte de las ocasiones el sociólo-
+go hable de realidades que resultan "familiares" casi para todos. No estudia fe-
+nómenos desconocidos, sino todo lo contrario, fenómenos que todos conoce-
+mos, realidades en las que todos tenemos una cierta experiencia. El sociólogo
+habla de la familia, o de la institución educativa, o de las características de la
+burocracia: en definitiva, habla de su propia sociedad, que al mismo tiempo es
+la sociedad de quienes lo leen o lo escuchan. Y así, las mismas personas que no
+se atreverían a hablar si les explicase la organización de la vida familiar entre
+Reflexión
+Id un día a la Fundación Miró y prestad
+atención a los comentarios de unos
+abuelos que, sin saber ni mucho menos
+de pintura, comparan una tela de Miró
+con los garabatos que hace su nieto.
+Se comportan como si estuviesen en
+situación de mercado informado.
+© FUOC • PID_00267831
+11
+La perspectiva sociológica
+los pigmeos o el funcionamiento de un monasterio budista tibetano, tienden
+a considerar que no hace más que expresar sus opiniones personales cuando
+habla de realidades que les resultan cercanas y cotidianas.
+2) En segundo lugar, sin embargo, también hay que decir que los sociólogos
+hemos sido en buena parte responsables de esta situación en la que hoy nos
+encontramos, puesto que muy a menudo hemos accedido a aparecer en los
+medios de comunicación como gente que no hacía más que eso: opinar sobre
+cualquier cosa, y no porque la hubiésemos estudiado y analizado de forma
+previa, sino porque, como dijo en su día un ilustre sociólogo: "Yo soy especia-
+lista en generalidades".
+"Por este camino el sociólogo busca el reconocimiento social que le falta: a fuerza de
+confirmar él mismo los clichés y los prejuicios que guían las percepciones culturales de los
+otros, adjudicándoles una patente de garantía científica, el sociólogo se ve recompensado
+por la confirmación de su identidad profesional, el reconocimiento de la "cientificidad"
+de su tarea. En resumidas cuentas: me encuentro –yo, sociólogo– con que la sociedad no
+acaba de admitir el carácter "científico" de mi trabajo; les diré que lo que ellos consideran
+cierto es "científicamente" cierto. Deseosos como están de que les confirmen la certeza
+de aquello que para ellos es cierto y convencidos como están de la relación íntima entre
+ciencia y verdad, bien estarán dispuestos a admitir a cambio la cientificidad de mi ciencia
+si con ella les confirmo la certeza de sus certezas."
+Salvador Cardús; Joan Estruch (1984, pág. 65).
+De este modo, no existe una imagen estereotipada de lo que es y lo que hace
+un sociólogo. Nos encontramos, mejor dicho, con una mezcla de diferentes
+imágenes, todas hasta cierto punto borrosas y, sobre todo, cargadas de ambi-
+güedades, como veremos en los subapartados que tenemos a continuación.
+1.1. Sociología y filantropía
+Una de las imágenes más difundidas y persistentes es aquella que asocia la
+sociología con algún tipo de actividad filantrópica. El sociólogo se concibe
+como alguien que se dedica a trabajar con gente, a favor de la gente, en pro
+de los otros.
+"La imagen del sociólogo implicada aquí podría describirse como una versión secularizada
+del liberal Clero Protestante, proporcionando quizá el secretario de la YMCA (Asociación
+de Jóvenes Cristianos) el vínculo de enlace entre la obra social sagrada y la profana".
+Peter L. Berger (1971, pág. 12).
+Sin embargo, este tipo de imagen tiene que ver en especial con las circunstan-
+cias de la primera etapa de institucionalización de la sociología en las univer-
+sidades norteamericanas. Es bien sabido que la mayor parte de las universida-
+des más conocidas de Estados Unidos son privadas, y que en un principio to-
+das estaban vinculadas a alguna de las grandes denominaciones eclesiásticas.
+Cuando el protestantismo liberal norteamericano, muy preocupado por lo que
+entonces se solía llamar "las cuestiones sociales", decidió que era conveniente
+profesionalizar a las personas que de manera benévola y voluntaria se ocupa-
+ban de los problemas relacionados con la pobreza, la marginación, etc., recu-
+rrió a la sociología como uno de los instrumentos más adecuados para formar
+© FUOC • PID_00267831
+12
+La perspectiva sociológica
+a dicho personal. Y así se fue introduciendo la enseñanza de esta disciplina en
+un contexto en el que existía, en efecto, la pretensión de ayudar y de hacer
+el bien a los demás.
+El hecho de que la sociología se puede poner al servicio de finalidades
+filantrópicas es indudable; se trata, incluso, de un propósito loable. En
+este caso, la ambigüedad radica en que no se puede perder de vista que
+las informaciones y los conocimientos que la sociología nos proporcio-
+na pueden ser útiles tanto a quien se guía por estas pretensiones filan-
+trópicas como a quien tiene unas intenciones opuestas.
+1.2. Sociología y reforma social
+Si las ambigüedades de la conexión entre sociología y filantropía provienen
+especialmente del desarrollo original de la disciplina en Estados Unidos, la
+asociación ambigua entre sociología y reforma social está básicamente relacio-
+nada con los orígenes mismos de la sociología en la Europa del siglo XIX.
+No es este el lugar oportuno para entrar en una exposición detallada de estos
+orígenes y de las razones por las cuales surge la sociología en un ámbito geo-
+gráfico y en un marco histórico muy concretos.
+En cualquier caso, por ahora nos limitaremos a una única observación cuya
+intención es poner de relieve el porqué de esta conexión entre sociología y la
+voluntad de una reforma social.
+En efecto, si entendemos la sociología como una reflexión sistemática sobre la
+sociedad y sobre su funcionamiento, nos tendríamos que preguntar qué tipo
+de circunstancias pueden propiciar que surja este tipo de reflexión. Y es que, en
+contra de lo que tendemos a dar por descontado cuando decimos de nosotros
+mismos que somos seres que pensamos, lo cierto es que habitualmente nos
+ponemos a pensar solo cuando algo nos obliga a ello. Así pues, nos ponemos a
+pensar cuando se nos presenta una dificultad, un obstáculo; cuando tenemos
+delante un problema que interrumpe nuestra rutina irreflexiva. O, dicho de
+otro modo, para que haya una reflexión sobre la sociedad es necesario que esta
+sea problemática, que ella misma se haya convertido en un problema.
+Lecturas recomendadas
+Sobre esta cuestión podéis
+leer las observaciones de Pe-
+ter￿L.￿Berger (1971) en el
+primer capítulo de Introduc-
+ción a la sociologia, paralelas
+a lo que estamos diciendo
+aquí. También tratan de este
+tema los capítulos 1, 9 y 10
+del libro de C.￿Wright￿Mills
+(1999). La imaginación socio-
+lógica. Madrid: FCE.
+Ved también
+Esta cuestión se trata con deta-
+lle en el apartado 1 del módu-
+lo "El pensamiento sociológico
+(I). Los fundadores", dentro de
+esta misma asignatura.
+Y esto es lo que sucedió con el derrumbamiento del Antiguo Régimen. Como
+consecuencia de las transformaciones estructurales provocadas por la Revolu-
+ción Francesa, que en cierto modo es su contrapartida en el plano ideológico,
+un tipo completo de sociedad se agrieta, se tambalea y desaparece. Y si los
+cambios demográficos y los procesos de industrialización y de urbanización
+provocan la emergencia de un nuevo modelo de estructuración de la sociedad,
+En la imagen se puede ver cómo la industria va
+haciendo acto de presencia en el mundo rural,
+en concreto en Glasgow, Escocia.
+© FUOC • PID_00267831
+13
+La perspectiva sociológica
+se vuelve necesario articular un nuevo tipo de discurso en el plano del pensa-
+miento y de las ideas que explique, que justifique, que legitime las transfor-
+maciones que se han producido.
+De este modo nace la sociología como disciplina típicamente moderna y occi-
+dental. Añadamos a esto el hecho de que en este momento histórico se busca
+muy a menudo en la ciencia no solo una herramienta que ayude a compren-
+der mejor la realidad que nos rodea, sino también un instrumento que nos
+diga qué tenemos que pensar y cómo tenemos que vivir, y hallaremos una
+explicación de:
+•
+por una parte, la ideología reformista de gran parte de esta sociología ini-
+cial;
+•
+por la otra, la aparición de las figuras de los grandes "clásicos" de la disci-
+plina, de entre los cuales podríamos citar:
+•
+En Francia, Auguste￿Comte, que la bautiza, y Émile￿Durkheim, que la
+consagra como ciencia al servicio de la creación de una nueva moral laica,
+sustituyendo el papel que ejercían las antiguas tradiciones religiosas, y que
+garantiza la cohesión social.
+•
+En Alemania, Karl￿Marx, como el gran profeta del futuro de esta sociedad
+industrial capitalista, y Max￿Weber, como el primero de los clásicos de la
+sociología que, rompiendo con esta concepción positivista de la ciencia,
+corta el cordón umbilical que vinculaba la sociología a la reforma social.
+Y es que, en definitiva, aquí radica el quid de la cuestión: la ambigüedad
+de esta imagen de la sociología asociada a la reforma y a la mejora de la
+sociedad deriva del hecho de que la ciencia es incapaz de decirnos cómo
+tendrían que ser las cosas y se limita, tal y como afirma Max Weber, a
+ayudarnos a comprender mejor cómo son, con un poco más de lucidez
+y un poco menos de engaño y de autoengaño.
+1.3. Sociología y encuestas
+Si hay alguna imagen de la sociología que tiene hoy, aquí, ciertas posibilidades
+de convertirse en un estereotipo, es decir, si es previsible que se puedan llegar
+a hacer chistes de alguna faceta de la actividad del sociólogo, esta es sin duda
+la del sociólogo como realizador de encuestas.
+Empezamos por afirmar que en algunas ocasiones las encuestas pueden ser
+bastante útiles: útiles en especial para los creadores y gestores de la opinión
+pública, ya sean publicitarios o políticos profesionales, pero útiles también
+desde un punto de vista científico. Asimismo, tras haber dicho esto, es nece-
+Ved también
+Estos "clásicos" son tratados
+con detenimiento en los apar-
+tado 2 y 3 del módulo "El pen-
+samiento sociológico (I). Los
+fundadores" de esta misma
+asignatura.
+© FUOC • PID_00267831
+14
+La perspectiva sociológica
+sario subrayar con fuerza cuáles son los límites de las encuestas, y a qué am-
+bigüedades da lugar el hecho de identificar la sociología con la realización de
+encuestas.
+Ante las encuestas tenemos que ser prudentes por dos motivos principales:
+1) En primer lugar, porque las encuestas proporcionan sencillamente un ma-
+terial poco o muy fiable, pero por ellas mismas no explican todavía nada: pa-
+ra que hablen, para que expliquen algo, hay que interpretarlas, es decir, los
+resultados se tienen que situar en un marco de referencia teórico, tienen que
+ser contrastados con unas hipótesis de trabajo previas, etc. El hecho de hacer
+encuestas no implica estar haciendo sociología; es, en el mejor de los casos,
+preparar el terreno para poder hacerla.
+2) En segundo lugar, hay que tener en cuenta que existen muchos tipos de
+encuestas. Sin entrar en detalles técnicos, que además aquí no son necesarios,
+fijaos en la diferencia que se establece entre incluir o no en un cuestionario
+unas preguntas que buscan:
+•
+datos objetivos ("¿en qué año naciste?");
+•
+datos de comportamiento ("¿cuántas veces has ido al cine en los últimos
+quince días?", "¿a quién votaste en las últimas elecciones?");
+•
+opiniones ("¿te gusta el cine?", "¿te consideras de derechas o de izquier-
+das?").
+Es evidente que el grado de fiabilidad de las respuestas, así como la posibili-
+dad de compararlas, sumar y obtener los porcentajes, es extraordinariamente
+variable en función de los casos:
+•
+De los datos relativos a la edad, se puede extraer una pirámide de edades,
+útil y fiable a pesar de que esta todavía no nos indique demasiadas cosas
+más que ofrecernos una descripción de una situación determinada en un
+momento concreto.
+•
+A partir de la frecuencia de visitas al cine, podemos hacernos una idea de
+un aspecto determinado del consumo cultural.
+© FUOC • PID_00267831
+15
+La perspectiva sociológica
+•
+Del porcentaje de personas que dicen que les gusta el cine no vamos a
+obtener nunca más que eso: comprobar cuántas personas afirman que les
+gusta el cine cuando se lo preguntas, sin saber a ciencia cierta qué quieren
+decir cuando afirman que les gusta el cine, y sin ni siquiera saber de manera
+aproximada si las que dicen que les gusta el cine quieren decir lo mismo
+cuando lo dicen.
+La mayor parte de los problemas, de las dificultades y de las ambigüe-
+dades del uso de las encuestas en sociología deriva de las encuestas￿de
+opinión, que son, por otra parte, aquellas de las que los medios de co-
+municación suelen hacer eco, y que son precisamente las menos fiables
+y las que más se prestan a manipulaciones de todo tipo.
+Lectura complementaria
+Si queréis profundizar en es-
+tas cuestiones, os serán muy
+útiles los primeros capítulos
+del libro:
+Raymond￿Quivy (2005). Ma-
+nual de investigación en cien-
+cias sociales. México (D.F.): Li-
+musa, cop 2000.
+Esquemáticamente, las principales￿ambigüedades￿de￿las￿encuestas￿de￿opi-
+nión son las siguientes:
+1) Se parte del presupuesto de que todos tenemos una opinión formada sobre
+cualquier cuestión. La lógica más elemental tendría que hacer que nos diése-
+mos cuenta de que sobre una gran cantidad de temas carecemos de alguna
+opinión formada, porque nunca nos hemos detenido a pensar en ellos seria-
+mente.
+2) Todo cuestionario de encuesta supone cierta problemática. Lo que se nos
+pregunta tiene más que ver con los intereses o las preocupaciones del encues-
+tador que con las del encuestado. Y, por otra parte, también en este caso resulta
+evidente que la manera de formular las preguntas condiciona las respuestas.
+3) La obtención de los resultados (adiciones, porcentajes, comparaciones, etc.)
+presupone la necesidad de considerar que todas las respuestas quieren decir lo
+mismo. Sin embargo, muchas preguntas son tan genéricas que las respuestas
+no son estrictamente comparables. A menudo, tanto el sí como el no pueden
+tener significados muy diferentes. Hay quien tiende a contestar determinadas
+preguntas desde planteamientos éticos, y hay quien lo hace de una forma más
+estratégica. Y es lógico que las interpretaciones del encuestador pueden hacer
+que los resultados digan más o menos cosas de las que derivan de las respuestas
+literales, sin coincidir necesariamente con la interpretación que llevaría a cabo
+el mismo encuestado.
+4) Finalmente, las encuestas de opinión parten del presupuesto de que todas
+las opiniones son equivalentes. La filosofía de las consultas electorales –una
+persona, un voto– se convierte en la filosofía implícita de las encuestas. Tiene
+el mismo valor, en el recuento electoral, el voto de un campesino analfabeto
+Los referendos
+Políticamente, un gobierno
+puede someter una cuestión a
+referéndo; pero, cuando lo ha-
+ce, no busca conocer de ma-
+nera científica la opinión de
+la población, sino hacer que
+triunfe un punto de vista de-
+terminado. Por algo se llevan a
+cabo las campañas previas a la
+votación.
+© FUOC • PID_00267831
+16
+La perspectiva sociológica
+que el voto de un catedrático de ciencia política; del mismo modo, en una
+encuesta de opinión se valora por igual lo que puedan afirmar sobre los anti-
+conceptivos una madre de familia y una monja.
+Sin embargo, las ambigüedades de las encuestas no acaban aquí. Aunque con
+estas breves observaciones será suficiente para entender que, a pesar de que en
+ciertas ocasiones proporcionen informaciones útiles, la sociología no podría
+ir muy lejos si se fiase de estas de manera prioritaria.
+© FUOC • PID_00267831
+17
+La perspectiva sociológica
+2. Las principales características de la perspectiva
+sociológica
+Hablar de la sociología como perspectiva implica tomar conciencia del
+hecho de que no es suficiente saber qué es lo que estamos observando y
+analizando, sino que, al mismo tiempo, es necesario que sepamos desde
+dónde lo estamos considerando.
+Diferentes perspectivas: un símil
+Se pueden hacer muchas fotografías de una catedral, se puede enfocar desde muchos
+ángulos diferentes, y se puede utilizar un teleobjetivo o un gran angular. Los resultados
+serán siempre, en efecto, fotografías de la catedral en cuestión, pero no se verá en todas
+lo mismo ni de la misma forma. Del mismo modo, nos podemos dedicar a analizar el
+tema del nacionalismo, los problemas de los inmigrados o la cuestión de la religiosidad
+sectaria, pero es evidente que no se considera igual el tema del nacionalismo desde Burgos
+que desde Berga, desde un cuartel de Toledo o desde el palacio episcopal de Valladolid
+(excepto, puede ser, en caso de que el obispo de Valladolid sea hijo del coronel de Toledo,
+hecho que, por otra parte, no es imposible).
+Adoptar la perspectiva sociológica quiere decir:
+1) tomar conciencia de esta variedad de puntos de vista;
+2) saber constantemente dónde se sitúa uno mismo;
+3) hacer un esfuerzo para trascender una visión tan parcial y limitada;
+4) tratar de entender los otros puntos de vista posibles.
+El sociólogo y la farola
+El sociólogo, por otra parte muy parecido a cualquier otro científico, es como aquel in-
+dividuo que en una noche sin luna observaba fijamente el suelo, medio agachado al lado
+de una farola. Se le acerca alguien y le pregunta si tiene algún problema, y el individuo
+contesta que ha perdido las llaves de su casa y no las encuentra por ninguna parte. Cuan-
+do ha pasado un rato buscando inútilmente, el viandante le pregunta si está seguro de
+haberlas perdido justo en aquel lugar. "Pues no –replica el individuo–, pero como mínimo
+aquí puedo ver."
+2.1. Una perspectiva parcial
+Empezar la caracterización de la perspectiva sociológica subrayando su parcia-
+lidad no es solo un ejercicio de modestia, sino de lucidez, y esto debido a mu-
+chas razones. Veamos unas cuantas:
+1) En primer lugar, ya hemos indicado que la perspectiva sociológica era típi-
+camente occidental, lo cual significa que han existido y existen una serie de
+sociedades que funcionan, y que a menudo funcionan bastante bien, a pesar
+de que prescinden con total tranquilidad de la sociología. Es decir, que la pri-
+© FUOC • PID_00267831
+18
+La perspectiva sociológica
+mera idea a la que un sociólogo se tiene que acostumbrar es a que su perspec-
+tiva resulta válida, e incluso útil, pero que no es la panacea universal, ya que
+ni siquiera es imprescindible.
+2) En segundo lugar, tendría que quedar claro que al hablar de parcialidad
+no nos estamos refiriendo ni mucho menos a aquel tipo de problemas que
+suele plantear el arbitraje en fútbol. Al contrario, desde este punto de vista,
+la perspectiva sociológica aspira a una imparcialidad￿exquisita, en el sentido
+de que busca, y lo hace de forma apasionada, alcanzar la máxima objetividad:
+ver las cosas tal y como son y entenderlas, con independencia de que sean
+realmente como nos gustaría que fuesen.
+Parcialidad se contrapone aquí, por lo tanto, no a imparcialidad, sino a glo-
+balidad o totalidad. Es decir, como perspectiva que es, la sociología supone
+un punto de vista determinado, pero no el único posible, ni necesariamente
+siempre el mejor de todos los puntos de vista.
+3) Por otra parte, el reconocimiento de esta parcialidad del propio punto de
+vista equivale a una reivindicación de la necesidad￿de￿una￿aproximación
+pluridisciplinaria a los fenómenos que estudiamos.
+Muy a menudo los científicos sociales tienden a partir de una curiosa concep-
+ción implícita según la cual la realidad aparece fragmentada en una multipli-
+cidad de parcelas, en la que cada una es como un tipo de coto privado de caza.
+El historiador, el economista, el psicólogo, el antropólogo y el sociólogo se
+dedicarían a cultivar su pequeña propiedad, siempre velando por que nadie les
+pise el terreno que posee en exclusiva. Esta concepción es radicalmente falsa,
+y sería mucho mejor que partiéramos del presupuesto exactamente contrario.
+Historiadores, economistas, psicólogos, antropólogos y sociólogos estudiamos
+la misma realidad, única y común a todos.
+Lo que nos diferencia es precisamente el ángulo donde nos situamos a la ho-
+ra de contemplar esta realidad. Es decir, tenemos perspectivas diferentes de
+una misma realidad y, en consecuencia, la vemos desde ángulos diferentes.
+Sin embargo, en lugar de ver al otro como un invasor potencial de nuestro
+territorio, aprendemos a ver a alguien que desde su perspectiva aporta puntos
+de vista complementarios al nuestro, porque todo￿punto￿de￿vista￿es￿parcial
+por￿definición.
+4) Podríamos ir todavía un poco más allá en la consideración de esta cuestión
+de la parcialidad. A pesar de que nos cueste aceptar esto, hoy día en nuestras
+sociedades de devotos adoradores de la ciencia, la perspectiva sociológica es
+parcial por el hecho mismo de ser una perspectiva￿científica. Con una falta de
+lógica aplastante, en la actualidad nos encontramos con una tendencia clara
+a considerar que, visto que aquello que dice la ciencia es verdad, nada de lo
+que se diga desde fuera de la ciencia podrá serlo.
+© FUOC • PID_00267831
+19
+La perspectiva sociológica
+Sería necesario que nos diésemos cuenta de que, en cambio, el conocimiento
+científico no es más que una de las múltiples formas de conocimiento al lado
+de otras. Asimismo, mediante la poesía se puede acceder al conocimiento; la
+música es una fuente de conocimiento, y el conocimiento religioso es también
+conocimiento, aunque no sea conocimiento científico.
+Del mismo modo, hay una forma de conocimiento que resulta fundamental,
+y que es además la que utilizamos con más frecuencia, el conocimiento￿jui-
+cioso￿y￿de￿sentido￿común￿de￿nuestra￿vida￿diaria, aquel que nos permite
+saber cómo tenemos que comportarnos en una situación determinada, cómo
+tenemos que circular por la carretera o qué tenemos que hacer para llamar
+a Dinamarca. Todas estas cosas que en realidad "sabemos hacer" son conoci-
+mientos que tenemos, conocimientos bastante válidos en la mayor parte de
+las ocasiones, aunque no sean conocimientos científicos.
+2.2. Una perspectiva crítica
+De todo lo que se ha ido diciendo hasta aquí, podemos deducir, con bastante
+claridad, que la perspectiva sociológica es una perspectiva eminentemente crí-
+tica. Del mismo modo, quizá se podría desprender una segunda constatación:
+y es que, en contra de la más invertebrada de las costumbres de los políticos
+profesionales, y en contra también de nuestros hábitos como ciudadanos, la
+crítica solo es científicamente válida –y quizá podríamos añadir que solo es
+éticamente aceptable– cuando empieza por la autocrítica. Por este motivo, he-
+mos subrayado como primera de todas las características de la perspectiva so-
+ciológica la de su parcialidad.
+Asimismo, una vez dicho esto, la perspectiva sociológica es en efecto una pers-
+pectiva crítica, y lo es en el sentido de que no se conforma con aquellas ver-
+siones o explicaciones de la realidad que parecen evidentes a primera vista. Si
+antes decíamos que era necesario esforzarse para ver las cosas tal y como son
+y no como nos gustaría que fuesen, ahora se trata de recordar que las cosas
+no son lo que parecen, y que no es oro todo lo que reluce. O, dicho de una
+manera un tanto más rigurosa, toda realidad se presta a diferentes lecturas en
+la medida en que esconde siempre diferentes niveles de significación, y una
+perspectiva crítica es la que intenta tenerlos todos en cuenta.
+En la vida social nos encontramos con una serie de definiciones determina-
+das de la situación que se tienden a imponer como incuestionables: son las
+concepciones￿"oficiales"￿de￿la￿realidad. Pues bien, como perspectiva crítica
+diríamos que la sociología se interesa tanto por estas concepciones "oficiales"
+como por las concepciones￿"no￿oficiales"￿de￿la￿realidad, porque lo que busca
+es intentar entender qué grupos, y en nombre de qué intereses, se esfuerzan
+por imponer como oficiales sus concepciones de la realidad.
+Lectura complementaria
+En torno a la cuestión del co-
+nocimiento de la vida coti-
+diana, consultad la obra:
+Peter￿L.￿Berger;￿Thomas
+Luckmann (1986). "La cons-
+trucción social de la reali-
+dad". Buenos Aires: Amorror-
+tu.
+El contenido de este libro so-
+brepasa lo que sería razona-
+ble exigir de un estudiante
+en un curso de introducción
+a la sociología. Sin embargo,
+es una de aquellas obras fun-
+damentales que el sociólo-
+go profesional debe tener de
+manera permanente encima
+de la mesilla de noche.
+© FUOC • PID_00267831
+20
+La perspectiva sociológica
+Concepciones oficiales y no oficiales de la realidad
+Suponed que viajáis en automóvil desde Perpiñán a Tarragona. En un momento dado,
+encontraréis en plena autopista un cartel que dice: "España", y un poco más tarde, otro
+que dice: "Autopista del Nordeste".
+Efectivamente, oficialmente habéis cruzado una frontera y os encontráis en aquella en-
+trañable región que hace decir a las zarzuelas aquello de "costas de Levante, playas de
+Lloret", y que los monarcas tengan ganas de recitar unos versos de Verdaguer mientras
+esquían en el Valle de Arán.
+Pero suponed también por un instante que sois una de esas personas que no comulgan
+con estas concepciones oficiales y que se sienten ciudadanos de una patria que incluye
+Perpiñán (la Cataluña Francesa), Cataluña, las Islas Baleares y el País Valenciano. Si es
+así, no habéis cruzado ninguna frontera ni entendéis a qué viene lo del "Nordeste". Nos
+hallamos ante un conflicto entre definiciones "oficiales" y "no oficiales", ambas objeto
+de interés para la sociología.
+Podéis buscar ejemplos por todas partes, y en todos encontraréis siempre lo
+mismo: que en la vida social nos dedicamos constantemente a poner etique-
+tas, tanto a las personas como a las cosas. Los ingleses son introvertidos, el Pa-
+pa es muy conservador, Cataluña es una nación y el Barça es más que un club.
+Una de las reglas de oro de la sociología es aquella que hace que nos
+demos cuenta de que el juego de poner etiquetas nos indica siempre
+mucho más del etiquetador que del etiquetado. La perspectiva crítica de
+la sociología nos recuerda que toda moneda tiene dos caras, y que tan
+interesante e instructivo es contemplar una como otra, aunque sea ha-
+bitual que una de las caras tienda a ser presentada como la cara "oficial".
+"A estas alturas puede resultar evidente que los problemas que interesan a un sociólogo
+no son necesariamente los que otra gente puede llamar «problemas». La manera en que
+los funcionarios públicos y los periódicos (y ¡ay!, algunos libros de texto en materia de
+sociología) hablan acerca de los «problemas sociales» sirve para oscurecer este hecho. La
+gente habla generalmente de un «problema social» cuando algo en la sociedad no fun-
+ciona en la forma en que se supone que debería hacerlo según las interpretaciones ofi-
+ciales. En este caso, esperan que el sociólogo estudie el «problema» tal como ellos lo han
+definido y que tal vez dé una «solución» que atienda el asunto a su propia satisfacción.
+En contraste con este tipo de expectativa, es importante comprender que un problema
+sociológico es, en este sentido, algo totalmente diferente de un «problema social». […]
+Así, el problema sociológico no consiste tanto en saber por qué algunas cosas «funcionan
+mal» desde el punto de vista de las autoridades y de la administración de la escena social,
+sino, en primer lugar, cómo funciona todo el sistema, qué conjeturas pueden extraerse de
+él y por qué medios se mantiene sin interrupción. El problema sociológico fundamental
+no es el crimen, sino la ley; no es el divorcio, sino el matrimonio; no es la discriminación
+racial, sino la estratificación definida racialmente; ni la revolución, sino el gobierno."
+Peter L. Berger (1971, pág. 58 y sig.).
+2.3. Una perspectiva desenmascaradora
+En estrecha relación con lo que acabamos de decir sobre los diferentes niveles
+de significación de la realidad social, podríamos comparar una sociedad con
+un edificio arquitectónico, con su estructura interna y su fachada. La fachada
+es lo que se ve a primera vista. Es más, la fachada tiene precisamente la finali-
+dad de ser vista, de embellecer y de paso, de disimular la estructura interna del
+edificio. Pues lo mismo sucede con la sociedad: las definiciones oficiales de la
+realidad existen para ser mostradas y para quedar bien, y tienen, además, la
+© FUOC • PID_00267831
+21
+La perspectiva sociológica
+función de enmascarar la estructura interna de la sociedad. A pesar de todo, lo
+que mantiene en pie tanto los edificios como la sociedad son las estructuras,
+no las fachadas.
+Así pues, hablar de la sociología en tanto que perspectiva desenmascara-
+dora implica la voluntad deliberada y sistemática de observar a través de
+las fachadas para descubrir cuál es la estructura interna de la sociedad.
+Sin embargo, este desenmascaramiento se puede contemplar también desde
+otra dimensión si comparamos ahora la sociedad no ya con un edificio, sino
+con un teatro, con una inmensa representación teatral en la que nosotros so-
+mos los actores. Somos, literalmente, personas o personajes, es decir, aquellos
+que aparecen en la escena de una representación teatral. Sin embargo, en esta
+representación también somos, por norma general, no los grandes protagonis-
+tas, sino actores secundarios, aquellos que en el primer acto salen disfrazados
+de criado, en el segundo de campesino y en el tercero de cualquier otra cosa.
+Es decir, que en el transcurso de la representación interpretamos simultánea-
+mente varios papeles, siempre de acuerdo con el guion de la obra.
+El gran teatro del mundo
+En El gran teatro del mundo,
+Calderón jugaba con esta idea.
+El argumento consisteen el he-
+cho de que los personajes, el
+Rey, el Rico, el Pobre, el Cam-
+pesino y un Niño (entre otros),
+tienen que representar para
+otro personaje, el Autor, una
+obra que se titula Obrar bien,
+que Dios es Dios.
+Franceses, ingleses y alemanes conocen la acción de encarnar o interpretar un
+papel en una representación teatral con la expresión representar un rol. Pues
+bien, aquí tenéis el origen de la teoría￿de￿los￿roles en sociología. En la repre-
+sentación teatral que es nuestra vida en sociedad, "representamos" varios ro-
+les (familiares, profesionales, etc.), siempre de acuerdo con la pauta que nos
+marca el guión y, al mismo tiempo, con el margen de libertad interpretativa
+de que dispone todo actor.
+Ved también
+La teoría de los roles se trata
+con un mayor detenimiento en
+el subapartado 2.3. del módu-
+lo "La sociedad (II). El proceso
+de institucionalización" de esta
+asignatura.
+Por otra parte, en el teatro clásico los actores salían a escena con una careta,
+una máscara, que simbolizaba precisamente que se encontraban representado
+un papel o un rol determinado. De este modo, que desde el punto de vista
+etimológico la palabra persona designa no solo al personaje teatral, sino en
+concreto a esta máscara de actor. En este sentido, la sociología es una perspec-
+tiva desenmascaradora en la medida en que supone el intento de comprender
+cuáles son los papeles o roles que interpretamos todos, y cuáles son las más-
+caras o caretas con las que nos vamos disfrazando sucesivamente a lo largo de
+esta representación que es nuestra vida en sociedad.
+2.4. Una perspectiva relativizadora
+Para finalizar, y como consecuencia de todo lo que hemos expresado, la pers-
+pectiva sociológica se nos presenta en definitiva como una perspectiva relati-
+vizadora.
+Habitualmente el hombre de la calle contempla
+la representación sentado en una butaca. La
+sociología nos invita a contemplarla desde una
+perspectiva diferente: entre bastidores, es decir,
+allí donde los actores se quitan la máscara.
+© FUOC • PID_00267831
+22
+La perspectiva sociológica
+¿Qué queremos decir con esto? Pues que a medida que nos vamos adentrando
+en ella, muchas de las cosas que por norma general tendríamos que considerar
+como incuestionables dejan de serlo. Las evidencias colectivas se desvanecen,
+la seguridad se convierte en inseguridad y las certezas se transforman en dudas;
+es decir, lo que nos parecía absoluto se convierte en relativo.
+Esto sucede porque la perspectiva sociológica nos obliga a rehacer en sentido
+inverso el camino de la reificación. La reificación es, según Marx, el proceso
+por el cual el hombre pierde la conciencia del hecho de que él es quien ha
+producido el mundo, un mundo que acaba viviendo como algo diferente de
+un producto humano; por el contrario, la perspectiva sociológica implica pre-
+cisamente la recuperación de esta conciencia.
+"La reificación es la aprehensión de los fenómenos humanos como si fuesen cosas, va-
+le decir, en términos no humanos o posiblemente sobrehumanos. Se puede expresar de
+otra manera diciendo que reificación es la aprehensión de los productos de la actividad
+humana como si fuesen algo distinto de los productos humanos, como hechos de la na-
+turaleza, como resultados de leyes cósmicas, o manifestaciones de la voluntad divina. La
+reificación implica que el hombre es capaz de olvidar que él mismo ha creado el mundo
+humano, y, además, que la dialéctica entre el hombre, productor, y sus productos pasa
+inadvertida para la conciencia. El mundo reificado es, por definición, un mundo deshu-
+manizado, que el hombre experimenta como facticidad extraña, como un opus alienum
+sobre el cual no ejerce control mejor que el del opus proprium de su propia actividad pro-
+ductiva."
+Peter L. Berger; Thomas Luckmann (1968, pág. 116 y sig.).
+Por tanto, podríamos decir que la perspectiva sociológica es de hecho
+una perspectiva￿desreificadora, y que esto tiene como consecuencia
+la sensación de relatividad, de desaparición de todo criterio de valor
+absoluto.
+Desde el punto de vista histórico, son tres los factores que han contribuido de
+manera decisiva a hacer posible esta toma de conciencia:
+1) La acumulación gradual de conocimientos de la historia comparada de las
+culturas y las civilizaciones.
+2) Las investigaciones de etnólogos y antropólogos sobre las sociedades cono-
+cidas como "primitivas".
+3) La revolución operada en el seno de nuestra propia sociedad occidental por
+el psicoanálisis freudiano con el descubrimiento del papel del inconsciente
+como motor oculto de muchas de nuestras acciones.
+En efecto, el conocimiento de otras sociedades diferentes de la nuestra, e in-
+cluso el conocimiento de nuestra propia sociedad en otros periodos históricos,
+hace que nos demos cuenta de que todos aquellos hechos, comportamientos
+© FUOC • PID_00267831
+23
+La perspectiva sociológica
+y actitudes que nos parecen evidentes, que consideramos "normales" y "natu-
+rales", no son los "normales" y "naturales" en otras sociedades, ni siquiera lo
+han sido siempre en la nuestra.
+Diríamos que es "natural", por ejemplo, que los padres quieran a los hijos,
+pero, sin duda, no se puede querer a los hijos de la misma manera en el marco
+de una organización de la vida familiar centrada en el modelo de una pareja
+estable con un número reducido de hijos que cuando se tienen muchos hijos
+con muchas madres –o padres– diferentes. Ni se quiere a los hijos igual en
+una época en la que la reducción de las tasas de mortalidad infantil hacen
+que la muerte de un recién nacido se viva como una desgracia que en un
+tiempo en el que la mitad de los niños no llega a los dos años de vida. Así pues,
+cuando afirmamos que es "natural" que los padres quieran a los hijos, estamos
+presuponiendo de manera implícita que padre biológico y padre social son
+una misma persona; y sin embargo, hay sociedades nómadas africanas en las
+que el padre biológico no convive con la tribu de la mujer, y es el hermano de
+esta quien actúa como padre de la criatura ante la sociedad.
+Los ejemplos se podrían multiplicar y alargar de manera indefinida, y lo que
+nos demuestran es que lo que en un principio podría parecer un principio ab-
+soluto es, de hecho, una construcción social, y que lo que tendemos a conside-
+rar espontáneamente "natural" es, en definitiva, totalmente social y cultural.
+La perspectiva sociológica, entonces, hace que nos demos cuenta de
+la relatividad de nuestros comportamientos y del carácter socialmente
+construido y condicionado por nuestras ideas desde el punto de vista
+cultural. En apariencia, solo queda un último reducto inviolable en el
+terreno de nuestros sentimientos, y este es el reducto que Freud se en-
+cargó de desmontar al mostrar que la vida social no solo está presidida
+por múltiples formas de engaño, sino también, y sobre todo, de auto-
+engaño.
+Solemos decirnos que si el teatro de la sociedad es una farsa, como mínimo nos
+queda el consuelo de saber que uno mismo no se engaña. Y así nos construi-
+mos el mito de nuestra autenticidad, de nuestra espontaneidad y de nuestra
+sinceridad. Al fin y al cabo, decidimos satisfechos: "como mínimo yo digo lo
+que pienso". Hasta el día en que descubrimos que las cosas no son tan senci-
+llas. Formulada esta idea en términos de paradoja: "no solo no es verdad que
+siempre digo lo que pienso, sino que, en general, cuando digo lo que pienso
+es porque no pienso lo que digo, mientras que, cuando pienso lo que digo,
+me reservo de decir lo que pienso".
+Sociológicamente no hay
+nada "natural"
+Desde el punto de vista socio-
+lógico se tendría que prohibir
+el uso de los adjetivos natural y
+normal o, como mínimo, si no
+podemos evitar utilizarlos, es
+imperativo que los pongamos
+entre comillas cuando estamos
+haciendo referencia a hechos
+sociales. Así, por ejemplo, es
+natural (sin comillas) que el sol
+salga cada día, e incluso que
+salga por el este; pero que el
+tren de las ocho y media circu-
+le con puntualidad, e incluso
+que se pare en la estación, no
+tiene nada de "natural".
+© FUOC • PID_00267831
+24
+La perspectiva sociológica
+3. El objeto de estudio de la sociología: la sociedad
+Es tan evidente e indiscutible que la sociología estudia la sociedad, o que la
+sociedad es el objeto de estudio de la sociología, que no nos entretendremos
+en esto. Sin embargo, si consultáis manuales de introducción a la sociología
+o diccionarios, encontraréis docenas de definiciones diferentes de sociedad. A
+primera vista, la mayor parte os parecerá, casi seguro, suficientemente razona-
+da, puede que incluso convincente. Pero preguntaos, no tanto si os parecen
+bonitas, sino hasta qué punto os resultan útiles, y os daréis cuenta de que en
+muchas ocasiones no sabréis qué hacer con ellas aparte de intentar memori-
+zarlas.
+Definición de sociedad
+Si queréis contemplar cómo
+un sociólogo se pone nervioso
+y pone cara de querer salir co-
+rriendo, pedidle que os defina
+de manera breve, concisa y ri-
+gurosa qué es la sociedad.
+La definición que os proponemos a continuación es, sin lugar a dudas, muy
+sencilla y elemental, hasta el punto de que no merecería el honor de figurar
+en ningún diccionario. Es casi una definición para salir del paso, pero en cam-
+bio tiene la ventaja de que se puede tomar como un punto de partida para
+ponerse a trabajar. A medida que vayamos avanzando, la podremos matizar
+y completar, pero de momento lo único que le exigimos es que nos resulte
+una herramienta útil para la reflexión y para ir introduciendo una serie de
+conceptos básicos.
+La sociedad es nuestra experiencia con la gente que nos rodea.
+A continuación nos disponemos a analizar con brevedad cada uno de los ele-
+mentos de esta propuesta de definición.
+3.1. La persona como ser social
+¿Por qué podemos afirmar que la sociedad es nuestra experiencia?
+La sociedad es el contexto de todas nuestras experiencias, incluso de
+nuestra experiencia del mundo y de la experiencia que tenemos de no-
+sotros mismos. Los demás intervienen en todas nuestras experiencias,
+desde el mismo momento del nacimiento hasta el momento de la muer-
+te, ya sea posibilitándolas, condicionándolas o modificándolas.
+Actividad
+3.1. Intentad encontrar una sola experiencia, real y concreta, en la que los demás no
+intervengan.
+Ved también
+Algunos conceptos básicos
+que introducimos en este apar-
+tado se trabajan más a fondo
+en los módulos "La sociedad
+(I). El proceso de socialización"
+y "La sociedad (II). El proceso
+de institucionalización", de es-
+ta misma asignatura.
+© FUOC • PID_00267831
+25
+La perspectiva sociológica
+Ni siquiera el sueño, experiencia solitaria por excelencia, es posible sin los
+demás, en la medida en que ni el narcisista más reconsagrado es capaz de
+soñar exclusivamente consigo mismo. La persona lo es, es decir, se convierte en
+persona, en relación constante con los demás; si no se diese esta permanente
+interacción sencillamente no habríamos llegado a ser personas.
+En efecto, nada de todo lo que denominamos personal existiría sin los demás.
+Empecemos por nuestro nombre, con el que nos identificamos, pero que nos
+viene dado e incluso impuesto, y siguiendo con nuestras formas de actuar,
+de pensar y sentir. Tanto nuestros comportamientos como nuestras ideas y
+sentimientos son, en gran parte, consecuencia de la influencia que los demás
+han ejercido sobre nosotros.
+Este hecho se encuentra estrechamente relacionado con el subdesarrollo ins-
+tintivo y el carácter "prematuro" del individuo de la especie humana al nacer.
+La temática del proceso￿de￿socialización arranca de esta constatación,
+que nos permite entender una afirmación paradójica, pero, al mismo
+tiempo, fundamental desde el punto de vista sociológico: nuestra iden-
+tidad personal se construye socialmente.
+En definitiva, somos como somos, somos lo que somos y somos quienes somos
+gracias a los demás (y a veces, incluso, puede que por culpa de los demás). En
+este sentido, podemos afirmar, como ya lo insinuaba la definición de sociedad
+de la que hemos partido: "yo soy yo y aquello que me rodea". Tal y como decía
+Ortega y Gasset en una expresión muy similar, "soy yo y mi circunstancia". O,
+si quisiéramos formularlo en términos todavía más contundentes: "soy lo que
+los otros han hecho de mí".
+Ejemplo
+Aristóteles, sin esperar a que llegase ningún sociólogo a descubrirlo, decía que el hombre
+era un zoón politikón, es decir, un animal político, el que vive en la pólis. El animal que
+vive en la ciudad griega es el que vive rodeado de otra gente, vive en sociedad. Lo que
+afirma Aristóteles es, por consiguiente, que el hombre es un ser social.
+De todos modos, la contundente fórmula "soy lo que los demás han hecho de
+mí" es al mismo tiempo cierta pero incompleta, puesto que "soy, en￿parte, lo
+que los demás han hecho de mí". Cuando antes comparábamos la sociedad
+con un teatro, veíamos que no se trataba de un teatro de marionetas, sino de
+un teatro de actores vivos, con una capacidad de interpretación que nos dife-
+renciaba de los demás y que hacía de nuestra representación de los roles que
+el guion nos había asignado un trabajo de creación. Jean-Paul Sartre sintetizó
+esto en una fórmula magistral: "soy lo que hago a partir de lo que los demás
+han hecho de mí" (L'homme est ce qu'il fait de ce qu'on a fait de lui).
+Películas recomendadas
+Algunas películas ilustran
+bastante bien esta cuestión,
+como:
+Werner￿Herzog (1974). El
+enigma de Gaspar Hauser (Je-
+der für sich und Gott gegen
+alle).
+François￿Truffaut (1969). El
+pequeño salvaje (L'enfant sau-
+vage).
+En el momento del inicio de
+las películas, efectivamen-
+te, los protagonistas no son
+"personas".
+Ved también
+Se profundiza en la cuestión
+del carácter "prematuro" del
+individuo en los módulos "La
+sociedad (I). El proceso de so-
+cialización" y "La sociedad (II).
+El proceso de institucionaliza-
+ción", de esta misma asignatu-
+ra.
+© FUOC • PID_00267831
+26
+La perspectiva sociológica
+La sociedad es, pues, una experiencia de toda la vida, tanto si lo sabemos como
+si no, de manera tanto individual como colectiva. Es decir:
+1) Por una parte, es una experiencia independiente de toda forma de sociolo-
+gía, que continuaría siendo fundamental aunque la sociología no existiese.
+2) Por otra parte, es una experiencia que empieza antes de que seamos capaces
+de tener conciencia de ella como individuos.
+En este sentido, afirmamos que biografía,￿historia y sociedad son las coor-
+denadas de todo estudio humano. Nuestra biografía es la historia de esta ex-
+periencia que es la sociedad. Se trata, por tanto, de una biografía construida
+en relación con otras y, en consecuencia, social. Y al mismo tiempo, es una
+biografía que se inscribe en la historia de una sociedad que es anterior a no-
+sotros y que nos sobrevivirá. Asimismo, el conocimiento que tenemos de la
+historia y de la sociedad es un conocimiento adquirido de manera biográfica.
+En el espacio y en el tiempo, la biografía es la historia de nuestra trayectoria
+en la sociedad.
+3.2. La rutinación de la experiencia
+La sociedad es nuestra experiencia con la gente que nos rodea, decíamos en
+la anterior propuesta de definición.
+Sin embargo, es evidente que no todas las experiencias que llevamos a cabo en
+el transcurso de nuestra vida son idénticas. Hay diferentes￿tipos￿de￿experien-
+cias que podríamos situar esquemáticamente alrededor de dos polos extremos:
+1) Aquellas experiencias que constituyen sorpresas.
+2) Las experiencias rutinarias.
+Actividad
+3.2. Podéis imaginar con facilidad ejemplos de ambos tipos de experiencias. Detened un
+momento la lectura y buscad alguno, pensad en todo tipo de situaciones que describiríais
+con una frase que empezase de esta forma: "La primera vez que...". Y en el otro extremo,
+en aquellas situaciones que tendrían más relación con la frase: "Todas las veces que...".
+Lectura complementaria
+Sobre la cuestión de las rela-
+ciones entre biografía, histo-
+ria y sociedad, podéis consul-
+tar el espléndido capítulo 8
+del libro de
+C.￿Wright￿Mills (1999). La
+imaginación sociológica. Ma-
+drid: FCE.
+Sin embargo, tan importante o más que la distinción entre sorpresas y rutinas
+es darse cuenta de que se trata de un proceso: el proceso de rutinización de
+la experiencia.
+Cotidianizar
+Max￿Weber hablaba de hecho del proceso de Veralltäglichung, que literalmente podría-
+mos traducir por ‘cotidianización' de la experiencia (¡lo cual nos va a ser útil, de paso,
+para demostrar que en castellano somos capaces de escribir palabras tan largas como las
+alemanas!). El proceso de cotidianización es el que nos hace pasar del "primer día" de una
+experiencia determinada a aquellas experiencias que son propias o típicas de "cada día".
+Lo que para alguien puede ser una experiencia
+rutinaria, para otros puede ser una sorpresa. En
+la película Tootsie, Michael (Dustin Hoffman)
+tiene que aprender a ser una mujer, Dorothy.
+En la imagen, un fotograma de la película de
+Sydney Pollack Tootsie, de 1982.
+© FUOC • PID_00267831
+27
+La perspectiva sociológica
+En general, la novedad y la unicidad de la experiencia disminuyen con el tiem-
+po, con la edad. En el transcurso de nuestra biografía, de niño a viejo, pasamos
+del "todo es una sorpresa" a una situación en la que la sorpresa cada vez se
+hace más improbable.
+A pesar de la connotación peyorativa que a menudo otorgamos a la palabra
+rutina, desde el punto de vista sociológico es importante darse cuenta de que
+nuestra experiencia en sociedad es básicamente una experiencia de rutinas.
+Una vida social sometida permanentemente a situaciones de sorpresa condu-
+ciría a la locura individual y al caos colectivo. Aunque las sorpresas sean siem-
+pre posibles, en general contamos con el hecho de que lo que se producirá no
+será la sorpresa, sino la rutina.
+El hecho de podernos comportar de manera rutinaria y de hacer las cosas por
+inercia, hará, por otra parte, que no nos sea necesario poner los cinco sentidos
+de forma sistemática en lo que estamos haciendo (al vestirnos, al manipular
+el cuchillo y el tenedor a la hora de comer, etc.). Así pues, podemos estar ha-
+ciendo una cosa y estar pensando simultáneamente en otras.
+Así pues, la rutinización de la experiencia es una condición de funcio-
+namiento de la sociedad.
+En la terminología habitual de los manuales de sociología, diríamos que
+la rutinización de la experiencia supone la creación de una serie de pau-
+tas de comportamiento, al mismo tiempo que la aparición de unas ex-
+pectativas en cuanto al comportamiento que adoptarán los demás.
+Es decir, que el comportamiento –propio y de los demás– se regula desde el
+punto de vista social en función de los diferentes contextos en los que se
+produce. Con esto hemos vuelto a topar con la teoría de los roles, que nos
+indica que se tiene que dar una coincidencia relativa entre lo que hacemos (en
+la ejecución de un rol) y lo que los otros esperan que hagamos (expectativa
+del rol).
+Conductor novato
+Lo cierto es que solemos fiar-
+nos más del automovilista que
+conduce de forma rutinaria
+que del novato que acaba de
+aprobar el examen de condu-
+cir y, pegado al volante, repa-
+sa mentalmente todas las ope-
+raciones que tendrá que llevar
+a cabo al mismo tiempo para
+cambiar de marcha.
+Dicho todavía de otro modo: nuestro comportamiento en sociedad está es-
+tructurado. De hecho, se puede afirmar que toda sociedad se encuentra estruc-
+turada; pues bien, el conjunto de pautas que regulan el comportamiento de
+los individuos son instituciones.
+Una última observación: las rutinas, los roles, las estructuras y las instituciones
+pueden cambiar. Es decir, no son eternos, ni inalterables, ni inamovibles, pero
+no pueden desaparecer. Sin rutinas, roles, estructuras e instituciones no hay
+sociedad.
+Ved también
+Este tema se trata en el módu-
+lo "La sociedad (II). El proceso
+de institucionalización", de es-
+ta misma asignatura.
+© FUOC • PID_00267831
+28
+La perspectiva sociológica
+3.3. Relaciones personales y relaciones anónimas
+Así como no todas las experiencias que vivimos en sociedad son idénticas,
+tampoco lo son las relaciones que establecemos con￿los￿demás.
+Imaginad de nuevo dos situaciones extremas:
+1) En determinadas ocasiones, la interacción tiene lugar en situación "de cara
+a cara" y en una relación "de tú a tú".
+2) En otras ocasiones, en cambio, muestra relación con los demás es una rela-
+ción puramente anónima.
+En el mundo rural tradicional tienden a predominar las relaciones￿primarias,
+más directas, mientras que en el mundo urbano lo más habitual es la existencia
+de relaciones￿secundarias, es decir, más anónimas.
+•
+En el primer caso podríamos decir que todos se conocen entre sí, y se co-
+nocen desde todos los puntos de vista. En el segundo, en cambio, nadie
+conoce a casi nadie desde cualquier punto de vista.
+•
+Las relaciones primarias implican dosis considerables de afectividad, mien-
+tras que en las relaciones anónimas el criterio de la funcionalidad es prio-
+ritario.
+•
+Por otra parte, el predominio de las relaciones más directas supone unas
+formas de control social polivalente, motivo por el cual el individuo inte-
+grado en el mundo urbano tiende a valorar de manera positiva un cierto
+grado de anonimato en sus relaciones personales.
+Asimismo, en el transcurso de su biografía el individuo tiende a anonimizar
+sus relaciones. El niño es relativamente incapaz de distinguir los elementos
+funcionales de los afectivos que se dan en una relación, mientras que el adul-
+to (en la vida profesional, por ejemplo) intentará que estos elementos no se
+mezclen. En este sentido, denominamos socialización al proceso por el cual
+el individuo pasa de forma gradual del micromundo de la experiencia más in-
+mediata al macromundo de las relaciones abstractas.
+Fijémonos, en efecto, en la extraordinaria variedad de las relaciones sociales
+de cualquiera de nosotros, y recordemos aquella distinción que establecía Jo-
+sep Pla entre "amigos, conocidos y saludados". En el marco de nuestras "rela-
+ciones", encontramos desde los más íntimos, los familiares, amigos y conoci-
+dos de toda la vida, hasta aquellos que nos hemos encontrado una sola vez;
+y desde los que conocemos a pesar de no haberlos visto nunca "cara a cara",
+pues porque son escritores cuyas obras hemos leído, políticos que hemos visto
+por televisión o personajes de los que hemos oído hablar, hasta aquellos que
+no hemos visto ni conocido pero que a pesar de todo guardan una cierta re-
+© FUOC • PID_00267831
+29
+La perspectiva sociológica
+lación con nosotros, en la medida en que garantizan que nuestra carta a un
+amigo llegará a buen puerto o que se encenderá la luz cuando apretemos el
+interruptor.
+Incluso podríamos hablar de la existencia de un determinado tipo de relacio-
+nes con personas que ya no están, o bien que todavía no han nacido. Nuestros
+antepasados por una parte, y nuestros sucesores por otra. Así, por ejemplo,
+"soy un pianista profesional y me he especializado en la interpretación de Mo-
+zart; soy un sociólogo discípulo de Max Weber, aunque Weber murió cuando
+yo nací: mi relación con Mozart o con Weber es mucho más importante que la
+que pueda tener con un grupo de gente que veo cada día, incluso cara a cara.
+Del mismo modo, estoy consintiendo una serie de sacrificios y organizando
+un conjunto de proyectos para que mis nietos el día de mañana tengan un
+negocio, a pesar de que todavía no ha nacido ningún nieto mío."
+Vemos, entonces, que la sociedad es nuestra experiencia con la gente que nos
+rodea, sin olvidar que no toda la gente que nos rodea tiene para nosotros la
+misma importancia, ni establecemos con ellos el mismo tipo de relaciones. La
+significatividad￿de￿nuestras￿relaciones depende de varios factores, entre los
+cuales sería necesario tener en cuenta:
+1) La frecuencia de la relación.
+2) El grado de intimidad.
+3) El interés que el otro tiene para nosotros.
+4) El grado de implicación afectiva de la relación.
+A menudo estos factores se presentan juntos, pero no siempre es así. En la
+relación de pareja, por ejemplo, o en la relación entre padres e hijos, se da al
+mismo tiempo frecuencia, intimidad, interés y afectividad. Sin embargo, en
+otros casos, entre las personas que vemos más a menudo cara a cara algunas
+son íntimas e interesantes, algunas son más íntimas que interesantes, y otras
+más interesantes que íntimas. Entre las personas que conocemos poco o mu-
+cho, algunas nos interesan mucho y otras no. En cuanto a las personas con las
+que establecemos unas relaciones básicamente anónimas, nuestro interés en
+la relación es funcional y no personal, a pesar de que en absoluto es imposible
+que muchas de ellas sean bastante más interesantes que algunos de nuestros
+amigos.
+Los dos polos opuestos de esta gradación están constituidos por lo que George
+H.￿Mead denominó respectivamente el otro￿significativo y el otro￿generali-
+zado, y será el aprendizaje de los roles el que biográficamente nos permitirá
+pasar progresivamente de uno a otro.
+Ved también
+Este punto se amplía en el
+subapartado 1.2. del módulo
+"La sociedad (I). El proceso de
+socialización", de esta misma
+asignatura.
+© FUOC • PID_00267831
+30
+La perspectiva sociológica
+En el transcurso de nuestra biografía pasamos de manera paulatina de la con-
+vicción de que nuestra madre es la única en el mundo, a la (dolorosa) toma
+de conciencia de que el mundo está lleno de madres, es decir, de personas que
+ejercen el rol de madre, entre las cuales se encuentra la nuestra.
+3.4. El marco de la vida cotidiana
+Para finalizar, este conjunto de experiencias que llevamos a cabo con los otros
+que nos rodean se desarrolla principalmente en el marco de la￿vida￿diaria.
+Este es exactamente el mismo proceso de
+descubrimiento que hace El Principito con su
+rosa, y de su relación con la rosa cuando se da
+cuenta de que el mundo está lleno de rosas.
+El marco de la vida cotidiana constituye "nuestro mundo". No es el úni-
+co mundo posible, pero sí el más real de todos, hasta el punto de que
+tendemos a percibir esta realidad de la vida cotidiana como "la realidad"
+por excelencia; una realidad de la que podemos salir, ciertamente, aun-
+que siempre de manera transitoria y provisional (en el sueño, en el éx-
+tasis, en la aventura), para acabar volviendo a ella.
+Por el contrario, aquel que vive de forma permanente fuera de la reali-
+dad de la vida cotidiana suele ser estigmatizado como loco.
+Este marco de la vida cotidiana al que hacemos referencia presenta tres￿carac-
+terísticas principales:
+El Quijote
+Recordad que el gran crimen
+que comete Don Quijote es
+querer vivir en la aventura.
+1) En primer lugar, la realidad de la vida cotidiana es una realidad￿ordena-
+da, y el lenguaje –verbal, gestual o simbólico– es el gran ordenador de dicha
+realidad.
+"Sus fenómenos [de la realidad de la vida cotidiana] se presentan dispuestos de antemano
+en pautas que parecen independientes de mi aprehensión de ellos mismos y que se le
+imponen. La realidad de la vida cotidiana se presenta ya objetivada, o sea, constituida
+por un orden de objetos designados como objetos antes de que yo apareciera en escena.
+El lenguaje usado en la vida cotidiana me proporciona continuamente las objetivacio-
+nes indispensables y dispone el orden dentro del cual la vida cotidiana tiene significado
+para mí. Vivo en un lugar que tiene un nombre geográfico; utilizo herramientas, desde
+abrelatas hasta autos deportivos, que tienen un nombre en el vocabulario técnico de la
+sociedad en que vivo; me muevo dentro de una red de relaciones humanas –desde el club
+al que pertenezco hasta los Estados Unidos de América– que también están ordenadas
+mediante un vocabulario. De esta manera el lenguaje marca las coordenadas de mi vida
+en la sociedad, y llena esa vida de objetos significativos."
+Peter L. Berger; Thomas Luckmann (1968, pág. 39).
+2) En segundo lugar, la realidad de la vida cotidiana es una realidad￿intersub-
+jetiva, es decir, una realidad compartida con los otros, aunque nunca compar-
+tida por completo. Esto es lo que hace precisamente que tengamos cosas que
+decir, que comunicarnos. No existiría posibilidad alguna de comunicación si
+no tuviésemos un mínimo trasfondo de experiencias comunes, compartidas,
+requisito indispensable para entendernos mutuamente.
+Ved también
+Esta cuestión se expone en el
+subapartado 1.2. del módulo
+"La sociedad (II). El proceso de
+institucionalización", de la pre-
+sente asignatura.
+© FUOC • PID_00267831
+31
+La perspectiva sociológica
+Sin embargo, en el otro ejemplo, en la improbable hipótesis de que dos perso-
+nas compartan íntegramente todas sus experiencias, el diálogo, aunque sigue
+siendo posible, perdería todo su interés. Las relaciones sociales, en el marco de
+la vida cotidiana, se caracterizan por el hecho de que compartimos experien-
+cias suficientes como para tener algo de que hablar, y que estas experiencias
+son discrepantes y hacen que valga la pena hablar de ellas.
+Esto significa que los individuos, así como los grupos, tenemos unos reperto-
+rios de conocimientos (igual que el músico profesional, que cuenta con un
+repertorio de piezas y de autores que ha trabajado y que es capaz de interpre-
+tar); y significa, del mismo modo, que en la vida social se da una distribución
+desigual del conocimiento.
+3) En tercer lugar, la realidad de la vida cotidiana es una realidad￿dada￿por
+descontado. O, dicho de otro modo, es una realidad hecha básicamente de
+certezas, no de dudas. En contra de lo que solemos creer, la vida humana no
+es "un mar de dudas", sino más bien "un mar de certezas", del cual surgen, de
+vez en cuando, algunas dudas. La duda se aprende, pero la certeza es anterior
+a la duda.
+A menudo tendemos a asociar la duda a la ignorancia, y el conocimiento a la
+certeza. Y, sin embargo, nuestra propia experiencia de la vida nos indica que
+es precisamente lo contrario: el niño, que todavía lo ignora todo, no duda de
+nada puesto que su mundo es un mundo de certezas absolutas. A medida que
+va creciendo, aprenderá y empezará a conocer, y también empezará a apren-
+der a dudar. Sin embargo, la rutinización de las experiencias –a la cual hemos
+hecho referencia antes– sirve precisamente para desviar las dudas y para hacer
+que en la inmensa mayoría de las ocasiones, en el marco de la vida cotidiana,
+el individuo se mueva en un entorno de certezas.
+Sabe que son cuestionables, pero sabe también que, en general, no tiene nin-
+guna necesidad de cuestionarlas. No necesita "detenerse a pensar" –ni, por tan-
+to, ponerse a dudar– y, justo en este sentido, da por descontado la realidad de
+la vida cotidiana.
+La duda según Machado
+"Aprende a dudar y acabarás
+dudando de tu propia duda."
+En definitiva, la vida cotidiana de los individuos en la sociedad se desarrolla en
+un marco institucional. Es decir, tanto nuestros comportamientos como nues-
+tros pensamientos y sentimientos se encuentran regulados desde un punto de
+vista social. Estas pautas reguladoras son las instituciones, y nuestra integra-
+ción en este marco institucional se efectúa mediante el proceso de socializa-
+ción. El análisis del proceso de socialización y el análisis de las instituciones
+tienen que ser, por lógica, dos cuestiones primordiales.
+Ved también
+Esta serie de cuestiones capita-
+les se encuentran desarrolladas
+en los módulos "La sociedad
+(I). El proceso de socialización"
+y "La sociedad (II). El proceso
+de institucionalización", de es-
+ta misma asignatura.
+© FUOC • PID_00267831
+32
+La perspectiva sociológica
+Resumen
+A partir del conjunto de elementos que hemos ido observando hasta el mo-
+mento a lo largo de este módulo, podríamos concluir que la adopción de la
+perspectiva sociológica nos enseña tres grandes lecciones, que por suerte son
+las únicas grandes lecciones que la sociología nos puede enseñar.
+1)￿Las￿cosas￿son￿como￿son
+El hecho de reconocer que las cosas son como son quiere decir aprender a dis-
+tinguir entre lo que son las cosas y lo que nos gustaría que fuesen. En efecto, en
+no pocas ocasiones las cosas no son como nos gustaría que fuesen: la escuela,
+la universidad o el ejército; el gobierno, los partidos políticos y la burocracia;
+las desigualdades sociales; la muerte. Cuando pensamos en esto, nos damos
+cuenta de que todas estas cosas en realidad no son como nos gustaría que fue-
+sen, y que, por el contrario, son como son. Así pues, la sociología nos sirve
+para conseguir algo más de lucidez y un tanto menos de engaño, para tomar
+conciencia no solo de la facilidad con que a menudo nos dejamos engañar y
+manipular, sino sobre todo de la facilidad extraordinaria con que tendemos a
+autoengañarnos nosotros mismos.
+2)￿Las￿cosas￿no￿son￿lo￿que￿parecen
+O, dicho de forma coloquial, no es oro todo lo que reluce. Para aprender cómo
+son las cosas hay que ir más allá de las apariencias, sobrepasar la pura facha-
+da de las cosas. El hecho de interrogarse y dejarse interrogar por la realidad
+que nos rodea supone una doble capacidad: la capacidad de maravillarse, de
+dejarse sorprender e interpelar y, al mismo tiempo, la capacidad de adoptar
+una actitud de sospecha, de preguntarse qué se esconde tras la apariencia de
+esta misma realidad. Es decir, la capacidad de acercarse a las cosas con simpatía
+y al mismo tiempo, con voluntad de desenmascararlas, sabiendo que la con-
+secuencia de esto es la relativización, y sabiendo, también, que aceptar dicho
+carácter relativo –de los hechos, y de nuestra visión de los hechos– es duro.
+3)￿Las￿cosas￿podrían￿ser￿diferentes
+Si solo nos quedásemos con las dos afirmaciones anteriores, acabaríamos en
+una posición terriblemente conservadora, casi fatalista. Al fin y al cabo, si las
+cosas son como son, es porque de forma colectiva hemos hecho que fuesen
+así. El sol sale por el Este, y esto es un hecho natural sobre el cual carecemos
+de control alguno y, en consecuencia, de responsabilidad. Sin embargo, los
+hechos sociales (los roles, las instituciones, etc.) no son de orden natural y, por
+consiguiente, la responsabilidad de los mismos recae sobre nosotros colecti-
+vamente. No obstante, con todas nuestras limitaciones y con todos nuestros
+© FUOC • PID_00267831
+33
+La perspectiva sociológica
+condicionamientos, podemos hacer algo: somos responsables de lo que hace-
+mos, y también somos responsables de lo que dejamos de hacer. En definitiva,
+somos lo que hacemos a partir de lo que los demás han hecho de nosotros.
+Y por este motivo la sociología es una forma de conocimiento y, al mismo
+tiempo, una forma de conciencia.
+Dichas formas de conocimiento y de conciencia se podrían sintetizar en las
+tres virtudes de aquel viejo –y bello– principio que dice así: "Tener la lucidez
+necesaria para aceptar las cosas que no puedo cambiar, el suficiente coraje
+para intentar cambiar las que pueda, y la sabiduría suficiente para ser capaz
+de distinguir las unas de las otras".
+© FUOC • PID_00267831
+35
+La perspectiva sociológica
+Ejercicios de autoevaluación
+1. ¿Qué significa que la mayor parte de la población, en relación con los temas que estudia
+la sociología, se encuentra en situación de mercado informado?
+2. ¿En qué sentido la sociología no es necesariamente ni una disciplina filantrópica, ni su
+objetivo es la reforma de la sociedad?
+3. Definid y distinguid brevemente qué significa que la sociología es una perspectiva parcial,
+crítica, desenmascaradora y relativizadora.
+4. ¿En qué se diferencia un problema social de un problema sociológico?
+5. ¿A qué se refiere Jean-Paul Sartre cuando dice que "el hombre es lo que hace a partir de
+lo que los demás han hecho de él"?
+6. Poned un ejemplo de relación "de tú a tú" y otro de relación anónima.
+7. ¿Qué quiere decir que nuestro mundo de la vida cotidiana es el más "real" de todos, hasta
+el punto de que lo "damos por descontado"?
+© FUOC • PID_00267831
+36
+La perspectiva sociológica
+Solucionario
+Ejercicios￿de￿autoevaluación
+1. Significa que, a diferencia de otras disciplinas científicas, la sociología tiende a conside-
+rarse como una cuestión de opiniones o de gustos, ya que la familiaridad de los temas que
+trata hace que todo el mundo tenga la impresión de que también entiende del tema. Sin
+embargo, de hecho, la sociología propone otra mirada sobre las realidades que en efecto nos
+son familiares, hasta el punto de sorprendernos de lo más cotidiano.
+2. La sociología no es una disciplina filantrópica porque tanto se puede poner al servicio
+del bien como del mal. Por otra parte, la sociología carece de legitimidad para decidir cómo
+deben ser las cosas, así que se propone un objetivo muy diferente: comprenderlas.
+3. La perspectiva sociológica es parcial en tanto que no alcanza la totalidad de la realidad,
+sino que puede trabajar junto con otras disciplinas que completan su visión. Su talante críti-
+co viene dado porque no se contenta con la versión oficial de la realidad que nos llega desde
+el poder establecido, sino que precisamente quiere saber cómo condiciona este poder la forma
+en que se presenta la realidad social. La perspectiva sociológica es desenmascaradora, ya que
+no se contenta con la observación de los elementos más superficiales y visibles de la realidad
+social, sino que quiere ver qué hay detrás de los decorados del gran teatro del mundo; y es
+relativizadora porque, en la medida en que pone al descubierto el carácter histórico y cons-
+truido de toda realidad, hace imposible que demos alguna de estas realidades por absoluta.
+4. El problema￿social es el que viene definido por quienes, en la sociedad, cuentan con el
+poder de decir qué funciona y qué no funciona, y que se formula en los términos ordinarios
+de la experiencia social. En cambio, el problema￿sociológico se define a partir de los inte-
+rrogantes teóricos que propone la sociología, como resultado de la aplicación de una pers-
+pectiva tal y como se ha definido anteriormente.
+5. Esta frase pone de manifiesto el carácter dialéctico de la relación entre el individuo y
+la sociedad, recordando que, así como el individuo se encuentra ciertamente determinado
+por las circunstancias sociales, también es un actor vivo que se puede enfrentar a dichas
+circunstancias.
+6. Las relaciones￿"de￿tú￿a￿tú" son las de tipo directo, como pueden ser las propias del mun-
+do rural, las de amistad o las familiares. Las relaciones￿anónimas, en cambio, en lugar de
+caracterizarse por los vínculos afectivos de las primeras, lo hacen porque se fundamentan en
+criterios de funcionalidad y del papel que representan cada una de las partes: las relaciones
+con el funcionario de policía que expide los carnés de identidad, con el cobrador del metro
+o con el empleado de la oficina bancaria que se establecen al margen de un conocimiento
+personal, constituyen ejemplos de relaciones anónimas.
+7. El hecho de que, desde el punto de vista biográfico, hayamos interiorizado un mundo
+diario determinado, y que lo hayamos "hecho nuestro", que lo hayamos "naturalizado", hace
+que se convierta en "nuestra realidad por excelencia". Percibimos este mundo nuestro orde-
+nado y lleno de sentido, y cualquier otra alternativa de mundo nos parece extraña, poco
+coherente, incomprensible en muchos aspectos y, además, bastante absurda. Está claro, en tal
+caso, que quienes forman parte de otro mundo considerarán que el nuestro es poco coheren-
+te, incomprensible o absurdo. Pues bien, esta familiaridad que ha convertido la experiencia
+de nuestro mundo en un conjunto de rutinas es lo que nos hace que consideremos nuestro
+mundo como el más real de todos, y que hace que lo vivamos, en general, de manera poco
+problemática y dándolo por descontado.
+© FUOC • PID_00267831
+37
+La perspectiva sociológica
+Bibliografía
+Bibliografía básica
+Berger, Peter L. (1971). Introducción a la sociología. México: Limusa.
+Berger, Peter L.; Thomas Luckmann (1968). La construcción social de la realidad. Buenos
+Aires: Amorrortu.
+Giddens, Anthony (1998). Sociología. Madrid: Alianza Editorial.
+Mills, C. W. (1999). La imaginación sociológica. Madrid: FCE.
+Quivy, Raymond; Luc Van Campenhoudt (2005). Manual de investigación en ciencias
+sociales. México: Limusa.

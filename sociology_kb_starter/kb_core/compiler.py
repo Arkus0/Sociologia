@@ -144,30 +144,44 @@ def rebuild_indexes() -> None:
             author_map[str(author)].append(note)
 
     for concept, notes in concept_map.items():
-        write_note(
-            SETTINGS.concepts_dir / f"{slugify(concept)}.md",
-            {
-                "id": slugify(concept),
-                "title": concept,
-                "note_type": "concept",
-                "updated_at": utc_now_iso(),
-                "source_notes": [str(item["path"].relative_to(SETTINGS.kb_root)) for item in notes],
-            },
-            _build_entity_body(concept, notes, "concept"),
-        )
+        note_path = SETTINGS.concepts_dir / f"{slugify(concept)}.md"
+        new_frontmatter = {
+            "id": slugify(concept),
+            "title": concept,
+            "note_type": "concept",
+            "updated_at": utc_now_iso(),
+            "source_notes": [str(item["path"].relative_to(SETTINGS.kb_root)) for item in notes],
+        }
+        # Preserve enriched body content; only overwrite stubs
+        body = _build_entity_body(concept, notes, "concept")
+        if note_path.exists():
+            existing_front, existing_body = load_markdown_file(note_path)
+            if _is_enriched(existing_body):
+                body = existing_body
+                # Preserve extra frontmatter keys from enriched entries
+                for key in ("semester", "course", "related_concepts", "tags"):
+                    if key in existing_front and key not in new_frontmatter:
+                        new_frontmatter[key] = existing_front[key]
+        write_note(note_path, new_frontmatter, body)
 
     for author, notes in author_map.items():
-        write_note(
-            SETTINGS.authors_dir / f"{slugify(author)}.md",
-            {
-                "id": slugify(author),
-                "title": author,
-                "note_type": "author",
-                "updated_at": utc_now_iso(),
-                "source_notes": [str(item["path"].relative_to(SETTINGS.kb_root)) for item in notes],
-            },
-            _build_entity_body(author, notes, "author"),
-        )
+        note_path = SETTINGS.authors_dir / f"{slugify(author)}.md"
+        new_frontmatter = {
+            "id": slugify(author),
+            "title": author,
+            "note_type": "author",
+            "updated_at": utc_now_iso(),
+            "source_notes": [str(item["path"].relative_to(SETTINGS.kb_root)) for item in notes],
+        }
+        body = _build_entity_body(author, notes, "author")
+        if note_path.exists():
+            existing_front, existing_body = load_markdown_file(note_path)
+            if _is_enriched(existing_body):
+                body = existing_body
+                for key in ("semester", "course", "related_concepts", "tags"):
+                    if key in existing_front and key not in new_frontmatter:
+                        new_frontmatter[key] = existing_front[key]
+        write_note(note_path, new_frontmatter, body)
 
     for course, notes in course_map.items():
         all_concepts = sorted({c for n in notes for c in n["frontmatter"].get("concepts", [])})
@@ -295,6 +309,18 @@ def _format_source_note(title: str, summary: str, core_ideas: list[str], concept
 ## Source anchors
 {bullets(source_anchors)}
 """
+
+
+_STUB_MARKER = "This page aggregates references to"
+
+
+def _is_enriched(body: str) -> bool:
+    """Return True if the body has been manually enriched beyond the auto-generated stub."""
+    stripped = body.strip()
+    if not stripped:
+        return False
+    # Stub bodies contain only the marker sentence + source notes list
+    return _STUB_MARKER not in stripped
 
 
 def _build_entity_body(entity: str, notes: list[dict], mode: str) -> str:

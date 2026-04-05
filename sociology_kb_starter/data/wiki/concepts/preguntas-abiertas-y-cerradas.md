@@ -2,7 +2,7 @@
 id: preguntas-abiertas-y-cerradas
 title: Preguntas abiertas y cerradas
 note_type: concept
-updated_at: '2026-04-05T15:04:14+00:00'
+updated_at: '2026-04-05T15:33:05+00:00'
 source_notes:
 - wiki\sources\2026-s1\metodologia-de-las-ciencias-sociales\cuaderno-metodologico-cuestionarios.md
 - wiki\sources\2026-s1\metodologia-de-las-ciencias-sociales\la-investigacion-cuantitativa.md

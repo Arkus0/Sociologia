@@ -1,0 +1,1442 @@
+[Page 1]
+La sociedad (II).
+El proceso de
+institucionalización
+PID_00267829
+Francesc Núñez Mosteo
+Tiempo mínimo de dedicación recomendado: 4 horas
+
+
+[Page 2]
+Francesc Núñez Mosteo
+Doctor en Ciencias Políticas y Sociología. Licenciado en Filosofía por la
+Universidad de Barcelona y en Sociología por la Universidad Autónoma de Barcelona, es profesor de
+los Estudios de Humanidades de la
+UOC.
+La revisión de este recurso de aprendizaje UOC ha sido coordinada
+por el profesor: Roger Martínez Sanmartí (2019)
+Tercera edición: septiembre 2019
+© Francesc Núñez Mosteo
+Todos los derechos reservados
+© de esta edición, FUOC, 2019
+Av. Tibidabo, 39-43, 08035 Barcelona
+Realización editorial: FUOC
+Ninguna parte de esta publicación, incluido el diseño general y la cubierta, puede ser copiada,
+reproducida, almacenada o transmitida de ninguna forma, ni por ningún medio, sea este eléctrico,
+químico, mecánico, óptico, grabación, fotocopia, o cualquier otro, sin la previa autorización escrita
+de los titulares de los derechos.
+
+
+[Page 3]
+Índice
+ 
+Introducción...............................................................................................
+ 
+Objetivos.......................................................................................................
+ 
+1.
+El proceso de institucionalización................................................
+1.1.
+Bases antropológicas de la institucionalización ..........................
+1.2.
+¿Qué es una institución? ............................................................
+1.2.1.
+Definición ......................................................................
+1.2.2.
+Características básicas de una institución .....................
+1.2.3.
+Legitimación. Valores y significaciones últimas ............
+ 
+2.
+La localización del individuo en la sociedad: la
+estratificación social.........................................................................
+2.1.
+De qué hablamos cuando hablamos de estratificación ..............
+2.2.
+Teorías de la estratificación .........................................................
+2.3.
+La encarnación de las instituciones. Los roles ............................
+2.3.1.
+Definición ......................................................................
+2.3.2.
+El género ........................................................................
+ 
+3.
+Algunas dimensiones del mundo social.......................................
+3.1.
+Introducción: la burocracia .........................................................
+3.2.
+La educación ...............................................................................
+3.3.
+La estructura económica. Trabajo y ocio ....................................
+3.4.
+La religión. El problema del sentido ...........................................
+ 
+Resumen.......................................................................................................
+ 
+Actividades..................................................................................................
+ 
+Ejercicios de autoevaluación..................................................................
+ 
+Solucionario................................................................................................
+ 
+Bibliografía.................................................................................................
+
+
+[Page 5]
+Introducción
+Hablamos de la sociedad y de la sociedad entendida (también experimentada)
+como una realidad objetiva, es decir, como "algo" que es, que existe, independiente de nuestra conciencia y de nuestra voluntad. Es necesario, en tal caso,
+que os sentéis ante un mundo que queréis conocer como unos observadores
+externos, un mundo que, como cualquier otro ser humano, ya habéis encontrado hecho cuando os habéis ido incorporando a él.
+Esto no quiere decir que la sociedad no sea un producto humano en constante
+re-construcción: la sociedad es el resultado de la acción humana y dicha acción
+humana la llevan a cabo los hombres y las mujeres que viven en sociedad. Sin
+los individuos que viven y actúan en el mundo social del que forman parte,
+la sociedad no existiría. Sin embargo, al mismo tiempo, sin sociedad tampoco
+existiría acción social, ya que esta es el producto de la sociedad.
+Esta paradoja aparente es lo que llamaremos dialéctica￿social: los seres humanos, en tanto que actúan y estereotipan (exteriorización) una serie de conductas, instituyen (objetivación) un mundo, el mundo social, que al mismo
+tiempo los conforma (interiorización) y da forma a los que se incorporan de
+nuevo a este mundo. Explicado de forma imaginativa, es como si la sociedad
+fuese el resultado de la proyección en una pantalla de múltiples proyectores
+(singulares y parecidas al mismo tiempo), pero que aquello que proyectan no
+es más que la imagen, desde su perspectiva y singularidad, de lo que entre
+todos están proyectando en la pantalla. Esto es solo una metáfora, aunque os
+permitirá haceros cargo de la unidad, así como de la complejidad de este proceso que es la vida social y del cual todos, en mayor o menor medida, somos
+guionistas, directores y actores al mismo tiempo.
+En este módulo, sin perder de vista la unidad del proceso, tendréis que centrar
+la atención en la "imagen proyectada en la pantalla", es decir, en la sociedad
+en tanto que realidad objetiva, así como en lo que son algunas de sus "escenas"
+más relevantes: las instituciones, los estratos sociales, los roles, las organizaciones, etc. Nos podremos acercar a los hechos sociales como si fuesen cosas,
+con toda la consistencia que la palabra puede sugerir, y también podremos
+guardar toda la distancia que conviene mantener para estudiar algo. La lógica
+del conocimiento nos permite este ejercicio de separación: podemos estudiar
+la realidad en sus diferentes momentos de producción, porque se trata de una
+realidad construida.
+Si queréis seguir con la metáfora de "el gran teatro del mundo", actualizada de
+la manera conveniente, podríamos establecer el siguiente paralelismo:
+
+
+[Page 6]
+•
+En el primer￿apartado del módulo hablaremos de las características de los
+actores y del material más básico necesario para montar la película. Esto
+es, mostraremos que la institucionalización está profundamente arraigada
+en las características antropológicas del ser humano, explicaremos qué es
+una institución y cuáles son sus características básicas y, para finalizar,
+señalaremos que toda institución suele estar legitimada y que se presenta
+ante la mayor parte de los actores sociales como lo más natural y normal
+del mundo.
+•
+En el segundo￿apartado, elaboramos las líneas directrices del guion y de
+los papeles que los actores, en función del guion, tendrán que representar.
+Es decir, veremos que la sociedad no es un todo homogéneo y que presenta
+diferentes estratos, a pesar de que según lo que se tenga en cuenta a la
+hora de determinar y definir estos estratos aparecen con formas y grosores
+muy diferentes. También hablaremos de los roles sociales, que suponen la
+forma como las instituciones se encarnan y se concretan en los individuos,
+y destacaremos uno de los roles que más interés despierta dentro de la
+sociología: el género.
+•
+Y ya en el tercer￿apartado veremos el entramado más fundamental de
+algunas de las escenas ya realizadas. Caracterizaremos de forma breve la
+burocracia como uno de los tipos de organización más racionales y eficaces
+que se han inventado y, para acabar, haremos un repaso de los aspectos
+de mayor importancia de algunas de las dimensiones más significativas de
+nuestro mundo social: educación, trabajo y religión.
+Sin embargo, no olvidéis que esta película tiene muchos años y que ya hace
+mucho tiempo que se proyecta.
+
+
+[Page 7]
+Objetivos
+A lo largo de este módulo didáctico nos acercaremos a la sociedad en tanto que
+realidad objetivamente constituida, y desde esta perspectiva consideraremos
+sus elementos más relevantes. Al finalizar el módulo, el estudiante deberá ser
+capaz de alcanzar los siguientes objetivos:
+1.
+Reconocer la relación y la interacción constantes entre los individuos y el
+mundo social del que forman parte, así como su interdependencia mutua.
+2.
+Saber analizar algunos de los elementos fundamentales de la sociedad en
+tanto que realidad objetiva y cómo estos condicionan al individuo social.
+3.
+Ver la importancia de las instituciones y las estructuras sociales en la formación de la identidad del individuo, cuáles son algunas de estas estructuras y cómo se encarnan en las personas.
+4.
+Tener una visión general de algunas de las organizaciones y dimensiones
+del mundo social más características e importantes de la sociedad occidental.
+5.
+Obtener unos conocimientos mínimos que permitan situarse ante la realidad social desde la perspectiva "desenmascaradora" que todo pensamiento
+sociológico tiene que favorecer.
+
+
+[Page 9]
+1. El proceso de institucionalización
+1.1. Bases antropológicas de la institucionalización
+Si antes de empezar esta asignatura alguien os hubiese preguntado qué es la
+sociología, es muy probable que hubieseis acertado a responder que la sociología es una ciencia cuyo objetivo es el estudio de la sociedad, lo cual no requiere un nivel de conocimiento demasiado especializado. Al acabar el curso,
+después de más de un trastorno, tendríais que estar capacitados para precisar
+mucho más vuestra respuesta.
+Y es que lo difícil de contestar en realidad no es de qué va la sociología, sino
+qué es la sociedad. Todos tenemos un conocimiento espontáneo, irreflexivo
+de esto, pero si intentáis contestar qué es la sociedad, os daréis cuenta de que
+la respuesta no es ni tan evidente ni tan fácil. Aunque por eso mismo estamos
+haciendo un curso de sociología, para ir descubriendo que la realidad social no
+es lo que parece y que las cosas –todos lo sabemos– no son lo que aparentan.
+Así pues, intentaremos adelantar un poco más en el desarrollo de lo que es la
+sociedad y en qué queremos decir cuando la definimos como una comunidad
+de sentido.
+El ser humano vive en un entorno lleno de cosas y de sentido, que ya encuentra hecho cuando –como se acostumbra a decir– viene al mundo. Ya hemos
+visto que no es nada fácil el camino que nos permite incorporarnos de pleno
+derecho a este mundo que heredamos de forma más o menos acabada; desde
+un principio hacemos "cosas": lloramos, comemos, jugamos, recogemos manzanas, construimos escaleras para recoger las manzanas, e incluso algunos hacen bonitos discursos sobre la conveniencia de comer manzanas para regular
+el proceso digestivo. Queda bastante claro, entonces, que actuamos, y que lo
+hacemos de formas muy diferentes y con intenciones muy variadas (algunas
+de ellas incluso perversas).
+He aquí la sociedad: un mundo hecho por los hombres y las mujeres al que nos
+incorporamos cuando nacemos para continuar acabandolo. Se trata con casi
+total seguridad de un trabajo hercúleo, agotador, puede que incluso prometeico, inacabable, y sin embargo esperanzador, con la exigencia de no poco coraje
+y valor. Sin embargo, adentrémonos un poco más en la obviedad aparente de
+las cosas, que, justo por el hecho de ser obvias, son las más interesantes para
+los sociólogos y, en algunas ocasiones, las que están más repletas de sorpresas.
+
+
+[Page 10]
+Recordemos que el mundo que percibimos a nuestro alrededor, y más en concreto el mundo social, es el resultado de la actividad humana, de la acción
+social.
+Exteriorización, objetivación e interiorización son los tres momentos
+de la denominada dialéctica social. Con la expresión dialéctica￿social
+nos referimos al proceso incalculable –y en apariencia paradójico– de
+interacción y determinación entre el ser humano y la sociedad, es decir,
+no puede haber realidad social fuera del ser humano, pero, al mismo
+tiempo, el ser humano es un producto de la sociedad.
+Expliquemos brevemente estos tres￿momentos￿de￿la￿dialéctica￿social a partir
+de un ejemplo.
+Arroz de chocolate amargo
+Imaginémonos una pareja que deciden ir a vivir juntos y que ninguno de los dos tiene
+demasiados conocimientos culinarios. A fuerza de ir ensayando y probando han encontrado una manera original –y muy buena– de preparar un plato de arroz al chocolate
+amargo, incluso han recibido algún elogio por parte de los amigos. Al cabo de los años,
+han tenido dos hijos, que esperan con anhelo que sea domingo para comer "el arroz al
+chocolate amargo" tan bueno que preparan sus padres. No han probado otro igual, porque nadie sabe hacer el arroz de esta manera. Gabriel, el mayor, ayuda a su padre tanto
+como puede a prepararlo, porque cuando sea mayor lo querrá hacer para sus amigos.
+1) La exteriorización es una necesidad￿antropológica. El ser humano, a diferencia del resto de animales, no está preparado para el mundo, nace inacabado,
+carente de un aparato orgánico que le permita adaptarse de forma espontánea
+al entorno. Cuando nacemos se nos viene encima un mundo de estímulos,
+que tendremos que transformar en algo útil y significativo para la vida.
+Con este proceso de actividad humana, que es un proceso de transformación
+y construcción del mundo, el ser humano especializa sus impulsos y les da
+estabilidad, y de este modo proporciona estructuras a la vida de las cuales
+carece "naturalmente". Esto es lo que conocemos por cultura, y en este sentido
+podemos decir que la cultura suple el instinto (la falta de especialización). El
+lenguaje es la herramienta fundamental de este proceso; nos permite atrapar,
+fijar e identificar el mundo y darle sentido. Se puede afirmar que los procesos
+biológicos y sociales encajan el uno con el otro cuando los seres humanos
+aprenden un lenguaje por primera vez (N. Elias, 1982).
+De comida a plato culinario
+Nunca nadie nace en el vacío social y en un mundo falto absolutamente de sentido. La
+joven pareja del ejemplo sabe, más o menos, qué hacer en una cocina. Sin embargo, ante
+las múltiples posibilidades de cómo cocinar el arroz, han encontrado las combinaciones
+de ingredientes y las manera de cocinarlo para que sea un plato ‘de cocina' (en el sentido
+que tendría en una receta culinaria). Han hecho, a través de su acción, que un conjunto
+de ingredientes lleguen a convertirse en un plato (una comida).
+
+
+[Page 11]
+2) Al mismo tiempo, el mundo que vamos produciendo se convierte en algo
+"exterior" a nosotros y toma el carácter de realidad objetiva (objetivación).
+Esta realidad toma la forma de la gran cantidad de elementos que hemos encontrado en el mundo: desde una farola al lado de la casa donde nacimos hasta
+la economía capitalista de la sociedad de la cual formamos parte. Asimismo,
+hay padres y hermanos, ricos y pobres, ladrones y gente honrada, profesores
+y alumnos, y un número inacabable de otras cosas. Las instituciones también
+son de este tipo de cosas que resultan de la acción social y que sirven para
+regularla y suplir la inadaptación inicial.
+Realidad objetiva
+Para los hijos de la pareja del ejemplo, "el arroz al chocolate negro" es una realidad objetiva tan contundente como lo puede ser el aparato de música o el hecho de cepillarse
+los dientes cada noche.
+3) Poco a poco, con penas y alegrías, lo vamos haciendo nuestro, lo vamos
+metiendo en nuestra propia piel, lo interiorizamos, del mismo modo que hacemos nuestro un lenguaje, "mi lengua", como parte integrante de nuestra
+personalidad. Es propio de las sociedades humanas que sus productos no solo sean un mundo exterior, sino parte integrante de la personalidad de cada
+individuo. Nos hemos hecho sociales –ya lo hemos dicho, no nos queda otro
+remedio–, nos hemos incorporado a la sociedad.
+A pesar de todo, ¿qué es la sociedad? ¿De qué está hecha? Y nosotros, en medio de este caos, ¿dónde estamos? Todavía más, ¿cómo podemos ver claro en
+medio de este barullo de gente, de grupos, de organizaciones, de empresas,
+de iglesias, de estados, etc.? Tratemos de poner un poco de luz en todo este
+asunto.
+En el piso de estudiantes
+Cuando Gabriel se hizo mayor y compartió piso con otros estudiantes de sociología, todo
+el mundo elogió su saber hacer en la cocina, y aquel arroz al chocolate negro que nadie
+sabía preparar como él.
+1.2. ¿Qué es una institución?
+Uno de los resultados del proceso que acabamos de ver son las instituciones.
+Las instituciones son el tipo de cosas que resultan de la necesidad humana de
+orientarse en el mundo y que nos ayudan a hacer que esta orientación sea fácil
+y tenga éxito, que nos solucionan muchos problemas y que ayudan a organizar la vida. También hemos podido ver que forma parte del mismo proceso
+el hecho de que se nos presenten como realidades objetivas, independientes
+de nuestra voluntad y, en algunas ocasiones, incluso amenazadoras. En este
+punto vamos a intentar aclarar qué es eso que llamamos institución.
+En el módulo "La sociedad (I).
+El proceso de socialización",
+hemos tratado con más detalle
+el proceso de socialización.
+Si queréis más información
+sobre una antropología adecuada a la comprensión de la
+dialéctica social que hemos
+adoptado aquí, leedla introducción del siguiente libro:
+Gehlen (1980). El hombre. Salamanca: Ediciones Sígueme.
+
+
+[Page 12]
+1.2.1.
+Definición
+La sociedad es un conglomerado￿de￿instituciones. Esta podría ser una respuesta para quien tuviese la audacia de preguntaros qué es la sociedad. Pero,
+habríais salido del fuego para caer en las brasas. Porque, ¿qué es una institución?
+Antes de dar una respuesta, pondremos un posible ejemplo.
+El enamoramiento
+María conoció a Andrés en la fiesta de su quince aniversario. Le cayó bien porque era muy
+simpático, sería eso de las "buenas vibraciones" que había oído en alguna película que en
+ese momento no recordaba. Resultó que era socio del ateneo donde su grupo de diablos
+guardaba las herramientas. Se fueron viendo en el bar del ateneo y él la acompañó un
+sábado que tenían actuación. Cada día se encontraba mejor con él, no se lo podía quitar
+de la cabeza ni un solo momento. Habló de eso con sus amigas y se pasaron muchas
+horas de conversación aclarando la situación.
+Por fin, con la ayuda de sus amigas, lo vio claro: estaba enamorada. Una tarde se armó de
+valor y le dijo: "Andrés, te quiero", ante lo que él respondió: "Yo también te quiero". Desde
+aquel día "salen juntos", son "novios". Una pareja, al fin y al cabo, como tantas otras de su
+edad. Sin embargo, si todavía esperáis un final más feliz, podéis pensar que se acabarán
+casando, que tendrán hijos, y tantas otras cosas que todos conocemos a la perfección.
+El amor, el hecho de saber que aquello tan complejo que le pasaba a María
+en nuestro ejemplo era amor, hacerlo público con la fórmula consagrada para
+estas ocasiones y estar prometidos "como tantas parejas de su edad", todo esto
+forma parte de una institución.
+Desde la perspectiva sociológica que queremos adoptar ya desde el principio, cercana en este caso a la del sociólogo norteamericano Peter L.
+Berger, y con un amplio consenso por parte del colectivo de sociólogos
+y sociólogas de diferentes formaciones, una institución sería un patrón
+de comportamiento, una especie de libro de navegación que nos ofrece
+la sociedad y que esta impone sobre las conductas de los individuos. No
+es la negación de nada, ni la muerte de la espontaneidad, sino una canalización (como los instintos canalizan la conducta animal), una posibilidad de ubicarnos en la complejidad del mundo y de movernos por
+él sin demasiados obstáculos.
+Peter L. Berger nos lo resume así:
+"Las instituciones proporcionan maneras de actuar por medio de las cuales la conducta
+es modelada y obligada a marchar la conducta humana, en canales que la sociedad considera los más convenientes. Y este truco se lleva a cabo haciendo que estos canales le
+parezcan al individuo los únicos posibles."
+Peter L. Berger (1971, pág. 126).
+En este sentido, el lenguaje es una institución, seguramente la más fundamental de todas. Hablar de amor y decir "te quiero" ilustra este tipo de patrones
+que permiten regular y orientar nuestra conducta. Se trata de conceptos sociales, de constructos que nos permiten dar forma (objetivar) y sentido a todo lo
+
+
+[Page 13]
+que nos pasa, y nos pasan todas aquellas cosas a las que podemos dar forma
+y sentido. Si lo pensáis bien, veréis que no se trata de un juego de palabras.
+También será necesario tener en cuenta que hay muchas instituciones y de
+muchos tipos, pero aquí solo estábamos hablando de lo fundamental.
+"Las instituciones sociales organizan la solución de los problemas humanos fundamentales (y también no tan fundamentales). Lo hacen a medida que gobiernan de alguna
+forma obligatoria determinadas partes de la acción social, y disponen para hacerlo de
+mecanismos de ejecución y –en determinadas circunstancias– de un aparato coercitivo.
+Liberan al individuo gracias a un patrón de soluciones más o menos evidentes con vistas
+al problema de la conducción de su vida, garantizando y conservando al mismo tiempo
+con esto la permanencia del orden social."
+Thomas Luckmann (1996, pág. 119).
+1.2.2.
+Características básicas de una institución
+Centrémonos ahora en cuáles son las características básicas de una institución,
+que son las características￿propias￿de￿todo￿hecho￿social:
+1)￿Externalidad. Las instituciones se experimentan como si tuviesen realidad
+externa.
+A pesar de que hemos indicado que no hay realidad social fuera del ser humano, la realidad de las instituciones, como pueden ser el Barça o el matrimonio, se nos presenta como algo externo y ajeno al individuo, como algo que
+existe fuera de nosotros y que continuará existiendo cuando nosotros ya no
+estemos.
+Externalización
+Cuando María habla con sus amigas sobre lo que le pasaba y consigue descubrir qué era
+lo que le preocupaba tanto, saca al exterior algo que tenía dentro (externalización) pero
+que ella no ha creado, que no era ni un pensamiento ni una fantasía, sino que existía
+antes, que siempre –podía pensar– había existido; a pesar de que nunca había pertenecido
+a nadie. El amor, que era lo que ella sentía, no era una creación personal.
+2)￿Objetividad. Las instituciones son experimentadas como si fuesen cosas.
+Una cosa es objetiva, real, cuando todo el mundo está de acuerdo en que dicha "cosa" está allí y lo está de una forma determinada, con independencia,
+además, de que cualquier persona tenga conocimiento de ello o no.
+Conceptos de una misma realidad
+Siguiendo con nuestro ejemplo, podremos estar seguros de que, a excepción de algún
+escéptico recalcitrante, la mayor parte de la gente que rodea a María y Andrés estarán
+de acuerdo con que "amor", "pareja" y "matrimonio" son hechos de una realidad y consistencia indiscutibles.
+3)￿Coerción: las instituciones tienen poder coercitivo.
+
+
+[Page 14]
+Cuando hemos definido institución hemos hecho referencia al hecho de que
+las instituciones obligan a los individuos a circular por unos canales determinados, bien porque se les presentan como los únicos posibles, bien porque nos
+fuerzan a circular por ellos.
+Precipitación
+Sin duda, María y Andrés, de lo enamorados que estaban, no se daban cuenta de esta
+coacción, porque estaban encantados de "salir juntos" y de hacer todo lo que hacen las
+parejas de enamorados. La fuerza se habría notado en el momento en que, por ejemplo,
+hubieran decidido casarse al día siguiente a la declaración. Padres, amigos, todos lo censurarían o lo tratarían de impedir, pensando que era una precipitación o, incluso peor,
+que se habían vuelto locos, y no precisamente de amor. "Estas cosas no se hacen así, no
+es adecuado ni conveniente hacerlas así."
+Resulta evidente que este poder no es absoluto y que las instituciones pueden
+cambiar, y de hecho cambian y deben hacerlo, porque no son más que la
+acción de individuos. La sociedad es el resultado de esta acción como si se
+tratase de la imagen en una pantalla resultante de múltiples proyectores. Si
+solo uno de ellos cambia la proyección, será difícil que cambie la imagen de la
+pantalla. Además, la sociedad nos exige estabilidad, orden, continuidad; por
+este motivo, aplicará poderosos mecanismos de control a todos aquellos que
+quieran cambiar de imagen y los estigmatizará.
+4)￿Historicidad. Las instituciones presentan la cualidad de ser históricas.
+Las cosas, y entre estas muchas de las instituciones que conocemos, ya existían
+cuando nacimos, y casi seguro que continuarán estando cuando muramos. El
+mundo, ya lo hemos dicho, siempre es una herencia de los antepasados.
+El cambio de la sociedad
+En este caso, es cierto que María y Andrés no ajustaban demasiado sus patrones de cortejo
+a los de sus padres y, sin embargo, como explicábamos antes, la sociedad es cambiante e
+intentar cambiarla es un derecho que todos tenemos.
+"El sistema de signos que utilizo para expresar mi pensamiento, el sistema de monedas
+que utilizo para pagar mis deudas, los instrumentos de crédito que utilizo en mis relaciones comerciales, las prácticas que sigo en mi profesión, etc. funcionan con independencia del uso que haga de estas. Que se tomen uno tras otro los miembros que integran
+una sociedad y lo que precede se podrá afirmar de todos ellos. He aquí, pues, formas de
+actuar, de pensar y de sentir que presentan la importante propiedad de existir con independencia de las consciencias individuales.
+Y estos tipos de conducta y de formas de pensar no solo son exteriores al individuo, sino
+que están dotados de una fuerza imperativa y coercitiva por la cual se le imponen, quiera
+o no."
+É. Durkheim (1987, pág. 35-36).
+5)￿Autoridad￿moral. Las instituciones tienen autoridad moral.
+Las instituciones no solo reclaman el derecho de la legitimidad, de coaccionar a quienes se desvían, sino también de reprimirlos desde el punto de vista
+moral. Para no crear malentendidos, tendríamos que aclarar que legitimidad
+y autoridad moral no son necesariamente lo más racional ni lo que más nos
+conviene (por más que sea razonable y lo más conveniente). La estratagema,
+
+
+[Page 15]
+decíamos, era hacer que el individuo se diera cuenta de que se trata de la única
+pauta posible, y además, podemos añadir, de lo que se tiene que hacer y está
+bien que se haga.
+La autoridad
+Seguro que ni los padres de Andrés ni los de María tendrán que utilizar todo el poder
+de que disponen para impedir la boda repentina de sus hijos (y pensemos que algunas
+instituciones han tenido y todavía tienen –como es el caso del Estado y, en la antigua
+Roma, del padre de familia– la posibilidad de ejercer la violencia física hasta la muerte).
+Estos, como buenos hijos, saben cuál es su deber y hacen lo que con tanta razón está
+mandado.
+1.2.3.
+Legitimación. Valores y significaciones últimas
+Como acabamos de ver, las instituciones se nos presentan como cosas que
+existen fuera de nosotros y de una manera que no depende de nuestra percepción. Además, nos sentimos obligados a conformarnos a sus mandatos, porque siempre se ha hecho así, y porque es así como hay que hacerlo.
+Sin embargo, la vida social es frágil. Vivimos entre seres humanos, muchos y
+muy diferentes, tal como hemos ido experimentando de pequeños. Hacemos
+cosas (por ejemplo, hablamos) y una vez las hemos hecho empiezan a tener
+efectos que, a veces, no habríamos imaginado. Es lo que se denomina efectos￿no￿deseados￿de￿la￿acción, lo que no quiere decir que sean malos. Este
+es el precio de vivir en sociedad: la falta￿de￿soberanía, que en este sentido
+quiere decir no ser completamente amos de lo que hacemos, porque, una vez
+lo hemos hecho, los otros pueden responder a ello imprevisiblemente. Ello
+presenta, asimismo, la ventaja de que nos permite empezar cosas nuevas, no
+previsibles, y en este sentido podríamos hablar de libertad.
+Desde la perspectiva de la fragilidad del proceso de construcción de la vida
+social, no nos debe extrañar que la sociedad nos exija, a la vez que lo facilita,
+orden, continuidad y obviedad, esto es, facilidad en nuestras decisiones y acciones sociales. Se trata de que María y Andrés no tengan que inventar y decidir en cada momento qué tienen que hacer una vez han optado por ser pareja.
+Por este motivo, no es suficiente con que nos encontremos un mundo acabado, bien definido y con toda la fuerza que poseen las instituciones, y que se
+cierne sobre nosotros para que nos mantengamos en fila. Es necesario que las
+instituciones, y los patrones de comportamiento que se derivan de estas, no
+sean solo un hecho, sino que sea un hecho cargado de autoridad y valor moral. Es decir: las cosas "son como son", pero además "tienen que ser así". Esta
+creencia, mantenida por la mayor parte de los hombres y de las mujeres de
+una sociedad, se denomina legitimidad.
+El carácter paradójico de la
+existencia humana (libertad
+y falta de soberanía al mismo
+tiempo) nos lo pone muy difícil para llevar a cabo según
+qué tipo de sociología y de
+ciencias sociales, pero este no
+es el momento adecuado para seguir hablando de este tema.
+Si estáis interesados en esta situación paradójica de la
+condición humana y queréis
+seguir profundizando en el
+tema, podéis leer:
+Hannah￿Arendt (1993). La
+condición humana. Barcelona:
+Paidós.
+
+
+[Page 16]
+Legitimidad sería, entonces, la creencia compartida por la mayor parte
+de los individuos de que un orden de cosas (en este caso, una institución, unas pautas de comportamiento) es válido y correcto.
+Sin legitimidad sería necesario que la coacción y la fuerza estuviesen presentes
+mucho más a menudo. Las instituciones sociales no solo definen una situación
+social, es decir, que la realidad es como es y lo damos por descontado, sino que
+además estas definiciones poseen un valor￿normativo: nos permiten juzgar
+como correctas o incorrectas las acciones morales e implican la presencia de
+unos valores.
+Pensad en que cuando hablamos de sociedad, los valores son el tema subyacente del que estamos hablando en realidad: socializar es iniciar a los niños
+y niñas en un mundo de adultos donde los valores tienen un papel central;
+las instituciones sociales están relacionadas con formas de vivir la vida con
+controles sobre nuestras pautas de comportamiento y pensamiento; la estratificación comporta importantes divisiones de valores, etc.
+1.1. Os proponemos que analicéis todo aquello que María y Andrés dan por descontado
+cuando deciden "salir juntos".
+Los valores son nociones (creencias) sobre qué es correcto o qué es incorrecto (de una acción, por ejemplo). Son juicios morales acerca de las
+acciones. Los valores poseen fuerza￿normativa, es decir, nos los creemos y nos sentimos obligados a una determinada acción cuando están
+legitimados.
+En algunas ocasiones puede pasar, y de hecho pasa, que los mismos valores
+estén legitimados de diferentes formas. Por ejemplo, podemos creer que vale
+la pena no mentir y que tenemos la obligación de hacerlo porque es lo más racional que se puede hacer o porque Dios lo manda. Es una situación parecida,
+también, a aquella en que se reclama la libertad desde dos posturas ideológicas
+diferentes e incluso opuestas. No solo se legitima la libertad de formas muy
+diferentes, sino que también se creerá que los medios (normas sociales) para
+conseguir la libertad son muchos y muy variados.
+1.2. Pensad en la defensa de la libertad que haría un partido de los catalogados "de izquierdas" y lo que haría un partido de los denominados de "de derechas".
+Un poco más adelante hablaremos del papel que ha ejercido y continúa ejerciendo la religión en la preservación de estos mundos de significado y cargados de valores en los que nos movemos. No perdáis de vista la importancia
+
+
+[Page 17]
+que, para la continuidad de toda institución, tiene el hecho de que esta sea
+aceptada de buen grado, es decir, que el poder que ejerce para conseguir que
+hagamos incluso lo que no queremos hacer debe estar legitimado.
+Tres tipos de legitimidad según Weber
+M. Weber analiza tres tipos de legitimidad y reconocimiento de autoridad:
+1) La autoridad￿o￿dominación￿tradicional, que se basa en la creencia de la santidad de la
+tradición, en unas formas de actuar tradicionales encarnadas en determinadas personas
+(por ejemplo, un rey).
+2) La autoridad￿o￿dominación￿carismática, basada en el liderazgo de una persona en
+torno a la cual se crea una adhesión libre e incondicional (por ejemplo, Jesucristo).
+3) La autoridad￿o￿dominación￿legal￿y￿racional, que se basa en fundamentos racionales y
+arraigada en reglas impersonales, establecidas de manera legal y contractual (por ejemplo,
+el Estado).
+
+
+[Page 18]
+2. La localización del individuo en la sociedad: la
+estratificación social
+Si antes hemos dicho que la sociedad podría entenderse muy bien como un
+mosaico de instituciones (en constante cambio y autoproducción, eso sí) y
+hemos visto algunas de las características de las instituciones –las piezas que
+componen el mosaico–, ahora, al hablar de estratificación, nos queremos referir a algunas de las normas del guion del juego social, concretamente a aquellas que implican una ordenación jerárquica de las piezas y, por lo tanto, de
+los individuos que las animan. Por ordenación jerárquica, nos referimos a un
+acceso desigual a los recursos, que pueden ser materiales (dinero, bienes materiales) o simbólicos (reconocimiento, prestigio).
+Hay que aclarar que en sociología hemos de distinguir entre estratificación
+social, que implica desigualdad, y la simple diferenciación, ligada a procesos
+de división y especialización sociales que no siempre tienen que ver con un
+desigual acceso a los recursos.
+2.1. De qué hablamos cuando hablamos de estratificación
+Que la sociedad no es un todo homogéneo es una de aquellas afirmaciones que
+también se sitúan en el orden de las obviedades que no hay ni que mencionar.
+A medida que crecemos nos damos cuenta de que hay gente de todo tipo, y
+también acabamos descubriendo que no solo son diferentes unos de otros,
+sino que hay tipos de gente que se parecen en muchas cosas entre sí, pero que
+se diferencian de otros grupos de tipos de gente.
+Las etiquetas
+Estas diferencias pueden ser tan evidentes que al ver por primera vez a alguien le colgamos
+rápidamente la etiqueta que mejor le sienta ("Este es un...") y ya lo tenemos clasificado.
+Es cierto que en nuestro mundo cada vez son más difíciles estos tipos de clasificaciones,
+lo cual no querrá decir que no nos resulten indispensables y que no las continuemos
+practicando.
+La diferenciación￿social, que es de lo que estamos hablando, es una de las
+cuestiones que más ha preocupado y ha centrado la atención del análisis sociológico; también es una de las más complejas y que ha generado una mayor
+cantidad de desacuerdos. Además, resulta muy evidente que la tipología que
+puede servir en una sociedad no tiene por qué resultar adecuada para otra.
+
+
+[Page 19]
+Lo que sí parece un rasgo universal, y en esto podemos estar todos de
+acuerdo, es el hecho de que en toda sociedad los individuos son asignados a una o varias de estas categorías o posiciones sociales que a menudo son jerárquicas. Esta jerarquización es lo que los sociólogos denominamos estratificación￿social, y las diferentes categorías reciben el
+nombre de estratos.
+El esclavismo en la antigua Grecia, las castas en la India o los estamentos medievales constituyen formas de estratificación social. En nuestra sociedad industrial y principalmente urbana hablamos de clase￿social. La forma como
+los individuos son asignados a uno u otro de estos estratos sociales puede variar mucho, y si bien es cierto que el sistema de clases, a diferencia de otros,
+no se recibe definitivamente mediante el nacimiento (ni comporta formas de
+trato personal diferenciadas entre personas de diferentes estamentos, ni está
+jurídicamente legislado), también lo es que los niños y niñas se aprenden a
+identificar a sí mismos dentro de una jerarquía social. En este sentido, se trata
+de una cuestión de identidad social.
+Ejemplo
+Volvamos a nuestros protagonistas. Imaginad que María es de buena familia, de esas buenas familias de toda la vida, con un patrimonio económico, social y cultural importante.
+Su padre ha ocupado altos cargos en la Administración de Justicia de la Generalitat, ha
+sido gerente de una gran empresa y tiene sus propios negocios; su madre es una buena
+pianista. El padre de Andrés, por otra parte, también trabaja en la Generalitat, es administrativo del Departamento de Enseñanza, y su madre tiene un puesto en el mercado de
+un barrio de Barcelona. Es posible, incluso, que los padres de Andrés ganen más dinero al
+mes que los padres de María, pero, a pesar de eso, tratad de imaginar lo diferentes que habrán sido las trayectorias vitales de María y Andrés hasta que coincidieron en la fiesta. Lo
+que nos debería extrañar es que coincidiesen en la fiesta, y aún más que se enamorasen.
+Cupido, a pesar de llevar los ojos vendados, suele acertar con sus flechas y acostumbra a
+enamorar a quienes son de una condición parecida.
+Ya hemos visto que el ser humano es un ser de acción, que hace cosas y que
+con su manera de actuar transforma y se construye su propio mundo. También
+hemos hablado de su condición de no acabado, de tener siempre ante sí una
+enorme tarea: hacerse la propia vida. Una tercera de estas singulares características antropológicas es la cualidad de prever, de mirar hacia el futuro o, dicho
+de otra manera, el hombre es un animal que hace planes (A. Gehlen, 1980).
+En los tiempos que corren, la mayoría de los individuos tiene planes de vida
+que pasan por mejorar su futuro, por procurar ascender, con esfuerzo si es necesario, algunos niveles en la escala social (que, en buena parte, ha sido heredada). Esta posibilidad de cambiar la fortuna se denomina movilidad￿social,
+es decir, cualquier movimiento dentro de la estratificación social. Es cierto
+que las oportunidades de María y Andrés, o de tantos otros como ellos, están
+decisivamente marcadas por la posición inicial en la estratificación social. Si
+sois aficionados al deporte, sabréis que diferentes trampolines permiten también diferentes tipos de salto. La educación (y de esto sabréis algo muchos de
+los que estáis ahora matriculados en la asignatura en este curso) ha sido en
+En el módulo "El pensamiento
+sociológico (II). Los contemporáneos" se vuelve a hablar de
+educación y movilidad social.
+
+
+[Page 20]
+nuestro mundo el mecanismo de mayor importancia para la movilidad social.
+También se ha asociado, a menudo, a la movilidad geográfica (del campo hacia la ciudad).
+2.2. Teorías de la estratificación
+Las teorías de la estratificación varían mucho de un sociólogo a otro. Entre los
+sociólogos tampoco se ha establecido demasiado acuerdo ni a la hora de definir
+estos niveles de estratificación ni a la hora de decidir qué hay que observar para
+encontrar y definir las causas y las consecuencias de la jerarquización social.
+Jerarquización social
+Podría darse que María, que ha tenido acceso a una buena educación, a los quince años
+supiese tocar el piano tan bien como su madre y dominase cinco lenguas. Esto, que puede
+ser una consecuencia de su acomodada situación social, será también una causa de una
+buena perspectiva.
+Acostumbraos a pensar, mientras ejercéis de sociólogos y sociólogas, en
+los términos de la dialéctica social que se ha expuesto anteriormente
+y observaréis que los hechos sociales no se pueden reducir a una sola
+causa ni hay un único orden de causas, por ejemplo causas materiales
+(el factor económico, que no es insignificante) o causas ideológicas (valores, creencias) que permiten explicar la estratificación social. Ambos
+tipos de causas, y muchos más, se entrecruzan.
+Veamos ahora brevemente dos de las teorías￿sobre￿la￿estratificación￿y￿la￿estructuración￿social más conocidas e importantes: la de K. Marx y la de M.
+Weber, que encontraremos en el fundamento de muchas de las teorías sobre
+la clase social y la estratificación que se han ido formulando. Mostraremos algunos de los acuerdos y desacuerdos, y así veremos cómo hacen que varíe la
+comprensión del fenómeno en función de si se enfoca de una manera u otra.
+Karl￿Marx
+Es más que conocida la afirmación de Marx en el inicio del Manifiesto del partido comunista, que dice así: "La historia de todas las sociedades hasta nuestros
+días es la historia de la lucha de clases".
+Para Marx, que no era sociólogo pero que llevó a cabo buenos análisis
+sociológicos, la sociedad condiciona al individuo, que nace adscrito a
+una clase social y a unos determinados intereses (aunque el individuo
+no es necesariamente consciente de su posición de clase). Intereses￿de
+clase y confrontación￿de￿poder son elementos esenciales del proceso
+social e histórico.
+Estratificación
+La misma palabra estratificación nos remite a la geología y
+a la necesidad de hacer prospecciones para determinar las
+diferentes capas de un terreno.
+
+
+[Page 21]
+El análisis marxista de este proceso se centra en las relaciones entre el hombre
+y su posición en relación con los medios de producción y su diferente acceso
+a recursos y poderes escasos. La clave para entender a las sociedades humanas
+eran "las condiciones materiales que determinan la producción", lo que se denomina modo de producción y, en este sentido, lo que inicia la clase y el conflicto de clases es la propiedad privada de los medios de producción.
+En el capítulo 52 (Libro III, Sección V) de El capital, poco antes de que el manuscrito quedase interrumpido, Marx se proponía hablar de las clases, que
+define en función de la propiedad o no de los medios de producción, que condiciona sus respectivas fuentes￿de￿ingresos:
+a) el salario para los trabajadores, propietarios de la simple fuerza de trabajo;
+b) el beneficio para los propietarios del capital (y de los medios de producción);
+c) para los propietarios de la tierra, las rentas de la tierra.
+Estas constituyeron las tres grandes clases de la sociedad moderna, basada en
+el modo de producción capitalista. Dichas clases, que en otros escritos se encuentran más matizadas en función de los intereses del tema, presentan una
+característica doble: comportar el antagonismo de los opresores y los oprimidos y tender a una polarización en dos bloques, y solo en dos (poseedores y
+no poseedores).
+Tras esta comprensión de la clase social encontraríamos:
+a) Una teoría de la sociedad, según la cual podemos decir que el ser humano,
+en su lucha contra la naturaleza y para conseguir la subsistencia con el trabajo
+asociado, crea formas específicas de organización social en sintonía con los
+modos específicos de producción. En todos éstos hay desigualdad y tiene lugar
+la consiguiente lucha de clases. El resorte de este movimiento histórico es la
+contradicción que se da entre las fuerzas (capacidad de producir de una sociedad) y las relaciones de producción (relaciones de propiedad). Las revoluciones serían la expresión de esta necesidad histórica. En este movimiento, la base económica o infraestructura (fuerzas y relaciones de producción) determina
+la superestructura (consciencia, creencias, política, etc.).
+b) Una explicación de cuál ha sido y cuál es la evolución, el funcionamiento y
+la estructura de la sociedad capitalista. Es necesario recordar que Marx quiere
+explicar el modo de funcionamiento propio del régimen de producción capitalista en función de su estructura social y, al mismo tiempo, cómo se lleva a
+cabo en función de su modo de funcionamiento. La esencia del capitalismo
+es, para Marx, la búsqueda del beneficio ante todo (R. Aron, 1994).
+Sobre el papel de la propiedad privada en el devenir social, es importante tener en
+cuenta la influencia que ejerció Rousseau en Marx. Leed
+el libro de J.J Rousseau, Discurso sobre el origen y los cimientos de la desigualdad entre
+los hombres.
+Clase y estrato
+Fijaos que hablamos del pensamiento de Marx con relación
+a las "clases sociales" y no a la
+"estratificación social". Los conceptos de "clase" y "estrato"
+acostumbran a hacer referencia a aproximaciones teóricas
+diferentes de la estructura social.
+
+
+[Page 22]
+"La historia de todas las sociedades hasta nuestros días es la historia de la lucha de clases.
+Libres y esclavos, patricios y plebeyos, barones y siervos de la gleba, maestros artesanos
+agremiados y oficiales; en una palabra, opresores y oprimidos se han encontrado siempre
+en oposición entre ellos, y han sostenido una lucha ininterrumpida, ya oculta, ya abierta,
+una lucha que acabó siempre con una transformación revolucionaria de toda la sociedad,
+o bien con la destrucción común de las clases combatientes."
+K. Marx; F. Engels (1962).
+Max￿Weber
+Una buena manera de entender la historia del pensamiento y de las ideas es tener muy presente que todo pensamiento posee su sombra, es decir, que siempre pensamos tomando posición ante algún otro pensamiento o en contra del
+mismo: la sombra, que secreta y calladamente pasa por encima –o por debajo–
+de nuestras ideas.
+En este sentido, Marx sería la sombra de Weber y la teoría de la estratificación
+de Weber, una respuesta a la teoría de Marx para explicar mejor el conflicto social en la sociedad moderna, y corregir los "errores" o "simplicidades" de Marx
+al reducirlo todo a un conflicto entre poseedores (de los medios de producción
+y de la mayoría de las riquezas) y no poseedores.
+Weber hace una aproximación al tema y distingue tres￿tipos￿de￿dimensiones
+de￿estratificación basadas en la división del poder dentro de la comunidad:
+clase, estatus y partidos. Todo ordenamiento jurídico, dice Weber, influye directamente, en virtud de su estructura, sobre la distribución del poder dentro
+de la comunidad respectiva; y ello, tanto si se trata del poder económico como de cualquier otro. Weber define el poder como "la oportunidad de una o
+varias personas de imponer su voluntad en acciones colectivas, incluso contra
+la resistencia de los otros." Esta imposición de la voluntad queda claro que
+puede tener su base en la dominación económica, como creía Marx, o tener
+otras raíces. Así, pues:
+a) En primer lugar, tenemos un fenómeno de distribución del poder dentro
+de una comunidad basado principalmente en el concepto de clase, y que fundamentalmente tendría una dinámica económica. La clase sería para Weber
+una categoría de personas que tienen en común unas oportunidades de vida
+parecidas en tanto que cuentan con una serie de posesiones y una oportunidad de ingresos parecidas, circunstancia que comporta unas condiciones de
+comodidad y de trabajo.
+Si os ha gustado la idea del
+pensamiento y su sombra,
+podéis leer el siguiente libro:
+Eugenio￿Trias (1969). La filosofía y su sombra. Barcelona:
+Seix Barral.
+
+
+[Page 23]
+b) En segundo lugar, Weber distingue un fenómeno de distribución del poder
+que nos permitiría clasificar a las personas en grupos de estatus, basándose más
+en los patrones de consumo que en el lugar que ocupan en el mercado o en
+el proceso de producción. El estatus se puede definir como la posición de un
+individuo dentro de un grupo social por el hecho de que es depositario de un
+cierto honor o prestigio social, y que implica un estilo de vida determinado.
+El estatus, junto con el estilo de vida, el prestigio y el honor social, en general
+se traspasa, por ejemplo, de padres a hijos o de marido a mujer.
+c) En tercer lugar, el tercer fenómeno de distribución del poder está basado en
+lo que Weber denomina partidos. Mientras que las clases tienen su fundamento
+en el orden económico y el estatus en el orden social, los partidos se mueven
+primariamente dentro de la esfera del poder. La finalidad de los partidos, que
+no hace referencia solo a los partidos políticos, consiste en influir de manera
+organizada sobre la comunidad y, allí donde sea posible, llenar las organizaciones sociales de partidarios. Los intereses de los miembros de un partido no
+siempre deben coincidir con los intereses condicionados por la situación de
+clase o de estatus.
+Para Weber, estas tres dimensiones de la distribución del poder social se influyen mutuamente, de manera que una buena posición en una de ellas tiende
+a comportar una buena posición en las otras. A la vez, sin embargo, les otorga
+una cierta autonomía, y por eso se habla de su aproximación como "pluridimensional", en oposición a la propuesta materialista marxista, que considera
+que la esfera de las relaciones de producción (y la propiedad o no propiedad de
+los medios de producción) es la claramente preponderante en la estructuración
+de las desigualdades. De hecho, ni Marx excluía completamente los elementos
+"superestructurales", ni Weber dejaba de considerar los elementos económicos
+como los más decisivos, ya que creía que, en la sociedad contemporánea, una
+situación de clase supone, a la larga, y con extraordinaria regularidad, una situación de estatus análoga; si bien otorga mayor autonomía a los factores no
+meramente económicos de lo que lo hace Marx.
+2.3. La encarnación de las instituciones. Los roles
+Hasta ahora hemos estado hablando, principalmente, de aquellas dimensiones del mundo social (socialmente construidas, no lo olvidemos) que se nos
+presentan como realidades objetivas. En este apartado nos centraremos en lo
+que denominamos roles, una de las maneras como las personas se ubican en
+estas realidades sociales y se identifican con ellas. Podemos decir que el rol es
+una especie de vínculo entre el entramado institucional y los individuos, el
+guion social que los individuos deben seguir para moverse dentro de –y entre–
+las instituciones. Uno de los elementos clave de estos guiones es que también
+juegan un papel crucial en lo que en el módulo anterior denominábamos socialización.
+Ascenso social
+Andrés podría acceder al estatus social de María y su familia si al final esta relación acabase en matrimonio. Es difícil
+que pudiera adquirir este estatus por más dinero que diese
+el puesto que su madre tiene
+en el mercado, y aunque ascendiese su posición social.
+
+
+[Page 24]
+2.3.1.
+Definición
+Hombre, mujer, padre, hermana, profesora, alumno, juez, policía, presidenta,
+sacerdote, etc. son nombres adecuados para millones de personas, muy diferentes, pero algunas de las cuales tienen en común ser, es decir, comportarse,
+pensar y sentir, de alguna de estas maneras, o varias a la vez: como mujer,
+como madre, como profesora, como presidenta. Cada uno de nosotros interpreta de una forma más o menos adecuada el papel que le corresponde en el
+gran teatro del mundo, y de esta manera entra y sale de escena adecuándose
+al personaje que le toca interpretar.
+En cada situación social diferente representamos el rol que se nos ha
+asignado. En este sentido, el rol es el comportamiento que se espera de
+un individuo que ocupa una determinada posición social, una especie
+de sistema de constreñimientos normativos a los que el actor social se
+debe someter, junto con un conjunto de derechos correlativos a estas
+obligaciones.
+Al principio de este módulo apuntábamos que es propio de las sociedades humanas que sus productos sociales (las instituciones, por ejemplo), además de
+tener una calidad objetiva, también formen parte integrante de la personalidad de cada individuo.
+Las instituciones, esas "cosas" sociales, se manifiestan en la experiencia
+humana mediante los roles. Desde esta perspectiva, los roles representan el orden institucional. Se encarnan en la experiencia, los ajustamos
+como un traje hecho a medida, y no solo no sentimos su coacción, sino
+que nos sentimos cómodos y nos permiten movernos por el mundo con
+facilidad.
+También lo hemos dicho: además de actuar como padres o como profesores,
+de representar cuando hace falta y como hace falta este papel, somos padres
+y somos profesores, y pensamos y sentimos como lo hace un padre y un profesor. Es más, hacemos todo esto –y de ahí su fuerza y eficacia– de manera inconsciente. Nuestra identidad, nuestra alma, ha sido forjada en el crisol social.
+Los roles en juego
+Volviendo a nuestros protagonistas, podríamos imaginar la siguiente situación, que nos
+permitirá tomar consciencia de la propia dinámica social: el padre de María, atareado
+hombre de negocios, ha subido a su vehículo todoterreno, desatendiendo las recomendaciones municipales, para ir desde su casa de Sant Gervasi hasta el edificio de correos al
+principio de Vía Laietana. Con poco más de media hora ha llegado a correos. Es evidente
+que no ha encontrado sitio para aparcar y, como tenía mucha prisa, ha dejado el coche
+muy arrimado a la pared, para no interrumpir el tránsito, encima de la acera. Lo ha hecho
+a toda prisa, pero cuando ha salido, el guardia ya estaba allí dirigiendo las operaciones
+de la grúa municipal.
+Este proceso de integración de
+la sociedad en la personalidad
+está tratado con detenimiento
+en el módulo "La sociedad (I).
+El proceso de socialización".
+
+
+[Page 25]
+Ya os podéis imaginar la situación: el guardia, ejerciendo de guardia, justifica la actuación;
+el padre de María, ejerciendo de ciudadano, argumenta que no molestaba a nadie y apela
+a su derecho de poder hacer una gestión con rapidez. El guardia, haciendo de guardia,
+continúa rellenando papeles. El padre de María, enfadado, lo amenaza advirtiéndole de
+que no sabe con quién está hablando, que es una persona importante y que hará uso de
+su influencia. El guardia, tranquilo y seguro de estar cumpliendo con su obligación, no
+le hace demasiado caso. El padre de María, inteligente, acaba de recordar que... "Oye, –le
+dice pasando del usted al tú– ¿tú no eres Pepe? ¿No vivías en Sant Pol? ¿Te acuerdas de
+mí? (la familia de María tiene una casa de veraneo en este pueblo de la costa catalana).
+La situación social empieza a tambalearse.
+2.1. Imaginad todos los posibles finales que puede tener el ejemplo y, en cada caso, todo
+lo que se juega en él.
+Si bien es cierto que los roles, cuando están bien definidos (aunque no siempre
+sea así), establecen, como hemos dicho, un sistema de normas a las cuales
+están obligados los actores sociales y un conjunto de derechos correlativos a
+dichas obligaciones, también es cierto que permiten una zona de autonomía
+y el mantenimiento de una cierta distancia (variable según el caso) entre uno
+mismo y el papel que en aquel momento está representando. Por este lado se
+le abre al padre de María una puerta de esperanza para recuperar el coche sin
+pagar la multa. Así pues, son inacabables las formas que los seres humanos
+somos capaces de inventar y recrear para escabullirnos de las rigideces y los
+controles sociales.
+2.3.2.
+El género
+De entre las docenas de roles que podemos llegar a asumir a lo largo de nuestra vida, hay uno que es verdaderamente definitorio de nuestra identidad y
+personalidad y que condiciona y determina muchos de los otros que en un
+momento dado podemos interpretar. Con toda seguridad, también es el que
+representamos durante más tiempo a lo largo de la vida. Nos referimos al género "hombre" y "mujer"; ser mujer o ser hombre no es una realidad natural
+(biológica), sino un hecho social.
+Hemos podido observar que en el caso de los roles era como si la sociedad,
+que es un producto humano, se nos metiese dentro, siguiendo el proceso que
+denominamos dialéctica social, en una especie de espiral sin un principio bien
+definido. Nunca hay un punto cero en el orden social, y para entender la sociedad tenemos que acostumbrarnos a observar estos procesos con mucha distancia: ejercer de sociólogo es también hacer de historiador.
+
+
+[Page 26]
+Siempre ha habido hombres y mujeres, pero es fácil darse cuenta de que
+no siempre ha sido lo mismo, ni es lo mismo en diferentes sociedades,
+ser hombre o actuar de hombre o ser mujer y actuar de mujer. También
+tenemos que aprender a interpretar estos papeles (socialización).
+La verdad es que no hay demasiados fundamentos biológicos que permitan explicar las diferencias de comportamiento entre hombres y mujeres, motivo por el cual es más que plausible que estas sean fundamentalmente culturales; el género es, también, una cuestión de aprendizaje
+social.
+Para entenderlo bien, tenemos que hacer una distinción entre sexo y género:
+•
+Con el término sexo nos referimos a las diferencias físicas del cuerpo.
+•
+Con el término género nos referimos a las diferencias psicológicas, sociales
+y culturales entre hombres y mujeres.
+No son pocos los estudios existentes al respecto, todos bastante recientes, que
+muestran que, desde el mismo momento en que nos incorporamos al mundo
+(ahora, con las ecografías, podemos hacerlo antes), empezamos a ser tratados
+y percibidos (recordad la importancia que esto tiene en la formación de la
+personalidad) de manera diferente, en función de si nuestro sexo es masculino
+o femenino.
+2.2. Para proponeros una entre docenas de observaciones posibles, fijaos, si tenéis la
+oportunidad, en los calificativos que abuelos, padres, familiares o amigos profieren ante
+un recién nacido en caso de que sea niño o niña. Un mismo recién nacido, si mintiésemos
+en cuanto a su sexo, podría servir para llevar a cabo la experiencia.
+Ser hombre y ser mujer no es lo mismo; no solo se nos percibe de manera
+diferente, sino que desde un principio se nos socializará en diferentes roles,
+el de hombre o el de mujer, y se nos educará en buena parte de manera diferente para cumplir correctamente los roles (y las tareas) que el hombre y la
+mujer tienen asignados en cada sociedad. La educación￿sexista es un hecho
+inconsciente, de aquellos que se dan por descontado. No estamos hablando
+de discriminación, aunque ambos hechos estén relacionados.
+Interiorización de los géneros
+Ya hace algún tiempo que se viene explicando la siguiente historia como si se tratase
+de una adivinanza: un padre y un hijo salen en coche de Lérida para ir hacia Zaragoza.
+Cuando están a medio camino tienen un accidente en el que muere el padre, y el hijo
+queda herido de gravedad. Lo trasladan de urgencia al hospital y una vez se encuentra
+preparado para ser intervenido, la persona que dirige el Departamento de Cirugía y tiene
+que realizar la operación, dice: "Yo no puedo hacer la operación: es mi hijo".
+De entrada, la historia produce perplejidad y puede llevar a pensar en algún tipo de argumento lógico para descubrir la aparente incoherencia, pero, en realidad, no hay ninguno:
+es tan sencillo como que quien tiene que realizar la operación es su madre. Todo lo que
+
+
+[Page 27]
+dábamos por descontado en cuanto a una determinada distribución de tareas y roles en
+función del género nos impedía encontrar una solución rápida de la adivinanza.
+¿Cuáles son algunas de estas diferencias asignadas desde el punto de vista social a los roles de hombre y de mujer? Más allá de la aparentemente universal dominación masculina (patriarcado), la diferencia más remarcable en las
+sociedades industriales y urbanas contemporáneas es la división￿del￿trabajo
+en￿dos￿esferas:
+1) La esfera￿de￿la￿producción, del trabajo asalariado y socialmente reconocido como trabajo, casi siempre masculina y hasta no hace demasiados años
+reservada en buena medida a los hombres.
+2) La esfera￿de￿la￿reproducción, del cuidado de los niños, enfermos y gente
+mayor, del trabajo doméstico, no asalariado y socialmente no reconocido, casi
+siempre femenina, todavía hoy reservada a las mujeres.
+Lo cierto es que no son impermeables, de modo que cada vez hay más puentes
+entre ambas, pero lo que las separa y lo que dificulta el tráfico de hombres y
+mujeres de una a la otra tiene que ver con las formas de identificación, con
+los ritmos de trabajo.
+Las mujeres que se incorporan al mundo del trabajo productivo no dejan de
+identificarse (de sentirse) como reproductoras, ni abandonan, en su gran mayoría, la esfera del trabajo reproductivo, motivo por el cual sociólogos y sociólogas hablan de "doble￿jornada"￿de￿trabajo. Estudios más sutiles muestran
+la dificultad de pasar de unos ritmos de trabajo (en los que, por ejemplo, no
+es extraño velar toda la noche) a otros (pautados, regulados y en los que "el
+tiempo es oro"), las renuncias a que se ven obligadas las mujeres que quieren hacer una carrera profesional, las dificultades para acceder a determinados
+puestos de trabajo por su condición de reproductoras (muchos cargos están
+"reservados" a los hombres), y un largo etcétera que podéis completar vosotros
+mismos.
+En tal caso, no debe extrañarnos que en muchos países se hable de feminización￿de￿la￿pobreza. Los profundos cambios que la industrialización y la
+división del trabajo han comportado en los modelos familiares (no es este el
+lugar adecuado para hablar del tema, pero pensad que no hace mucho más
+de ciento cincuenta años, y en algunos lugares mucho menos, las actividades
+productivas y reproductivas no estaban separadas de la célula familiar) están
+dejando a una gran cantidad de mujeres separadas (hogares monoparentales)
+en situaciones muy desfavorables en el mercado de trabajo.
+Todavía hoy es una práctica habitual que las mujeres sacrifiquen su proyecto
+profesional por el del marido, que obtiene de este sacrificio una gran rentabilidad de tiempo y de esfuerzo. En Estados Unidos hay sentencias que exigen
+una compensación económica para la mujer después del divorcio, no por su
+Cuidar a los recién nacidos se ha asociado
+tradicionalmente al rol de mujer, es decir, a la
+esfera de la reproducción. Sin embargo, cada
+día hay más puentes entre las dos esferas.
+
+
+[Page 28]
+trabajo en el hogar (estas también se han podido encontrar en Cataluña), sino
+por la pérdida de competitividad en el mercado laboral durante los años de
+matrimonio y de dedicación al marido y a los hijos.
+Además, si echamos un vistazo a los tipos de trabajo mediante los cuales las
+mujeres se han incorporado al mercado de trabajo, veremos que todos están
+bastante relacionados con el servicio, el cuidado y la reproducción. Las diferencias de salario entre hombres y mujeres (esta es otra cuestión) por tareas,
+así como en un mismo trabajo, son bastante sensibles.
+Como podéis observar por lo que venimos diciendo, las diferencias sociales
+motivadas por el género son considerables. Las interiorizaciones de unos roles
+u otros, la encarnación del orden social, tienen efectos sutiles o evidentes,
+conscientes o inconscientes, pero siempre muy persistentes. El lenguaje, que
+hemos considerado la institución fundamental, es un mecanismo clave en
+las formas de hablar (lo que se conoce como estilos conversacionales), en las
+formas en que los hombres y las mujeres se apropian del lenguaje y lo utilizan.
+Los diferentes mundos donde los unos y los otros se socializan hacen que
+también las "palabras" sean diferentes (o porque son diferentes las palabras, el
+uso que les damos, son diferentes los mundos).
+La sociolingüista norteamericana Deborah Tannen resume el resultado de sus
+investigaciones sobre la forma en que los hombres y las mujeres nos "enrolamos" en el mundo y utilizamos el lenguaje de la siguiente manera:
+1) Los hombres se perciben en el mundo como individuos (individualidad)
+en medio de un orden￿social￿jerárquico en el que unos están encima y otros
+debajo, las conversaciones son negociaciones en las que la gente trata de mantener una posición preferente y se defiende de los intentos de los otros de situarse por encima de la propia posición. En este contexto, la vida es una especie de competición para preservar la independencia y no fracasar.
+Deborah￿Tannen (1991).
+You just don't Understand. Women and Men in
+Conversation.Nueva York:
+Random House.
+2) Las mujeres, por otra parte, se acercan al mundo de otra forma: como un
+individuo en medio de una red￿de￿conexiones. En este mundo las conversaciones son negociaciones para aproximarse a la gente, en las que buscamos
+apoyo, confirmación y conseguir consenso. La vida, en consecuencia, es una
+comunidad, una lucha por preservar la intimidad evitando el aislamiento.
+2.3. Si aceptáis la hipótesis de Deborah Tannen, aunque sea como hipótesis que puede
+ser falseada, podréis intentar hacer observaciones sobre cómo se manifiestan estos diferentes estilos conversacionales y usos del lenguaje, por ejemplo cuando explicamos las
+propias experiencias, cuando damos instrucciones para hacer algo, cuando hablamos de
+los demás entre amigos, cuando jugamos o cuando estando en pareja actuamos de forma
+diferente en privado que en público.
+En relación con lo que
+hemos expuesto en este
+subapartado sobre el sexo y
+el género, os recomendamos
+las siguientes películas:
+Jaime￿de￿Armiñán (1971).
+Mi querida señorita.
+Ang￿Lee (1995). Sentido y sensibilidad (Sense and Sensibility).
+
+
+[Page 29]
+3. Algunas dimensiones del mundo social
+Desde bien al principio hemos querido dejar claro que la realidad social se
+construye y que, por lo tanto, es contingente y cambiante. En este capítulo, sin
+embargo, nos hemos centrado en la dimensión institucional de la vida social,
+que es aquello que siempre encontramos "acabado" cuando nos incorporamos
+a cualquier sociedad. Ahora, queremos destacar alguna de las dimensiones más
+relevantes de las sociedades contemporáneas como la burocracia, la educación,
+la economía y la religión; esto es, estructuras institucionales e instituciones
+que organizan la sociedad y condicionan la ubicación de los individuos dentro
+de ella.
+3.1. Introducción: la burocracia
+Siempre vivimos en sociedad, entre seres humanos. Incluso el desventurado
+Robinson Crusoe no habría podido sobrevivir sin el mundo social del cual
+provenía: creencias, conocimientos y herramientas también se salvaron del
+naufragio. De hecho, en algunas ocasiones, desearíamos ser Robinson, pero
+en poco tiempo seguro que añoraríamos la presencia de los otros. Y es que
+el ser humano no soporta la soledad. Nacemos en una familia y al cabo de
+poco formamos parte de otros grupos más amplios, de amigos, de compañeros
+y compañeras de escuela. Unos años más y, sin casi habernos dado cuenta,
+somos miembros de asociaciones y organizaciones de las cuales ni siquiera conocemos a una mínima parte del resto de los miembros que, como nosotros,
+también forman parte de la misma: empresas, sindicatos, bancos, ONG, iglesias, estados, etc.
+Estas organizaciones a las que ahora hacemos referencia tienen objetivos bien
+definidos (se crean para llevar a cabo un propósito determinado) y están organizadas formalmente.
+En las sociedades modernas como la nuestra, organización￿formal es
+casi siempre sinónimo de burocracia.
+Todos vosotros habréis tenido en algún momento la sensación de "ser procesados", y seguro que no guardáis un recuerdo demasiado agradable del trato
+impersonal y reglamentado con el anónimo funcionario de turno. Sin embargo, más allá de esta experiencia personal, tenemos que decir que la burocracia
+es una de las formas de organización (a gran escala) más racionales y eficaces
+que se han inventado, con una enorme superioridad técnica por encima de
+cualquier otra forma de organización.
+
+
+[Page 30]
+La descripción clásica, y en general aceptada, de burocracia se la debemos a
+Max￿Weber. Las características￿esenciales del modelo (tipo ideal) weberiano
+de burocracia, que contribuye a la eficacia de la organización, son las siguientes:
+1) Personal asalariado a tiempo completo (funcionarios). Los cargos están bien
+definidos y tienen asignado un sueldo. La organización se tiene que mantener
+separada de la vida privada y de las actividades de su personal. Con estas condiciones se espera evitar la corrupción.
+2) Áreas de competencia bien delimitadas y específicamente reglamentadas.
+Todo el mundo sabe cuál es su trabajo, y hay unas reglas estrictas que gobiernan la conducta de los funcionarios. Si os equivocáis de ventanilla, no os podrán atender y tendréis que ir a la otra... o a la otra.
+3) Una jerarquía con líneas de autoridad y responsabilidad bien delimitadas.
+Cada burócrata, desde el primero hasta el último, es responsable de otro burócrata al cual supervisa. Esto debe posibilitar la transparencia y, en caso de
+queja, saber a quién tenemos que reclamar.
+4) Selección de personal sobre la base de cualificaciones técnicas o profesionales. Cada miembro del personal está entrenado de una manera racional para
+su particular posición en el esquema de la organización. Es necesario decir,
+además, que cada burócrata genera sus propios cuerpos de conocimientos y
+necesita gente especializada en el funcionamiento burocrático.
+5) Ningún miembro de la organización carece de los recursos materiales con
+que trabaja. El desarrollo de la burocracia separa a los trabajadores del control
+de los medios de producción.
+La gran ventaja de este tipo de organización es lo que Weber llama calculabilidad: la burocracia está protegida contra las emociones y los caprichos de sus administradores, de manera que su funcionamiento es
+muy previsible. Una vez sabemos las regulaciones y los procesos que hay
+que aplicar en un caso concreto, es fácil calcular el camino burocrático
+que seguirá y cuál puede ser su resultado.
+Esta característica de la burocracia introduce un importante elemento de estabilidad en la sociedad (compleja y siempre cambiante). Además, la burocracia
+procura a los dirigentes políticos (o de otro tipo) un formidable efecto multiplicador de su poder: permite controlar una enorme cantidad de recursos físicos, humanos y financieros.
+El escritor Franz￿Kafka nos
+recordará la tantas veces experimentada incompatibilidad de la burocracia con los
+intereses particulares. También podría ser que su constante demanda de racionalidad, en todo momento y en
+todos los ámbitos, acabe despertando en algunos un deseo irrefrenable de irracionalidad. Estos son otros niveles
+de análisis sociológico que
+podéis continuar desarrollando.
+Franz￿Kafka (1997). El proceso. Madrid: Cátedra.
+
+
+[Page 31]
+3.2. La educación
+¿De qué hablamos cuando hablamos de educación? Para dar una definición
+sociológica, recurriremos a las palabras de Durkheim.
+"La educación es la acción ejercida por las generaciones adultas sobre aquellas que no
+han llegado todavía a un grado de madurez suficiente para librarse de la vida social.
+Tiene por objeto suscitar y desarrollar en el niño un cierto número de estados físicos,
+intelectuales y morales, que exigen de él tanto la sociedad en general como el medio al
+cual está especialmente determinado."
+Émile Durkheim (1989, pág. 53).
+Es decir, según la concepción de Durkheim, la esencia de la obra educativa consiste en sobreponer al ser egoísta y asocial que acaba de nacer
+otro que sea capaz de llevar una vida moral y social. Espíritu￿de￿disciplina (que encontraremos bien ejemplificado en los ejércitos o en la escuela), espíritu￿de￿abnegación (una manera de decir "trabaja y calla") y
+espíritu￿de￿autonomía (individualismo) son los elementos fundamentales de la moralidad y la preocupación primordial de la escuela.
+Os puede parecer un poco exagerado, pero resume bastante bien la finalidad
+de la educación: conservar el mundo al que se tienen que incorporar las nuevas
+generaciones.
+Por todas partes, en toda época y sociedad, hay educación, ya que es responsabilidad de los adultos enseñar a las nuevas generaciones e incorporarlas en un
+nuevo mundo que para ellos siempre es viejo. Sin embargo, es una característica del mundo moderno que una buena parte de esta tarea, cada vez más larga
+y compleja, se deje en manos de una organización formal como la escuela.
+Podemos afirmar que el niño entra en el mundo cuando empieza a ir a la
+escuela, donde se encuentra con un nuevo tipo de jurisdicción, con normas
+explícitamente formuladas y administradas por un personal especializado. Es
+necesario decir que la escuela no es el mundo, sino la institución que interponemos entre la esfera privada del hogar y este para que así sea posible la
+transición de la familia al mundo. En realidad, el que exige la asistencia a la
+escuela no es tanto la familia como el estado; para el niño, la escuela es como
+una especie de representante del mundo que tiene la posibilidad de introducirlo en este (H. Arendt, 1993).
+Hoy día podemos decir que la escuela es, prácticamente, una institución universal, y que todos los estados intervienen, en mayor o menor medida, en la
+educación de sus miembros. La educación debe ser el vehículo de organización social y tiene que contribuir al progreso social, porque este ha sido uno
+de sus ideales más profundos. Como hemos apuntado antes, también el individuo, que participa de este ethos de progreso, que cree en la posibilidad de ir
+hacia delante, ha visto en la escuela, en la educación, una manera de mejorar
+El espíritu de disciplina es, según Durkheim,
+uno de los elementos esenciales de la obra
+educativa. En la imagen, una escuela inglesa en
+1816.
+
+
+[Page 32]
+su situación social (desde este punto de vista, el fracaso escolar se puede vivir
+como una deficiencia moral). Esta ideología educacional está organizada en
+procesos burocráticos a los que el individuo se encuentra sometido.
+Proceso burocrático educacional
+El sistema de créditos como paquetes de conocimiento que hay que ir acumulando para
+conseguir metas, exámenes y jueces para garantizar el proceso, y diplomas y certificados
+para acreditar la competencia adquirida, es un ejemplo bastante claro. El sistema asegura
+gente competente (criterio muy discutible) para llevar a cabo una serie de tareas determinadas y aparta a los no competentes, es decir, una especie de selección de personal
+que la sociedad hace mediante la escuela, eligiendo a unos individuos entre los muchos
+posibles, y que asegura que la gente preparada para las tareas necesarias será suficiente
+(formación).
+En cualquier caso, no perdamos de vista la definición de Durkheim, que veía
+en la educación la internalización de la disciplina moral en cada nueva generación. En este sentido, la función de la escuela, por lo general en manos del
+estado, además de la transmisión de unos conocimientos que deberán tener
+un uso práctico en la vida o revertir en el propio provecho (son dos opciones
+posibles), deberá transmitir unos valores y formar gente socialmente deseable.
+No es necesario decir que en función de cuáles o cómo son los estados variarán los valores y los tipos de ciudadanos que hay que modelar. Querríamos
+apuntar, por si a alguien le interesa el tema, que la escuela tal y como ahora la
+entendemos es, en buena parte, una consecuencia de los estados modernos.
+Para muchos de los denominados estados democráticos, la escuela tenía que ser
+un instrumento de lucha para igualar y hacer desaparecer, en la medida de
+lo posible, las diferencias sociales, o como mínimo aquellas diferencias sociales que se consideraban injustas. Tenía que proporcionar a los jóvenes conocimientos que les facilitasen la búsqueda de un lugar (mejor) en la sociedad.
+¿Ha sido así?
+En muchos países se han hecho numerosos estudios para intentar averiguar
+cuál era el papel que podía ejercer y ejercía la escuela en la movilidad (ascendente) social; pues bien, sin que se pudiese rechazar que la educación (el conocimiento) es un factor que facilita la movilidad, es todavía más evidente que
+la extracción social y familiar aparecía como una de las influencias principales
+en el rendimiento escolar y, por tanto, en la posibilidad de tener éxito social.
+La misma escuela (y el profesorado) proporciona más apoyo a los alumnos que
+(por condición social) están más motivados.
+Algunos autores (Ivan Illich, Pierre Bourdieu, Paul Willis) han hablado de reproducción￿social para referirse a las maneras como la escuela, junto con
+otras instituciones sociales, contribuye a perpetuar las desigualdades sociales
+y económicas generación tras generación. Así pues, los niños de clase trabajadora consiguen trabajos de clase trabajadora. También es fácil imaginarse que
+el hecho de ser mujer debe haber sido un factor importante en el currículum
+educativo.
+
+
+[Page 33]
+Todo lo que hemos dicho hasta ahora nos permite afirmar sin ningún
+tipo de sorpresa que la educación es una agencia básica de control social
+y, de hecho, esta es una de las experiencias básicas de los niños y niñas
+en la escuela. Por control￿social debemos entender cualquiera de los
+mecanismos por los cuales un individuo es llamado a observar las reglas
+de la sociedad o de un grupo social.
+Estos mecanismos incluirán el conjunto de recursos materiales o simbólicos
+(externos o internos) de que dispone una sociedad para asegurar el cumplimiento de las normas aprobadas desde el punto de vista social. Así es como
+la sociedad mantiene a la gente en orden y mantiene el orden de la gente. El
+control social es, apuntábamos en el primer apartado, un elemento intrínseco
+de cualquier institución; no puede haber sociedad sin control social.
+No penséis que los mecanismos de control social solo son una lista de normas
+y castigos legalmente establecidos, que pueden serlo, sino que también la presión económica, el ostracismo social u otros mecanismos mucho más sutiles,
+propios de los que denominamos grupos primarios (la persuasión, la ridiculización, la murmuración o el oprobio), son formas de control social (Berger,
+1971).
+A pesar de que vivimos constantemente bajo la amenaza y la presión de estos
+mecanismos, con miedo de que nos toquen el bolsillo, nos den de lado o se
+hable mal de nosotros, en la mayor parte de las ocasiones, como les pasaba
+a María y Andrés, no somos conscientes de la fuerza con que la sociedad nos
+ordena y nos configura unas formas de conducta, de pensamiento e incluso
+de sentimientos, debido a que poco a poco las vamos haciendo nuestras. No
+es nada fácil que el éxito sea absoluto, muy pocos pasarían la prueba si dispusiesen de un anillo que los convirtiese en invisibles.
+3.3. La estructura económica. Trabajo y ocio
+Para la mayoría de los seres humanos, ser adulto significa trabajar y dejar atrás
+el juego. Trabajo y juego son dos categorías antropológicas fundamentales.
+Lo que ha cambiado y cambia son las características –y las percepciones– de
+estas dos esferas de la vida. Todos, poco o mucho, tenemos experiencia de
+lo que significa trabajar, lo cual no quiere decir que si viniese alguien y nos
+preguntase qué es eso del trabajo, tuviésemos a punto una respuesta, por dos
+razones:
+1) En primer lugar, porque no siempre están claros los límites entre las actividades que consideraríamos trabajo y las que no.
+
+
+[Page 34]
+2) En segundo lugar, porque no tenemos demasiado claro el significado que
+tiene el trabajo para la vida humana. Unos consideraríais trabajo lo que para
+otros sería diversión, otros veríais el trabajo como una imposición, mientras
+que el resto encontraríais en este el camino de la autorrealización (vocación).
+Entre estas posiciones nos situaríamos la mayoría.
+Podríamos definir el trabajo como la ejecución de tareas que implican
+un esfuerzo mental y físico y cuyo objetivo es la producción de bienes
+y servicios para cubrir las necesidades humanas (Giddens, 1991).
+Algunos de estos trabajos, que reciben el nombre de ocupación u oficio, se llevan a cabo a cambio de dinero (salario). Otros (gran parte de lo que antes hemos denominado trabajo reproductivo) no son remunerados; y conocemos la
+organización del trabajo como sistema económico o economía. Lo cierto es que
+la esfera económica, sin ser determinante, posee una importancia capital en
+la vida de una sociedad.
+La división del trabajo es un rasgo característico de las sociedades humanas. En las sociedades modernas e industriales, esta división posee
+una complejidad, una variedad y unas consecuencias que nunca había
+tenido.
+A pesar de que parece que la división￿del￿trabajo interesa en especial a los
+economistas, puesto que va unida a la productividad del trabajo y parece una
+de las condiciones esenciales del progreso económico, debemos decir que se
+trata de un fenómeno social, es decir, además de implicar una división de tareas y un aumento de la productividad es, por encima de todo esto, un hecho
+de organización social. No se trata, como en algunas ocasiones se quiere hacer
+creer desde las perspectivas utilitaristas (economicistas), de un hecho natural y
+espontáneo, producto de la inteligencia natural del ser humano y de su desarrollo natural (progreso) hacia formas de productividad mayor; por el contrario, requiere que se organice y coordine de manera sistemática (R. Bourdon y
+F. Bourricaud, 1990). Esto significa que las tareas se asignan en función de una
+concepción mítica (no racional) de lo que es o debe ser la sociedad.
+La división del trabajo, pues, no solo es especialización de aptitudes y
+competencias; requiere coordinación de tareas. Este fue el objetivo de lo
+que se conoce como organización￿científica￿del￿trabajo o taylorismo,
+y que ha tenido un gran impacto en la organización de la producción
+y la tecnología industriales.
+
+
+[Page 35]
+F.￿W.￿Taylor se propuso mejorar la productividad del trabajo industrial porque, según él, el trabajador produce menos de lo que podría por una serie de
+razones fisiológicas, psicológicas y morales. Había que estudiar los procesos
+industriales para dividirlos en operaciones simples bien sincronizadas.
+A pesar del indiscutible éxito económico de estas formas de producción industrial, las críticas se dejaron oír muy pronto. Seguro que todos habéis visto la
+parodia de Chaplin en la película Tiempos modernos; alienación y deshumanización también son acusaciones que os deben de resultar familiares.
+En los dos últimos decenios, tratando de mejorar la situación del trabajador
+(sin detrimento de la productividad), se ha experimentado llevar a cabo la sustitución de las cadenas de montaje por la producción￿en￿grupos￿de￿trabajo,
+teniendo en cuenta que el trabajo en grupo puede alcanzar una gran calidad
+y aportar nuevas y originales soluciones a los problemas de producción.
+Otra innovación, puede que con más éxito que la anterior, ha sido la de los
+denominados círculos￿de￿calidad (QC, de quality circle), que son grupos de
+entre cinco y veinte trabajadores que reciben una formación extra y que se
+reúnen de forma periódica para hablar e intentar resolver los problemas de
+producción que van surgiendo y mejorar, así, la calidad de la producción y
+los productos.
+Asimismo, se han intentado reducir los cargos intermedios, para conseguir una
+mayor flexibilidad en el proceso de producción y dar respuestas más rápidas
+y tener una mayor competitividad en un mercado bastante cambiante (lean
+production, máximo de mano de obra directa y mínimo de indirecta).
+Ya debéis estar acostumbrados a tener presente que en el marco de la sociedad
+no siempre las acciones internacionales tienen los efectos deseados o, si los
+tienen, también tienen otros que no lo son tanto. En el caso de la organización "racional" del trabajo o de la introducción de la automatización, se esperaba que liberaría al ser humano de la condena del trabajo. Sin embargo, en
+muchos casos, lo que debería haber supuesto más tiempo libre para todos, se
+ha convertido en paro para algunos; lo que debería haber sido un medio de
+realización, se ha convertido en trabajo forzado.
+Desde la Segunda Guerra Mundial hasta ahora, son muchos los cambios￿que
+ha￿experimentado￿el￿mundo￿del￿trabajo:
+•
+Quizá el más significativo, del cual todavía no podemos hacer un balance,
+ha sido la demanda cada vez mayor de un trabajo remunerado por parte
+de las mujeres.
+•
+También están cambiando, aunque tampoco sea fácil su observación, los
+patrones culturales de mucha gente ante el trabajo. Parece que cada vez
+se valora más el tiempo libre y los espacios denominados privados, en
+Fordismo
+El industrial Henry Ford puso en práctica los métodos de
+Taylor, sin dejar de tener presente que la producción en
+masa requería mercados de
+masas y estos también tenían
+que ser fabricados. El fordismo es el nombre de este sistema de producción en masa
+vinculado al cultivo de mercados de masas.
+Cadena de montaje de la factoría Ford.
+
+
+[Page 36]
+contraposición al trabajo como vía de autorrealización. Si el trabajo no
+llega a ser una fuente de sufrimiento y una amenaza para la autoestima,
+que puede llegar a serlo, es simplemente tolerado y se buscan otras esferas
+de la vida en las que encontrar la realización.
+El tiempo libre sería, en este sentido, un valor en alza. Pero el tiempo
+libre es un concepto ambiguo, problemático. La gran diferencia entre el
+mundo del trabajo y la esfera pública, ampliamente regulados y estructurados, puede ser experimentada por algunos como una oportunidad
+de vida (de libertad para organizarse uno mismo), pero también como
+una opresión (el peso de la libertad o la falta de recursos económicos,
+así como de imaginación).
+Está claro que alguien con buen criterio podrá poner en duda de inmediato la
+libertad del tiempo libre, porque si tan "libre" fuese no coincidiríamos todos
+los mismos días, a las mismas horas y en los mismos sitios. Una respuesta sería
+que una de la agencias sociales o programas que sirven para estructurar (reestructurar) la esfera privada (y que se conocen como instituciones￿secundarias), que la sociedad moderna había dejado un poco abandonada, ha sido el
+consumo (consumo de masas y cultura de masas), y que sin lugar a dudas se ha
+convertido en una de las áreas de la organización económica más importantes.
+3.4. La religión. El problema del sentido
+La religión es un fenómeno característico de todas las sociedades humanas.
+Tratar la religión como un hecho social, es decir, como un hecho humano,
+ha sido una de las contribuciones de la antropología y de la sociología. Durkheim, por ejemplo, se ocupa no tanto de las creencias religiosas como de los
+rituales que los miembros de una sociedad llevan a cabo, en los cuales ve la
+clave de la solidaridad social, mientras que las creencias serían un símbolo de
+los grupos sociales. Weber se interesó por las orientaciones normativas que
+definen y regulan la forma en que vivimos nuestra vida personal y profesional,
+por cómo ciertas conductas se hacen para nosotros obligatorias, a pesar de que
+a primera vista son un obstáculo para la satisfacción de nuestros deseos.
+Debemos tener presente que la religión se expresa culturalmente y que
+toda cultura posee dimensiones religiosas; desde el punto de vista sociológico, esto es lo relevante en realidad.
+Al principio ya habíamos afirmado que la sociedad era una comunidad de
+sentido:
+En relación con el sistema de
+producción industrial y sus
+efectos, os recomendamos estas dos películas:
+Charles￿Chaplin (1936).
+Tiempos modernos (Modern Times).
+Ken￿Loach (1993). Lloviendo
+piedras (Raining Stones).
+
+
+[Page 37]
+"Vivir en un mundo social es vivir una vida ordenada y llena de sentido. La sociedad
+es la guardiana del orden y del sentido de la vida no solo de forma objetiva mediante
+sus estructuras institucionales, sino también de manera subjetiva, en la estructura de las
+consciencias individuales."
+P. L. Berger (1981, pág. 40).
+Toda sociedad humana es una empresa de construcción del mundo. Desde
+esta perspectiva, P.L. Berger se atreve a afirmar que toda sociedad es, quizá, un
+fenómeno religioso, en el sentido de que cada situación social depende de la
+definición de la situación que hacen los participantes; así, la sociedad como un
+todo se constituye por la definición de la realidad que prevalece. En cualquier
+caso, la religión ha ocupado y ocupa un puesto destacado en esta tarea.
+Así pues, ¿qué es eso que consideramos un hecho social y que denominamos
+religión, y cómo contribuye a la construcción del mundo social?
+Una multitud de elementos pueden tener una significación religiosa; que esto
+sea así depende de la actitud colectiva. Según Durkheim, lo que tienen en
+común las religiones son dos estos dos aspectos:
+•
+ciertas creencias a las cuales todos se adhieren;
+•
+ciertos rituales que representan las colectividades de creyentes.
+La creencia￿básica religiosa es que el mundo está dividido entre lo sagrado
+(algo extraordinario, que se sale de la rutina cotidiana) y lo profano (lo que
+no es sagrado, la vida cotidiana).
+Los rituales son los procedimientos que rigen el comportamiento de la gente
+ante los hechos sagrados, reafirman las creencias y orientan a los creyentes
+hacia una comunidad moral, estimulando la conformidad con sus normas. De
+esta manera se establece un cosmos sacralizado, un mundo que comprende
+símbolos institucionalizados que definen la identidad del grupo y permiten
+representar la realidad de forma concreta; creencias y valores, como hemos
+dicho, y prácticas centradas en cuestiones de significación última.
+Todo esto ofrece una serie de claves al individuo sobre cómo se tiene que comportar en el mundo y ante los demás. El orden social y el mundo en general
+pueden resultar problemáticos, muy problemáticos: tenemos que plantar cara
+al enfrentamiento, a la destrucción, a la guerra, al dolor, a la soledad, etc. En
+resumidas cuentas, tenemos que hacer frente a la muerte y a la indiferencia
+del mundo ante nuestro sufrimiento.
+Los rituales, como por ejemplo los religiosos,
+reafirman las creencias y estimulan la
+conformidad con las normas de la comunidad
+moral.
+En la imagen, fieles musulmanes en una
+mezquita de El Cairo.
+
+
+[Page 38]
+En este sentido, podemos entender la religión como una práctica humana de dominación de la contingencia (L. Duch, 1984). La religión
+nos da las soluciones que debemos adoptar ante estas cuestiones relacionadas con las últimas significaciones (problema del sentido), ofrece
+respuestas a las preguntas que en cualquier orden social quedan formuladas, legitima el mundo socialmente construido, integra en un todo de
+sentido las situaciones límite que se dan en la vida cotidiana y nos hace
+sentir que formamos parte de una comunidad de seres humanos.
+Desde esta perspectiva sociológica, un mundo sin mitos es una utopía. Los
+mitos son inevitables para saber algo tan sencillo como qué es un valor y
+para hacer que este valor funcione; sin esto, la vida social difícilmente podría
+existir. Somos muchos y en ocasiones nos enfrentamos unos con otros. Para
+que los grupos se mantengan unidos son necesarios mecanismos que creen
+fuertes emociones e ideales comunes.
+Sin embargo, no debemos olvidar que en el mundo moderno cada vez es más
+difícil vivir en una situación de monopolio, por lo menos en cuanto a las
+creencias religiosas. Hoy día pertenecemos a muchos mundos al mismo tiempo que no tienen por qué ser incompatibles. Se puede ser católico, catalán,
+científico y comunista sin que por ello surjan demasiados problemas, del mismo modo que alguien puede no saber demasiado bien qué es. La complejidad
+del mundo en el que vivimos, la saturación de las relaciones interhumanas y
+la interculturalidad dificultan el hecho de encontrar sentido e identidad.
+Para que nuestras orientaciones de valores sean eficaces (y tengan plausibilidad; por ejemplo, es difícil que fuésemos budistas en Teherán) debe existir la
+posibilidad de cristalizar en un sistema de prácticas y creencias institucionalmente definidas. Por este motivo, toda creencia religiosa (el protestantismo,
+por ejemplo, pero también en este sentido el comunismo) no se limita a ser un
+sistema de valores en exclusiva, sino que también es una forma de organizar
+la comunidad de creyentes y, en no pocas ocasiones, un proyecto "religioso"
+por encima de la organización de la sociedad. Desde este punto de vista, toda
+religión es una organización que genera sus propios roles, relaciones jerarquizadas y bien definidas entre estos roles, y un conjunto de normas que orientan
+el comportamiento de los que forman parte de la misma.
+Ahora seguramente os parecerá muy evidente, pero no lo era tanto hace algunos años –cuando nuestro país (e históricamente el mundo occidental) vivía
+en situación de monopolio religioso–, las organizaciones religiosas (y los grupos religiosos) no son todos del mismo tipo. La distinción más fundamental
+y clásica sobre el tema, y por eso mismo la más debatida y elaborada, es la que
+se establece entre iglesia y secta:
+
+
+[Page 39]
+1) Max Weber, a quien debemos la distinción sociológica original, caracteriza la iglesia (o las iglesias) como una asociación con un conjunto de ordenamientos racionalmente establecidos (con vistas a un fin). La pretensión de
+estos ordenamientos es la de ser válidos para todo aquel que reúna determinadas características externas (nacimiento, estancia, uso de ciertos servicios,
+etc.), con independencia de si entró por voluntad en la asociación o no, o si
+colaboró o no en la elaboración de los ordenamientos. Las iglesias mantienen
+la pretensión del monopolio legítimo de la coacción psíquica (que garantiza
+su orden), concediendo o rechazando bienes de salvación. El paralelismo con
+el estado es manifiesto.
+2) La secta, siguiendo también a Weber, se diferencia principalmente de la
+iglesia por el carácter voluntario del ingreso. Con esta condición, los ordenamientos establecidos por la secta solo son válidos para quienes forman parte
+de ella como miembros por decisión propia. Como debéis suponer con facilidad, si todavía mantenéis una actitud propia de sociólogos y sociólogas, las
+sectas tienden a institucionalizarse y a convertirse en iglesias. Además, el carácter voluntario es de aplicación problemática para los hijos de los sectarios.
+En cualquier caso, esto no agota, ni mucho menos, la complejidad del análisis
+de las organizaciones religiosas, ni la dicotomía iglesia/secta incluye la totalidad de los fenómenos religiosos. La sociología, como la sociedad, no tiene
+nunca un estatuto definitivo. Si os gusta la aventura, hacer descubrimientos y
+encontrar nuevos mundos, y todo sin alejaros demasiado de casa, la sociología
+puede ser un buen camino para conseguirlo.
+
+
+[Page 40]
+Resumen
+A lo largo de este módulo hemos considerado algunas de las dimensiones del
+mundo social, y lo hemos hecho desde la perspectiva en que estas se nos presentan en tanto que realidades objetivas. Esto, y la experiencia que tenemos
+en muchas ocasiones, nos podría llevar a pensar en la sociedad como una especie de enorme y tiránica maquinaria absolutamente definida y bien acabada
+en la que todos y todas estamos atrapados: instituciones que bajo la amenaza
+del castigo nos indican incluso qué tenemos que sentir, estratos sociales en los
+cuales nos podemos sentir más encerrados que las pobres almas del infierno
+de Dante en la Divina Comedia, organizaciones que nos controlan desde muy
+pequeños y que condicionan nuestro tiempo presente y nuestro futuro.
+Lo cierto es que en otras ocasiones nos damos cuenta de la enorme complejidad e indeterminación de este gran artificio (natural, si queréis) que es la sociedad, así como de la fragilidad y de la impredecibilidad de sus procesos. Y
+es que se compone de seres humanos que actúan unos frente a otros y todos
+frente al mundo social donde viven y del que son artífices. La capacidad que
+tenemos los seres humanos de empezar cosas nuevas hace que no sea posible,
+por lo que respecta al mundo social, ningún tipo de conclusión diferente de
+que hay que tener muy presente la apertura de todos estos procesos que estamos repasando a lo largo de este curso.
+
+
+[Page 41]
+Actividades
+"Aprender￿y￿disfrutar￿ejerciendo￿de￿sociólogo￿o￿socióloga"
+1. Elegid dos o tres instituciones y describidlas poniendo de manifiesto las características
+propias de toda institución.
+2. Si hace poco que habéis ido a un banquete de boda o tenéis que ir a lo largo de este curso,
+intentad observar si la organización de las mesas y las personas que las ocupan responde a
+algún tipo de jerarquización (tomad como referencia la mesa de los novios).
+3. Descubrid los rasgos de cualquier organización burocrática analizando vuestra universidad.
+4. Pedid a vuestros amigos y familiares que hagan una lista de las características que consideran naturales en hombres y mujeres, y otra lista de las que consideran sociales o culturales.
+Comparadlas. ¿Hay alguna diferencia entre las listas confeccionadas por mujeres y las confeccionadas por hombres? ¿Resultan ser significativas de algo?
+5. Preguntad a vuestros abuelos (o a alguien de su generación) cómo eran sus empleos y
+qué hacían cuando no trabajaban. Haced lo mismo con vuestros padres (o alguien de su
+generación); observadlo en vosotros mismos y, en caso de tenerlos, en vuestros hijos (o chicos
+de las generaciones más jóvenes). ¿Cuáles son las diferencias más relevantes? ¿Qué parece
+que ha cambiado?
+Ejercicios de autoevaluación
+1. ¿A qué nos referimos cuando hablamos de dialéctica social?
+2. ¿Qué tres momentos tiene la dialéctica social?
+3. ¿Qué es la sociedad?
+4. ¿Qué entendemos por institución?
+5. ¿Cuáles son las características básicas de una institución?
+6. ¿En qué caso afirmaríamos que una institución está legitimada?
+7. Cuando hablamos de movilidad social, ¿de qué estamos hablando?
+8. ¿Cuáles son los criterios de estratificación de Marx y de Weber?
+9. ¿Qué es un rol? Elaborad una lista de los que consideréis que son los roles que encarnáis
+en este momento de vuestra vida.
+10. ¿Podemos hablar de trabajo en relación con la denominada "esfera reproductiva"?
+11. ¿Por qué es racional la burocracia?
+12. Señalad algunas de las características más importantes de la organización burocrática.
+13. ¿Podemos considerar la educación escolar como un mecanismo de control social?
+14. ¿Se organiza el trabajo desde el punto de vista social siguiendo unas leyes naturales?
+15. ¿Cuál es el papel social de la religión?
+
+
+[Page 42]
+Solucionario
+Ejercicios￿de￿autoevaluación
+1. Cuando hablamos de dialéctica social nos referimos al proceso interactivo de construcción
+del mundo (social). Toda sociedad humana es una empresa de construcción del mundo; los
+individuos construyen con su acción la realidad social –no puede haber realidad social fuera
+del ser humano–, pero, al mismo tiempo, el individuo es un producto de la sociedad.
+2. Los momentos del proceso dialéctico fundamental de la sociedad son: exteriorización,
+objetivación e interiorización.
+3. La sociedad es una parte de lo que el ser humano realiza con su acción (la cultura, el mundo
+humano). La sociedad es como un conglomerado de instituciones, un orden social que hace
+posibles las comunidades humanas y les da sentido.
+4. Una institución es un patrón de comportamiento. Las instituciones organizan la solución
+de los problemas humanos en la medida en que gobiernan, y tienen fuerza para hacerlo,
+determinadas partes de la acción social.
+5. Las características básicas de una institución son cinco: externalidad, objetividad, coerción,
+autoridad moral e historicidad.
+6. Podemos afirmar que una institución está legitimada cuando los individuos no experimentan los patrones de comportamiento que ordena como algo impuesto, sino que los viven
+como si se tratase de lo más normal (forman parte del mundo dado por descontado).
+7. Mediante la expresión movilidad social nos referimos al movimiento de los individuos
+(o unidades familiares o grupos) dentro del sistema de estratificación de una determinada
+sociedad.
+8. Para K. Marx, el criterio de estratificación viene dado en función de lugar que se ocupa
+en el sistema de producción de una sociedad determinada, lo cual nos adscribe a una cierta
+clase social y a unos determinados intereses (de clase).
+M. Weber distinguió entre tres tipos de estratificación: la clase (definida en función de los
+ingresos), el estatus (basado en patrones de consumo y estilos de vida) y el poder (basado en
+la adscripción política y la posibilidad de imponer la propia voluntad en la acción colectiva).
+9. El rol es el comportamiento que se espera de un individuo que ocupa una determinada
+posición social. Los roles son los diferentes papeles que interpretamos en el "gran teatro
+del mundo". Cada rol tiene asignados unos deberes y unos derechos correlativos a dichas
+obligaciones.
+10. Sí.
+11. Si entendemos por racionalidad la adecuación de unos medios (según las normas del saber
+lógico y empírico) a la consecución de unos fines, la burocracia es una de las formas de organización más eficaces en este sentido. La calculabilidad es un ejemplo de esta racionalidad.
+12. Algunas de las características más importantes de la burocracia son: el personal asalariado
+(funcionariado), la delimitación de las áreas de competencia, la jerarquización (de autoridad
+y responsabilidad), la selección del personal de acuerdo con cualificaciones técnicas y profesionales, el no control por parte de los trabajadores de los medios de producción.
+13. Sí. La educación es en buena parte la interiorización de la disciplina moral de una sociedad
+por parte de cada nueva generación, y en este sentido se trata de un mecanismo por el cual
+el individuo se ve empujado a observar las normas de la sociedad o grupo social.
+14. No. Toda organización social, y en concreto la organización social del trabajo, requiere
+una constante asignación y coordinación de tareas en función de unos criterios que en ningún caso son "espontáneos" o naturales, sino que representan una determinada concepción
+del mundo, de la sociedad o, en este caso, del trabajo.
+15. Uno de los papeles sociales más destacados de la religión ha sido y es la tarea de construcción (preservación y legitimación) del mundo social. Tampoco debemos olvidar el puesto
+fundamental de la religión como práctica humana de dominación de la contingencia.
+
+
+[Page 43]
+Bibliografía
+Bibliografía básica
+Berger, P. L. (1971). Introducción a la sociología. México: Limusa.
+Berger, P. L.; Luckmann, T. (1986). La construcción social de la realidad. Buenos Aires:
+Amorrortu.
+Boudon, R.; Bourricaud, F. (1995). Diccionario de Sociología. Barcelona: Larousse Planeta.
+Bibliografía complementaria
+Arendt, H. (1993). La condición humana. Barcelona: Paidós.
+Durkheim, É.  (1987). Las reglas del método sociológico. Madrid: Akal.
+Elias, N. (1982). Sociología Fundamental. Barcelona: Gedisa.
+Elias, N. (1993). El proceso de la civilización. México: Fondo de Cultura Económica.
+Giddens, A. (1991). Sociología. Madrid: Alianza Universidad Textos.
+Picó, J.; Sanchis, E. (1996). Sociología y sociedad. Madrid: Tecnos.
+Sarrible, G. (1991). Población y desigualdad social. Madrid: Siglo XXI.
+Sarrible, G. (1998). Teoría de la población. Barcelona: Edicions UB.
+Subirats, M.; Brullet, C. (1988). Rosa y Azul. La transmisión de los géneros en la escuela mixta.
+Madrid: Ministerio de Cultura / Instituto de la Mujer.
+Trias, E. (1969). La filosofía y su sombra. Barcelona: Seix Barral.
+Referencias bibliográficas
+Aron, R. (1996). Las etapas del pensamiento sociológico. Argentina: Fausto.
+Berger, P. L. (1981). Para una teoría sociológica de la religión. Barcelona: Kairós.
+Durkheim, É. (1989). Educación y sociología. Barcelona: Península.
+Gehlen, A. (1980). El hombre. Salamanca: Ediciones Sígueme.
+Luckmann, T. (1996). Teoría de la acción social. Barcelona: Paidós.
+Marx, K.; Engels, F. (1962). Manifiesto del partido comunista. Lima: Fondo de Cultura Popular.
+Weber, M. (1993). Economía y sociedad. México: Fondo de Cultura Económica.

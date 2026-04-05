@@ -1,0 +1,433 @@
+Procedimientos
+y decisiones para
+determinar qué se
+observará
+PID_00248675
+Gemma Sala
+Rosa Borge Bravo
+Albert Padró-Solanet i Grau
+Tiempo mínimo de dedicación recomendado: 1 hora
+© FUOC • PID_00248675
+Procedimientos y decisiones para determinar qué se observará
+Ninguna parte de esta publicación, incluido el diseño general y la cubierta, puede ser copiada,
+reproducida, almacenada o transmitida de ninguna forma, ni por ningún medio, sea éste eléctrico,
+químico, mecánico, óptico, grabación, fotocopia, o cualquier otro, sin la previa autorización escrita
+de los titulares del copyright.
+© FUOC • PID_00248675
+Procedimientos y decisiones para determinar qué se observará
+Índice
+ 
+Introducción...............................................................................................
+5
+ 
+1.
+Selección de casos..............................................................................
+7
+1.1.
+Indeterminación ..........................................................................
+7
+1.2.
+Sesgos de selección de casos .......................................................
+8
+1.3.
+Selección de casos a partir de la variable independiente ............
+8
+1.4.
+Selección de casos a partir de la variable dependiente ...............
+9
+ 
+2.
+Selección de variables.......................................................................
+10
+2.1.
+Error en la medida de las variables .............................................
+10
+2.2.
+Sesgo: omisión de variables relevantes .......................................
+11
+2.3.
+Ineficiencia: inclusión de variables irrelevantes .........................
+11
+2.4.
+Endogeneidad: confusión de causas y de consecuencias ............
+12
+ 
+Actividades..................................................................................................
+13
+© FUOC • PID_00248675
+5
+Procedimientos y decisiones para determinar qué se observará
+Introducción
+Pueden distinguirse tres posiciones diferenciadas en cuanto a la relación en-
+tre los dos métodos o paradigmas fundamentales de investigación social: el
+cuantitativo y el cualitativo.
+La primera posición es la purista, tanto cuantitativa como cualitativa (los ex-
+tremos se tocan), y defiende que las dos metodologías son completamente
+diferentes, antagónicas, inconmensurables y excluyentes. No tiene ninguna
+ventaja que el investigador que usa un método tenga en cuenta lo que se diría
+en el otro método, porque no le puede aportar nada. Cada perspectiva parte
+de concepciones radicalmente diferentes de la realidad social: el positivismo
+cuantitativo supone la verificabilidad de la ciencia, cosa que entra en contra-
+dicción con el relativismo de los cualitativistas, que suponen que toda la reali-
+dad es socialmente construida.
+La segunda posición acepta que los dos métodos son conmensurables y tienen
+una misma lógica de inferencia científica. La obra clave de este punto de vista
+es la lógica de la investigación cualitativa de King, Keohane y Verba (2000).
+Supone que los métodos cualitativos se aplican en las fases iniciales de la in-
+vestigación científica en un campo y se pueden beneficiar de aplicar el esque-
+ma conceptual de la investigación cuantitativa a la investigación cualitativa.
+Este es el punto de vista de este módulo didáctico, pero ha sido criticado por
+algunos científicos sociales por reflejar un "imperialismo cuantitativista", que
+supone que la investigación cuantitativa es superior a la cualitativa (Brady y
+otros, 2010, pág. 3).
+Finalmente, la tercera posición, a veces denominada dualista, está en medio
+de las dos anteriores. Los defensores de esta posición creen que las dos pers-
+pectivas metodológicas se pueden beneficiar la una de la otra, puesto que am-
+bas tienen diferentes fortalezas y debilidades. Tal como dice el subtítulo de
+la obra que recoge las mayores contribuciones a este debate (Brady y Collier,
+2010), a pesar de que la investigación social emplea "diferentes herramientas",
+"comparte" los mismos "estándares".
+Si bien hay varios métodos de investigación social, todos comparten la misma
+lógica de inferencia. Cada método tiene sus características propias desde el
+punto de vista del número de casos, el tipo de datos que usa, las preguntas que
+se formula o la relación con la teoría. Pero para inferir conocimiento general
+a partir de datos empíricos hace falta que todos cumplan ciertos requisitos in-
+ferenciales. Los apartados siguientes no se proponen un análisis intensivo de
+Referencias:
+Brady,￿H.￿E.;￿Collier,￿D.
+(2010). Rethinking social in-
+quiry: diverse tools, shared
+standards. Lanham: Rowman
+& Littlefield.
+Brady,￿H.￿E.;￿Collier,￿D.;
+Seawright,￿J. (2010). "Refo-
+cusing the Discussion of Met-
+hodology". Rethinking social
+inquiry: diverse tools, shared
+standards. Lanham: Rowman
+& Littlefield.
+King,￿G.;￿Keohane,￿R.￿O.;
+Verba,￿S. (2000). El diseño de
+la investigación social: la infe-
+rencia científica en los estudios
+cualitativos. Madrid: Alianza
+Editorial.
+© FUOC • PID_00248675
+6
+Procedimientos y decisiones para determinar qué se observará
+las características de los requisitos de la inferencia, sino que aspiran a propor-
+cionar definiciones concretas, como apoyo a las explicaciones y los ejemplos
+de lecturas obligatorias.
+Para satisfacer las reglas de la inferencia, el diseño de la investigación debe
+tener en cuenta ciertas consideraciones en dos aspectos principales: la selec-
+ción de casos y la selección de variables que tiene que observar. En cuanto a
+la selección￿de￿casos, la investigación tiene que evitar situaciones como la
+supradeterminación, la multicolinealidad y los sesgos que surgen de la obser-
+vación de casos en determinadas circunstancias. En cuanto a la selección￿de
+variables, hay que evitar errores en la medida y en la asignación de los valo-
+res en las variables, la introducción de variables irrelevantes o los problemas
+de endogeneidad. Los apartados siguientes explican en qué consiste cada una
+de estas consideraciones. Su relevancia consiste en que si no las tenemos en
+cuenta no podemos estar seguros de que las conclusiones de la investigación
+sean fiables.
+Estos requisitos de la inferencia han sido tradicionalmente aplicados al méto-
+do estadístico. Recientemente, sin embargo, se tiende a considerar que tam-
+bién se pueden aplicar a los métodos tradicionalmente entendidos como cua-
+litativos. Desde el momento en el que los diferentes métodos comparten la
+finalidad común de llegar a conclusiones generales, y científicas, todos ellos
+tienen que satisfacer las condiciones que garantizan que esto sea posible. La
+aplicación de las reglas cuantitativas de inferencia a las investigaciones de ca-
+rácter cualitativo ha permitido acabar con la concepción tradicional sobre la
+naturaleza humanística, y exclusivamente descriptiva, de la investigación cua-
+litativa. Esta "cuantitativización" de los métodos cualitativos ha encontrado
+resistencias y críticas entre los autores que defienden la especificidad de cada
+método. Aun así, se considera que mientras la investigación social esté orien-
+tada a la construcción de teorías generales tiene que satisfacer estos requisitos.
+Solo las investigaciones ateóricas, las interpretativas o las que aspiran a la for-
+mulación de hipótesis pueden no tener en cuenta las consideraciones que se
+presentan en los apartados siguientes.
+Bibliografía
+Los exponentes principales de la extensión de las reglas cuantitativas de inferencia a los
+métodos cualitativos están en: G.￿King￿y￿otros (2001). El diseño de la investigación social.
+Madrid: Alianza. Varios capítulos de este libro están asignados como lecturas obligatorias
+en este curso.
+Las reacciones a esta homogeneización de los requisitos inferenciales de los distintos
+métodos de investigación se encuentran en gran medida compiladas en el volumen 89,
+núm. 2 de junio de 1995, de la American Political Science Review. En este número, cinco
+renombrados politólogos y sociólogos evalúan las ventajas y las posibilidades de defen-
+der una única lógica inferencial para los dos tipos de métodos. King, Keohane y Verba
+también responden al final del número. Tenéis disponibles las lecturas en PDF en el aula.
+© FUOC • PID_00248675
+7
+Procedimientos y decisiones para determinar qué se observará
+1. Selección de casos
+Este apartado está dedicado a analizar algunas de las consideraciones o peligros
+que se tienen que evitar a la hora de elegir los casos en los que basaremos la
+investigación.
+1.1. Indeterminación
+A veces no se puede determinar si el fenómeno que se quiere explicar (la va-
+riable dependiente) es el resultado de un factor u otro. Resulta imposible ex-
+plicar de dónde proviene el efecto causal que se quiere explicar. Este problema
+se denomina indeterminación. Cuando existe indeterminación no se pueden
+contrastar las hipótesis causales.
+La indeterminación se manifiesta de varias maneras: la sobredeterminación y
+la multicolinealidad.
+Sobredeterminación
+El problema de la sobredeterminación aparece cuando el número de variables
+es más alto que el número de casos observados. Si el número de variables es
+más elevado que el número de casos, no se puede comprobar el efecto causal
+de todas. Esto es así porque no hay suficientes casos como para mantener el
+efecto de cada una de las variables controladas.
+Ejemplo de sobredeterminación
+Si dos casos observados se comportan de forma diferenciada en la variable dependiente
+y presentan características diferentes en dos variables independientes (a y b), resulta im-
+posible determinar cuál de estas es la que causa la variación en el comportamiento de
+cada caso, o la proporción en la que lo causan, puesto que tenemos dos explicaciones
+alternativas para el comportamiento diferente de la variable dependiente. Puede ser que
+la variación de la variable dependiente sea debida a la diferencia en el valor de la variable
+explicativa a en cada caso o a efectos de diferentes valores en la variable explicativa b. Por
+ejemplo, queremos saber por qué en Rusia ganó la revolución en 1917 (caso 2) y, en cam-
+bio, no en 1905 (caso 1). Una explicación es que en 1917 Rusia estaba inmersa en la Gran
+Guerra (variable a); la otra explicación es que en 1917 había habido la experiencia de la
+revuelta de 1905 (variable b). Como tenemos dos variables y dos casos que varían en las
+dos, no podemos determinar qué variable ha causado realmente el éxito de la revolución.
+Este es un problema frecuente en los estudios comparados y se denomina pro-
+blema de pocos casos-muchas variables.
+Multicolinealidad
+El problema de la multicolinealidad se refiere a las investigaciones en las que
+las variables estudiadas están correlacionadas. Es decir, si bien las variables in-
+dependientes están correlacionadas con la variable dependiente (determina-
+© FUOC • PID_00248675
+8
+Procedimientos y decisiones para determinar qué se observará
+dos valores de la variable independiente se observan simultáneamente con
+determinados valores de la variable dependiente muchas veces) tal como se
+espera para poder establecer la causalidad, en los casos de multicolinealidad
+las variables independientes también están correlacionadas entre sí, con lo
+cual no se puede precisar si hay una verdadera influencia de cada una de las
+variables sobre la dependiente. La multicolinealidad es el mismo problema
+que la sobredeterminación, pero visto desde el punto de vista de la estadísti-
+ca multivariante. Consecuentemente, el remedio para los problemas de mul-
+ticolinealidad consiste –como en el caso de la sobredeterminación– en recoger
+más casos.
+1.2. Sesgos de selección de casos
+Los métodos de investigación social se intentan aproximar a los modelos ex-
+perimentales que se desarrollan en las ciencias naturales. Si bien el método
+experimental se caracteriza por la selección aleatoria de casos, en muchas sub-
+disciplinas de las ciencias sociales los tienen que elegir según criterios prees-
+tablecidos para poder observar la relación entre las variables estudiadas. Así
+pues, se seleccionan los casos según si presentan condiciones que permitan
+contrastar las hipótesis formuladas. Es en este proceso de elección donde pue-
+den colarse los principales sesgos en la investigación. La posibilidad de elegir
+los casos a partir de los que se basarán nuestras conclusiones nos puede con-
+ducir, inadvertidamente, a elegirlos de modo que presenten las condiciones
+que corroboran nuestras hipótesis.
+El mejor criterio para la selección de casos es el que tiene en cuenta los valores
+de la variable independiente en la selección. En cambio, es corriente encontrar
+casos en los que la selección de casos se ha establecido según los valores de
+la variable dependiente. Es en estos casos donde se introducen los principales
+sesgos en la investigación.
+1.3. Selección de casos a partir de la variable independiente
+La selección de observaciones según la variable explicativa es la mejor manera
+que tienen los métodos de investigación social para aproximarse a la investi-
+gación experimental. La experimentación consiste en someter a los grupos ob-
+servados (o casos) a diferentes condiciones de la variable independiente (tra-
+tamiento frente a control). Así pues, la selección de casos según la variable in-
+dependiente se puede entender como la aplicación de tratamientos diferentes
+en los casos observados.
+El estudio del efecto causal consiste en saber si la ausencia o presencia de de-
+terminadas condiciones afectan al comportamiento de la variable dependien-
+te. Por lo tanto, resulta evidente que hay que asegurar que los casos observa-
+dos tengan en cuenta la variación o los diferentes valores de la variable inde-
+pendiente.
+© FUOC • PID_00248675
+9
+Procedimientos y decisiones para determinar qué se observará
+Así pues, si queremos conocer el efecto del partido político en el gobierno sobre
+la política de reforma económica que se ha llevado a cabo en varios países de la
+Europa del Este, deberemos fijarnos en aquellos países donde los partidos en el
+gobierno son de diferente signo político. En otras palabras, para determinar si
+una variable ejerce un efecto sobre otra, hay que poder observar cómo varían
+los valores de la segunda a medida que los valores de la primera cambian.
+1.4. Selección de casos a partir de la variable dependiente
+La selección de casos a partir de los valores de la variable dependiente provoca
+sesgos en las conclusiones de la investigación.
+•
+Si se eligen casos que tienen el￿mismo￿valor￿en￿la￿variable￿dependiente
+no se puede identificar qué la hace cambiar. En otras palabras, nos lleva-
+ría a creer que lo que es común en todos los casos observados genera re-
+sultados comunes. Por ejemplo, cuando nos proponemos averiguar cuáles
+son las causas del estallido de guerras civiles en diferentes países africanos
+y, para hacerlo, elegimos los que han sufrido guerras civiles, corremos el
+riesgo de pensar que, por ejemplo, una elevada fragmentación étnica o la
+baja financiación del ejército son las causas si resulta que todos los casos
+que analizamos tienen estas características. Pero esta conclusión es una
+falacia. En la medida en que el valor de la variable dependiente no varía
+no podemos observar ningún efecto. Por lo tanto, es imposible determinar
+cuáles son las variables independientes que explican el comportamiento
+de la dependiente. Podría ser, por ejemplo, que hubiera una elevada pro-
+porción de países sin guerras civiles, pero con una elevada fragmentación
+étnica, lo que desmentiría nuestra conclusión. Para medir efecto, hay que
+observar variación en el comportamiento.
+•
+Precisamente, el carácter intuitivo de esta última proposición ha llevado a
+muchos investigadores a elegir los casos de estudio según si la￿variable￿de-
+pendiente￿tiene￿valores￿diferentes. Si bien este procedimiento nos evita
+el problema del punto anterior, todavía implica un sesgo en la investiga-
+ción. Si elegimos las observaciones según valores diferentes en la variable
+dependiente, podemos identificar fácilmente como variable independien-
+te lo que también presenta valores diferentes entre los casos observados.
+Lectura complementaria
+Leed este capítulo: G.￿King
+y￿otros (2000). "Determinar
+lo que se va a observar". En:
+El diseño de la investigación so-
+cial: la inferencia científica en
+los estudios cualitativos (cap.
+4). Madrid: Alianza.
+© FUOC • PID_00248675
+10
+Procedimientos y decisiones para determinar qué se observará
+2. Selección de variables
+Si bien el apartado anterior resume a grandes rasgos las consideraciones que
+hay que tener en cuenta a la hora de elegir los casos de la investigación, las
+variables con las que queremos explicar la realidad social también pueden in-
+troducir problemas en la inferencia.
+Por un lado, pueden tener problemas relacionados con la validez y la fiabilidad
+de la medida de las variables. Hay que saber si las variables miden lo que cree-
+mos que miden y que lo que miden esté bien medido. Por otro lado, hace falta
+que las variables que estudiamos sean relevantes para explicar el fenómeno
+social que nos proponemos entender y que les demos el papel acertado en su
+relación con las otras variables del estudio.
+2.1. Error en la medida de las variables
+Uno de los problemas frecuentes en la observación de la realidad social es la
+dificultad de traducirla en categorías o cantidades numéricas que la definan
+y que la hagan analíticamente observable. En este proceso de asignación de
+valores a las variables se pueden infiltrar varios errores en la observación de
+la realidad social.
+Las tres condiciones fundamentales para que los valores de las variables estu-
+diadas midan la realidad social de un modo analíticamente útil son:
+•
+Consistencia￿o￿fiabilidad: medidas diferentes del mismo fenómeno tie-
+nen los mismos resultados. En otras palabras, que el criterio de asignación
+de valores a las variables sea homogéneo en todas las observaciones. La
+consistencia también implica que los valores reflejen las similitudes y las
+diferencias que los casos presentan en la realidad. Esto implica que los ca-
+sos que presenten características similares tengan valores similares, y que
+los casos que tengan características diferentes tengan valores diferentes en
+la misma proporción que las diferencias que muestran en realidad.
+•
+Validez: los valores de las variables reflejan lo que el investigador cree que
+miden. Es decir, reflejan correctamente la realidad porque los indicadores
+de las variables representan y registran efectivamente la propiedad o ca-
+racterística de las unidades de análisis que se pretende medir.
+© FUOC • PID_00248675
+11
+Procedimientos y decisiones para determinar qué se observará
+•
+Completitud: los conceptos y los valores analíticos definen las caracterís-
+ticas de cada caso de forma completa. Es decir, que en su esfuerzo por sim-
+plificar la realidad social, las categorías analíticas no pierdan información
+relevante sobre los casos estudiados.
+2.2. Sesgo: omisión de variables relevantes
+La omisión de variables relevantes en la observación puede sesgar los resulta-
+dos de la investigación –es decir, el valor del efecto causal entre dos variables
+al que llegamos a partir del estudio de ciertos casos no tiende a centrarse alre-
+dedor del valor real si lo pudiéramos determinar.
+Las variables relevantes son las que de acuerdo con la teoría causan un efecto
+significativo en la variable dependiente. Por lo tanto, el hecho de que algunas
+de las variables que afectan al comportamiento de la variable dependiente no
+estén consideradas puede significar que la estimación del impacto de la varia-
+ble que queremos estudiar esté sesgada, por encima o por debajo del efecto
+real. No solamente existe una proporción de la explicación del comportamien-
+to de la variable dependiente que no está explicada, sino que además hemos
+asignado la causalidad a terceras variables independientes, magnificándolas.
+Así pues, la omisión de variables independientes relevantes implica un sesgo
+en las conclusiones de la investigación, porque aumenta el peso explicativo
+de las variables independientes que sí se han tenido en cuenta.
+Aun así, la omisión de variables explicativas relevantes solo produce sesgos
+cuando las variables incluidas y las omitidas están correlacionadas. Si estas va-
+riables no están relacionadas, la omisión de una de ellas no afecta a la estima-
+ción correcta del efecto de la variable independiente que queremos estudiar.
+2.3. Ineficiencia: inclusión de variables irrelevantes
+También es problemática la inclusión de variables irrelevantes en nuestro es-
+tudio. En concreto, la inclusión de variables irrelevantes produce ineficiencia
+–la varianza del valor del efecto causal observado aumenta. Es decir, la posibi-
+lidad de que nuestra investigación haya estimado el valor real del efecto entre
+las variables que queremos estudiar es inferior.
+Pasa lo mismo con la omisión de variables relevantes. Si las variables irrelevan-
+tes son independientes de las variables dependientes, la inclusión de variables
+irrelevantes no importa demasiado. Pero si, por el contrario, existe correlación
+entre estas variables, los resultados de la investigación serán ineficientes.
+© FUOC • PID_00248675
+12
+Procedimientos y decisiones para determinar qué se observará
+2.4. Endogeneidad: confusión de causas y de consecuencias
+La endogeneidad se refiere a que los valores de las variables explicativas son
+una consecuencia y no una causa de las variables explicadas. En otras palabras,
+la relación entre las variables incluidas en el estudio es opuesta a la que el
+diseño de la investigación le asigna. Este es un problema común porque, en
+muchos casos, la asignación del papel de las variables en el proceso causal en
+la realidad puede no estar claro o existir causalidad recíproca entre lo que se ha
+considerado variable independiente y variable dependiente. En esta situación,
+tanto las variables independientes como las variables dependientes tienen una
+relación que no refleja cuidadosamente su relación causal.
+Lecturas obligatorias
+Como complemento de los textos de King, Keohane y Verba, debéis estudiar parte del
+libro de I.￿Lago (2008). La lógica de la explicación en las ciencias sociales (págs. 75-111).
+Madrid: Alianza. En este texto tenéis muchos ejemplos que os podrán ilustrar los con-
+ceptos explicados en este módulo.
+Además, debéis volver a estudiar y tener presente la lectura obligatoria del módulo an-
+terior: E.￿Anduiza;￿I.￿Crespo;￿M.￿Méndez (1999). "Las estrategias de investigación". En:
+Metodología de la Ciencia Política (cap. 3, págs. 49-72). Madrid: CIS ("Cuadernos Metodo-
+lógicos", núm. 28).
+Lectura recomendada
+Leed el capítulo 5 de G.￿King
+y￿otros (2000). "¿Qué evi-
+tar?". En: El diseño de la in-
+vestigación social: la inferen-
+cia científica en los estudios
+cualitativos (cap. 5). Madrid:
+Alianza.
+© FUOC • PID_00248675
+13
+Procedimientos y decisiones para determinar qué se observará
+Actividades
+A continuación se presentan varios diseños de investigación. Evalúa sus puntos débiles desde
+el punto de vista de la posibilidad de inferir conocimientos generales a partir de los estudios
+propuestos.
+1. Revisad la investigación de Arend Lijphart, Politics of Accomodation, en la cual analiza la
+relación entre la presencia de divisiones sociales segmentadas y la estabilidad democrática a
+partir del caso de los Países Bajos.
+¿Cuál es el criterio de selección de casos de aquella investigación?
+Considerad hasta qué punto se puede criticar esta investigación desde el punto de vista de
+la selección de casos según la variable dependiente.
+2. El profesor García está interesado en saber hasta qué punto la represión política en los
+países de América Latina ha afectado al crecimiento económico. Para estudiar el problema,
+García ha recogido datos económicos de los diez países de América Latina que tienen el índice
+de producto nacional bruto más alto. A la vez, García también se fija en los indicadores de
+represión política de estos países, y crea una escala de represión en la que cero indica represión
+baja y diez, represión alta. Entonces pide a determinados especialistas que clasifiquen el país
+del que son expertos en esta escala.
+¿Cuáles son los defectos de este diseño de investigación?
+Proponed un diseño alternativo que permitiría una inferencia menos problemática.
+3. El profesor García estudia el efecto de las estructuras institucionales de ciertos países fede-
+rales (donde el poder político está territorialmente descentralizado) en el resurgimiento de
+demandas regionales que reclaman más autonomía política. Para analizar esta relación, el
+profesor se centra en dos países federales. En uno las instituciones federales se caracterizan
+por un alto nivel de participación regional en las instituciones de toma de decisiones del go-
+bierno central, y en el otro no hay mecanismos de participación de los gobiernos territoriales
+en las instituciones de toma de decisiones centrales. En cuanto a la variable dependiente, el
+profesor observa que en el primer país no existen demandas periféricas que reclamen más
+autonomía política, mientras que en el segundo hay regiones determinadas que han puesto
+en pie estas demandas y que, por lo tanto, ponen la estabilidad del sistema federal en riesgo.
+Su conclusión es que las estructuras más participativas favorecen la estabilidad del sistema
+federal y viceversa. También considera que su investigación evidencia que las teorías anterio-
+res que explican la emergencia de demandas periféricas según si existen culturas nacionales
+diferenciadas en las regiones no son válidas.
+¿Cuáles son las virtudes y los inconvenientes de esta investigación?
+¿Hasta qué punto esta investigación permite contrastar los argumentos de las teorías ante-
+riores, que basan la inestabilidad federal en la existencia de culturas nacionales periféricas
+diferenciadas, como el autor pretende?
+¿Hasta qué punto su indicador de estabilidad democrática puede comportar problemas de
+errores de medida?
