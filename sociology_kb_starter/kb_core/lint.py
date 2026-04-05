@@ -6,7 +6,7 @@ from pathlib import Path
 from kb_core.config import SETTINGS
 from kb_core.models import DocumentStatus
 from kb_core.storage import list_raw_documents
-from kb_core.utils import list_files_recursive, load_markdown_file
+from kb_core.utils import extract_wikilinks, list_files_recursive, load_markdown_file, slugify
 
 
 REQUIRED_FRONTMATTER_KEYS = {"id", "title", "note_type"}
@@ -16,6 +16,8 @@ def run_lint_checks() -> list[dict]:
     issues: list[dict] = []
     titles: dict[str, list[Path]] = defaultdict(list)
     concept_references: set[str] = set()
+    all_note_slugs: set[str] = set()
+    all_wikilinks: list[tuple[Path, str]] = []
 
     for raw_doc in list_raw_documents():
         path = raw_doc["path"]
@@ -34,8 +36,11 @@ def run_lint_checks() -> list[dict]:
     for path in all_notes:
         frontmatter, body = load_markdown_file(path)
         title = str(frontmatter.get("title", "")).strip().lower()
+        note_id = frontmatter.get("id", path.stem)
+        all_note_slugs.add(slugify(str(note_id)))
         if title:
             titles[title].append(path)
+            all_note_slugs.add(slugify(title))
 
         missing_keys = REQUIRED_FRONTMATTER_KEYS - set(frontmatter.keys())
         if missing_keys:
@@ -70,6 +75,34 @@ def run_lint_checks() -> list[dict]:
             for concept in frontmatter.get("concepts", []):
                 concept_references.add(concept.strip().lower())
 
+            body_text_lower = body.lower()
+            for concept in frontmatter.get("concepts", []):
+                if concept.lower() in body_text_lower and f"[[{slugify(concept)}" not in body:
+                    issues.append(
+                        {
+                            "severity": "info",
+                            "type": "concept_mentioned_but_not_linked",
+                            "path": str(path.relative_to(SETTINGS.kb_root)),
+                            "message": f"Concept '{concept}' appears in body text but is not wikilinked.",
+                        }
+                    )
+
+        wikilinks = extract_wikilinks(body)
+        for link in wikilinks:
+            all_wikilinks.append((path, link))
+
+    for path, link_target in all_wikilinks:
+        link_slug = slugify(link_target)
+        if link_slug not in all_note_slugs:
+            issues.append(
+                {
+                    "severity": "warning",
+                    "type": "broken_wikilink",
+                    "path": str(path.relative_to(SETTINGS.kb_root)),
+                    "message": f"Broken wikilink: [[{link_target}]] — no note with slug '{link_slug}' found.",
+                }
+            )
+
     for title, paths in titles.items():
         if len(paths) > 1:
             issues.append(
@@ -82,7 +115,7 @@ def run_lint_checks() -> list[dict]:
             )
 
     for concept_note in list_files_recursive(SETTINGS.concepts_dir, suffixes=(".md",)):
-        frontmatter, _ = load_markdown_file(concept_note)
+        frontmatter, body = load_markdown_file(concept_note)
         title = str(frontmatter.get("title", "")).strip().lower()
         if title and title not in concept_references:
             issues.append(
@@ -93,5 +126,67 @@ def run_lint_checks() -> list[dict]:
                     "message": "Concept note exists but no source note currently references it.",
                 }
             )
+        # RAG quality: concept/author notes should have a summary section
+        if not any(marker in body for marker in ("## Definición", "## Resumen", "## Summary", "## Datos biográficos")):
+            issues.append(
+                {
+                    "severity": "info",
+                    "type": "missing_summary_section",
+                    "path": str(concept_note.relative_to(SETTINGS.kb_root)),
+                    "message": "Note lacks a summary/definition section — degrades RAG retrieval quality.",
+                }
+            )
+
+    for author_note in list_files_recursive(SETTINGS.authors_dir, suffixes=(".md",)):
+        frontmatter, body = load_markdown_file(author_note)
+        if not any(marker in body for marker in ("## Datos biográficos", "## Resumen", "## Summary", "## Definición")):
+            issues.append(
+                {
+                    "severity": "info",
+                    "type": "missing_summary_section",
+                    "path": str(author_note.relative_to(SETTINGS.kb_root)),
+                    "message": "Author note lacks a biographical/summary section — degrades RAG retrieval quality.",
+                }
+            )
+
+    # RAG quality: course notes should have semester field
+    for course_note in list_files_recursive(SETTINGS.courses_dir, suffixes=(".md",)):
+        frontmatter, _ = load_markdown_file(course_note)
+        if not frontmatter.get("semester"):
+            issues.append(
+                {
+                    "severity": "warning",
+                    "type": "missing_semester",
+                    "path": str(course_note.relative_to(SETTINGS.kb_root)),
+                    "message": "Course note is missing 'semester' in frontmatter.",
+                }
+            )
 
     return sorted(issues, key=lambda item: (item["severity"], item["type"], item["path"]))
+
+
+def suggest_new_articles(top_k: int = 5) -> list[dict]:
+    """Identify cross-course concept connections that could become new wiki articles."""
+    concept_courses: defaultdict[str, set[str]] = defaultdict(set)
+    concept_notes: defaultdict[str, list[str]] = defaultdict(list)
+
+    for path in list_files_recursive(SETTINGS.sources_dir, suffixes=(".md",)):
+        front, _ = load_markdown_file(path)
+        course = str(front.get("course", "general"))
+        title = front.get("title", path.stem)
+        for concept in front.get("concepts", []):
+            concept_courses[concept].add(course)
+            concept_notes[concept].append(title)
+
+    suggestions: list[dict] = []
+    for concept, courses in concept_courses.items():
+        if len(courses) > 1:
+            suggestions.append({
+                "concept": concept,
+                "courses": sorted(courses),
+                "source_notes": concept_notes[concept],
+                "reason": f"'{concept}' appears across {len(courses)} courses — potential for a comparative analysis article.",
+            })
+
+    suggestions.sort(key=lambda s: len(s["courses"]), reverse=True)
+    return suggestions[:top_k]

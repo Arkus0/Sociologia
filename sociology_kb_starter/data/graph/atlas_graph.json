@@ -1,0 +1,3400 @@
+{
+  "nodes": [
+    {
+      "id": "author::adam-ferguson",
+      "title": "Adam Ferguson",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::adam-smith",
+      "title": "Adam Smith",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::albert-padro-solanet-i-grau",
+      "title": "Albert Padró-Solanet i Grau",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::alexander-pope",
+      "title": "Alexander Pope",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::ana-julia-cooper",
+      "title": "Ana Julia Cooper",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::anthony-giddens",
+      "title": "Anthony Giddens",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::antoni-estrade-i-salto",
+      "title": "Antoni Estradé i Saltó",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::auguste-comte",
+      "title": "Auguste Comte",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::beatrice-potter-webb",
+      "title": "Beatrice Potter Webb",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::charlotte-perkins-gilman",
+      "title": "Charlotte Perkins Gilman",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::condorcet",
+      "title": "Condorcet",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::crane-brinton",
+      "title": "Crane Brinton",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::cristina-garcia-sainz",
+      "title": "Cristina García-Sainz",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::david-hume",
+      "title": "David Hume",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::denis-diderot",
+      "title": "Denis Diderot",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::edith-abbott",
+      "title": "Edith Abbott",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::edward-gibbon",
+      "title": "Edward Gibbon",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::erasmo",
+      "title": "Erasmo",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::florence-kelley",
+      "title": "Florence Kelley",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::frances-kellor",
+      "title": "Frances Kellor",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::gary-king",
+      "title": "Gary King",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::georg-wilhelm-friedrich-hegel",
+      "title": "Georg Wilhelm Friedrich Hegel",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::gillian-niebrugge",
+      "title": "Gillian Niebrugge",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::giovanni-sartori",
+      "title": "Giovanni Sartori",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::grace-abbott",
+      "title": "Grace Abbott",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::harriet-martineau",
+      "title": "Harriet Martineau",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::henri-de-saint-simon",
+      "title": "Henri de Saint-Simon",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::ida-wells-barnett",
+      "title": "Ida Wells-Barnett",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::immanuel-kant",
+      "title": "Immanuel Kant",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::jane-addams",
+      "title": "Jane Addams",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::jean-le-rond-dalembert",
+      "title": "Jean le Rond d'Alembert",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::jean-jacques-rousseau",
+      "title": "Jean-Jacques Rousseau",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::john-h-goldthorpe",
+      "title": "John H. Goldthorpe",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::john-laub",
+      "title": "John Laub",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::julia-lathrop",
+      "title": "Julia Lathrop",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::karl-marx",
+      "title": "Karl Marx",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::leslie-kish",
+      "title": "Leslie Kish",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::manheim-y-rich",
+      "title": "Manheim y Rich",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::marianne-weber",
+      "title": "Marianne Weber",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::marion-talbot",
+      "title": "Marion Talbot",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::maria-jose-azofra",
+      "title": "María José Azofra",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::max-weber",
+      "title": "Max Weber",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::montaigne",
+      "title": "Montaigne",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::montesquieu",
+      "title": "Montesquieu",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::patricia-lengermann",
+      "title": "Patricia Lengermann",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::peter-berger",
+      "title": "Peter Berger",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::peter-gay",
+      "title": "Peter Gay",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::peter-hamilton",
+      "title": "Peter Hamilton",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::piergiorgio-corbetta",
+      "title": "Piergiorgio Corbetta",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::robert-a-dahl",
+      "title": "Robert A. Dahl",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::robert-k-merton",
+      "title": "Robert K. Merton",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::robert-keohane",
+      "title": "Robert Keohane",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::robert-nisbet",
+      "title": "Robert Nisbet",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::robert-putnam",
+      "title": "Robert Putnam",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::robert-sampson",
+      "title": "Robert Sampson",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::roger-martinez-sanmarti",
+      "title": "Roger Martínez Sanmartí",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::rosa-borge-bravo",
+      "title": "Rosa Borge Bravo",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::san-agustin",
+      "title": "San Agustín",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::sidney-verba",
+      "title": "Sidney Verba",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::sophonisba-breckinridge",
+      "title": "Sophonisba Breckinridge",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::turgot",
+      "title": "Turgot",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::voltaire",
+      "title": "Voltaire",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "author::emile-durkheim",
+      "title": "Émile Durkheim",
+      "type": "author",
+      "path": null
+    },
+    {
+      "id": "concept::alienacion",
+      "title": "Alienación",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::androcentrismo",
+      "title": "Androcentrismo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::anomia",
+      "title": "Anomia",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::autonomia",
+      "title": "Autonomía",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::autonomia-moral-de-la-mujer",
+      "title": "Autonomía moral de la mujer",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::burocracia",
+      "title": "Burocracia",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::causalidad",
+      "title": "Causalidad",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::censo",
+      "title": "Censo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::ciencia-y-razon",
+      "title": "Ciencia y razón",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::codificacion",
+      "title": "Codificación",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::conceptos-esencialmente-disputados",
+      "title": "Conceptos esencialmente disputados",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::conciencia-colectiva",
+      "title": "Conciencia colectiva",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::condicion-necesaria-y-suficiente",
+      "title": "Condición necesaria y suficiente",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::contrastabilidad",
+      "title": "Contrastabilidad",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::covarianza",
+      "title": "Covarianza",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::cuestionario",
+      "title": "Cuestionario",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::curiosidad-intelectual",
+      "title": "Curiosidad intelectual",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::darwinismo-social-de-reforma",
+      "title": "Darwinismo social de reforma",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::deduccion",
+      "title": "Deducción",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::definicion-operacional",
+      "title": "Definición operacional",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::desencanto-del-mundo",
+      "title": "Desencanto del mundo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::diseno-de-investigacion-empirica",
+      "title": "Diseño de investigación empírica",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::diseno-empirico",
+      "title": "Diseño empírico",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::division-del-trabajo",
+      "title": "División del trabajo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::egoismo",
+      "title": "Egoísmo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::empirismo",
+      "title": "Empirismo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::encuesta",
+      "title": "Encuesta",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::encyclopedie",
+      "title": "Encyclopédie",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::error-muestral",
+      "title": "Error muestral",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::escuela-de-chicago",
+      "title": "Escuela de Chicago",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::estado-de-bienestar",
+      "title": "Estado de bienestar",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::estadistica-descriptiva",
+      "title": "Estadística descriptiva",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::estadistica-inferencial",
+      "title": "Estadística inferencial",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::estadistica-multivariada",
+      "title": "Estadística multivariada",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::estadistica-univariada",
+      "title": "Estadística univariada",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::estatica-y-dinamica-social",
+      "title": "Estática y dinámica social",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::experimento",
+      "title": "Experimento",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::fetichismo-de-la-mercancia",
+      "title": "Fetichismo de la mercancía",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::formulacion-teorica",
+      "title": "Formulación teórica",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::grupo-de-control",
+      "title": "Grupo de control",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::grupo-experimental",
+      "title": "Grupo experimental",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::hecho-social",
+      "title": "Hecho social",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::hipotesis",
+      "title": "Hipótesis",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::hipotesis-descriptiva",
+      "title": "Hipótesis descriptiva",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::hipotesis-explicativa",
+      "title": "Hipótesis explicativa",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::hull-house",
+      "title": "Hull House",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::humilitas",
+      "title": "Humilitas",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::ilustracion",
+      "title": "Ilustración",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::indicador",
+      "title": "Indicador",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::individualismo",
+      "title": "Individualismo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::induccion",
+      "title": "Inducción",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::inferencia",
+      "title": "Inferencia",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::infraestructura-y-superestructura",
+      "title": "Infraestructura y superestructura",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::instrumento-de-medicion",
+      "title": "Instrumento de medición",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::investigacion-cualitativa",
+      "title": "Investigación cualitativa",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::investigacion-cuantitativa",
+      "title": "Investigación cuantitativa",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::investigacion-participante",
+      "title": "Investigación participante",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::jaula-de-hierro",
+      "title": "Jaula de hierro",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::ley-de-los-tres-estadios",
+      "title": "Ley de los tres estadios",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::ley-natural",
+      "title": "Ley natural",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::libertad",
+      "title": "Libertad",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::lucha-de-clases",
+      "title": "Lucha de clases",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::marco-teorico",
+      "title": "Marco teórico",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::materialismo-historico",
+      "title": "Materialismo histórico",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::modernidad",
+      "title": "Modernidad",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::modo-de-produccion",
+      "title": "Modo de producción",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::muestreo",
+      "title": "Muestreo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::muestreo-aleatorio",
+      "title": "Muestreo aleatorio",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::muestreo-estratificado",
+      "title": "Muestreo estratificado",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::muestreo-por-conglomerados",
+      "title": "Muestreo por conglomerados",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::nivel-de-confianza",
+      "title": "Nivel de confianza",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::niveles-de-medicion",
+      "title": "Niveles de medición",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::operacionalizacion",
+      "title": "Operacionalización",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::orden-social",
+      "title": "Orden social",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::perspectiva-de-genero",
+      "title": "Perspectiva de género",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::positivismo",
+      "title": "Positivismo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::precodificacion",
+      "title": "Precodificación",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::preguntas-abiertas-y-cerradas",
+      "title": "Preguntas abiertas y cerradas",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::preguntas-de-escala",
+      "title": "Preguntas de escala",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::preguntas-de-investigacion",
+      "title": "Preguntas de investigación",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::preguntas-dicotomicas",
+      "title": "Preguntas dicotómicas",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::preguntas-en-bateria",
+      "title": "Preguntas en batería",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::preguntas-filtro",
+      "title": "Preguntas filtro",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::problema-de-la-caja-negra",
+      "title": "Problema de la caja negra",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::proceso-de-investigacion",
+      "title": "Proceso de investigación",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::progreso",
+      "title": "Progreso",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::racionalismo-critico",
+      "title": "Racionalismo crítico",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::racionalizacion",
+      "title": "Racionalización",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::relaciones-raciales",
+      "title": "Relaciones raciales",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::relacion-espurea",
+      "title": "Relación espúrea",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::representacion-visual-de-datos",
+      "title": "Representación visual de datos",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::revision-bibliografica",
+      "title": "Revisión bibliográfica",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::salones",
+      "title": "Salones",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::sapere-aude",
+      "title": "Sapere aude",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::secularizacion",
+      "title": "Secularización",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::sesgo-del-entrevistador",
+      "title": "Sesgo del entrevistador",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::soberbia",
+      "title": "Soberbia",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::socialismo",
+      "title": "Socialismo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::sociologia",
+      "title": "Sociología",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::sociologia-clasica",
+      "title": "Sociología clásica",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::solidaridad-mecanica",
+      "title": "Solidaridad mecánica",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::solidaridad-organica",
+      "title": "Solidaridad orgánica",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::tamano-de-la-muestra",
+      "title": "Tamaño de la muestra",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::teoria",
+      "title": "Teoría",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::teoria-social",
+      "title": "Teoría social",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::teorias-de-alcance-medio",
+      "title": "Teorías de alcance medio",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::tipos-de-accion-social",
+      "title": "Tipos de acción social",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::tipos-ideales",
+      "title": "Tipos ideales",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::tolerancia",
+      "title": "Tolerancia",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::trabajo-de-campo",
+      "title": "Trabajo de campo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::trabajo-domestico",
+      "title": "Trabajo doméstico",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::universalismo",
+      "title": "Universalismo",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::validez",
+      "title": "Validez",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::validez-externa",
+      "title": "Validez externa",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::validez-interna",
+      "title": "Validez interna",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::variable-de-control",
+      "title": "Variable de control",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::variable-dependiente",
+      "title": "Variable dependiente",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::variable-independiente",
+      "title": "Variable independiente",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::variable-interviniente",
+      "title": "Variable interviniente",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::variables-sociodemograficas",
+      "title": "Variables sociodemográficas",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::etica-protestante",
+      "title": "Ética protestante",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "concept::etica-social",
+      "title": "Ética social",
+      "type": "concept",
+      "path": null
+    },
+    {
+      "id": "course::introduccion-a-la-sociologia",
+      "title": "Introduccion a la sociologia",
+      "type": "course",
+      "path": null
+    },
+    {
+      "id": "course::metodologia-de-las-ciencias-sociales",
+      "title": "Metodologia de las ciencias sociales",
+      "type": "course",
+      "path": null
+    },
+    {
+      "id": "semester::2026-s1",
+      "title": "2026-S1",
+      "type": "semester",
+      "path": null
+    },
+    {
+      "id": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "title": "Cuadernos Metodológicos CIS 26: Diseño de cuestionarios",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\metodologia-de-las-ciencias-sociales\\cuaderno-metodologico-cuestionarios.md"
+    },
+    {
+      "id": "source::diferenciacion-social-y-division-del-trabajo",
+      "title": "Diferenciación Social y División del Trabajo",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\diferenciacion-social-y-division-del-trabajo.md"
+    },
+    {
+      "id": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "title": "El pensamiento sociológico (I). Los fundadores",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\el-pensamiento-sociologico-i-los-fundadores.md"
+    },
+    {
+      "id": "source::el-proceso-de-formulacion-teorica",
+      "title": "El proceso de formulación teórica",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\metodologia-de-las-ciencias-sociales\\el-proceso-de-formulacion-teorica.md"
+    },
+    {
+      "id": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "title": "El proceso de investigación en las ciencias sociales: marco teórico y diseño empírico",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\metodologia-de-las-ciencias-sociales\\el-proceso-de-investigacion-en-las-ciencias-sociales.md"
+    },
+    {
+      "id": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "title": "La curiosidad y el surgimiento de la sociología",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\la-curiosidad-y-el-surgimiento-de-la-sociologia.md"
+    },
+    {
+      "id": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "title": "La investigación cuantitativa: encuesta, experimento y análisis estadístico",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\metodologia-de-las-ciencias-sociales\\la-investigacion-cuantitativa.md"
+    },
+    {
+      "id": "source::modulo-1",
+      "title": "Modulo 1",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\modulo-1.md"
+    },
+    {
+      "id": "source::modulo-2",
+      "title": "Modulo 2",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\modulo-2.md"
+    },
+    {
+      "id": "source::modulo-3",
+      "title": "Modulo 3",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\modulo-3.md"
+    },
+    {
+      "id": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "title": "Sociólogas fundadoras, la memoria oculta de la sociología",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\sociologas-fundadoras-la-memoria-oculta-de-la-sociologia.md"
+    },
+    {
+      "id": "source::the-enlightenment-and-the-birth-of-social-science",
+      "title": "The Enlightenment and the Birth of Social Science",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\introduccion-a-la-sociologia\\the-enlightenment-and-the-birth-of-social-science.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::adam-ferguson",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::adam-smith",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::alexander-pope",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::ana-julia-cooper",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::anthony-giddens",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::antoni-estrade-i-salto",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::auguste-comte",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::beatrice-potter-webb",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::charlotte-perkins-gilman",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::condorcet",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::crane-brinton",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::cristina-garcia-sainz",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::david-hume",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::denis-diderot",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::edith-abbott",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::edward-gibbon",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::emile-durkheim",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::erasmo",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::florence-kelley",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::frances-kellor",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::georg-wilhelm-friedrich-hegel",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::gillian-niebrugge",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::grace-abbott",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::harriet-martineau",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::henri-de-saint-simon",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::ida-wells-barnett",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::immanuel-kant",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::jane-addams",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::jean-jacques-rousseau",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::jean-le-rond-dalembert",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::julia-lathrop",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::karl-marx",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::marianne-weber",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::marion-talbot",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::max-weber",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::montaigne",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::montesquieu",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::patricia-lengermann",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::peter-berger",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::peter-gay",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::peter-hamilton",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::robert-nisbet",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::roger-martinez-sanmarti",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::san-agustin",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::sophonisba-breckinridge",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::turgot",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "author::voltaire",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::alienacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::androcentrismo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::anomia",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::autonomia",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::autonomia-moral-de-la-mujer",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::burocracia",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::ciencia-y-razon",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::conciencia-colectiva",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::curiosidad-intelectual",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::darwinismo-social-de-reforma",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::desencanto-del-mundo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::division-del-trabajo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::egoismo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::empirismo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::encyclopedie",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::escuela-de-chicago",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::estado-de-bienestar",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::estatica-y-dinamica-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::etica-protestante",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::etica-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::fetichismo-de-la-mercancia",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::hecho-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::hull-house",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::humilitas",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::ilustracion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::individualismo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::infraestructura-y-superestructura",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::investigacion-participante",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::jaula-de-hierro",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::ley-de-los-tres-estadios",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::ley-natural",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::libertad",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::lucha-de-clases",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::materialismo-historico",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::modernidad",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::modo-de-produccion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::orden-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::perspectiva-de-genero",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::positivismo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::progreso",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::racionalismo-critico",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::racionalizacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::relaciones-raciales",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::salones",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::sapere-aude",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::secularizacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::soberbia",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::socialismo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::sociologia",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::sociologia-clasica",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::solidaridad-mecanica",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::solidaridad-organica",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::teoria-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::tipos-de-accion-social",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::tipos-ideales",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::tolerancia",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::trabajo-domestico",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "concept::universalismo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::introduccion-a-la-sociologia",
+      "target": "semester::2026-s1",
+      "type": "course_to_semester"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::albert-padro-solanet-i-grau",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::gary-king",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::giovanni-sartori",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::john-h-goldthorpe",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::john-laub",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::leslie-kish",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::manheim-y-rich",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::maria-jose-azofra",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::piergiorgio-corbetta",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::robert-a-dahl",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::robert-k-merton",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::robert-keohane",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::robert-putnam",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::robert-sampson",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::rosa-borge-bravo",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "author::sidney-verba",
+      "type": "course_to_author"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::causalidad",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::censo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::codificacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::conceptos-esencialmente-disputados",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::condicion-necesaria-y-suficiente",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::contrastabilidad",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::covarianza",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::cuestionario",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::deduccion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::definicion-operacional",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::diseno-de-investigacion-empirica",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::diseno-empirico",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::encuesta",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::error-muestral",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::estadistica-descriptiva",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::estadistica-inferencial",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::estadistica-multivariada",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::estadistica-univariada",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::experimento",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::formulacion-teorica",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::grupo-de-control",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::grupo-experimental",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::hipotesis",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::hipotesis-descriptiva",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::hipotesis-explicativa",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::indicador",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::induccion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::inferencia",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::instrumento-de-medicion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::investigacion-cualitativa",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::investigacion-cuantitativa",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::marco-teorico",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::muestreo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::muestreo-aleatorio",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::muestreo-estratificado",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::muestreo-por-conglomerados",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::nivel-de-confianza",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::niveles-de-medicion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::operacionalizacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::precodificacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::preguntas-abiertas-y-cerradas",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::preguntas-de-escala",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::preguntas-de-investigacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::preguntas-dicotomicas",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::preguntas-en-bateria",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::preguntas-filtro",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::problema-de-la-caja-negra",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::proceso-de-investigacion",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::relacion-espurea",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::representacion-visual-de-datos",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::revision-bibliografica",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::sesgo-del-entrevistador",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::tamano-de-la-muestra",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::teoria",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::teorias-de-alcance-medio",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::trabajo-de-campo",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::validez",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::validez-externa",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::validez-interna",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::variable-de-control",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::variable-dependiente",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::variable-independiente",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::variable-interviniente",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "concept::variables-sociodemograficas",
+      "type": "course_to_concept"
+    },
+    {
+      "source": "course::metodologia-de-las-ciencias-sociales",
+      "target": "semester::2026-s1",
+      "type": "course_to_semester"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "author::maria-jose-azofra",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "concept::codificacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "concept::cuestionario",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "concept::diseno-de-investigacion-empirica",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "concept::encuesta",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "concept::operacionalizacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "concept::precodificacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "concept::preguntas-abiertas-y-cerradas",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "concept::preguntas-de-escala",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "concept::preguntas-dicotomicas",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "concept::preguntas-en-bateria",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "concept::preguntas-filtro",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "concept::sesgo-del-entrevistador",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "concept::trabajo-de-campo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "concept::variables-sociodemograficas",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::cuadernos-metodologicos-cis-26-diseno-de-cuestionarios",
+      "target": "course::metodologia-de-las-ciencias-sociales",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "author::anthony-giddens",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "author::emile-durkheim",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "author::georg-wilhelm-friedrich-hegel",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "author::karl-marx",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "author::max-weber",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::alienacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::anomia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::autonomia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::burocracia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::desencanto-del-mundo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::division-del-trabajo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::egoismo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::fetichismo-de-la-mercancia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::individualismo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::jaula-de-hierro",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::libertad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::racionalizacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::socialismo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::solidaridad-mecanica",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "concept::solidaridad-organica",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::diferenciacion-social-y-division-del-trabajo",
+      "target": "course::introduccion-a-la-sociologia",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "author::antoni-estrade-i-salto",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "author::auguste-comte",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "author::emile-durkheim",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "author::karl-marx",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "author::max-weber",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "author::roger-martinez-sanmarti",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::alienacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::anomia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::burocracia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::conciencia-colectiva",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::desencanto-del-mundo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::division-del-trabajo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::estatica-y-dinamica-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::etica-protestante",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::hecho-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::infraestructura-y-superestructura",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::ley-de-los-tres-estadios",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::lucha-de-clases",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::materialismo-historico",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::modernidad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::modo-de-produccion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::positivismo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::racionalizacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::solidaridad-mecanica",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::solidaridad-organica",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::tipos-de-accion-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "concept::tipos-ideales",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-pensamiento-sociologico-i-los-fundadores",
+      "target": "course::introduccion-a-la-sociologia",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "author::albert-padro-solanet-i-grau",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "author::gary-king",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "author::manheim-y-rich",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "author::robert-k-merton",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "author::robert-keohane",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "author::rosa-borge-bravo",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "author::sidney-verba",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::causalidad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::condicion-necesaria-y-suficiente",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::contrastabilidad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::deduccion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::formulacion-teorica",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::hipotesis",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::induccion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::inferencia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::operacionalizacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::revision-bibliografica",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::teorias-de-alcance-medio",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::validez-externa",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::validez-interna",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::variable-de-control",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::variable-dependiente",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::variable-independiente",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "concept::variable-interviniente",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-formulacion-teorica",
+      "target": "course::metodologia-de-las-ciencias-sociales",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "author::albert-padro-solanet-i-grau",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "author::gary-king",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "author::giovanni-sartori",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "author::john-h-goldthorpe",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "author::manheim-y-rich",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "author::piergiorgio-corbetta",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "author::robert-a-dahl",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "author::robert-k-merton",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "author::robert-keohane",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "author::rosa-borge-bravo",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "author::sidney-verba",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::causalidad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::conceptos-esencialmente-disputados",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::covarianza",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::deduccion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::definicion-operacional",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::diseno-empirico",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::hipotesis",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::hipotesis-descriptiva",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::hipotesis-explicativa",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::indicador",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::induccion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::inferencia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::instrumento-de-medicion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::marco-teorico",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::niveles-de-medicion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::operacionalizacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::preguntas-de-investigacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::problema-de-la-caja-negra",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::proceso-de-investigacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::relacion-espurea",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::teoria",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::validez",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::variable-de-control",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::variable-dependiente",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::variable-independiente",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "concept::variable-interviniente",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::el-proceso-de-investigacion-en-las-ciencias-sociales-marco-teorico-y-diseno-empirico",
+      "target": "course::metodologia-de-las-ciencias-sociales",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "author::antoni-estrade-i-salto",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "author::erasmo",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "author::immanuel-kant",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "author::montaigne",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "author::peter-berger",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "author::san-agustin",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "concept::curiosidad-intelectual",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "concept::humilitas",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "concept::ilustracion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "concept::modernidad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "concept::sapere-aude",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "concept::secularizacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "concept::soberbia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "concept::sociologia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-curiosidad-y-el-surgimiento-de-la-sociologia",
+      "target": "course::introduccion-a-la-sociologia",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "author::albert-padro-solanet-i-grau",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "author::gary-king",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "author::john-h-goldthorpe",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "author::john-laub",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "author::leslie-kish",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "author::piergiorgio-corbetta",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "author::robert-keohane",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "author::robert-putnam",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "author::robert-sampson",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "author::rosa-borge-bravo",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "author::sidney-verba",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::censo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::codificacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::cuestionario",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::encuesta",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::error-muestral",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::estadistica-descriptiva",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::estadistica-inferencial",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::estadistica-multivariada",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::estadistica-univariada",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::experimento",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::grupo-de-control",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::grupo-experimental",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::investigacion-cualitativa",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::investigacion-cuantitativa",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::muestreo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::muestreo-aleatorio",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::muestreo-estratificado",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::muestreo-por-conglomerados",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::nivel-de-confianza",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::preguntas-abiertas-y-cerradas",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::representacion-visual-de-datos",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "concept::tamano-de-la-muestra",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::la-investigacion-cuantitativa-encuesta-experimento-y-analisis-estadistico",
+      "target": "course::metodologia-de-las-ciencias-sociales",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::modulo-1",
+      "target": "course::introduccion-a-la-sociologia",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::modulo-2",
+      "target": "course::introduccion-a-la-sociologia",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::modulo-2",
+      "target": "course::metodologia-de-las-ciencias-sociales",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::modulo-3",
+      "target": "course::introduccion-a-la-sociologia",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::modulo-3",
+      "target": "course::metodologia-de-las-ciencias-sociales",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::ana-julia-cooper",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::beatrice-potter-webb",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::charlotte-perkins-gilman",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::cristina-garcia-sainz",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::edith-abbott",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::florence-kelley",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::frances-kellor",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::gillian-niebrugge",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::grace-abbott",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::harriet-martineau",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::ida-wells-barnett",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::jane-addams",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::julia-lathrop",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::marianne-weber",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::marion-talbot",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::patricia-lengermann",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "author::sophonisba-breckinridge",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "concept::androcentrismo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "concept::autonomia-moral-de-la-mujer",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "concept::darwinismo-social-de-reforma",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "concept::escuela-de-chicago",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "concept::estado-de-bienestar",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "concept::etica-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "concept::hull-house",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "concept::investigacion-participante",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "concept::perspectiva-de-genero",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "concept::relaciones-raciales",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "concept::sociologia-clasica",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "concept::teoria-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "concept::trabajo-domestico",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::sociologas-fundadoras-la-memoria-oculta-de-la-sociologia",
+      "target": "course::introduccion-a-la-sociologia",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::adam-ferguson",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::adam-smith",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::alexander-pope",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::auguste-comte",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::condorcet",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::crane-brinton",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::david-hume",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::denis-diderot",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::edward-gibbon",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::emile-durkheim",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::henri-de-saint-simon",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::immanuel-kant",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::jean-jacques-rousseau",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::jean-le-rond-dalembert",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::karl-marx",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::max-weber",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::montesquieu",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::peter-gay",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::peter-hamilton",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::robert-nisbet",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::turgot",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "author::voltaire",
+      "type": "source_to_author"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::ciencia-y-razon",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::empirismo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::encyclopedie",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::ilustracion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::individualismo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::ley-natural",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::modernidad",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::orden-social",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::positivismo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::progreso",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::racionalismo-critico",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::salones",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::secularizacion",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::tolerancia",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "concept::universalismo",
+      "type": "source_to_concept"
+    },
+    {
+      "source": "source::the-enlightenment-and-the-birth-of-social-science",
+      "target": "course::introduccion-a-la-sociologia",
+      "type": "source_to_course"
+    }
+  ],
+  "stats": {
+    "node_count": 200,
+    "edge_count": 438
+  }
+}

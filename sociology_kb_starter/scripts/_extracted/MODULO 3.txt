@@ -1,0 +1,1897 @@
+[Page 1]
+La investigación
+cuantitativa
+PID_00248673
+Rosa Borge Bravo
+Albert Padró-Solanet i Grau
+Tiempo mínimo de dedicación recomendado: 4 horas
+
+
+[Page 2]
+Ninguna parte de esta publicación, incluido el diseño general y la cubierta, puede ser copiada,
+reproducida, almacenada o transmitida de ninguna forma, ni por ningún medio, sea éste eléctrico,
+químico, mecánico, óptico, grabación, fotocopia, o cualquier otro, sin la previa autorización escrita
+de los titulares del copyright.
+
+
+[Page 3]
+Índice
+ 
+Introducción...............................................................................................
+ 
+Objetivos.......................................................................................................
+ 
+1.
+Las técnicas cuantitativas en las ciencias sociales.
+Combinación con las cualitativas.................................................
+ 
+2.
+La encuesta..........................................................................................
+2.1.
+El cuestionario .............................................................................
+2.2.
+La muestra y el procedimiento de muestreo ..............................
+2.3.
+Censos y padrones ......................................................................
+2.4.
+Ventajas e inconvenientes de la encuesta ..................................
+ 
+3.
+El experimento....................................................................................
+ 
+4.
+El análisis estadístico de los datos................................................
+4.1.
+La representación visual de los datos .........................................
+4.2.
+Análisis estadístico ......................................................................
+4.2.1.
+Estadística univariada ....................................................
+4.2.2.
+Estadística multivariada .................................................
+ 
+5.
+Anexo.....................................................................................................
+ 
+Resumen.......................................................................................................
+ 
+Actividades..................................................................................................
+ 
+Ejercicios de autoevaluación..................................................................
+ 
+Solucionario................................................................................................
+ 
+Glosario........................................................................................................
+ 
+Bibliografía.................................................................................................
+
+
+[Page 5]
+Introducción
+En el primer módulo hemos mostrado las principales etapas de la investigación empírica, y una de las fases principales es la elección del método y de
+las técnicas de investigación. En este módulo nos centraremos en el método
+estadístico, en las correspondientes técnicas cuantitativas, principalmente la
+encuesta, y en menor medida, en el método experimental.
+Comenzaremos el módulo comparando las técnicas cuantitativas y las cualitativas. Son dos formas diferentes pero complementarias de conocer la realidad social.
+Continuaremos explicando la principal técnica cuantitativa: la encuesta. Explicaremos cuáles son los elementos clave de esta técnica: el cuestionario, la
+muestra y el análisis estadístico de los datos. Examinaremos también las ventajas e inconvenientes que tiene. La encuesta es una de las técnicas más empleadas por científicos sociales, y ahora mismo es la base de gran parte del
+conocimiento aceptado como factual por la mayor parte de la sociedad (pensemos que la inflación o el paro se miden usando técnicas de encuesta). Por
+eso hay que comprender muy bien la manera de proceder para llevarla a cabo
+correctamente y, para evaluarla e interpretarla. Especialmente, en caso de hacer un análisis secundario de datos.
+Después analizaremos el experimento; un método de investigación que no se
+emplea tanto por la dificultad de controlar las circunstancias de las variables
+en un entorno humano y social, pero que se ha usado y se usa cuando el
+investigador quiere comprobar fehacientemente la influencia de una variable
+sobre comportamientos, actitudes o situaciones.
+El último apartado se dedica al análisis estadístico de los datos. Antes de empezar con el análisis de datos propiamente dicho, hay que presentar los datos
+de forma visual con gráficos y tablas. Por eso, en primer lugar, explicaremos
+las diferentes maneras de representar visualmente los datos. En segundo lugar, empezaremos el análisis estadístico más sencillo (la estadística univariada), que se usa para caracterizar la distribución de la variable. En tercer lugar,
+examinaremos los análisis estadísticos que se usan para analizar la relación
+entre las variables (estadística multivariada). Estos análisis estadísticos variarán según los métodos empleados, los objetivos de la investigación, los tipos
+de variables y los tipos de relación entre las variables.
+El módulo complementa los contenidos teóricos con ejemplos. En las prácticas
+se reforzarán y concretarán estos contenidos.
+
+
+[Page 6]
+Objetivos
+Al acabar este módulo habréis logrado los objetivos siguientes:
+1.
+Tener una visión de conjunto de la investigación empírica cuantitativa:
+etapas, datos, métodos y técnicas, análisis.
+2.
+Comprender la complementariedad de las técnicas cuantitativas y cualitativas, y las ventajas e inconvenientes de cada una.
+3.
+Tener un conocimiento más completo y detallado de las técnicas cuantitativas más importantes, principalmente de la encuesta y sus elementos
+principales: la elaboración del cuestionario, los procedimientos muestrales, el cálculo del error muestral y el tamaño de la muestra.
+4.
+Conocer el método experimental y las aplicaciones que tiene en las ciencias sociales.
+5.
+Aprender a representar visualmente los datos, teniendo en cuenta el tipo
+de variables y las intenciones descriptivas y explicativas.
+6.
+Conocer y aprender a aplicar cuidadosamente el análisis estadístico según
+los tipos de datos (variables), los métodos y técnicas empleados (comparativo, experimental, cualitativo, datos de encuesta), los objetivos de la
+investigación (explicativos o descriptivos) y las relaciones posibles entre
+las variables.
+
+
+[Page 7]
+1. Las técnicas cuantitativas en las ciencias sociales.
+Combinación con las cualitativas
+En las ciencias sociales, en las últimas décadas, se ha producido un conflicto
+que ha dividido con más o menos profundidad todas las subdisciplinas. Las
+llamadas "guerras metodológicas" entre el enfoque cuantitativo y el cualitativo
+tienen implicaciones políticas, y se han expresado formas de intolerancia que
+recuerdan las guerras de religión. A pesar de que todavía hay posiciones extremistas que rechazan completamente el punto de vista opuesto, ahora mismo
+la mayor parte de los especialistas tienden a adoptar una posición pragmática
+y tolerante que reconoce las aportaciones que puede ofrecer el otro enfoque.
+Los dos enfoques son dos formas diferentes de conocer la realidad y, por lo
+tanto, son complementarios. A continuación listamos las características de
+la investigación￿cuantitativa:
+1) Las ciencias sociales cuantitativas de raíz neopositivista se han centrado
+más en los estudios￿de￿variables que en los estudios de casos. Los estudios
+de casos son más típicos de la antropología, la historia o la sociología cualitativa. En los estudios de variables, los casos se descomponen analíticamente
+mediante el análisis de los diferentes valores de las variables que caracterizan
+los casos. De este modo, se facilita la comparación entre los diferentes casos.
+Los estudios de casos, en cambio, se centran en uno o en pocos casos, que son
+estudiados profunda y totalmente mediante la observación, la reconstrucción
+y la descripción detallada.
+2) Se usan principalmente las técnicas￿cuantitativas, sobre todo la encuesta, y
+el consiguiente análisis￿estadístico de los resultados, mientras que las técnicas
+cualitativas no son tan comunes.
+3) En los estudios que usan información recogida en cuestionarios o la técnica
+de encuesta, las unidades de análisis son las personas. En los experimentos es
+frecuente utilizar los datos en unidades de análisis individuales, pero mucha
+de la información recogida en registros oficiales es tratada con unidades de
+análisis que son agregados sociales, como, por ejemplo, municipios, regiones
+y países.
+Variables y unidades o
+casos
+Recordad que las variables son
+características de los fenómenos sociales que adoptan valores diferentes en cada caso.
+Los casos son las unidades que
+se investigan; pueden ser un
+país, una escuela, un partido
+político, una tribu, una sociedad, un individuo, una empresa, etc.
+
+
+[Page 8]
+Actualmente, se intenta llevar a cabo estudios que combinen las técnicas cuantitativas con las cualitativas, los estudios de caso con los estudios variables, los análisis comparados con los análisis longitudinales e
+históricos, y los datos individuales con los agregados. Más allá de posiciones metodológicas fundamentalistas irreconciliables, se enfatiza más
+la ganancia cognoscitiva de la investigación que el purismo metodológico.
+Hay muchos ejemplos de este tipo de estudios metodológicamente eclécticos,
+destacan por ejemplo, en el campo de la participación política y los movimientos sociales: Making Democracy Work, de Robert E. Putnam (1993); Coercive Cooperation, de Lisa L. Martin (1992); Power in Movement, de Sidney Tarrow
+(1994), y Framing Europe, de Juan Díez Medrano (2003). El libro de Laub y
+Sampson (2003) titulado Inicios compartidos, vidas divergentes sobre las trayectorias vitales de delincuentes es un ejemplo perfecto de la actual convivencia
+de la perspectiva cuantitativa y la cualitativa. Se trata de una actualización
+del estudio de los mismos autores (Sampson y Laub, 1993) que se presenta en
+el segundo capítulo de Corbetta (2003) como ejemplo de típica investigación
+cuantitativa (incluido como complemento del primer módulo de la asignatura) y que es contrastado con la investigación de Jankowsky (1991), modelo del
+"paradigma interpretativo" o cualitativo. Los autores explican que se planteó
+como una forma de resolver las preguntas no respondidas en el primer estudio
+cuantitativo basado en las variables. Reflexionando sobre las críticas que recibió su trabajo por la incapacidad de reflejar las experiencias personales y las
+trayectorias vitales de los sujetos de la muestra, Sampson y Laub decidieron,
+por un lado, actualizar el registro de los datos vitales de todos los miembros de
+los grupos de estudio que pudieron y, por el otro, hacer una serie de entrevistas
+detalladas de historia vital a unos cincuenta miembros del grupo original de
+quinientos delincuentes juveniles. Así, consiguieron combinar datos cuantitativos individuales longitudinales muy complejos (los datos individuales iban
+desde la preadolescencia hasta los setenta años), que les permitió explicar la
+variabilidad individual en relación con la edad y la delincuencia, con narraciones de historia vital, que les permitió descubrir elementos relevantes de las
+trayectorias vitales de los individuos que quedaban escondidos en los estudios
+cuantitativos tradicionales.
+Sobre estudios metodológicamente eclécticos en España
+podemos destacar la tesis de
+J.￿Font (1992) sobre la abstención en Madrid y Barcelona, donde se usan metodologías cuantitativas (encuestas,
+resultados electorales agregados) y cualitativas (entrevistas en profundidad y grupos
+de discusión con abstencionistas).
+
+
+[Page 9]
+La combinación de las dos metodologías, de los diferentes tipos de técnicas y de los niveles de análisis ha demostrado ser fructífera. Por un lado, mejora la interacción de la teoría con los datos. Es decir, con metodologías diferentes se pueden obtener más y mejores datos, y esto contribuye a dar mejores respuestas a las preguntas y a contrastar las hipótesis de la investigación. Por el otro, se incrementa el realismo de las
+investigaciones. Es decir, el objeto de estudio se trata de forma global
+y detallada a la vez, y también se lo sitúa mejor en el entorno y en el
+tiempo.
+Así, los dos tipos de técnicas se vuelven indispensables si se pretende analizar
+el mundo real. Gracias a la amplia variedad de técnicas de investigación social, tanto de un tipo como de otro, los científicos sociales consiguen obtener
+datos sobre la realidad social. La obtención de datos sobre la realidad que se
+pretende estudiar es una condición necesaria, a pesar de que no suficiente,
+para conseguir un conocimiento completo sobre el mundo real.
+Las diferencias de estilo entre las técnicas de investigación cuantitativas y las
+cualitativas no nos pueden hacer olvidar que ambas siguen una misma￿lógica
+inferencial e intentan acercarse al ideal de la ciencia. Los dos tipos de técnicas
+son científicas en la medida en la que comparten las cuatro características
+siguientes (King, Keohane y Verba, 2000, págs. 13-20):
+1)￿El￿objetivo￿es￿hacer￿inferencias. A partir de la información y los datos
+disponibles sobre el mundo, hay que hacer inferencias descriptivas o explicativas. Más allá de la mera acumulación de observaciones empíricas, se quiere
+revelar hechos que todavía no se hayan observado, o conocer las relaciones
+causales entre dos fenómenos.
+2)￿Los￿procedimientos￿son￿públicos. Para generar y analizar datos, la investigación científica usa métodos explícitos, codificados y públicos que, en consecuencia, pueden ser evaluados y reproducidos por otros investigadores.
+3)￿Las￿conclusiones￿que￿se￿obtienen￿son￿inciertas￿y￿provisionales. Por definición, la inferencia es imperfecta (no podemos llegar a concluir con certeza absoluta nada respecto a la realidad). En todo conocimiento científico del
+mundo, cuantitativo o cualitativo, debe tenerse presente esta incertidumbre
+constitutiva.
+Recordatorio
+Recordad que se requieren
+también modelos y teorías
+que expliquen e interpreten la
+realidad, que guíen y den sentido a la recogida de datos y al
+análisis de estos.
+
+
+[Page 10]
+4)￿El￿contenido￿es￿el￿método. La ciencia es ciencia porque sigue procedimientos, métodos, que permiten interrogar la realidad de forma justa. Ofrece la
+oportunidad a las interpretaciones rivales de ser formuladas y defendidas, y
+muestra "sin trucos" toda la información necesaria sobre cómo se ha llevado la
+investigación. El método en la ciencia hace el papel del "procedimiento" legal
+de garantizar la defensa justa del acusado. Idealmente, es en la confrontación
+justa entre las explicaciones alternativas que la comunidad científica acepta
+algunas como convincentes y rechaza otras. Si de la teoría se desprenden una
+serie de hipótesis (expectativas sobre cómo tiene que ser la realidad) que no
+son corroboradas por los hechos (que son interrogados de forma sistemática,
+metódica, para evitar sesgos), no es "peor para los hechos", ¡es "peor para la
+teoría" que tiene que mejorar!
+Las cuatro características anteriores permiten que la buena ciencia sea una empresa social. La comunidad científica puede entender, replicar, criticar y, en
+definitiva, mejorar los trabajos hechos por los demás. Una vez expuesto lo que
+tienen en común los dos tipos de técnicas, analizaremos sus diferencias. Las
+técnicas￿cuantitativas se centran en el estudio de variables, recogen un alto
+número de casos y usan metodología estadística, que permite la asunción de
+posibles errores de medición en las variables y la formalización de relaciones
+complejas entre las variables. Es una metodología analítica que considera que
+se pueden comparar sin dificultad números enormes de sistemas (países, partidos, clases sociales, estructuras familiares, etc.) y que tiene como objetivo final
+el descubrimiento o la formulación de leyes universales (probabilísticas) mediante la generalización empírica, la investigación de explicaciones causales
+y las predicciones de fenómenos (Goldthorpe, 2000; Ruiz Olabuénaga, 1999).
+Las técnicas cuantitativas más comunes son las encuestas y los experimentos
+en laboratorio o en otros entornos más o menos controlables.
+Las reglas de la inferencia
+en las ciencias sociales
+Se refieren principalmente al
+diseño empírico de la investigación: operacionalización,
+medición, métodos de investigación empleados (sobre todo en cuanto al análisis explicativo) y selección adecuada
+de casos o unidades, variables
+y observaciones. Recordad que
+en el módulo 2 de esta asignatura se explican las reglas de la
+inferencia en cuanto a la selección de casos y variables.
+Las técnicas￿cualitativas se usan cuando se quieren llevar a cabo estudios holísticos en los que cada sistema es una totalidad compleja y única que no puede dividirse sin perder su significación esencial. Los principales objetivos de la
+metodología cualitativa son descifrar el sentido, el significado que los individuos dan a sus acciones, y situar al individuo o el fenómeno estudiado en un
+contexto social amplio. En las técnicas cualitativas hay una preocupación por
+el detalle, por la proximidad a los hechos y por el comportamiento ordinario.
+La finalidad de la investigación cualitativa es el descubrimiento y exposición
+de los objetos de investigación, y no tanto la predicción ni la explicación (Ruiz
+Olabuénaga, 1999). El número de casos es pequeño, muchas veces solo es uno,
+y usan muy poco la estadística (normalmente para recuentos y medias). Las
+técnicas cualitativas más comunes son la observación (participante o no participante), las entrevistas en profundidad, el análisis de contenido, las historias
+de vida, los grupos de discusión, la autobiografía asistida y la técnica Delphi.
+Los dos tipos de técnicas son complementarios: por ejemplo, se pueden utilizar los métodos cualitativos como un primer nivel de acercamiento y descubrimiento de la realidad, y después pasar a usar métodos cuantitativos. CuanP.￿Corbetta (2003). "Investigación cuantitativa e investigación cualitativa". En: Metodología y Técnicas de Investigación Social (cap. 2). Madrid:
+McGraw-Hill.
+
+
+[Page 11]
+do un área de conocimiento es relativamente nueva o un ámbito de la realidad
+social no ha sido investigado y, por lo tanto, no se dispone de teorías, modelos o hipótesis precisos ya determinados y contrastados empíricamente, los
+procedimientos de las técnicas cualitativas, poco estructurados e inductivos,
+y que tratan de descubrir hipótesis y reconstruir procesos, resultan bastante
+apropiados. Debe tenerse en cuenta que las técnicas cualitativas pueden servir para formular hipótesis realistas sobre el sentido del comportamiento y las
+actitudes humanas, mientras que las técnicas cuantitativas, como la encuesta
+muestral, poseen una capacidad de representatividad de la población que no
+tiene la metodología cualitativa.
+En definitiva, los métodos cuantitativos y cualitativos tienen características o
+siguen criterios diferentes pero complementarios. Podemos hacer una comparación entre los dos métodos si seleccionamos las técnicas más importantes:
+la encuesta y el experimento (técnicas cuantitativas) y la observación (técnica
+cualitativa):
+Criterios del método de investigación
+Técnicas
+Realismo
+Control
+Representatividad
+Encuesta
+Experimento
+Ninguno
+Observación
+Bajo
+Bajo
+El investigador debe preguntarse qué priorizará: el realismo, el control
+sobre las variables independientes o la representatividad o generalización de los resultados obtenidos (Kish, 1995, pág. 3). Dependiendo del
+criterio más valorado habrá que emplear una técnica u otra.
+Muchas veces hay que elegir métodos que no nos satisfacen totalmente, pero
+que sirven para los objetivos de la investigación y son adecuados para los datos
+disponibles y las posibilidades técnicas.
+Los métodos que permiten un alto control de las variables independientes
+son muy valorados entre los científicos sociales porque posibilitan un buen
+análisis explicativo o causal. Sin embargo, métodos de control alto como el
+experimento suelen ser poco representativos y muy poco realistas, es decir,
+los resultados no se pueden generalizar a una población (porque no cuentan
+con casos suficientes) y no reproducen entornos o situaciones suficientemente
+naturales.
+Respecto a los métodos y la
+búsqueda de explicaciones,
+véase el apartado 3.2 del módulo 1 de esta asignatura.
+
+
+[Page 12]
+Las encuestas, por el contrario, habitualmente basadas en muestras probabilísticas, permiten inferencias estadísticas a poblaciones y se pueden llevar a
+cabo dentro de los entornos naturales de las poblaciones reales. Su limitación
+reside en que son mucho mejores para estudiar las opiniones y las actitudes
+de los individuos que sus conductas.
+Aun así, la técnica de la observación permite hacer la investigación sin "destruir" o afectar al entorno natural del objeto de estudio (como hace el experimento) y se adentra totalmente en este entorno, pero normalmente presenta
+problemas a la hora de hacer inferencias extensivas a la totalidad de la población.
+En conclusión, no se pueden satisfacer los tres criterios a la vez. Muchos científicos sociales jerarquizan estos criterios y consideran que el control es el criterio más importante porque el objetivo de la investigación es la explicación.
+Sin embargo, ¿de qué nos sirve una buena explicación si no es posible hacer
+una generalización empírica o si se hace una operacionalización artificiosa e
+irreal de las variables en un entorno de laboratorio? La generalización empírica o representatividad respecto a la población y el realismo pueden ser igual
+de importantes.
+La comprensión de los puntos débiles y fuertes de cada método y técnica
+nos ayudará a elegir unos u otros en cada investigación particular. La
+flexibilización de uno de los criterios puede traer ventajas para los otros,
+pero con un solo método no se pueden lograr los tres criterios (Kish,
+1995, pág. 13). Es por todo esto por lo que la combinación de las técnicas
+de investigación cuantitativas y cualitativas es tan necesaria.
+A continuación describiremos cómo son y qué ventajas ofrecen las dos técnicas
+cuantitativas mencionadas: la encuesta y el experimento.
+Observación: control y
+representatividad
+A veces, el área, colectivo u organización seleccionados para hacer la observación son microcosmos típicos de una población mayor y, por lo tanto,
+las conclusiones extraídas del
+estudio se pueden aplicar a la
+población. Sin embargo, la selección no suele ser una selección muestral representativa.
+Por otro lado, la observación
+permite descubrir relaciones
+entre las variables y procesos
+que después ayudan a explicar las relaciones y procesos
+que se detectan en muchos
+más casos, y, en este sentido,
+muestran cómo funcionan las
+variables independientes.
+Podéis ver las técnicas cualitativas en el módulo 4 de esta
+asignatura.
+
+
+[Page 13]
+2. La encuesta
+En primer lugar, explicaremos en qué consiste la técnica de la encuesta. Esta
+técnica se caracteriza por tres elementos definitorios:
+1) Un cuestionario que se elabora para obtener información (por ejemplo,
+respecto a actitudes –preguntas de opinión– y comportamientos –preguntas
+de hechos–) sobre el objeto de estudio de la investigación. El cuestionario se
+puede hacer por teléfono o enviarlo por correo, o bien se pueden hacer entrevistas personales o dejar el cuestionario y que el entrevistado lo rellene. Cada vez se usan más las encuestas en línea, es decir, cuestionarios en formato
+digital que se envían por correo electrónico o se depositan en sitios web o
+blogs a la espera de respuesta por parte de los usuarios. Algunos especialistas
+en encuestas opinan que las encuestas en línea pueden acabar sustituyendo a
+las encuestas clásicas cara a cara o incluso a las telefónicas. En todo caso, sus
+características son diferentes e implican una serie de precauciones diferentes
+(Couper, 2000; Llauradó, 2006).
+2) Una muestra de personas sobre la cual se hace el cuestionario. La muestra
+se intenta que sea representativa de la totalidad de la población. Las muestras
+aleatorias son las más difíciles de lograr, y requieren un conocimiento de la
+población muy detallado que solo es posible alcanzar en algunas poblaciones
+y estudios. Otros métodos no probabilísticos, como los muestreos por cuotas,
+intentan construir muestras que minimicen los sesgos potenciales respecto a
+la población.
+3) El uso del análisis￿estadístico. Las respuestas de cada entrevistado son codificadas en un formato estándar que puede ser grabado cuantitativamente.
+La codificación es el proceso de asignar valores numéricos a las observaciones
+(y en el caso de un cuestionario, a las diferentes alternativas de respuesta que
+tienen los entrevistados) y es indispensable para hacer un registro preciso, durable y comparable de la información que permita los análisis estadísticos. La
+codificación tiene que ir de acuerdo con los niveles de medición de las variables (nominal, ordinal, numérico).
+Las respuestas codificadas de cada entrevistado se trasladan a la matriz de datos
+y son sometidas a un análisis estadístico agregado para conseguir descripciones
+y explicaciones del comportamiento y actitudes del conjunto de la muestra
+y, por extensión, del conjunto de la población. En la encuesta, por lo tanto,
+se reúnen datos individuales para obtener datos agregados sobre conjuntos de
+poblaciones y características de estas.
+La matriz de datos
+Preguntas y respuestas en
+las encuestas
+En el caso de las entrevistas
+personales, el número de preguntas que se puede hacer es
+más alto que en las encuestas
+por correo o por teléfono. Sin
+embargo, los índices de respuesta suelen ser superiores
+en las entrevistas personales y
+en los cuestionarios autorrellenados (siempre que haya un
+técnico que recoja la entrevista después). Van detrás en número de respuestas las entrevistas por teléfono, mientras
+que los cuestionarios enviados
+por correo (tanto postal como
+electrónico) son los que obtienen un menor número de respuestas. Para una comparación
+detallada de las ventajas y los
+problemas de cada tipo de encuesta, véase: Gideon, 2012.
+Lecturas recomendadas
+M.￿Couper (2000). "Web
+Surveys: A Review of Issues
+and Approaches". Public Opinion Quaterly (vol. 64, núm.
+4, págs. 464-494) Couper
+(2008).
+O.￿Llauradó (2006, junio).
+"El trabajo de campo online:
+qué hemos aprendido en los
+últimos 10 años". Investigación y Marketing (núm. 91,
+págs. 1-7).
+
+
+[Page 14]
+Es una tabla de filas y columnas en la que se recogen las observaciones resultantes de
+la encuesta. Las filas corresponden a los individuos y las columnas, a las variables o preguntas de la encuesta. La matriz o fichero de datos es la materia prima para empezar con
+el análisis estadístico.
+A continuación, analizamos más detalladamente las características del cuestionario y los procedimientos para elaborar muestras.
+2.1. El cuestionario
+La preparación y formulación de un cuestionario es una empresa complicada
+y difícil que requiere dedicación y reflexión; en general, bastante alejada de
+la idea intuitiva, simple y directa que tienen los legos en la materia. No hay
+reglas generales sobre cómo debe hacerse un cuestionario: todo depende de
+las características del objeto o de la población que queremos estudiar y de los
+recursos (técnicos, monetarios, temporales) de los que disponemos.
+En general, para elaborar un buen cuestionario, es importante que el investigador tenga experiencia previa, conozca bastante a la población que quiere
+estudiar e interrogar, y que las hipótesis y preguntas de investigación sean tan
+claras como sea posible. Si las preguntas de investigación y las hipótesis son
+claras, más fácil resultará para el investigador la operacionalización de las hipótesis en variables e indicadores que se puedan observar y recoger mediante
+preguntas.
+Además, en el diseño de los cuestionarios es recomendable utilizar preguntas
+y partes de cuestionarios hechos previamente por otros investigadores, sobre
+todo cuando el cuestionario es especialmente bueno. Esta práctica permite
+acumular conocimiento científico porque hace posible la comparación en el
+tiempo, y permite también avanzar en las técnicas de cómo preguntar para
+obtener mejor la información.
+Los tipos￿de￿preguntas que pueden tener los cuestionarios según su contenido se pueden agrupar en tres grandes grupos (Corbetta, 2003, págs. 169-171):
+1) Preguntas sobre las￿características￿sociodemográficas￿de￿los￿individuos.
+Corresponden normalmente a variables nominales que son atributos y se refieren al estatus. Algunas pueden cambiar en el tiempo o no: género, estado
+civil, situación laboral, estudios, profesión, etc. La edad (variable numérica
+continua) también es un atributo que siempre se pregunta, porque es una de
+las variables más explicativas.
+Las preguntas pueden hacer referencia tanto a características propias del individuo entrevistado (personales y familiares) como a características propias del
+contexto en el que el individuo vive (características del lugar, del barrio, de la
+ciudad, etc. donde reside).
+E.￿Babbie (2010). "Survey Research". En: E. Babbie. The
+Practice of Social Research
+(12.a ed., págs. 253-294). Belmont, CA: Wadsworth.
+
+
+[Page 15]
+Estas preguntas son las más objetivas, las más fáciles de responder y las más
+fiables desde el punto de vista del tipo de información que proporciona al
+investigador.
+2) Preguntas relativas a las￿actitudes￿del￿individuo (puntos de vista, perspectivas, valores, opiniones).
+Preguntas que intentan descubrir los puntos de vista, opiniones, emociones,
+sentimientos, juicios y valoraciones de los individuos. Preguntar es la manera más adecuada de obtener información sobre las actitudes, opiniones, sentimientos y valores de la gente. El problema es saber hasta qué punto nos podemos fiar de la información. El campo de las opiniones, valores y sentimientos
+de la gente es el más difícil de explorar debido a las razones siguientes:
+•
+Es más fácil responder a una pregunta acerca de algo que se ha hecho o
+se está haciendo que acerca de algo que se pretende hacer, o todavía más
+difícil, acerca de algo de lo que simplemente se tiene una opinión. Naturalmente, esta regla no es válida si se pregunta sobre comportamientos socialmente no aceptados o relativos a la vida privada, como, por ejemplo,
+comportamientos delictivos o sexuales.
+•
+Muy a menudo las opiniones o puntos de vista de la gente acostumbran a
+ser complejos, multidimensionales, poco estables. Otras veces las motivaciones de las opiniones no son conscientes, por lo cual el individuo nunca
+responderá correctamente por la incapacidad de introspección o la falta
+de conocimiento de sí mismo. Además, la intensidad y convicción de las
+opiniones, motivaciones, valores, etc. de la gente son difíciles de captar
+con simples preguntas sobre un tema (Schuman y Presser, 1981, es un estudio clásico sobre este tema).
+•
+Las respuestas están también condicionadas por el modo en el que la pregunta se plantea, las palabras que se usan, el orden en el que se colocan
+las preguntas, la actitud del entrevistador con el entrevistado, etc.
+Por todas estas razones, las preguntas sobre las actitudes del individuo son,
+por un lado, las más difíciles de formular, y por el otro, las más difíciles de
+responder.
+3) Preguntas sobre los￿comportamientos de los individuos.
+Son preguntas relativas al campo de las acciones: lo que se ha hecho o no se
+ha hecho (votar o no, consumir medicamentos o no, leer periódicos o no, ver
+la televisión o no, etc.). Este tipo de preguntas son menos problemáticas de
+formular y responder que las anteriores por tres motivos:
+
+
+[Page 16]
+•
+Porque los comportamientos son menos equívocos que las actitudes: una
+cosa se ha hecho o no y, por lo tanto, es algo relativamente más objetivo.
+•
+Los comportamientos son empíricamente observables y comprobables. Esto hace que una pregunta sobre si has votado o no en las últimas elecciones sea más fácil de responder que sobre lo que votarás en las próximas
+elecciones. Es más fácil decir si has votado a favor o en contra de la legalización del aborto en un referéndum que dar la opinión personal sobre
+la legalización del aborto.
+•
+El hecho de que las acciones sean empíricamente observables puede tener
+un efecto sobre la sinceridad de la respuesta. Psicológicamente es más difícil mentir sobre algo que has hecho, y que sabes que te han visto hacer,
+que sobre una opinión.
+Los￿tipos￿de￿preguntas￿según￿la￿forma￿que￿adopten (Corbetta, 2003, págs.
+171-175) son:
+1)￿Preguntas￿abiertas: cuando el entrevistado tiene plena libertad para formular la respuesta.
+2)￿Preguntas￿cerradas: cuando la pregunta se plantea al entrevistado junto
+con una lista de posibles respuestas, de las cuales tiene que elegir solo una.
+Un ejemplo de pregunta cerrada
+¿Cuáles son los tres problemas más importantes que urge resolver en este país? De entre
+los siguientes problemas, destaque los tres más importantes que según usted urge resolver: paro, terrorismo, contaminación, corrupción, inflación, pobreza, sanidad pública,
+pensiones.
+Las preguntas￿abiertas tienen la ventaja de que las respuestas no están condicionadas o restringidas por los investigadores, y son más apropiadas cuando
+nos interesa explorar fenómenos complejos y relativamente desconocidos por
+los investigadores.
+Los inconvenientes son que, precisamente, esta libertad comporta mucha
+más ambigüedad por parte del entrevistado. Además, el comportamiento y las
+habilidades de los entrevistadores pueden influir mucho más cuando las preguntas son abiertas. También este tipo de preguntas plantea dificultades de
+codificación de las respuestas, y si el criterio no es suficientemente objetivo se
+incrementa la arbitrariedad del codificador.
+Si en la pregunta anterior sobre los problemas más importantes se hubiese formulado de
+forma abierta y el entrevistado respondiera que el estado, ¿qué tendría que entender el
+entrevistador? ¿La ineficacia de la Administración pública? ¿La corrupción de los funcionarios? ¿El exceso de impuestos?
+
+
+[Page 17]
+Respecto a las preguntas￿cerradas, las ventajas son las siguientes:
+•
+Ofrece a todos los entrevistados el mismo cuadro de referencia y hace coherentes el marco de referencia del investigador –qué pretende conocer con
+la pregunta– y el del entrevistado.
+•
+Facilita el recuerdo con cada alternativa de respuesta.
+•
+Induce al entrevistado a aclarar sus ideas, a enfrentarse al problema y a
+decidir una respuesta sin ambigüedades.
+Los inconvenientes￿de￿las￿preguntas￿cerradas son:
+•
+Limita las alternativas de respuesta: todas las que el investigador ha dejado
+fuera. Se imponen, por lo tanto, el esquema teórico y el marco de referencia del investigador, que pueden ser artificiales y muy distantes de los del
+entrevistado.
+•
+Las alternativas de respuesta pueden influir en la opinión del entrevistado,
+sobre todo en los que no habían pensado nunca en el problema planteado. También puede provocar respuestas por casualidad porque se ofrecen
+muchas alternativas y el entrevistado se siente obligado a elegir alguna.
+•
+Las alternativas a veces pueden no tener el mismo significado para todos
+los entrevistados. Por eso la precodificación de cada alternativa de respuesta puede ser en exceso artificial.
+•
+Finalmente, en algunos casos este tipo de preguntas no pueden utilizarse
+por varias razones: porque el tema es demasiado complejo para abordarlo
+de este modo, porque el tema es demasiado delicado (por ejemplo, preguntar por el consumo de drogas a los jóvenes o por la práctica del sexo a
+generaciones mayores) o cuando los entrevistados son de un nivel cultural
+y educativo bajo y no entienden las diferencias entre las alternativas. En
+estos casos, lo ideal es utilizar preguntas más abiertas, menos estructuradas
+o estandarizadas. El problema está cuando queremos entrevistar muestras
+que sean representativas de un país y necesitamos entrevistar al menos
+unos mil cien individuos. En este caso, no se pueden dejar las preguntas
+abiertas porque hay demasiadas para codificar, y, por eso, es mejor no hacer estas preguntas o hacerlas si seguimos estrategias para afrontar los temas especialmente delicados o tabúes.
+A continuación explicaremos una serie de consejos￿que￿hacen￿referencia￿al
+diseño￿del￿cuestionario,￿es￿decir,￿a￿la￿formulación￿de￿las￿preguntas.
+
+
+[Page 18]
+Se ha demostrado que la forma y el orden con el que se formulan las preguntas
+en el cuestionario afectan a las respuestas que se dan. Por eso, es importante
+presentar una serie de principios básicos que pueden ayudar a mejorar la calidad de los cuestionarios.
+Ejemplos de cómo la formulación de la pregunta afecta a la respuesta
+A la pregunta formulada a una muestra estadounidense: "Si se verificara que hay una parte
+del mundo en una situación como la de Iraq, ¿cree que su país tendría que enviar tropas
+o cree que sería mejor no enviar?". Solo el treinta por ciento del total de los entrevistados
+se mostraron a favor del envío de tropas. Cuando en la anterior pregunta añadieron
+"enviar tropas para frenar la expansión del terrorismo" y la pasaron a otra muestra, el
+resultado fue que el doble de gente (el sesenta por ciento) apoyaba el envío de tropas.
+El cuestionario de la encuesta nacional de victimización americana fue modificado para
+mejorar la medición de la violencia doméstica. El antiguo cuestionario rezaba: "1. ¿Llamó
+a la policía para informar de que le había sucedido algo que creía que era un delito?";
+"2. ¿Le sucedió algo que pensara que era un delito, pero no llamó a la policía?". En el
+nuevo cuestionario se ofrecían guías para ayudar a la persona encuestada a responder,
+y se añadió la siguiente pregunta antes de las demás: "La gente a menudo no piensa en
+incidentes cometidos por otras personas que conoce. ¿Le han robado, ha sido atacado
+o amenazado por: a) alguien del trabajo o la escuela, b) un vecino o un amigo, c) un
+pariente o un familiar, d) cualquier otra persona que conozca?". El resultado mostró que
+se informó de muchas más victimizaciones con el nuevo cuestionario (Hagan, 2005, págs.
+198-202).
+El principio esencial de todo buen cuestionario es la economía en cuanto al
+lenguaje, al número de preguntas, etc., pero todo esto no tiene que ir en contra
+de la calidad del cuestionario. Los￿principios￿básicos￿para￿un￿buen￿cuestionario (Corbetta, 2003, págs. 176-189) son:
+1)￿Simplicidad￿del￿lenguaje. Lo mejor es un lenguaje sencillo en el planteamiento de las preguntas. El lenguaje tiene que ser lo más adecuado y adaptado
+a la muestra de la población a la cual se dirige.
+2)￿Extensión￿de￿las￿preguntas. Las preguntas tienen que ser concisas. Si no,
+los entrevistados se pierden o se olvidan de la primera parte de la pregunta
+y responden solo la última parte. Aun así, cuando el problema por el que se
+pregunta es muy complejo, entonces hay que hacer una pregunta extensa,
+pero de la forma más clara y concisa posible. Siempre hay que dar tiempo al
+entrevistado para que piense la respuesta.
+Por ejemplo, podemos usar introducciones del tipo:
+"Como usted sabe, hay diversidad de opiniones sobre este problema; mucha gente piensa
+[...], otra gente piensa [...]. ¿Con qué postura se siente usted más cercano?"
+3)￿Número￿de￿alternativas￿de￿respuesta￿en￿las￿preguntas￿cerradas. En las
+preguntas cerradas, es recomendable que el número de alternativas no tiene
+que exceder de cinco. Para números superiores, la regla es proporcionar al
+entrevistado una tarjeta con las alternativas (en todo caso, no más de diez o
+quince), pero no conviene abusar del uso de tarjetas porque el entrevistado
+se cansa de ellas.
+H.￿Schuman;￿S.￿Presser
+(1981). Questions and Answers in Attitude Surveys. Nueva York: Academic Press.
+
+
+[Page 19]
+4)￿Expresiones￿de￿argot. El cuestionario debe eliminar cualquier expresión
+de la jerga científica de los investigadores, puesto que crearía una barrera a
+la respuesta válida de las preguntas. Del mismo modo, hay que evitar usar
+expresiones de jerga o vulgares que utiliza la población a quien va dirigido
+el cuestionario con el objetivo de crear empatía con los entrevistados, puesto
+que pueden crear más problemas que resolverlos. Es mejor presentarse como
+científico interesado en conocer la opinión del entrevistado (hacerlo sentir
+importante), puesto que con el respeto del entrevistado hacia el científico o el
+investigador es posible obtener más sinceridad y respuestas más claras.
+5)￿Evitar￿el￿uso￿de￿definiciones￿ambiguas￿y￿de￿palabras￿con￿fuertes￿connotaciones (especialmente si son negativas).
+Igualmente, conviene evitar las preguntas con palabras o estructuras sintácticas complicadas que los entrevistados no sean capaces de entender. Por ejemplo, las dobles negaciones, que inducen especialmente al error en la respuesta.
+6)￿Evitar￿dobles￿preguntas￿o￿subpreguntas￿dentro￿de￿las￿preguntas.
+Ejemplo
+"Cree que la política económica del gobierno es justa y eficaz?"
+En realidad, una persona puede pensar que la política económica del gobierno no es justa,
+pero que sí es eficaz.
+También conviene evitar￿preguntas￿sobre￿problemáticas￿que￿no￿están￿suficientemente￿articuladas, como por ejemplo, preguntar a un joven si trabaja
+sin más especificaciones (¿cuándo?, ¿los veranos?, ¿todo el año?, ¿se refiere a
+un trabajo estable o a un trabajo esporádico?).
+7)￿Una￿buena￿pregunta￿es￿la￿que￿distingue￿entre￿los￿diferentes￿tipos￿de
+actitudes￿o￿comportamientos￿que￿existen￿en￿la￿población￿entrevistada. Las
+preguntas que todo el mundo responde con la misma opción (por ejemplo,
+un noventa y cinco por ciento está de acuerdo en defender los derechos de
+los niños en una sociedad occidental) son preguntas que no discriminan, no
+sirven mucho para hacer un análisis estadístico y son menos interesantes desde
+el punto de vista de la investigación social. Sin embargo, este tipo de preguntas
+puede ser útil cuando nos interesa estudiar las actitudes de una minoría.
+8)￿Evitar￿las￿preguntas￿tendenciosas. Las preguntas que utilizan determinados adjetivos o que plantean las cosas de modo tergiversado pueden afectar
+a la respuesta.
+Ejemplo
+Plantear el acuerdo o desacuerdo con la legalización del aborto como el derecho de la
+mujer a elegir o como el derecho del feto a vivir. Estudios empíricos demuestran que mucha más gente declara apoyar la liberalización del aborto cuando la pregunta se plantea
+
+
+[Page 20]
+como un derecho de elección de las mujeres que cuando la pregunta se plantea como la
+defensa de la vida del feto indefenso.
+9)￿Centrarse￿en￿momentos￿concretos￿en￿el￿tiempo, especialmente cuando
+las preguntas hacen referencia a actividades de la vida cotidiana. Las preguntas
+sobre un momento concreto del tiempo facilitan el recuerdo y hacen difícil
+confundir el comportamiento ideal con el real.
+10)￿Concreción￿frente￿a￿abstracción. Las preguntas concretas facilitan la reflexión, mientras que las abstractas dificultan la posición del individuo respecto a un problema. Por lo tanto, es importante concretar en la pregunta el
+concepto abstracto que se pretende medir.
+Por ejemplo
+El sentimiento patriota es bastante abstracto, y una forma útil y concreta de plantear este
+tema tan abstracto sería:
+"Nadie quiere que haya guerras, pero en el caso excepcional de que estallara una, ¿defendería usted los intereses de su país?"
+A veces es útil explicar una historia y pedir al entrevistado que se posicione a
+favor o en contra del protagonista.
+11)￿La￿secuencia￿y￿el￿orden￿de￿las￿preguntas. La primera parte la compondrán las preguntas más fáciles de responder; normalmente son sociodemográficas o preparatorias al tema principal. No deben ser comprometedoras ni muy
+personales, sino más bien basadas en hechos que en opiniones, puesto que
+así el entrevistado empezará a ganar confianza y a responder sin miedo. Las
+preguntas más difíciles y personales es mejor introducirlas hacia la mitad del
+cuestionario.
+Precisamente, es importante estructurar el cuestionario de forma que se mantenga la atención del entrevistado en todo momento (la curva de atención
+crece hasta algo más de la mitad, y a partir de este momento empieza a disminuir). Por eso es mejor poner las preguntas delicadas, personales o las más
+importantes en la mitad del cuestionario y dejar las más aburridas y obvias
+(las sociodemográficas) para el final.
+Además, conviene que las preguntas planteadas en el cuestionario sigan una
+secuencia lógica (que no haya saltos en los temas tratados) y que la entrevista
+sea tan parecida como sea posible a una conversación natural. Una buena estrategia es plantear los temas y las preguntas de más general a más particular.
+12)￿Duración￿del￿cuestionario. No hay criterios estándares generales. Todo
+depende de la población objeto de estudio y de lo que se pretenda conocer,
+pero en general, no es recomendable más de cuarenta o cuarenta y cinco minutos en las entrevistas cara a cara.
+
+
+[Page 21]
+En todos estos consejos hay muchos conocimientos￿psicológicos acumulados. De hecho, los cuestionarios de las encuestas bien financiadas se hacen
+conjuntamente con psicólogos sociales, que son especialistas en diseño de
+cuestionarios.
+A continuación pasamos a explicar el otro elemento fundamental de la técnica
+de encuesta: la muestra y el muestreo.
+2.2. La muestra y el procedimiento de muestreo
+El cuestionario se pasa a una selección de individuos que se denomina muestra. El procedimiento ideal sería entrevistar a toda la población (o universo),
+pero cuando las poblaciones son grandes, es necesario recurrir a la selección
+muestral. La pregunta que nos podemos hacer sobre este punto es: ¿cómo podremos estar seguros de que los resultados obtenidos en la muestra son iguales
+o muy cercanos a los que se dan en la población? Nunca estaremos seguros
+al cien por cien, pero podemos estar razonablemente seguros de que, si hacemos una correcta selección muestral, tenemos una muestra representativa o
+no sesgada, es posible hacer inferencias válidas respecto a la población.
+Por lo tanto, la finalidad del procedimiento de selección de una muestra
+es conseguir una muestra representativa de la población, es decir, un
+subconjunto de la población que refleje las características de cada variable o característica de la población importante para nuestro estudio.
+¿Cómo o según qué procedimientos seleccionaremos los casos para que constituyan una muestra representativa? ¿Cuántos casos tendremos que seleccionar para que sean un número suficiente para constituir una muestra representativa?
+Las dos principales preguntas de la teoría del muestreo se refieren, por
+tanto, al procedimiento de muestreo y al número de casos que formarán
+parte de la muestra.
+En cuanto al tipo￿de￿muestreo, la mejor manera de asegurar una muestra representativa de la población es llevar a cabo un muestreo￿aleatorio. Un muestreo aleatorio es aquel en el que todos los individuos de la población tienen
+una probabilidad positiva conocida de ser seleccionados. La única forma de
+hacer un muestreo aleatorio es tener un conocimiento completo de todos los
+individuos que forman parte de la población que queremos estudiar. En contra de una intuición ingenua, extraer una muestra aleatoria no quiere decir
+que usemos procedimientos laxos de selección y que cualquier miembro de
+la población pueda formar parte de la muestra. Al contrario; para garantizar
+que realmente hemos extraído una muestra aleatoria tenemos que conocer
+Coeficiente de elevación
+N / n = k
+N = tamaño de la población o
+universo
+n = tamaño de la muestra
+Se selecciona un individuo de
+cada k. Cada individuo tiene
+asignado un número, y se usa
+la llamada tabla de números
+aleatorios para seleccionar a los
+individuos concretos.
+
+
+[Page 22]
+previamente muchas cosas sobre la población (quiénes son, dónde están) y
+usar procedimientos estrictos para seleccionarlos. El muestreo￿aleatorio￿simple es el tipo de muestreo básico para estudiar una población relativamente
+homogénea respecto a los fenómenos que queremos estudiar. Los individuos
+se extraen mediante alguna forma de lotería o de asignación de números aleatorios. El muestreo￿aleatorio￿sistemático parte de la existencia de un listado
+completo de la población y de la elección de forma "sistemática" de un individuo de cada tantos de la lista. Esto quiere decir que usa un coeficiente de
+elevación N/n que relaciona el tamaño de la población con el de la muestra
+que se quiere extraer.
+A veces, el fenómeno que queremos estudiar es demasiado complicado y cuesta tener una muestra aleatoria que sea representativa, o la distribución de la
+población hace que sea muy costoso acceder a los individuos elegidos por medio de sistemas de muestreo simple. Por eso se han desarrollado sistemas de
+muestreo que quieren resolver estos problemas manteniendo la aleatoriedad.
+•
+Muestreo aleatorio estratificado
+•
+Muestreo aleatorio por conglomerados
+•
+Muestreo aleatorio polietápico
+Las características del muestreo￿aleatorio￿estratificado son las siguientes:
+•
+Los individuos se han clasificado siguiendo un criterio relevante para los
+fenómenos que queremos estudiar. Por ejemplo, si queremos estudiar el
+impacto de la confesión religiosa en el comportamiento antisocial, nos
+puede interesar estratificar la muestra de forma que se garantice que las
+confesiones minoritarias o sectas formen parte de ella. Con una muestra
+de tamaño típico y con un muestreo aleatorio simple esta presencia no
+estaría garantizada para nuestros objetivos. En este muestreo se forman
+subpoblaciones o subgrupos de los que se obtienen muestras aleatorias
+simples.
+Lecturas obligatorias
+Para ampliar cómo se llevan
+a cabo los diferentes procedimientos de muestreo y ver
+ejemplos prácticos de aplicación, hay que leer dos textos
+más:
+Ángel￿Gil￿Estallo.
+"Mostreig" (págs. 1-22). Barcelona: UOC. Material docente, asignatura 05057.
+Pedret;￿Sagnier;￿García;￿Morell. "El muestreo". En: Técnicas cuantitativas para la obtención de información: la observación y la encuesta (págs.
+33-53). Barcelona: UOC. Material docente, asignatura
+84004.
+•
+Se quiere que los estratos sean internamente homogéneos y heterogéneos
+entre ellos. Con la utilización de este procedimiento se reduce la varianza
+de los estimadores y, por lo tanto, los errores de muestreo; de lo contrario,
+se incrementa la representatividad de la muestra obtenida.
+Las características del muestreo￿aleatorio￿por￿conglomerados son:
+En un primer momento la unidad muestral no es el individuo, sino un conjunto de individuos que se agrupan en "unidades naturales".
+Estadísticos y parámetros
+Los estadísticos son las estimaciones que se obtienen en la
+muestra, mientras que los parámetros son los valores de la
+población.
+
+
+[Page 23]
+•
+Este conjunto de individuos, o unidades naturales, pueden ser hospitales,
+viviendas, empresas, prisiones, etc. Se elige una muestra aleatoria simple
+entre las diferentes unidades (o conglomerados).
+•
+Si los conglomerados son pequeños, se entrevistan todos los individuos
+del grupo (viviendas). Si son grandes, hay que hacer submuestras.
+•
+Para que este tipo de muestreo sea adecuado, los conglomerados tienen
+que ser internamente heterogéneos (deben consistir en individuos de la
+población que tengan todas las características relevantes para el estudio
+que estamos haciendo) y homogéneos entre ellos (cada conglomerado tiene que ser parecido a los otros conglomerados, deben ser intercambiables
+para que la muestra aleatoria que se hace entre ellos continúe siendo representativa de la población y que, por tanto, el error no crezca demasiado).
+Las características del muestreo polietápico estratificado por conglomerados
+son las siguientes:
+•
+El muestreo se hace en etapas que combinan diferentes tipos de muestreo.
+•
+El procedimiento más común es seleccionar primero los estratos, después
+hacer subdivisiones (conglomerados) y finalmente, seleccionar los individuos por cuotas.
+•
+En las encuestas de opinión con entrevistas personales hechas en el Estado español se estratifica por comunidades autónomas de acuerdo con el
+tamaño poblacional.
+•
+A continuación, se estratifica dentro de cada comunidad autónoma por
+tamaño del municipio. Por tanto, hay diferentes estratos según el número
+de habitantes del municipio.
+•
+El municipio se divide en secciones, que también pueden variar según el
+tamaño, y dentro de las secciones se eligen rutas, y dentro de las rutas,
+viviendas.
+•
+Finalmente, dentro de las viviendas se seleccionan los individuos con un
+sistema de cuotas preestablecido. Es decir, se seleccionan las personas para
+la entrevista si pertenecen a ciertos grupos sociodemográficos que nos interesa controlar para que la proporción de la muestra sea la que realmente hay en la población. Las cuotas más habituales en España son la edad,
+el sexo y la situación laboral (estudiante, ama de casa, jubilado, parado,
+ocupado).
+
+
+[Page 24]
+•
+La distribución de entrevistas dentro de cada estrato se hace de acuerdo
+con el peso relativo de la población de cada estrato (es lo que se denomina
+afijación proporcional).
+Una vez explicados los diferentes procedimientos de selección muestral, hay
+que determinar el número￿de￿casos necesarios para que la muestra sea representativa y podamos hacer inferencias respecto a la población. Es decir, hablamos del tamaño￿de￿la￿muestra.
+El tamaño de la muestra depende￿de￿varios￿factores:
+•
+La￿variabilidad￿existente￿en￿la￿población. Se refiere al grado en el que los
+miembros de la población son iguales entre sí respecto a las características que nos interesan para el estudio. Cuanto más homogénea sea una población, menor será la muestra necesaria para representarla. Cuanto más
+heterogénea sea, mayor tendrá que ser la muestra. Cuando queremos estudiar muchas variables tenemos que presuponer que la variabilidad de
+la población será también grande. Aun así, muchas veces no sabemos la
+variabilidad de la población: en estos casos se recomienda tener presente
+la peor de las situaciones, es decir, la variabilidad máxima o división de la
+población en un cincuenta por ciento.
+•
+El￿tamaño￿de￿la￿población. En las poblaciones grandes o infinitas (más
+de cien mil individuos), el tamaño de la población no influye en el tamaño
+de la muestra para obtener una mejor representatividad (disminución del
+margen de error en un mismo nivel de confianza). Una muestra del mismo tamaño puede ser representativa tanto de una población de cien mil
+habitantes como de una población de cien millones. En cambio, cuando
+las poblaciones son finitas (n < 100.000), el tamaño de la población es un
+factor importante para calcular el tamaño de la muestra.
+•
+El￿nivel￿de￿confianza o de seguridad que se quiere asumir. El nivel de
+confianza es la seguridad que tenemos de que el estimador coincida con el
+parámetro dentro de un margen de error. El nivel de confianza se expresa
+en porcentaje de muestras en las que el estadístico muestral coincidirá con
+el parámetro. Por ejemplo, en el noventa y cinco por ciento de las muestras, el estadístico equivaldrá al parámetro dentro de un margen de error
+fijado. Para incrementar el nivel de confianza, lógicamente debe aumentar
+el tamaño de la muestra.
+•
+El margen￿de￿error￿de￿muestreo es el grado de precisión y la exactitud
+que se quiere asumir en el estudio que estamos haciendo. ¿De cuánto podemos equivocarnos al estimar el parámetro, dado un nivel de confianza
+determinado? En general, cuanto mayor sea la exactitud deseada y, por lo
+tanto, menor el error, más grande tendrá que ser la muestra.
+
+
+[Page 25]
+Los￿cuatro￿factores￿están￿relacionados como veremos en las fórmulas que
+mostraremos a continuación. Cuando disminuye el tamaño de la muestra aumenta el error. Cuando aumenta la variabilidad, hay que aumentar el tamaño
+de la muestra si no queremos aumentar el error al mismo tiempo. También,
+el vínculo entre el nivel de confianza y el margen de error es inverso, puesto
+que no se pueden lograr juntos. Con el mismo tamaño de muestra no podemos lograr el máximo de confianza y el mínimo de error. Si queremos afinar
+el margen de error y reducirlo manteniendo el mismo número de casos, tendremos que rebajar el nivel de confianza. Si rebajamos el nivel de confianza
+se reduce el error.
+La fórmula para calcular el tamaño de la muestra es la siguiente:
+Población infinita (N>100.000)
+3.1
+Población finita (N<100.000)
+3.2
+La fórmula de cálculo del error muestral es:
+Población infinita (N>100.000)
+3.3
+Población finita (N<100.000)
+3.4
+Términos de las fórmulas
+ε = error muestral
+Z = nivel de confianza (68,3%
+= 1Z; 95% = 1,96Z; 95,5% =
+2Z; 99% = 2,58Z; 99,7% = 3Z)
+p = proporción de una característica en la población (equivalente a la variabilidad, la máxima = 0,5)
+(1￿–￿p)￿=￿q = 0,5; la otra proporción.
+Estas son las fórmulas que deben emplearse en el caso del muestreo aleatorio.
+Para los otros tipos de muestreo las fórmulas son más complicadas y no las
+veremos aquí. Además, habitualmente se aplican estas fórmulas, más sencillas,
+para calcular la muestra y el error en los muestreos polietápicos antes mencionados. El margen de error que se suele aceptar es de un ±3.
+Teniendo en cuenta estas fórmulas, se han elaborado unas tablas de margen de
+error y de tamaño de la muestra, según el nivel de confianza, que se adjuntan
+al final del módulo.
+Las otras fórmulas para calcular el tamaño de la muestra y
+los errores de muestreo según
+los diferentes tipos de muestreo se pueden consultar en:
+R.￿L.￿Scheafer;￿W.￿Mendenhall;￿L.￿Ott (1987). Elementos
+de muestreo. México: Grupo
+Editorial Iberoamérica.
+
+
+[Page 26]
+2.3. Censos y padrones
+También la técnica de la encuesta se puede utilizar en multitud de investigaciones sociales. Por ejemplo, en los recuentos de población, en los que normalmente no se hace una selección muestral pero sí se administra un cuestionario. Nos referimos a los censos de población y a los padrones de habitantes.
+En España y en Cataluña, el censo de población se hace cada diez años y el
+padrón municipal de habitantes se hacía cada cinco (ahora ya no se hace por
+medio de encuesta, sino por medio del empadronamiento personal, que se
+actualiza continuamente). Los censos y los padrones son recuentos exhaustivos de la población. En el caso del censo, la gran mayoría de la población –
+no se suele conseguir entrevistar a la totalidad– es entrevistada mediante un
+cuestionario sobre las características sociodemográficas, laborales y familiares.
+Las personas interrogadas tienen la obligación de responderlo con exactitud.
+El entrevistador deja en el hogar del entrevistado el cuestionario y después
+pasa a recogerlo.
+Hay una gran variedad de tipos de censos. De hecho, cualquier registro exhaustivo y sistemático de los ciudadanos (del comportamiento, de los hábitos
+de consumo o de las características que tienen) puede ser considerado un censo. Como es un recuento integral y completo no usa procedimientos muestrales. Son ejemplos de censos el mencionado censo de población y viviendas,
+de automovilistas o el censo electoral.
+2.4. Ventajas e inconvenientes de la encuesta
+Para concluir el apartado de la encuesta, mencionaremos sus ventajas￿e￿inconvenientes. La encuesta es una de las técnicas de investigación más utilizadas en las ciencias sociales y ha demostrado ser especialmente efectiva cuando
+se ha combinado con otros métodos.
+Las ventajas para la investigación empírica son numerosas. El formato de la
+encuesta permite hacer muchas y variadas preguntas que reflejan indicadores
+de comportamiento, actitudes y opiniones de los individuos, de modo que se
+consigue examinar hipótesis complejas, tanto descriptivas como explicativas,
+que incluyen multitud de variables en interacción. A menudo, además, se usa
+como sucedáneo de procedimientos de obtención directa de datos agregados
+que implicarían demasiado tiempo, dinero o dificultades técnicas importantes. También se utiliza como sustitutivo de la observación de datos pasados o
+de hechos que ocurren en situaciones inaccesibles. Además, una de las principales ventajas de la encuesta es que, como se pasa a una muestra representativa de la población, los resultados pueden ser extrapolados a toda la población
+que investigamos. Con todo, su uso no￿es￿aconsejable cuando se puede llevar
+a cabo fácilmente una observación, se dispone de la infraestructura para hacer un experimento o se pueden obtener directamente los datos agregados. La
+David-Sven￿Reher;￿Ángeles
+Valero￿Lobo (1995). Fuentes
+de información demográfica en
+España. Madrid: CIS ("Cuadernos Metodológicos", núm.
+13).
+
+
+[Page 27]
+explicación es que la validez de los resultados de la encuesta resulta afectada
+por el desconocimiento, la mala memoria, la falta de sinceridad y los errores
+de los entrevistados.
+La relevancia social, económica y política que pueden adquirir las encuestas es
+evidente en el uso y la demanda de datos de encuesta por parte de los políticos
+o de muchas empresas.
+
+
+[Page 28]
+3. El experimento
+Otro representante importante de las técnicas cuantitativas es el experimento, cuyas características son diferentes a las de la técnica de encuesta. El experimento es más bien un diseño o un plan de investigación, más que una
+técnica de obtención de datos. Consiste en comparar un grupo￿experimental, formado por sujetos que serán expuestos a la variable explicativa o estímulo, con un grupo￿de￿control, que es igual al grupo experimental, salvo el
+estímulo. El valor de la variable que se tiene que explicar en cada grupo se
+mide antes de la introducción del estímulo (verificación anterior) y se vuelve
+a medir después de que el grupo experimental se haya sometido al estímulo
+(verificación posterior). El impacto del estímulo se infiere de la comparación
+de los valores de la verificación anterior y posterior en cada grupo.
+La fórmula del efecto es la siguiente (Manhein y Rich, 1988, pág. 107):
+Efecto del estímulo =
+= (verific. posteriorE – verific. anteriorE) – (verific. posteriorC – verific. anteriorC),
+donde E es el grupo experimental y C, el grupo de control.
+En cuanto a la realización de experimentos, es mejor hacerlos cuando la fase
+descriptiva de la investigación ha concluido o cuando se dispone de suficientes
+conocimientos científicos sobre el objeto de estudio, puesto que para llevarlos
+a cabo correctamente hay que determinar cuáles son los factores de control y
+administrar bien la variable explicativa o estímulo.
+Los factores de control son las variables o características que comparten los
+sujetos del grupo de control y del grupo experimental. La composición de los
+grupos respecto a las variables de control tiene que ser idéntica (por ejemplo,
+respecto al género, la edad, el nivel educativo, el origen, etc.) porque los cambios en la variable que se tiene que explicar (por ejemplo, no superar los límites
+de velocidad) se deben al estímulo (por ejemplo, una campaña de educación
+vial) y no a alguna diferencia en las variables de control.
+Gracias al control de otros factores y a la aplicación del estímulo, el
+diseño experimental permite constatar relaciones causales.
+El problema del diseño experimental está en las dificultades￿técnicas￿y￿éticas
+de aplicar experimentos a seres humanos, acontecimientos sociales y políticos
+o instituciones y colectivos. Sin embargo, se hace a veces cuando la población
+
+
+[Page 29]
+está muy bien definida, está de acuerdo con el experimento y es posible delimitar el grupo de control y el grupo experimental y controlar el tiempo de
+aplicación de la variable estímulo.
+Por ejemplo, se han hecho experimentos importantes en escuelas inglesas sobre los efectos de los programas de contenido violento en la agresividad de
+los niños de siete a diez años, en los que se controlaban variables como, por
+ejemplo, el género, la clase social y el tipo de escuela. En Estados Unidos son
+comunes los experimentos para analizar el impacto de la campaña electoral
+entre los indecisos o de las noticias de la televisión en las opiniones políticas
+de los ciudadanos. En todos estos experimentos se intenta reproducir el entorno de laboratorio mediante el control del contexto, las condiciones y el
+momento en el que actúan las variables.
+S.￿Iyengar;￿D.￿Kinder (1987).
+News that Matters. Television
+and American Opinion. Chicago: The University of Chicago Press.
+A menudo la imposibilidad de reproducir el entorno de laboratorio, pero la
+necesidad de hacer experimentos para ver el efecto de políticas públicas, decisiones y medidas políticas, hace que en las ciencias sociales se lleven a cabo
+los llamados experimentos￿sobre￿el￿terreno, que en realidad son cuasiexperimentos. Aquí, los investigadores seleccionan muy cuidadosamente a los sujetos y los asignan aleatoriamente a los grupos de control y experimental (el
+que ha recibido las medidas o los programas públicos), y hacen un seguimiento a lo largo del experimento de manera que se puedan descartar la influencia
+de otras variables.
+Estos experimentos tienen la ventaja de que no son tan artificiales como los
+de laboratorio, pero no suele haber un verdadero control de la variable independiente ni de las condiciones en las que actúan las variables. Tal como pasa
+con las encuestas, la causa ya se ha producido y el efecto ya se ha dado.
+Piergorgio￿Corbetta (2003).
+"Causalidad y experimento".
+En: Metodologías y técnicas de
+investigación social (cap. 3,
+págs. 115-156). Madrid: McGraw-Hill.
+
+
+[Page 30]
+4. El análisis estadístico de los datos
+Una vez explicadas las técnicas cuantitativas principales, estudiaremos cómo
+se lleva a cabo el análisis de los datos obtenidos.
+En la investigación cuantitativa, por análisis de datos entendemos análisis estadístico.
+Para los científicos sociales la estadística es una herramienta muy útil
+porque nos permite reducir la complejidad de los datos obtenidos (muchas variables y muchos valores en cada variable, muchos casos y unidades de análisis y de observación) y responder con precisión numérica
+las preguntas e hipótesis planteadas al principio de la investigación.
+Los valores estadísticos son números que sintetizan las distribuciones de valores de las variables (estadística￿univariada) y que muestran la relación que
+existe entre las variables (estadística￿bivariada￿y￿multivariada). La estadística￿descriptiva hace referencia sobre todo a la estadística univariada, más sencilla, que busca describir las variables, es decir, descubrir cómo se distribuyen.
+La estadística￿inferencial es la que intenta inferir los parámetros poblacionales de los valores estadísticos observados en la muestra.
+4.1. La representación visual de los datos
+Todo análisis de datos empieza por la presentación￿visual￿de￿los￿datos con
+el fin de describirlos y presentarlos. La presentación visual suele ser el aspecto
+del análisis más importante cuando se quiere comunicar y hacer comprensibles los resultados de la investigación a un público o un cliente que no necesita o no está interesado en los análisis estadísticos. Sin embargo, en general
+la presentación visual siempre es importante porque ayuda a mostrar con claridad y concisión los datos, y también porque acompaña e ilustra el análisis
+estadístico.
+Hay diferentes tipos de representaciones visuales: los￿gráficos￿y￿las￿tablas. Hay
+diferentes tipos de gráficos y tablas según la finalidad que tienen (muestran
+diferentes aspectos del fenómeno que queremos presentar: algunos son más
+descriptivos y otros muestran las relaciones entre las variables) y según el tipo
+de variables (nivel de medición).
+La representación más sencilla es la tabla￿enumerativa, que presenta los datos
+en forma de lista. Cada columna representa una variable diferente y la primera
+columna proporciona el orden de las otras variables y la forma de interpretar
+E.￿Anduiza;￿I.￿Crespo;￿M.
+Méndez (2009). "Presentación de datos y resultados".
+En: Metodología de la Ciencia
+Política (págs. 99-105) (2.a ed.
+revisada). Madrid: CIS ("Cuadernos Metodológicos", núm.
+28).
+
+
+[Page 31]
+las tablas. Es una tabla de propósitos meramente descriptivos. Mostramos a
+continuación un ejemplo de tabla con los porcentajes de participación en las
+elecciones generales, autonómicas y municipales en Cataluña.
+Año
+Congreso diputados
+Municipales
+Catalán
+europeo
+79.1
+68.5
+61.4
+61.4
+80.7
+67.4
+64.3
+69.2
+68.5
+59.4
+67.4
+51.6
+57.6
+76.2
+52.1
+64.9
+55.5
+59.9
+55.5
+64.7
+61.3
+63.4
+40.2
+56.8
+53.7
+71.2
+37.5
+66.8
+54.9
+69.6
+47.6
+
+
+[Page 32]
+Año
+Congreso diputados
+Municipales
+Catalán
+europeo
+58.5
+74.9
+La tabla￿de￿contingencia es parecida a la enumerativa, pero se basa más en
+las hipótesis y está estructurada para facilitar el examen de las relaciones entre
+las variables. Por eso, se usa también como técnica de análisis estadístico y
+no únicamente para presentar los datos. Es una tabla con diferentes entradas
+que da lugar a una distribución conjunta de frecuencias dispuestas en filas y
+columnas según las categorías o valores de cada una de las variables. Tiene
+tantas celdas como combinaciones de categorías o valores (López y Lozares,
+1999, pág. 8). Las tablas de contingencia se disponen siempre de manera que
+los datos aparezcan totalizados en el sentido de la variable independiente o
+explicativa, que normalmente se presenta desglosada en las columnas. Es decir,
+si la tabla contiene porcentajes, estos se basarán en la variable independiente
+y totalizarán el cien por cien en el sentido de la columna. Ahora mostramos
+un ejemplo.
+Mediante una tabla de contingencia presentamos la relación entre el estado
+civil y la participación electoral en las autonómicas catalanas de 2003. Los
+datos son de una encuesta ficticia y los usaremos más adelante.
+Estado civil
+solteras
+casadas
+No
+Sí
+Votar en las autonómicas catalanas de 2003
+3.200
+Según esta tabla se constata que existe una relación entre estar casado o soltero e ir a votar, puesto que las personas casadas (un 62,5%) votan con más
+frecuencia que las personas solteras (un 37,5%).
+En cuanto a los gráficos, los tipos más importantes son el diagrama de líneas,
+el gráfico de sectores (o queso) y el diagrama de barras.
+El diagrama￿de￿líneas es adecuado en las siguientes circunstancias: cuando
+queremos ver visualmente la evolución en el tiempo de un fenómeno, cuando
+queremos comparar las tendencias de diferentes variables y únicamente cuando disponemos de variables numéricas. El diagrama de líneas conecta todas
+las observaciones de cada variable en una línea que adquirirá varias formas
+según la tendencia de la variable.
+
+
+[Page 33]
+En el ejemplo de tabla enumerativa nos resultaba difícil extraer conclusiones
+debido a los numerosos datos. Si transformamos la tabla en un diagrama de líneas, veremos mejor lo que estos datos significan. Usaremos la hoja de cálculo
+Excel para hacer el diagrama. También se pueden usar programas estadísticos
+como el R, el SPSS, el STATA o el Minitab.
+Figura 1. Evolución de la participación electoral en Cataluña
+El gráfico￿o￿diagrama￿de￿sectores resulta ser una representación visual muy
+sencilla que se usa cuando simplemente queremos mostrar la distribución de
+los diferentes valores de una variable, pero las variables tienen que ser nominales u ordinales, y si son numéricas tienen que agruparse en categorías no
+continuas.
+Igualmente, usaremos la hoja de cálculo Excel para hacer el diagrama. También
+se pueden usar programas estadísticos como el R, el SPSS, el STATA o el Minitab.
+La figura siguiente representa la proporción de edades en una población.
+
+
+[Page 34]
+Figura 2. Proporción de edades en una población
+Otro tipo de gráfico que también sirve para describir y resumir información
+es el diagrama￿de￿barras￿o￿de￿columnas. El diagrama de barras consiste en
+una representación de los datos mediante dos ejes que se cruzan en el punto
+0. Las categorías o valores de la variable se sitúan en el eje horizontal de las
+abscisas, y el número de casos se coloca en el eje vertical de las ordenadas. Se
+trazan barras desde las abscisas en las que la altura representa el conjunto de
+casos de una categoría o valor de la variable. Si las variables son numéricas, el
+diagrama de barras también se denomina histograma y se representa con las
+barras juntas y un diagrama de líneas que une los puntos medios de las barras.
+Si las variables son nominales u ordinales, las barras se representan separadas.
+Hay muchas variaciones de estos tipos de diagramas o gráficos: la anchura
+de las barras puede variar si las variables son numéricas; las barras se pueden
+trazar desde el eje vertical, donde se situarían las categorías de la variable, etc.
+A continuación pondremos un ejemplo con variables nominales: población
+inmigrada residente en España en 1998 según el área de procedencia.
+Figura 3. Residentes en España según áreas de procedencia, 1998
+
+
+[Page 35]
+4.2. Análisis estadístico
+Recordemos que al empezar este apartado explicábamos que los estadísticos
+son números que sintetizan las distribuciones de valores de las variables (estadística univariada) y que muestran la relación que existe entre las variables
+(estadística bivariada y multivariada). El análisis, por lo tanto, siempre se empieza con una descripción de cómo son las distribuciones de las variables y
+después se pasa a explicar las influencias de las variables explicativas sobre la
+dependiente.
+4.2.1.
+Estadística univariada
+En primer lugar, examinaremos￿los￿estadísticos￿que￿resumen￿la￿distribución￿de￿una￿variable. Cuando hablamos de distribución de una variable nos
+referimos a cómo se distribuyen los casos dentro de los valores de las variables,
+qué valor es el más característico y en qué medida lo es.
+E.￿Babbie (2010). "Statistical Analyses" (págs. 466-504).
+En: E. Babbie. The Practice of
+Social Research (12.a ed.). Belmont, CA: Wadsworth.
+Para ver cómo se distribuyen los valores y los casos hay que observar la llamada distribución￿de￿frecuencias, que es una representación gráfica o tabular
+de cada valor de la variable y del número de casos que tiene cada valor. Esta
+representación de la distribución de las frecuencias de una variable se puede
+hacer mediante un diagrama de barras y una tabla enumerativa. Por otro lado,
+habría que comparar la distribución de frecuencias resultante con la llamada
+distribución￿o￿curva￿normal para interpretar la forma de la distribución y
+saber si podemos aplicar la estadística sin problemas.
+Una vez analizada la distribución de frecuencias, pasaremos a utilizar los estadísticos, que sirven para describir la distribución de valores de una variable:
+son las medidas￿de￿tendencia￿central y las medidas￿de￿dispersión. Las medidas de tendencia central se refieren al valor más típico que representa mejor
+todo el conjunto de casos de una variable. Las medidas de dispersión nos indican hasta qué punto este valor más típico resume cuidadosamente la distribución y si la variación en torno a este valor típico es limitada o no. Existen
+diferentes medidas de tendencia central y de dispersión según el nivel de medición de las variables.
+Estadísticos para describir la distribución de una variable
+Tipo de variables
+Tendencia￿central
+Dispersión￿o￿desviación
+Recorridos cuantílicos
+Distribución o curva
+normal
+Es una distribución simétrica
+con la mayoría de los casos en
+el centro de la distribución, de
+forma que la moda, la media y
+la mediana adoptan el mismo
+valor central. Resulta una distribución muy útil y empleada
+en el análisis estadístico porque tiene las propiedades de
+que el 68,3% de los casos se
+encuentran entre ±1 desviación típica; el 95,5%, entre
+±2 desviaciones típicas, y el
+99,7%, entre ±3 desviaciones
+típicas.
+ra se harán ejercicios sobre la
+curva normal.
+
+
+[Page 36]
+Estadísticos para describir la distribución de una variable
+Tipo de variables
+Tendencia￿central
+Dispersión￿o￿desviación
+Media (X)
+Recorridos cuantílicos
+Desviación típica (S)
+Puntuaciones típicas Z
+ 
+ 
+La moda es el valor más frecuente en una distribución, es decir, el valor con
+un número de casos mayor. La mediana es el valor del caso medio de una
+distribución: este caso deja por debajo y por encima el mismo número de casos
+(50%). La media aritmética es el centro de gravedad en la distribución de los
+casos en una variable. Este valor resulta de la suma de todos los valores dividido
+entre el número de casos. La desviación￿típica es la media de las distancias
+de cada caso respecto a la media. Cuanto mayor sea la desviación típica –es
+decir, la dispersión de una distribución–, menos típica o representativa de la
+distribución será la media. Las fórmulas de la media y de la desviación típica
+son:
+Media X
+3.5
+Desviación típica S
+3.6
+4.2.2.
+Estadística multivariada
+A continuación, explicaremos los análisis￿bivariados y multivariados que se
+pueden hacer para examinar la relación entre variables. Este tipo de análisis
+de datos depende de algunos aspectos:
+1) De los métodos empleados
+2) De los objetivos de la investigación
+3) De los tipos de variables
+4) De los tipos de relación entre las variables
+ra se harán ejercicios sobre los
+estadísticos de tendencia central y de dispersión.
+
+
+[Page 37]
+Por lo tanto, hay que recordar que no se puede aplicar cualquier técnica de
+análisis estadístico a cualquier tipo de datos, sino que se tiene que elegir según
+los cuatro criterios mencionados.
+1) Respecto a los métodos empleados, se pueden hacer análisis estadísticos en
+el caso del método experimental, el método comparado y también cuando se
+usa la encuesta para recoger datos. Sin embargo, en los estudios de casos que
+usan las técnicas cualitativas, la estadística no se puede aplicar prácticamente
+y se utiliza principalmente para recuentos y resúmenes de las distribuciones
+(frecuencias, porcentajes, modas y medias).
+En el método experimental se comparan los valores de dos grupos en la variable dependiente, y por eso la técnica estadística más empleada son las diferentes variedades del análisis de varianza. En el método comparativo se pueden
+usar todo tipo de técnicas estadísticas, pero con tal que el número de observaciones disponibles sea amplio y el número de variables no supere el número
+de observaciones. Siempre se debe intentar tener un número bastante alto de
+casos: países, organizaciones, colectivos, etc. Con los datos de encuesta y con
+los datos agregados también se pueden usar todo tipos de análisis estadísticos.
+2) Los objetivos￿de￿la￿investigación son básicamente dos: describir y explicar
+un fenómeno. Estos objetivos se tienen que reflejar en las preguntas e hipótesis
+de la investigación, pero también en la selección de métodos y técnicas de
+investigación.
+Lectura complementaria
+Para aprender cómo se llevan
+a cabo los análisis de varianza se puede consultar:
+G.￿R.￿Iversen;￿H.￿Norpoth
+(1988). "Analysis of Variance". Sage University Paper
+(núm. 1). Londres: Sage.
+Si únicamente queremos describir un fenómeno, podemos utilizar la metodología cualitativa: estudios de casos con técnicas como, por ejemplo, la observación, las entrevistas en profundidad, los grupos de discusión, el análisis de
+contenido. Si por el número de datos decidimos usar la estadística, podemos
+empezar por una descripción básica de los datos mediante la estadística univariada (descripción de la distribución de cada variable en cuanto a las frecuencias, porcentajes y las mediciones de tendencia central y de dispersión) y pasar después a hacer análisis clasificatorios (conglomerados –clusters–, análisis
+discriminante) y de reducción del número de dimensiones que pueden caracterizar el fenómeno estudiado (componentes principales, análisis factorial).
+El análisis de
+conglomerados y de
+componentes principales
+El análisis de conglomerados
+de individuos consiste en agrupar a los individuos que se asemejan según unos valores o
+categorías en una serie de variables y separarlos de otros individuos con valores diferentes
+en las mismas variables.
+El análisis de componentes
+principales busca descubrir las
+dimensiones subyacentes que
+resumen toda una serie de variables.
+
+
+[Page 38]
+Si queremos también explicar el fenómeno, las técnicas estadísticas posibles
+son muy numerosas y se denominan técnicas multivariadas porque se estudian
+las relaciones entre dos o más variables. En diferentes apartados del módulo 1
+hemos comentado que para conseguir determinar la influencia de una variable
+sobre otra, es necesario descartar las posibles influencias de otras variables.
+Es decir, para poder encontrar explicaciones de los fenómenos, tenemos que
+aislar el efecto de las variables que pueden interactuar en la relación principal
+que nos interesa.
+Esta neutralización o control de una tercera variable se puede hacer mediante
+técnicas estadísticas diversas. En el caso de variables cualitativas se pueden
+usar las tablas de contingencia, y en el caso de variables numéricas la técnica
+más empleada es el análisis de regresión.
+Las tablas de contingencia controladas nos muestran, para variables medidas a escala cualitativa (ordinal o nominal), si el efecto de una variable sobre la otra se confirma, si no hay relación (es decir, la relación
+que se ha encontrado es una relación espúrea), si resulta afectada por
+una tercera variable (variable interviniente) o si hay multicausalidad. El
+análisis de regresión es muy flexible en cuanto al nivel de medida de
+las variables y nos indica el efecto que tiene cada una de las variables
+independientes en la variable dependiente si controlamos el resto de las
+variables independientes.
+El análisis￿de￿regresión permite cuantificar la magnitud del cambio que se
+produce en la dependiente por cada unidad de cambio en cada una de las variables independientes. Se basa en un modelo de relación lineal entre las variables y en las correlaciones r de Pearson, y se formula mediante una ecuación
+que expresa las relaciones entre la dependiente y las independientes:
+Y = a0 + b1X1 + b2X2 + b3X3 ..... + bn Xn + e
+Y es el valor de la variable dependiente y b son los coeficientes de regresión
+parcial que expresan la contribución única de cada variable independiente
+en la determinación de la variable dependiente: por ejemplo, el cambio en
+Y asociado al cambio por unidad en X1, manteniendo constantes los efectos
+de las otras variables. Además, el análisis de regresión proporciona una base
+empírica (la ecuación) para predecir los valores de la variable dependiente una
+vez sabemos los valores conjuntos de las variables independientes.
+Para conocer estas dos técnicas estadísticas podéis consultar el manual de C.￿Lozares;￿López￿Roldán (2000).
+Anàlisi multivariable de dades
+estadístiques (cap. 3, "L'anàlisi
+factorial de components
+principals", págs. 69-140;
+cap. 4, "L'anàlisi de classificació", págs. 143-192). Barcelona: UAB.
+Más aplicaciones concretas
+de las tablas de contingencia y del análisis de regresión,
+hay que estudiarlas con la
+lectura de:
+E.￿Anduiza;￿I.￿Crespo;￿M.
+Méndez (2009). "La contrastación". En: Metodología de la
+Ciencia Política (cap. 5, págs.
+107-125) (2.a ed. revisada).
+Madrid: CIS ("Cuadernos Metodológicos", núm. 28).
+También en las prácticas de
+la asignatura se plantearán
+ejercicios sobre esto.
+
+
+[Page 39]
+En cuanto a la tabla￿de￿contingencia, ya hemos visto su estructura en el apartado anterior. Respecto a la cuestión del control, cuando queramos neutralizar
+o controlar el efecto de una tercera variable, hay que mantener constantes las
+categorías de la tercera variable y comprobar si la relación entre las primeras
+variables se mantiene dentro de cada una de las categorías de la tercera variable. En esta tarea nos ayudan los coeficientes de asociación bivariados y el
+análisis de residuos de cada celda.
+Presentamos unos ejemplos de control con tablas de contingencia. Recordad
+la tabla de contingencia que hemos mostrado antes sobre la relación entre el
+estado civil y la participación electoral en las autonómicas catalanas de 2003:
+Estado civil
+solteras
+casadas
+No
+Sí
+Votar en las autonómicas catalanas de 2003
+3.200
+Ahora bien, queremos comprobar el efecto del género en la relación entre estado civil y voto, dado que sabemos que las mujeres votan más que los hombres, y es posible que sea más bien el género lo que influye y no el estado
+civil. En este caso, repartimos las dos categorías del estado civil dentro de cada
+categoría de género, de modo que controlamos o neutralizamos el efecto del
+género. Si esta variable no tiene ninguna influencia, la relación (es decir, las
+cifras) entre el estado civil y el voto se tiene que mantener parecida a la tabla
+de arriba dentro de cada categoría de género. Pero si tiene algún efecto, las
+cifras de las celdas variarán.
+Solteros Casados
+No
+(69%)
+(56%)
+Sí
+(31%)
+(44%)
+Votar en las autonómicas catalanas de
+Lectura complementaria
+P.￿López￿Roldán;￿C.￿Lozares
+Codina (1999). Anàlisi bivariable de dades estadístiques.
+Bellaterra: UAB.
+
+
+[Page 40]
+Solteras
+Casadas
+No
+(56%)
+(14%)
+Sí
+(44%)
+(86%)
+Votar en las autonómicas catalanas de
+Como vemos, las cifras varían respecto a la primera tabla; por lo tanto, el género tiene alguna influencia sobre la participación electoral. El cambio de cifras muestra que entre los hombres, tanto si son casados como solteros, hay
+una tendencia a votar menos que entre las mujeres. Sin embargo, la influencia
+del estado civil también está, dado que las personas solteras votan menos que
+las casadas. El mapa causal de la relación entre las variables sería:
+3) Los tipos￿de￿variables. Las técnicas de análisis de datos varían según el
+tipo de variables dependientes e independientes. Es decir, los diferentes niveles
+de medición de las variables hacen que sean aplicables unas técnicas u otras.
+Presentamos una tabla con las diferentes técnicas según los tipos de variables:
+Variable independiente
+coeficientes de asociación) (recodificando la variable independiente numérica)
+Logit y probit (regresión no lineal)
+coeficientes de asociación) (recodificando la variable independiente numérica)
+Regresión Ordinal
+Variable
+dependiente
+Comparación de medias (variable nominal independiente dicotómica)
+Regresión con variables fictícias (dummies)
+Análisis de varianza
+Regresión con variables fictícias (dummies)
+Regresión lineal
+
+
+[Page 41]
+Como podemos observar, hay técnicas que se pueden aplicar en más de dos
+tipos de variables si recodificamos las variables y las transformamos. Por ejemplo, las tablas de contingencia se emplean si las variables son nominales u
+ordinales, pero también se pueden usar si recodificamos la variable independiente numérica en ordinal o nominal. Igualmente, la regresión y el análisis
+de varianza son técnicas que se tienen que emplear con variables numéricas,
+pero también se pueden usar con variables ordinales dependientes si tienen
+muchos valores. Por lo tanto, la transformación de las variables nos puede
+ayudar a usar más técnicas estadísticas de las que en principio podrían corresponder a nuestro tipo de variables.
+ra habrá ejemplos de diferentes tipos de variables y las técnicas adecuadas.
+4)￿Los￿tipos￿de￿relación￿entre￿las￿variables. Si las variables son numéricas u
+ordinales, la relación entre dos variables puede ser curvilínea (hay puntos de
+inflexión en la relación lineal que cambia y no sigue la relación lineal anterior)
+o lineal (el incremento de una implica el incremento de la otra, o el incremento de una conlleva la bajada de la otra, o al revés). Cuando las relaciones
+son lineales se pueden emplear los análisis de regresión y también los análisis
+de componentes principales, porque los dos se basan en la correlación r de
+Pearson. Los análisis de varianza se hacen con variables ordinales con muchos
+valores o con numéricas como dependiente, y se basan también en relaciones
+lineales, aunque no usan la r de Pearson.
+En cuanto a las relaciones curvilíneas, las variables pueden transformarse de
+forma no lineal para estimar la relación que existe entre ellas.
+Las variables nominales no permiten establecer un orden o unas diferencias
+exactas entre las categorías, y por eso no tiene sentido hablar de la linealidad
+o no de la relación. En estos casos, lo mejor es usar tablas de contingencia.
+Logit y probit pueden emplearse si la dependiente es nominal.
+El coeficiente de
+correlación r de Pearson
+Nos indica si la asociación entre las variables es fuerte o débil, y el cálculo se basa en las
+desviaciones típicas y covarianzas entre las variables. Solo se
+puede calcular con variables
+numéricas.
+
+
+[Page 42]
+5. Anexo
+Tabla A.2. Tamaño de la muestra para niveles de precisión especificados (en porcentaje, con un
+intervalo de confianza del 95,5%, p = 0,5)*
+Tamaño de la muestra para una precisión de
+Tamaño de
+la población
+±1%
+±2%
+±3%
+±4%
+±5%
+±10%
+†
+†
+†
+†
+†
+†
+†
+1.500
+†
+†
+†
+†
+†
+1.250
+3.000
+†
+1.364
+3.500
+†
+1.458
+4.000
+†
+1.538
+4.500
+†
+1.607
+†
+1.667
+†
+1.765
+7.000
+†
+1.842
+8.000
+†
+1.905
+9.000
+†
+1.957
+15.000
+2.143
+1.034
+20.000
+6.667
+2.222
+1.053
+25.000
+7.143
+2.273
+1.064
+50.000
+8.333
+2.381
+1.087
+100.000
+9.091
+2.439
+1.099
+∞
+1.111
+Fuente: Taro Yamane, Elementary Sampling Theory (Englewood Cliffs, NJ: Prentice-Hall, 1967), pág. 398. Adaptado y reproducido con autorización del editor.
+* Proporción de unidades de la muestra que poseen la característica medida; para otros valores de p, el tamaño de la muestra
+requerido será menor.
+†En estos casos el 50% del universo de la muestra arrojará una exactitud mayor que la requerida. Como la distribución normal
+es escasamente aproximada a la distribución hipergeométrica cuando n es superior al 50% de N, no es aplicable la fórmula empleada en este cálculo.
+Fuente de las tablas
+J.￿B.￿Manheim;￿R.￿C.￿Rich
+(1988). Análisis político empírico (págs. 449-450). Madrid:
+Alianza.
+
+
+[Page 43]
+Tabla A.3. Tamaño de la muestra para niveles de precisión especificados (en porcentaje, con un
+intervalo de confianza del 99,7%, p = 0,5)*
+Tamaño de la muestra para una precisión de
+Tamaño de la población
+±1%
+±2%
+±3%
+±4%
+±5%
+†
+†
+†
+†
+†
+†
+†
+†
+†
+1.500
+†
+†
+†
+†
+†
+†
+†
+†
+†
+3.000
+†
+†
+1.364
+3.500
+†
+†
+1.458
+1.003
+4.000
+†
+†
+1.539
+1.041
+4.500
+†
+†
+1.607
+1.071
+†
+†
+1.667
+1.098
+†
+2.903
+1.765
+1.139
+7.000
+†
+3.119
+1.842
+1.171
+8.000
+†
+3.303
+1.905
+1.196
+9.000
+†
+3.462
+1.957
+1.216
+†
+3.600
+1.233
+15.000
+†
+4.091
+2.143
+1.286
+20.000
+†
+4.390
+2.222
+1.314
+25.000
+11.842
+4.592
+2.273
+1.331
+50.000
+15.517
+5.056
+2.381
+1.368
+100.000
+18.367
+5.325
+2.439
+1.387
+∞
+22.500
+5.625
+1.406
+Fuente: Taro Yamane, Elementary Sampling Theory (Englewood Cliffs, NJ: Prentice-Hall, 1967), pág. 399. Adaptado y reproducido con autorización del editor.
+* Proporción de unidades de la muestra que poseen la característica medida; para otros valores de p, el tamaño de la muestra
+requerido será menor.
+†En estos casos el 50% del universo de la muestra arrojará una exactitud mayor que la requerida. Como la distribución normal
+es escasamente aproximada a la distribución hipergeométrica cuando n es superior al 50% de N, no es aplicable la fórmula empleada en este cálculo.
+
+
+[Page 44]
+Resumen
+En este módulo hemos examinado las principales técnicas cuantitativas y las
+hemos comparado con las cualitativas con el objetivo de que el investigador
+sepa qué prioriza cuando elige una técnica o un método. Hemos destacado la
+posibilidad de combinar los dos tipos de investigación y cómo esta complementariedad da buenos resultados en el campo de la investigación empírica
+en ciencias sociales.
+La encuesta es una de las principales técnicas que usan los científicos sociales.
+Mediante la encuesta podemos averiguar los comportamientos, los atributos
+y las actitudes de los individuos que queremos investigar. Los procedimientos
+muestrales hacen que los datos resultantes se puedan generalizar al total de la
+población. Sin embargo, la técnica de encuesta se basa en tres elementos que se
+tienen que desarrollar con mucho cuidado y teniendo en cuenta la experiencia
+acumulada: el cuestionario, la muestra y el análisis estadístico.
+El experimento es un método y una técnica muy diferente a la encuesta, que
+no se ha empleado tanto en las ciencias sociales, pero la lógica que sigue para
+controlar las variables independientes es muy interesante para mostrarnos el
+camino del análisis causal incluso con otras técnicas. Es una técnica cuantitativa porque, al igual que la encuesta, se centra en el estudio de variables, puede
+analizar un alto número de casos y usa metodología estadística que permite
+la asunción de posibles errores de medición en las variables y la formalización
+de interacciones complejas entre las variables.
+Por lo tanto, el análisis estadístico se puede aplicar a diferentes métodos y técnicas: método comparativo, método experimental, técnica de encuesta; incluso a veces en los estudios de casos se utiliza la estadística univariada. El objetivo de la estadística es resumir los datos, describirlos y mostrar las interacciones
+que se producen entre las variables. Todo, al servicio de las preguntas y de las
+hipótesis de partida de la investigación. Aun así, la aplicación de las técnicas
+estadísticas debe hacerse teniendo presente muy especialmente el tipo de datos o variables de los que disponemos y los objetivos de la investigación.
+Al terminar este módulo, y después del módulo primero y segundo, tenéis que
+haber logrado una visión de conjunto de la investigación empírica cuantitativa: etapas, datos, métodos y técnicas. Ahora ya estáis preparados para terminar
+una investigación empírica vosotros mismos.
+
+
+[Page 45]
+Actividades
+1. El gobierno de un país quiere analizar el impacto del salario mínimo de inserción social
+en la población que lo recibe. ¿Qué métodos y técnicas de investigación usaríais? ¿Por qué?
+Diseñad a grandes rasgos el procedimiento.
+2. Un partido político importante está interesado en conocer las opiniones que tienen los
+españoles sobre su líder. ¿Qué métodos y técnicas de investigación usaríais? ¿Por qué? Diseñad a grandes rasgos el procedimiento.
+3. Leed el capítulo 2, titulado "Investigación cuantitativa e investigación cualitativa", de Metodología y técnicas de investigación social de P. Corbetta, y reflexionad sobre las diferencias entre metodología cuantitativa y cualitativa explicadas en este módulo. Seleccionad la tabla 2.1
+del texto de Corbetta y añadid las diferencias que se explican en el apartado 1 de este módulo.
+4. ¿Qué tipo de información proporcionan las encuestas y para qué tipo de casos o situaciones
+son el método más adecuado?
+5. Utilizad las tablas del anexo y las fórmulas del tamaño de la muestra y determinad el
+tamaño de la muestra necesaria para hacer una encuesta a la población catalana en la que el
+error muestral no supere el ±3. Utilizad un nivel de confianza del 95,5%.
+6. Si aumentamos el nivel de confianza al 99,7%, ¿qué tamaño muestral necesitaremos para
+el mismo error muestral?
+7. Obtened la ficha técnica de algún sondeo o encuesta aparecido en la prensa o disponible
+en internet y evaluad su contenido, es decir, si es correcto el cálculo del error muestral y si
+se aplica la fórmula adecuada al tipo de muestra efectuado.
+8. En España la preferencia por el tipo de gobierno (democracia, dictadura o posición indiferente) está influenciada por el género, pero tenemos la hipótesis alternativa de que es la
+edad la que realmente influye, dado que son las mujeres mayores las que pueden justificar
+mucho más una dictadura. Dadas las tablas de contingencia siguientes, analizad el papel del
+género y de la edad, y la certeza de nuestras hipótesis.
+80%
+71%
+11%
+8%
+8%
+21%
+Jóvenes de 18 a 30 años
+80%
+82%
+11%
+8%
+8%
+10%
+Adultos de 31 a 50 años
+88%
+79%
+6%
+8%
+6%
+13%
+
+
+[Page 46]
+Mayores de 51 a 100 años
+74%
+62%
+16%
+8%
+10%
+30%
+Ejercicios de autoevaluación
+1. La técnica de encuesta basada en la muestra aleatoria permite mejor que las otras técnicas
+a) el control de las variables independientes.
+b) la generalización empírica de los datos resultantes.
+c) el realismo en la medición.
+ 
+2. Un grupo de alumnos presenta las siguientes puntuaciones en una prueba:
+ 
+Calculad la media y la desviación típica:
+a) 59 y 34.
+b) 70, 44 y 7,10.
+c) 72, 35 y 8.
+ 
+3. El diagrama de líneas es la representación gráfica más adecuada...
+a) para las variables numéricas.
+b) para las variables nominales y ordinales.
+c) para mostrar la evolución en el tiempo o la tendencia de las variables si son numéricas.
+ 
+4. ¿Qué método y técnica de investigación usaríais si os encargan hacer una descripción tan
+realista como sea posible de un fenómeno social localizado?
+a) El estudio de caso mediante observación.
+b) El método estadístico y la técnica de encuesta.
+c) El experimento aplicado a la población localizada.
+ 
+5. ¿Creéis que con una muestra de trescientas personas se podría conocer la opinión de los
+barceloneses sobre el transporte público?
+a) Sí, con un error muestral del ±5,7%.
+b) Sí, con un error muestral del ±3%.
+c) No, porque el error sería demasiado alto.
+ 
+6. Basándonos en los datos de una encuesta del CIS, queremos explicar el nivel educativo de
+los españoles según el nivel mensual de renta del hogar y la edad. ¿Qué análisis estadístico
+sería el más adecuado?
+a) La tabla de contingencia.
+b) El análisis de regresión.
+c) El cálculo de las medidas de tendencia central.
+
+
+[Page 47]
+ 
+7. Si la variable independiente es ordinal y la variable dependiente también lo es, ¿qué análisis
+estadístico podríais usar?
+a) La tabla de contingencia con coeficientes de asociación.
+b) El análisis de regresión con las ordinales recodificadas.
+c) El análisis de varianza.
+
+
+[Page 48]
+Solucionario
+Ejercicios de autoevaluación
+1.￿b
+2.￿b
+3.￿c
+4.￿a
+5.￿c
+6.￿b
+7.￿a
+
+
+[Page 49]
+Glosario
+análisis de regresión  m Método de explicar o de predecir la variabilidad de una variable
+dependiente utilizando la información de una o más variables independientes.
+La pregunta que quiere responder el análisis de regresión es cuáles serán los valores más
+probables de la variable dependiente dados los valores de una variable independiente, o de
+varias.
+censo  m  Recuento exhaustivo de la población. La gran mayoría de la población –no se
+suele conseguir entrevistar a la totalidad– es entrevistada mediante un cuestionario sobre
+características sociodemográficas, laborales y familiares. A menudo el cuestionario se deja en
+el hogar para que el entrevistado lo rellene. Las personas interrogadas tienen la obligación
+de responderlo con exactitud. Véase padrón.
+codificación  f  Proceso de asignar valores numéricos a las observaciones (y en el caso de
+un cuestionario, a las diferentes alternativas de respuesta que eligen los entrevistados). Es
+indispensable para hacer un registro preciso, durable y comparativo de la información que
+permita los análisis estadísticos.
+cuestionario  m  Uno de los elementos principales de la técnica de encuesta. Constituye
+un conjunto de preguntas que se elabora con mucho cuidado para obtener información (respecto a actitudes –preguntas de opinión–, comportamientos y atributos sociodemográficos –
+preguntas de hechos–) sobre el objeto de estudio de la investigación. El cuestionario se puede
+hacer por teléfono o enviar por correo, o bien pueden hacerse entrevistas personales o dejar
+el cuestionario y que el entrevistado lo rellene.
+diagrama de barras  m Es una forma de representar la distribución de las frecuencias de
+los valores de variables categóricas (nominales u ordinales). En el gráfico la longitud de cada
+barra representa la cantidad o proporción de casos de cada valor en el conjunto de los casos
+analizados.
+sin.: diagrama de columnas
+diagrama de columnas  m  Véase diagrama￿de￿barras.
+estadística descriptiva  f  Es el conjunto de procedimientos que se utilizan para resumir,
+organizar y representar gráficamente la información cuantitativa. Se diferencia de la estadística inferencial en que trabaja con toda la población (no con muestras) y, por lo tanto, no
+tiene que hacer inferencias sobre los parámetros poblacionales a partir de los estadísticos
+muestrales.
+estadística inferencial  f  Estadística que trata de inferir, de los resultados estadísticos
+obtenidos en la muestra, los parámetros poblacionales a partir de los estadísticos muestrales.
+experimento  m  Es más un diseño o un plan de investigación que una técnica de obtención
+de datos. Consiste en comparar un grupo experimental, formado por sujetos expuestos a la
+variable explicativa o estímulo, con un grupo de control, que es igual al grupo experimental
+salvo el estímulo. El valor de la variable que se tiene que explicar en cada grupo se mide antes
+de la introducción del estímulo (verificación anterior) y se vuelve a medir después de que
+el grupo experimental se haya sometido al estímulo (verificación posterior). El impacto del
+estímulo se infiere de la comparación de los valores de la verificación anterior y posterior
+en cada grupo.
+experimento sobre el terreno  m  Cuasiexperimento, típico de las ciencias sociales, en el
+que los investigadores seleccionan muy cuidadosamente a los sujetos, los asignan aleatoriamente a los grupos de control y experimental, y hacen un seguimiento a lo largo del experimento de modo que se pueda descartar la influencia de otras variables. Estos experimentos
+tienen la ventaja de que no son tan artificiales como los de laboratorio, pero no existe un
+verdadero control de la variable independiente ni de las condiciones en las que actúan las
+variables.
+muestra  f  Grupo de casos seleccionados de un grupo más grande para ser analizado con
+la expectativa de que tenga características similares a las del grupo más grande. Los procedimientos que aseguran una muestra representativa de la población son los muestreos aleatorios.
+muestreo aleatorio estratificado  m  Tipo de muestreo aleatorio en el que la selección
+de individuos se hace dentro de los estratos donde se ubican. Los individuos se clasifican
+siguiendo algún criterio, de modo que se forman subpoblaciones o subgrupos que se tratan
+independientemente. El tema de la investigación determina el criterio de estratificación, pero
+también las necesidades técnicas (CA, provincias, tamaño de los municipios, etc.).
+
+
+[Page 50]
+muestreo aleatorio polietápico estratificado y por conglomerados y con selección del individuo por cuotas  m  Muestreo más típico que se hace en etapas que combinan diferentes tipos de muestreo. El procedimiento más común es seleccionar primero los
+estratos, hacer subdivisiones después (conglomerados) y seleccionar finalmente los individuos por cuotas.
+muestreo aleatorio por conglomerados  m  Tipo de muestreo aleatorio en el que la unidad muestral no es el individuo, sino un conjunto de individuos. Se considera que este conjunto es una unidad natural donde se encuentra la población: escuelas, hospitales, viviendas,
+empresas, universidades, etc. Se seleccionan estas unidades para formar parte de la muestra.
+El muestreo por conglomerados es adecuado si los conglomerados son interiormente heterogéneos (contienen todos los tipos de individuos de la población) y, consecuentemente, son
+homogéneos entre ellos.
+nivel de confianza  m  Seguridad que tenemos de que el estimador coincida con el parámetro dentro de un margen de error. El nivel de confianza se expresa en porcentajes de
+muestras en las que el estimador coincidirá con el parámetro. Por ejemplo, en el 95% de
+las muestras, el estimador equivaldrá al parámetro dentro de un margen de error fijado. A
+medida que aumenta el nivel de confianza, lógicamente tiene que aumentar el tamaño de
+la muestra.
+nivel de error de muestreo  m  Margen de error que queremos asumir, es decir, el margen
+de error que nos indica la precisión o exactitud de nuestras estimaciones: por cuánto nos
+podemos equivocar en la estimación del parámetro dado un grado de confianza determinado.
+En general, cuanto mayor es la exactitud deseada y, por lo tanto, menor el error, mayor tendrá
+que ser la muestra.
+padrón  m  Recuento exhaustivo de la población. Actualmente, en España el padrón ya no
+se hace por medio de entrevistas, sino que los residentes de un municipio están obligados a
+registrarse en la sede del ayuntamiento. Véase censo.
+reglas de la inferencia científica  f pl  Reglas que se refieren principalmente al diseño
+empírico de la investigación: operacionalización, medición, métodos de investigación empleados (sobre todo en cuanto a la forma en la que se lleva a cabo el análisis explicativo) y
+selección adecuada de casos o unidades, variables y observaciones.
+tabla de contingencia  f  Tabla con diferentes entradas que da lugar a una distribución
+conjunta de frecuencias dispuestas en filas y columnas según las categorías o valores de las
+variables, con tantas celdas como combinaciones de categorías o valores. Se basa en las hipótesis de la investigación y se estructura de modo que sea fácil examinar las relaciones entre
+las variables.
+técnica cualitativa  f  Cada una de las técnicas que se usan cuando se quieren llevar a cabo
+estudios holísticos, en los que cada sistema es una totalidad compleja y única que no se puede
+dividir ni tampoco reproducir. Los objetivos principales de la metodología cualitativa son
+descifrar la interpretación, el sentido, el significado que los individuos otorgan a su acción
+y situar al individuo o el fenómeno estudiado en el contexto social amplio al que pertenece.
+El número de casos es pequeño y muchas veces es solo uno. Las técnicas cualitativas más
+comunes son la observación (participante o no participante), las entrevistas en profundidad,
+el análisis de contenido, las historias de vida y los grupos de discusión.
+técnica cuantitativa  f  Cada una de las técnicas que se centran en el estudio de variables.
+Recogen un alto número de casos, y usan metodología estadística que permite la asunción de
+posibles errores de medición en las variables y la formalización de interacciones complejas
+entre las variables. Tiene como objetivo final el descubrimiento o la formulación de leyes
+universales probabilísticas mediante la generalización empírica, la investigación de explicaciones causales y las predicciones de los fenómenos. Las técnicas cuantitativas más comunes
+son las encuestas y los experimentos en entornos en alguna medida controlables.
+
+
+[Page 51]
+Bibliografía
+Anduiza, E.; Crespo, I.; Méndez, M. (2009). Metodología de la ciencia política (2.a ed. revisada). Madrid: CIS ("Cuadernos Metodológicos", núm. 28).
+Babbie, E. (2010). The Practice of Social Research (12.a ed.). Belmont, CA: Wadsworth.
+Bericat, E. (1998). La integración de los métodos cuantitativo y cualitativo. Barcelona: Ariel.
+Blaxter, L.; Hughes, C. I.; Tight, M. (2000). Cómo se hace una investigación. Barcelona:
+Gedisa.
+Brunet, I.; Pastor, I.; Belzunegui, A. (2002). Tècniques d'investigació social. Barcelona:
+Pòrtic.
+Corbetta, P. (2003). Metodología y técnicas de investigación social. Madrid: McGraw-Hill.
+Díez Medrano, J. (2003). Framing Europe. Princeton: Princeton University Press.
+Font, J. (1992). L'abstenció metropolitana. Els casos de Madrid i Barcelona. Tesis doctoral. Barcelona: UAB.
+Freedman, D.; Pisani, R.; Purves, R. (1993). Estadística. Barcelona: A. Bosch.
+García Ferrando, M. (1989). Socioestadística. Introducción a la estadística en sociología. Madrid: Alianza.
+Goldthorpe, J. H. (2000). On Sociology: numbers, narratives, and the integration of research and
+theory. Oxford: Oxford University Press.
+Hagan, F. E. (2006). Essentials of Research Methods in Criminal Justice and Criminology. Nueva
+York: Pearson.
+Hamel, J. (1993).  "Case study methods". En: Qualitative Research Methods Series. Londres:
+Sage University ("Paper", núm. 32).
+Iyengar, S.; Kinder, D. (1987). News that Matters. Television and American Opinion. Chicago:
+The University of Chicago Press.
+King, G.; Keohane, R. O.; Verba, S. (2000). El diseño de la investigación social. Madrid:
+Alianza.
+Kish, L. (1995). Diseño estadístico para la investigación. Madrid: CIS / Siglo XXI.
+Laub, J. H.; Sampson, R. J. (2003). Shared beginnings, divergent lives: delinquent boys to age
+70. Cambridge: Harvard University Press.
+Manheim, J. B.; Rich, R. C. (1988). Análisis político empírico. Madrid: Alianza.
+Martin, L. L. (1992). Coercive cooperation. Princeton: Princeton University Press.
+Iversen, G. R.; Norpoth, H. (1988).  "Analysis of variance". Sage University Paper (núm. 1).
+Londres: Sage.
+López Roldán, P.; Lozares Colina, C. (1999). Anàlisi multivariable de dades estadístiques.
+Bellaterra: UAB.
+López Roldán, P.; Lozares Colina, C. (2000). Anàlisi bivariable de dades estadístiques. Bellaterra: UAB.
+Pennings, P.; Keman, H. I.; Kleinnijenhuis, J. (1999). Doing research in political science.
+Londres: Sage.
+Putnam. R. E. (1993). Making democracy work. Civic traditions in modern Italy. Princeton,
+MA: Princeton University Press.
+Ragin, C. C. (1987). The comparative method. Moving beyond qualitative and quantitative strategies. Berkeley: University of California Press.
+Ragin, C. C.; Becker, H. S. (1992). What is a case? Exploring the foundations of social inquiry.
+Cambridge: Cambridge University Press.
+
+
+[Page 52]
+Reher, D. S.; Valero Lobo, Á. (1995). Fuentes de información demográfica en España. Madrid:
+CIS ("Cuadernos Metodológicos", núm. 13).
+Ruiz Olabuénaga, J. I. (1999). Metodología de la investigación cualitativa. Bilbao: Universidad de Deusto.
+Sampson, R. J.; Laub, J. H. (1993). Crime in the making: pathways and turning points through
+life. Cambridge: Harvard University Press.
+Scheafer, R. L.; Mendenhall, W.; Ott, L. (1987). Elementos de muestreo. México: Grupo
+Editorial Iberoamérica.
+Schuman, H.; Presser, S. (1981). Questions and Answers in Attitude Surveys. Nueva York:
+Academic Press.
+Sánchez Carrión, J. J. (1995). Manual de análisis de datos. Madrid: Alianza.
+Tarrow, S. (1994). Power in movement. Social movements, collective action and politics. Cambridge: Cambridge University Press.

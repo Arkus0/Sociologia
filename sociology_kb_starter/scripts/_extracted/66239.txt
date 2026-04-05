@@ -1,0 +1,577 @@
+[Page 1]
+E l proceso de formulación teórica 
+Una vez definido y acotado el problema o la cuestión que se desea estudiar, la 
+siguiente etapa en la investigación consiste en la formulación de la teoría. Las 
+teorías permiten manejar la complejidad de la vida política y social para poder 
+iniciar su estudio. Sin una buena teoría es complicado llevar a cabo una investigación, pues no se sabría cómo filtrar ni ordenar las ilimitadas observaciones que se pueden obtener a partir del estudio de cualquier ámbito de la 
+realidad política, ni tampoco cómo obtener conclusiones científicamente relevantes sobre los datos. La formulación de la teoría consiste en especular sobre las posibles respuestas al problema de investigación. Esta especulación 
+debe ser razonable y razonada, y debe especificar claramente los argumentos 
+por los que se considera que es correcta. 
+Del problema de investigación a la teoría 
+Si la investigación se centra en el comportamiento electoral, y lo que se quiere explicar es el hecho de que algunos electores participen mientras otros deciden abstenerse, la especulación sobre las causas que pueden explicar el 
+grado de abstencionismo electoral son innumerables. La edad, la educación, 
+los ingresos, el interés por la política, la identificación con un partido político, 
+la fragmentación y polarización de los sistemas de partidos, el carísma de los 
+candidatos, el tipo de sistema electoral, la presencia de incentivos institucionales como el voto obligatorio, o la cercanía del colegio electoral son factores 
+que han sido citados en alguna ocasión como causas de la participación electoral. Sin embargo, una teoría sobre la abstención no puede incorporar todos 
+estos elementos, pues terminaría explicándolo todo sin explicar realmente 
+nada. 
+La primera utilidad de una teoría es poner un poco de orden en este marasmo de explicaciones potenciales. La teoría del status socioeconómico pone 
+el énfasis en la educación, los ingresos y la ocupación de los electores, como 
+factores principales de la participación política y electoral. La teoría de la escuela de Michigan opta por dar mayor relevancia a conceptos como el com-
+
+
+[Page 2]
+promiso político o la identificación con un partido político. Las teorías 
+neoinstitucionalistas enfatizan aspectos institucionales como el voto obligatorio, el tipo de elección, o el sistema electoral. La teoría que se formule debe 
+tener en cuenta las investigaciones previas que se hayan realizado sobre la materia, e incorporar la definición de los conceptos que se postulen como fundamentales. Formular una teoría implica, por consiguiente, un intento de 
+simplificar la realidad que se estudia, puesto que selecciona una o varias explicaciones de entre todas las imaginables. 
+De una manera algo más formal las teorías se pueden definir como conjuntos de conceptos lógicamente relacionados que representan lo que creemos 
+que sucede en el mundo (Manheim y Rich, 1988: 31). Las teorías deben incluir 
+explícitamente los supuestos en los que se basan y varias hipótesis descriptivas 
+o causales, es decir, deben establecer relaciones entre variables. Conceptos, bipótesis y variables, los elementos fundamentales de una teoría, son estudiados 
+tras analizar el proceso de formulación de las mismas. 
+La formulación de teorías 
+Las teorías son conjuntos de conceptos lógicamente relacionados que representan lo que creemos que sucede en el mundo. Para poder ser contrastadas 
+empíricamente, las teorías deben desglosarse en varias hipótesis descriptivas 
+o causales, que establezcan las relaciones que se esperan encontrar entre las 
+variables. ¿Cómo se llega a construir ese conjunto de hipótesis que de manera 
+coherente permiten explicar el fenómeno que interesa investigar, y conseguir 
+conclusiones generalizables sobre un ámbito más allá del de los propios datos? No existe un conjunto de reglas que conduzcan a la buena elaboración 
+teórica. Este proceso, como el de la formulación del problema de investigación, tiene mucho de creativo y, por lo tanto, de personal. Sin embargo, sí se 
+pueden hacer algunas recomendaciones de las que conviene ser consciente. 
+La revisión bibliográfica 
+E l primer elemento que se debe tener presente a la hora de elaborar teorías es 
+que éstas deben tener en cuenta la elaboración teórica y la evidencia empírica 
+anteriores sobre la cuestión, ya que uno de los objetivos esenciales de una investigación es contribuir al conocimiento ya acumulado. La revisión de la literatura es el cimiento sobre el que se construye cualquier trabajo de investigación. Dependiendo del fenómeno a investigar, la literatura existente sobre el 
+tema puede ser más o menos extensa, pero en todo caso debe realizarse una 
+revisión exhaustiva de las principales investigaciones llevadas a cabo sobre el 
+tema con anterioridad. La revisión crítica de la literatura aporta contenidos a
+
+
+[Page 3]
+muchas de las etapas de la investigación, y contribuye a delimitar el problema 
+de investigación, elaborar un marco teórico adecuado e identificar posibles hipótesis alternativas, definir conceptos y medir variables, organizar una estrategia de investigación, y obtener datos. 
+E n muchas ocasiones el problema de investigación nace a partir de la 
+observación del mundo que nos rodea, de una preocupación personal, o de 
+una circunstancia que obliga a estudiar un determinado aspecto de la ciencia 
+política. E n otras, la definición de un problema de investigación puede ser un 
+proceso más problemático. E n estos casos, la lectura de investigaciones realizadas por otras personas puede ser una fuente de inspiración valiosa. 
+Venga de donde venga el interés que empuja a estudiar un problema político, una investigación científica requiere de la elaboración de un marco teórico, en el que deben jugar un papel relevante las teorías elaboradas por otros 
+autores. Éstas pueden satisfacer más o menos el objetivo del estudio, pero tanto si se rechazan como si se aceptan, hay que conocerlas y argumentar la posición del investigador respecto a las mismas. Un investigador debe conocer 
+tanto sus hipótesis de trabajo, como las hipótesis alternativas propuestas en 
+otras investigaciones. También debe ser consciente de cómo otros investigadores han definido, declarativa y operacionalmente', los conceptos que se 
+propone utilizar. E l uso de las mismas definiciones favorece la comunicación 
+entre la comunidad científica y la comparabilidad de los resultados de la investigación. Pero incluso si el investigador desea utilizar definiciones distintas, 
+en él recae la carga de la prueba a la hora de argumentar que sus definiciones 
+o su forma de medir son preferibles a las utilizadas en otras investigaciones, 
+para lo que, en primer lugar, es necesario conocerlas. 
+La guía de una investigación previa no tiene por qué limitarse al ámbito 
+del marco teórico. Trabajos anteriores pueden criticarse o tomarse como 
+ejemplo desde un punto de vista estrictamente metodológico, en relación a los 
+niveles de análisis utilizados, los criterios sobre los que se ha realizado la selección de casos, o los métodos de control de variables exógenas. Las publicaciones sobre el tema de la investigación, o sobre temas afines, proporcionan 
+al investigador información sobre cómo conseguir datos, o incluso los datos 
+mismos. Cuando no existe la posibilidad de obtener información directamente, el análisis de datos secundarios obtenidos a partir de publicaciones es 
+la única estrategia disponible. 
+Leer es, por lo tanto, la primera actividad en un proyecto de investigación, pero es sobre todo fundamental a la hora de elaborar el marco teórico. 
+Una vez conocidas las explicaciones propuestas por investigaciones previas, se 
+pueden asumir como válidas, criticar, modificar o completar con explicaciones 
+alternativas, o perfeccionar profundizando en algunos aspectos poco claros. Se 
+debe, en definitiva, proponer una explicación del fenómeno que interesa que 
+aporte algo al conocimiento teórico y empírico ya existente sobre el tema. 
+Con respecto a los conceptos véase el Capítulo 2.
+
+
+[Page 4]
+Inducción y deducción 
+La elaboración teórica no es una actividad que se desarrolle únicamente en la 
+primera etapa de una investigación, y que quede sellada a partir del momento en el que se comienza la recogida de datos y la verificación de hipótesis. Sobre todo en investigaciones exploratorias, existe una continua relación entre la 
+elaboración teórica y la observación de la realidad. E l investigador puede 
+comenzar su trabajo con una serie de expectativas o hipótesis que pueden 
+proceder de observaciones previas, o bien de premisas o supuestos teóricos. Al 
+ir observando sistemáticamente la realidad con el fin de buscar evidencia 
+empírica que sustente esas expectativas, puede verse tentado de alterar sus hipótesis de partida con el fin de que éstas se ajusten a la realidad observada. E l 
+marco teórico y la observación interactúan en una relación que, sin embargo, 
+debe respetar los criterios de honestidad científica. Deben evitarse las explicaciones ad hoc de los fenómenos observados, así como la formulación de 
+teorías que aparezcan como correctas a la luz de los datos observados (King et 
+al, 1994: 21). E n cualquier caso, es lógico que la observación de la realidad se 
+utilice para perfeccionar los marcos teóricos elaborados. 
+La elaboración de una teoría puede nacer a partir de la observación del entorno (bien "en directo" o a través de la literatura). Se puede observar, por 
+ejemplo, que en Gran Bretaña y Estados Unidos el sistema de partidos se articula en torno a dos fuerzas moderadas, mientras que además estos países 
+constituyen sistemas democráticos estables y duraderos en el tiempo. Esta observación puede dar origen a una teoría que relacione la estabilidad democrática con el formato del sistema de partidos. A este proceso de elaboración 
+teórica se le denomina inducción: a partir de la observación de unos hechos 
+específicos, se elabora una teoría explicativa general. Pero las observaciones 
+que inspiran una teoría no constituyen pruebas de la misma. Son sólo fuentes 
+de inspiración, pues la contrastación de teorías exige el respeto de una serie de 
+procedimientos a la hora de observar la realidad. Para verificar la hipótesis de 
+que el sistema de partidos influye en la estabilidad de una democracia se tienen que observar otros casos además de Gran Bretaña y Estados Unidos. 
+Otra forma de elaboración teórica consiste en el proceso inverso. A partir 
+de supuestos teóricos que establecen relaciones entre dos o más fenómenos, se 
+indican predicciones sobre lo que se espera encontrar en la realidad. Las investigaciones basadas en la teoría de la elección racional son un buen ejemplo 
+del razonamiento deductivo. E n el marco de esta teoría, las personas intentan 
+maximizar su utilidad teniendo en cuenta el comportamiento que esperan de 
+otros actores. E l comportamiento se explica en distintos ámbitos (unas elecciones, un conflicto laboral en una empresa, una comisión parlamentaria) en 
+función de esta premisa teórica: el individuo toma la opción que maximice su 
+utilidad esperada. Naturalmente, la observación rigurosa de la realidad puede 
+confirmar o no el comportamiento que se deduce de la teoría. Una vez especificado el comportamiento que se espera encontrar por deducción a partir de
+
+
+[Page 5]
+unos supuestos, se acude a la observación de la realidad. Esta observación sirve para contrastar la hipótesis y comprobar si los hechos respaldan la teoría 
+deductivamente formulada. 
+Características de una buena teoría 
+Las teorías deben reunir una serie de características esenciales, que no dejan 
+de guardar cierta relación entre ellas. Una primera condición que deben cumplir las teorías es la de su contrastabilidad. Esto significa que al menos a 
+priori, una teoría debe de poder ser incorrecta. Se debe poder imaginar una situación en la que la realidad no se ajusta a las expectativas que se tienen basándose en la teoría formulada. Una teoría contrastadle permite contestar a 
+una pregunta fundamental: "¿qué evidencia empírica demostraría que la teoría es errónea?". Esto no significa que se deseen encontrar observaciones 
+contrarias a la teoría elaborada, sino simplemente que se debe permitir que 
+esta posibilidad exista. Las teorías demasiado abstractas ("las personas se 
+comportan en función de sus intereses"), los futuribles ("la globalización producirá el fin de los nacionalismos") y las cuestiones de fe ("Dios creó los animales y las plantas") son ejemplos de teorías que no son empíricamente contrastadles, por lo que a la hora de diseñar investigaciones politológicas 
+empíricas deben ser evitadas, o reformuladas de manera que sea posible su verificación. Una teoría contrastadle es capaz de generar muchas implicaciones 
+observables, es decir, está formulada de tal manera que la realidad ofrezca numerosas formas de verificarla. Un elemento fundamental en el proceso de investigación consiste en extraer de la teoría formulada el mayor número de implicaciones observables, o, en otras palabras, el mayor número posible de 
+hipótesis. 
+Una teoría contrastadle requiere también claridad en la elaboración conceptual. Muchas teorías en ciencia política están llenas de conceptos complejos, que en la mayoría de las ocasiones resultan también ambiguos, vagos y lo 
+que es peor, difíciles de observar empíricamente: poder, cultura, identidad, institucionalización son sólo algunos ejemplos. Siempre que sea posible, se deben 
+elegir conceptos concretos, en el sentido de tener claros referentes que puedan 
+ser observables empíricamente. La claridad de una teoría no implica sin embargo que se renuncie a su carácter de descripción o explicación general de un 
+conjunto de fenómenos. La claridad exige que los conceptos que forman parte de la teoría estén concreta y claramente definidos, de manera que sean fácilmente observables. Pero no se trata de sacar conclusiones únicamente válidas para los casos estudiados, sino que éstas deben ir más allá de lo 
+observado. E l objetivo fundamental de la investigación empírica es la inferencia, es decir, el uso de los hechos que se conocen y pueden ser observados 
+para aprender acerca de los que no se pueden conocer ni observar porque los 
+recursos son limitados. Las teorías, conceptos e hipótesis que se manejan en
+
+
+[Page 6]
+investigación se refieren al conjunto de esos fenómenos que no se pueden observar, y deben tener por lo tanto carácter general. 
+La generalidad de una teoría está estrechamente relacionada con el ámbito en el cual se quieren establecer conclusiones o validez extema. La validez extema se refiere a la representatividad de los resultados de la investigación y a la posibilidad de extrapolarlos a otras situaciones similares. 
+Cuanto más ambiciosa sea una teoría desde el punto de vista de la posibilidad de generalizar sus resultados (tomando un gran universo como referente, utilizando conceptos aplicables a situaciones relativamente diferentes), 
+más difícil será definir los conceptos de una manera inequívoca y precisa, lo 
+que a su vez dificulta el proceso de contrastación. Sólo si se definen los conceptos con una cierta vaguedad, éstos se podrán aplicar a un gran número de 
+situaciones. E l precio de la generalidad de una teoría puede ser el de la pérdida de validez interna, es decir, la calidad con la que se miden los conceptos 
+implicados y las relaciones entre los mismos dentro del modelo teórico. Por 
+el contrario, cuanto más limitado sea el alcance de las generalizaciones que 
+se pretenden, más fácil resulta la operacionalización de conceptos y por 
+ende la contrastación. E l investigador debe intentar encontrar un equilibrio 
+entre el ámbito sobre el que desea establecer conclusiones, y la capacidad de 
+definir los conceptos y contrastar las teorías adecuadamente, buscando como 
+señala Merton (1957) teorías de alcance medio {middle range theoñes), es decir, teorías que respeten al mismo tiempo los criterios de validez externa 
+(generalidad de las conclusiones) y de validez intema (calidad en la operacionalización y medición de los conceptos, y de las relaciones entre los mismos). 
+Una teoría debe además ser satisfactoria, en el sentido de proponer explicaciones que no originen nuevos interrogantes. Una teoría es satisfactoria 
+cuando no deja pendiente una nueva explicación que aclare la causa propuesta por la teoría. La teoría sobre el comportamiento electoral elaborada 
+por la escuela de Michigan sugiere que una de las explicaciones del voto reside en la identificación partidista: la gente vota al candidato del Partido Republicano fundamentalmente porque se identifica con este partido, mientras 
+que los que se identifican con el Partido Demócrata votan por el candidato 
+demócrata. Nada en esta teoría explica por qué unos se identifican con el 
+Partido Demócrata y otros con el Republicano. La explicación puede funcionar muy bien en términos empíricos (es decir, seguramente la mayoría de 
+los electores que se identifican con un partido determinado le otorgan su 
+voto), pero no así en términos teóricos, pues la hipótesis no especifica por 
+qué un elector se identifica con un determinado partido. Esto no implica que 
+el investigador responda a todos los interrogantes que vayan surgiendo. Los 
+recursos, el tiempo y el interés son limitados, y por ello muchas investigaciones se centran en describir las relaciones entre dos conceptos sin remontarse más allá en la larga cadena de la causalidad, y sin que por ello pierdan 
+necesariamente interés. La cuestión que se quiere resaltar es que siempre que
+
+
+[Page 7]
+sea posible se debe procurar ofrecer explicaciones que sean satisfactorias desde el punto de vista teórico más que desde el punto de vista empírico. 
+Elementos de una teoría 
+Pensar con claridad y comunicar los resultados de la reflexión son actividades 
+que requieren la utilización de un lenguaje claro. En la elaboración de teorías, 
+aún más que en la vida cotidiana, es necesario el manejo de conceptos inequívocos. En la ciencia política, la complejidad de los fenómenos estudiados 
+hace imprescindible una elaboración conceptual detallada y cuidadosa. 
+Conceptos y variables 
+Un concepto consiste en tres elementos relacionados entre sí: término, significado y referente. La relación de estos tres elementos viene dada por el consenso entre los miembros de una comunidad. Al utilizar el término "silla", sé 
+cuál es su significado: se habla de un mueble relativamente rígido, con tres o 
+más patas y respaldo, en el que habitualmente se sientan las personas. Observando el contenido de una habitación, se puede señalar sin problemas el referente empírico del término "silla": se distingue una silla de una mesa o de un 
+taburete. E n la ciencia política, pocos conceptos son tan poco problemáticos 
+como el de silla. No se puede ver en una habitación a un partido político, a 
+una democracia o al liberalismo, aunque todos ellos sean conceptos fundamentales en la disciplina. Corresponde al politólogo otorgarles un significado 
+inequívoco y un referente empírico claro. 
+Igual que las teorías, los conceptos pueden ser más o menos útiles. Su utilidad depende de que cumplan dos condiciones fundamentales: ser inequívocos y claros. Los conceptos ambiguos y vagos impiden la comprensión, la comunicación, la acumulación del conocimiento científico y la contrastación de 
+hipótesis. La ambigüedad conceptual se produce cuando en un concepto la relación entre la palabra y el significado no está bien definida. Para resolver este 
+tipo de problemas, el investigador debe desarrollar definiciones declarativas 
+que indiquen las características o propiedades del concepto. La vaguedad se 
+produce cuando en el concepto falla la relación entre el significado y el referente empírico. Esto supone un problema, ya que las teorías sólo pueden verificarse si se tiene un referente empírico claro sobre el que contrastar las hipótesis. Esta determinación del referente empírico del concepto se realiza a 
+través de una definición operacional, que puede introducir elementos específicos y particulares de la investigación. 
+La elaboración conceptual es importante en la ciencia política. Términos 
+que se encuentran en el lenguaje coloquial como organización, cultura, nacionalismo o clase social no son lo suficientemente inequívocos ni claros
+
+
+[Page 8]
+como para ser utilizados en una investigación sin una definición más detallada que la que puede ofrecer un diccionario. Muchos de los trabajos de la 
+disciplina se consagran a definir declarativamente algunos conceptos. E l objetivo último de la investigación empírica no es la elaboración conceptual, sino 
+la contrastación empírica de una teoría, por lo que en la definición de un concepto tan importante es el significado como la especificación de su referente 
+empírico. Las definiciones operacionales, es decir, las que incluyen la especificación del referente empírico de un concepto, pueden ser mucho más complicadas de elaborar que las declarativas, ya que se ven limitadas por la realidad observable al alcance del investigador. Una definición declarativa puede 
+verse desmejorada tras la operacionalización. 
+Una vez que se tienen los conceptos que constituyen la teoría bien definidos, tanto declarativa como operacionalmente, se puede empezar a hablar de 
+variables. Una variable es una característica empíricamente observable de 
+algún concepto, que puede tomar más de un valor. Las variables permiten pasar de la teoría, que relaciona dos o más conceptos, a la observación empírica 
+de los datos con los que se espera contrastar la teoría formulada. Además, las 
+variables permiten estructurar la investigación, según el papel que desempeñan en las hipótesis. Al igual que los conceptos, las variables pueden ser relativamente sencillas o complejas. La variable género, toma habitualmente dos 
+valores (masculino o femenino), y el investigador tiene poco espacio para 
+modificar estas dos categorías. Al operacionalizar otro tipo de variables como 
+la gobemabilidad de un sistema político, el nivel de desarrollo económico, o la 
+discriminación por razón de sexo, los problemas son mayores. 
+Medir variables no significa necesariamente cuantificar: las medidas no 
+tienen por qué ser obligatoriamente numéricas. Existen tres niveles de medición y corresponde al investigador determinar cuál es el que más se ajusta a 
+sus necesidades. Las variables de intervalo utilizan criterios de medición en 
+los que se pueden identificar unidades, y por lo tanto calcular las distancias 
+que hay entre un caso y otro, sumarlas, restarlas y operar matemáticamente 
+con ellas. La edad, el nivel de ingresos, o el número de partidos de un sistema 
+político, son ejemplos de variables de intervalo. Las variables ordinales utilizan criterios de medición basados en conjuntos de categorías que pueden 
+ordenarse de mayor a menor, y que por lo tanto, también permiten ordenar 
+los casos analizados. No existe una unidad normalizada que sirva como base 
+a la ordenación. E l grado de interés por la política suele medirse con una pregunta en la que los entrevistados declaran si su interés es mucho, bastante, 
+poco o ninguno. Se sabe que mucho es más que bastante, que bastante es más 
+que poco, y así sucesivamente, pero no se sabe la distancia exacta que hay entre cada una de esas categorías. Las variables categóricas o nominales proceden de clasificaciones o tipologías cuyas clases o tipos no se pueden ordenar. 
+Algunos ejemplos de variables categóricas son la nacionalidad, la provincia de 
+origen, la religión, la lengua materna, o el género. E l investigador es libre de 
+definir las categorías que se incluyen en cada variable, que pueden ser nume-
+
+
+[Page 9]
+rosas y detalladas o bien pocas y más amplias, si bien siempre deben respetar 
+los criterios de exclusividad y exhaustividad^. 
+Ninguno de estos tres tipos de variables es necesariamente mejor que 
+otro: simplemente la realidad limita su aplicabilidad y el investigador decide lo 
+que más se adecúa a sus intereses. Incluso cuando se puede utilizar una variable de intervalo el investigador puede preferir emplear una dicotómica. E n 
+un estudio sobre nacionalismo, por ejemplo, el investigador puede construir 
+un índice de actitudes nacionalistas-centralistas que le permita operar con una 
+variable de intervalo, o bien puede agrupar a su muestra en tres niveles de nacionalismo "alto", "medio" y "bajo", o bien puede considerar que el elemento 
+fundamental de la investigación es explicar una diferencia más cualitativa 
+que de grado, y por lo tanto puede establecer una separación categórica entre 
+"nacionalistas" y "no-nacionalistas". 
+Hipótesis 
+Una hipótesis es un enunciado declarativo que indica explícitamente las relaciones que se esperan encontrar entre las variables. Para poder contrastar una 
+teoría empíricamente es necesario formular hipótesis, puesto que son éstas las 
+que hacen alusión explícita, concreta y específica a lo que se espera encontrar 
+en la realidad. Las hipótesis constituyen el vínculo entre la teoría y los datos. 
+Al elaborar una teoría es imprescindible intentar extraer el máximo de hipótesis, es decir, el máximo de implicaciones observables. E l enunciado: "cuanto mayor es el nivel de proporcionalidad de un sistema electoral mayor es la 
+fragmentación del sistema de partidos" constituye una hipótesis. Proporcionalidad y fragmentación son las variables implicadas y la relación que las une 
+es positiva: al aumentar la primera aumenta también la segunda. Las hipótesis se componen por lo tanto de variables vinculadas entre sí a través de una 
+relación. Según la posición de las variables dentro de esta relación, podemos distinguir variables dependientes e independientes, y dentro de estas últimas, variables antecedentes, intervinientes y de control. 
+La variable dependiente es de una importancia crucial en la investigación. Se trata de la variable cuyo valor se piensa que varía en función de los 
+valores que toman otras variables. E n el ejemplo anterior, el grado de fragmentación del sistema de partidos es la variable dependiente, puesto que depende del grado de proporcionalidad del sistema electoral. Las variables 
+independientes son aquellas cuyos cambios o variaciones influyen en los valores de la variable dependiente. También se llaman en ocasiones variables 
+explicativas, variables causales o variables exógenas. E n el ejemplo anterior, 
+el nivel de proporcionalidad del sistema electoral es la variable indepen-
+^ Las cuestiones relativas a la operacionalización y medición de variables se analizan con 
+más detalle en el Capítulo 2.
+
+
+[Page 10]
+diente, puesto que influye en el nivel de fragmentación del sistema de partidos. Una hipótesis debe contar, como mínimo, con una variable dependiente y otra independiente o explicativa. La cualidad de dependiente o independiente en una variable, varía según las hipótesis. Se puede imaginar 
+fácilmente un cambio de papeles. E n la hipótesis: "un alto nivel de fragmentación en el sistema de partidos contribuye a reducir la estabilidad en el 
+tiempo de los gobiernos", la fragmentación del sistema de partidos, que antes era la variable dependiente, se ha convertido en variable explicativa de la 
+estabilidad gubernamental. 
+Las hipótesis pueden distinguir además variables intervinientes, que son 
+aquellas que se encuentran entre la principal variable explicativa y la dependiente. En la hipótesis "un alto grado de proporcionalidad en el sistema electoral conduce a una elevada fragmentación en el sistema de partidos, lo que 
+contribuye a reducir la estabilidad gubernamental", la fragmentación partidista 
+constituye una variable interviniente en la relación entre proporcionalidad 
+(variable independiente) y estabilidad gubernamental (variable dependiente). 
+Otro tipo de variable independiente es la variable antecedente. Las variables antecedentes intervienen con anterioridad a las variables explicativas. La 
+misma relación entre las hipótesis presentadas en el ejemplo anterior podría 
+considerarse desde otra perspectiva, según el énfasis de la explicación de las 
+causas de la (in)estabilidad gubernamental se ponga en el sistema electoral 
+(proporcionalidad) o en el sistema de partidos (fragmentación). E n este caso, 
+una de las variables independientes (por ejemplo, la proporcionalidad) podría 
+considerarse como una variable antecedente, siendo la fragmentación la variable independiente y la estabilidad la dependiente. 
+Las variables de control son variables independientes que influyen tanto en 
+otras variables explicativas incluidas en el modelo como en la variable dependiente y que, por lo tanto, deben ser consideradas, aunque al investigador le interesen de una manera secundaria. Si lo que interesa analizar es la relación que 
+existe entre un cierto diseño institucional (parlamentarismo versus presidencialismo, por ejemplo) y la calidad de la democracia (respeto por los derechos y 
+libertades, grado de participación política, responsabilidad de las élites), puede 
+argumentarse que un diseño institucional parlamentarista produce una lógica 
+de relaciones consensúales no exclusivas entre las distintas fuerzas políticas que 
+favorece la calidad de la democracia. Lo ideal sería poder estimar la relación 
+entre los tipos de diseño institucional y la calidad de la democracia sin la interferencia de una tercera variable como la cultura política. La cultura política 
+puede influir a la vez en el tipo de diseño institucional (variable independiente) 
+y en la calidad de la democracia (variable dependiente). Influye en la variable 
+independiente porque una cultura política consensual puede llevar a la creación 
+de sistemas parlamentaristas. Influye en la variable dependiente porque una 
+cultura consensual puede también favorecer el buen funcionamiento y la calidad de la democracia. Si se ignora esta tercera variable, se puede atribuir al diseño institucional una influencia sobre la calidad de la democracia que es en
+
+
+[Page 11]
+realidad el resultado de que determinados diseños institucionales se dan 
+principalmente en sistemas con culturas consensúales que, a su vez, favorecen 
+la calidad de la democracia. Sólo si se tienen en cuenta las diferencias en tomo 
+a la cultura política se puede estimar la verdadera magnitud del efecto de las 
+instituciones sobre la calidad de la democracia. La variable cultura política es, 
+por lo tanto, un factor que influye sobre la variable dependiente y que como tal 
+puede ser considerada como variable independiente. E n este ejemplo, es necesario controlar su influencia para poder estimar la del otro factor, en este caso, 
+el diseño institucional. La especificación de modelos teóricos debe por tanto tener en cuenta la influencia de terceras variables que afecten simultáneamente a 
+la variable explicativa y a la variable dependiente. Sea para medir su influencia 
+sobre la variable dependiente, sea para estimar la influencia de la variable independiente, las variables de control son fundamentales a la hora de garantizar 
+la validez de las conclusiones de la investigación. 
+Conviene enfatizar que la condición de variable dependiente, independiente, antecedente, interviniente, o de control, depende de las necesidades del 
+investigador: el mismo concepto puede pasar de ser variable antecedente a independiente, de independiente a de control o a interviniente, o incluso a dependiente en distintas investigaciones, o dentro de una misma investigación 
+en distintas hipótesis. Para facilitar la descripción de un modelo teórico en el 
+que se incluyan variables de distinto tipo interrelacionadas entre sí es recomendable emplear diagramas como el del Gráfico 1.1. Este diagrama representa las relaciones que vinculan el grado de fragmentación de los sistemas de 
+partidos con determinadas características de los sistemas políticos (el grado 
+de cohesión de las fuerzas conservadoras en el momento de extensión del sufragio universal, la estructura de cleavages, el grado de proporcionalidad del 
+sistema electoral). Si por ejemplo se quiere estimar en qué medida la proporcionalidad del sistema electoral influye en la fragmentación partidista, es necesario tener en cuenta que el rol de una variable como la estructura de 
+cleavages o fracturas políticas de una sociedad. Se espera que una mayor 
+GRÁFICO 1.1 
+REPRESENTACIÓN DE UN MODELO TEÓRICO 
+Variables 
+independientes 
+Variable 
+dependiente 
+Elites conservadoras 
+c o h e s i o n a d a s 
+(Variable 
+antecedente) 
+Proporcionalidad 
++ 
+Fragmentación 
+Estructura de cleavages 
+c o m p l e j a 
+(Variable 
+de 
+control)
+
+
+[Page 12]
+proporcionalidad venga acompañada de una mayor fragmentación (de ahí el 
+signo positivo que acompaña a la flecha que une estas dos variables), y también que cuanto mayor sea el número de fracturas que atraviesan a una sociedad (clase, religión, etnia), mayor sea la fragmentación partidista. Pero no 
+hay que olvidar que la estructura de cleavages es un elemento importante a la 
+hora de determinar el grado de proporcionalidad de un sistema (más proporcional cuantos más cleavages), como también pudo serlo en su momento la capacidad de las élites conservadoras de preservar un sistema electoral mayoritario sin ceder ante las presiones de partidos ascendentes. 
+Las hipótesis pueden ser de naturaleza más o menos compleja, incluyendo 
+únicamente dos variables, o bien especificando cadenas causales con variables 
+antecedentes e intervinientes. La hipótesis más simple es aquella que postula 
+que no hay relación entre dos variables, es decir, que cambios en la variable 
+independiente no producen variaciones significativas en los valores de la variable dependiente. Este tipo de hipótesis se denomina hipótesis nula. Algunas 
+investigaciones definen primero una hipótesis nula y luego tratan de demostrar empíricamente que es falsa. Por ejemplo, en un estudio sobre la relación 
+entre el color político del partido o partidos en el gobierno y el gasto público 
+destinado a educación la hipótesis nula postula que no hay diferencias significativas en el gasto dedicado a la enseñanza pública entre gobiernos de distinto color político. Si al comparar las medias de gasto público en este sector 
+no se encuentran diferencias apreciables entre gobiernos de izquierda y gobiernos de derecha, se puede concluir que no existe relación entre estas dos 
+variables, y que por lo tanto la hipótesis nula se verifica. La relación entre dos 
+variables se puede representar gráficamente colocando a la variable dependiente en el eje de ordenadas y a la independiente en el eje de abscisas. 
+GRÁFICO 1.2 
+EJEMPLO DE AUSENCIA DE RELACIÓN E N T R E DOS VARIABLES 
+1,80-r 
+S 
+1,60--
+Q) 
+^ 
+1,40--
+1,20--
+Q. 
+Q> 
+•a 
+m 
+g 
+1,00 
+o 
+0,80--
+0,60 
+\ 
+\ 
+\ 
+\ 
+\ 
+Según la hipótesis representada en el Gráfico 1.2, tanto los gobiernos de izquierda, como los de derecha, o de centro, presentan el mismo nivel de gasto
+
+
+[Page 13]
+destinado a educación. Sin embargo lo que generalmente se espera es que la 
+contrastación empírica, el análisis de los datos, desmienta la hipótesis nula. 
+Como alternativa a la misma, se puede argumentar que existe una relación entre el gasto público en enseñanza y el color del gobierno. Se trata en este caso 
+de una hipótesis de covariación sin especificar el sentido de la misma. Las hipótesis de covariación así establecidas son poco concretas y ambiguas; siempre que sea posible se debe especificar la dirección de la relación entre las 
+variables. Se puede ser más preciso en la descripción de la hipótesis, y argumentar que cuanto más a la derecha se sitúe el partido en el gobierno, menor 
+será la proporción de gasto destinado a enseñanza. E n este caso se está hipotetizando una relación negativa en la que cuando una variable aumenta, la 
+otra disminuye "cuanto más a la derecha, menos gasto en enseñanza". Esta hipótesis se representa gráficamente en el Gráfico 1.3. También se puede postular lo contrario si se dan los argumentos teóricos necesarios, es decir, que 
+"cuanto más a la derecha, más gasto en enseñanza", según la hipótesis positiva 
+que aparece reflejada en el Gráfico 1.4. 
+GRÁFICO 1.3 
+EJEMPLO DE RELACIÓN NEGATIVA 
+Las hipótesis causales no sólo implican que las dos variables analizadas covarian, sino que además identifican a la variable independiente como la causa 
+de un efecto en la variable dependiente. Existe covariación entre la causa y el 
+efecto, la causa precede temporalmente al efecto, y se puede determinar el proceso por el que cambios en la causa producen cambios en el efecto (Johnson 
+y Joslyn, 1995: 57). E l problema fundamental de la investigación empírica no 
+es encontrar relaciones entre variables, sino determinar si en esas relaciones 
+existe un elemento de causalidad. 
+Las hipótesis explicativas más sencillas incluyen, al menos, una variable 
+dependiente (fenómeno a explicar) y una independiente (fenómeno que explica). A partir de ahí, el investigador es libre de perfeccionar su teoría, incluyendo muchas otras variables antecedentes, intervinientes, e incluso
+
+
+[Page 14]
+GRÁFICO 1.4 
+EJEMPLO DE RELACIÓN POSITIVA 
+O) 
+T 3 
+U3 
+C 
+O 
+m 
+Derecha 
+dependientes hasta formular un modelo explicativo que, sin embargo, debe 
+tratar de permanecer relativamente sencillo: se trata de intentar explicar lo 
+más posible con el menor número de variables (King, Keohane y Verba, 1994: 
+29). Una forma de aumentar la capacidad explicativa de los modelos sin incrementar el número de variables consiste en especificar en las hipótesis no 
+solamente el sentido de una relación entre dos variables, sino también la forma de esta relación. Ésta puede ser lineal, como en los casos anteriores, o bien 
+puede tomar formas algo más complejas. 
+Podría argumentarse, por ejemplo, que la relación entre la orientación política de un gobierno y su propensión a gastar más o menos en educación no 
+es lineal, sino que toma una forma parecida a una "U": los gobiernos con partidos de extrema derecha o de extrema izquierda gastan más que los gobiernos 
+formados por partidos en tomo al centro. E l Gráfico 1.5 muestra esta pauta de 
+relación curvilínea. 
+GRÁFICO 1.5 
+EJEMPLO DE RELACIÓN CURVILÍNEA 
+2,00 -r 
+1 , 5 0 - -
+U3 
+^ 
+1 , 0 0 - -
+o 
+0,50 
+-+-
+-+-
+
+
+[Page 15]
+Al elaborar hipótesis causales con más de una variable independiente es 
+posible especificar interacciones. A través de una interacción se contrasta si el 
+efecto de una variable explicativa sobre la variable dependiente depende de algún otro factor. Al estudiar la participación política, Verba, Nie y Kim (1978) 
+distinguen dos tipos de factores. Por un lado, la participación política depende del status socioeconómico de los electores: su nivel educativo, sus ingresos y su ocupación. Cuanto más elevado es el status socioeconómico de los 
+electores, mayor es su propensión a participar políticamente. Además, la 
+participación política depende de un conjunto de motivaciones de grupo: 
+los ciudadanos pertenecen a grupos sociales, son conscientes de ello y además 
+perciben que su participación política puede afectar a la situación de su grupo y por ende de ellos mismos. Una de las hipótesis de Verba y sus colaboradores es que el efecto del status socioeconómico es importante para aquellos 
+individuos sin motivaciones de grupo (como la identificación o afiliación a un 
+partido político), pero no tanto para aquellos que gozan de estas últimas. 
+Existiría, por lo tanto, una interacción entre el status socioeconómico y las 
+motivaciones de grupo. E l Gráfico 1.6 representa la hipótesis de una relación 
+interactiva entre status socioeconómico y afiliación partidista sobre la participación política. A medida que aumenta el status socioeconómico aumenta 
+la participación, sólo para aquellas personas que no están afiliadas a ningún 
+partido. Las interacciones pueden considerarse también como variables condicionales, es decir, aquellas que representan fenómenos cuya presencia activa, magnifica o por el contrario anula el efecto de una variable independiente. 
+GRÁFICO 1.6 
+EJEMPLO DE RELACIÓN INTERACTIVA 
+Participación (V. D.) 
+Bajo 
+M e d i o 
+Status socioeconómico (V. i.) 
+— 
+No afiliados 
+^ — 
+Afiliados 
+Alto 
+Las hipótesis, como las teorías, deben basarse en afirmaciones contrastables, generales, claras y coherentes. Las hipótesis no deben centrarse únicamente sobre hechos puntuales, ni sobre aspectos demasiado ambiguos.
+
+
+[Page 16]
+U n a b u e n a hipótesis d e b e c o m p r e n d e r : 
+• la definición operacional d e las variables q u e se incluyen: d e p e n d i e n t e y explicativas, y en su c a s o t a m b i é n intervinientes y antecedentes. 
+• la especificación del tipo d e relación q u e se e s p e r a encontrar entre esas v a -
+riables: si es positiva o negativa, y si es lineal o no. 
+• en el caso d e q u e se considere relevante, la especificación d e las interacciones q u e se esperan encontrar. 
+La causalidad 
+Las hipótesis causales son las más difíciles de contrastar empíricamente, pero 
+también son las más interesantes desde un punto de vista teórico. La relación 
+de causalidad entre dos fenómenos es algo que el análisis empírico no puede 
+inferir de manera definitiva, ni siquiera con el mejor diseño de investigación, 
+los datos mejores y más completos, los métodos de control más rigurosos. 
+Los datos indican si existe o no covariación, y en algunos casos, también si la 
+presunta causa es anterior al efecto considerado. Pero el proceso causal subyacente en la relación entre dos variables es algo que debe establecer el investigador, y que corresponde al nivel de la argumentación teórica. 
+E n los estudios sobre participación política, la educación aparece como 
+una de las variables más relacionadas con este elemento del comportamiento 
+electoral. Numerosos análisis han encontrado una covariación positiva entre 
+educación y participación política: a más educación, mayor es la intensidad de 
+la participación. Es evidente también que los años o el nivel de educación no 
+son una consecuencia de la participación, y por lo tanto, en este caso, la causa precede al efecto. Sin embargo, la relación entre estas dos variables sólo podrá considerarse causal cuando se haga explícito el proceso por el que los 
+cambios en la educación conducen a cambios en la participación. Habrá que 
+argumentar que la educación puede considerarse como una causa de la participación, por ejemplo, porque facilita la comprensión de la actualidad política y de los mecanismos de participación; las personas más educadas tienen 
+menos problemas para decidir su voto o escribir una carta a un político. No 
+sólo se debe probar empíricamente que existe una relación entre dos variables, 
+sino también argumentar teóricamente por qué se da tal asociación. 
+Desde el punto de vista más empírico ¿qué significa exactamente la afirmación de que la educación es una de las múltiples causas de la participación? ¿Significa que todas las personas con educación universitaria participan 
+intensamente en política? ¿Implica que las personas con bajos niveles de 
+educación no desarrollan ningún tipo de actividad política? ¿Es la educación una condición suficiente o necesaria de la participación? 
+Una condición suficiente es aquella causa cuya presencia garantiza la aparición del efecto, aunque éste pueda aparecer en otras circunstancias, es decir.
+
+
+[Page 17]
+sin que la causa que se estudie esté presente. Por ejemplo, la lluvia (causa) es 
+una condición suficiente para que las calles estén mojadas (efecto). Pero las calles pueden mojarse por otras causas, por ejemplo, por el riego de los camiones 
+de limpieza vial. Para poder determinar que una variable (causa) es condición 
+suficiente de otra (efecto), se deben de ver todos los casos (o un número suficientemente elevado) en los que la causa está presente, y comprobar que en 
+todos ellos también está presente el efecto. Si se encuentra un caso (D en la Tabla 1.1), en el que la causa estuviera presente sin estarlo el efecto, ésta dejaría 
+de considerarse condición suficiente para ese efecto en concreto. 
+TABLA 1.1 
+CONDICIÓN 
+SUFICIENTE 
+V a r i a b l e D e p e n d i e n t e 
+A 
+B 
+C 
+D 
+[?] No suficiente 
+Una condición necesaria es aquella causa sin la cual no se verifica el efecto. 
+E l oxígeno, por ejemplo, es una condición necesaria del fuego: sin el primero, 
+no puede aparecer el segundo. Pero la causa puede existir sin que se dé imperativamente el efecto: el oxígeno afortunadamente no siempre produce fuego. 
+Para poder verificar empíricamente el carácter de condición necesaria de una 
+variable sobre otra, se deben observar todos los casos en los que el efecto está 
+presente y asegurarse de que la causa también lo está. Si se encuentra un 
+caso en el que el efecto estuviera presente, sin estarlo la causa (D en la Tabla 1.2), ésta dejaría de ser considerada condición necesaria de ese efecto. 
+TABLA 1.2 
+CONDICIÓN NECESARIA 
+V a r i a b l e D e p e n d i e n t e 
+A 
+B 
+C 
+D 
+[X] No necesaria 
+
+
+[Page 18]
+Las relaciones causales en forma de condiciones necesarias o suficientes 
+son poco frecuentes en la ciencia política. Es evidente que la educación no es 
+una condición ni necesaria ni suficiente de la participación política: se encuentran casos de personas con altos niveles de educación y políticamente 
+inactivas, al lado de individuos con bajos niveles de educación que son muy 
+activos. La mayoría de las relaciones causales en la ciencia política se dan en 
+forma de condiciones facilitadoras, es decir, la presencia de la causa facilita 
+(pero no garantiza ni es imprescindible para) la presencia del efecto. E n el 
+ejemplo anterior, un nivel más elevado de educación facilita un grado mayor 
+de participación política. Si se realiza un número suficiente de observaciones 
+en las que la participación política es más elevada entre las personas con 
+mayor nivel educativo, previa argumentación convincente, se podría concluir 
+que existe una relación causal entre ambas variables. Aunque se den casos en 
+los que la causa aparece sin el efecto (F en Tabla 1.3) o viceversa, el efecto aparece sin la causa (C en Tabla 1.3), de ser más frecuentes las instancias en las 
+que ambas variables están presentes o bien ambas están ausentes, se considera que la variable independiente o causa es una condición facilitadora de la 
+variable dependiente o efecto. Las hipótesis formuladas en términos de condiciones facilitadoras no son rechazadas automáticamente al encontrar un 
+caso en el que causa y efecto no aparezcan vinculadas, sino que apuntan a tendencias probabilísticas que se verifican o no a partir del análisis de un determinado conjunto de casos. 
+TABLA 1.3 
+CONDICIÓN FACILITADORA 
+V a r i a b i e D e p e n d i e n t e 
+A 
+B 
+C 
+m 
+D 
+E 
+F 
+m 
+G 
+H 
+E l vínculo de causalidad entre dos variables se puede establecer de manera directa o bien indirectamente a través de una tercera variable interviniente. 
+E n el caso de la relación entre educación y participación política, el argumento causal se puede elaborar a través de las actitudes políticas. Según esta
+
+
+[Page 19]
+hipótesis, la educación fomentaría una serie de actitudes como la eficacia política, el interés por la actualidad política, o el sentimiento de deber cívico, que 
+a su vez redundarían en una mayor participación. E l efecto de la educación 
+sobre la participación política quedaría mediado por otras variables actitudinales como los sentimientos de eficacia y competencia política, interés, o conocimiento. Es necesario recordar que las hipótesis deben ofrecer explicaciones teóricamente satisfactorias de la variable dependiente. Cuanto más 
+alejada esté una causa de su efecto, mayor es la satisfacción que se obtiene de 
+la explicación. Obtener evidencia empírica de que la educación facilita la 
+participación política es más satisfactorio (y más difícil) que comprobar que el 
+interés político aumenta la participación, porque en definitiva esta explicación 
+plantea la duda de qué es lo que motiva el interés político. Conviene por consiguiente evitar formular hipótesis en las que la conexión entre causa y efecto 
+sea tan evidente que se acerque a una tautología. 
+También es importante definir las variables independiente y dependiente 
+de manera claramente separada, para no confundir lo que en una investigación se asume "por definición" con lo que se pretende verificar. E n una investigación que quiere averiguar en qué medida la abstención electoral deslegitima un sistema político, la hipótesis de trabajo es que cuanto mayor sea el 
+nivel de participación electoral mayor será también la legitimidad del sistema 
+político. Con el fin de verificar tal hipótesis, el investigador debe definir y operacionalizar separadamente tanto la variable independiente (participación) 
+como la dependiente (legitimidad). La participación electoral no presenta 
+demasiados problemas a la hora de ser definida u operacionalizada. La legitimidad es un concepto más complejo, que requiere la búsqueda de varios indicadores. Para medir la legitimidad de un sistema político el investigador 
+puede recurrir al grado de satisfacción de los ciudadanos con el funcionamiento de la democracia, la valoración de las distintas instituciones democráticas, u otro tipo de variables. E n algunos casos, el propio nivel de participación ha llegado a tomarse como indicador del grado de legitimidad del 
+sistema político. Esto sería inadecuado en el ejemplo propuesto: si lo que se 
+pretende es verificar empíricamente que participación y legitimidad están 
+relacionadas, ambos conceptos deben definirse separadamente. Si por definición (operacional) la participación es un indicador de la legitimidad, entonces es evidente que se encontrará una asociación entre ambas variables, 
+pero esto no será más que la verificación de una tautología. E l capítulo siguiente analiza más en detalle los problemas vinculados a la definición de 
+conceptos.

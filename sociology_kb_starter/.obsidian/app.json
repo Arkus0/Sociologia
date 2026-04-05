@@ -1,0 +1,10 @@
+{
+  "strictLineBreaks": false,
+  "showFrontmatter": false,
+  "livePreview": true,
+  "readableLineLength": true,
+  "defaultViewMode": "preview",
+  "attachmentFolderPath": "data/wiki/assets",
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest"
+}

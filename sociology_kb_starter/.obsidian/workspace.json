@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "67a12fde1075dde7",
+    "type": "split",
+    "children": [
+      {
+        "id": "77d08973026ec9b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bff3d226e44dfa41",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a95ae1a3bfb7f133",
+    "type": "split",
+    "children": [
+      {
+        "id": "36bb0dc9f77b849d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ad88020d1d7c14e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "89113e973bdff0dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "bcbabde3263cb5ae",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6c0c1bdf712f2499",
+    "type": "split",
+    "children": [
+      {
+        "id": "14878342bcbffe92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6325658c98cacfdc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "77129ca873d3b0ac",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "041371a7e16df62e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "53b890551b883f77",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "c9f7346c6d1f8d32",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "canvas-watcher:Run Canvas Watcher": false,
+      "marp-slides:Show Slide Preview": false
+    }
+  },
+  "active": "bff3d226e44dfa41",
+  "lastOpenFiles": [
+    "data/wiki/concepts/solidaridad-organica.md",
+    "data/inbox/processed/modulo 2_1775401454.pdf",
+    "data/inbox/processed/MODULO 3_1775401452.pdf",
+    "data/inbox/2026-S1/Metodologia de las ciencias sociales/modulo 2.pdf",
+    "data/inbox/2026-S1/Metodologia de las ciencias sociales/MODULO 3.pdf",
+    "data/inbox/processed/modulo 3_1775401424.pdf",
+    "data/inbox/processed/modulo 2_1775401421.pdf",
+    "data/inbox/processed/modulo 1_1775401419.pdf",
+    "data/inbox/2026-S1/Introduccion a la sociologia/modulo 3.pdf",
+    "data/inbox/2026-S1/Introduccion a la sociologia/modulo 2.pdf",
+    "data/inbox/2026-S1/Introduccion a la sociologia/modulo 1.pdf",
+    "data/wiki/sources/2026-s1/introduccion-a-la-sociologia/modulo-3.md",
+    "data/wiki/sources/2026-s1/introduccion-a-la-sociologia/modulo-2.md",
+    "data/wiki/sources/2026-s1/introduccion-a-la-sociologia/modulo-1.md",
+    "data/wiki/concepts/grupo-de-control.md",
+    "data/wiki/concepts/tamano-de-la-muestra.md",
+    "data/wiki/concepts/muestreo-por-conglomerados.md",
+    "data/wiki/concepts/muestreo-estratificado.md",
+    "data/wiki/concepts/muestreo-aleatorio.md",
+    "data/wiki/concepts/problema-de-la-caja-negra.md",
+    "data/wiki/concepts/validez.md",
+    "data/wiki/concepts/definicion-operacional.md",
+    "data/wiki/concepts/conceptos-esencialmente-disputados.md",
+    "data/wiki/concepts/preguntas-de-investigacion.md",
+    "data/wiki/concepts/teoria.md",
+    "data/wiki/concepts/relacion-espurea.md",
+    "data/wiki/sources/2026-s1/metodologia-de-las-ciencias-sociales/modulo-2.md",
+    "data/wiki/authors/john-laub.md",
+    "data/wiki/authors/robert-sampson.md",
+    "data/wiki/authors/john-h-goldthorpe.md",
+    "data/wiki/authors/robert-a-dahl.md",
+    "data/wiki/authors/manheim-y-rich.md",
+    "data/wiki/authors/robert-k-merton.md",
+    "data/wiki/authors/albert-padro-solanet-i-grau.md",
+    "data/wiki/concepts/censo.md",
+    "data/wiki/concepts/representacion-visual-de-datos.md",
+    "data/Sin título.canvas"
+  ]
+}

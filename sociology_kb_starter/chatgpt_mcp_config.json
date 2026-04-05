@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "sociology-kb": {
+      "command": "C:\\Python314\\python.exe",
+      "args": ["mcp_server.py", "--stdio"],
+      "cwd": "C:\\Users\\Usuario\\Sociologia\\sociology_kb_starter"
+    }
+  }
+}

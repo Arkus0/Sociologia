@@ -11,6 +11,7 @@ import yaml
 
 
 FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.DOTALL)
+WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]")
 
 
 def utc_now_iso() -> str:
@@ -24,6 +25,21 @@ def slugify(value: str) -> str:
     value = re.sub(r"\s+", "-", value)
     value = re.sub(r"-+", "-", value)
     return value.strip("-") or "untitled"
+
+
+def wikilink(slug_or_name: str, display: str | None = None) -> str:
+    slug = slugify(slug_or_name)
+    if display and slugify(display) != slug:
+        return f"[[{slug}|{display}]]"
+    return f"[[{slug}]]"
+
+
+def wikilinks_list(items: list[str]) -> str:
+    return ", ".join(wikilink(item, item) for item in items) if items else ""
+
+
+def extract_wikilinks(text: str) -> list[str]:
+    return [m.group(1) for m in WIKILINK_RE.finditer(text)]
 
 
 def read_text(path: Path) -> str:

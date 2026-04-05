@@ -12,7 +12,7 @@ from kb_core.graph_index import build_graph_index
 from kb_core.llm import LLMClient
 from kb_core.models import CompilationResult, CompiledSourcePayload, DocumentStatus, ExtractionStatus
 from kb_core.storage import list_raw_documents, read_metadata, update_metadata_status, write_note
-from kb_core.utils import list_files_recursive, load_markdown_file, slugify, utc_now_iso, write_text
+from kb_core.utils import list_files_recursive, load_markdown_file, slugify, utc_now_iso, wikilink, write_text
 
 SOURCE_PROMPT = """You are compiling a sociology knowledge base.
 Return strict JSON with keys: title, summary, core_ideas, concepts, authors, methods, exam_questions, open_questions, source_anchors.
@@ -23,6 +23,11 @@ Rules:
 """
 
 FALLBACK_SUMMARY_LIMIT = 1200
+
+# Text length thresholds for smart chunking
+_MAX_EXCERPT_CHARS = 32000  # ~8k tokens, well within Groq's 128k context
+_HEAD_CHARS = 24000
+_TAIL_CHARS = 8000
 
 
 def compile_all_raw_documents() -> list[CompilationResult]:
@@ -93,13 +98,31 @@ def _build_compilation_payload(raw_path: Path, text: str, semester: str, course:
         "semester": semester,
         "course": course,
         "filename": raw_path.name,
-        "text_excerpt": text[:12000],
+        "text_excerpt": _smart_excerpt(text),
     }
+
+
+def _smart_excerpt(text: str) -> str:
+    """Page-aware text excerpt: send full text if short, head+tail otherwise."""
+    if len(text) <= _MAX_EXCERPT_CHARS:
+        return text
+    # Find the last [Page N] marker within the head budget
+    head = text[:_HEAD_CHARS]
+    last_marker = head.rfind("\n\n[Page ")
+    if last_marker > _HEAD_CHARS // 2:
+        head = text[:last_marker]
+    # Find the first [Page N] marker within the tail budget
+    tail_start = len(text) - _TAIL_CHARS
+    tail = text[tail_start:]
+    first_marker = tail.find("\n\n[Page ")
+    if first_marker != -1:
+        tail = tail[first_marker:]
+    return head + "\n\n[...content truncated...]\n" + tail
 
 
 def _compile_payload(raw_path: Path, text: str, payload: dict) -> dict:
     llm = LLMClient()
-    llm_result = llm.complete(SOURCE_PROMPT, json.dumps(payload, ensure_ascii=False, indent=2), max_tokens=2000) if llm.available() else None
+    llm_result = llm.complete(SOURCE_PROMPT, json.dumps(payload, ensure_ascii=False, indent=2), max_tokens=4000) if llm.available() else None
     if llm_result and llm_result.content:
         parsed = _parse_compiled_payload(llm_result.content, raw_path, text)
         return {"payload": parsed, "provider": llm_result.provider, "model": llm_result.model}
@@ -155,13 +178,13 @@ def rebuild_indexes() -> None:
                 f"Sociology course node for **{course}**.",
                 "",
                 "## Core concepts",
-                "\n".join(f"- {c}" for c in all_concepts) or "- None yet",
+                "\n".join(f"- {wikilink(c, c)}" for c in all_concepts) or "- None yet",
                 "",
                 "## Authors",
-                "\n".join(f"- {a}" for a in all_authors) or "- None yet",
+                "\n".join(f"- {wikilink(a, a)}" for a in all_authors) or "- None yet",
                 "",
                 "## Source notes",
-                "\n".join(f"- {n['frontmatter'].get('title', n['path'].stem)} ({n['path'].relative_to(SETTINGS.kb_root)})" for n in notes),
+                "\n".join(f"- {wikilink(n['frontmatter'].get('title', n['path'].stem), n['frontmatter'].get('title', n['path'].stem))}" for n in notes),
             ]
         )
         write_note(
@@ -177,11 +200,25 @@ def rebuild_indexes() -> None:
 
     build_graph_index()
 
+    # Rebuild embedding index if OpenAI key is available
+    try:
+        from kb_core.embeddings import EmbeddingIndex
+        idx = EmbeddingIndex()
+        idx.build()
+    except Exception:
+        pass  # Embeddings are optional; lexical search still works
+
 
 def _parse_compiled_payload(raw_content: str, raw_path: Path, extracted_text: str) -> CompiledSourcePayload:
     try:
-        return CompiledSourcePayload.model_validate(json.loads(raw_content))
-    except (json.JSONDecodeError, ValidationError, TypeError):
+        cleaned = raw_content.strip()
+        if cleaned.startswith("```"):
+            first_newline = cleaned.index("\n")
+            cleaned = cleaned[first_newline + 1:]
+        if cleaned.endswith("```"):
+            cleaned = cleaned[:-3].rstrip()
+        return CompiledSourcePayload.model_validate(json.loads(cleaned))
+    except (json.JSONDecodeError, ValidationError, TypeError, ValueError):
         return _fallback_payload(raw_path, extracted_text)
 
 
@@ -229,6 +266,9 @@ def _format_source_note(title: str, summary: str, core_ideas: list[str], concept
     def bullets(items: list[str]) -> str:
         return "\n".join(f"- {item}" for item in items) if items else "- None yet"
 
+    def wikilink_bullets(items: list[str]) -> str:
+        return "\n".join(f"- {wikilink(item, item)}" for item in items) if items else "- None yet"
+
     return f"""# {title}
 
 ## Summary
@@ -238,10 +278,10 @@ def _format_source_note(title: str, summary: str, core_ideas: list[str], concept
 {bullets(core_ideas)}
 
 ## Concepts
-{bullets(concepts)}
+{wikilink_bullets(concepts)}
 
 ## Authors
-{bullets(authors)}
+{wikilink_bullets(authors)}
 
 ## Methods
 {bullets(methods)}
@@ -260,7 +300,7 @@ def _format_source_note(title: str, summary: str, core_ideas: list[str], concept
 def _build_entity_body(entity: str, notes: list[dict], mode: str) -> str:
     header = "Definition" if mode == "concept" else "Core ideas"
     references = "\n".join(
-        f"- {item['frontmatter'].get('title', item['path'].stem)} ({item['frontmatter'].get('course', 'general')}) -> {item['path'].relative_to(SETTINGS.kb_root)}"
+        f"- {wikilink(item['frontmatter'].get('title', item['path'].stem), item['frontmatter'].get('title', item['path'].stem))} ({item['frontmatter'].get('course', 'general')})"
         for item in notes
     )
     return f"""## {header}

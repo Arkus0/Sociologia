@@ -1,0 +1,2611 @@
+[Page 1]
+El proceso de
+investigación
+en las ciencias
+sociales
+Marco teórico y diseño empírico
+PID_00248674
+Rosa Borge Bravo
+Albert Padró-Solanet i Grau
+Tiempo mínimo de dedicación recomendado: 6 horas
+
+
+[Page 2]
+Ninguna parte de esta publicación, incluido el diseño general y la cubierta, puede ser copiada,
+reproducida, almacenada o transmitida de ninguna forma, ni por ningún medio, sea éste eléctrico,
+químico, mecánico, óptico, grabación, fotocopia, o cualquier otro, sin la previa autorización escrita
+de los titulares del copyright.
+
+
+[Page 3]
+Índice
+ 
+Introducción...............................................................................................
+ 
+Objetivos.......................................................................................................
+ 
+1.
+El proceso de investigación en las ciencias sociales:
+etapas, lógica y retos........................................................................
+ 
+2.
+El marco teórico de la investigación............................................
+2.1.
+La teoría .......................................................................................
+2.2.
+El tema y las preguntas de la investigación ................................
+2.3.
+Las hipótesis ................................................................................
+2.4.
+Los conceptos o definiciones ......................................................
+2.5.
+Las definiciones y las hipótesis operacionales o de trabajo ........
+2.6.
+Las variables y los tipos de variables ..........................................
+2.7.
+Las relaciones causales ................................................................
+ 
+3.
+El diseño empírico de la investigación........................................
+3.1.
+La operacionalización y la medición ..........................................
+3.2.
+Los métodos y técnicas de investigación ....................................
+3.3.
+La selección y la recogida de datos ............................................
+3.4.
+El análisis de datos ......................................................................
+ 
+4.
+Anexo. Temas actuales en macrosociología comparativa........
+ 
+Resumen.......................................................................................................
+ 
+Actividades..................................................................................................
+ 
+Ejercicios de autoevaluación..................................................................
+ 
+Solucionario................................................................................................
+ 
+Glosario........................................................................................................
+ 
+Bibliografía.................................................................................................
+
+
+[Page 5]
+Introducción
+En este módulo el estudiante verá cómo debe llevarse a cabo una investigación desde el principio (formulación teórica) hasta el final (análisis de datos).
+Trataremos las decisiones que hay que tomar y los retos concretos que hay
+que superar en cada etapa de la investigación empírica. Nos adentraremos en
+detalle en cada etapa y aprenderemos los procedimientos, las reglas y el vocabulario necesarios para desarrollar con éxito una investigación.
+Partimos de la base que para hacer una investigación empírica con intenciones
+científicas el método es el punto clave. Método se entiende en un sentido amplio como procedimiento lógico, sistemático y público con el que captamos
+la realidad y hacemos inferencias de los hechos observados hacia los hechos
+desconocidos. En este módulo se explican las etapas del método científico en
+ciencias sociales, empezando con la pregunta de investigación y la formulación teórica, y pasando después a la obtención de datos y el uso que se hace
+de ellos.
+
+
+[Page 6]
+Objetivos
+Al acabar este módulo el estudiante habrá logrado los objetivos siguientes:
+1.
+Profundizar en los conocimientos de metodología y las habilidades de investigación adquiridas en las asignaturas introductorias en las técnicas de
+investigación, para que el estudiante sea plenamente capaz de entender el
+diseño de una investigación empírica.
+2.
+Aprender a diseñar de forma inteligente una investigación en cuanto a la
+capacidad explicativa, la selección de casos y variables y la combinación
+de técnicas, teniendo en cuenta las limitaciones y los recursos existentes.
+3.
+Dominar el proceso y las etapas de la investigación empírica.
+4.
+Tomar conciencia de los problemas y retos de la investigación empírica.
+
+
+[Page 7]
+1. El proceso de investigación en las ciencias sociales:
+etapas, lógica y retos
+El objetivo de este módulo es introducir las etapas básicas del proceso de investigación en las ciencias sociales. El estudiante entenderá cuáles son los pasos￿concretos de la investigación y cuál es la lógica￿subyacente de todo este
+proceso. Queremos que al finalizar esta asignatura el estudiante haya adquirido las habilidades necesarias para llevar a cabo una investigación empírica.
+Respecto a las etapas básicas
+del proceso, véase los apartados 2 y 3 de este módulo.
+La profundización en las características y tareas de cada etapa de la investigación no solo implica un conocimiento de lo que hay que hacer de forma
+pautada y establecida, sino también una reflexión sobre las decisiones y los
+dilemas que los investigadores tienen que resolver en cada una de las etapas.
+Aunque las reglas del procedimiento científico y la costumbre de los
+investigadores sociales y de los politólogos establezcan unas pautas de
+procedimiento, muy a menudo hay que tomar decisiones problemáticas, debido a las constricciones y limitaciones técnicas de la investigación empírica en las ciencias sociales.
+Todo método y diseño de investigación científica, con la definición concreta
+de las etapas, tiene ventajas e inconvenientes: algunos son más explicativos
+que otros, pero los más explicativos no producen resultados tan representativos o generalizables o incluso realistas, y a veces son difíciles de llevar a cabo
+en la práctica.
+El diseño de la investigación tiene que encontrar el equilibrio entre las
+constricciones prácticas de tiempo, dinero, localización y disponibilidad de datos, por un lado, y los requisitos teóricos, lógicos, los objetivos
+y las preguntas de la investigación, por el otro.
+Lectura recomendada
+Un buen manual que trata
+también de los diferentes diseños de investigación teniendo en cuenta los retos
+prácticos y las limitaciones
+técnicas implicadas es:
+C.￿Hakim (2000). Research
+Design. Londres: Routledge.
+Por lo tanto, en este módulo explicaremos las diferentes etapas de la investigación y los principales retos y decisiones prácticas que hay que tomar a cada
+paso. Además, explicitaremos los procesos lógicos indispensables para desarrollar una investigación dentro de las ciencias sociales. Es decir, por un lado
+mostraremos las etapas sucesivas de la investigación, y por el otro explicaremos los procesos lógicos que atraviesan estas etapas.
+Respecto al papel de la teoría
+y la deducción, véase el apartado 2.1 de este módulo. Respecto a la causalidad, véase el
+apartado 2.7 de este módulo.
+
+
+[Page 8]
+La investigación social es un proceso circular que empieza y acaba en la teoría.
+Pero hay que tener en cuenta que la sucesión lógica y jerárquica de las etapas
+debe entenderse de forma flexible porque, de hecho, todas las etapas interaccionan entre ellas. Y muy a menudo, a medida que la investigación avanza, se
+pueden revisar y cambiar partes del diseño inicial.
+Hay que tenerlo presente a la hora de interpretar el siguiente diagrama con
+la sucesión de las etapas de la investigación (fig. 1). Estas etapas se engloban
+dentro de dos procesos genéricos: primero, la￿construcción￿del￿marco￿teórico
+de￿la￿investigación, y segundo, el￿diseño￿empírico￿de￿la￿investigación, que
+incluye el análisis de los datos. Los resultados del análisis nos vuelven a remitir
+a la teoría y a las hipótesis, que de este modo quedan confirmadas, refutadas,
+matizadas o modificadas.
+Figura 1. Etapas de la investigación empírica
+Las etapas y el proceso mencionado son típicos de la metodología y las técnicas cuantitativas (encuestas, experimentos, análisis comparativo de casos).
+Los métodos y técnicas cualitativos (observación participativa, entrevistas en
+profundidad, grupos de discusión, análisis de contenido) muchas veces no siguen este proceso lineal. Concretamente, la lógica de investigación es mucho
+más inductiva, puesto que las hipótesis se perfilan antes de empezar la investigación de forma muy general con el objetivo de concretarlas en el momento
+del trabajo de campo. Además, la última etapa de análisis de los datos se hace
+a menudo en el momento de la selección y recogida de datos. Aun así, cada
+vez hay más científicos sociales que reclaman una lógica más sistemática para
+los métodos cualitativos.
+
+
+[Page 9]
+King, Keohane y Verba (2000) así como Goldthorpe (2000) argumentan
+que la lógica inferencial científica se tiene que aplicar tanto a los métodos cuantitativos como a los cualitativos, y que la diferencia entre los
+dos se encuentra en la forma de seleccionar y recoger los datos. Ambas
+metodologías tienen que seguir básicamente las mismas etapas de la investigación y aplicar la misma lógica en la medida de lo posible.
+Recordad que la inferencia es el objetivo principal de la tarea científica, y
+consiste en pasar de los hechos observados a generalizaciones no observadas.
+Mediante las reglas de la inferencia, bien aplicadas, descubrimos patrones generales y objetivos en la realidad social a partir de los datos observables. Las
+reglas de la inferencia se refieren a métodos de investigación sólidos que siguen las etapas de la investigación científica anteriormente mencionadas y a
+procedimientos no sesgados que precisan lo que observaremos y que dan guías
+para seleccionar los casos. El resto del módulo y, en general, todo el material
+trata de la aplicación concreta de estas reglas.
+
+
+[Page 10]
+2. El marco teórico de la investigación
+2.1. La teoría
+Las teorías son los esfuerzos que han hecho los científicos para desarrollar explicaciones plausibles de lo que sucede en la realidad. Las teorías son intentos razonados e informados de saber por qué las cosas son como aparecen, y
+explicar su naturaleza subyacente y su significado (Hagan, 2005). Sin teoría
+no hay investigación empírica verdaderamente científica. Las teorías permiten
+tratar la complejidad de la vida social, es decir, ponen orden en las relaciones
+entre fenómenos y en las posibles explicaciones. La teoría es la guía de la investigación.
+Manheim y Rich (1988, pág. 31) definen las teorías como conjuntos de
+conceptos lógicamente relacionados que representan lo que pensamos
+que sucede en el mundo. Las teorías proporcionan las razones que explican por qué los hechos están conectados de una forma determinada;
+nos ofrecen una estructura para observarlos e interpretarlos.
+En consecuencia, toda investigación requiere desarrollar un buen marco￿teórico. Normalmente, el punto de partida es revisar la literatura sobre el tema
+que queremos investigar y construir su marco teórico, teniendo en cuenta lo
+que han hecho otros investigadores, y adaptando o innovando sobre las propuestas que han llevado a cabo otros. Una teoría abstracta tiene que ser transformada en un marco teórico concreto para una investigación concreta. Solo
+así pueden contrastarse empíricamente las teorías. Los pasos metodológicos
+que deben seguirse se explican en el resto de este apartado: primero, hay que
+especificar las preguntas de la investigación; después, las hipótesis que establecen las relaciones entre las variables o que describen un fenómeno determinado, y, finalmente, establecer los conceptos o definiciones de los fenómenos
+que queremos explicar.
+Con la formulación teórica iniciamos el proceso de la investigación;
+después pasamos al diseño empírico, que es el plan o la estrategia que
+usamos para recoger y analizar los datos que responden a los criterios
+teóricos establecidos anteriormente.
+
+
+[Page 11]
+Efectivamente, el marco teórico y el diseño empírico están estrechamente relacionados: no se pueden comprobar las hipótesis explicativas del marco teórico sin un diseño empírico adecuado.
+En todas estas etapas de la investigación la deducción tiene un papel
+fundamental: es la lógica que mueve todo el proceso de la investigación.
+La deducción es un proceso de razonamiento que parte de enunciados abstractos sobre relaciones generales y llega de forma lógica y coherente a formular enunciados concretos sobre situaciones, comportamientos, fenómenos
+específicos y particulares. Es decir, hacemos que las proposiciones teóricas se
+transformen en hipótesis de trabajo y definiciones operacionales, que se puedan comprobar empíricamente mediante un diseño empírico. Hay que evitar
+las explicaciones ad hoc de los fenómenos observados y el cambio de teorías,
+para pasar como correctos los datos disponibles (King, Keohane y Verba, 2000).
+2.2. El tema y las preguntas de la investigación
+Hacemos investigación por diferentes razones: porque hay un tema, cuestión
+o problema de la realidad social que nos interesa personalmente; porque nos
+encargan investigarlo, o porque el tema o problema es muy penetrante o relevante para la sociedad en la que vivimos y merece, por lo tanto, una investigación. Dentro del ámbito académico también puede ser que queramos comprobar la validez de una teoría o hacer una contribución a las teorías ya establecidas sobre la realidad social.
+Pero para llevar a cabo la investigación, necesitamos concretar￿el￿tema
+o￿problema,￿es￿decir,￿hay￿que￿formular￿el￿tema￿como￿preguntas￿de
+investigación. En la investigación empírica las preguntas se remiten a
+descripciones o explicaciones de la realidad social. Las preguntas descriptivas hacen referencia a cómo es un fenómeno, dónde se da, cuándo, en qué grado, en qué cantidad, etc. Las preguntas explicativas hacen
+referencia al porqué, a qué efecto y cómo se produce, por medio de qué
+proceso, en qué condiciones y de qué forma, etc.
+Por lo tanto, las preguntas￿descriptivas intentan caracterizar un fenómeno
+y determinarlo. Son indispensables siempre que analizamos una realidad desconocida y hay que responderlas (al menos de forma hipotética) antes de empezar las preguntas explicativas. Sin tener una buena descripción de un fenómeno no podemos empezar la investigación de explicaciones.
+Preguntas en las ciencias
+sociales
+Una pregunta pertenece al
+ámbito de las ciencias sociales si los factores o variables
+que analiza son en gran parte
+de tipo social, y si las variables
+que se tienen que explicar son
+instituciones, grupos o individuos.
+
+
+[Page 12]
+Las preguntas￿explicativas se cuestionan por qué se da un fenómeno, cuál es
+efecto o influencia de un factor sobre otro o de cómo se produce o sucede un
+fenómeno. Las preguntas relativas a cómo sucede un fenómeno corresponden
+al nivel más alto de explicación porque hacen referencia a los mecanismos
+causales y los procesos que producen un fenómeno, y no solo a los posibles
+efectos de unos factores.
+Ejemplos de temas de investigación
+Nos preocupa la apatía de los jóvenes ante la política, o alguna institución nos encarga
+investigar las razones de la caída de la natalidad, o queremos conocer la situación de la
+inmigración en nuestro país, o si internet afecta a las relaciones del ciudadano con el
+mundo político. En la política comparada, unos cuantos temas típicos orientan la investigación; por ejemplo, las causas de la democratización, de la estabilidad o de la caída de
+los regímenes democráticos. ¿Cómo afecta la riqueza del país a la democratización? ¿Cómo afecta una constitución presidencial a la estabilidad de los regímenes democráticos?
+Otras preguntas hacen referencia al efecto del régimen sobre otros fenómenos. ¿Las democracias tienen más crecimiento económico? ¿Los países con regímenes democráticos
+no se declaran la guerra entre ellos? (véase, por ejemplo, Møller y Skaaning, 2012b).
+Ejemplos de formulación del tema ''La apatía de los jóvenes ante la
+política'' como preguntas de investigación
+Preguntas descriptivas: ¿Los jóvenes participan menos en política que los adultos? ¿Les
+interesa menos la política? ¿Los jóvenes votan menos en España o en Cataluña?
+Preguntas explicativas: ¿Por qué los jóvenes votan menos que los adultos o se afilian
+menos a los partidos políticos y a los sindicatos? ¿Cuál es el efecto de la edad sobre la
+participación política? ¿Por qué la edad influye en los niveles y tipos de participación
+política? ¿Cómo se produce? ¿Cuál es el proceso que hace que la edad influya en los
+niveles y tipos de participación política?, es decir, ¿qué influye más en la participación
+política, el ciclo vital o el efecto generacional?
+Teorías sobre la influencia de la edad: ciclo vital y efecto generacional
+La teoría del ciclo vital considera que a medida que incrementa la edad, la persona se
+vuelve más conservadora e integrada en la sociedad, puesto que tiene más responsabilidades familiares, laborales y sociales, y se ha establecido y acomodado dentro de un ámbito geográfico concreto. Todo esto es independiente de la pertenencia a una generación
+específica.
+La teoría del efecto generacional establece que los miembros de una generación, por el
+hecho de haber nacido en fechas cercanas, haber recibido unas influencias culturales y
+educativas parecidas y haber vivido en un contexto económico y político común y específico, tienden a comportarse de forma parecida, pero diferente a las otras generaciones.
+Así, en Europa y Estados Unidos las personas que eran jóvenes en los años cuarenta y
+cincuenta mantienen un comportamiento político diferente a las cohortes que eran jóvenes en los años sesenta y setenta. La generación de la posguerra será más conservadora y
+menos participativa que la generación jipi o de Mayo del 68, aunque ya no sean jóvenes.
+Además, a la hora de formular las preguntas de investigación hay que
+combinar lo particular con lo general y pasar de un nivel al otro. Por lo
+tanto, es muy conveniente tener presentes los diferentes ámbitos geográficos y el número de personas, colectivos, sectores o grupos implicados, pero también el alcance teórico. Es decir, es￿conveniente￿formular
+y￿reformular￿preguntas￿siguiendo￿diferentes￿niveles￿de￿generalidad.
+Revisión de la literatura
+Para determinar qué preguntas
+explicativas y, consiguientemente, qué hipótesis se plantearán, debe hacerse una importante revisión de las teorías
+y de las investigaciones empíricas de otros científicos. Muchas veces "no hay nada nuevo bajo el sol", en el sentido de
+que es muy improbable que
+existan nuevas explicaciones,
+es decir, factores que influyen
+en un fenómeno y que no se
+hayan descubierto. Por eso,
+es más conveniente conocer a
+fondo los estudios y las teorías
+ya establecidas.
+
+
+[Page 13]
+Hay que reflexionar sobre las relaciones entre varios aspectos y ámbitos de
+la realidad social, e intentar establecer de la forma más precisa posible las conexiones entre los diferentes niveles de generalización. Todo esto permite, al
+finalizar la investigación, llegar a generalizaciones empíricas que superen los
+ámbitos meramente particulares o a caracterizaciones de casos concretos. Sin
+la capacidad de generar proposiciones o hipótesis que sean científicamente
+verificables, las teorías no se pueden criticar, mejorar o descartar.
+Por lo tanto, en las preguntas de investigación nos tenemos que mover desde
+ámbitos geográficos, número de personas o colectivos o hipótesis más restringidos hacia niveles de alcance más general, y al contrario.
+En las preguntas sobre la participación política de los jóvenes, empezábamos con unas
+preguntas descriptivas sobre el comportamiento de los jóvenes respecto a la política y
+pasábamos después a preguntas de alcance más general sobre la influencia de la edad en
+la participación y las posibles teorías explicativas. También podemos empezar preguntándonos por la apatía política de los jóvenes en una comunidad autónoma determinada
+y después plantearnos la misma pregunta respecto al resto del Estado español o los países
+democráticos occidentales. También podemos tener en cuenta que la participación política es un concepto genérico y que las preguntas tendrían que dirigirse a los diferentes
+tipos de participación política, ¿Por qué los jóvenes participan más en protestas y asociacionismo no partidista que en las formas de participación más convencionales?
+Por lo tanto, las preguntas de investigación tienen que reflexionar sobre diferentes niveles de la realidad: los más específicos o particulares y los más genéricos o universales. Esto no implica que la investigación tenga que responder
+a todas las preguntas posibles, sino que tiene que elegir una o varias preguntas como guía de la investigación después de haber triangulado entre los diferentes niveles de la realidad y de haber reformulado las preguntas según los
+diferentes niveles de generalidad.
+También pueden ser legítimas las preguntas muy delimitadas, específicas y
+particulares para guías de investigación, pero siempre conviene que la investigación tenga presente lo que puede suceder en el nivel más general por razones de coherencia lógica entre los diferentes niveles.
+Sin embargo, las preguntas muy limitadas en el tiempo y el espacio y de escasa relevancia teórica son pobres y poco significativas desde el punto de vista
+científico. Hace falta que la pregunta sea científicamente interesante o que
+tenga importancia social. Dentro de lo posible hay que apuntar alto teóricamente, responder a los debates científicos y pensar en los grandes problemas.
+2.3. Las hipótesis
+Solo cuando tenemos preguntas de investigación concretas estamos en condiciones de formular las hipótesis de la investigación, que son una posible￿respuesta a las preguntas. Hay que comprobar empíricamente si esta respuesta
+se da en la realidad o no.
+
+
+[Page 14]
+Las hipótesis son proposiciones que o bien describen una situación, o
+bien dan una explicación sobre diferentes fenómenos a los que pone
+en relación. Las primeras son hipótesis descriptivas y las segundas son
+hipótesis explicativas.
+Sin hipótesis no se puede iniciar una investigación empírica, aunque nuestra
+investigación sea un informe sencillo sobre cualquier cuestión social. Las hipótesis guían y conducen la investigación, marcan el principio y el final de la
+tarea, delimitan los fenómenos que tenemos que incluir y canalizan la investigación para que se convierta en una aportación al conocimiento científico
+de una materia.
+Muchas empresas e instituciones no académicas son contrarias a alargar informes y estudios con un apartado dedicado a las hipótesis. Pero de este modo las hipótesis quedan
+implícitas y entonces actúan como guía de la investigación de una forma poco clara,
+cosa que puede conducir a la manipulación de los resultados. Peor todavía resultan los
+estudios donde no hay ni implícita o ni explícitamente ninguna hipótesis, de modo que
+se analiza un fenómeno arbitrariamente, sin llegar a ningún resultado significativo, lo
+que impide la acumulación de conocimiento.
+Las hipótesis￿descriptivas simplemente "declaran" o "afirman" cómo es un
+fenómeno. Las hipótesis￿explicativas relacionan la variación entre dos elementos, fenómenos o propiedades. Es decir, establecen que la variación específica de una propiedad o fenómeno produce otra variación en la propiedad
+o fenómeno que queremos explicar. Así, la primera propiedad o fenómeno
+produciría una influencia, sería la causa del cambio que se produce en la otra
+propiedad o fenómeno. Como mínimo, las hipótesis explicativas tienen que
+poner en relación dos elementos o fenómenos.
+Unas hipótesis descriptivas sobre el comportamiento político de los
+jóvenes
+•
+Más del 50% de los jóvenes de dieciocho años no vota.
+•
+Los jóvenes en Cataluña votan menos que los jóvenes de Castilla y León.
+•
+A los jóvenes que viven en las ciudades les interesa más la política que a los jóvenes
+que viven en zonas rurales.
+Unas hipótesis explicativas sobre el comportamiento político de los
+jóvenes
+•
+La clase social influye en el comportamiento político de los jóvenes.
+•
+Cuanto más nivel educativo tienen los jóvenes, más grado de participación política
+se produce.
+•
+Los jóvenes votan menos que los adultos porque no están tan integrados social, económica ni políticamente como los adultos. Pero a medida que se incrementa la edad,
+y debido al efecto del ciclo vital (integración en la sociedad, responsabilidades, más
+familiaridad y vínculos con los partidos, elecciones y sistema político en general, más
+habilidades políticas y sociales), aumenta la participación en las elecciones.
+
+
+[Page 15]
+Siempre que sea posible, las hipótesis tienen que seguir las cuatro normas que
+presentaremos a continuación. Cada norma la ilustraremos con un ejemplo.
+1) Deben derivar o ser deducidas￿lógicamente￿de￿una￿teoría o del marco teórico establecido en la investigación. Esto implica que tienen que proporcionar
+una respuesta a las preguntas originarias de la investigación y tienen que ser
+coherentes con la teoría. De este modo el contraste de las hipótesis implica un
+contraste indirecto de la teoría.
+1.º "Los jóvenes votan menos que los adultos debido al efecto del ciclo vital", o 2.º "A
+medida que se incrementa la edad, se incrementa la participación en las elecciones".
+También se puede llegar a la formulación de hipótesis por un procedimiento
+inductivo, es decir, reflejar algún fenómeno concreto que vemos que ocurre
+en la realidad y formular una hipótesis de contenido general y extenso basándose en este fenómeno. Este procedimiento es únicamente recomendable en
+las investigaciones exploratorias, cuando no hay teorías o investigaciones hechas sobre el fenómeno que se tiene que estudiar. Pero solo un marco￿teórico
+puede revelar las posibles explicaciones de un fenómeno: por qué existe una
+relación entre las variables analizadas. Las teorías o marcos teóricos son construcciones que precisamente sistematizan las relaciones entre las variables de
+forma coherente y lógica.
+2) Deben ser verificables￿empíricamente –es decir, las hipótesis son el objeto
+concreto y específico de la investigación– y, por lo tanto, se tienen que formular de forma que puedan ser contrastadas empíricamente con cierta facilidad.
+Esto quiere decir hacer hipótesis que se puedan operacionalizar con el fin de
+que las variables puedan ser observadas en la realidad.
+En la primera hipótesis hay tres variables: edad, voto y ciclo vital. Las dos primeras son
+fáciles de encontrar en la realidad, pero conseguir la variable ciclo vital conlleva separarla en dimensiones o componentes –responsabilidades familiares, laborales y sociales;
+estabilidad geográfica; integración en la comunidad; familiaridad y vinculación con los
+componentes del sistema político, etc.–, comprobar los efectos mientras observamos la
+evolución de una cohorte de jóvenes a lo largo de su vida y comprobar si a los incrementos de edad corresponden incrementos de la frecuencia del voto. La segunda hipótesis
+es mucho más fácil de comprobar porque las dos variables que aparecen –edad y voto–
+son sencillas de conseguir; solo hay que tener el porcentaje de participación en diferentes
+Variables y
+operacionalización
+Las variables son el correlato
+empírico (visible, observable)
+de los conceptos teóricos. Se
+denominan variables porque
+"varían" de una unidad de análisis (caso o individuo) a otra.
+Operacionalizar es la tarea de
+convertir los conceptos teóricos en indicadores o variables
+que puedan ser medidos empíricamente, y permitan comprobar las hipótesis o explicaciones de nuestros fenómenos
+de interés.
+Más adelante trataremos con
+más detalle estos conceptos.
+
+
+[Page 16]
+elecciones y la distribución por edad de los votantes. Sin embargo, esta segunda variable
+no tiene el alcance teórico y explicativo de la primera.
+3) Deben ser refutables￿empíricamente, es decir, no solo deben poderse comprobar empíricamente sino que debe ser posible refutarlas con la observación
+empírica. Por eso es indispensable que las hipótesis alternativas centrales de la
+investigación vayan acompañadas de otras hipótesis￿alternativas, en las que
+se establecen proposiciones rivales, contrarias a la hipótesis alternativa sostenida por nuestra teoría. No se pueden comprobar todas las hipótesis alternativas, pero hay que comprobar al menos las principales para descartar relaciones
+espúreas entre las variables, descubrir las interacciones con otras variables y
+detectar otras posibles causas de los fenómenos.
+En el caso de la primera hipótesis, una posible hipótesis rival alternativa sería la que
+establece que es más importante el efecto generacional sobre la participación electoral. Es
+decir, los jóvenes de hoy votan menos porque pertenecen a una generación que comparte
+un contexto de inseguridad económica y laboral y de desconfianza en los políticos y
+el sistema de democracia representativa y, por lo tanto, no se interesan por la política
+tradicional. Y cuando se hagan adultos, votarán menos que otras generaciones. En el
+caso de la segunda hipótesis, una posible hipótesis contraria sería la que establece que
+la edad en realidad no influye tanto, sino que es el género la influencia principal sobre
+la participación electoral. Es decir, los hombres jóvenes votan mucho menos que los
+hombres adultos; en cambio, las mujeres jóvenes votan con una frecuencia parecida a la
+de las mujeres adultas. Por lo tanto, la hipótesis alternativa sería: "El género determina la
+frecuencia del voto: las mujeres votan más que los hombres en cualquier franja de edad y
+la edad influye sobre todo en el caso de los hombres". En consecuencia, la relación entre
+la edad y el voto existe sobre todo entre los hombres, pero el género es otra variable que
+afecta más fuertemente a la participación electoral.
+Variables intervinientes y
+relaciones espúreas
+En muchas ocasiones, hay variables que intervienen o intermedian en la relación que parece existir entre las dos primeras variables. En otras, existe una relación espúrea, es decir, el cambio en la variable dependiente (que se tiene que
+explicar) no se debe a efectos
+de la variable independiente,
+sino a una tercera variable que
+produce cambios en las dos
+anteriores. Además, normalmente existe más de una variable importante que afecta a la
+dependiente (multicausalidad).
+4)￿Hay￿que￿concretar￿tanto￿como￿sea￿posible￿las￿hipótesis, es decir, conviene explicitar el sentido￿de￿la￿relación (negativo o positivo) entre los elementos o variables y el tipo￿o￿forma￿de￿relación. Aun así, si las relaciones
+entre las variables no son lineales o si las variables no son cuantitativas, hay
+que reflejar la correspondencia de los cambios de valores o de estado de una
+variable respecto a la otra.
+La hipótesis "A medida que aumenta la edad, aumenta la participación en las elecciones"
+es más informativa y enfoca mejor la investigación, porque describe una relación positiva
+entre ambos fenómenos, que simplemente la de afirmar que existe una relación entre la
+edad y la participación electoral, puesto que no establece el sentido de relación entre las
+variables. Y todavía más precisa resulta la siguiente hipótesis: "A medida que aumenta la
+edad, aumenta la participación en las elecciones, pero en torno a los sesenta y cinco años
+empieza de nuevo a bajar el nivel de participación. Es decir, la relación entre la edad y la
+participación electoral es de tipo curvilíneo, no lineal".
+2.4. Los conceptos o definiciones
+Para poder formular de forma clara las hipótesis se tienen que definir los fenómenos, propiedades o elementos que incluyen. Por lo tanto, hay que definir,
+elaborar o elegir los conceptos que delimitan los elementos a los que hacen
+referencia las hipótesis.
+Relaciones lineales,
+curvilíneas y no
+monótonas
+Las relaciones lineales entre las
+variables se dan cuando el incremento o bajada de una de
+ellas implica siempre un correspondiente incremento o
+bajada de la otra. Por ejemplo,
+la relación entre la educación
+y el asociacionismo es lineal
+y positiva: cuanto más nivel
+educativo, más participación
+en asociaciones. Las relaciones
+curvilíneas suceden cuando
+hay puntos de inflexión en esta
+relación lineal y llega un momento en el que el incremento
+de una produce la bajada de la
+otra, o al revés.
+
+
+[Page 17]
+Los conceptos son las propiedades o atributos de los objetos (personas,
+votantes, países, organizaciones, etc.) que nos interesan en un estudio
+particular. Las definiciones￿o￿conceptos nos ayudan a precisar y delimitar el objeto de estudio y también a concretar la búsqueda de los
+datos. Así, las definiciones o conceptos deben ser lo menos abstractos
+posible y tienen que posibilitar la observación empírica o, lo que es lo
+mismo, la obtención de datos.
+Los conceptos en las ciencias sociales, suelen ser controvertidos￿y￿polémicos;
+es decir, a menudo hay diferencias en relación tanto con el significado como
+con el referente empírico del concepto. Todo esto se debe a que los conceptos en las ciencias sociales se refieren a realidades con una importante carga
+normativa y valorativa, y contienen múltiples dimensiones o criterios caracterizadores.
+Por ejemplo, el concepto de política, democracia, legitimidad, participación,
+liberalismo, socialismo, parlamentarismo, igualdad, representación, etc., resultan ser esencialmente controvertidos en cuanto que describen realidades
+que son valoradas según una concepción normativa y en cuanto que no existe
+una sola dimensión, criterio o propiedad que sea suficiente para caracterizarlos. Hay que ponerse de acuerdo en el conjunto de dimensiones que serían
+suficientes para caracterizar el fenómeno que se quiere definir (Conolly, 1993).
+Así, dentro de la disciplina de la ciencia política conviven muchas veces definiciones diferentes y contrarias a los fenómenos políticos.
+El concepto de democracia es el ejemplo perfecto de un concepto "esencialmente disputado" que ha sido el centro de discusiones sin fin, el cual, a pesar de que "no pueda ser
+resuelto por ningún tipo de argumento, está sostenido por argumentos y evidencias perfectamente respetables" (Gallie, 1956). La democracia ha sido definida de muchas maneras (Collier y Levitski, 1997). Coppedge y sus colegas, siguiendo el esquema de modelos
+de la democracia de Held (2006), distinguen hasta seis formas de entender la democracia
+(Coppedge y otros, 2011; Coppedge, 2012; sobre conceptualización de la democracia,
+véase Møller y Skaaning, 2012a):
+•
+La democracia entendida como competencia de las élites (Schumpeter, 1942; Przeworski, 1999).
+•
+La democracia pluralista, o liberal, entendida como imperio de la ley, sistema de frenos y contrapesos entre los diferentes poderes y respeto a las minorías (Hamilton,
+Madison y Jay, 1992; Mill, 1972; Dahl, 1989).
+•
+La concepción mayoritaria de la democracia, que refleja el principio que dice que la
+mayoría tiene que gobernar (Schattschneider, 1942; Lijphart, 2012).
+•
+La concepción participativa de la democracia, que supone la participación directa de
+los ciudadanos siempre que sea posible (Barber, 2003; Macpherson, 1977).
+•
+En la concepción deliberativa de la democracia, el proceso de toma de decisiones se
+hace mediante un razonamiento público centrado en el bien común de la comunidad
+política para superar los intereses parciales y los objetivos a corto plazo (Gutmann y
+Thompson, 1996; Dryzek, 2000; Habermas, 1996).
+
+
+[Page 18]
+•
+El concepto igualitario de la democracia enfatiza la igualdad de los ciudadanos: en la
+participación, la representación, la protección y los recursos disponibles (los autores
+de la anterior definición también pueden aparecer aquí; Saward, 2010).
+Dentro de esta variedad de conceptos y definiciones, los investigadores tienen que saber elegir el concepto o definición que combine los
+siguientes requisitos:
+•
+Precisión (debemos saber de qué hablamos cuando usamos un concepto)
+•
+Suficientes elementos o propiedades caracterizadores
+•
+Referente empírico y realismo
+•
+Viabilidad técnica
+•
+Generalidad
+•
+Coherencia lógica con la teoría en la operacionalización
+•
+Utilidad para los objetivos de la investigación
+El requisito de generalidad se refiere a la capacidad de generalización o de extensión que
+tiene un concepto, es decir, al grado de alcance del concepto que incluye lo que sucede en
+otros países, se adapta a nuevas realidades sociopolíticas o refleja el pasado. La búsqueda
+de la generalización es una característica esencial de la tarea científica, necesaria para
+la acumulación de conocimientos. En consecuencia, los conceptos tienen que "viajar" y
+adaptarse a diferentes entornos. El problema es que la adaptación a nuevos casos puede
+forzar demasiado el concepto de modo que el contenido se diluya y quede indeterminado. Sartori (1970) denomina a este proceso conceptual stretching.
+Aun así, no es fácil combinar del mismo modo todos estos elementos. Así, la
+generalidad o capacidad de generalización de un concepto puede ir en contra
+de la precisión que aporta y de la búsqueda de realismo empírico (por ejemplo,
+en el caso de la definición de la democracia como gobierno del pueblo); la
+viabilidad técnica puede dificultar la coherencia teórica y lógica porque solo
+se dispone de unos datos determinados, etc.
+Por lo tanto, siempre hay que encontrar el equilibrio entre los diferentes
+requisitos y valorar las diferentes opciones de definiciones. En realidad,
+los conceptos o definiciones en las ciencias sociales son, como cualquier
+elemento de la investigación, un cruce entre la teoría y la realidad, y,
+por lo tanto, hace falta no perder nunca la dimensión teórica y mirar
+siempre de cerca los datos que tenemos, o podemos obtener, sobre la
+realidad.
+2.5. Las definiciones y las hipótesis operacionales o de trabajo
+Precisamente el puente entre la teoría y la realidad se atraviesa cuando la definición más abstracta y declarativa se transforma en una definición￿operacional y las hipótesis se convierten en hipótesis￿operacionales￿o￿de￿trabajo. Por
+lo tanto, solo cuando se transforman las definiciones e hipótesis en hipótesis
+
+
+[Page 19]
+operacionales se comprueba si el concepto y las correspondientes hipótesis
+alcanzan los requisitos empíricos anteriormente mencionados (precisión, referentes empíricos y realismo, viabilidad técnica).
+La definición operacional incluye los indicadores empíricos de los elementos o variables contenidos en un concepto. Las hipótesis de trabajo
+establecen las relaciones entre los valores o medidas de los indicadores.
+Este proceso de transformación de los conceptos e hipótesis abstractas
+en conceptos e hipótesis medibles y observables se denomina operacionalización.
+Por ejemplo, se puede definir la democracia como la forma de gobierno en
+la que el pueblo gobierna. Esta definición es bastante abstracta y necesitamos
+unos criterios definitorios para concretar qué es una democracia. Así, entre los
+politólogos hay una amplia aceptación del concepto de democracia elaborado
+por R. A. Dahl (1979, 1999), que establece una serie de dimensiones o criterios
+definitorios que en su conjunto caracterizan una democracia:
+•
+•
+Igualdad de voto
+•
+Logro de una comprensión ilustrada
+•
+Ejercicio del control final sobre la agenda
+•
+Inclusión de los adultos
+El siguiente paso consiste en encontrar referentes o indicadores empíricos de
+estos criterios característicos de las democracias. Según Dahl (1999), hay una
+serie de instituciones concretas necesarias para satisfacer los criterios democráticos. Estas instituciones son claramente observables y constituyen los referentes empíricos (variables e indicadores) de los criterios democráticos. La
+correspondencia entre las instituciones que sirven de referentes empíricos y
+los criterios caracterizadores de la democracia es la siguiente (Dahl, 1999, pág.
+107):
+1) Representantes electos (cámara legislativa, presidencia, ente municipal, etc.)
+→
+2) Elecciones libres, equitativas y frecuentes
+→
+Igualdad de voto
+3) Libertad de expresión (derechos y oportunidades para expresar las opiniones y las críticas)
+→
+4) Fuentes de información alternativas e independientes →
+5) Autonomía asociativa (partidos, grupos de presión,
+movimientos sociales independientes)
+→
+Veremos con más detalle el
+proceso de operacionalización
+en el apartado 3.1 de este módulo.
+
+
+[Page 20]
+6) Derechos plenos de la ciudadanía (derechos y libertades que aseguran la efectividad de las instituciones anteriores)
+→
+Inclusión de los adultos
+ 
+ 
+Aun así, estos criterios caracterizadores de la democracia no están totalmente reflejados o recogidos mediante las instituciones mencionadas, pero al menos son las instituciones mínimas necesarias para la democratización (Dahl,
+1999, pág. 114). En el proceso de operacionalización siempre se pierde parte
+del contenido de la definición más abstracta y teórica porque se dejan de lado
+las características o propiedades que no son directamente observables o que
+lo son difícilmente.
+Todo este proceso de conceptualización y de operacionalización suele ser dificultoso y es recomendable que los investigadores￿noveles usen las definiciones o conceptos de teorías ya validadas empíricamente y reconocidas por
+la comunidad científica, es decir, teorías con un acuerdo amplio sobre los elementos o propiedades característicos del concepto y sobre la operacionalización. Las ventajas de utilizar operacionalizaciones consolidadas en la disciplina son claras: facilitan el reconocimiento de nuestra investigación por parte
+del resto de la comunidad científica, aprovechan los esfuerzos de las anteriores
+investigaciones al establecer la validez y fiabilidad de las operacionalizaciones
+y permiten la acumulación del conocimiento científico en los fenómenos que
+queremos estudiar. Solo en el caso de los investigadores￿más￿experimentados es conveniente dedicarse a ampliar los conceptos, elaborar unos nuevos
+o modificarlos, y tratar de mejorar las definiciones o conceptos más clásicos
+y típicos y superarlos, si son muy restringidos, poco claros, confusos o insatisfactorios. En todo caso, cualquier investigador tiene que revisar obligatoriamente la literatura sobre el fenómeno que se tiene que estudiar y fijarse especialmente en los conceptos y definiciones operacionales empleados.
+2.6. Las variables y los tipos de variables
+Una vez se han formulado las hipótesis y los conceptos, hay que centrarse más
+específicamente en las variables que aparecen en las hipótesis y conceptos.
+Al principio de este apartado explicábamos que las hipótesis son proposiciones declarativas sobre un fenómeno que varía (hipótesis descriptiva) o sobre
+la relación entre dos fenómenos que varían (hipótesis explicativa). Las variables son características, atributos o propiedades de nuestros objetos de estudio
+(personas, países, organizaciones) que varían y que son observables de forma
+empírica.
+Respecto a las hipótesis, véase
+el apartado 2.3 de este módulo.
+
+
+[Page 21]
+Por lo tanto, una variable tiene dos características:
+1)￿Variabilidad: La característica, atributo o propiedad asume diferentes valores o diferentes estadios en diferentes individuos o unidades de
+análisis.
+2)￿Observabilidad: La variable se puede detectar en la realidad empírica, y por eso es recomendable que las variables aparezcan en las definiciones y las hipótesis. Para contrastar empíricamente conceptos e hipótesis abstractas, los debemos transformar en variables.
+Aun así, a veces los conceptos tienen referentes empíricos claros y sencillos
+que, de hecho, son variables que no hay que transformar. Por ejemplo, no es
+lo mismo el concepto edad que el concepto democracia. El primero es asimilable a una variable mientras que el último, como hemos visto, es un concepto complejo formado por varios criterios identificadores que hay que transformar en variables e indicadores (las instituciones mencionadas antes) para
+observarlos en la realidad.
+Las variables son elementos fundamentales en la investigación porque sirven
+para contrastar nuestra teoría e hipótesis.
+Hay varios tipos￿de￿variables según su papel dentro de las hipótesis. Las variables dependientes son las que queremos explicar y, por lo tanto, su valor
+"depende" del valor de otras variables. Las variables independientes son las
+que explican: suponemos que los cambios en sus valores influyen en los valores de la variable dependiente. Una hipótesis (explicativa) tiene que tener
+como mínimo una variable dependiente y una independiente.
+Las variables independientes pueden ser explicativas, intervinientes, antecedentes y de control. Las variables intervinientes o intermedias condicionan
+las relaciones entre la variable dependiente y la independiente. A veces la influencia de la variable independiente sobre la dependiente está relacionada
+con el valor de la variable interviniente. Otro tipo de variable independiente sería la variable antecedente, que influye e interviene antes de la variable
+explicativa. Las variables￿de￿control suponemos que influyen en la variable
+explicativa y en la variable dependiente de forma que pueden hacer aparecer
+una relación entre nuestras variables dependiente e independiente cuando,
+en realidad, no hay, o esconder la relación cuando, en realidad, sí hay. Por
+lo tanto, hay que controlar el efecto que producen para determinar correctamente influencia de la variable explicativa sobre la dependiente. En cualquier
+investigación explicativa tener en cuenta el efecto de las variables de control
+es fundamental para descartar relaciones espúreas o inexistentes entre la variable explicativa y la dependiente.
+Variables
+Recordad que en las hipótesis
+rivales alternativas hay que especificar el posible papel de las
+variables de control y de las intervinientes.
+
+
+[Page 22]
+Pondremos unos cuantos ejemplos de las hipótesis mencionadas antes sobre la
+influencia de la edad en la participación electoral. Recordemos que una de las
+hipótesis era: "A medida que incrementa la edad, incrementa la participación
+en las elecciones".
+Direcciones de las relaciones entre variables
+El signo + representa una relación positiva: cuando se incrementa una variable, se incrementa la otra.
+El signo – representa una relación negativa: cuando se incrementa una variable baja la
+otra, y al revés.
+La ausencia de signos implica o bien que la variable es cualitativa o bien que la relación
+entre las dos variables no es lineal.
+Una de las hipótesis rivales alternativas era "La influencia de la edad depende
+del efecto generacional". Es decir, hay varias generaciones (por ejemplo, los
+jóvenes actuales) que votan menos que otras debido a la socialización de sus
+miembros en contextos que llevan a un rechazo de la política convencional.
+Otra hipótesis rival alternativa era "El género determina la frecuencia de voto:
+las mujeres votan más que los hombres en cualquier franja de edad, y la edad
+influye sobre todo en el caso de los hombres". En este caso estamos en presencia de dos variables que influyen en el voto.
+
+
+[Page 23]
+Ahora plantearemos una hipótesis nueva sobre la participación electoral con la
+intención de ver el efecto de una variable de control. La hipótesis dice: "Cuanto
+más grado de sofisticación política, más participación electoral". La hipótesis
+alternativa que incluye una variable de control sería: "La sofisticación política
+y la participación electoral dependen del nivel de recursos socioeconómicos
+de los electores; por lo tanto, la relación entre el grado de sofisticación política
+y la participación es espúrea, inexistente".
+El uso de las variables intervinientes, antecedentes y de control contribuye
+mejor a dar una explicación cuidadosa de la variable dependiente que si solo se
+analiza el efecto de una explicativa sobre la dependiente. Por lo tanto, teniendo en cuenta que analizaremos el papel de más de una variable independiente,
+siempre conviene dibujar un diagrama￿o￿mapa previo, como hemos hecho
+arriba, donde se representa el sentido de las relaciones entre las variables.
+Para acabar, hay que tener presente que la condición de variable dependiente
+o independiente depende de la perspectiva del investigador; por ejemplo, la
+misma variable puede ejercer de variable independiente explicativa en una
+hipótesis o en un estudio y después pasar a ser la independiente interviniente
+o de control en la hipótesis rival alternativa o en otro estudio.
+2.7. Las relaciones causales
+Si bien la descripción de los fenómenos es muy necesaria, el objetivo de más
+alcance científico y más interés social es la explicación. En las hipótesis explicativas se plantean relaciones entre variables con la intención de explicar una
+variable dependiente.
+Sin embargo, las hipótesis explicativas pueden reflejar relaciones con
+más o menos capacidad de explicación de la variable dependiente. Hay
+dos tipos principales de relaciones que se pueden establecer entre las
+variables: las relaciones de covarianza y las relaciones de causalidad.
+Las￿relaciones￿de￿covarianza establecen que dos o más variables varían al
+mismo tiempo. Por ejemplo, a medida que se incrementa el nivel educativo,
+se incrementa el nivel de ingresos. Estas relaciones de covarianza son poco
+explicativas porque no nos muestran qué es lo que hace cambiar simultáneamente a las dos variables; es decir, puede ser que el nivel educativo produzca
+La sofisticación política
+Se refiere al grado de conocimientos (por ejemplo, si se
+sabe quién gobierna en diferentes niveles de gobierno),
+la comprensión (por ejemplo,
+de las dimensiones derecha/izquierda) y el interés por la política.
+
+
+[Page 24]
+más ingresos, pero también puede ser que un nivel alto de ingresos favorezca
+el acceso a la educación, o que una tercera variable influya en ambas (relación
+espúrea); por ejemplo, el estatus familiar.
+Las ciencias sociales intentan superar las meras covarianzas y pasar a establecer relaciones causales que indiquen que los cambios en una variable producen los cambios en otra; por ejemplo, la afirmación de que "A medida que se
+incrementa la identificación ideológica, se participa más en las elecciones". Es
+decir, una identificación fuerte con la izquierda o la derecha incrementa la
+probabilidad de votar, pero la probabilidad de votar no puede crear la identificación ideológica.
+Resulta difícil determinar las causas, los efectos y las consecuencias de los fenómenos sociales. Todavía es más difícil cuando el fenómeno es importante,
+histórico, muy relevante y cuando además no suele haber una sola causa. Por
+lo tanto, es recomendable plantear relaciones causales cuando se logran determinadas condiciones a la vez. Los investigadores en ciencias sociales hablan
+de relaciones causales fuertes y débiles, y de relaciones no causales (estas últimas son las covarianzas sin explicación).
+Las relaciones￿causales￿fuertes se dan cuando se cumplen los cuatro
+criterios siguientes a la vez (siguiendo más bien el modelo de las ciencias
+naturales):
+1) La causa (X) y el efecto (Y) covarían.
+2) La causa (X) precede el efecto (Y).
+3) Se puede establecer un mecanismo, vínculo o proceso causal que explique qué cambios en X ocasionan cambios en Y.
+4) La covarianza de la causa (X) y el efecto (Y) no se debe a una influencia
+sobre las dos variables de una tercera variable (T) (relación espúrea).
+Para el científico social a menudo es difícil poder establecer estas cuatro
+condiciones en una relación entre dos variables.
+La primera condición implica que siempre que aparece la causa, sucede el efecto, y al revés: siempre que aparece el efecto es porque está la causa. La conjunción constante de la causa y del efecto es muy improbable, porque aunque se
+dé en el presente y en el pasado, puede no darse en el futuro, y aunque se dé
+en unos contextos o entornos puede no ocurrir en otros.
+La segunda condición también presenta dificultades porque en ciencias sociales muchas veces es imposible determinar si un fenómeno se ha producido
+antes en el tiempo que otro: la ideología parece formarse antes de ir a votar,
+pero puede ser que pueda formarse o reforzarse en la medida en la que el ciu-
+
+
+[Page 25]
+dadano vota. Solo la lógica y los conocimientos de los mecanismos causales
+que están funcionando nos pueden dar pistas sobre el orden temporal de los
+fenómenos. Lógicamente, consideramos que una actitud política como esta
+precede a un comportamiento político de este tipo, pero no lo hemos visto en
+la realidad. La única manera de estar completamente seguros de la precedencia
+de la ideología política sería hacer un experimento en el cual "se inoculara"
+ideología a un grupo de ciudadanos y a otro, no, y comprobáramos más tarde
+si van a votar con más probabilidad o no.
+La dificultad de establecer estas condiciones hace que, gran parte de los investigadores buscan descubrir relaciones￿causales￿débiles y se toman de forma
+laxa las primeras dos condiciones anteriormente mencionadas. Es decir, respecto a la primera, puede no darse siempre la covarianza de las dos variables,
+pero se tiene que dar en un número de casos suficientemente grande y diverso. Si vemos que la covarianza se da en un número suficientemente grande
+de casos y en contextos diferentes, aunque no haya covarianza en todos los
+casos, podemos concluir que la variable causal es, de hecho, una condición
+que facilita la aparición del otro fenómeno.
+En realidad, hay que dejar de lado el concepto fuerte aplicado a las relaciones de causa y asumir la idea que habla de tendencias probabilísticas
+y condiciones facilitadoras de los fenómenos a explicar.
+Respecto a la segunda, y siempre que sea necesario, se usa la lógica, el sentido
+común o los conocimientos de la realidad social. Por ejemplo, una variable
+que es un atributo personal de nacimiento nunca puede ser un efecto, sino que
+siempre será una causa porque se ha producido antes en el tiempo. También
+es más plausible que las actitudes, valores y creencias precedan los comportamientos en vez de que los comportamientos determinen las actitudes y valores
+de las personas, aunque a veces las personas pueden cambiar de creencias para
+ajustarlas al comportamiento que tienen.
+En referencia a la tercera condición, algunos investigadores remiten a la teoría
+para establecer el mecanismo o proceso que hace que una variable influya en
+otra, pero muchos otros no disponen ni siquiera de una teoría adecuada que
+detalle los mecanismos explicativos. Incluso los que establecen hipótesis de
+tipo teórico no tienen más medios para contrastar los vínculos y mecanismos
+establecidos por la teoría. Todo ello es lo que algunos científicos denominan
+el￿problema￿de￿la￿"caja￿negra": se conocen las relaciones entre las variables
+independientes (causas) y las dependientes (efectos) y se pueden establecer
+generalizaciones, pero no se conocen los procesos que han generado estas relaciones.
+La lógica aplicada a las
+relaciones causales
+Se puede afirmar que X precede en el tiempo a Y cuando:
+1) Y empieza cuando X se queda fija o congelada.
+2) X está ligada a un estadio
+o situación anterior en una secuencia conocida.
+3) X no cambia nunca e Y
+cambia a veces.
+4) X es más estable, difícil de
+cambiar y conlleva más consecuencias.
+Estas reglas y otras interesantes
+para el análisis causal se pueden consultar en J.￿A.￿Davis
+(1989). The Logic of Causal Order. Londres: Sage ("Sage University Paper", núm. 55).
+Contraste de hipótesis
+teóricas explicativas
+El contraste empírico de las
+hipótesis sobre el efecto del
+ciclo vital y las generaciones
+en la participación electoral
+era complicado porque implicaba un diseño de investigación mucho más costoso,
+puesto que requería analizar
+las cohortes de edad que forman generaciones a lo largo
+del tiempo. En cambio, analizar el efecto de la edad sobre la participación electoral es
+más sencillo, aunque sea más
+pobre desde el punto de vista
+explicativo.
+
+
+[Page 26]
+La necesidad de conocer mejor los mecanismos causales implicados en la relación entre los fenómenos que quieren entender los científicos sociales explica la distinción entre los estudios cuantitativos y los cualitativos. En estos
+últimos se quiere mirar de cerca los mecanismos causales que existen entre
+las variables, y por esto se usan los estudios de caso, la investigación etnográfica o la histórica. No hay tanta preocupación por ver hasta qué punto puede
+generalizarse una determinada explicación de la realidad (que muchas veces
+es el objetivo de la investigación cuantitativa). Se quiere explorar y descubrir
+explicaciones verosímiles de la realidad.
+Aun así, la explicitación de los mecanismos y procesos causales es un
+problema tanto de la rama cuantitativa como de la cualitativa, y solo se
+puede resolver si se desarrollan teorías más generales que especifiquen
+los procesos causales que producen determinadas regularidades (las relaciones entre variables que se repiten) y posibles implicaciones observables de estos procesos (Goldthorpe, 2000, pág. 61).
+Finalmente, respecto a la cuarta condición, los investigadores tienen presente
+la necesidad de descartar las relaciones espúreas, y de hecho es la condición
+que exige ser más cuidadoso. El objetivo de eliminar posibles causas alternativas determina el diseño de la investigación en gran parte de los casos. Efectivamente, es fundamental diseñar la investigación de forma que se neutralicen
+o se controlen las causas alternativas. Hay diseños que son más efectivos a la
+hora de descartar causas alternativas y, por lo tanto, relaciones espúreas.
+Lectura obligatoria
+El capítulo 3 del libro de
+Goldthorpe (ver el anexo de
+este módulo), donde explica
+las polémicas entre cualitativistas y cuantitativistas respecto a temas como el de la
+caja negra.
+J.￿H.￿Goldthorpe (2000).
+"Current Issues in Comparative Macrosociology". En: On
+sociology: numbers, narratives,
+and the integration of research
+and theory (págs. 45-64). Oxford: Oxford University Press.
+El experimento y los diseños longitudinales son muy eficaces en esta tarea,
+pero normalmente los científicos sociales no pueden hacer experimentos con
+humanos, colectivos ni instituciones, ni tampoco disponen de series temporales de los fenómenos. Así, los científicos sociales que habitualmente disponen de datos de encuestas y datos agregados de varios países buscan descartar
+las causas alternativas mediante otros procedimientos: la introducción de las
+variables de control y el uso del método estadístico, en el primer caso, y la
+aplicación del método comparado de la concordancia y el de las diferencias,
+en el segundo.
+En la práctica, los investigadores hablan de causa cuando existe una relación entre las dos variables, se da en suficientes casos (numerosos y
+varios), responde a una lógica teórica y se pueden descartar otras causas alternativas que podrían hacer que la relación fuera espúrea (Díez
+Medrano, 1992).
+En el apartado 3.2 de este módulo y en el módulo 3 se explican los métodos o diseños de
+investigación.
+
+
+[Page 27]
+Las relaciones causales, además, pueden ser directas,￿indirectas￿y￿múltiples.
+Relaciones causales directas quiere decir que X es causa de Y sin otras variables
+intervinientes. Relaciones causales indirectas son las producidas por la intermediación de variables intervinientes: X es causa de Y en la medida en la que
+lo es de T, que es causa directa de Y. Recordad la hipótesis rival alternativa sobre la relación entre la edad y votar en la que la variable T era las generaciones.
+Para acabar, nos referimos a relaciones￿causales￿múltiples cuando las causas
+de los fenómenos sociales son variadas y numerosas. No hay un solo factor
+causal y a veces concurren muchos factores para producir un hecho determinado. Aun así, no se pueden analizar todas las posibles influencias de una variable y tenemos que elegir las relaciones que consideremos más importantes.
+El resto de posibles factores causales permanecerán englobados dentro de la
+parte de explicación de la variable dependiente que no podemos explicar, o
+en otras palabras, dentro del concepto de error.
+Respecto a las hipótesis rivales
+alternativas, véase el apartado
+2.3 de este módulo.
+Ante toda esta complejidad y para aclarar las relaciones causales que queremos analizar, resulta muy conveniente dibujar las relaciones entre las variables mediante mapas￿o￿diagramas. Además, siempre se debe intentar descartar posibles causas alternativas, y por eso hay que elegir o elaborar un diseño
+de￿la￿investigación￿adecuada, teniendo presente los datos disponibles o que
+se pueden obtener.
+Respecto a la representación
+de las relaciones entre las variables mediante mapas o diagramas, véase el apartado 2.6
+de este módulo.
+
+
+[Page 28]
+3. El diseño empírico de la investigación
+3.1. La operacionalización y la medición
+Una vez desarrollado el marco teórico de la investigación, tenemos que idear
+la manera de obtener observaciones concretas que nos permitan responder
+las preguntas de la investigación y contrastar las hipótesis formuladas con la
+realidad empírica.
+La operacionalización es la asignación de fenómenos observables que
+correspondan o representen conceptos abstractos. En otras palabras, la
+operacionalización es el proceso de cuantificación y especificación de
+los conceptos e hipótesis del marco teórico, para poder contrastarlos
+empíricamente.
+Por lo tanto, mediante la operacionalización se construye realmente el puente
+o nexo entre la teoría y la observación empírica. A continuación explicaremos
+una serie de términos necesarios para entender cómo se hace la operacionalización.
+Para llevar a cabo la operacionalización de los conceptos, hipótesis y variables
+del marco teórico, hay que medir la realidad de forma que podamos obtener
+observaciones. Por lo tanto, mediante la medición obtenemos observaciones.
+Para medir la realidad necesitamos instrumentos￿de￿medición.
+Los instrumentos de medición sirven para asignar valores de alguna característica o propiedad del fenómeno investigado en los casos analizados. Los instrumentos de medición son herramientas de trabajo con las
+que podemos medir características o propiedades de los fenómenos investigados.
+Por ejemplo, instrumentos de medición pueden ser las preguntas o ítems de
+un cuestionario, una escala, un índice que mide un determinado fenómeno,
+instrucciones sobre la manera de registrar un comportamiento por medio de
+la observación participante, etc.
+El instrumento de medición mide la realidad con los indicadores.
+
+
+[Page 29]
+Los indicadores son la representación observable de un fenómeno o variable. Nunca analizamos o comparamos conceptos o variables, sino indicadores de conceptos o variables.
+Los indicadores raramente reflejan todo lo que quiere decir un concepto y por
+eso tenemos que aceptar alguna pérdida de significado. Aun así, debemos intentar que esta pérdida de significado sea reducida, de modo que los indicadores representen bien el concepto o la variable.
+Muchas veces un solo indicador no es suficiente para medir un concepto, dado
+que, como ya hemos dicho en el apartado "Los conceptos o definiciones", los
+conceptos sociales son multidimensionales y se componen normalmente de
+varios criterios caracterizadores. Un ejemplo clásico es la operacionalización
+de la clase social. Solo con el indicador de ingresos no logramos una medición
+completa del concepto. Hay otros indicadores, como por ejemplo, el nivel
+educativo, el barrio de residencia, los hábitos de consumo, la centralidad de las
+relaciones sociales o la cantidad de electrodomésticos, aparatos electrónicos
+y coches.
+Los valores del indicador son las observaciones que usaremos para evaluar nuestras hipótesis. Mediante la medición asignamos valores a la
+variable en cada caso. Esto quiere decir que podemos hablar con precisión del grado en el que un caso determinado manifiesta la propiedad
+que caracteriza una variable.
+Por ejemplo, la variable eficacia política se puede representar mediante una
+serie de indicadores en forma de proposiciones que los entrevistados tienen
+que responder según una escala que va del total acuerdo al total desacuerdo:
+Ítems
+Totalmente
+de￿acuerdo￿5
+Parcialmente
+de￿acuerdo￿4
+Ni￿de￿acuerdo￿ni
+en￿desacuerdo￿3
+Parcialmente￿en
+desacuerdo￿2
+Totalmente￿en
+desacuerdo￿1
+La￿mayoría￿de￿los￿gobernantes￿son
+unos￿incompetentes.
+Los￿problemas￿de￿mi￿país￿son￿a￿menudo￿tan￿complicados￿que￿incluso
+la￿gente￿bien￿informada￿no￿sabe
+qué￿hay￿que￿hacer.
+Los￿gobernantes￿se￿preocupan￿poco￿de￿lo￿que￿la￿gente￿piensa￿de
+ellos.
+La￿mayoría￿de￿la￿gente￿no￿está￿dispuesta￿a￿trabajar￿demasiado￿por￿las
+ideas￿políticas￿en￿las￿que￿cree.
+
+
+[Page 30]
+ 
+Las personas con una puntuación de 20 no se sentirán en absoluto eficaces
+políticamente, mientras que las personas con una puntuación de 4 se sentirán
+totalmente eficaces, siempre que respondan a todos los ítems. En medio estarán la mayoría de los entrevistados, y las puntuaciones varían entre el máximo
+y el mínimo mencionados. La valoración de las puntuaciones depende de los
+criterios del investigador.
+En realidad, reconocemos una variable por la capacidad que tiene de adoptar
+diferentes valores: la variable es un concepto traducido en términos empíricos.
+Un valor es la magnitud o la calidad de la variable que puede reflejar casos
+diferentes: treinta años es un valor de la variable edad, sesenta por ciento de
+participación es un valor de la variable participación electoral, mil euros es un
+valor de la variable salario mensual.
+Es necesario que este proceso de medición se refleje en las definiciones￿e￿hipótesis￿operacionales. Ya se ha explicado que, para el contraste empírico, habría que transformar los conceptos e hipótesis en definiciones e hipótesis operacionales o de trabajo.
+Las definiciones operacionales definen los conceptos de la investigación
+explicando cuáles son los procedimientos que deben usarse para medir
+el concepto, ya sea en variables simples o en unos cuantos indicadores.
+Las hipótesis de trabajo muestran las relaciones entre los valores de los
+indicadores de las variables.
+Una operacionalización correcta tiene que indicar paso a paso todo lo
+que hay que hacer en el proceso de medición de una variable. Es decir,
+hay que especificar el conjunto de operaciones y procedimientos que se
+tienen que seguir para obtener los indicadores empíricos.
+De este modo otros investigadores pueden utilizar, mejorar o criticar nuestra
+operacionalización. En el caso anterior, los procedimientos para obtener la
+edad y la participación electoral son relativamente sencillos: recoger los resultados de las preguntas sobre la edad y la participación electoral en las encuestas poselectorales del CIS. Una forma alternativa de medir esta relación sería
+coger el censo electoral y comprobar la edad de los que han ido a votar, pero
+esta estrategia (a pesar de que se ha usado en algún estudio oficial excepcional) es muy difícil de llevar a cabo en el Estado español por la regulación de
+la protección de datos.
+Respecto a definiciones e hipótesis operacionales, véase el
+apartado 2.5 de este módulo.
+
+
+[Page 31]
+El proceso de operacionalización implica tomar numerosas decisiones para
+seleccionar procedimientos, indicadores, instrumentos de medida y formas de
+hacer frente a los problemas de la investigación.
+Entre las decisiones más importantes que deberemos tomar respecto a
+las variables y los indicadores está la de determinar el nivel￿de￿medición.
+Hay varios niveles de medición y es importante conocerlos, porque solo con
+los niveles de intervalo y de razón se pueden hacer las operaciones matemáticas que permiten la mayoría de los análisis estadísticos, pero también porque
+tienen diferentes características que pueden ser interesantes para los objetivos
+de la investigación. Los niveles de medición son:
+1)￿Nominal
+Indican la cualidad de pertenencia o de diferencia, y permiten la clasificación
+y las tipologías. Un ejemplo de variable nominal es el sexo. Los individuos
+de un grupo humano se pueden clasificar en: 0, hombres, y 1, mujeres. Otro
+ejemplo es la confesión religiosa: 1, católicos; 2, protestantes; 3, judíos, y 4,
+musulmanes.
+Los valores asignados a cada grupo son solo "etiquetas" que sirven para diferenciarlos. En realidad no tienen ningún valor numérico, solo indican si un
+individuo pertenece a un grupo o a otro, la operación lógica de pertenencia.
+Con estos valores las operaciones aritméticas no tienen sentido. ¡Es absurdo
+decir que un judío es igual a un católico más un protestante!
+Las categorías de una variable nominal tienen que ser mutuamente exclusivas
+(es decir, los límites entre las diferentes categorías no deben solaparse) y, en
+conjunto, tienen que ser exhaustivas (es decir, ninguna de las unidades de
+análisis debe quedar sin valor o etiqueta).
+2)￿Ordinal
+Las variables medidas ordinalmente, además de la pertenencia de un individuo
+a una categoría, señalan las categorías que pueden ser ordenadas según la mayor o la menor presencia de un atributo o propiedad. Por ejemplo, la variable
+de clase social es una medida cualitativa ordinal. Las categorías 1, clase baja; 2,
+clase media, y 3, clase alta, se ordenan de forma que los valores más elevados
+indican que preceden en orden a los otros en posición en la clase social.
+Como en las variables cualitativas nominales, los valores en las variables ordinales no tienen un significado numérico y no pueden usarse para hacer operaciones matemáticas. Por eso, a la hora de caracterizar una variable ordinal
+
+
+[Page 32]
+no tiene sentido calcular una media (igual que no tiene en una variable nominal). Muchas de las escalas actitudinales utilizadas en cuestionarios y encuestas están medidas en escala ordinal. La diferencia en grado de acuerdo entre
+los encuestados que responden que están "muy de acuerdo" en que la policía
+hace un buen trabajo y los que dicen que solo están "de acuerdo" no es cuantificable: no sabemos si están el doble de acuerdo o un cincuenta por ciento
+más de acuerdo. A pesar de que a la hora de codificar se utilicen números, la
+escala mide solo de forma ordinal: ordena a los individuos en función de su
+grado de acuerdo.
+3)￿Numérico￿de￿intervalo
+En las variables numéricas medidas a escala de intervalo puede determinarse
+cuantitativamente la mayor o la menor presencia de una determinada propiedad o atributo en cada caso, pero desconocemos el punto de origen o cero
+(es decir, la ausencia total del atributo medido en la unidad de análisis). Esto
+implica que, a pesar de que estas medidas son numéricas, no podamos usar
+todas las operaciones matemáticas, sino solo la adición y la sustracción, pero
+no la multiplicación ni la división.
+Con frecuencia, para explicar las medidas ordinales se utiliza el ejemplo de la
+temperatura medida en grados Fahrenheit o Celsius. En estas medidas, el cero
+de la escala es arbitrario. Los cero grados Celsius corresponden a la temperatura
+de congelación del agua, que no se corresponde a la ausencia total de calor. Por
+otro lado, los cero grados Fahrenheit corresponden al punto de congelación
+de una mezcla de sal y de hielo. Ambas medidas son numéricas a escala de
+intervalo porque no tienen un valor de cero que corresponda con la ausencia
+de temperatura. Pueden compararse con la escala de temperatura absoluta de
+Kelvin, que tiene el cero en la ausencia total de temperatura y que, por lo tanto,
+es una escala numérica de razón en la que todas las operaciones matemáticas
+son válidas.
+Pensemos en esta diferencia entre las dos escalas: si en la calle hay 10 ºC de
+temperatura y en casa 20 ºC, podemos decir que en casa hay 10 ºC más que en
+la calle. Pero como el cero en la escala Celsius no es el cero absoluto, sino un
+valor arbitrario, no podemos decir que en casa hay el doble de temperatura que
+afuera. En la escala de temperatura absoluta de Kelvin, los 10 ºC de temperatura
+de la calle son 283 K: si en casa hubiera el doble de temperatura, habría 566
+K, es decir, ¡unos insoportables 293 ºC!
+Muchos índices de las ciencias sociales que se calculan a partir de combinar los
+valores de un conjunto de indicadores están en el nivel de medida numérica de
+intervalo. Por lo tanto, deberemos estar atentos a las limitaciones matemáticas
+que tienen estas medidas para no cometer errores metodológicos en el análisis
+de estas variables.
+
+
+[Page 33]
+4)￿Numérico￿de￿razón
+Dispone de todas las características de las variables numéricas a nivel de intervalo, pero además, tiene un valor cero que no es arbitrario, sino que refleja la
+falta completa del atributo que mide la variable. Con las mediciones de razón
+pueden hacerse todo tipo de operaciones matemáticas.
+Muchas de las variables que provienen de registros oficiales (registros censales,
+padrones municipales), y que hacen referencia a agregados, tienen este nivel
+de medida. Por ejemplo, el número de delitos, el porcentaje de población de
+clase baja o el porcentaje de inmigrantes. Todas estas variables están medidas
+a escala numérica de razón.
+No tiene importancia que, a escala de los individuos que forman el agregado,
+estas variables hayan sido medidas desde el punto de vista nominal u ordinal.
+Por ejemplo, el sexo es una variable nominal, pero cuando miramos el porcentaje de mujeres en diferentes regiones, la variable es numérica de razón.
+También hay variables individuales, como la edad o la renta, que son inmediatamente numéricas.
+Un mismo concepto teórico puede ser medido en diferentes niveles de medida, según el diseño de la investigación. Las operacionalizaciones de los conceptos son constructos analíticos que debemos evitar "reificar", es decir, tratar
+como objetos o como cosas dadas. Por ejemplo, la educación que hemos visto
+medida a escala ordinal (a partir del título educativo de más nivel que se ha
+conseguido) puede ser medida desde el punto de vista numérico (a partir de
+los "años de estudio" de los diferentes individuos).
+¿Cómo￿podemos￿saber￿el￿nivel￿de￿medición￿adecuada￿para￿las￿variables?
+Estableceremos una serie de reglas o pistas:
+1) Detectar, si hay, dimensiones subyacentes en las diferencias que se observan
+entre los casos. En este caso, pueden idearse medidas ordinales o de intervalo formadas por índices de las variables nominales que miden las diferentes
+dimensiones.
+2) Se tiene que intentar operacionalizar en el nivel de medida más alto posible
+para retener el máximo de información en los casos. Si en la fase de análisis
+es adecuado usar un nivel de medida inferior, es mucho más fácil pasar de
+un nivel de medida superior (numérico) a uno inferior (cualitativo) que al revés. El límite está en la capacidad de nuestros instrumentos de medida para
+enfrentarse a los diferentes fenómenos. Por ejemplo, querríamos saber, a un
+nivel cuantitativo, la renta preguntando directamente por los ingresos mensuales de la unidad familiar. Pero esto comporta muchos errores (mentiras), o
+no respuestas. Es decir, mucha imprecisión. Es mejor preguntar, por ejemplo,
+si la renta está por encima o por debajo de la renta media (tal como hace la
+
+
+[Page 34]
+encuesta internacional de victimización). Así, se tiene una medida dicotómica
+nominal, de un nivel de medida más bajo pero más preciso y, por lo tanto,
+más válido de la propiedad en la que estamos interesados.
+3.2. Los métodos y técnicas de investigación
+Una vez hemos hecho la formulación teórica (preguntas, hipótesis, conceptos)
+y hemos operacionalizado las variables, hay que diseñar un plan o estrategia
+para contrastar las hipótesis, la recogida de datos y el análisis. Para contrastarlas existen diferentes métodos de investigación, que expondremos brevemente a continuación. Para recoger y seleccionar datos hay que organizarlo todo
+de forma que no haya sesgos.
+De entrada, hay que aclarar los conceptos de diseño de la investigación, métodos y técnicas. El diseño￿empírico￿de￿la￿investigación es el término más
+global y ocupa todo este apartado. El diseño empírico incluye, por lo tanto, la
+operacionalización, la selección de los métodos de investigación que se tienen
+que emplear y la selección de los datos necesarios. También podemos añadir
+el tipo de análisis de datos que se utilizará. Los métodos￿de￿investigación
+son los métodos de inferencia científica a disposición del investigador, que
+varían según la forma de contrastar las hipótesis. A veces se habla indistintamente de métodos y técnicas, pero en realidad las técnicas￿de￿investigación
+son, más bien, procedimientos para recoger datos y no métodos de inferencia.
+Dentro de un método se pueden usar diferentes tipos de técnicas para extraer
+datos. Por ejemplo, dentro del método cuasiexperimental se puede emplear la
+entrevista en profundidad para medir el estado de la variable dependiente –
+un comportamiento– antes y después de la aplicación del estímulo. También
+en el método comparativo, si se agrupan datos de encuestas individuales se
+pueden extraer características de países.
+Para ampliar sobre los métodos de investigación, véase los
+módulos 3 y 4 de esta asignatura.
+Respecto al procedimiento de
+selección y recogida de información sin sesgos, véase el
+apartado 3.3 de este módulo.
+Se considera que hay cuatro métodos básicos de investigación dentro de las
+ciencias sociales: el experimento o cuasiexperimento, el estadístico, el comparativo y el estudio de casos.
+Estos métodos se diferencian en un aspecto básico: la forma en la que
+llevan a cabo el contraste de hipótesis, es decir, la manera como actúan
+en el análisis explicativo.
+Como ya se ha comentado, para encontrar explicaciones de los fenómenos
+es necesario determinar el efecto de las variables independientes sobre las dependientes. Sin embargo, no podemos saber el efecto de una variable independiente sin controlar el efecto que pueden tener otras independientes sobre
+la dependiente y sobre la primera independiente. Solo controlando,￿neutralizando￿o￿parametrizando (diferentes palabras para el mismo fenómeno) el
+efecto del resto de variables independientes se puede discernir la influencia
+El método histórico
+Respecto al método histórico
+podemos decir que no es un
+método en sí mismo porque,
+de hecho, en los estudios históricos se aplica la metodología propia del estudio de casos
+o del método comparado.
+
+
+[Page 35]
+real de una independiente sobre la dependiente. Controlar, neutralizar o parametrizar significa mantener un valor constante de la tercera variable y observar dentro de este valor si se mantiene o se altera la principal relación entre
+la variable independiente y la dependiente. Los métodos de investigación se
+diferencian en la forma y el grado de control de una tercera variable. Presentamos una tabla explicativa de estas diferencias:
+Método
+Grado￿de
+control
+Forma￿de￿control
+Experimento
+Muy alto
+Mediante el control de la aplicación de la variable independiente y el control de la composición idéntica del
+grupo experimental y de control:
+•
+La variable independiente se aplica solo al grupo experimental.
+•
+La variable dependiente se mide antes y después de la
+aplicación de la variable independiente al grupo experimental y se compara con la medición de la variable dependiente del grupo de control en los mismos
+periodos de tiempo.
+Método estadístico
+Medio
+Mediante técnicas estadísticas que consiguen mantener constantes los valores de la tercera variable independiente:
+•
+Tablas de contingencia en el caso de variables cualitativas.
+•
+Análisis de regresión en el caso de variables cuantitativas.
+Método comparado
+Alto
+Mediante una cuidada selección de los casos de modo
+que los valores de la variable independiente se puedan
+mantener constantes:
+•
+Método de la diferencia, que compara sistemas similares: se seleccionan países o sistemas idénticos en
+la mayoría de las variables independientes, excepto
+una, que se considera la explicativa. La variable dependiente también varía.
+•
+Método de la concordancia, que compara sistemas
+diferentes: los países o sistemas presentan características diferentes, pero se asemejan a la variable dependiente. Se busca la variable independiente común
+que sea explicativa.
+Estudio de casos
+Bajo
+Cuando son estudios de un caso no se puede establecer ningún tipo de control sobre terceras variables, pero
+cuando se estudian varios casos (por ejemplo, mediante
+las entrevistas en profundidad, la observación y los grupos de discusión) se suele hacer una selección muestral
+según variables diferentes que pueden actuar de control
+explicativo.
+ 
+ 
+En los dos primeros casos de la tabla, la cantidad de casos (o unidades de análisis) en la que se basa la investigación es elevada. Esto permite centrarse en las
+relaciones entre las variables (que son propiedades o atributos de los casos). Esta es la característica definitoria de los estudios cuantitativos: los casos tienden
+a ser solo el "lugar" o "sustrato" donde se "manifiestan" las variables o atributos
+y tienden a no ser interesantes por sí mismos, en el límite son prescindibles.
+Las diferencias se analizarán en
+más detalle en el módulo 3 de
+esta asignatura.
+
+
+[Page 36]
+El ejemplo más claro de este punto de vista es en las ciencias naturales, donde
+las variables como la masa o la velocidad son completamente independientes
+de donde estén medidas: no importa nada si se trata de una manzana o de
+un satélite. Las fórmulas de las leyes de la física muestran relaciones entre
+variables que son aplicables válidamente a todos los casos.
+En los estudios de las ciencias sociales esto ya no es sostenible, porque se es
+consciente de que se tratan unos tipos de fenómenos más complejos. Siempre
+hay un espacio para que variables no medidas o tenidas en cuenta en los casos
+afecten al fenómeno que estamos estudiando en los individuos y los grupos
+sociales. Esta es la razón por la que los estudios sociales son esencialmente
+probabilísticos, más que determinísticos (como sucede o sucedía en las ciencias
+naturales).
+En el otro extremo de la tabla, los estudios de caso (y los estudios históricos)
+se centran en los casos y en las configuraciones específicas de las diferentes
+variables de estos casos. Estos son los métodos eminentemente cualitativos. El
+método comparado está en una situación intermedia entre los métodos cualitativos y los cuantitativos. Se usa cuando existe una cantidad elevada de casos,
+pero no puede prescindir de la especificidad de estos métodos sin perder un tipo de información relevante respecto a los fenómenos que queremos estudiar.
+3.3. La selección y la recogida de datos
+Como decíamos antes, en el diseño de la investigación es fundamental recoger
+la información de las hipótesis y estructurarla en unidades, variables y observaciones. Además, hay que determinar los niveles de observación y de análisis
+y hacer una correcta selección de los casos (cuántos y cuáles).
+Por lo tanto, por un lado, los datos se estructuran en unidades￿de￿análisis (son
+los tipos de objetos cuyas propiedades se quieren estudiar; por ejemplo, países),
+variables (propiedades de las unidades de análisis que varían de una unidad
+a otra; por ejemplo, el índice de desigualdad social) y observaciones (cada
+uno de los valores concretos de cada variable en cada unidad; por ejemplo, en
+España el valor del índice es 5 mientras que en Estados Unidos es 7,5). Por el
+otro, la investigación se puede hacer siguiendo diferentes niveles￿de￿análisis y
+eligiendo diferentes niveles￿de￿observación. Por ejemplo, el nivel de análisis
+puede ser individual pero los niveles de observación pueden ser colectivos o
+sistémicos, si nos interesa la influencia de los contextos o de las instituciones
+en el comportamiento o las actitudes individuales.
+Lectura obligatoria
+E.￿Anduiza;￿I.￿Crespo;￿M.
+Méndez (2009). "Las estrategias". En: Metodología de la
+Ciencia Política (cap. 3, págs.
+55-78) (2.ª ed. revisada). Madrid: CIS ("Cuadernos Metodológicos", núm. 28).
+Una vez definidas las unidades de análisis y de observación, tenemos que seleccionar el número de unidades o casos y definir qué unidades o casos incluiremos en nuestro análisis. El número￿de￿casos depende de la magnitud del
+universo, del número de variables que se quiere analizar, del objetivo de la investigación (descriptivo o explicativo), de si las variables varían a lo largo del
+tiempo y de la intención de evitar la indeterminación (más variables que uniLas decisiones sobre la selección de casos y variables se
+analizarán en más detalle en el
+módulo 2 de esta asignatura.
+
+
+[Page 37]
+dades de análisis). Respecto a qué￿unidades seleccionaremos para el estudio,
+hay que evitar que la selección se base en combinaciones de variables explicativas y variables dependientes que confirmen de forma sistemática nuestras
+hipótesis, es decir, tenemos que intentar buscar muestras￿no￿sesgadas.
+3.4. El análisis de datos
+El tipo de análisis de los datos depende del tipo de datos que hemos
+obtenido, de los objetivos de la investigación, de los métodos empleados
+y de las relaciones que existen entre las variables.
+Según si las variables son nominales, ordinales o numéricas, podremos hacer
+un tipo de análisis estadístico u otro. Si el objetivo de la investigación es la
+explicación y las hipótesis son explicativas, aplicaremos un tipo de análisis
+diferente a si el objetivo es la descripción. Si la relación entre las variables es
+lineal, podremos emplear un tipo de análisis que no se puede aplicar a relaciones curvilíneas o no lineales en general. Igualmente, si se ha empleado el
+método comparativo, el análisis más adecuado será diferente al análisis más
+adecuado si hemos utilizado cuasiexperimentos.
+En todo caso, antes de pasar al análisis de los datos propiamente dicho, hay
+que describir y presentar siempre los datos de forma gráfica y tabular.
+Respecto al análisis de datos,
+véase con más detalle el módulo 3, apartado 4 de esta
+asignatura.
+
+
+[Page 38]
+4. Anexo. Temas actuales en macrosociología
+comparativa
+John H. Goldthorpe (2000). On Sociology: Numbers, Narratives and the Integration of Research and Theory (cap. 3, págs. 45-65). Oxford: Oxford University
+Este￿capítulo￿es￿una￿versión￿revisada￿y￿ampliada￿de￿la￿lección￿magistral
+en￿memoria￿de￿Vilhelm￿Aubert￿de￿1993,￿impartida￿en￿la￿Universidad￿de
+Oslo.￿En￿primer￿lugar￿fue￿publicada￿en￿Comparative￿Social￿Research￿(1997,
+16).￿Para￿la￿información,￿consejos￿y￿observaciones￿críticas￿de￿borradores
+previos,￿doy￿mis￿agradecimientos￿a￿Anne￿Gauthier,￿Andrew￿Hurrell,￿Olli
+Kangas,￿Philip￿Kreager,￿John￿Stephens,￿Laurence￿Whitehead￿y￿Timothy
+Wickham-Crowley.
+En este capítulo intento tomar parte en lo que, de hecho, es un debate que
+ya hace bastante tiempo que existe dentro de la macrosociología comparativa,
+pero que parece que últimamente ha adquirido una nueva fuerza. Las partes
+enfrentadas en este debate están a menudo caracterizadas, por un lado, como
+exponentes de metodologías cuantitativas, "orientadas a las variables", y por el
+otro, como metodologías cualitativas, "orientadas a los casos" (ver, por ejemplo, Ragin, 1987; Rueschemeyer, 1991; Janoski y Hicks, 1994). De todos modos, debo indicar que mientras los temas tratados en los intercambios prolongados y complejos que han tenido lugar sí incluyen otros más importantes,
+la forma que ha tomado el debate no ha sido particularmente de ayuda a la
+hora de subrayar cuáles son estos temas ni de señalar maneras en las que se
+podrían abordar de forma más eficaz.
+Quiero desarrollar mi postura del modo siguiente. Para empezar, doy cuenta
+brevemente del contraste o la oposición que se ha establecido entre los enfoques orientados a las variables y los orientados a los casos. Prosigo mi argumentación central considerando tres problemas metodológicos bastante conocidos que se encuentran en la práctica de la macrosociología comparativa.
+Estos problemas, de hecho, ya se han discutido sobre todo en relación con la
+investigación orientada a las variables. Ahora bien, tengo por objetivo mostrar
+que están presentes en no menos grado en los estudios orientados a los casos, y
+contrariamente a lo que han sostenido o insinuado varios autores prominentes, los segundos no pueden reclamar ninguna ventaja especial cuando se enfrentan a los primeros. Para concluir, teniendo en cuenta las ideas equivocadas
+en este aspecto, las discusiones recientes han tendido a oscurecer y desviar la
+atención de preguntas de método con las que la macrosociología comparativa
+ahora se tendría que implicar más activamente –sea en el estilo que sea1.
+(1)Hay que decir que esta discusión
+a menudo ha acabado con una nota eirénica, enfatizando la naturaleza complementaria de trabajo
+cuantitativo y cualitativo y la necesidad de "construir puentes" entre
+ellas. De este modo, este capítulo
+puede parecer desatento y contrario al espíritu imperante de pluralismo metodológico. Ahora bien,
+a mí me parece, por razones que
+se aclararán, que a menudo, tras la
+retórica de pluralismo, se propone
+una alianza colaboradora en términos que, de hecho, están indebidamente sesgados a favor del enfoque orientado a los casos.
+
+
+[Page 39]
+Enfoques￿orientados￿a￿las￿variables￿y￿orientados￿a￿los￿casos
+El enfoque orientado a las variables por la macrosociología comparativa procede de una propuesta ahora famosa hecha por Przeworski y Teune (1970, cap.
+1; cf. Zelditch, 1971, págs. 269-273) que dice que el último objetivo del trabajo
+en este campo debería consistir en sustituir los nombres propios de las naciones (o de los estados o culturas) por los nombres de variables. Przeworski y
+Teune primero ilustran la lógica que recomendarían con ejemplos como los
+que vienen a continuación. Los índices de ataque de corazón son más bajos en
+Japón que en Estados Unidos. Sin embargo, al buscar una explicación no llegamos muy lejos tratando los diferentes índices simplemente como fenómenos "japoneses" o "estadounidenses". Más bien tenemos que olvidarnos de los
+nombres propios –o adjetivos– e introducir variables generalmente aplicables:
+es decir, variables en las que cada nación puede recibir un valor comparable.
+De este modo, en el supuesto que tratamos, una variable de este tipo podría
+ser "el consumo per cápita de grasa polisaturada".
+Przeworski y Teune entonces continúan avanzando para poder proporcionar
+más ilustraciones de su posición extraídas de las ciencias sociales; y, a día de
+hoy, se podría, de hecho, incrementar todavía más estos programas de investigación enteros en sociología –y ciencias políticas– que esencialmente siguen
+el enfoque que predican. Como caso paradigmático, se puede tomar la investigación que tiene por objetivo explicar diferencias entre naciones en la medida y la forma institucional de los estados del bienestar (para análisis, véase
+Quadagno, 1987; O'Connor y Brym, 1988). En esta investigación, los nombres
+de las naciones son típicamente "sustituidos" por variables como "PIB per cápita", "proporción de población que supera los 65", "grado de centralización
+sindical", "proporción de partidos de izquierda en el gobierno"... Es decir, son
+las variables independientes, en relación con las cuales hay que "justificar"
+las variables dependientes: aspectos que, más allá de la nacionalidad, difieren
+de la provisión de bienestar. Las relaciones que prevalecen entre las variables
+dependientes e independientes se investigan estadísticamente, por medio de
+varias técnicas de análisis multivariadas.
+Con vistas a propósitos presentes, es importante reconocer contra qué Przeworski y Teune definían su posición. Y todavía más importante, buscaban poner en entredicho la afirmación "historicista" según la cual cualquier intento de hacer comparaciones macrosociológicas tiene que fracasar en principio
+porque las diferentes sociedades nacionales son sui generis: es decir, son entidades únicamente formadas por su historia y cultura, que solo pueden ser estudiadas, por hablar de algún modo, por derechos propios y a su manera2. Por
+oposición a esto, Przeworski y Teune señalan que la comparabilidad y la no
+comparabilidad no son propiedades inherentes de las cosas: que la comparación significativa sea posible o no es completamente una cuestión de los conceptos analíticos que tenemos a disposición. Así, las manzanas y las naranjas
+pueden parecer no comparables –pero solo hasta que tenemos el concepto de
+"fruto" (cf. Sartori, 1994). A la vez, sin embargo, Przeworski y Teune insisten
+(2)Historicista se utiliza aquí en el
+sentido que se puede describir como el sentido de Meinecke más
+que el sentido de Popper.
+
+
+[Page 40]
+en que si se acepta la postura historicista, entonces se deriva que una macrosociología comparativa queda descartada. Si se pueden estudiar las naciones
+solo como entidades por sí mismas que no permitirán ningún tipo de descomposición analítica –si, en otras palabras, las naciones solo se pueden estudiar
+"holísticamente"–, entonces no se pueden llevar a cabo comparaciones. Consideradas como un todo, las naciones son únicas, y la "comparación holística"
+es, por lo tanto, imposible. Tal como Zelditch (1971, pág. 278) señaló:
+"No hay nada en la Tierra como los Estados Unidos (o navajos o esquimales...) tomados
+como un todo. Por lo tanto, la regla del holismo [en trabajo comparativo] tiene que
+admitir una clara contradicción: solo las cosas incomparables son comparables".
+De todos modos, si el enfoque orientado a las variables se desarrolló, así, de
+una crítica del holismo, el enfoque orientado a los casos a menudo se toma
+para representar un resurgimiento del holismo, y sin duda uno dirigido contra el tipo de reduccionismo analítico del que Przeworski y Teune serían partidarios. De este modo, por ejemplo, Ragin (1991, págs. 1-2) lo consideraría
+como la raison d'être de estudios de caso que permiten un regreso al holismo
+en investigación comparativa: es decir, permiten que las naciones, u otras unidades macrosociales, sean consideradas como "todos significativos" en vez de
+que sirvan simplemente como bases en las que "poner fronteras en torno a la
+medición de variables".
+Ahora bien, hay que prestar atención a que el holismo que Ragin y los demás
+contraponen a análisis multivariados no es tan radical como puede parecer
+de entrada. Los estudios de caso se consideran la única manera de que las entidades macrosociales pueden ser tratadas en sus contextos históricos, en su
+propio detalle y como cada constituyente, como Skocpol y Somers (1980, pág.
+178) lo plantean: "una configuración sociohistórica compleja y única". Ahora
+bien, esto resulta en que no implica un historicismo de tipo bastante minucioso, que negaría la validez de cualquier concepto que se formara para trascender casos particulares (cf. Skocpol 1994, págs. 328-329). Todavía se considera permisible "abstraer" de diferentes casos algunas de sus "características"
+o "atributos", que entonces se pueden comparar por propósitos teóricos. En
+otras palabras, las variables están identificadas, si bien a veces detrás de una
+pantalla de humo verbal. Donde entra el holismo es en la insistencia en que,
+en cualquier comparación, siempre debería preservarse la unidad de los casos
+particulares involucrados. Lo que hace falta es que, en el proceso de comparación, los casos siempre se mantengan identificables como tales, más que se
+descompongan en variables que entonces se interpretan solo en el decurso de
+análisis simultáneos de toda la muestra de casos bajo investigación.
+
+
+[Page 41]
+Al perseguir las comparaciones holísticas, en este sentido, exponentes del enfoque orientado a los casos parecen haber encontrado su inspiración metodológica principal en la lógica de John Stuart Mill (1843/1973-4): específicamente, en los "cánones" o reglas de inducción experimental de Mill –el "método de
+acuerdo", el "método de diferencia", etc.; véase, por ejemplo, Skocpol, 1979,
+págs. 36-37; 1984, págs. 378-381; Skocpol y Somers, 1980, págs. 183-184; Ragin, 1987, págs. 36-42). Siguiendo a Mill, se cree que cada caso incluido en una
+investigación comparativa se puede considerar que representa la presencia o
+ausencia de un fenómeno determinado de interés –es decir, cada caso se puede
+considerar como un experimento "que sucede naturalmente" relacionado con
+este fenómeno. Las conclusiones en relación con la causalidad del fenómeno
+se pueden sacar si consideramos qué otras características están concomitantemente presentes o ausentes, y a su vez aplicando las reglas lógicas de Mill al
+conjunto de comparaciones resultantes. De este modo, Skocpol, en su muy
+conocido estudio de revoluciones sociales (1979), intenta explicar sus resultados comparando casos nacionales, por un lado, en términos de si los intentos
+revolucionarios triunfaron o no, y, por el otro, en términos de la presencia o
+ausencia de lo que toma como factores probablemente determinantes: es decir, características diversas de la economía agraria y de la estructura de clase,
+presiones internacionales, crisis políticas internas y cosas así.
+Puede parecer que tanto en la comparación multivariada como en la comparación lógica el objetivo sea, en efecto, "controlar la variación" en la realización
+de inferencias causales –por lo tanto, al fin y al cabo, ambos enfoques no son
+tan diferentes. Y, verdaderamente, la aplicación de los métodos de Mill en la
+comparación de casos ha sido a menudo representada ella misma como una
+forma de análisis multivariado (por ejemplo, Smelser, 1976, cap. 7; Skocpol y
+Somers, 1980, págs. 182-183; Dogan, 1994, págs. 35). Sin embargo, tal como
+otros comentaristas han señalado (por ejemplo, Lieberson, 1992, 1994), hay
+una diferencia bastante fundamental. Las diversas formas de análisis multivariado utilizadas en trabajo cuantitativo son técnicas estadísticas y las propuestas que originan son, por lo tanto, probabilísticas: se basan en asociaciones o
+correlaciones que no hace falta que sean perfectas. Por contraste, los métodos
+propuestos por Mill, de carácter lógico, implican propuestas de tipo determinista: implican relaciones que son completamente invariantes. Tal como veremos más adelante, esto es una diferencia importante y, en efecto, pasarla por
+alto es abandonar un desarrollo capital en la historia del análisis sociológico:
+que, durante el siglo XIX y principios del XX, vio como la sociología pasaba a
+formar parte de "la revolución probabilística" (ver Krüger y otros, 1987a; Krüger y otros, 1987b; y el capítulo 12 de más abajo).
+La distinción entre enfoques orientados a las variables y los orientados a los
+casos es, entonces, significativa. Captura una divergencia importante en estilos
+preferidos de investigación macrosociológica comparativa y más allá, se puede
+sospechar, en asunciones básicas sobre el carácter de los fenómenos sociales.
+Ahora bien, yo discutiría que centrarse en esta distinción no proporcionará
+la clave en sí misma para una comprensión de los problemas metodológicos
+Lectura complementaria
+Si Skocpol aplica en la práctica los cánones de Mill adecuadamente o no es un tema controvertido. Véase,
+por ejemplo, Nichols (1986),
+Skocpol (1986), Ragin (1987,
+págs. 38-42), Burawoy (1989)
+y Lieberson (1992). Aun así,
+tal como saldrá más adelante, este tema queda eclipsado
+por otros mucho más serios.
+
+
+[Page 42]
+más marcados que surgen mientras se dirige esta investigación; tampoco es
+probable que los intentos de combinar o sintetizar los dos enfoques hagan
+la contribución principal para superar estos problemas, dado que, de hecho,
+confrontan ambos enfoques igual. Intento corroborar este debate en relación
+con lo que ahora se puede etiquetar como (1) el problema de la N pequeña;
+(2) el problema de Galton; (3) el problema de la caja negra.
+El￿problema￿de￿la￿N￿pequeña
+El problema de la N pequeña nace del hecho de que si las naciones u otras
+entidades macrosociales se toman como unidad de análisis, el número disponible para el estudio probablemente será bastante limitado. Cuando los individuos son las unidades, las poblaciones se pueden probar para dar N de varios
+centenares o miles; pero cuando las naciones son las unidades, la N no puede
+superar de mucho un centenar, incluso si se toman todos los casos disponibles,
+y a menudo es mucho menos. Cuando se aplican las técnicas de análisis multivariado, tienden a surgir serias dificultades porque N no es mucho mayor que
+el número total de variables involucradas. Estadísticamente, esto significa que
+hay demasiados pocos grados de libertad, que los modelos se vuelven "sobredeterminados", que no se puede tratar adecuadamente con las intercorrelaciones entre variables independientes y que los resultados no pueden ser sólidos.
+Por extensión, significa que las explicaciones de la variable dependiente que
+compiten pueden no estar abiertas a ninguna evaluación decisiva. Por lo tanto,
+recientemente se ha reivindicado (Huber y otros, 1993) que, solo por estas razones, el programa de investigación en las determinantes de la provisión de
+bienestar estatal –en que han sido típicos los análisis basados en un máximo
+de unas veinte naciones– por ahora ha alcanzado un punto muerto virtual. Las
+teorías que favorecen diferentes grupos de determinantes pueden reivindicar
+grados similares de apoyo estadístico3.
+(3)Sin querer negar la fuerza del
+punto general que se quiere hacer entender, se puede poner en
+entredicho si la ilustración sugerida es, de hecho, la más apta. Una
+buena parte del conflicto visible en
+los resultados de la investigación
+del estado del bienestar parecería
+quedar resuelta cuando se reconocieran las diferentes comprensiones de la variable dependiente: por
+ejemplo, si esto se toma como la
+cantidad de gasto de bienestar social o como el alcance y calidad de
+los derechos sociales en el bienestar
+(ver Korpi, 1989).
+El problema de la N pequeña es, por lo tanto, real y problemático. Sin embargo, lo que desearía cuestionar son sugerencias sobre el hecho de que se trata
+de un problema específico del enfoque orientado a las variables de la macrosociología comparativa y que el enfoque orientado a los casos, de una forma u
+otra, permite que se resuelva o se trampee. De manera muy explícita, Skocpol
+(1979, pág. 36; cf. Rueschemeyer, 1991, págs. 27-28, 32-34) ha sostenido que
+la aplicación de los métodos "dispuesta" por Mill "es claramente apropiada para desarrollar explicaciones de fenómenos macrohistóricos" cuando surge el
+problema de la N pequeña; es decir, "cuando hay demasiadas variables y faltan
+casos4".
+Esta reivindicación exige un comentario de varios aspectos. Para empezar, no
+queda claro si Skocpol se da cuenta de que el propio Mill (1843/1973-4: esp.
+Bk. VII, cap. 7) se afanó a explicar que sus reglas de inducción, siendo desa-
+(4)Se puede observar que mientras Skocpol invoca directamente
+a Mill, Rueschemeyer se refiere a
+Mill en una ocasión: es decir, por
+medio de la noción de Znaniecki (1934) "de inducción analítica",
+que, aun así, Rueschemeyer desearía ver desarrollada más allá de su
+dependencia del método de acuerdo (1991, pág. 36, núm. 12). En
+el contexto presente es de especial interés que Znaniecki contraste la inducción analítica con la "inducción enumerativa", basada en
+la teoría de la probabilidad, y afirme que, como la primera es capaz
+de proporcionar conocimiento exhaustivo de la situación estudiada,
+la segunda pasa a ser superflua.
+
+
+[Page 43]
+rrolladas para el uso en las ciencias experimentales, no eran adecuadas para
+el estudio de fenómenos sociales, y que si se utilizaban, sería probable que
+se demostrara que eran inconclusivas o bien incluso engañosas. En cualquier
+caso, Skocpol no consigue tener en cuenta lo suficiente algunas asunciones de
+las que dependen los métodos de Mill, pero varios críticos han seguido a Mill
+en la observación (por ejemplo, Nichols, 1986; Lieberson, 1992) de que pocas
+veces son asunciones justificables en la investigación social. Por ejemplo, la
+lógica de Mill presupone que, en cualquier análisis, todos los factores causales
+potenciales se pueden identificar e incluir –es decir, que no existen "variables
+no medidas"; y además, que no hay causalidad múltiple (o "plural") ni tampoco ninguna interacción entre factores causales5.
+A la vez, sin embargo, Skocpol es muy consciente de que los cánones de Mill
+están pensados para conducir a proposiciones causales de un tipo determinista
+–y no parece muy molesta por este hecho (ver también Skocpol, 1984, pág.
+378). Por consiguiente, su argumento podría parecer que llega hasta esto: que,
+en circunstancias en las que hay demasiados pocos casos para la evaluación
+satisfactoria de teorías probabilísticas, las determinísticas pueden aun así establecerse. Sin embargo, para aceptar esta posición, hay que advertir, se debe
+estar a punto para creer no solo que el mundo social está sujeto a la teoría determinista más que es inherentemente probabilístico. Se tiene que creer además que se pueden obtener datos sociohistóricos de una calidad y plenitud
+tales, tan perfectos, que ni siquiera se requiere un enfoque probabilístico para
+los propósitos de relacionar estos datos con la teoría (determinista) (cf. Lieberson, 1992, págs. 106-107; King y otros, 1994, págs. 59-60). Sospecho que la
+mayoría de sociólogos, reflexionando un poco, encontrarían como mínimo
+esta segunda implicación mucho más decepcionante que el problema de la N
+pequeña en sí mismo6.
+(6)Se puede encontrar sorprendente que unos fuertes compromisos "positivistas" se mencionen dentro del campo cualitativo. Sin embargo, en el capítulo anterior he hecho entender que Skocpol y otros "distinguidos sociólogos históricos" se ven, en efecto, obligados por su dependencia de obras secundarias como principal recurso empírico a adoptar una actitud claramente positivista hacia la historiografía y, en particular, hacia la naturaleza de los "hechos" históricos. Además, Burawoy ha observado agudamente que la
+dependencia de Skocpol de la lógica inductiva igualmente pone límites a las dudas que
+puede permitirse sobre cuáles son los hechos históricos. Para Skocpol, remarca (Burawoy,
+1989, pág. 773), "los hechos tienen una cierta obviedad que no tienen para los historiadores" y presta poca atención a las controversias: "Se ve empujada en esta ceguera para
+hacer volar su máquina inductiva". Se puede observar que una inclinación similar por los
+informes inductivos y deterministas se puede encontrar entre exponentes de los estudios
+de caso de tipo microsociológico –o entre los que siguen la tradición de "Chicago" o "la
+interaccionista simbólica". Véase, por ejemplo, las declaraciones muy explícitas hechas
+respecto a esto por H. S. Becker (1992, pág. 212) y también la discusión de más adelante
+en este capítulo.
+Se han llevado a cabo varios intentos con el objetivo de desarrollar el análisis
+lógico de números relativamente pequeños de casos para superar algunas de
+las limitaciones más obvias de los métodos de Mill en el contexto de la investigación social. En esta conexión es quizás muy notable la técnica de "análisis comparativo cualitativo" (ACC) que propone Ragin (1987), que se basa en
+el álgebra booleana. La técnica tiene por objetivo aligerar el problema de la
+(5)Mill presentó sus cánones en el
+libro III de A System of Logic, que
+se titula "De inducción". Primero
+se formulan en el capítulo VIII, "Of
+the Four Methods of Experimental Inquiry". Su tratamiento de la
+ciencias "morales", es decir, sociales, es bastante separado, y aparece en el libro VI, "On the Logic of
+the Moral Sciences". Sus opiniones
+sobre la inconveniencia de métodos de inducción experimental en
+este contexto se encuentran principalmente en el capítulo VII. Para comentarios brillantes, véase
+Ryan (1970). La discusión de Skocpol sobre los problemas de aplicar
+los métodos de Mill es muy breve (1979, págs. 36-40), y su crítica (1994, pág. 338) a Lieberson
+(1992) solo indica que no ha conseguido captar la fuerza de su argumento. Rueschemeyer no reconoce las poderosas críticas que se
+han hecho de la inducción analítica de Znaniecki –clásicamente, por
+W. S. Robinson (1951).
+
+
+[Page 44]
+N pequeña permitiendo que se saquen conclusiones del máximo número de
+comparaciones que se pueden hacer, en términos de la presencia o ausencia de
+atributos de interés, entre los casos analizados. Y, a la vez, permite –en efecto,
+queda dirigido hacia– el análisis de causalidad múltiple y efectos interactivos.
+Así, Ragin (1994b, pág. 328) sostiene que, mientras que un ejercicio de regresión con, por ejemplo, siete variables independientes y solo dieciocho casos
+generalmente sería considerado como poco fidedigno, el ACC permitiría el
+examen de las 128 (por ejemplo, 27) combinaciones de las condiciones causales involucradas: es decir, que, de hecho, permitiría que el análisis se ocupara
+de un grado de complejidad causal mucho más allá del alcance de la regresión.
+(7)Se puede encontrar sorprendente que unos fuertes compromisos "positivistas" se mencionen dentro del campo cualitativo. Sin embargo, en el capítulo anterior he hecho entender que Skocpol y otros "distinguidos sociólogos históricos" se ven, en efecto, obligados por su dependencia de obras secundarias como principal recurso empírico a adoptar una actitud claramente positivista hacia la historiografía y, en particular, hacia la naturaleza de los "hechos" históricos. Además, Burawoy ha observado agudamente que la
+dependencia de Skocpol de la lógica inductiva igualmente pone límites a las dudas que
+puede permitirse sobre cuáles son los hechos históricos. Para Skocpol, remarca (Burawoy,
+1989, pág. 773), "los hechos tienen una cierta obviedad que no tienen para los historiadores" y presta poca atención a las controversias: "Se ve empujada en esta ceguera para
+hacer volar su máquina inductiva". Se puede observar que una inclinación similar por los
+informes inductivos y deterministas se puede encontrar entre exponentes de los estudios
+de caso de tipo microsociológico –o entre los que siguen la tradición de "Chicago" o "la
+interaccionista simbólica". Véase, por ejemplo, las declaraciones muy explícitas hechas
+respecto a esto por H. S. Becker (1992, pág. 212) y también la discusión de más adelante
+en este capítulo.
+Ragin proseguiría argumentando que, por su naturaleza, el ACC permite que
+el macrosociólogo combine análisis con holismo por el hecho de que nunca se
+tienen que perder de vista las características claras de casos particulares. Aun
+así, a pesar de que esto puede ser así, todavía es de alguna forma engañoso
+que Ragin represente el ACC como una síntesis de los enfoques orientados a
+las variables y orientados a los casos dado que, tal como él reconoce (1994b,
+págs. 305-306), el ACC continúa teniendo, no menos que los métodos de Mill,
+un carácter completamente lógico y no estadístico. Y, por lo tanto, sí todavía
+comparte con el segundo la desventaja mayor de ser incapaz de hacer ninguna concesión sea por "variables que faltan" o por errores en la información
+utilizada.
+Además, con el ACC estas desventajas se combinan con dos evidentes debilidades más de la técnica: su requisito de que todas las variables sean tratadas
+como si solo tuvieran dos valores; y su alto grado de sensibilidad a la forma
+en la que cada caso está codificado en cada variable. Así, donde están involucradas esencialmente variables continuas, como el "PNB per cápita" o "proporción de población que supera los 65 años", estas tienen que ser reducidas (naturalmente, con mucha pérdida de información) a dicotomías más o menos
+arbitrarias; y todos los resultados subsiguientes, entonces, serán fuertemente
+dependientes de la forma en la que se asignan los casos particulares. Si, por
+error en los datos originales, o en su tratamiento, un único caso resulta quedar
+situado al lado "erróneo" de la dicotomía, el análisis muy bien podría tener
+un resultado muy diferente del que se habría podido lograr si no se hubiera
+
+
+[Page 45]
+cometido este error. En una aplicación de ACC, debería advertirse, las variables
+independientes simplemente se muestran como causalmente pertinentes –o
+no; no hay, ni se puede hacer, ninguna valoración de los puntos relativamente
+fuertes de efectos diferentes o de combinaciones de efectos8.
+(8)Como ilustración en el punto crítico hecho aquí, se puede coger la aplicación del ACC
+de la que habla Kangas (1994) en el contexto de un estudio comparativo de la calidad de
+la provisión de seguro de salud. Por medio de un reanálisis de los datos dados en la tabla
+14.2 de su escrito, es posible mostrar que el resultado al que Kangas llega –esta provisión
+de alta calidad (en 1950) se asocia con una fuerte Democracia Cristiana en combinación
+con un bloque unificado de partidos políticos burgueses, pero no con el nivel de movilización de la clase trabajadora– se invierte crucialmente cuando se codifica la variable
+dependiente en un único caso, al límite, el de Suiza, y en las soluciones particulares que
+se adoptan a los problemas de casos contradictorios y de combinaciones que faltan de
+variables explicativas que regularmente surgen con el ACC. Si estos problemas reciben un
+tratamiento diferente, pero igualmente defendible, y Suiza es tomada como si tuviera una
+provisión alta más que baja, que parecería ciertamente discutible (ver también Kangas,
+1991), el resultado de todo el análisis cambia muy significativamente. Ahora, de hecho,
+todo lo que importa es la fuerza de la Democracia Cristiana, y la unidad de fragmentación
+de los partidos burgueses se une al nivel de movilización de la clase trabajadora como
+un factor bastante irrelevante. Kangas, tengo que dejar claro, es consciente del problema
+del ACC demostrado aquí; el propósito principal de su escrito es comparar los resultados
+que obtiene del ACC con los que derivan de enfoques analíticos diferentes en el mismo
+problema y datos.
+En definitiva, el hecho de que el ACC se mantenga como una técnica lógica
+significa que sus resultados están mucho más expuestos a una distorsión más
+elevada, tanto por dificultades en la selección de variables independientes (cf.
+Amenta y Poulsen, 1994) como por la aparición de errores en los datos, que
+son resultados derivados de las técnicas estadísticas. Y si, entonces, el ACC sí
+marca cualquier adelanto significativo en el tratamiento del problema de la N
+pequeña como, por ejemplo, Skocpol ha sostenido recientemente (1994, pág.
+309), debe mantenerse abierto a dudas muy serias9.
+(9)Skocpol principalmente basa su defensa en el trabajo de Wickham-Crowley (1992). Aun
+así, las aplicaciones del ACC de este autor revelan exactamente las mismas dificultades
+que las encontradas en el caso discutido en la nota anterior. Así, su análisis de factores
+causales en la ayuda de los campesinos en los movimientos de guerrilla en América Latina
+se convierte de forma crucial en determinadas codificaciones que, tal como él mismo reconoce, son altamente dudosas en materia de problemas de datos. Los lectores a quienes
+guste el álgebra booleana pueden descubrir por ellos mismos qué les pasaría a las conclusiones de Wickham-Crowley si (aceptando su forma de tratar con los problemas de casos
+contradictorios y combinaciones que faltan de variables explicativas) se cambiaran solo
+algunos de estos códigos: si, por ejemplo (ver su tabla 12.1, 1992, pág. 306) códigos positivos más que negativos se dieran en Cuba (Las Villas) en factor B (interrupción agraria)
+y en Guatemala (Zacapa) en el factor D (vínculo de campesino); o –de forma todavía más
+dramática– si, además, los códigos positivos del factor D también se dieran en Nicaragua
+(rural en el norte y en el centro y pueblos en el norte y en el oeste).
+Lo que por encima de todo hay que reconocer es que au fond el problema de la
+N pequeña no es en absoluto de método sino de datos: más concretamente, es
+un problema de información insuficiente relativa a la complejidad de los temas
+macrosociológicos que intentamos tratar. Así, si exponentes como el enfoque
+orientado a los casos eligen en efecto de restringirse a ellos mismos a las N
+pequeñas, es poco probable que nunca eviten las dificultades de "demasiadas
+variables e insuficientes casos" o, como dicen King, Keohane y Verba (1994,
+pág. 119), "más conclusiones que implicaciones observadas" –sin importar si
+recurren a la lógica de Mill, el álgebra booleana u otros sistemas técnicos que
+
+
+[Page 46]
+puedan intentar. Lo que es vital para superar el problema de la N pequeña
+es en principio fácil de decir, a pesar de que en la práctica es complicado,
+incluso cuando es posible de conseguir: o sea, simplemente incrementar la
+información que tenemos disponible para el análisis.
+Una forma en la que esto se puede conseguir es explotando más la experiencia de aquellas naciones (u otras unidades macrosociales) para las que sí tenemos buenas fuentes de datos. De este modo, en la investigación comparada de estado de bienestar, varios investigadores (por ejemplo, O'Connor y
+Brym, 1988; Korpi, 1989; Pampel y Williamson, 1989; Huber y otros, 1993;
+O'Connell, 1994) ahora ya han retomado el liderazgo de econometristas y demógrafos y han "juntado" datos por el mismo grupo de naciones de varios
+puntos en el tiempo. Las observaciones –y grados de libertad– de este modo
+se incrementan y se pueden introducir controles y correcciones apropiados
+en los análisis para contrarrestar el hecho de que las "oleadas" de información
+sucesivas así adquiridas no sean, naturalmente, completamente nuevas e independientes (ver, por ejemplo, Stimson, 1985; Hicks, 1994). Una estrategia
+de agrupamiento tal se puede considerar como un recurso valioso para los macrosociólogos que siguen un enfoque orientado a las variables; y King, Keohane y Verba (1994, págs. 221-223) han sugerido recientemente varios procedimientos análogos que pueden ser seguidos provechosamente en estudios cualitativos.
+
+
+[Page 47]
+Todavía más importante, sin embargo, tanto para los enfoques orientados a
+las variables como para los orientados a los casos, es incrementar el número
+de unidades hacia donde se extienden las comparaciones; y todavía más (cf.
+Przeworski, 1987), ensanchar su alcance geográfico y sociocultural, para que la
+variación mayor obtenida de este modo en supuestos factores causales pueda
+mejorar las oportunidades de decidir entre teorías rivales. A menudo esto significará incluir a naciones del Tercer Mundo en los análisis, y los problemas de
+calidad de datos, que siempre tienen que ser de preocupación central en el trabajo comparativo, se pueden acentuar (cf. Dogan, 1994, págs. 40-41). Sin embargo, el reto planteado no se tendría que eludir. Bradwhaw y Wallace (1991,
+pág. 166) han discutido sobre la particular conveniencia de estudios de caso
+en el Tercer Mundo, dado que, según ellos, los llamamientos a una investigación cuantitativa rigurosa han sido predispuestos contra las naciones pobres
+que no disponen de datos adecuados ni de ordenadores. A pesar de que esta
+visión tiene claramente buenas intenciones, yo seguiría considerándola como
+bastante equivocada. O bien se está asumiendo que los estudios de caso son,
+de alguna forma misteriosa, inmunes a los problemas de la fiabilidad y validez
+de datos con las cuales los investigadores cuantitativos se tienen que pelear, o
+bien los estudios de caso se recomiendan para el uso del Tercer Mundo como
+un tipo de "bien inferior". Seguramente sería, desde todos los puntos de vista,
+una estrategia mejor para los científicos del Primer Mundo tratar de ayudar
+a sus colegas del Tercer Mundo a recopilar todo tipo de datos, y emprender
+cualquier tipo de análisis, que son, de hecho, requeridos por la naturaleza de
+los problemas sustantivos que desean investigar10.
+El￿problema￿de￿"Galton"
+El problema de "Galton" recibe el nombre de un polimatemático británico del
+siglo XIX, Francis Galton. En 1889 Galton criticó un análisis comparativo pionero del antropólogo Edward Tylor. Tylor (1889) pretendía mostrar las complejas correlaciones entre instituciones económicas y familiares de un amplio
+abanico de sociedades, pasadas y presentes. Estas correlaciones entonces intentaba explicarlas a partir de lo que ahora consideraríamos un punto de vista
+funcionalista. Galton (1889b), contrariamente, cuestionaba hasta qué punto
+las observaciones de Tylor eran independientes y señalaba que las correlaciones
+"institucionales" pueden surgir no solo bajo la presión de exigencias funcionales o por medio de otros procesos que operan dentro de las sociedades, sino
+que también pueden ser el resultado de procesos de difusión cultural entre sociedades.
+El problema de distinguir entre procesos de estos dos tipos ha impregnado
+la antropología entre culturas (Naroll, 1970; Hammel, 1980), y obviamente,
+surge en macrosociología comparativa no en menor grado. De este modo, volviendo a la investigación del desarrollo del estado del bienestar, no sería muy
+convincente suponer que este desarrollo procede de forma bastante autónoma en cada caso nacional, y libre de tal influencia externa, como se podría
+(10)La falta de calidad en los datos,
+y especialmente en relación con
+la comparabilidad entre naciones,
+evidentemente a menudo todavía
+impone serias limitaciones en los
+estudios macrosociológicos, sean
+cuales sean los recursos técnicos
+de los que puedan disponer. Aun
+así, se puede decir que este problema ahora atrae una atención
+crítica creciente entre los que participan en investigación cuantitativa. Véase, por ejemplo, en el caso
+de la investigación en estratificación y movilidad social, las cuestiones tratadas por Treiman (1975),
+Goldthorpe (1985), Ganzemboom,
+Luijkx, y Treiman (1989) y Erikson y Goldthorpe (1992a, cap. 2;
+1992b). En contraste, los partidarios de los casos de estudios históricos parece que recorran especialmente a los dobles estándares.
+Así, encontramos a Rueschemeyer,
+Stephens y Stephens (1992, pág.
+26) que comentan, acertadamente, el problema de "información
+no siempre fiable" en los estudios
+cuantitativos sobre el desarrollo capitalista y la democracia –pero solo
+una página después hay un encomio sobre el "gran logro" de Moore (1966). ¿Por qué, uno se pregunta, no consideran de una forma igualmente crítica la cuestión
+de la fiabilidad, o incluso, la propia
+existencia de la evidencia a la que
+hace referencia Moore para apoyar
+su tesis central –por ejemplo en relación con las causas sociales de la
+Guerra Civil inglesa?
+
+
+[Page 48]
+suponer en la práctica, por ejemplo, con los ejemplos de las políticas sociales
+de Bismarck del siglo XIX o el Plan Beveridge para la Bretaña de posguerra o,
+más recientemente, el "modelo escandinavo" (cf. Therborn, 1993).
+Además, el problema de Galton se podría considerar como potencialmente
+más perjudicial hoy en día que anteriormente. Las afirmaciones de que el tratamiento de las naciones como unidades de análisis independientes ha sido
+insostenible desde la emergencia de un "sistema mundial" en el siglo XVII (Hopkins, 1987; Hopkins y Wallertein, 1981) o el hecho de que ahora existe "un
+sistema político mundial altamente institucionalizado" (Meyer, 1987, pág. 42)
+se puede pensar que son exageradas. Ahora bien, casi no se podría negar que,
+a finales del siglo XX, la independencia de las observaciones "nacionales" probablemente se verá en peligro y no meramente por la aceleración y la intensificación de la difusión cultural, sino más por las acciones bastante intencionadas de un abanico de organizaciones políticas y económicas internacionales
+o multinacionales. De este modo, como Przeworski (1987) reconoció, la amenaza proviene de que los problemas de la N pequeña y de Galton van juntos,
+mientras entramos en un mundo en el que N = 1.
+La falta de independencia en las observaciones, al igual que de límites en el
+número, sin duda crea serias dificultades para la investigación entre naciones.
+Aun así, igual que con el problema de la N pequeña, lo que me gustaría remarcar antes que nada es que, mientras que las dificultades en cuestión pueden
+ser muy evidentes con el enfoque orientado a las variables, de ninguna manera quedan restringidas a este; el enfoque orientado a los casos no disfruta de
+ninguna inmunidad especial.
+De este modo, asumir que se puede tratar a las naciones como unidades de
+análisis, sin ninguna relación espacio-temporal entre ellas, es algo requerido
+por los métodos lógicos de comparación que se favorecen en la investigación
+orientada a los casos tanto como por los métodos estadísticos. Y, naturalmente, donde hay casos históricos involucrados, es probable encontrar el problema de Galton de forma especialmente molesta. El hecho, apenas discutible,
+de que las situaciones y acontecimientos que tienen lugar en un momento
+tienden a haber sido influidos por situaciones y acontecimientos que tenían
+lugar anteriormente, claramente rompe la asunción de la independencia de
+casos –como se asumía en el método de Mill o en cualquier otro método lógico– y, en cierto modo, esto no se soluciona fácilmente. Así, por ejemplo,
+se descubre que Skocpol, en su estudio de revoluciones (1979, págs. 23-24 y
+39), obviamente tiene que reconocer que el decurso de la Revolución China
+hasta 1949 se vio influido de varias maneras por los acontecimientos de Rusia
+en 1917 y posteriormente. Ahora bien, entonces este reconocimiento hay que
+mantenerlo bastante apartado de sus análisis lógicos de los factores que determinan el éxito revolucionario, que amenaza de poner en peligro (cf. Burawoy,
+1989). En otras palabras, el uso de los cánones de Mill y de los informes narrativos que se basan en la temporalidad no se pueden integrar, sino que se les
+
+
+[Page 49]
+debe dejar ejercer papeles explicativos separados e incompatibles (véase todavía Kiser y Hechter, 1991, págs. 12-13; Griffin, 1992, págs. 412-413; y también
+Skocpol, 1994, pág. 338).
+Aun así, de hecho, el problema de Galton solo se ha encontrado con un reconocimiento y respuesta bastante limitados por parte de los exponentes de
+la investigación orientada a los casos. McMichael (1990) ha propuesto una
+solución por medio de lo que denomina "comparaciones incorporadas", que
+intentaría adoptar las perspicacias, a la vez que evitaría la "rigidez", de una
+perspectiva de sistema mundial. Ahora bien, dado que presenta su enfoque
+como "interpretativo" y que puede salir adelante "sin recurrir a procedimientos
+metodológicos formales o a una teoría formal" (1990, pág. 388), no es fácil de
+evaluar (ni, tendría que decir, de entender). Otra reacción es la de Sztompka
+(1988), que, a pesar de todo, es menos un intento de tratar de resolver el problema de Galton que una capitulación y puede parecer un poco oportunista.
+Según Sztompka, la gravedad del problema en el mundo moderno es tal que
+toda la agenda de macrosociología comparativa tendría que modificarse –¡hacia una concentración en los estudios de caso! En opinión de Sztompka, la
+"globalización" ya ha convertido en norma la homogeneidad y uniformidad
+de las sociedades. Así, el objetivo central ya no tendría que ser establecer similitudes entre naciones o regularidades de variación, utilizando técnicas cuantitativas "duras", sino más bien el trabajo comparativo ahora se tendría que
+centrar en la descripción y la interpretación "de enclaves de exclusividad" –
+es decir, aquellos casos que salen de la globalización– y con este objetivo, se
+requeriría un enfoque cualitativo "blando". Sztompka no nos dice cómo se tienen que identificar estos enclaves de exclusividad en la ausencia de comparación sistemática. En cualquier caso, sin embargo, argumentando cómo lo hace, como si de hecho se hubiera realizado una versión extrema de las "tesis de
+convergencia", adopta una postura que va más allá de las pruebas empíricas.
+Cuando se dirige el problema de Galton de una forma más pertinente, hay, yo
+diría, dos puntos principales que deben reconocerse. Primero, no es un problema tan penetrante como Sztompka y otros (por ejemplo, Scheuch, 1989;
+Allardt, 1990) nos quieren hacer creer. Quizás se encuentra más regularmente
+en el estudio comparativo de las políticas públicas, y en particular, de la política económica y social, dado que las presiones directamente ejercidas tanto
+por organizaciones internacionales como por economías internacionalizadas
+ya pueden comportar un alto grado de uniformidad de política entre los estados nación bastante alejado de cualquier difusión de valores y creencias (Schmitter, 1991). A la vez, no obstante, no es difícil señalar hacia otras áreas de
+investigación comparativa en las que el problema de Galton es mucho menos
+aparente.
+
+
+[Page 50]
+Considerad, por ejemplo, la investigación reciente sobre las desigualdades de
+clase en el logro educativo. Esto ha revelado que en la mayoría de sociedades
+modernas estas desigualdades presentan una persistencia bastante remarcable
+a lo largo del tiempo (Shavit y Blossfeld, 1993), pero también esta variación
+en el modelo detallado de desigualdad de sociedad en sociedad queda frenada por diferencias en las instituciones educativas nacionales, que parecerían
+deudoras de autonomía sustancial. De este modo, aunque los gobiernos –impulsados por la competencia económica internacional o por una "ideología de
+sistema mundial" (cf. Ramirez y Boli, 1987)– se puedan haber comprometido
+en programas esencialmente similares de expansión y reforma educativa, los
+procesos de selección social que son específicos de sus instituciones nacionales se ha demostrado que son difíciles de erradicar (véase sobre todo Müller y
+Karle, 1993; Ishida y otros, 1995; Shavit y Müller, 1998). Aquí, pues, las pruebas de "globalización" o convergencia son, para no decir más que lo mínimo,
+no conspicuas11.
+En segundo lugar, habría que entender que, incluso cuando está claramente
+presente, el problema de Galton no necesariamente excluye análisis comparativos de tipo sistemático. Si, en un estudio comparativo, se sabe que las observaciones nacionales no son independientes, por la razón que sea, todavía
+podría ser posible actuar incorporando a los procesos que crean esta situación
+como un elemento en el análisis. Es decir, en el lenguaje del enfoque orientado
+a las variables, se puede intentar "modelar" la propia interdependencia, como
+de hecho los demógrafos y los geógrafos con mentalidad estadística han estado
+haciendo durante un tiempo (véase, por ejemplo, Berry, 1970; cf. Przeworski,
+1987). En el contexto de la investigación del estado del bienestar, una contribución pionera notable en este aspecto es la de Usui (1994). En un estudio de
+políticas de seguro social patrocinado por el estado en una muestra de sesenta
+naciones, Usui aplica técnicas de análisis histórico de acontecimientos para
+investigar cómo el desarrollo de estas políticas estaba influido no solamente
+por factores "domésticos", sino todavía más por los dirigentes de la International Labor Office en 1919 y por sus actividades mundiales posteriores.
+El todavía mayor potencial de intentos para modelar así la interdependencia
+se puede recalcar en referencia al trabajo reciente de Castles y otros (Castles,
+1993b), que han introducido en la investigación de política comparativa la
+idea de "familias de naciones". Según ellos, en lugar de centrar la atención en
+las naciones como "solteros libres", debería tenerse más en cuenta las afinidades que existen entre grupos de naciones, como resultado de historias compartidas y de tradiciones culturales. Castles, de hecho, ha sugerido (1993a, pág.
+XV-XVI) que el reconocimiento de estas afinidades puede indicar los "límites
+externos" del programa Przeworski-Teune de sustituir los nombres propios de
+las naciones por los nombres de variables, porque las similitudes políticas y
+las diferencias entre naciones "tienen que ser atribuibles tanto a la historia y a
+la cultura y su transmisión y difusión entre naciones como al inmediato impacto de las variables económicas, políticas y sociales que figuran casi exclusivamente en la literatura contemporánea sobre políticas públicas". Y Castles
+(11)Incluso en investigación sobre
+política pública, la importancia de
+la difusión y también de las presiones económicas y políticas internacionales puede ser exagerada. En relación con el desarrollo
+de las instituciones del estado del
+bienestar (véase, por ejemplo, Flora y Alber, 1981; Garrett y Lange,
+1991; y Huber, Ragin y Stephens,
+1993). Para un repaso penetrante
+de los problemas recurrentes de la
+misma teoría difusionista, en una
+área de aplicación primordial –estudios de fertilidad– véase Kreager
+(1993). Tanto la moda sociológica
+como los desarrollos en el mundo
+real parece que tengan un papel
+importante en los actuales estudios
+sobre "globalización". No ha pasado mucho tiempo desde que el énfasis estaba más bien en la "no exportabilidad" de las instituciones –
+por ejemplo, de las que formaban
+parte del "modelo de Westminster"
+a las nuevas naciones del antiguo
+Imperio Británico o de las instituciones soviéticas a las naciones satélite de la URSS. Recuérdese el debate en torno a los comentarios de
+Stalin sobre "las vacas ensilladas".
+
+
+[Page 51]
+cree que los primeros tipos de efecto son difíciles de acomodar dentro del "paradigma intelectual predominante", como queda representado por el enfoque
+orientado a las variables.
+Ahora, en relación con su punto sustantivo sobre la importancia de los patrones culturales, históricamente formados, que trascienden los límites nacionales, Castles puede tener razón. Y, tal como será evidente más tarde, comparto
+su preocupación para determinar al fin y al cabo dónde hay que trazar los límites teóricos de macrosociología, independientemente del estilo en el que
+se lleve a cabo. Ahora bien, no veo por qué las variables que sustituyen a los
+nombres de naciones en análisis cuantitativos de política pública comparada
+tienen que ser solo variables de las que se espera que probablemente tengan un
+"impacto inmediato"; ni por qué no se puede, al menos en principio, incluir
+también variables que buscan capturar las afinidades históricas de las naciones
+y las influencias a más largo plazo que se derivan. Naturalmente, me gustaría
+sostener que intentar hacer precisamente esto es la forma obvia de explorar
+más la idea de familias de naciones. En otras palabras, no parece haber ninguna razón por la cual las intuiciones proporcionadas por Castles y sus asociados
+no sirvan como punto de partida para análisis cuantitativos apropiados que
+nos permitirían formar juicios más de fiar sobre lo que es, al fin y al cabo, el
+tema que se discute: es decir, la importancia relativa, en relación con desarrollos de política y repertorios, de intersocial por oposición a intrasocial, y de
+"histórico" por oposición a efectos "contemporáneos12".
+En resumen, tenemos que creer que las declaraciones en relación con la globalización o la existencia de un sistema mundial o de familias de naciones
+necesitan una transformación bastante radical de macrosociología comparativa entre naciones, y todavía menos una que comporte su restricción a los
+estudios de caso. Al tratar con el problema de Galton –donde hay buenas bases
+para suponer que sí existe–, en todo caso, el enfoque orientado a las variables
+tiene recursos que, en realidad, solo se empiezan a explotar.
+El￿problema￿de￿la￿caja￿negra
+El problema de la caja negra, todavía más que el problema de la N pequeña o
+el de Galton, se ha relacionado con el enfoque orientado a las variables (véase, por ejemplo, Rueschemeyer, 1991, pág. 26; Abbott, 1992a, págs. 54-62).
+Se puede emprender un análisis cuantitativo que sea exitoso a la hora de "responder por" una parte significativa de la variación en el fenómeno de interés –
+digámoslo claro, las medidas de los estados del bienestar. Ahora bien, se puede
+objetar que este análisis todavía nos dice bastante poco sobre lo que sucede en
+los procesos y acción sociales que son subyacentes a la interacción de las variables que se han reconocido. Conocemos la "potencia de entrada" al análisis
+y conocemos su "potencia de salida"; ahora bien, no conocemos muchas cosas
+sobre el porqué: dentro del modelo estadístico de la caja negra que se aplica,
+el uno se transforma en el otro. El problema queda, naturalmente, mitigado
+si las variables "intervinientes" también se incluyen en el análisis, para darle
+(12)En la compilación editada por
+Castles, algunos autores, de hecho, como mínimo, sí hacen movimientos implícitos en la dirección sugerida. Véase, en particular,
+Busch (1993) sobre las diferencias
+en las políticas antiinflación y Schmidt (1993) sobre las diferencias
+en los índices de participación de
+la mano de obra masculina y femenina y sus determinantes.
+
+
+[Page 52]
+un carácter más finamente definido; y todavía más, si ambas variables independientes e intervinientes se escogen en bases teóricas, para poder involucrar
+determinados procesos causales. Con todo, todavía se puede sostener que el
+problema de la caja negra se trata seriamente solo hasta el punto en que estos
+procesos se hacen muy explícitos, para proporcionar un informe "causalmente
+adecuado" de la generación real de las regularidades que se demuestran empíricamente.
+El problema de la caja negra, entendido de este modo, ha sido tomado entre
+exponentes de estudios de caso para afirmar que los resultados de los análisis
+cuantitativos efectivamente tienen que depender de los estudios de caso para
+ser interpretados. Así, Huber, Ragin y Stephens (1993) han argumentado que el
+problema de las explicaciones conflictivas sobre el crecimiento de los estados
+del bienestar solo se puede solucionar mediante un "diálogo" entre investigación orientada a las variables e investigación orientada a los casos, y que son
+los estudios de caso los que deben tener un papel crucial a la hora de identificar "fuerzas causales históricas verdaderas". Así mismo, Rueschemeyer (1991,
+pág. 28; véase también Rueschemeyer y otros, 1992, cap. 2) ha mantenido, en
+referencia a la investigación comparativa del desarrollo capitalista y la democracia, que en esta área la tradición de los casos de estudio históricos es "mucho más rica en argumentos y análisis teóricos" que en el trabajo cuantitativo.
+Rueschemeyer acepta que los estudios cuantitativos han establecido una clara
+asociación positiva entre desarrollo capitalista y democracia; sin embargo, está
+convencido de ello, la "clave de la caja negra" que hace de mediadora en esta
+asociación solo se encontrará en teoría inspirada por los estudios de caso y,
+especialmente, en "ideas explicativas aferradas a secuencias históricas".
+Sin embargo, una vez más, querría poner en entredicho el estatus privilegiado
+que de este modo se acuerda en el enfoque de los estudios de caso. Para empezar, se tendría que reconocer que, igual que con los problemas de la N pequeña
+y de Galton, mientras que el problema de la caja negra puede ser más aparente
+en trabajo cuantitativo, de hecho, aparece igualmente en el enfoque de los estudios de caso donde se aplican métodos de comparación lógicos. Al contrario
+de lo que sugiere Rueschemeyer (1991, págs. 32-33), los métodos lógicos también pueden establecer regularidades solo empíricas que pueden, como mucho, apuntar relaciones causales: por ellos mismos no pueden proporcionar
+un recuento de los verdaderos procesos involucrados (cf. Burawoy, 1989). Y si,
+con este objeto, la "inducción analítica" se acompaña por algunas narrativas
+de secuencias históricas, entonces esto, por razones que hemos mencionado
+anteriormente, no puede ser parte del propio método lógico, sino que solo
+puede ser un apéndice extraño.
+
+
+[Page 53]
+Además, querría afirmar que el logro teórico de los estudios de caso es, en todo
+momento, bastante menos impresionante de lo que los autores citados más
+arriba prueban de demostrar. Allá donde se ha preservado la unidad de los casos –allá donde los casos se estudian de forma holística, más que descomponerse en variables– es ciertamente posible, como mínimo en principio, proporcionar descripciones detalladas "de lo que pasó" en cada caso, con la consideración debida por las características contextuales específicas involucradas.
+Ahora bien, tener un recuento narrativo de una secuencia de acontecimientos
+históricos no es lo mismo que tener un recuento teórico, aunque se acepte –
+como yo estaría dispuesto a hacer– que una narrativa histórica puede constituir por sí misma una forma de explicación13. Quizás de modo todavía más
+crucial una narrativa como esta no se puede extender más allá del ejemplo
+particular al que se aplica, ni tampoco narrativas comparativas se pueden extender más allá del conjunto de casos comparados (cf. Skocpol y Somers, 1980,
+pág. 195). En oposición, un informe teórico debe tener alguna relación con la
+generalidad. La explicación que provee sobre lo que está pasando dentro de
+la caja negra de una estadística o de un análisis lógico no está simplemente
+"extraída" de los acontecimientos que estuvieron verdaderamente involucrados en los ejemplos cubiertos por el análisis, sino, más bien, una derivación de
+una teoría que de hecho tendría que ser aplicable a otros ejemplos que caigan
+dentro del campo o dominio deseado.
+Evidentemente, se podría sugerir, y yo lo encontraría normal, que las narrativas específicas sirvieran como un recurso valioso para el desarrollo de la teoría:
+esto es, intentando concebir algunas ideas más generales que permitirían que
+las consideraciones tomadas en casos diferentes se metieran en una estructura
+deductiva del argumento. En otras palabras, los estudios de caso detallados
+podrían tener un papel heurístico en el "contexto de descubrimiento" previo a
+la comprobación de cualquier teoría mediante más casos independientes en el
+"contexto de validación". Aun así, la distinción que nos ocupa es una que los
+defensores del enfoque de los estudios de caso parece que encuentran desagradable, y que Rueschemeyer, por ejemplo (1991, págs. 32-33; véase también
+Rueschemeyer y otros, 1992, pág. 36; Skocpol, 1994, pág. 330), rechaza completamente. La visión que, en cambio, parece que se favorece es que el proceso
+de desarrollo de teoría se tendría que avanzar por inducciones sucesivas a partir de casos particulares –de forma que esencialmente se funde con el proceso
+de probar una teoría. La concordancia de la teoría con las nuevas inducciones
+y su modificación allá donde se descubre que no funciona continúa como una
+única actividad sin fracturas.
+(13)Aquí tengo presente los distintos argumentos que se han
+avanzado sobre la posibilidad
+de la explicación histórica logrados sin hacer referencia a teorías generales mediante el uso
+de narrativas que muestran cómo los acontecimientos específicos forman parte de "series
+continuas" (Oakeshott, 1933), cómo tienen "continuabilidad" (W.
+B. Gallie, 1964), cómo están "coligadas" dentro de un "proceso
+continuo" (Walsh, 1974), o en
+cambio, cómo están conectadas
+"internamente" más que "externamente". Para un breve repaso muy
+valioso, véase Dray (1993).
+
+
+[Page 54]
+Es, aun así, justamente en relación con esto que la defensa de los estudios de
+caso acontece menos convincente. El punto crucial es que, si una teoría se
+forma de una forma tan esencialmente inductiva –sin, para decirlo de alguna
+manera, ningún pilar deductivo–, entonces es imposible ver cómo puede ser
+probada de forma genuina. Así las cosas, una teoría como esta no hace más
+que recapitular observaciones; y, además, es difícil saber exactamente cómo
+se podría extender adecuadamente más allá de las circunstancias particulares
+desde las que se ha obtenido, de modo que se pueda intentar un test independiente. O, para decirlo de forma contraria, si una teoría solo llega a ser un
+conjunto de inducciones, las posibilidades para "salvarla" o "remendarla" ante
+pruebas que la contradicen son virtualmente ilimitadas. La generalidad puede
+ser mantenida durante el tiempo en el que una teoría parece que se ajusta a los
+casos a los que se aplica. Pero cuando deja de ajustarse, entonces se puede argumentar que la "homogeneidad causal" ya no se mantiene, y que es necesaria
+una teoría en cierto modo diferente; y, en toda esta situación, ¡los analistas se
+pueden felicitar por su "sensibilidad al contexto14"!
+No obstante, la delimitación arbitraria del objetivo de una teoría –es decir,
+una delimitación que la teoría no provee por ella misma– es una debilidad
+evidente. Por lo tanto, en el contexto de la investigación sobre el estado del
+bienestar, Korpi (1989, pág. 324) ha remarcado críticamente que las teorías de
+"la autonomía del estado", tal como fueron avanzadas por Skocpol y otros (por
+ejemplo, Orloff y Skocpol, 1984; Weir y Skocpol, 1985) sobre la base de estudios de caso cualitativos "deja mucho espacio para una explicación flexible
+ad hoc", y ha alertado de la necesidad para teorías como estas de ser formuladas de un modo que las exponga a una crítica empírica más rigurosa. Y, de
+forma todavía más prominente, la carga de arbitrariedad ha sido contrastada
+con el tratamiento de la revolución iraní de Skocpol (1982), cuando se la ha
+relacionado con sus análisis previos (1979) de las revoluciones francesa, rusa y
+china (Nicholls, 1986; Burawoy, 1989; Kiser y Hechter, 1991), puesto que en el
+caso iraní se introduce un cambio teórico significativo, a pesar de que aparentemente bastante ad hoc: es decir, las manifestaciones urbanas populares son
+un "sustituto funcional" para revueltas campesinas y actividad de guerrillas (cf.
+Skocpol, 1994, págs. 313-314).
+(14)Nuevamente, se puede observar un estrecho paralelismo con
+los estudios de caso orientados a
+las cuestiones microsociológicas.
+Incluso un autor que tiene simpatías con ellas (Hammersley, 1989,
+caps. 7 y 8) se ve obligado a reconocer que los problemas a la hora de probar la teoría son agudos
+tanto con la "inducción analítica"
+como con la no menos inductiva
+"teoría bien fundamentada" (Glaser
+y Strauss, 1967), problemas que
+parece que tengan que afectar
+más habitualmente a analistas de
+caso que trabajen a un micronivel.
+Es interesante que en una obra reciente Ragin (1994a, pág. 94) admita que "la inducción analítica"
+–de la que su propio ACC es, en
+efecto, una sistematización– tenga
+que estar primordialmente preocupada "por el grado hasta el que la
+imagen del sujeto de investigación
+ha sido definida, precisada y elaborada en respuesta a evidencias
+tanto confirmantes como no confirmantes"; o, es decir, para nada
+que no sea conceptualización.
+
+
+[Page 55]
+Finalmente, en esta conexión, también querría poner en entredicho si las pruebas ofrecidas por Rueschemeyer, Stephens y Stephens (1992) sobre la asociación entre desarrollo capitalista y democracia efectivamente confirman su aseveración de que los estudios de caso permiten un territorio privilegiado para
+el desarrollo de teoría capaz de superar el problema de la caja negra. Su estudio fracasa en este sentido, yo diría, precisamente por culpa del grado al que
+el análisis de sus casos los lleva a rodear su argumento central sobre luchas
+de poder entre clases sociales con excepciones y calificaciones –relacionadas
+con las diferencias entre naciones en la construcción social de los intereses de
+clase, en las posibilidades para las alianzas de clase, en la forma de la sociedad
+civil, en el papel del estado, en el impacto de las relaciones transnacionales,
+etc. (1992, esp. págs. 269-281). No solamente la capacidad de explicar –mediante "explicaciones dejando de lado"– parece de este modo más bien baja,
+sino que, además, es notorio que, cuando estos autores tratan la cuestión clave
+de la "generalizabilidad" de su teoría más allá de los casos que han examinado (1992, pág. 285) –digamos, por ejemplo, naciones contemporáneas de Asia
+oriental o de Europa oriental y central–, lo que pueden ofrecer no es una serie
+de hipótesis derivadas que podría ser probada en casos nuevos como estos,
+sino más bien una discusión sobre factores adicionales que tendrían que ser
+considerados15. Aunque puede ser que la conciencia que Rueschemeyer y sus
+colegas demuestran en relación con la complejidad y heterogeneidad causal
+esté garantizada empíricamente. Pero si este es el caso, lo que han proporcionado es una demostración de la dificultad inherente a formar una teoría de
+la relación entre desarrollo capitalista y democracia, y no una demostración
+de esta propia teoría.
+(15)En estas circunstancias, estaría
+completamente de acuerdo con
+las críticas sustantivas que Rueschemeyer y sus colegas hacen de
+esfuerzos previos para explicar la
+asociación entre capitalismo y democracia –esto es, vía la teoría
+de la "modernización". Pero estaría totalmente en desacuerdo
+con que se viera como un error
+de esta, o de cualquier otra teoría, el hecho de que esté insuficientemente basada en investigación
+previa o, incluso, que sea "pura
+coyuntura" (Rueschemeyer y otros,
+1992, pág. 29; cf. Goldthorpe,
+1992b). Las teorías se tienen que
+juzgar no por sus orígenes empíricos sino por sus implicaciones empíricas. ¿Y qué mejor epitafio para
+una teoría que ser suficientemente
+interesante para provocar investigación y suficientemente clara para ser probada como falsa por la
+investigación?
+Para macrosociólogos que buscan tratar los problemas de la caja negra de forma más eficiente, yo diría que los estudios de caso, tanto si son históricos
+como de algún otro tipo, no tienen un valor distintivo, y una absorción de
+sus especificidades puede efectivamente desviar la atención lejos de lo que,
+de hecho, se requiere de forma primordial: es decir, teoría que sea tan general
+como sea posible hacerla. Tal como Kiser y Hecter (1991) han mantenido en
+una dura crítica a la calidad de la teoría en sociología histórica comparada, para iluminar las cajas negras representadas por simples regularidades empíricas
+necesitamos más que una simple redescripción de estas dentro de un marco
+teórico (o conceptual) que parece modificable indefinidamente a medida que
+nuestra base de datos se expande. Más bien la teoría debería buscarse en que
+es general porque permite la especificación de procesos causales que, si son
+operativos, serían capaces de producir las regularidades en cuestión y tendrían
+una serie de implicaciones adicionales en relación con, como mínimo, un tipo
+observable potencial. Hasta el punto de que la teoría es general en este sentido, puede pretender tanto un poder explicativo mayor, que la teoría siempre
+tiene que buscar, como una apertura mayor a las pruebas empíricas, que nunca
+tiene que evitar16.
+(16)Las respuestas a Kiser y Hechter
+que conozco son las de Quadagno
+y Knapp (1992), Skocpol (1994),
+y Somers (1998). Las dos primeras me parece que están más en
+acuerdo que en desacuerdo. Esto
+es, sus autores se muestran a punto para aceptar una idea mucho
+menos exigente de teoría que la
+de Kiser y Hechter y, consecuentemente, la idea de que los sociólogos históricos comparativos no están interesados en probar teorías
+del modo que requerirían Kiser y
+Hechter.
+
+
+[Page 56]
+Además, añadiría que una preocupación tal por la generalidad de la teoría puede ayudar a los macrosociólogos a ver la relevancia de la historia en su empresa
+de una forma diferente y, creo, más apropiada que la que aparece actualmente
+entre los exponentes del enfoque de los estudios de caso. En vez de que el
+hecho recurrir a la historia sea considerado como esencial para el desarrollo
+de la teoría, debería ser entendido mejor como una forma de marcar los límites
+de la teoría: esto es, el punto en el que lo que es importante causalmente en
+relación con ciertos descubrimientos empíricos es reconocido no en situaciones sociales y procesos recurrentes que podrían ser sujeto de la teoría, sino en
+contingencias, coyunturas distintivas de acontecimientos u otras singularidades que la teoría no puede abarcar.
+Dado que todo lo que hemos dicho hasta ahora ha sido tratado de forma más
+bien abstracta, intentaré ilustrarlo en referencia al trabajo primordialmente
+cuantitativo que ha llevado a cabo Robert Erikson en movilidad social comparativa (Erikson y Goldthorpe, 1992a). Probablemente el descubrimiento más
+notorio de este trabajo fue que cuando la movilidad de clase intergeneracional fue considerada libre de todas las influencias estructurales –o, lo que es
+lo mismo, como "fluidez social"– los índices y modelos mostraron una alta
+estabilidad a lo largo del tiempo dentro de las naciones y, además, un alto
+grado de similitud entre naciones. Un grado de invariabilidad como este subraya claramente la necesidad de teoría general. Porque hipótesis sobre los procesos causales capaces de producir constancia temporal y comunalidad entre
+naciones del tipo que nuestros análisis cuantitativos revelaron tendrán que
+ser derivadas de una teoría de alcance considerable: esto es, de una teoría que
+precisamente no es "sensible al contexto" –a diferencia de las teorías "de excepcionalidad" nacional en relación con la movilidad que nuestros resultados
+ponen en entredicho– pero aplicable a contextos de la sociedad ampliamente
+separados a lo largo tanto del tiempo como del espacio. Y por lo que respecta
+a esto, tendría que añadir, Erikson y yo fuimos capaces de llevar a cabo solo
+un inicio muy modesto17.
+También descubrimos, no obstante, que en la medida en la que la variación
+en la fluidez social tuvo lugar entre naciones, no podíamos tenerla en cuenta,
+en gran parte, en términos de otros atributos generalizables de sociedades tal
+como el programa Przeworski-Teune requeriría. Aquí, nuestros análisis señalaban la extraordinaria importancia mayor de las características institucionales
+o culturales formadas históricamente o circunstancias políticas que no podían
+ser expresadas como valores variables excepto de una forma bastante artificial.
+Por ejemplo, niveles de fluidez social no respondían mucho al grado general
+de desigualdad educativa entre naciones. Pero modelos de fluidez a menudo
+sí reflejaban el carácter distintivo y marcado por las instituciones de esta desigualdad en naciones particulares, como Alemania o Japón. O, nuevamente,
+la fluidez estuvo menos afectada por la presencia de un régimen estatal socialista per se que por políticas significantemente diferenciadas mantenidas por
+los regímenes polaco, húngaro o checoslovaco en ámbitos como la colectivización de la agricultura o el reclutamiento de la intelligentsia. En estos casos,
+(17)A pesar de que es ciertamente
+decepcionante, no debería considerarse una desgracia para los sociólogos admitir que no han sido
+capaces de desarrollar una teoría
+que diera cuenta de forma adecuada de sus hallazgos empíricos. Esto es así porque no se puede esperar a que se produzca a placer
+teoría efectiva en el sentido que yo
+le doy, ni siquiera siguiendo procedimientos o instrucciones específicos –como parece que sería el
+caso en la "teoría bien fundamentada". Creo que no es accidental
+que justamente sea en la sociología cualitativa y de estudios de caso donde el uso de "teorizar", como un verbo transitivo más bien
+absurdo, se haya convertido en lo
+más habitual: por ejemplo, puede ser que un tema aparentemente pida ser "teorizado" del mismo
+modo que una cocina puede pedir ser limpiada o la compra puede
+pedir ser traída a casa. Esto me reafirma en la creencia de que nada
+que no sea (re)conceptualización
+queda de hecho involucrado.
+
+
+[Page 57]
+nos pareció que la retención de nombres propios y adjetivos en nuestros informes explicativos era tan inevitable como deseable, y que no se ganaría mucho buscando aportar unos efectos históricamente específicos como estos en
+el alcance de cualquier tipo de teoría.
+En resumen, es poco probable que los problemas de la caja negra –esencialmente problemas de "encontrar sentido" en descubrimientos empíricos– sean
+aliviados por macrosociólogos comparativos que se empeñen en trascender la
+distinción entre teoría e historia, puesto que intentos como estos tienden a
+conducir meramente a una debilitación de nuestra comprensión tanto de la
+teoría como de la historicidad, y en su momento a un empañamiento de diferencias cruciales en la naturaleza de explicaciones teóricas e históricas. Una
+estrategia de promesa a más largo plazo sería continuar buscando una teoría
+sociológica que equivalga a más que a una simple elaboración de conceptos
+y que aspire a la generalidad en el sentido indicado más arriba, pero a la vez
+mostrar una modestia debida al aceptar que, para cualquier tipo de macrosociología, sin importar cuán teóricamente exitosa puede llegar a ser, "la historia"
+siempre permanecerá como una categoría residual necesaria18. Además, podría
+ser una consecuencia de esta estrategia el hecho de que ciertos fenómenos que
+los macrosociólogos han intentado estudiar, y que incluyen, probablemente,
+revoluciones u otros tipos de "transiciones de regímenes", resulta que son fenómenos que la teoría apenas puede comprender cognitivamente. Es decir,
+mientras puede ser de interés escribir historia comparativa de estos fenómenos
+–su historia vista dentro de un marco conceptual común– parecen demasiado
+pocos, demasiado interdependientes y demasiado heterogéneos causalmente
+para poder decir algo mínimamente útil en términos teóricos. En ejemplos
+en los que las indicaciones parecen señalar que este es, en efecto, el caso, lo
+más sensato es seguramente aceptar la situación con buena predisposición.
+Los macrosociólogos todavía se quedarán con bastante trabajo por hacer, y
+nunca ha habido, a pesar de todo, ninguna garantía de que pueda ser posible
+una sociología de todo.
+(18)En otras palabras, todavía vería fuerza en la distinción nomotética/ideográfica aplicada a la sociología y la historia –si, esto es, se entiende como referencia esencial en la
+dirección del esfuerzo intelectual (y sin ninguna implicación de que la teoría sociológica
+tiene que ser completamente "universal" ni de que la historiografía tiene que evitar todos
+los conceptos generales). Afirmaciones de que los estudios históricos comparativos que
+aplican algún tipo de "inducción analítica" son capaces de superar esta distinción (por
+ejemplo, Zaret, 1978, pág. 118; Skocpol 1979, págs. 33-37) me parece que, por los motivos
+que he dado más arriba, no están corroboradas por la evidencia de estos mismos estudios.
+Y me permitiría dudar de que el siguiente intento que ahora parece que se está haciendo
+mediante el "narrativismo sociológico" (véase, por ejemplo, Griffin, 1992; Quadagno y
+Knapp, 1992) tenga muchas más posibilidades de éxito. A pesar de que entendería ciertamente esfuerzos como los de Abbott (1992a y 1992b) para establecer analogías entre
+recuentos narrativos y explicaciones causales, todavía existen diferencias básicas que se
+tienen que reconocer entre los tipos de narrativa que se despliegan. Por ejemplo, se puede
+entender la teoría de la elección racional en términos de narrativas –pero narrativas que,
+en contraste con las narrativas históricas, son generalizadas más que específicas, puestas
+en un tiempo analítico más que real e implicativas más que conjuntivas en su estructura.
+He afirmado que mientras que en macrosociología comparativa se puede observar una divergencia entre enfoques orientados a las variables y enfoques
+orientados a los casos, concentrar la atención en esta divergencia, o incluso en
+
+
+[Page 58]
+formas de superarla, no proporciona la mejor perspectiva para entender y dirigir cuestiones metodológicas de más envergadura que se encuentran en este
+campo. Tal como han enfatizado King, Keohane y Verba (1994, cap. 1) podemos distinguir entre estilos de investigación cuantitativos y cualitativos en las
+ciencias sociales, pero cada uno tiene que intentar cumplir las exigencias de la
+misma "lógica de inferencia" subyacente y enfrentarse con los problemas a los
+que este requisito común da lugar. Mediante un análisis de estos tres problemas, recurrentes en el campo de la macrosociología comparativa, he intentado
+mostrar que cada uno puede tener lugar en el contexto de trabajo tanto orientado a las variables como a los casos, y de hecho así lo hace. Las alternativas
+en los estilos de investigación no tienen mucha relación con estos problemas,
+pero son de un tipo más elemental, que no quiere decir más fácil. Por lo tanto,
+el problema de la N pequeña es esencialmente un problema de información
+insuficiente sobre la que basar el análisis –o, lo que es lo mismo, al que recurrir a la hora de hacer inferencias; y solo puede ser resuelto, o mitigado, con
+una recopilación de datos más extensiva, ayudada por técnicas para explotar
+al máximo la información de la que se dispone en todo momento. El problema de Galton, desde donde surge, es un problema de observaciones faltas de
+una propiedad –independencia– que querríamos asumir en nuestros análisis;
+y, en la medida en la que la interdependencia entre nuestras unidades de observación es simplemente una característica de cómo es el mundo, tenemos
+que enfrentarnos a esta situación buscando representar la interdependencia
+(o, mejor dicho, los procesos que la crean) en nuestros análisis, para que no
+solamente podamos reconocer la presencia, sino que también podamos evaluar la importancia. Y, finalmente, el problema de la caja negra es un problema
+de cómo nos movemos de las inferencias descriptivas a las causales, o, lo que
+es lo mismo, de cómo vamos más allá de nuestros hallazgos empíricos y de las
+regularidades que nos permiten establecer y llegar a entender cómo se generan
+estas regularidades. Aquí lo que es crucial es construir teoría de una forma que
+maximice tanto su poder explicativo como su predisposición a ser probada
+ante más investigación empírica –y que también nos permita ver con la mayor
+claridad posible hasta dónde llegan los límites de la explicación teórica.
+En este capítulo, la crítica ha estado más bien dirigida contra la investigación
+orientada al caso más que contra la investigación orientada a las variables. Esto no es una expresión de hostilidad por mi parte hacia la investigación cualitativa como tal, ya sea en macrosociología o de forma más general, ni tampoco especialmente en este tipo de investigación de carácter histórico. Más
+bien refleja mi visión de que son los proponentes del enfoque orientado a las
+variables quienes, en cualquier circunstancia, han apreciado y respondido de
+la mejor manera a los problemas que he considerado, mientras que los proponentes del enfoque orientado a los casos no han sabido reconocer que ellos
+también han solventado estos problemas o, como he sugerido al principio,
+han reivindicado en este sentido que disponen de medios especiales y privilegiados para superarlos o solucionarlos. Por lo tanto, mis comentarios críticos
+han ido principalmente dirigidos a estas reivindicaciones. He intentado demostrar que, como mínimo en lo que he presentado aquí, no tienen ninguna
+
+
+[Page 59]
+base muy segura y que, si se tienen que mantener, tendrán que ser demostradas de una forma mucho más convincente de lo que lo han hecho hasta ahora.
+Dudo de si esto será posible puesto que no veo ningún tipo de motivo para
+creer en medios privilegiados y especiales de esta categoría. Los problemas de
+la N pequeña, de Galton y de la caja negra pertenecen a cuestiones bastante
+básicas que es muy probable que aparezcan en cualquier caso de investigación
+macrosociológica comparativa, sea cual sea el estilo en el que haya sido hecha.
+Si los investigadores escogen trabajar tanto cuantitativa como cualitativamente, con variables o con casos, la lógica inherente de estas cuestiones continúa
+siendo la misma y, por lo tanto, también lo será la de cualquier solución que
+se pueda conseguir.
+
+
+[Page 60]
+Resumen
+En este módulo hemos intentado dar una visión en detalle de las etapas sucesivas de la investigación en las ciencias sociales y políticas para que el estudiante comprenda los procedimientos, el vocabulario y las reglas que hay que
+usar para desarrollar una investigación empírica. Pero además de las etapas,
+hemos destacado que hay que entender la lógica científica de la construcción
+de la investigación, es decir, el uso continuo de la deducción, la coherencia y
+los planteamientos teóricos en todo el proceso.
+También hemos hecho especial énfasis en las decisiones y retos que hay que
+afrontar en cada etapa. A menudo las limitaciones técnicas hacen que el investigador tenga que valorar diferentes posibilidades y se decante por la solución más práctica. Principalmente se tiene que conseguir elaborar un proyecto
+de investigación con criterios de observabilidad, es decir, teniendo en cuenta
+que los elementos principales (preguntas, conceptos, hipótesis, casos, análisis)
+deben tener un reflejo directo o indirecto en la realidad social.
+Las etapas de la investigación aquí expuestas configuran un conjunto de fases
+analíticas que se tienen que tomar necesariamente si se quiere llevar a cabo
+una investigación científica. Las fases están relacionadas en un proceso general circular y cada fase depende y remite a las anteriores. El objetivo final es
+contrastar empíricamente las hipótesis planteadas al principio. Hipótesis que
+derivan de una teoría y por esta razón, al acabar la investigación, podemos
+mejorar, matizar, rechazar, ampliar o corroborar las teorías establecidas. Así se
+produce la acumulación científica de conocimientos.
+La finalidad de más alcance científico es la explicación y, por eso, también
+en el mundo de las ciencias políticas y sociales se busca crear diseños de investigación y usar métodos que permitan entender, si no las causas, al menos
+las condiciones que favorecen los fenómenos. La complejidad de factores que
+pueden afectar a un fenómeno hace que los diferentes diseños y métodos se
+centren en descartar las causas alternativas y en controlar los efectos de terceras variables sobre la relación principal que interesa al investigador. Por lo
+tanto, el investigador debe tener muy presente la forma como los diseños y
+los métodos de investigación hacen esta tarea.
+En los módulos siguientes ampliaremos el estudio de los diferentes métodos
+de investigación.
+
+
+[Page 61]
+Actividades
+1. Leed el artículo que se presenta a continuación y, teniendo presente los contenidos del
+módulo, decid cuál es el valor de la investigación social y por qué es necesaria.
+¿Qué￿es￿obvio?
+La mera descripción del comportamiento humano, de sus variaciones de un grupo a otro y
+de sus cambios bajo diferentes situaciones es una empresa vasta y difícil. Esta tarea de descripción, análisis e investigación de las interrelaciones es, justamente, la que se lleva a cabo
+mediante las encuestas. Y sin embargo, el propio procedimiento a menudo lleva a malentendidos importantes. Porque es difícil encontrar un tipo de comportamiento humano que aún
+no haya sido observado en ninguna parte. En consecuencia, cuando un estudio informa de
+una tendencia predominante, muchos lectores reaccionan pensando: "Evidentemente, es la
+manera de ser de las cosas". Así, a veces, se utiliza el argumento de que las encuestas no hacen
+nada más que expresar en términos complicados observaciones que ya de entrada resultan
+obvias para todo el mundo.
+Entender el origen de este punto de vista es de una trascendencia que excede largamente los
+límites de este artículo. A la hora de identificar esta actitud, puede resultar de ayuda para el
+lector echar un rápido vistazo a algunas afirmaciones hechas en relación con el comportamiento de los soldados estadounidenses durante la Segunda Guerra Mundial, junto con su
+interpretación según el sentido común.
+1. Los hombres con un nivel educativo más elevado mostraban más síntomas psiconeuróticos
+que aquellos con un nivel educativo inferior. (La inestabilidad mental del intelectual comparada con la psicología más impasible del hombre de la calle ha sido comentada a menudo.)
+2. Los hombres procedentes de ámbitos rurales generalmente estaban más animados durante
+su vida militar que los soldados procedentes de ámbitos urbanos. (Al fin y al cabo, están más
+acostumbrados a las inclemencias.)
+3. Los soldados del sur eran más capaces de resistir el clima de las calurosas islas del Mar
+del Sur que los soldados norteños. (Evidentemente, los del sur están más acostumbrados al
+clima cálido.)
+4. Los soldados rasos blancos mostraban una mayor motivación para convertirse en oficiales
+que los negros. (La falta de ambición entre los negros es casi proverbial.)
+5. Mientras la lucha estaba en curso, los hombres se mostraban más deseosos de ser devueltos
+a Estados Unidos que después de la rendición alemana. (No se puede censurar a la gente
+porque no quiera morir.)
+Tenemos en estos ejemplos un botón de muestra del tipo más sencillo de interrelaciones
+que constituyen los "ladrillos" a partir de los que nuestra ciencia social empírica va construyéndose. ¿Pero por qué, teniendo en cuenta que son tan obvias, se gastan tanto dinero y
+tanta energía en establecer estos hallazgos? ¿No sería más inteligente darlas por conocidas y
+proceder directamente a un tipo de análisis más sofisticado? Podría ser efectivamente así si
+pasáramos por alto un aspecto bastante interesante sobre esta lista. Todas y cada una de estas
+afirmaciones son exactamente el contrario de lo que realmente se constató. Los soldados con un
+nivel educativo más bajo eran más neuróticos que aquellos con más educación; los del sur
+no mostraban más capacidad que los norteños para adaptarse al clima tropical; los negros
+estaban más motivados por su promoción que los blancos, y así sucesivamente.
+Si en primer lugar hubiéramos mencionado los resultados reales de la investigación, el lector
+también los habría etiquetado como "obvios". Obviamente, hay algo que chirría con el propio
+argumento de la "obviedad". Haría falta, ciertamente, cambiarlo. Desde el momento en el
+que se puede concebir cualquier tipo de reacción humana, es de una importancia capital
+conocer qué reacciones suceden, realmente, con más frecuencia y bajo qué condiciones; solo
+entonces se desarrollará una ciencia social más avanzada.
+Paul F. Lazarsfeld
+2. Elaborad un proyecto de investigación en líneas generales. Tened presente lo que habéis
+aprendido en el módulo. Concretamente, es indispensable plantearse:
+•
+La pregunta básica de investigación.
+•
+Por qué es una pregunta científicamente interesante y qué teoría se elige.
+•
+Cuál es la hipótesis principal y cuál la rival alternativa (mínimo dos variables).
+•
+Definición de los conceptos (mínimo dos conceptos).
+•
+Variables.
+•
+Relaciones entre las variables.
+
+
+[Page 62]
+•
+Indicadores de las variables, hipótesis operacionales, medición de las variables.
+•
+Método y técnicas que se tienen que emplear.
+•
+Determinación de las unidades y observaciones, de los niveles de análisis y niveles de
+observación, y selección de los casos o unidades.
+3. Consultad el libro de Inglehart (1990). Aunque es un libro complicado y contiene muchas hipótesis, intentad identificar alguna, y buscad el ejemplo de índice e indicadores de
+posmaterialismo que usa. Reflexionad sobre las ventajas e inconvenientes del índice y de los
+indicadores.
+Lectura
+Ronald￿Inglehart (1990). El
+cambio cultural en las sociedades avanzadas. Madrid: CIS.
+Ejercicios de autoevaluación
+1. En el proceso de la investigación, la observabilidad –es decir, la posibilidad de encontrar
+datos y referentes empíricos...
+a) tiene que estar por encima de los planteamientos teóricos.
+b) nunca tiene que estar por encima de la teoría.
+c) tiene que encontrar el equilibrio con los planteamientos teóricos.
+ 
+2. Los métodos cualitativos no aplican la misma lógica inferencial y, por lo tanto, no hace
+falta que sigan las etapas estándar de la investigación.
+a) Es cierto.
+b) No es cierto. Siguen las mismas reglas y tendrían que respetar el procedimiento lógico de
+las etapas de la investigación.
+c) No es cierto. Siguen las mismas reglas de inferencia, pero las etapas son totalmente diferentes.
+ 
+3. Las teorías en la investigación empírica...
+a) estructuran y simplifican la realidad.
+b) no son tan necesarias para obtener datos.
+c) tienen que ser complejas y normativas.
+ 
+4. La hipòtesis rival alternativa és...
+a) inductiva y fundamental para la validez del diseño de la investigación.
+b) la que incluye dos variables dependientes.
+c) opuesta e incongruente con la hipótesis central.
+ 
+5. ¿Qué es un indicador?
+a) Los cuestionarios y los tests.
+b) Una observación empírica.
+c) La representación empírica de una variable.
+d) El valor de un concepto.
+ 
+6. Los niveles de medición de las variables son...
+a) nominal, ordinal, discreta y continua.
+b) categórica y numérica.
+c) nominal, ordinal, de intervalo y de razón.
+ 
+7. Se quiere investigar la relación causal entre la descentralización territorial y la heterogeneidad lingüística. Se seleccionan países descentralizados que se diferencian en todas las demás
+variables. ¿Qué método de investigación se emplearía y cómo se seleccionarían las unidades
+de análisis o casos?
+a) El método de la concordancia, que compara sistemas diferentes. Selección a partir de la
+variable dependiente.
+
+
+[Page 63]
+b) El método de la diferencia, que compara sistemas similares. Selección a partir de la variable
+independiente.
+c) El método de la concordancia, que compara sistemas diferentes. Selección aleatoria.
+ 
+8. Las unidades de análisis o casos de una investigación son...
+a) los tipos de objetos cuyas propiedades sirven para explicar la variable dependiente.
+b) los datos y los indicadores.
+c) los tipos de objetos cuyas propiedades se estudian con objeto de establecer generalidades.
+ 
+9. ¿Qué método proporciona un mayor control de las condiciones en las que las variables
+interactúan entre ellas?
+a) El método histórico.
+b) El método comparado.
+c) El método cuasiexperimental.
+
+
+[Page 64]
+Solucionario
+Ejercicios de autoevaluación
+1.￿c
+2.￿b
+3.￿a
+4.￿c
+5.￿c
+6.￿c
+7.￿c
+8.￿c
+9.￿c
+
+
+[Page 65]
+Glosario
+concepto débil de causa  m  Hace referencia a la idea de tendencias probabilísticas y condiciones facilitadoras de los fenómenos que se tienen que explicar, en lugar de intentar alcanzar las cuatro condiciones del concepto fuerte de causa.
+deducción  f  Proceso de razonamiento que parte de enunciados abstractos sobre relaciones
+generales, y llega, de forma lógica y coherente, a formular enunciados concretos sobre situaciones, comportamientos y fenómenos específicos, particulares.
+diseño empírico de la investigación  m  Plan y estrategia que se usa para llevar a cabo
+la recogida de los datos. El diseño empírico incluye la operacionalización, la selección de
+los métodos y técnicas de investigación que se deben emplear y la selección de los datos
+necesarios. También se puede incluir el tipo de análisis de datos que se usará.
+hipótesis  f  Proposición que o bien describe una situación, o bien da una explicación sobre
+diferentes fenómenos que pone en relación. Las primeras son hipótesis descriptivas y las
+segundas son hipótesis explicativas.
+indicador  m  Representación observable de un fenómeno o variable. Nunca analizamos o
+comparamos conceptos o variables sino indicadores de conceptos o variables.
+inferencia  f  Objetivo principal de la tarea científica, que consiste en pasar de los hechos
+observados a generalizaciones no observadas. A partir de los datos observables y mediante
+las reglas de la inferencia bien aplicadas, descubrimos patrones generales y objetivos en la
+realidad social.
+método científico  m  Entendido en un sentido amplio, procedimiento lógico, sistemático
+y público, con el que conocemos la realidad y hacemos inferencias de los hechos observados
+hacia los hechos desconocidos.
+método de investigación  m  Método de inferencia científica a disposición del investigador que varía según el modo de contrastar las hipótesis. Los métodos principales son el
+método cuasiexperimental, el estadístico, el comparado y el estudio de casos.
+pregunta descriptiva  f  Pregunta que se formula para tratar de saber cómo es un fenómeno, dónde se da, cuándo, en qué grado, en qué cantidad, etc. Caracteriza un fenómeno y
+lo determina. Es indispensable siempre que analizamos una realidad desconocida.
+pregunta explicativa  f  Pregunta que se formula para tratar de saber por qué, qué efecto,
+cómo se produce, por medio de qué proceso, en qué condiciones, de qué manera, etc. Trata
+de averiguar por qué se produce un fenómeno y cuál es el efecto o influencia de un factor
+sobre otro. Las preguntas relativas a cómo sucede un fenómeno corresponden al nivel más
+alto de explicación.
+pregunta politológica  f   Véase pregunta￿sociológica.
+pregunta sociológica  f  Pregunta que pertenece al ámbito de las ciencias sociales si los
+factores o variables que se analizan son en gran parte de tipo político o social, y si las variables
+que se tienen que explicar son instituciones, grupos o individuos. En la física o en la biología,
+las variables que se tienen que explicar y los factores analizados son totalmente diferentes.
+sin.: pregunta politológica.
+técnica de investigación  f  Procedimiento para recoger datos y no método de inferencia.
+Dentro de un método se pueden usar diferentes tipos de técnicas (encuesta, observación
+participante, entrevista en profundidad, etc.) para extraer datos.
+teoría  f  Conjunto de conceptos lógicamente relacionados que representan lo que pensamos que sucede en el mundo. Las teorías proporcionan las razones que explican por qué
+los hechos están conectados de una forma determinada y nos ofrecen una estructura para
+observarlos e interpretarlos.
+variable  f  Elemento, fenómeno o propiedad que varía (asume diferentes valores o diferentes estadios) y es observable (se detecta en la realidad empírica y por eso es recomendable
+que las variables aparezcan en las definiciones e hipótesis).
+
+
+[Page 66]
+Bibliografía
+Referencias bibliográficas
+Abbott, A. (1992a). "What Do Cases Do? Some Notes on Activity in Sociological Analysis".
+En: C. C. Ragin; H. S. Becker. (eds.). What is a Case? (págs. 53-82). Cambridge: Cambridge
+University Press.
+Abbott, A. (1992b). "From Causes to events: Notes on Narrative Positivism". Sociological
+Methods and Research (núm. 20, págs. 428-455).
+Abell, P. (1992).  "Is Rational Chenice Theory a Rational Choice of Theory?". En: J. S. Coleman; T. J. Fararo (eds.). Rational Choice Theory: Advocacy and Critique. Newbury Park: Sage.
+Allardt, E. (1990).  "Challenges for Comparative Social Research". Acta Sociologica (núm.
+33, págs. 183-193).
+Amenta, E.; Poulsen, J. D. (1994).  "Where to Begin: A Survey of five Approaches to Selecting Independent Variables for Qualitative Comparative Analysis". Sociological Methods and
+Research (núm. 23, págs. 22-53).
+Anduiza, E.; Crespo, I.; Méndez, M. (2009). Metodología de la Ciencia Política (2.a ed.
+revisada). Madrid: CIS ("Cuadernos Metodológicos", núm. 28).
+Barber, B. R. (2003). Strong Democracy: Participatory Politics for a New Age. Los Ángeles: University of California Press.
+Becker, H. S. (1992).  "Cases, Causes, Conjuctures, Stories, and, Imagery". En: C. C. Ragin;
+H. S. Becker What is a Case? (págs. 205-216). Cambridge: Cambridge University Press.
+Berry, B. J. L. (1970).  "Some Methodological Consequences of Using the Nation as a Unit of
+Analysis in a Comparative Politics". Social Science Research Council, Committee on Comparative
+Politics. Nueva York.
+Bradshaw, Y.; Wallace, M. (1991).  "Informing Generality and Explaining Uniqueness:
+The Place of Case Studies in Comparative Research". En: C. C. Ragin. Issues and Alternatives
+in Comparative Research (págs. 154-171). Leiden: E. J. Brill.
+Burawoy, M. (1989).  "Two Methods in Search of Science: Skocpol versus Trotsky". Theory
+and Society (núm. 18, págs. 759-805).
+Busch, A. (1993).  "The Politics of Price Stability: Why the German-Speaking Nations are
+Different". En: F. G. Castles (ed.). Families of Nations: Patterns of Public Policy in Western Democracies (págs. 35-91). Aldershot: Dartmouth.
+Castles, F. G. (1993).  "Introduction". En: Families of Nations: Patterns of Public Policy in
+Western Democracies. Aldershot: Dartmouth.
+Collier, D.; Levitsky, S. (1997). "Democracy with Adjectives: Conceptual Innovation in
+Comparative Research". World Politics (núm. 49, págs. 430-451).
+Coppedge, M. (2012). Democratization and Research Methods. Inglaterra: Cambridge UniverCoppedge, M.; Gerring, J.; Altman, D.; Bernhard, M.; Fish, S.; Hicken, A.; Teorell,
+J. (2011). "Conceptualizing and Measuring Democracy: A New Approach". Perspectives on
+Politics (núm. 9, págs. 247-267). En línea en https://doi.org/10.1017/S1537592711000880.
+Conolly, W. E. (1993). The Terms of Political Discourse. Oxford: Basil Blackwell.
+Dahl, R. A. (1999). La democracia. Una guía para los ciudadanos. Madrid: Taurus.
+Dahl, R. A. (1989). Democracy and Its Critics. Londres: Yale University Press.
+Davis, J. A. (1989). The Logic of Causal Order. Londres: Sage University ("Paper", núm. 55).
+Díez Medrano, J. (1992). Métodos de análisis causal. Madrid: CIS.
+Dogan, M. (1994).  "Use and Misuse of Stastics in Comparative Research". En: M. Dogan; A.
+Kazancigil (eds.). Comparing Nations (págs. 35-71). Oxford: Blackwell.
+
+
+[Page 67]
+Dray, W. (1993). Philosophy of History (2.a ed.). Englewood Cliffs, NJ: Prentice Hall.
+Dryzek, J. S. (2000). Deliberative Democracy and Beyond: Liberals, Critics, Contestations. Oxford: Oxford University Press.
+Elster, J. (1989). Nuts and Bolts for the Social Sciences. Cambridge: Cambridge University Press.
+Erikson, R.; Goldthorpe, J. H. (1992a). The Constant Flux: A Study of Class Mobility in
+industrial Societies. Oxford: Clarendon Press.
+Erikson, R.; Goldthorpe, J. H. (1992b). "The CASMIN Project and the American Dream".
+European Sociological Review (núm. 8, págs. 283-305).
+Flora, P.; Alber, J. (1981).  "Modernization, Democratization, and the Development of
+Welfare States in Western Europe". En: P. Flora; A. J. Heidenheimer (ed.). The Development of
+Welfare States in Western Europe and America (págs. 37-80). New Brunswick, NJ: Transaction
+Books.
+Gallie, W. B. (1955). "Essentially Contested Concepts". Proceedings of the Aristotelian Society
+(núm. 56, págs. 167-198).
+Gallie, W. B. (1964). Philosophy and the Historical Understanding. Londres: Chatto and Windus.
+Galton, F. (1889).  "On a Method of Investigating the Development of Institutions; Applied
+to Laws of Marriage and Descent" (comentado por E. B. Tylor). Journal of the Royal Anthropological Institute (núm. 18, págs. 245-256 y 261-269).
+Ganzeboom, H. G. B.; Luijkx, R.; Treiman, D. J. (1989).  "Intergenerational Class Mobility in Comparative Perspective". Research in Social Stratification and Mobility (núm. 8, págs.
+3-84).
+Garrett, G.; Lange, P. (1991).  "Political Responses to Interdependence: What's Left for the
+Left?". Intergenerational Organization (núm. 45, págs. 539-564).
+Glaser, B. G.; Strauss, A. L. (1967). The Discovery of Grounded Theory. Chicago: Aldine.
+Goldthorpe, J. H. (1985).  "On Economic Development and Social Mobility". British Journal
+of Sociology (núm. 36, págs. 549-573).
+Goldthorpe, J. H. (1991).  "The Uses History in Sociology: Reflections on Some Recent
+Tendencies". British Journal of Sociology (núm. 36, págs. 211-230).
+Goldthorpe, J. H. (1992).  "The theory of industrialism and the Irish Case" En: J. H. Goldthorpe; C. T. Whelan (eds.). The development of Industrial Society in Ireland. Oxford: The British
+Academy.
+Goldthorpe, J. H. (2000). On Sociology: numbers, narratives, and the integration of research and
+theory. Oxford: Oxford University Press.
+Griffin, L. J. (1992).  "Temporality, Events, and Explanation in Historical Sociology". Sociological Methods and Research (núm. 20, págs. 403-427).
+Gutmann, A.; Thompson, D. (2009). Democracy and Disagreement. Cambridge: Harvard
+University Press.
+Habermas, J. (1996). Between Facts and Norms: Contributions to a Discourse Theory of Law and
+Democracy. Cambridge: MIT Press.
+Hakim, C. (2000). Research Design. Londres: Routledge.
+Hamilton, A.; Madison, J.; Jay, J. (1992). The Federalist Papers. Londres: Everyman.
+Hammel, E. A. (1980).  "The Comparative Method in Anthropological Perspective". Comparative Studies in Society and History (núm. 22, págs. 145-155).
+Hammersley, M. (1989). The Dilemma of Qualitative Method: Herbert Blumer and the Chicago
+Tradition. Londres: Routledge.
+
+
+[Page 68]
+Hicks, A. M. (1994a). "Introduction to Pooling. En: T. Janoski; A. M. Hicks (eds.). The Comparative Political Economy of the Welfare State (págs. 169-188). Cambridge: Cambridge UniverHicks, A. M. (1994b). "Qualitative Comparative Analysis and Analytical Induction". Sociological Methods and Research (núm. 23, págs. 86-113).
+Hopkins, T. K. (1987).  "World-System Analysis: Methodological Issues". En: B. H. Kaplan
+(ed.). Change in the Capitalist World Economy (págs.199-218). Beverly Hills, CA: Sage.
+Hopkins, T. K.; Wallerstein, I. (1981).  "Structural Transformations of the world economy". En: R. Rubinson (ed.). Dynamics of world Development (págs. 235-286). Beverly Hills:
+Sage.
+Hough, R. (1959). Admirals in Collision. Londres: Hamish Hamilton.
+Huber, E.; Stephens, J. D. (1993). "The Future of he Social Democratic welfare State: Options in he Face of Internalization and European Integration". International Sociological Association, Research Committee 19 Meeting. Oxford.
+Huber, E.; Ragin, C. C.; Stephens, J. D. (1993).  "Social Democracy, Christian Democracy,
+constitutional Structure and the Welfare State". American Journal of Sociology (núm. 99, págs.
+711-749).
+Ishida, H.; Muller, W.; Ridge, J. M. (1995).  "Class Origin, Class Destination and education: A Cross-national Study of Ten industrial Nations. American Journal of sociology (núm.
+101).
+Kangas, O. (1991). The Politics of Social Rights: Studies on the Dimensions of Sickness Insurance
+in 18 OECD Countries. Estocolmo: Swedish Institute for Social Research.
+Kangas, O. (1994).  "The Politics of Social Security: on Regresions, Qualitative Comparisons,
+and Cluster Analysis" En: T. Janoski; A. M. Hicks (eds.). The Comparative Political Economy of
+the Welfare State (págs. 346-364). Cambridge: Cambridge University Press.
+King, G.; Kehoane, R. O.; Verba, S. (1994). Designing Social Inquiry. Princeton, NJ: Princeton University Press.
+King, G.; Kehoane, R. O.; Verba; S. (1995).  "The importance of Research Design in Political Science". American Political Science Review (núm. 89, págs. 475-481).
+King, G.; Keohane, R. O.; Verba, S. (2000). El diseño de la investigación social. Madrid:
+Alianza.
+Kiser, E.; Hechter, M. (1991).  "The Role of General Theory in Comparative-Historical
+Sociology". American Journal Sociology (núm. 97, págs. 1-30).
+Korpi, W. (1989).  "Power, Politics, and State Autonomy in the Development of Social Citizenship: Social Rights During Sickness in Eighteen OECD Countries since 1930". American
+Sociological Review (núm. 54, págs. 309-328).
+Kreager, P. (1993).  "Anthropological Demography and the Limits of Diffusionism". Proceedings of the International Population Conference. Montreal (núm. 4, págs. 313-326).
+Krüger, L.; Daston, J.; Heidelberger, M. (eds.) (1987). The Probabilistic Revolution, vol. 1.
+Ideas in History. Cambridge, MA: MIT Press.
+Krüger, L.; Gigerenzer, G.; Morgan, M. S. (eds.) (1987). The Probabilistic Revolution, vol.
+2. Ideas in Sciences. Cambridge, MA: MIT Press.
+Lieberson, S. (1987). Making it Count: The Improvement of Social Research and Theory. Berkeley: University of California Press.
+Lieberson, S. (1987). Making it Count (2.a ed.). Berkeley: University of California Press.
+Lieberson, S. (1992).  "Small Ns and Big Conclusions: An Examination of the Reasoning in
+Comparative Studies based on a Small Number of Cases". En: C. C. Ragin; H. S. Becker (eds.).
+What is a Case? (págs. 105-118). Cambridge: Cambridge University Press.
+Lieberson, S. (1994).  "More on the Uneasy Case for Using Mill-Type Methods in Small-N
+Comparative Studies". Social Forces (núm. 72, págs. 1225-1237).
+
+
+[Page 69]
+Lijphart, A. (2012). Patterns of Democracy. Londres: Yale University Press.
+Lindersmith, A. (1948). Opiate Addiction. Bloomington: Principia.
+Macpherson, C. B. (1977). The Life and Times of Liberal Democracy. Oxford: Oxford UniverManheim, J. B.; Rich, R. C. (1988). Análisis político empírico. Madrid: Alianza.
+March, J. G. (1978).  "Bounded Rationality, Ambiguity, and the Engineering of Choice". Bell
+Journal of Economics (núm. 9, págs. 587-608).
+McMichael, P. (1990).  "Incorporating Comparison Within a World-Historical Perspective:
+an Alternative Comparative Method". American Sociological Review (núm. 55, págs. 385-397).
+Meyer, J. W. (1987).  "The World Polity and the Authority of the Nation-State". En: G. M.
+Thomas; J. W. Meyer; F. O. Ramirez; J. Boli (eds.). Institutional Structure (págs. 41-70). Newbury
+Park: Sage.
+Mill, J. S. (1843/1973-1974). "A System of Logic Ratiocinative and Inductive". En: J. M.
+Robson (ed.). Collected Works of John Stuart Mill. Toronto: University of Toronto Press.
+Mill, J. S. (1972). Considerations on Representative Government. Nueva York: E. P. Dutton.
+Møller, J.; Skaaning, S. E. (2012a). Requisites of Democracy: Conceptualization, Measurement,
+and Explanation. Londres y Nueva York: Routledge.
+Møller, J.; Skaaning, S. E. (2012b). Democracy and Democratization in Comparative Perspective: Conceptions, Conjunctures, Causes and Consequences. Londres y Nueva York: Routledge.
+Moore, B. (1966). Social Origins of Dictatorship and Democracy. Boston: Beacon Press.
+Müller, W.; Karle, W. (1993).  "Social Selection and Educational Systems in Europe". European Sociological Review (núm. 9, págs. 1-23).
+Naroll, R. (1970).  "Galton's Problem". En: R. Naroll; R. Cohen (eds.). A Handbook of Method
+in Cultural Anthropology (págs. 974-989). Nueva York: The Natural History Press.
+Nichols, E. (1986).  "Skocpol on revolution: Comparative Analysis vs. Historical Conjuncture". Comparative Social Research (núm. 9, págs. 163-186).
+O'Connell, P. J. (1994).  "National Variation in the Fortunes of Labor: A Pooled and Crosssectional Analysis of the Impact of Economic Crisis in the Advanced Capitalist Nations". En:
+T. Janosky; A. M. Hicks (eds.). The Comparative Political Economy of the Welfare State (págs.
+218-242). Cambridge: Cambridge University Press.
+O'Connell, J. S.; Brym, R. J. (1988).  "Public Welfare Expenditure in OECD Countries".
+British Journal of Sociology (núm. 39, págs. 47-68).
+Oakeshott, M. (1933). Experience and its Modes. Cambridge: Cambridge University Press.
+Pampel, F. C.; Williamson, J. B. (1989). Age, Class, Politics, and the Welfare State. Cambridge: Cambridge University Press.
+Przeworski, A. (1999). "Minimalist Conception of Democracy: A Defense". Democracy's
+Values. Cambridge: Cambridge University Press.
+Przeworski, A. (1987).  "Methods of Cross-National Research, 1970-83: An Overview". En:
+M. Dierkes; H. N. Weiler; A. B. Antal (eds.). Comparative Policy Research (págs. 31-49). Berlín:
+WZB-Publications.
+Przeworski, A.; Teume, H. (1970). The Logic of Comparative Social Inquiry. Nueva York:
+Wiley.
+Quadagno, J. S. (1987).  "Theories of the Welfare State". Annual Review of Sociology (núm.
+13, págs. 109-128).
+Quadagno, J. S.; Knapp, S. J. (1992).  "Have Historical Sociologists Forsaken Theory?".
+Sociological Methods and Research (núm. 20, págs. 481-507).
+Ragin, C. C. (1987). The Comparative Method. Berkeley: University of California Press.
+
+
+[Page 70]
+Ragin, C. C. (1994a). Constructing Social Research. Thousand Oaks, CA: Pine Forge Press.
+Ragin, C. C. (1994b). "Introduction to Qualitative Comparative Analysis". En: T. Janoski; A.
+M. Hicks (eds.). The Comparative Political Economy of the Welfare State (págs. 299-319). Cambridge: Cambridge University Press.
+Ramirez, F. O.; Boli, J. (1987).  "Global Patterns of Educational Institutionalization". En:
+G. M. Thomas; J. W. Meyer; F. O. Ramirez; J. Boli (eds.). Institutional Structure (págs. 150-172).
+Newbury Park: Sage.
+Robinson, W. S. (1951).  "The Logical Structure of Analytic Induction". American Sociological
+Review (núm. 16, págs. 812-818).
+Rueschemeyer, D. (1991).  "Different Methods, Contradictory Results? Research on Development and Democracy". En: C. C. Ragin (ed.). Issues and Alternatives in Comparative Social
+Research (págs. 9-38). Leiden: E.J. Brill.
+Rueschemeyer, D.; Stephens, E. H.; Stephens, J. D. (1992). Capitalist Development and
+Democracy. Cambridge: Polity Press.
+Ryan, A. (1970). The Philosophy of John Stuart Mill. Londres: Macmillan.
+Sartori, G. (1970).  "Concept Misformation in Comparative Politics". American Political
+Science Review (vol. 54, núm. 4, págs. 1033-1053).
+Sartori, G. (1994).  "Compare Why and How". En: M. Gogan; A. Kazancigil (eds.). Comparing
+Nations (págs. 14-34). Oxford: Blackwell.
+Saward, M. (2010). The Representative Claim. Oxford: Oxford University Press.
+Schattschneider, E. E. (1942). Party Government: American Government in Action. Nueva
+Jersey: Transaction Publishers.
+Scheuch, E. K. (1989).  "Theoretical Implications of Comparative Survey Research: Why the
+Wheel of Cross-Cultural Methodology Keeps on Being Reinvented". International Sociology
+(núm. 4, págs. 147-167).
+Schmidt, M. G. (1993).  "Gendered Labour Force Participation". En: F. G. Castles. Families
+of Nations: Patterns of Public Policy in Western Democracies (págs. 179-337). Aldershot: Dartmouth.
+Schmitter, P. C. (1991). Comparative Politics at the Crossroads. Madrid: Instituto Juan Mach.
+Schumpeter, J. A. (1942). Capitalism, Socialism and Democracy. Nueva York y Londres: Harper & Brothers.
+Shavit, Y.; Blossfeld, H.-P. (eds.) (1993). Persistent Inequality: Changing Educational Attainment in Thirteen Countries. Boulder, CO: Westview Press.
+Skocpol, T. (1979). States and Social Revolutions. Cambridge: Cambridge University Press.
+Skocpol, T. (1982).  "Rentier State and Shi'a Islam in Historical Sociology". En: T. Skocpol.
+Vision and Method in Historical Sociology (págs. 356-391). Cambridge: Cambridge University
+Skocpol, T. (1986).  "Analyzing Casual Configurations in History: A rejoinder to Nichols".
+Comparative Social Research (núm. 9, págs. 187-194).
+Skocpol, T. (1994). Social Revolutions in the Modern World. Cambridge: Cambridge University
+Skocpol, T.; Somers, M. (1980).  "The Uses of Comparative History in a Macrosocial Inquiry". Comparative Studies in Society and History (núm. 22, págs. 174-97).
+Smelser, N. J. (1976). Comparative Methods in the Social Sciences. Englewood Cliffs, NJ: Prentice-Hall.
+Stimson, J. A. (1985).  "Regression in Space and Time: A Statistical Essay". American Journal
+of Political Science (núm. 29, págs. 914-947).
+Sutherland, S. (1992). Irrationality. Londres: Penguin.
+
+
+[Page 71]
+Sztompka, P. (1988).  "Conceptual Frameworks in Comparative Inquiry: Divergent or Convergent?". International Sociology (núm. 3, págs. 207-218).
+Therborn, G. (1993).  "Beyond the Lonely Nation-State". En: F. G. Castles. Families of Nations: Patterns of Public Policy in Western Democracies (págs. 329-340). Aldershot: Dartmouth.
+Treiman, D. J. (1975).  "Problems of Concept and Measurement in the Comparative Study
+of Occupational Mobility". Social Science research (núm. 4, págs. 183-230).
+Tylor, E. B. (1889).  "On a Method of Investigating the Development of Institutions, Applied
+to Laws of Marriage and Descent". Journal oh the Royal Anthropological Institute (núm. 18, págs.
+245-256 y 261-269).
+Usui, C. (1994).  "Welfare State Development in a World System Context: Event History
+Analysis of First Social Insurance Legislation among 60 countries, 1880-1960". En: T. Janoski;
+A. M. Hicks. The Comparative Political Economy of the Welfare State (págs. 254-277). Cambridge:
+Cambridge University Press.
+Walsh, W. H. (1974).  "Colligatory Concepts in History". En: P. Gardnier. (ed.). The Philosophy of History (págs. 127-144). Oxford: Oxford University Press.
+Wickham-Crowley, T. P. (1992). Guerrillas and Revolution in Latin America. Princeton, NJ:
+Princeton University.
+Zaret, D. (1978).  "Sociological Theory and Historical Scholarship". The American Sociologist
+(núm. 13, págs. 114-121).
+Zelditch, M. (1971).  "Intelligence Comparisons". En: I. Vallier (ed.). Comparative Methods
+in Sociology (págs. 267-307). Berkeley: University of California Press.

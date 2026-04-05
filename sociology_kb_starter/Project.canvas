@@ -1,0 +1,131 @@
+{
+	"nodes": [
+		{
+			"id": "canvas-errors",
+			"type": "text",
+			"text": "## Errors\n✓ None",
+			"x": -540,
+			"y": -750,
+			"width": 380,
+			"height": 200,
+			"color": "1"
+		},
+		{
+			"id": "legend",
+			"type": "text",
+			"text": "## Legend\n🔴 **Red** = To Do (ready)\n⬜ **Gray** = Blocked\n🟠 **Orange** = Doing\n🔵 **Cyan** = Ready to review\n🟢 **Green** = Done\n🟣 **Purple** = Proposed by agent",
+			"x": -540,
+			"y": -310,
+			"width": 380,
+			"height": 230,
+			"color": "0"
+		},
+		{
+			"id": "canvas-warnings",
+			"type": "text",
+			"text": "## Warnings\n✓ None",
+			"x": -540,
+			"y": -530,
+			"width": 380,
+			"height": 200,
+			"color": "3"
+		},
+		{
+			"id": "group-setupi",
+			"type": "group",
+			"x": 0,
+			"y": 0,
+			"width": 380,
+			"height": 700,
+			"label": "Setup Inicial"
+		},
+		{
+			"id": "e018f652",
+			"type": "text",
+			"text": "## SI-01 Configurar API keys\nCrear archivo .env con GROQ_API_KEY y/o OPENAI_API_KEY/ANTHROPIC_API_KEY",
+			"x": 20,
+			"y": 40,
+			"width": 280,
+			"height": 160,
+			"color": "6"
+		},
+		{
+			"id": "67283466",
+			"type": "text",
+			"text": "## SI-02 Abrir vault en Obsidian\nAbrir la carpeta sociology_kb_starter como vault en Obsidian y habilitar plugins",
+			"x": 20,
+			"y": 220,
+			"width": 280,
+			"height": 160,
+			"color": "6"
+		},
+		{
+			"id": "0ef671b1",
+			"type": "text",
+			"text": "## SI-03 Leer guia quickstart\nLeer docs/obsidian_quickstart.md para familiarizarse con el flujo de trabajo",
+			"x": 20,
+			"y": 400,
+			"width": 280,
+			"height": 160,
+			"color": "6"
+		},
+		{
+			"id": "group-semest",
+			"type": "group",
+			"x": 440,
+			"y": 0,
+			"width": 380,
+			"height": 760,
+			"label": "Semester 1 Ingest"
+		},
+		{
+			"id": "35853962",
+			"type": "text",
+			"text": "## S1I-01 S1I-01 S1I-01 S1I-01 S1I-01 S1I-01 Reunir PDFs del semestre 1\nRecopilar todos los PDFs de apuntes, slides y lecturas del primer semestre",
+			"x": 460,
+			"y": 40,
+			"width": 280,
+			"height": 160,
+			"color": "6"
+		},
+		{
+			"id": "de8538ee",
+			"type": "text",
+			"text": "## S1I-01 S1I-01 S1I-01 S1I-01 S1I-01 Ingestar PDFs via inbox\nCopiar PDFs a data/inbox/2026-S1/{curso}/ y dejar que el watcher los procese",
+			"x": 460,
+			"y": 220,
+			"width": 280,
+			"height": 160,
+			"color": "6"
+		},
+		{
+			"id": "1e2a64b8",
+			"type": "text",
+			"text": "## S1I-01 S1I-01 S1I-01 S1I-01 Verificar compilacion\nRevisar notas compiladas en data/wiki/sources/ y comprobar calidad",
+			"x": 460,
+			"y": 400,
+			"width": 280,
+			"height": 160,
+			"color": "6"
+		},
+		{
+			"id": "2c76d317",
+			"type": "text",
+			"text": "## S1I-01 S1I-01 S1I-01 Explorar grafo\nUsar graph view en Obsidian para navegar conceptos y autores",
+			"x": 460,
+			"y": 580,
+			"width": 280,
+			"height": 160,
+			"color": "6"
+		}
+	],
+	"edges": [
+		{
+			"id": "edge-001",
+			"fromNode": "67283466",
+			"fromSide": "bottom",
+			"toNode": "0ef671b1",
+			"toSide": "top"
+		}
+	]
+}

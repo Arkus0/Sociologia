@@ -85,6 +85,7 @@ class CompiledSourcePayload(BaseModel):
     exam_questions: list[str] = Field(default_factory=list)
     open_questions: list[str] = Field(default_factory=list)
     source_anchors: list[str] = Field(default_factory=list)
+    source_url: str | None = None
 
     @field_validator(
         "core_ideas",

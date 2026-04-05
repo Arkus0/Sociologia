@@ -342,8 +342,8 @@ st.caption("A graph-first knowledge map for connecting sources, concepts, author
 
 with st.sidebar:
     st.subheader("Navigation")
-    layer = st.radio("Workspace", ["Atlas", "Studio"], index=0)
-    st.caption("Atlas is for study and synthesis. Studio keeps ingestion and maintenance tools out of the way.")
+    layer = st.radio("Workspace", ["Atlas", "Wiki", "Studio"], index=0)
+    st.caption("Atlas is for study and synthesis. Wiki is for browsing articles. Studio keeps ingestion and maintenance tools out of the way.")
 
     st.divider()
     st.subheader("System")
@@ -408,6 +408,199 @@ if layer == "Atlas":
                 """
             )
         )
+
+elif layer == "Wiki":
+    from kb_core.wiki_renderer import (
+        WIKI_CSS,
+        extract_toc,
+        list_articles_by_type,
+        render_breadcrumbs,
+        render_infobox,
+        render_toc_html,
+        resolve_wikilinks_html,
+    )
+    from kb_core.search_engine import HybridSearchEngine
+
+    st.markdown(WIKI_CSS, unsafe_allow_html=True)
+
+    # Read query params for routing
+    params = st.query_params
+    view = params.get("view", "home")
+    article_slug = params.get("article", "")
+    article_type = params.get("type", "concept")
+
+    # ── Article view ──
+    if article_slug:
+        from kb_core.utils import load_markdown_file as _load_md
+
+        # Find the article file
+        type_dirs = {
+            "concept": SETTINGS.concepts_dir,
+            "author": SETTINGS.authors_dir,
+            "course": SETTINGS.courses_dir,
+        }
+
+        article_path = None
+        if article_type in type_dirs:
+            candidate = type_dirs[article_type] / f"{article_slug}.md"
+            if candidate.exists():
+                article_path = candidate
+        if article_path is None and article_type == "source":
+            for p in SETTINGS.sources_dir.rglob(f"{article_slug}.md"):
+                article_path = p
+                break
+        # Fallback: search all wiki dirs
+        if article_path is None:
+            for d in [SETTINGS.concepts_dir, SETTINGS.authors_dir, SETTINGS.courses_dir, SETTINGS.sources_dir]:
+                candidate = d / f"{article_slug}.md"
+                if candidate.exists():
+                    article_path = candidate
+                    break
+            if article_path is None:
+                for p in SETTINGS.wiki_dir.rglob(f"{article_slug}.md"):
+                    article_path = p
+                    break
+
+        if article_path is None:
+            st.error(f"Artículo no encontrado: {article_slug}")
+        else:
+            frontmatter, body = _load_md(article_path)
+            title = frontmatter.get("title", article_path.stem)
+            note_type = frontmatter.get("note_type", article_type)
+
+            # Breadcrumbs
+            st.markdown(render_breadcrumbs(note_type, title), unsafe_allow_html=True)
+
+            # Layout: TOC sidebar + content + infobox
+            toc_col, content_col = st.columns([1, 4])
+
+            with toc_col:
+                toc = extract_toc(body)
+                if toc:
+                    st.markdown(render_toc_html(toc), unsafe_allow_html=True)
+
+            with content_col:
+                # Infobox
+                st.markdown(render_infobox(frontmatter), unsafe_allow_html=True)
+
+                # Article body with resolved wikilinks
+                resolved_body = resolve_wikilinks_html(body)
+                st.markdown(
+                    f'<div class="wiki-article"><h1>{title}</h1>{resolved_body}</div>',
+                    unsafe_allow_html=True,
+                )
+
+            # Related articles
+            related_ids = frontmatter.get("related_concepts", [])
+            source_notes = frontmatter.get("source_notes", [])
+            if related_ids or source_notes:
+                st.markdown("---")
+                st.markdown("#### Artículos relacionados")
+                rel_cols = st.columns(min(len(related_ids) + len(source_notes), 4) or 1)
+                for i, concept in enumerate(related_ids[:4]):
+                    with rel_cols[i % len(rel_cols)]:
+                        st.markdown(
+                            f'<a href="?article={slugify(concept)}&type=concept" '
+                            f'style="color:#3366CC">{concept}</a>',
+                            unsafe_allow_html=True,
+                        )
+
+    # ── Category view ──
+    elif view == "category":
+        cat_type = params.get("type", "concept")
+        type_labels = {"concept": "Conceptos", "author": "Autores", "source": "Fuentes", "course": "Cursos"}
+        st.markdown(f"## {type_labels.get(cat_type, cat_type.title())}")
+
+        articles = list_articles_by_type(cat_type)
+        st.caption(f"{len(articles)} artículos")
+
+        # Search within category
+        cat_search = st.text_input("Filtrar artículos", placeholder="Escribe para filtrar...", key="cat_filter")
+        if cat_search:
+            articles = [a for a in articles if cat_search.lower() in a["title"].lower()]
+
+        for article in articles:
+            preview = article.get("preview", "")
+            course_badge = f" · {article['course']}" if article.get("course") else ""
+            st.markdown(
+                f'<div class="wiki-search-result">'
+                f'<a href="?article={article["id"]}&type={cat_type}">{article["title"]}</a>'
+                f'<div class="meta">{preview}{course_badge}</div>'
+                f'</div>',
+                unsafe_allow_html=True,
+            )
+
+    # ── Home view ──
+    else:
+        st.markdown("## Sociología Wiki")
+        st.caption("Base de conocimiento colaborativa para artículos académicos")
+
+        # Search bar
+        wiki_query = st.text_input("Buscar en la wiki", placeholder="Ej: anomia, Max Weber, división del trabajo...", key="wiki_search")
+
+        if wiki_query:
+            @st.cache_data(show_spinner=False)
+            def _wiki_search(q: str):
+                eng = HybridSearchEngine()
+                return eng.search(q, top_k=15)
+
+            results = _wiki_search(wiki_query)
+            st.caption(f"{len(results)} resultados")
+            for r in results:
+                ntype = r.get("note_type", "")
+                snippet = r.get("snippet", "")
+                course_label = f" · {r.get('course', '')}" if r.get("course") else ""
+                st.markdown(
+                    f'<div class="wiki-search-result">'
+                    f'<a href="?article={r["id"]}&type={ntype}">{r["title"]}</a>'
+                    f'<div class="meta">{ntype}{course_label}</div>'
+                    f'<div style="font-size:0.9em;color:#444">{snippet}</div>'
+                    f'</div>',
+                    unsafe_allow_html=True,
+                )
+        else:
+            # Category cards
+            categories = [
+                ("concept", "Conceptos", "Definiciones y teorías sociológicas", SETTINGS.concepts_dir),
+                ("author", "Autores", "Pensadores clásicos y contemporáneos", SETTINGS.authors_dir),
+                ("source", "Fuentes", "Apuntes compilados de materiales del curso", SETTINGS.sources_dir),
+                ("course", "Cursos", "Índices por asignatura", SETTINGS.courses_dir),
+            ]
+            cols = st.columns(2)
+            for i, (ctype, label, desc, cdir) in enumerate(categories):
+                count = len(list_files_recursive(cdir, suffixes=(".md",))) if cdir.exists() else 0
+                with cols[i % 2]:
+                    st.markdown(
+                        f'<div class="wiki-category-card">'
+                        f'<a href="?view=category&type={ctype}" style="font-size:1.2em;'
+                        f'color:#3366CC;text-decoration:none;font-weight:bold">{label}</a>'
+                        f'<div style="color:#666;font-size:0.9em">{desc}</div>'
+                        f'<div style="color:#999;font-size:0.85em">{count} artículos</div>'
+                        f'</div>',
+                        unsafe_allow_html=True,
+                    )
+
+            # Recent additions
+            source_notes = _load_source_notes()
+            if source_notes:
+                st.markdown("#### Adiciones recientes")
+                recent = sorted(
+                    source_notes,
+                    key=lambda n: n["frontmatter"].get("compiled_at", ""),
+                    reverse=True,
+                )[:6]
+                for note in recent:
+                    front = note["frontmatter"]
+                    title = front.get("title", note["path"].stem)
+                    nid = front.get("id", note["path"].stem)
+                    course = front.get("course", "")
+                    st.markdown(
+                        f'<div class="wiki-search-result">'
+                        f'<a href="?article={nid}&type=source">{title}</a>'
+                        f'<div class="meta">Fuente · {course}</div>'
+                        f'</div>',
+                        unsafe_allow_html=True,
+                    )
 
 else:
     st.markdown("### Studio (secondary operations)")

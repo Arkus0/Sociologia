@@ -7,7 +7,7 @@ import unicodedata
 
 from kb_core.config import SETTINGS
 from kb_core.llm import LLMClient
-from kb_core.utils import list_files_recursive, load_markdown_file, slugify, utc_now_iso, write_text
+from kb_core.utils import list_files_recursive, load_markdown_file, save_markdown_file, slugify, utc_now_iso, wikilink, write_text
 
 
 TOKEN_RE = re.compile(r"[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ0-9]{2,}")
@@ -159,3 +159,59 @@ def _save_answer(query: str, answer: str, retrieved: list[dict], provider: str, 
 {citations or '- None'}
 """
     write_text(path, content)
+
+
+def file_answer_to_wiki(
+    query: str,
+    answer: str,
+    concepts: list[str] | None = None,
+    authors: list[str] | None = None,
+    retrieved: list[dict] | None = None,
+) -> Path:
+    """File a Q&A answer back into the wiki as a research note."""
+    slug = slugify(query)[:80]
+    note_path = SETTINGS.research_dir / f"{slug}.md"
+    note_path.parent.mkdir(parents=True, exist_ok=True)
+
+    concept_list = concepts or []
+    author_list = authors or []
+
+    cited_sources = []
+    if retrieved:
+        for item in retrieved:
+            title = item.get("frontmatter", {}).get("title", "")
+            if title:
+                cited_sources.append(title)
+
+    frontmatter = {
+        "id": slug,
+        "title": query,
+        "note_type": "research",
+        "created_at": utc_now_iso(),
+        "concepts": concept_list,
+        "authors": author_list,
+        "tags": list(set(concept_list + author_list)),
+        "reviewed": False,
+    }
+
+    concept_links = "\n".join(f"- {wikilink(c, c)}" for c in concept_list) if concept_list else "- None"
+    author_links = "\n".join(f"- {wikilink(a, a)}" for a in author_list) if author_list else "- None"
+    source_links = "\n".join(f"- {wikilink(s, s)}" for s in cited_sources) if cited_sources else "- None"
+
+    body = f"""# {query}
+
+## Answer
+{answer}
+
+## Related concepts
+{concept_links}
+
+## Related authors
+{author_links}
+
+## Cited sources
+{source_links}
+"""
+
+    save_markdown_file(note_path, frontmatter, body)
+    return note_path
