@@ -1,79 +1,87 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useDeferredValue, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 
 import { NOTE_TYPE_LABELS } from "@/lib/wiki-routes";
 import { suggestDocuments } from "@/lib/wiki-search";
-import type { SearchEntry, SearchIndex } from "@/lib/wiki-types";
+import type { SearchIndex } from "@/lib/wiki-types";
 
 interface SearchAutocompleteProps {
   inputId: string;
   inputName: string;
   placeholder: string;
-  formAction?: string;
 }
 
 export function SearchAutocomplete({
   inputId,
   inputName,
   placeholder,
-  formAction = "/buscar",
 }: SearchAutocompleteProps) {
   const router = useRouter();
   const [query, setQuery] = useState("");
   const [index, setIndex] = useState<SearchIndex | null>(null);
-  const [results, setResults] = useState<SearchEntry[]>([]);
   const [open, setOpen] = useState(false);
   const [highlighted, setHighlighted] = useState(-1);
   const wrapperRef = useRef<HTMLDivElement>(null);
+  const deferredQuery = useDeferredValue(query);
+  const normalizedQuery = deferredQuery.trim();
+  const results =
+    index && normalizedQuery.length >= 2
+      ? suggestDocuments(index, normalizedQuery, 6)
+      : [];
+  const activeIndex =
+    highlighted >= 0 && highlighted < results.length ? highlighted : -1;
 
   useEffect(() => {
     let cancelled = false;
     fetch("/generated/search-index.json")
       .then((res) => res.json())
       .then((data: SearchIndex) => {
-        if (!cancelled) setIndex(data);
+        if (!cancelled) {
+          setIndex(data);
+        }
       })
       .catch(() => {});
-    return () => { cancelled = true; };
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   useEffect(() => {
-    if (!index || query.trim().length < 2) {
-      setResults([]);
-      setOpen(false);
-      return;
-    }
-    const suggestions = suggestDocuments(index, query.trim(), 6);
-    setResults(suggestions);
-    setOpen(suggestions.length > 0);
-    setHighlighted(-1);
-  }, [query, index]);
-
-  useEffect(() => {
-    function handleClickOutside(e: MouseEvent) {
-      if (wrapperRef.current && !wrapperRef.current.contains(e.target as Node)) {
+    function handleClickOutside(event: MouseEvent) {
+      if (wrapperRef.current && !wrapperRef.current.contains(event.target as Node)) {
         setOpen(false);
       }
     }
+
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  function handleKeyDown(e: React.KeyboardEvent) {
+  function handleKeyDown(event: React.KeyboardEvent) {
     if (!open || results.length === 0) return;
-    if (e.key === "ArrowDown") {
-      e.preventDefault();
+
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
       setHighlighted((prev) => Math.min(prev + 1, results.length - 1));
-    } else if (e.key === "ArrowUp") {
-      e.preventDefault();
+      return;
+    }
+
+    if (event.key === "ArrowUp") {
+      event.preventDefault();
       setHighlighted((prev) => Math.max(prev - 1, 0));
-    } else if (e.key === "Enter" && highlighted >= 0) {
-      e.preventDefault();
-      router.push(results[highlighted].route);
+      return;
+    }
+
+    if (event.key === "Enter" && activeIndex >= 0) {
+      event.preventDefault();
+      router.push(results[activeIndex].route);
       setOpen(false);
-    } else if (e.key === "Escape") {
+      return;
+    }
+
+    if (event.key === "Escape") {
       setOpen(false);
     }
   }
@@ -87,30 +95,35 @@ export function SearchAutocomplete({
         placeholder={placeholder}
         autoComplete="off"
         value={query}
-        onChange={(e) => setQuery(e.target.value)}
+        onChange={(event) => {
+          const nextQuery = event.target.value;
+          setQuery(nextQuery);
+          setHighlighted(-1);
+          setOpen(nextQuery.trim().length >= 2);
+        }}
         onFocus={() => results.length > 0 && setOpen(true)}
         onKeyDown={handleKeyDown}
         data-jotapedia-search="site"
       />
       {open && results.length > 0 && (
         <ul className="search-autocomplete__dropdown" role="listbox">
-          {results.map((entry, i) => (
+          {results.map((entry, index) => (
             <li
               key={entry.route}
               className="search-autocomplete__item"
-              data-highlighted={i === highlighted ? "" : undefined}
+              data-highlighted={index === activeIndex ? "" : undefined}
               role="option"
-              aria-selected={i === highlighted}
+              aria-selected={index === activeIndex}
               onMouseDown={() => {
                 router.push(entry.route);
                 setOpen(false);
               }}
-              onMouseEnter={() => setHighlighted(i)}
+              onMouseEnter={() => setHighlighted(index)}
             >
               <span className="search-autocomplete__item-title">{entry.title}</span>
               <span className="search-autocomplete__item-meta">
                 {NOTE_TYPE_LABELS[entry.noteType]}
-                {entry.preview ? ` · ${entry.preview.slice(0, 80)}…` : ""}
+                {entry.preview ? ` - ${entry.preview.slice(0, 80)}...` : ""}
               </span>
             </li>
           ))}

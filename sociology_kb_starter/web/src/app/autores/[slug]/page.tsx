@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 
 import { ArticleView } from "@/components/article-view";
 import { loadArticlePayload, loadCatalog } from "@/lib/generated-data";
-import { getNoteTypeLabel } from "@/lib/wiki-routes";
 
 export async function generateStaticParams() {
   const catalog = await loadCatalog();

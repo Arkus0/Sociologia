@@ -92,15 +92,14 @@ Autor de prueba para validar alias y backlinks.
     ],
     [
       path.join(wikiRoot, "authors", "marx.md"),
-      `---
+      `\ufeff---
 id: marx
 title: "Marx"
 note_type: author
 updated_at: "2026-04-05"
 ---
 
-## Canonical note
-Esta ficha es un alias historico. La entrada canonica es [[karl-marx]].
+Véase [[karl-marx|Karl Marx]].
 `,
     ],
     [
@@ -264,10 +263,17 @@ Material metodologico.
     await fs.readFile(path.join(outputRoot, "quality-report.json"), "utf8"),
   ) as {
     summary: { byKind: Record<string, number> };
-    issues: Array<{ detail: string; documentRoute?: string }>;
+    issues: Array<{ kind: string; detail: string; documentRoute?: string }>;
   };
   assert.ok((qualityReport.summary.byKind.ambiguous_reference ?? 0) >= 1);
-  assert.ok((qualityReport.summary.byKind.duplicate_id ?? 0) >= 1);
+  assert.equal(qualityReport.summary.byKind.duplicate_id, undefined);
+  assert.ok(
+    !qualityReport.issues.some(
+      (issue) =>
+        issue.documentRoute === "/autores/marx" &&
+        issue.kind === "thin_preview",
+    ),
+  );
   assert.ok(
     !qualityReport.issues.some(
       (issue) =>

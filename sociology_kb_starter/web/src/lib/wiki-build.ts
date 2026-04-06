@@ -463,7 +463,7 @@ async function readWikiDocument(
   absolutePath: string,
   wikiRoot: string,
 ): Promise<WikiDocument> {
-  const raw = await fs.readFile(absolutePath, "utf8");
+  const raw = normalizeMarkdownSource(await fs.readFile(absolutePath, "utf8"));
   const { data, content } = matter(raw);
   const stat = await fs.stat(absolutePath);
 
@@ -1024,12 +1024,14 @@ function buildQualityReport(
   registry: LinkRegistry,
 ): QualityReport {
   const issues: QualityIssue[] = [];
-  const ids = new Map<string, WikiDocument[]>();
 
   for (const document of documents) {
-    appendMapValue(ids, document.id, document);
+    const isAlias = Boolean(document.aliasTargetReference);
+    const references = isAlias && document.aliasTargetReference
+      ? [document.aliasTargetReference]
+      : collectReferenceSeeds(document);
 
-    if (document.preview.length < QUALITY_PREVIEW_MIN) {
+    if (!isAlias && document.preview.length < QUALITY_PREVIEW_MIN) {
       issues.push({
         level: "warning",
         kind: "thin_preview",
@@ -1039,7 +1041,7 @@ function buildQualityReport(
       });
     }
 
-    for (const reference of collectReferenceSeeds(document)) {
+    for (const reference of references) {
       const resolution = resolveReference(reference, registry);
       if (resolution.status === "missing") {
         issues.push({
@@ -1062,21 +1064,6 @@ function buildQualityReport(
         });
       }
     }
-  }
-
-  for (const [id, matches] of ids.entries()) {
-    if (matches.length < 2) {
-      continue;
-    }
-
-    issues.push({
-      level: "warning",
-      kind: "duplicate_id",
-      detail: `ID duplicado "${id}" en ${matches
-        .map((document) => document.route)
-        .sort((left, right) => left.localeCompare(right, "es"))
-        .join(", ")}`,
-    });
   }
 
   const byKind = issues.reduce<Record<string, number>>((summary, issue) => {
@@ -1110,7 +1097,7 @@ function extractAliasTargetReference(markdown: string): string | undefined {
   }
 
   const inlineMatch = markdown.match(
-    /(entrada canonica es|canonical note[\s\S]{0,120}?\bis\b)[\s\S]*?\[\[([^[\]]+)\]\]/i,
+    /(entrada canonica es|canonical note[\s\S]{0,120}?\bis\b|v[ée]ase|vease)[\s\S]*?\[\[([^[\]]+)\]\]/i,
   );
   const raw = inlineMatch?.[2]?.trim();
   if (!raw) {
@@ -1118,6 +1105,10 @@ function extractAliasTargetReference(markdown: string): string | undefined {
   }
 
   return raw.split("|")[0]?.trim();
+}
+
+function normalizeMarkdownSource(raw: string): string {
+  return raw.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n").replace(/\r/g, "\n");
 }
 
 function appendMapValue<T>(map: Map<string, T[]>, key: string, value: T): void {

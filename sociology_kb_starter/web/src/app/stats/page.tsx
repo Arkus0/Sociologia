@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import { loadCatalog, loadQualityReport } from "@/lib/generated-data";
 import { getNoteTypeLabel } from "@/lib/wiki-routes";
-import type { CatalogEntry, NoteType } from "@/lib/wiki-types";
+import type { NoteType } from "@/lib/wiki-types";
 
 export default async function StatsPage() {
   const catalog = await loadCatalog();

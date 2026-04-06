@@ -2,25 +2,18 @@
 
 import { useEffect, useState } from "react";
 
+type Theme = "light" | "dark";
+
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [theme, setTheme] = useState<Theme>(getInitialTheme);
 
   useEffect(() => {
-    const stored = localStorage.getItem("jotapedia-theme");
-    if (stored === "dark" || stored === "light") {
-      setTheme(stored);
-      document.documentElement.setAttribute("data-theme", stored);
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
-      document.documentElement.setAttribute("data-theme", "dark");
-    }
-  }, []);
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("jotapedia-theme", theme);
+  }, [theme]);
 
   function toggle() {
-    const next = theme === "light" ? "dark" : "light";
-    setTheme(next);
-    document.documentElement.setAttribute("data-theme", next);
-    localStorage.setItem("jotapedia-theme", next);
+    setTheme((current) => (current === "light" ? "dark" : "light"));
   }
 
   return (
@@ -29,8 +22,24 @@ export function ThemeToggle() {
       onClick={toggle}
       aria-label={theme === "light" ? "Activar modo oscuro" : "Activar modo claro"}
       title={theme === "light" ? "Modo oscuro" : "Modo claro"}
+      suppressHydrationWarning
     >
-      {theme === "light" ? "🌙" : "☀️"}
+      {theme === "light" ? "Claro" : "Oscuro"}
     </button>
   );
+}
+
+function getInitialTheme(): Theme {
+  if (typeof window === "undefined") {
+    return "light";
+  }
+
+  const stored = localStorage.getItem("jotapedia-theme");
+  if (stored === "dark" || stored === "light") {
+    return stored;
+  }
+
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
 }

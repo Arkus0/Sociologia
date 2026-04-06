@@ -120,19 +120,43 @@ export default async function HomePage() {
         <article className="portal-card subscribe-card">
           <h2>📬 Suscribete</h2>
           <p>
-            Recibe articulos destacados y datos curiosos de sociologia
-            directamente en tu lector RSS favorito.
+            Recibe el articulo del dia, datos curiosos y nuevas entradas
+            directamente en tu correo.
           </p>
-          <a
-            href="/generated/feed.xml"
-            className="subscribe-card__btn"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Suscribirse via RSS
-          </a>
+          {process.env.NEXT_PUBLIC_BUTTONDOWN_USERNAME ? (
+            <form
+              action={`https://buttondown.com/api/emails/embed-subscribe/${process.env.NEXT_PUBLIC_BUTTONDOWN_USERNAME}`}
+              method="post"
+              target="popupwindow"
+              className="subscribe-card__form"
+            >
+              <input
+                type="email"
+                name="email"
+                placeholder="tu@email.com"
+                required
+                className="subscribe-card__input"
+              />
+              <button type="submit" className="subscribe-card__btn">
+                Suscribirme
+              </button>
+            </form>
+          ) : (
+            <a
+              href="/generated/feed.xml"
+              className="subscribe-card__btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Suscribirse via RSS
+            </a>
+          )}
           <p className="subscribe-card__hint">
-            Usa apps como Feedly, Inoreader o Thunderbird para seguir el feed.
+            Tambien puedes seguirnos via{" "}
+            <a href="/generated/feed.xml" target="_blank" rel="noopener noreferrer">
+              RSS
+            </a>{" "}
+            con Feedly, Inoreader o Thunderbird.
           </p>
         </article>
 
@@ -152,8 +176,8 @@ export default async function HomePage() {
               <span>{quality.summary.byKind.ambiguous_reference ?? 0}</span>
             </li>
             <li>
-              <span>IDs duplicados</span>
-              <span>{quality.summary.byKind.duplicate_id ?? 0}</span>
+              <span>Previews breves</span>
+              <span>{quality.summary.byKind.thin_preview ?? 0}</span>
             </li>
           </ul>
         </article>

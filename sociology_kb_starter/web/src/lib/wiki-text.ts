@@ -1,6 +1,15 @@
 const TOKEN_RE = /[\p{L}\p{N}]{2,}/gu;
-const SUMMARY_RE = /^##\s+(summary|resumen)\s*$/im;
 const HEADING_RE = /^#{1,6}\s+/;
+const SUMMARY_HEADING_PREFIXES = [
+  "summary",
+  "resumen",
+  "definicion",
+  "datos biograficos",
+  "biografia",
+  "biografia intelectual",
+  "biografia y trayectoria",
+  "trayectoria",
+];
 
 export function normalizeText(value: string): string {
   return (value ?? "")
@@ -75,15 +84,21 @@ export function stripTitleHeading(markdown: string, title: string): string {
 }
 
 export function extractSummary(markdown: string): string {
-  const match = markdown.match(SUMMARY_RE);
-  if (!match || match.index === undefined) {
+  const lines = markdown.replace(/^\uFEFF/, "").split(/\r?\n/);
+  const summaryStart = lines.findIndex((line) => isSummaryHeading(line));
+  if (summaryStart === -1) {
     return "";
   }
 
-  const remainder = markdown.slice(match.index + match[0].length).trim();
-  const nextHeading = remainder.search(/^##\s+/m);
-  const fragment = nextHeading === -1 ? remainder : remainder.slice(0, nextHeading);
-  return stripMarkdown(fragment).trim();
+  const collected: string[] = [];
+  for (let index = summaryStart + 1; index < lines.length; index += 1) {
+    if (/^##\s+/.test(lines[index])) {
+      break;
+    }
+    collected.push(lines[index]);
+  }
+
+  return stripMarkdown(collected.join("\n")).trim();
 }
 
 export function extractPreview(markdown: string, maxLength = 220): string {
@@ -95,7 +110,7 @@ export function extractPreview(markdown: string, maxLength = 220): string {
     return collapsed;
   }
 
-  return `${collapsed.slice(0, maxLength - 1).trimEnd()}…`;
+  return `${collapsed.slice(0, maxLength - 3).trimEnd()}...`;
 }
 
 export function extractWikiReferences(markdown: string): string[] {
@@ -134,8 +149,18 @@ export function formatDateEs(value: string | undefined): string {
   }).format(date);
 }
 
+function isSummaryHeading(line: string): boolean {
+  const match = line.match(/^##\s+(.+?)\s*$/);
+  if (!match) {
+    return false;
+  }
+
+  const heading = normalizeText(match[1]);
+  return SUMMARY_HEADING_PREFIXES.some((prefix) => heading.startsWith(prefix));
+}
+
 function firstMeaningfulParagraph(markdown: string): string {
-  const blocks = markdown.split(/\n\s*\n/);
+  const blocks = markdown.replace(/^\uFEFF/, "").split(/\n\s*\n/);
 
   for (const block of blocks) {
     const trimmed = block.trim();

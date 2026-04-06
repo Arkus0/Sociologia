@@ -152,7 +152,6 @@ export interface QualityIssue {
   kind:
     | "broken_reference"
     | "ambiguous_reference"
-    | "duplicate_id"
     | "thin_preview";
   documentRoute?: string;
   documentTitle?: string;

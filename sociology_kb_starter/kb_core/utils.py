@@ -10,7 +10,7 @@ from typing import Any
 import yaml
 
 
-FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.DOTALL)
+FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n?(.*)$", re.DOTALL)
 WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]")
 
 
@@ -25,6 +25,11 @@ def slugify(value: str) -> str:
     value = re.sub(r"\s+", "-", value)
     value = re.sub(r"-+", "-", value)
     return value.strip("-") or "untitled"
+
+
+def normalize_text(value: str) -> str:
+    normalized = unicodedata.normalize("NFKD", value or "")
+    return "".join(char for char in normalized if not unicodedata.combining(char)).strip().lower()
 
 
 def wikilink(slug_or_name: str, display: str | None = None) -> str:
@@ -42,8 +47,35 @@ def extract_wikilinks(text: str) -> list[str]:
     return [m.group(1) for m in WIKILINK_RE.finditer(text)]
 
 
+def extract_alias_target(body: str) -> str | None:
+    canonical_section_match = re.search(
+        r"^##\s+(Canonical note|Nota canonica)\s*$([\s\S]*?)(?=^##\s+|$)",
+        body,
+        re.IGNORECASE | re.MULTILINE,
+    )
+    if canonical_section_match:
+        scoped_links = extract_wikilinks(canonical_section_match.group(2))
+        if scoped_links:
+            return scoped_links[0].split("|", 1)[0].strip()
+
+    inline_match = re.search(
+        r"(?:entrada canonica es|canonical note[\s\S]{0,120}?\bis\b|v[ée]ase|vease)[\s\S]*?\[\[([^[\]]+)\]\]",
+        body,
+        re.IGNORECASE,
+    )
+    raw = inline_match.group(1).strip() if inline_match else ""
+    if not raw:
+        return None
+
+    return raw.split("|", 1)[0].strip() or None
+
+
+def normalize_markdown_text(content: str) -> str:
+    return content.replace("\ufeff", "", 1).replace("\r\n", "\n").replace("\r", "\n")
+
+
 def read_text(path: Path) -> str:
-    return path.read_text(encoding="utf-8")
+    return normalize_markdown_text(path.read_text(encoding="utf-8-sig"))
 
 
 def write_text(path: Path, content: str) -> None:
@@ -66,7 +98,7 @@ def to_markdown(frontmatter: dict[str, Any], body: str) -> str:
 
 
 def from_markdown(content: str) -> tuple[dict[str, Any], str]:
-    match = FRONTMATTER_RE.match(content)
+    match = FRONTMATTER_RE.match(normalize_markdown_text(content))
     if not match:
         return {}, content
     frontmatter = yaml.safe_load(match.group(1)) or {}

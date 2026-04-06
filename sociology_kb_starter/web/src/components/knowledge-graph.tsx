@@ -72,7 +72,6 @@ export function KnowledgeGraph() {
   const [activeTypes, setActiveTypes] = useState<Set<string>>(
     new Set(["concept", "author", "course", "source", "semester"]),
   );
-  const [hoveredNode, setHoveredNode] = useState<GraphNode | null>(null);
   const [settled, setSettled] = useState(false);
 
   // Refs for the render loop (avoid re-creating simulation on hover)
@@ -291,7 +290,6 @@ export function KnowledgeGraph() {
   const setHover = useCallback(
     (node: GraphNode | null) => {
       hoveredRef.current = node;
-      setHoveredNode(node);
       scheduleRedraw();
     },
     [scheduleRedraw],
