@@ -71,6 +71,6 @@ En la materia Introducción a la Sociología (2026-S1) Goffman aparece como expo
 
 - [[el-proceso-de-socializacion]] — Goffman: «actuamos para evitar el estigma y la vergüenza»; interaccionismo simbólico (roles, presentación del yo, estigma).
 - [[modulo-1]] — Referencia a Goffman como autor clave del interaccionismo simbólico.
-- [[modulo-2]] — Observación participante (Goffman, referencia a *Internados*); Goffman, E. (1989). *La identidad deteriorada*; (1992). *Internados*.
-- [[modulo-3]] — Goffman en el contexto de normalidad, desviación y poder.
+- [[la-sociedad-i-el-proceso-de-socializacion|modulo-2]] — Observación participante (Goffman, referencia a *Internados*); Goffman, E. (1989). *La identidad deteriorada*; (1992). *Internados*.
+- [[la-sociedad-ii-el-proceso-de-institucionalizacion|modulo-3]] — Goffman en el contexto de normalidad, desviación y poder.
 - [[normalidad-desviacion-y-poder]] — Estigma, desviación y mecanismos de control social.

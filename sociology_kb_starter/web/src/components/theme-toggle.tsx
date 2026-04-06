@@ -24,7 +24,7 @@ export function ThemeToggle() {
       title={theme === "light" ? "Modo oscuro" : "Modo claro"}
       suppressHydrationWarning
     >
-      {theme === "light" ? "Claro" : "Oscuro"}
+      {theme === "light" ? "🌙" : "☀️"}
     </button>
   );
 }

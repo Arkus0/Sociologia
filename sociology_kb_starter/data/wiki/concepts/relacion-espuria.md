@@ -41,4 +41,4 @@ Una **relación espúrea** (o correlación espúrea) es una asociación estadís
 
 ## Fuentes
 - [[El proceso de formulación teórica]]
-- [[La investigación cuantitativa]]
+- [[la-investigacion-cuantitativa|La investigación cuantitativa]]
