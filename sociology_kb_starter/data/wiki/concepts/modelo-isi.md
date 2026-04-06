@@ -6,6 +6,10 @@ semester: 2026-S1
 course: Estructura economica
 related_concepts:
   - modelo-ise
+  - centro-periferia
+  - subdesarrollo
+  - teoria-de-la-dependencia
+  - desarrollo-economico
   - deuda-externa
   - capitalismo
   - mundializacion
@@ -21,11 +25,11 @@ updated_at: '2026-04-06T10:00:00+00:00'
 
 ## Definición
 
-El modelo ISI (Industrialización por Sustitución de Importaciones) es una estrategia de desarrollo económico adoptada por países periféricos — principalmente latinoamericanos — que consiste en producir internamente los bienes manufacturados que antes se importaban del centro, protegiendo la industria nacional mediante aranceles, cuotas y subsidios. Su objetivo es romper la dependencia de la exportación de materias primas y construir un aparato industrial propio. Raúl Prebisch (*El desarrollo económico de la América Latina y algunos de sus principales problemas*, 1949) fundamentó teóricamente esta estrategia al demostrar el deterioro secular de los términos de intercambio entre la periferia exportadora de productos primarios y el centro industrial.
+El modelo ISI (Industrialización por Sustitución de Importaciones) es una estrategia de [[desarrollo-economico]] adoptada por países periféricos, principalmente latinoamericanos, que consiste en producir internamente los bienes manufacturados que antes se importaban del centro, protegiendo la industria nacional mediante aranceles, cuotas y subsidios. Su objetivo es romper la dependencia de la exportación de materias primas y construir un aparato industrial propio. Raúl Prebisch (*El desarrollo económico de la América Latina y algunos de sus principales problemas*, 1949) fundamentó teóricamente esta estrategia al demostrar el deterioro secular de los términos de intercambio entre la [[centro-periferia|periferia]] exportadora de productos primarios y el centro industrial.
 
 ## Origen y contexto histórico
 
-El modelo ISI se adopta en América Latina a partir de los años 30-40, impulsado teóricamente por la CEPAL (Comisión Económica para América Latina) y su secretario ejecutivo Raúl Prebisch. Prebisch argumentó que el deterioro secular de los términos de intercambio (las materias primas se abaratan relativamente frente a las manufacturas) condena a la periferia al subdesarrollo si no industrializa. Celso Furtado (*Desarrollo y subdesarrollo*, 1961) amplió el análisis cepalino demostrando que el subdesarrollo no era una etapa previa al desarrollo sino una condición estructural producida por la inserción dependiente en la economía mundial. Albert Hirschman (*The Strategy of Economic Development*, 1958) contribuyó con su teoría de los "eslabonamientos" (*linkages*), argumentando que la inversión industrial estratégica en sectores con fuertes vínculos hacia adelante y hacia atrás podía desencadenar un proceso acumulativo de desarrollo. Argentina, Brasil, México y Chile son los casos paradigmáticos.
+El modelo ISI se adopta en América Latina a partir de los años 30-40, impulsado teóricamente por la CEPAL (Comisión Económica para América Latina) y su secretario ejecutivo Raúl Prebisch. Prebisch argumentó que el deterioro secular de los términos de intercambio condena a la periferia al [[subdesarrollo]] si no industrializa. Celso Furtado (*Desarrollo y subdesarrollo*, 1961) amplió el análisis cepalino demostrando que el subdesarrollo no era una etapa previa al desarrollo sino una condición estructural producida por la inserción dependiente en la economía mundial. Albert Hirschman (*The Strategy of Economic Development*, 1958) contribuyó con su teoría de los "eslabonamientos" (*linkages*), argumentando que la inversión industrial estratégica en sectores con fuertes vínculos hacia adelante y hacia atrás podía desencadenar un proceso acumulativo de desarrollo. Argentina, Brasil, México y Chile son los casos paradigmáticos.
 
 ## Desarrollo teórico
 
@@ -56,7 +60,7 @@ Héctor Guillén Romo (*El sexenio de crecimiento cero*, 1990; *La contrarrevolu
 
 - Es la alternativa periférica al modelo exportador que luego se denominará [[modelo-ise]]
 - Su fracaso y la crisis de [[deuda-externa]] de los 80 abren paso al [[neoliberalismo]] como paradigma dominante
-- Se inscribe en el debate sobre las vías de desarrollo del [[capitalismo]] periférico; Cardoso y Faletto (*Dependencia y desarrollo en América Latina*, 1969) argumentaron que la dependencia no era meramente externa sino que se articulaba con las estructuras internas de poder
+- Se inscribe en el debate sobre las vías de desarrollo del [[capitalismo]] periférico; Cardoso y Faletto (*Dependencia y desarrollo en América Latina*, 1969) argumentaron que la dependencia no era meramente externa sino que se articulaba con las estructuras internas de poder, anticipando discusiones propias de la [[teoria-de-la-dependencia]]
 - La [[mundializacion]] posterior impone la apertura comercial y desmonta los mecanismos proteccionistas del ISI
 
 ## Debates y críticas
