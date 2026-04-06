@@ -23,6 +23,8 @@ export function SearchView() {
   const [selectedTypes, setSelectedTypes] = useState<NoteType[]>(
     readSelectedTypes(searchParams),
   );
+  const [course, setCourse] = useState(searchParams.get("curso") ?? "");
+  const [semester, setSemester] = useState(searchParams.get("semestre") ?? "");
   const [index, setIndex] = useState<SearchIndex | null>(null);
   const [error, setError] = useState<string | null>(null);
   const deferredQuery = useDeferredValue(query);
@@ -30,6 +32,8 @@ export function SearchView() {
   useEffect(() => {
     setQuery(searchParams.get("q") ?? "");
     setSelectedTypes(readSelectedTypes(searchParams));
+    setCourse(searchParams.get("curso") ?? "");
+    setSemester(searchParams.get("semestre") ?? "");
   }, [searchParams]);
 
   useEffect(() => {
@@ -65,18 +69,28 @@ export function SearchView() {
     };
   }, []);
 
+  const courseOptions = uniqueValues(index?.docs.map((entry) => entry.course) ?? []);
+  const semesterOptions = uniqueValues(index?.docs.map((entry) => entry.semester) ?? []);
   const results =
     index && query.trim()
-      ? searchDocuments(index, query.trim(), 25, { noteTypes: selectedTypes })
+      ? searchDocuments(index, query.trim(), 25, {
+          noteTypes: selectedTypes,
+          course: course || undefined,
+          semester: semester || undefined,
+        })
       : [];
   const suggestions =
     index && deferredQuery.trim()
-      ? suggestDocuments(index, deferredQuery.trim(), 6, { noteTypes: selectedTypes })
+      ? suggestDocuments(index, deferredQuery.trim(), 6, {
+          noteTypes: selectedTypes,
+          course: course || undefined,
+          semester: semester || undefined,
+        })
       : [];
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    replaceSearchParams(query, selectedTypes);
+    replaceSearchParams(query, selectedTypes, course, semester);
   }
 
   function toggleType(noteType: NoteType) {
@@ -86,10 +100,15 @@ export function SearchView() {
     const resolvedTypes = nextTypes.length > 0 ? nextTypes : [...SEARCH_TYPES];
 
     setSelectedTypes(resolvedTypes);
-    replaceSearchParams(query, resolvedTypes);
+    replaceSearchParams(query, resolvedTypes, course, semester);
   }
 
-  function replaceSearchParams(nextQuery: string, nextTypes: NoteType[]) {
+  function replaceSearchParams(
+    nextQuery: string,
+    nextTypes: NoteType[],
+    nextCourse: string,
+    nextSemester: string,
+  ) {
     const params = new URLSearchParams(searchParams.toString());
 
     if (nextQuery.trim()) {
@@ -101,6 +120,18 @@ export function SearchView() {
     params.delete("tipo");
     for (const noteType of nextTypes) {
       params.append("tipo", noteType);
+    }
+
+    if (nextCourse) {
+      params.set("curso", nextCourse);
+    } else {
+      params.delete("curso");
+    }
+
+    if (nextSemester) {
+      params.set("semestre", nextSemester);
+    } else {
+      params.delete("semestre");
     }
 
     const next = params.toString();
@@ -150,6 +181,49 @@ export function SearchView() {
           );
         })}
         <span className="search-filters__hint">Atajo de teclado: /</span>
+      </div>
+
+      <div className="search-filters search-filters--selects" aria-label="Filtrar por contexto">
+        {courseOptions.length > 0 ? (
+          <label className="filter-box filter-box--compact">
+            <span>Curso</span>
+            <select
+              value={course}
+              onChange={(event) => {
+                const nextCourse = event.target.value;
+                setCourse(nextCourse);
+                replaceSearchParams(query, selectedTypes, nextCourse, semester);
+              }}
+            >
+              <option value="">Todos</option>
+              {courseOptions.map((value) => (
+                <option key={value} value={value}>
+                  {value}
+                </option>
+              ))}
+            </select>
+          </label>
+        ) : null}
+        {semesterOptions.length > 0 ? (
+          <label className="filter-box filter-box--compact">
+            <span>Semestre</span>
+            <select
+              value={semester}
+              onChange={(event) => {
+                const nextSemester = event.target.value;
+                setSemester(nextSemester);
+                replaceSearchParams(query, selectedTypes, course, nextSemester);
+              }}
+            >
+              <option value="">Todos</option>
+              {semesterOptions.map((value) => (
+                <option key={value} value={value}>
+                  {value}
+                </option>
+              ))}
+            </select>
+          </label>
+        ) : null}
       </div>
 
       {error ? <p className="empty-state">{error}</p> : null}
@@ -216,4 +290,9 @@ function readSelectedTypes(searchParams: ReturnType<typeof useSearchParams>): No
     SEARCH_TYPES.includes(value as NoteType),
   );
   return selected.length > 0 ? selected : [...SEARCH_TYPES];
+}
+
+function uniqueValues(values: Array<string | undefined>): string[] {
+  return [...new Set(values.filter((value): value is string => Boolean(value)))]
+    .sort((left, right) => left.localeCompare(right, "es"));
 }

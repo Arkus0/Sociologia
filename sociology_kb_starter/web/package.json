@@ -10,7 +10,8 @@
     "start": "next start",
     "lint": "eslint .",
     "test": "tsx --test src/lib/wiki-build.test.ts src/lib/wiki-routes.test.ts src/lib/wiki-search.test.ts",
-    "wiki:generate": "tsx scripts/generate-wiki.ts"
+    "wiki:audit": "tsx scripts/generate-wiki-audit.ts",
+    "wiki:generate": "tsx scripts/generate-wiki.ts && tsx scripts/generate-wiki-audit.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

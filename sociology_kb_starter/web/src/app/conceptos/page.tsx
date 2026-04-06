@@ -4,7 +4,7 @@ import { loadCatalog } from "@/lib/generated-data";
 export default async function ConceptsPage() {
   const catalog = await loadCatalog();
   const entries = catalog
-    .filter((entry) => entry.noteType === "concept")
+    .filter((entry) => entry.noteType === "concept" && !entry.isAlias)
     .sort((left, right) => left.title.localeCompare(right.title, "es"));
 
   return (

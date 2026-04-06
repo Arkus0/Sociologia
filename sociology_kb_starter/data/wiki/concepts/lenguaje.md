@@ -3,7 +3,7 @@ id: lenguaje
 title: Lenguaje
 note_type: concept
 semester: 2026-S1
-course: introduccion-a-la-sociologia
+course: Introduccion a la sociologia
 related_concepts:
   - socializacion
   - socializacion-primaria

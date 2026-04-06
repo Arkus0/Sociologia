@@ -63,6 +63,10 @@ interface RenderEnv {
   headingIds: Record<number, string>;
 }
 
+interface ResolveReferenceOptions {
+  currentDocument?: WikiDocument;
+}
+
 interface BuildWikiArtifactsOptions {
   wikiRoot: string;
   outputRoot: string;
@@ -80,6 +84,45 @@ interface BacklinkSummary {
 const WIKI_SECTIONS = ["concepts", "authors", "courses", "sources"] as const;
 const NOTE_PRIORITY: NoteType[] = ["concept", "author", "course"];
 const QUALITY_PREVIEW_MIN = 72;
+const THIN_ENTRY_MIN: Record<Exclude<NoteType, "source">, number> = {
+  concept: 300,
+  author: 200,
+  course: 150,
+};
+const ISSUE_PRIORITY: Record<QualityIssue["kind"], number> = {
+  broken_reference: 100,
+  ambiguous_reference: 95,
+  missing_course: 85,
+  course_variant: 80,
+  missing_required_section: 75,
+  thin_entry: 65,
+  missing_related_concepts: 60,
+  orphan_entry: 55,
+  thin_preview: 40,
+};
+const REQUIRED_SECTIONS: Record<"concept" | "author", Array<{ key: string; patterns: RegExp[] }>> = {
+  concept: [
+    { key: "Definicion", patterns: [/^definicion$/] },
+    { key: "Origen y contexto historico", patterns: [/^origen$/, /^origen y contexto historico$/] },
+    { key: "Desarrollo teorico", patterns: [/^desarrollo teorico$/] },
+    { key: "Relacion con otros conceptos", patterns: [/^relacion con otros conceptos$/] },
+    { key: "Debates y criticas", patterns: [/^debates y criticas$/] },
+    { key: "Vigencia contemporanea", patterns: [/^vigencia contemporanea$/] },
+    { key: "Ejemplo empirico", patterns: [/^ejemplo empirico$/] },
+    { key: "Vease tambien", patterns: [/^vease tambien$/] },
+    { key: "Fuentes", patterns: [/^fuentes$/] },
+  ],
+  author: [
+    { key: "Biografia intelectual", patterns: [/^biografia intelectual$/] },
+    { key: "Contribuciones principales", patterns: [/^contribuciones principales$/] },
+    { key: "Metodo y enfoque", patterns: [/^metodo y enfoque$/] },
+    { key: "Obras fundamentales", patterns: [/^obras fundamentales$/] },
+    { key: "Influencia y legado", patterns: [/^influencia y legado$/] },
+    { key: "Criticas", patterns: [/^criticas$/] },
+    { key: "Vease tambien", patterns: [/^vease tambien$/] },
+    { key: "Fuentes", patterns: [/^fuentes$/] },
+  ],
+};
 
 export async function buildWikiArtifacts(
   options: BuildWikiArtifactsOptions,
@@ -126,8 +169,11 @@ export async function buildWikiArtifacts(
     const graphDir = path.join(path.dirname(options.wikiRoot), "graph");
     const graphPath = path.join(graphDir, "atlas_graph.json");
     try {
-      await fs.access(graphPath);
-      await fs.copyFile(graphPath, path.join(options.publicRoot, "atlas_graph.json"));
+      const graph = JSON.parse(await fs.readFile(graphPath, "utf8")) as Record<string, unknown>;
+      await writeJson(
+        path.join(options.publicRoot, "atlas_graph.json"),
+        withPublicRoutes(graph, documents),
+      );
     } catch {
       // Graph file not available — skip
     }
@@ -147,9 +193,10 @@ export async function collectWikiDocuments(
   wikiRoot: string,
 ): Promise<WikiDocument[]> {
   const files = await collectMarkdownFiles(wikiRoot);
-  const documents = await Promise.all(
+  const rawDocuments = await Promise.all(
     files.map((filePath) => readWikiDocument(filePath, wikiRoot)),
   );
+  const documents = normalizeWikiDocuments(rawDocuments);
 
   return documents.sort((left, right) =>
     left.title.localeCompare(right.title, "es"),
@@ -233,14 +280,16 @@ export function buildLegacyMap(documents: WikiDocument[]): LegacyLookupEntry[] {
 export function resolveReference(
   reference: string,
   registry: LinkRegistry,
+  options: ResolveReferenceOptions = {},
 ): LinkResolution {
-  return resolveReferenceInternal(reference, registry, true);
+  return resolveReferenceInternal(reference, registry, true, options);
 }
 
 function resolveReferenceInternal(
   reference: string,
   registry: LinkRegistry,
   collapseAliases: boolean,
+  options: ResolveReferenceOptions = {},
 ): LinkResolution {
   const trimmed = normalizeReferenceValue(reference);
   if (!trimmed) {
@@ -287,6 +336,11 @@ function resolveReferenceInternal(
     return toLinkResolution(candidates[0], registry, false);
   }
 
+  const contextualCandidate = pickContextualCandidate(candidates, options.currentDocument);
+  if (contextualCandidate) {
+    return toLinkResolution(contextualCandidate, registry, false);
+  }
+
   const prioritized = pickPreferredCandidate(candidates);
   if (prioritized) {
     return toLinkResolution(prioritized, registry, false);
@@ -320,6 +374,7 @@ function toLinkResolution(
 export function renderMarkdownDocument(
   markdown: string,
   registry: LinkRegistry,
+  currentDocument?: WikiDocument,
 ): { html: string; toc: TocEntry[] } {
   const md = new MarkdownIt({
     html: false,
@@ -339,7 +394,7 @@ export function renderMarkdownDocument(
     return defaultHeadingOpen(tokens, idx, options, env, self);
   };
 
-  const processedMarkdown = rewriteWikiLinks(markdown, registry);
+  const processedMarkdown = rewriteWikiLinks(markdown, registry, currentDocument);
   const env: RenderEnv = { headingIds: {} };
   const tokens = md.parse(processedMarkdown, env);
   const slugCounts = new Map<string, number>();
@@ -380,9 +435,11 @@ export function buildArticlePayload(
   const canonicalDocument = getCanonicalDocument(document, registry);
   const referenceDocument = canonicalDocument;
   const courseRoute = referenceDocument.course
-    ? resolveReference(slugifyText(referenceDocument.course), registry).route
+    ? resolveReference(slugifyText(referenceDocument.course), registry, {
+        currentDocument: referenceDocument,
+      }).route
     : undefined;
-  const { html, toc } = renderMarkdownDocument(document.body, registry);
+  const { html, toc } = renderMarkdownDocument(document.body, registry, document);
   const isAlias = canonicalDocument.route !== document.route;
 
   return {
@@ -476,8 +533,8 @@ async function readWikiDocument(
   const body = stripTitleHeading(content, title);
   const timestamp = normalizeTimestamp(data.updated_at ?? data.compiled_at, stat.mtime);
 
-  const semester = asString(data.semester);
-  const course = asString(data.course);
+  const rawSemester = asString(data.semester);
+  const rawCourse = asString(data.course);
   const sourcePath = asString(data.source_path);
   const reviewed = typeof data.reviewed === "boolean" ? data.reviewed : undefined;
   const concepts = normalizeStringArray(data.concepts);
@@ -488,11 +545,11 @@ async function readWikiDocument(
   const id = asString(data.id) ?? slug;
 
   const frontmatterSubset: FrontmatterSubset = {};
-  if (semester) {
-    frontmatterSubset.semester = semester;
+  if (rawSemester) {
+    frontmatterSubset.semester = rawSemester;
   }
-  if (course) {
-    frontmatterSubset.course = course;
+  if (rawCourse) {
+    frontmatterSubset.course = rawCourse;
   }
   if (sourcePath) {
     frontmatterSubset.source_path = sourcePath;
@@ -520,8 +577,10 @@ async function readWikiDocument(
     body,
     preview: extractPreview(body),
     timestamp,
-    semester,
-    course,
+    rawSemester,
+    semester: rawSemester,
+    rawCourse,
+    course: rawCourse,
     sourcePath,
     reviewed,
     concepts,
@@ -535,6 +594,150 @@ async function readWikiDocument(
     frontmatter: data,
     wordCount: body.split(/\s+/).filter(Boolean).length,
   };
+}
+
+function normalizeWikiDocuments(documents: WikiDocument[]): WikiDocument[] {
+  const canonicalCourses = buildCanonicalCourseMap(documents);
+  const sourceDocuments = documents.filter((document) => document.noteType === "source");
+
+  return documents.map((document) => {
+    const inferredSemester =
+      inferDocumentSemester(document, sourceDocuments) ?? document.rawSemester;
+    const normalizedCourse = normalizeCourseValue(document.rawCourse, canonicalCourses);
+    const inferredCourse =
+      normalizeCourseValue(inferDocumentCourse(document, sourceDocuments), canonicalCourses) ??
+      (document.noteType === "source"
+        ? normalizeCourseValue(document.routeSegments[2], canonicalCourses)
+        : undefined);
+    const course = normalizedCourse ?? inferredCourse;
+    const courseSource = document.rawCourse
+      ? normalizedCourse && normalizedCourse !== document.rawCourse
+        ? "normalized"
+        : "declared"
+      : course
+        ? "inferred"
+        : undefined;
+
+    return {
+      ...document,
+      semester: inferredSemester,
+      course,
+      courseSource,
+    };
+  });
+}
+
+function buildCanonicalCourseMap(documents: WikiDocument[]): Map<string, string> {
+  const map = new Map<string, string>();
+
+  for (const document of documents) {
+    if (document.noteType !== "course") {
+      continue;
+    }
+
+    const variants = [
+      document.id,
+      document.slug,
+      document.title,
+      slugifyText(document.title),
+      normalizeText(document.title),
+    ];
+
+    for (const variant of variants) {
+      const normalized = normalizeText(variant);
+      if (normalized) {
+        map.set(normalized, document.title);
+      }
+    }
+  }
+
+  return map;
+}
+
+function normalizeCourseValue(
+  value: string | undefined,
+  canonicalCourses: Map<string, string>,
+): string | undefined {
+  if (!value) {
+    return undefined;
+  }
+
+  const normalized = normalizeText(value);
+  return canonicalCourses.get(normalized) ?? value;
+}
+
+function inferDocumentCourse(
+  document: WikiDocument,
+  sourceDocuments: WikiDocument[],
+): string | undefined {
+  if (document.noteType === "source") {
+    return document.rawCourse;
+  }
+
+  if (document.sourceNotes.length === 0) {
+    return undefined;
+  }
+
+  const candidates = new Set(
+    document.sourceNotes
+      .map((reference) => resolveSourceDocument(reference, sourceDocuments)?.course)
+      .filter((value): value is string => Boolean(value)),
+  );
+
+  return candidates.size === 1 ? [...candidates][0] : undefined;
+}
+
+function inferDocumentSemester(
+  document: WikiDocument,
+  sourceDocuments: WikiDocument[],
+): string | undefined {
+  if (document.noteType === "source") {
+    return document.rawSemester ?? document.routeSegments[1];
+  }
+
+  if (document.rawSemester) {
+    return document.rawSemester;
+  }
+
+  const candidates = new Set(
+    document.sourceNotes
+      .map((reference) => resolveSourceDocument(reference, sourceDocuments)?.semester)
+      .filter((value): value is string => Boolean(value)),
+  );
+
+  return candidates.size === 1 ? [...candidates][0] : undefined;
+}
+
+function resolveSourceDocument(
+  reference: string,
+  sourceDocuments: WikiDocument[],
+): WikiDocument | undefined {
+  const normalizedPath = normalizeRelativePath(reference);
+  const pathWithExtension = normalizedPath.endsWith(".md")
+    ? normalizedPath
+    : `${normalizedPath}.md`;
+  const direct = sourceDocuments.find(
+    (document) => normalizeRelativePath(document.relativePath) === pathWithExtension,
+  );
+  if (direct) {
+    return direct;
+  }
+
+  const referenceSlug = path.basename(normalizedPath.replace(/\.md$/i, ""));
+  const candidates = sourceDocuments.filter(
+    (document) =>
+      document.id === reference ||
+      document.id === referenceSlug ||
+      document.slug === reference ||
+      document.slug === referenceSlug,
+  );
+
+  if (candidates.length === 1) {
+    return candidates[0];
+  }
+
+  const uniqueCourses = new Set(candidates.map((document) => document.course).filter(Boolean));
+  return candidates.length > 0 && uniqueCourses.size === 1 ? candidates[0] : undefined;
 }
 
 function buildLinkRegistry(documents: WikiDocument[]): LinkRegistry {
@@ -576,6 +779,7 @@ function buildLinkRegistry(documents: WikiDocument[]): LinkRegistry {
       document.aliasTargetReference,
       registry,
       false,
+      { currentDocument: document },
     );
 
     if (resolution.status !== "exact" || !resolution.route) {
@@ -659,6 +863,7 @@ function buildInfobox(
         const courseMatch = resolveReference(
           slugifyText(canonicalDocument.course),
           registry,
+          { currentDocument: canonicalDocument },
         );
         items.push({
           label: "Curso",
@@ -713,6 +918,7 @@ function buildInfobox(
         const courseMatch = resolveReference(
           slugifyText(canonicalDocument.course),
           registry,
+          { currentDocument: canonicalDocument },
         );
         items.push({
           label: "Curso",
@@ -760,7 +966,7 @@ function buildRelatedLinks(
   const seenRoutes = new Set<string>();
 
   for (const seed of seeds) {
-    const match = resolveReference(seed, registry);
+    const match = resolveReference(seed, registry, { currentDocument: document });
     if (match.status === "missing" || !match.route || !match.noteType) {
       continue;
     }
@@ -808,10 +1014,14 @@ function countTokens(value: string): Record<string, number> {
   return Object.fromEntries(counts.entries());
 }
 
-function rewriteWikiLinks(markdown: string, registry: LinkRegistry): string {
+function rewriteWikiLinks(
+  markdown: string,
+  registry: LinkRegistry,
+  currentDocument?: WikiDocument,
+): string {
   return markdown.replace(/\[\[([^[\]]+)\]\]/g, (_match, rawContent: string) => {
     const [reference, alias] = rawContent.split("|");
-    const resolution = resolveReference(reference.trim(), registry);
+    const resolution = resolveReference(reference.trim(), registry, { currentDocument });
     const label =
       alias?.trim() ||
       (resolution.status === "missing"
@@ -892,6 +1102,53 @@ function pickPreferredCandidate(
     if (match) {
       return match;
     }
+  }
+
+  return undefined;
+}
+
+function pickContextualCandidate(
+  candidates: WikiDocument[],
+  currentDocument?: WikiDocument,
+): WikiDocument | undefined {
+  if (!currentDocument) {
+    return undefined;
+  }
+
+  const sameSemesterAndCourse = candidates.filter(
+    (candidate) =>
+      candidate.noteType === "source" &&
+      candidate.semester &&
+      currentDocument.semester &&
+      normalizeText(candidate.semester) === normalizeText(currentDocument.semester) &&
+      candidate.course &&
+      currentDocument.course &&
+      normalizeText(candidate.course) === normalizeText(currentDocument.course),
+  );
+  if (sameSemesterAndCourse.length === 1) {
+    return sameSemesterAndCourse[0];
+  }
+
+  const sameCourse = candidates.filter(
+    (candidate) =>
+      candidate.noteType === "source" &&
+      candidate.course &&
+      currentDocument.course &&
+      normalizeText(candidate.course) === normalizeText(currentDocument.course),
+  );
+  if (sameCourse.length === 1) {
+    return sameCourse[0];
+  }
+
+  const sameSemester = candidates.filter(
+    (candidate) =>
+      candidate.noteType === "source" &&
+      candidate.semester &&
+      currentDocument.semester &&
+      normalizeText(candidate.semester) === normalizeText(currentDocument.semester),
+  );
+  if (sameSemester.length === 1) {
+    return sameSemester[0];
   }
 
   return undefined;
@@ -986,7 +1243,9 @@ function buildBacklinkMap(
     const seeds = collectReferenceSeeds(document);
 
     for (const seed of seeds) {
-      const resolution = resolveReference(seed, registry);
+      const resolution = resolveReference(seed, registry, {
+        currentDocument: document,
+      });
       if (resolution.status !== "exact" || !resolution.route || !resolution.noteType) {
         continue;
       }
@@ -1026,42 +1285,110 @@ function buildQualityReport(
   const issues: QualityIssue[] = [];
 
   for (const document of documents) {
-    const isAlias = Boolean(document.aliasTargetReference);
+    const canonicalDocument = getCanonicalDocument(document, registry);
+    const isAlias = canonicalDocument.route !== document.route;
     const references = isAlias && document.aliasTargetReference
       ? [document.aliasTargetReference]
       : collectReferenceSeeds(document);
 
     if (!isAlias && document.preview.length < QUALITY_PREVIEW_MIN) {
-      issues.push({
-        level: "warning",
-        kind: "thin_preview",
-        documentRoute: document.route,
-        documentTitle: document.title,
-        detail: `La vista previa es demasiado breve (${document.preview.length} caracteres).`,
-      });
+      issues.push(
+        createQualityIssue(document, "thin_preview", {
+          detail: `La vista previa es demasiado breve (${document.preview.length} caracteres).`,
+        }),
+      );
+    }
+
+    if (!isAlias && requiresCourse(document) && !document.course) {
+      issues.push(
+        createQualityIssue(document, "missing_course", {
+          detail: "La entrada no tiene curso declarado o inferible de forma univoca.",
+        }),
+      );
+    }
+
+    if (
+      !isAlias &&
+      document.rawCourse &&
+      document.course &&
+      normalizeText(document.rawCourse) !== normalizeText(document.course)
+    ) {
+      issues.push(
+        createQualityIssue(document, "course_variant", {
+          detail: `Curso normalizado de "${document.rawCourse}" a "${document.course}".`,
+        }),
+      );
+    }
+
+    if (
+      !isAlias &&
+      document.noteType !== "source" &&
+      document.noteType !== "course" &&
+      document.wordCount < THIN_ENTRY_MIN[document.noteType]
+    ) {
+      issues.push(
+        createQualityIssue(document, "thin_entry", {
+          detail: `La entrada es demasiado breve (${document.wordCount} palabras).`,
+        }),
+      );
+    }
+
+    if (
+      !isAlias &&
+      (document.noteType === "concept" || document.noteType === "author") &&
+      document.relatedConcepts.length < 3
+    ) {
+      issues.push(
+        createQualityIssue(document, "missing_related_concepts", {
+          detail: `related_concepts contiene ${document.relatedConcepts.length} entradas; el minimo esperado es 3.`,
+        }),
+      );
+    }
+
+    if (!isAlias && (document.noteType === "concept" || document.noteType === "author")) {
+      const missingSections = getMissingRequiredSections(document);
+      if (missingSections.length > 0) {
+        issues.push(
+          createQualityIssue(document, "missing_required_section", {
+            detail: `Faltan secciones obligatorias: ${missingSections.join(", ")}.`,
+          }),
+        );
+      }
+    }
+
+    if (
+      !isAlias &&
+      (document.noteType === "concept" || document.noteType === "author") &&
+      (registry.backlinksByRoute.get(canonicalDocument.route)?.length ?? 0) === 0
+    ) {
+      issues.push(
+        createQualityIssue(document, "orphan_entry", {
+          detail: "La entrada canonica no recibe enlaces entrantes.",
+        }),
+      );
     }
 
     for (const reference of references) {
-      const resolution = resolveReference(reference, registry);
+      const resolution = resolveReference(reference, registry, {
+        currentDocument: document,
+      });
       if (resolution.status === "missing") {
-        issues.push({
-          level: "warning",
-          kind: "broken_reference",
-          documentRoute: document.route,
-          documentTitle: document.title,
-          detail: `Referencia sin resolver: ${reference}`,
-        });
+        issues.push(
+          createQualityIssue(document, "broken_reference", {
+            detail: `Referencia sin resolver: ${reference}`,
+            reference,
+          }),
+        );
         continue;
       }
 
       if (resolution.status === "ambiguous") {
-        issues.push({
-          level: "warning",
-          kind: "ambiguous_reference",
-          documentRoute: document.route,
-          documentTitle: document.title,
-          detail: `Referencia ambigua: ${reference}`,
-        });
+        issues.push(
+          createQualityIssue(document, "ambiguous_reference", {
+            detail: `Referencia ambigua: ${reference}`,
+            reference,
+          }),
+        );
       }
     }
   }
@@ -1070,18 +1397,116 @@ function buildQualityReport(
     summary[issue.kind] = (summary[issue.kind] ?? 0) + 1;
     return summary;
   }, {});
+  const sortedIssues = issues.sort((left, right) => {
+    if (right.priority !== left.priority) {
+      return right.priority - left.priority;
+    }
+    const leftLabel = `${left.documentTitle ?? ""}${left.detail}`;
+    const rightLabel = `${right.documentTitle ?? ""}${right.detail}`;
+    return leftLabel.localeCompare(rightLabel, "es");
+  });
 
   return {
     generatedAt: new Date().toISOString(),
     summary: {
-      issues: issues.length,
+      issues: sortedIssues.length,
       byKind,
     },
-    issues: issues.sort((left, right) => {
-      const leftLabel = `${left.documentTitle ?? ""}${left.detail}`;
-      const rightLabel = `${right.documentTitle ?? ""}${right.detail}`;
-      return leftLabel.localeCompare(rightLabel, "es");
-    }),
+    backlog: buildQualityBacklog(sortedIssues),
+    issues: sortedIssues,
+  };
+}
+
+function createQualityIssue(
+  document: WikiDocument,
+  kind: QualityIssue["kind"],
+  options: {
+    detail: string;
+    reference?: string;
+  },
+): QualityIssue {
+  return {
+    level: "warning",
+    kind,
+    priority: ISSUE_PRIORITY[kind],
+    documentRoute: document.route,
+    documentTitle: document.title,
+    documentNoteType: document.noteType,
+    reference: options.reference,
+    detail: options.detail,
+  };
+}
+
+function requiresCourse(document: WikiDocument): boolean {
+  return (
+    document.noteType === "concept" ||
+    document.noteType === "author" ||
+    document.noteType === "source"
+  );
+}
+
+function getMissingRequiredSections(document: WikiDocument): string[] {
+  if (document.noteType !== "concept" && document.noteType !== "author") {
+    return [];
+  }
+
+  const requirements = REQUIRED_SECTIONS[document.noteType];
+  const headings = extractNormalizedHeadings(document.body);
+
+  return requirements
+    .filter((section) => !section.patterns.some((pattern) => headings.some((heading) => pattern.test(heading))))
+    .map((section) => section.key);
+}
+
+function extractNormalizedHeadings(markdown: string): string[] {
+  return markdown
+    .split(/\r?\n/)
+    .map((line) => line.match(/^##\s+(.+?)\s*$/)?.[1])
+    .filter((value): value is string => Boolean(value))
+    .map((value) => normalizeText(value));
+}
+
+function buildQualityBacklog(issues: QualityIssue[]): QualityReport["backlog"] {
+  const byDocument = new Map<string, QualityReport["backlog"]["topDocuments"][number]>();
+  const byReference = new Map<string, QualityReport["backlog"]["topReferences"][number]>();
+
+  for (const issue of issues) {
+    if (issue.documentRoute && issue.documentTitle && issue.documentNoteType) {
+      const current = byDocument.get(issue.documentRoute);
+      byDocument.set(issue.documentRoute, {
+        route: issue.documentRoute,
+        title: issue.documentTitle,
+        noteType: issue.documentNoteType,
+        count: (current?.count ?? 0) + 1,
+        maxPriority: Math.max(current?.maxPriority ?? 0, issue.priority),
+      });
+    }
+
+    if (issue.reference) {
+      const current = byReference.get(issue.reference);
+      byReference.set(issue.reference, {
+        reference: issue.reference,
+        count: (current?.count ?? 0) + 1,
+        maxPriority: Math.max(current?.maxPriority ?? 0, issue.priority),
+      });
+    }
+  }
+
+  return {
+    topDocuments: [...byDocument.values()]
+      .sort((left, right) =>
+        right.maxPriority - left.maxPriority ||
+        right.count - left.count ||
+        left.title.localeCompare(right.title, "es"),
+      )
+      .slice(0, 25),
+    topReferences: [...byReference.values()]
+      .sort((left, right) =>
+        right.maxPriority - left.maxPriority ||
+        right.count - left.count ||
+        left.reference.localeCompare(right.reference, "es"),
+      )
+      .slice(0, 25),
   };
 }
 
@@ -1321,6 +1746,44 @@ function hashString(s: string, seed: number): number {
     h = (h * 31 + s.charCodeAt(i)) >>> 0;
   }
   return h;
+}
+
+function withPublicRoutes(
+  graph: Record<string, unknown>,
+  documents: WikiDocument[],
+): Record<string, unknown> {
+  const canonicalDocuments = documents.filter((document) => !document.aliasTargetReference);
+  const routeByTypeAndSlug = new Map<string, string>();
+  const sourceRouteByRelativePath = new Map<string, string>();
+
+  for (const document of canonicalDocuments) {
+    routeByTypeAndSlug.set(`${document.noteType}:${document.slug}`, document.route);
+    if (document.noteType === "source") {
+      sourceRouteByRelativePath.set(normalizeRelativePath(document.relativePath), document.route);
+    }
+  }
+
+  const nodes = Array.isArray(graph.nodes) ? graph.nodes : [];
+
+  return {
+    ...graph,
+    nodes: nodes.map((node) => {
+      if (!node || typeof node !== "object") {
+        return node;
+      }
+
+      const nodeRecord = node as Record<string, unknown>;
+      const nodeType = typeof nodeRecord.type === "string" ? nodeRecord.type : "";
+      const nodeId = typeof nodeRecord.id === "string" ? nodeRecord.id : "";
+      const nodePath = typeof nodeRecord.path === "string" ? normalizeRelativePath(nodeRecord.path) : "";
+      const slug = nodeId.includes("::") ? nodeId.split("::")[1] : "";
+      const route =
+        (nodeType === "source" && nodePath ? sourceRouteByRelativePath.get(nodePath) : undefined) ??
+        (slug ? routeByTypeAndSlug.get(`${nodeType}:${slug}`) : undefined);
+
+      return route ? { ...nodeRecord, route } : nodeRecord;
+    }),
+  };
 }
 
 function buildRssFeed(

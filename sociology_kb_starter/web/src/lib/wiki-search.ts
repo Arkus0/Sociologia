@@ -12,6 +12,8 @@ export const FIELD_WEIGHTS = {
 
 interface SearchOptions {
   noteTypes?: NoteType[];
+  course?: string;
+  semester?: string;
 }
 
 export function searchDocuments(
@@ -25,7 +27,7 @@ export function searchDocuments(
     return [];
   }
 
-  const docs = filterDocs(index.docs, options.noteTypes);
+  const docs = filterDocs(index.docs, options);
   const totalDocs = Math.max(docs.length, 1);
 
   return docs
@@ -50,7 +52,7 @@ export function suggestDocuments(
     return [];
   }
 
-  return filterDocs(index.docs, options.noteTypes)
+  return filterDocs(index.docs, options)
     .map((doc) => ({
       doc,
       score: scoreSuggestion(doc, normalizedQuery),
@@ -61,13 +63,24 @@ export function suggestDocuments(
     .map((entry) => entry.doc);
 }
 
-function filterDocs(docs: SearchEntry[], noteTypes?: NoteType[]): SearchEntry[] {
-  if (!noteTypes || noteTypes.length === 0) {
-    return docs;
-  }
+function filterDocs(docs: SearchEntry[], options: SearchOptions): SearchEntry[] {
+  const allowed = options.noteTypes?.length ? new Set(options.noteTypes) : null;
 
-  const allowed = new Set(noteTypes);
-  return docs.filter((doc) => allowed.has(doc.noteType));
+  return docs.filter((doc) => {
+    if (allowed && !allowed.has(doc.noteType)) {
+      return false;
+    }
+
+    if (options.course && doc.course !== options.course) {
+      return false;
+    }
+
+    if (options.semester && doc.semester !== options.semester) {
+      return false;
+    }
+
+    return true;
+  });
 }
 
 function scoreDocument(

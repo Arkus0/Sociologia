@@ -4,7 +4,7 @@ import { loadCatalog } from "@/lib/generated-data";
 export default async function AuthorsPage() {
   const catalog = await loadCatalog();
   const entries = catalog
-    .filter((entry) => entry.noteType === "author")
+    .filter((entry) => entry.noteType === "author" && !entry.isAlias)
     .sort((left, right) => left.title.localeCompare(right.title, "es"));
 
   return (

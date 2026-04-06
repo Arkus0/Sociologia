@@ -3,7 +3,7 @@ id: culpa
 title: Culpa
 note_type: concept
 semester: 2026-S1
-course: introduccion-a-la-sociologia
+course: Introduccion a la sociologia
 related_concepts:
   - conciencia-colectiva
   - religion

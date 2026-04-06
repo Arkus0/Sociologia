@@ -8,6 +8,7 @@ interface GraphNode {
   title: string;
   type: string;
   path: string | null;
+  route?: string;
   x?: number;
   y?: number;
   vx?: number;
@@ -57,6 +58,9 @@ const ROUTE_PREFIX: Record<string, string> = {
 };
 
 function nodeRoute(node: GraphNode): string | null {
+  if (node.route) {
+    return node.route;
+  }
   const prefix = ROUTE_PREFIX[node.type];
   if (!prefix) return null;
   const slug = node.id.split("::")[1];

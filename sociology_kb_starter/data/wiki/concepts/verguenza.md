@@ -3,7 +3,7 @@ id: verguenza
 title: Vergüenza
 note_type: concept
 semester: 2026-S1
-course: introduccion-a-la-sociologia
+course: Introduccion a la sociologia
 related_concepts:
   - culpa
   - estigma

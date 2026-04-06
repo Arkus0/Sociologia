@@ -70,7 +70,8 @@ img {
 }
 
 button,
-input {
+input,
+select {
   font: inherit;
 }
 
@@ -162,6 +163,7 @@ input {
 .site-search input,
 .home-hero__search input,
 .filter-box input,
+.filter-box select,
 .search-form input {
   width: 100%;
   padding: 0.7rem 0.85rem;
@@ -379,10 +381,22 @@ input {
   flex-wrap: wrap;
 }
 
+.page-toolbar__filters {
+  display: flex;
+  gap: 0.7rem;
+  align-items: end;
+  flex-wrap: wrap;
+  flex: 1 1 42rem;
+}
+
 .filter-box {
   display: grid;
   gap: 0.45rem;
   min-width: min(28rem, 100%);
+}
+
+.filter-box--compact {
+  min-width: 15rem;
 }
 
 .index-groups,
@@ -474,6 +488,10 @@ input {
 .search-filters__hint {
   color: var(--muted);
   font-size: 0.93rem;
+}
+
+.search-filters--selects {
+  align-items: end;
 }
 
 .search-results {
@@ -750,6 +768,7 @@ input {
 
   .site-header__links,
   .page-toolbar,
+  .page-toolbar__filters,
   .search-form,
   .site-search__controls,
   .home-hero__search div {
@@ -1072,6 +1091,40 @@ input {
 .graph-page {
   display: grid;
   gap: 1rem;
+}
+
+.quality-page {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.quality-page__results-title {
+  font-family: var(--font-reading), "Source Serif 4", serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.quality-issue {
+  gap: 0.55rem;
+}
+
+.quality-issue__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.quality-issue__meta {
+  margin-left: 0.55rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.quality-reference {
+  font-family: var(--font-reading), "Source Serif 4", serif;
 }
 
 .graph-container {

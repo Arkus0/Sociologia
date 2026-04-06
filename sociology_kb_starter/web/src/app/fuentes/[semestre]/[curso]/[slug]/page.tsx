@@ -20,11 +20,16 @@ export async function generateMetadata({
   params: Promise<{ semestre: string; curso: string; slug: string }>;
 }): Promise<Metadata> {
   const { semestre, curso, slug } = await params;
-  const article = await loadArticlePayload(`/fuentes/${semestre}/${curso}/${slug}`);
+  const route = `/fuentes/${semestre}/${curso}/${slug}`;
+  const article = await loadArticlePayload(route);
   if (!article) return {};
   return {
     title: `${article.title} — Jotapedia`,
     description: article.preview,
+    alternates: {
+      canonical: article.canonicalEntry?.route ?? route,
+    },
+    robots: article.isAlias ? { index: false, follow: true } : undefined,
     openGraph: { title: `${article.title} — Jotapedia`, description: article.preview, type: "article" },
     twitter: { card: "summary", title: `${article.title} — Jotapedia`, description: article.preview },
   };

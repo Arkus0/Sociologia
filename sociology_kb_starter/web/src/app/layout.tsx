@@ -77,6 +77,7 @@ export default function RootLayout({
                 <Link href="/fuentes">Fuentes</Link>
                 <Link href="/grafo">Grafo</Link>
                 <Link href="/stats">Stats</Link>
+                <Link href="/calidad">Calidad</Link>
                 <a href="/generated/feed.xml" className="rss-link" title="Suscribirse via RSS" target="_blank" rel="noopener noreferrer">
                   RSS
                 </a>

@@ -5,7 +5,7 @@
     <link>https://jotapedia.vercel.app</link>
     <description>Articulos recientes y datos curiosos de sociologia</description>
     <language>es</language>
-    <lastBuildDate>Mon, 06 Apr 2026 09:19:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 16:08:30 GMT</lastBuildDate>
     <atom:link href="https://jotapedia.vercel.app/generated/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Urbanización</title>
@@ -69,15 +69,15 @@
       <guid isPermaLink="true">https://jotapedia.vercel.app/fuentes/2026-s1/estructura-economica/la-estructura-productiva</guid>
       <pubDate>Mon, 06 Apr 2026 18:00:00 GMT</pubDate>
       <category>Fuente</category>
-      <description>Sexto módulo de Estructura Económica (UOC, PID 00275132). Examina la transformación de la estructura productiva española tras la apertura exterior y la adhesión a la union europea, analizando cada sector de actividad:...</description>
+      <description>Este modulo estudia la transformacion de la estructura productiva española desde la apertura exterior y la integracion europea. La tesis principal es que la economia se ha desplazado hacia una fuerte terciarizacion, p...</description>
     </item>
     <item>
-      <title>Los factores de producción</title>
+      <title>Los factores de produccion</title>
       <link>https://jotapedia.vercel.app/fuentes/2026-s1/estructura-economica/los-factores-de-produccion</link>
       <guid isPermaLink="true">https://jotapedia.vercel.app/fuentes/2026-s1/estructura-economica/los-factores-de-produccion</guid>
       <pubDate>Mon, 06 Apr 2026 18:00:00 GMT</pubDate>
       <category>Fuente</category>
-      <description>Quinto módulo de Estructura Económica (UOC, PID 00275128). Analiza los tres grandes factores de producción — capital humano, capital tecnologico y capital fisico — como determinantes del diferencial de productividad e...</description>
+      <description>Este modulo analiza como capital humano, capital tecnologico y capital fisico condicionan la productividad y explican buena parte de la distancia entre la economia española y sus socios de la eurozona. El argumento ce...</description>
     </item>
     <item>
       <title>Migraciones</title>
@@ -251,7 +251,7 @@
       <title>¿Sabías que...? — Deuda externa</title>
       <link>https://jotapedia.vercel.app/conceptos/deuda-externa</link>
       <guid isPermaLink="false">fact-0-2290383552</guid>
-      <pubDate>Mon, 06 Apr 2026 09:19:03 GMT</pubDate>
+      <pubDate>Mon, 06 Apr 2026 16:08:30 GMT</pubDate>
       <category>Sabias que</category>
       <description>La deuda externa es el conjunto de obligaciones financieras que un país (gobierno, empresas, bancos) tiene contraídas con acreedores extranjeros (bancos comerciales, organismos internacionales, gobiernos).</description>
     </item>
@@ -259,7 +259,7 @@
       <title>¿Sabías que...? — Hipótesis descriptiva</title>
       <link>https://jotapedia.vercel.app/conceptos/hipotesis-descriptiva</link>
       <guid isPermaLink="false">fact-1-3477715866</guid>
-      <pubDate>Mon, 06 Apr 2026 09:19:03 GMT</pubDate>
+      <pubDate>Mon, 06 Apr 2026 16:08:30 GMT</pubDate>
       <category>Sabias que</category>
       <description>Una hipótesis descriptiva es una proposición declarativa que anticipa las características, la distribución o la frecuencia de un fenómeno social sin establecer relaciones causales entre variables.</description>
     </item>
@@ -267,7 +267,7 @@
       <title>¿Sabías que...? — Sociólogas fundadoras, la memoria oculta de la sociología</title>
       <link>https://jotapedia.vercel.app/fuentes/2026-s1/introduccion-a-la-sociologia/sociologas-fundadoras-la-memoria-oculta-de-la-sociologia</link>
       <guid isPermaLink="false">fact-2-2894997730</guid>
-      <pubDate>Mon, 06 Apr 2026 09:19:03 GMT</pubDate>
+      <pubDate>Mon, 06 Apr 2026 16:08:30 GMT</pubDate>
       <category>Sabias que</category>
       <description>¿Cuáles son las principales contribuciones de Harriet Martineau a la metodología sociológica?</description>
     </item>
@@ -275,7 +275,7 @@
       <title>¿Sabías que...? — Distribución normal</title>
       <link>https://jotapedia.vercel.app/conceptos/distribucion-normal</link>
       <guid isPermaLink="false">fact-3-863013536</guid>
-      <pubDate>Mon, 06 Apr 2026 09:19:03 GMT</pubDate>
+      <pubDate>Mon, 06 Apr 2026 16:08:30 GMT</pubDate>
       <category>Sabias que</category>
       <description>La distribución normal es una distribución de probabilidad continua y simétrica, con forma de campana, en la que la mayor parte de las observaciones se concentra en torno a la media.</description>
     </item>
@@ -283,7 +283,7 @@
       <title>¿Sabías que...? — Democracia</title>
       <link>https://jotapedia.vercel.app/conceptos/democracia</link>
       <guid isPermaLink="false">fact-4-436854406</guid>
-      <pubDate>Mon, 06 Apr 2026 09:19:03 GMT</pubDate>
+      <pubDate>Mon, 06 Apr 2026 16:08:30 GMT</pubDate>
       <category>Sabias que</category>
       <description>El ejemplo metodológico clásico es la operacionalización de la democracia según robert a dahl Dahl en Polyarchy (1971).</description>
     </item>

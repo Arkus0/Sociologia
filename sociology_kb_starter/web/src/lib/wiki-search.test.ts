@@ -17,6 +17,8 @@ const FIXTURE_INDEX: SearchIndex = {
       title: "Karl Marx",
       noteType: "author",
       preview: "Autor central en la teoria del conflicto.",
+      semester: "2026-S1",
+      course: "Introduccion a la sociologia",
       aliases: ["Marx"],
       isAlias: false,
       fieldTokens: {
@@ -33,6 +35,8 @@ const FIXTURE_INDEX: SearchIndex = {
       title: "Clase social",
       noteType: "concept",
       preview: "Concepto sociologico sobre estratificacion.",
+      semester: "2026-S1",
+      course: "Metodologia de las ciencias sociales",
       aliases: [],
       isAlias: false,
       fieldTokens: {
@@ -64,4 +68,25 @@ test("searchDocuments permite filtrar por tipo", () => {
 test("suggestDocuments tolera errores tipograficos simples", () => {
   const suggestions = suggestDocuments(FIXTURE_INDEX, "marxx");
   assert.equal(suggestions[0]?.route, "/autores/karl-marx");
+});
+
+test("searchDocuments permite filtrar por curso y semestre", () => {
+  const results = searchDocuments(FIXTURE_INDEX, "clase", 20, {
+    course: "Metodologia de las ciencias sociales",
+    semester: "2026-S1",
+  });
+
+  assert.deepEqual(results.map((result) => result.route), [
+    "/conceptos/clase-social",
+  ]);
+});
+
+test("suggestDocuments respeta los filtros de curso", () => {
+  const suggestions = suggestDocuments(FIXTURE_INDEX, "marx", 8, {
+    course: "Introduccion a la sociologia",
+  });
+
+  assert.deepEqual(suggestions.map((result) => result.route), [
+    "/autores/karl-marx",
+  ]);
 });

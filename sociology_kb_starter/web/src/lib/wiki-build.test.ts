@@ -443,6 +443,315 @@ Nota completa con desarrollo propio y contexto historico.
   assert.ok(searchIndex.docs.some((entry) => entry.route === "/conceptos/tlcan"));
 });
 
+test("buildWikiArtifacts normaliza cursos, resuelve fuentes ambiguas con contexto y publica rutas del grafo", async () => {
+  const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "jotapedia-web-"));
+  const wikiRoot = path.join(tempRoot, "wiki");
+  const outputRoot = path.join(tempRoot, ".generated");
+  const publicRoot = path.join(tempRoot, "public", "generated");
+  const graphRoot = path.join(tempRoot, "graph");
+
+  await fs.mkdir(path.join(wikiRoot, "concepts"), { recursive: true });
+  await fs.mkdir(path.join(wikiRoot, "authors"), { recursive: true });
+  await fs.mkdir(path.join(wikiRoot, "courses"), { recursive: true });
+  await fs.mkdir(
+    path.join(wikiRoot, "sources", "2026-s1", "introduccion-a-la-sociologia"),
+    { recursive: true },
+  );
+  await fs.mkdir(
+    path.join(
+      wikiRoot,
+      "sources",
+      "2026-s1",
+      "metodologia-de-las-ciencias-sociales",
+    ),
+    { recursive: true },
+  );
+  await fs.mkdir(graphRoot, { recursive: true });
+
+  const files = new Map<string, string>([
+    [
+      path.join(wikiRoot, "courses", "introduccion-a-la-sociologia.md"),
+      `---
+id: introduccion-a-la-sociologia
+title: "Introduccion a la sociologia"
+note_type: course
+updated_at: "2026-04-06"
+---
+
+# Introduccion a la sociologia
+
+## Alcance
+
+Curso de prueba.
+`,
+    ],
+    [
+      path.join(wikiRoot, "concepts", "curso-normalizado.md"),
+      `---
+id: curso-normalizado
+title: "Curso normalizado"
+note_type: concept
+semester: 2026-S1
+course: introduccion-a-la-sociologia
+related_concepts:
+  - teoria
+  - hipotesis
+  - metodologia
+updated_at: "2026-04-06"
+---
+
+# Curso normalizado
+
+## Definicion
+
+Entrada de prueba para validar la normalizacion de curso.
+
+## Origen y contexto historico
+
+Contexto minimo de prueba.
+
+## Desarrollo teorico
+
+Desarrollo suficiente para evitar ruido en el test.
+
+## Relacion con otros conceptos
+
+Se vincula con [[teoria]], [[hipotesis]] y [[metodologia]].
+
+## Debates y criticas
+
+Tiene valor de prueba.
+
+## Vigencia contemporanea
+
+Sigue siendo util para el generador.
+
+## Ejemplo empirico
+
+Se usa para verificar el linter.
+
+## Vease tambien
+
+- [[teoria]]
+- [[hipotesis]]
+- [[metodologia]]
+
+## Fuentes
+
+- Fuente de prueba.
+`,
+    ],
+    [
+      path.join(wikiRoot, "concepts", "sin-curso.md"),
+      `---
+id: sin-curso
+title: "Sin curso"
+note_type: concept
+related_concepts:
+  - teoria
+  - hipotesis
+  - metodologia
+updated_at: "2026-04-06"
+---
+
+# Sin curso
+
+## Definicion
+
+Entrada de prueba sin curso.
+
+## Origen y contexto historico
+
+Contexto minimo de prueba.
+
+## Desarrollo teorico
+
+Desarrollo suficiente para evitar ruido en el test.
+
+## Relacion con otros conceptos
+
+Se vincula con [[teoria]], [[hipotesis]] y [[metodologia]].
+
+## Debates y criticas
+
+Tiene valor de prueba.
+
+## Vigencia contemporanea
+
+Sigue siendo util para el generador.
+
+## Ejemplo empirico
+
+Se usa para verificar el linter.
+
+## Vease tambien
+
+- [[teoria]]
+- [[hipotesis]]
+- [[metodologia]]
+
+## Fuentes
+
+- Fuente de prueba.
+`,
+    ],
+    [
+      path.join(
+        wikiRoot,
+        "sources",
+        "2026-s1",
+        "introduccion-a-la-sociologia",
+        "modulo-2.md",
+      ),
+      `---
+id: modulo-2
+title: "Modulo 2"
+note_type: source
+semester: 2026-S1
+course: Introduccion a la sociologia
+compiled_at: "2026-04-06T00:00:00+00:00"
+---
+
+# Modulo 2
+
+## Summary
+
+Fuente de prueba.
+`,
+    ],
+    [
+      path.join(
+        wikiRoot,
+        "sources",
+        "2026-s1",
+        "introduccion-a-la-sociologia",
+        "nota-contextual.md",
+      ),
+      `---
+id: nota-contextual
+title: "Nota contextual"
+note_type: source
+semester: 2026-S1
+course: Introduccion a la sociologia
+compiled_at: "2026-04-06T00:00:00+00:00"
+---
+
+# Nota contextual
+
+## Summary
+
+Vease [[modulo-2]].
+`,
+    ],
+    [
+      path.join(
+        wikiRoot,
+        "sources",
+        "2026-s1",
+        "metodologia-de-las-ciencias-sociales",
+        "modulo-2.md",
+      ),
+      `---
+id: modulo-2
+title: "Modulo 2 de metodologia"
+note_type: source
+semester: 2026-S1
+course: Metodologia de las ciencias sociales
+compiled_at: "2026-04-06T00:00:00+00:00"
+---
+
+# Modulo 2 de metodologia
+
+## Summary
+
+Fuente de prueba.
+`,
+    ],
+  ]);
+
+  for (const [filePath, contents] of files) {
+    await fs.writeFile(filePath, contents, "utf8");
+  }
+
+  await fs.writeFile(
+    path.join(graphRoot, "atlas_graph.json"),
+    JSON.stringify(
+      {
+        nodes: [
+          {
+            id: "source::modulo-2",
+            type: "source",
+            path: "sources/2026-s1/introduccion-a-la-sociologia/modulo-2.md",
+          },
+          {
+            id: "concept::curso-normalizado",
+            type: "concept",
+          },
+        ],
+        links: [],
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  await buildWikiArtifacts({
+    wikiRoot,
+    outputRoot,
+    publicRoot,
+  });
+
+  const qualityReport = JSON.parse(
+    await fs.readFile(path.join(outputRoot, "quality-report.json"), "utf8"),
+  ) as {
+    summary: { byKind: Record<string, number> };
+  };
+  assert.equal(qualityReport.summary.byKind.course_variant, 1);
+  assert.equal(qualityReport.summary.byKind.missing_course, 1);
+
+  const catalog = JSON.parse(
+    await fs.readFile(path.join(outputRoot, "catalog.json"), "utf8"),
+  ) as Array<{ route: string; course?: string }>;
+  assert.equal(
+    catalog.find((entry) => entry.route === "/conceptos/curso-normalizado")?.course,
+    "Introduccion a la sociologia",
+  );
+
+  const contextualArticle = JSON.parse(
+    await fs.readFile(
+      path.join(
+        outputRoot,
+        "articles",
+        "fuentes",
+        "2026-s1",
+        "introduccion-a-la-sociologia",
+        "nota-contextual.json",
+      ),
+      "utf8",
+    ),
+  ) as { html: string };
+  assert.match(
+    contextualArticle.html,
+    /href="\/fuentes\/2026-s1\/introduccion-a-la-sociologia\/modulo-2"/,
+  );
+  assert.doesNotMatch(contextualArticle.html, /\/legado\/fuentes\/modulo-2/);
+
+  const publicGraph = JSON.parse(
+    await fs.readFile(path.join(publicRoot, "atlas_graph.json"), "utf8"),
+  ) as {
+    nodes: Array<{ id: string; route?: string }>;
+  };
+  assert.equal(
+    publicGraph.nodes.find((node) => node.id === "source::modulo-2")?.route,
+    "/fuentes/2026-s1/introduccion-a-la-sociologia/modulo-2",
+  );
+  assert.equal(
+    publicGraph.nodes.find((node) => node.id === "concept::curso-normalizado")?.route,
+    "/conceptos/curso-normalizado",
+  );
+});
+
 async function snapshotMarkdownFiles(root: string) {
   const files = await collectMarkdownFiles(root);
   const snapshot = new Map<string, string>();

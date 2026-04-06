@@ -11,6 +11,7 @@ const PRIMARY_LINKS = [
   { href: "/fuentes", label: "Fuentes" },
   { href: "/grafo", label: "Grafo de conocimiento" },
   { href: "/stats", label: "Estadisticas" },
+  { href: "/calidad", label: "Calidad editorial" },
   { href: "/buscar", label: "Buscar" },
   { href: "/aleatoria", label: "🎲 Articulo aleatorio" },
 ];

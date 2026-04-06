@@ -7,16 +7,29 @@ export const dynamic = "force-static";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const catalog = await loadCatalog();
   const siteUrl = resolveSiteUrl();
-  const staticRoutes = ["/", "/buscar", "/conceptos", "/autores", "/cursos", "/fuentes", "/aleatoria"];
+  const staticRoutes = [
+    "/",
+    "/buscar",
+    "/conceptos",
+    "/autores",
+    "/cursos",
+    "/fuentes",
+    "/grafo",
+    "/stats",
+    "/calidad",
+    "/aleatoria",
+  ];
 
   return [
     ...staticRoutes.map((route) => ({
       url: new URL(route, siteUrl).toString(),
     })),
-    ...catalog.map((entry) => ({
+    ...catalog
+      .filter((entry) => !entry.isAlias)
+      .map((entry) => ({
       url: new URL(entry.route, siteUrl).toString(),
       lastModified: entry.timestamp,
-    })),
+      })),
   ];
 }
 

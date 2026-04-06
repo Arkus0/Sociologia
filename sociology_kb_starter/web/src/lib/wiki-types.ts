@@ -20,8 +20,11 @@ export interface WikiDocument {
   body: string;
   preview: string;
   timestamp: string;
+  rawSemester?: string;
   semester?: string;
+  rawCourse?: string;
   course?: string;
+  courseSource?: "declared" | "normalized" | "inferred";
   sourcePath?: string;
   reviewed?: boolean;
   concepts: string[];
@@ -152,10 +155,33 @@ export interface QualityIssue {
   kind:
     | "broken_reference"
     | "ambiguous_reference"
-    | "thin_preview";
+    | "thin_preview"
+    | "missing_course"
+    | "course_variant"
+    | "thin_entry"
+    | "missing_required_section"
+    | "missing_related_concepts"
+    | "orphan_entry";
+  priority: number;
   documentRoute?: string;
   documentTitle?: string;
+  documentNoteType?: NoteType;
+  reference?: string;
   detail: string;
+}
+
+export interface QualityBacklogDocument {
+  route: string;
+  title: string;
+  noteType: NoteType;
+  count: number;
+  maxPriority: number;
+}
+
+export interface QualityBacklogReference {
+  reference: string;
+  count: number;
+  maxPriority: number;
 }
 
 export interface QualityReport {
@@ -163,6 +189,10 @@ export interface QualityReport {
   summary: {
     issues: number;
     byKind: Record<string, number>;
+  };
+  backlog: {
+    topDocuments: QualityBacklogDocument[];
+    topReferences: QualityBacklogReference[];
   };
   issues: QualityIssue[];
 }

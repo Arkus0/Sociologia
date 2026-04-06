@@ -9,14 +9,15 @@ import type { NoteType } from "@/lib/wiki-types";
 
 export default async function HomePage() {
   const catalog = await loadCatalog();
+  const canonicalCatalog = catalog.filter((entry) => !entry.isAlias);
   const quality = await loadQualityReport();
   const facts = await loadFacts();
-  const counts = countByType(catalog.map((entry) => entry.noteType));
-  const recent = [...catalog]
+  const counts = countByType(canonicalCatalog.map((entry) => entry.noteType));
+  const recent = [...canonicalCatalog]
     .sort((left, right) => right.timestamp.localeCompare(left.timestamp))
     .slice(0, 10);
 
-  const articleOfTheWeek = pickArticleOfTheWeek(catalog);
+  const articleOfTheWeek = pickArticleOfTheWeek(canonicalCatalog);
 
   return (
     <section className="home-page">
@@ -96,6 +97,9 @@ export default async function HomePage() {
               <Link href="/stats">Estadisticas</Link>
             </li>
             <li>
+              <Link href="/calidad">Calidad editorial</Link>
+            </li>
+            <li>
               <Link href="/aleatoria">🎲 Articulo aleatorio</Link>
             </li>
           </ul>
@@ -172,6 +176,9 @@ export default async function HomePage() {
               <span>{quality.summary.byKind.thin_preview ?? 0}</span>
             </li>
           </ul>
+          <p style={{ marginTop: "0.9rem" }}>
+            <Link href="/calidad">Abrir dashboard editorial</Link>
+          </p>
         </article>
 
         <article className="portal-card portal-card--wide">
