@@ -5,6 +5,7 @@ from textwrap import dedent
 
 from kb_core.lint import run_lint_checks, suggest_new_articles
 from kb_core.storage import ensure_project_dirs, write_note
+from kb_core.utils import extract_alias_target
 
 
 def test_broken_wikilink_detected(kb_tmp: Path):
@@ -44,6 +45,25 @@ def test_suggest_new_articles(kb_tmp: Path):
     assert len(suggestions) >= 1
     assert suggestions[0]["concept"] == "stratification"
     assert len(suggestions[0]["courses"]) == 2
+
+
+def test_extract_alias_target_ignores_vease_tambien_sections():
+    body = dedent(
+        """\
+        # TLCAN
+
+        ## Definicion
+
+        Nota completa con desarrollo propio.
+
+        ## Vease tambien
+
+        - [[integracion-economica]]
+        - [[mercado-comun]]
+        """
+    )
+
+    assert extract_alias_target(body) is None
 
 
 def test_lint_ignores_auxiliary_files_and_bom_aliases(kb_tmp: Path):

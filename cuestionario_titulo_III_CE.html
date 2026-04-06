@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test - Título III CE: De las Cortes Generales</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f4f8; color: #1a202c; min-height: 100vh; }
+
+  .header { background: linear-gradient(135deg, #1e3a5f, #2d5986); color: white; padding: 24px 20px; text-align: center; }
+  .header h1 { font-size: 1.5rem; margin-bottom: 6px; }
+  .header p { font-size: 0.9rem; opacity: 0.85; }
+
+  .container { max-width: 820px; margin: 0 auto; padding: 20px; }
+
+  /* Pantalla de inicio */
+  .start-screen { background: white; border-radius: 12px; padding: 32px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); text-align: center; }
+  .start-screen h2 { color: #1e3a5f; margin-bottom: 16px; font-size: 1.3rem; }
+  .start-screen p { color: #4a5568; margin-bottom: 10px; line-height: 1.6; }
+  .info-box { background: #ebf5ff; border-left: 4px solid #2d5986; padding: 14px 18px; border-radius: 0 8px 8px 0; margin: 20px 0; text-align: left; }
+  .info-box strong { color: #1e3a5f; }
+
+  .config-section { margin: 24px 0; text-align: left; }
+  .config-section label { font-weight: 600; color: #2d3748; display: block; margin-bottom: 8px; }
+  .config-section select { width: 100%; padding: 10px 14px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; background: white; }
+
+  .btn { display: inline-block; padding: 14px 36px; border: none; border-radius: 8px; font-size: 1.05rem; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+  .btn-primary { background: #2d5986; color: white; }
+  .btn-primary:hover { background: #1e3a5f; transform: translateY(-1px); }
+  .btn-secondary { background: #e2e8f0; color: #2d3748; }
+  .btn-secondary:hover { background: #cbd5e0; }
+  .btn-success { background: #38a169; color: white; }
+  .btn-success:hover { background: #2f855a; }
+
+  /* Barra de progreso */
+  .progress-bar-container { background: white; border-radius: 12px; padding: 16px 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .progress-info { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; font-size: 0.9rem; color: #4a5568; }
+  .progress-track { height: 8px; background: #e2e8f0; border-radius: 4px; overflow: hidden; }
+  .progress-fill { height: 100%; background: linear-gradient(90deg, #2d5986, #4299e1); border-radius: 4px; transition: width 0.4s ease; }
+
+  /* Tarjeta de pregunta */
+  .question-card { background: white; border-radius: 12px; padding: 28px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); margin-bottom: 16px; }
+  .question-number { font-size: 0.85rem; color: #718096; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px; }
+  .question-text { font-size: 1.1rem; line-height: 1.6; color: #1a202c; margin-bottom: 24px; font-weight: 500; }
+
+  .options { display: flex; flex-direction: column; gap: 10px; }
+  .option { display: flex; align-items: flex-start; gap: 12px; padding: 14px 16px; border: 2px solid #e2e8f0; border-radius: 10px; cursor: pointer; transition: all 0.2s; }
+  .option:hover:not(.disabled) { border-color: #4299e1; background: #ebf8ff; }
+  .option.selected { border-color: #4299e1; background: #ebf8ff; }
+  .option.correct { border-color: #38a169; background: #f0fff4; }
+  .option.incorrect { border-color: #e53e3e; background: #fff5f5; }
+  .option.disabled { cursor: default; }
+  .option.was-correct { border-color: #38a169; background: #f0fff4; }
+
+  .option-letter { width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.9rem; flex-shrink: 0; background: #e2e8f0; color: #4a5568; transition: all 0.2s; }
+  .option.selected .option-letter { background: #4299e1; color: white; }
+  .option.correct .option-letter { background: #38a169; color: white; }
+  .option.incorrect .option-letter { background: #e53e3e; color: white; }
+  .option.was-correct .option-letter { background: #38a169; color: white; }
+  .option-text { flex: 1; line-height: 1.5; padding-top: 4px; }
+
+  .explanation { margin-top: 20px; padding: 16px 18px; border-radius: 8px; background: #fffbeb; border-left: 4px solid #d69e2e; display: none; }
+  .explanation.show { display: block; }
+  .explanation strong { color: #744210; }
+  .explanation p { color: #744210; line-height: 1.6; font-size: 0.95rem; }
+
+  .nav-buttons { display: flex; justify-content: space-between; gap: 12px; margin-top: 20px; }
+
+  /* Resultados */
+  .results-screen { background: white; border-radius: 12px; padding: 32px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+  .results-screen h2 { color: #1e3a5f; margin-bottom: 20px; text-align: center; font-size: 1.4rem; }
+
+  .score-display { text-align: center; margin: 24px 0; }
+  .score-circle { width: 140px; height: 140px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 2.2rem; font-weight: 800; color: white; margin-bottom: 12px; }
+  .score-circle.high { background: linear-gradient(135deg, #38a169, #48bb78); }
+  .score-circle.medium { background: linear-gradient(135deg, #d69e2e, #ecc94b); }
+  .score-circle.low { background: linear-gradient(135deg, #e53e3e, #fc8181); }
+  .score-label { font-size: 1rem; color: #4a5568; }
+
+  .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 24px 0; }
+  .stat-item { text-align: center; padding: 16px; background: #f7fafc; border-radius: 8px; }
+  .stat-number { font-size: 1.6rem; font-weight: 700; }
+  .stat-number.green { color: #38a169; }
+  .stat-number.red { color: #e53e3e; }
+  .stat-number.gray { color: #718096; }
+  .stat-label { font-size: 0.8rem; color: #718096; margin-top: 4px; }
+
+  .review-section { margin-top: 28px; }
+  .review-section h3 { color: #1e3a5f; margin-bottom: 16px; font-size: 1.1rem; }
+  .review-item { padding: 16px; margin-bottom: 12px; border-radius: 8px; border-left: 4px solid; }
+  .review-item.review-correct { background: #f0fff4; border-color: #38a169; }
+  .review-item.review-incorrect { background: #fff5f5; border-color: #e53e3e; }
+  .review-q { font-weight: 600; margin-bottom: 8px; font-size: 0.95rem; }
+  .review-answer { font-size: 0.9rem; color: #4a5568; }
+  .review-answer span { font-weight: 600; }
+  .review-explanation { font-size: 0.85rem; color: #744210; background: #fffbeb; padding: 10px 12px; border-radius: 6px; margin-top: 8px; line-height: 1.5; }
+
+  .penalty-note { background: #fff5f5; border: 1px solid #fed7d7; padding: 14px; border-radius: 8px; margin: 16px 0; text-align: center; }
+  .penalty-note strong { color: #c53030; }
+  .penalty-note .final-score { font-size: 1.8rem; font-weight: 800; color: #1e3a5f; }
+
+  .category-tag { display: inline-block; background: #ebf5ff; color: #2d5986; padding: 3px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; margin-bottom: 8px; }
+
+  @media (max-width: 600px) {
+    .container { padding: 12px; }
+    .question-card { padding: 20px; }
+    .stats-grid { grid-template-columns: 1fr; }
+    .nav-buttons { flex-direction: column; }
+    .btn { width: 100%; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Test: Título III — De las Cortes Generales</h1>
+  <p>Constitución Española · Artículos 66 a 96 · Estilo Oposiciones Auxiliar Administrativo</p>
+</div>
+
+<div class="container" id="app"></div>
+
+<script>
+const ALL_QUESTIONS = [
+  // === CAPÍTULO PRIMERO: DE LAS CÁMARAS (Arts. 66-80) ===
+  {
+    id: 1,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 66.1 de la Constitución Española, las Cortes Generales representan al pueblo español y están formadas por:",
+    options: [
+      "El Congreso de los Diputados, el Senado y el Tribunal Constitucional.",
+      "El Congreso de los Diputados y el Senado.",
+      "El Congreso de los Diputados, el Senado y el Consejo General del Poder Judicial.",
+      "El Congreso de los Diputados únicamente."
+    ],
+    correct: 1,
+    explanation: "El artículo 66.1 CE establece que las Cortes Generales representan al pueblo español y están formadas por el Congreso de los Diputados y el Senado. Son dos Cámaras, ni más ni menos."
+  },
+  {
+    id: 2,
+    category: "Cap. I – De las Cámaras",
+    question: "De acuerdo con el artículo 66.2 CE, las Cortes Generales ejercen la potestad legislativa del Estado, aprueban sus Presupuestos y:",
+    options: [
+      "Nombran al Presidente del Gobierno.",
+      "Controlan la acción del Gobierno.",
+      "Dirigen la política exterior del Estado.",
+      "Aprueban los tratados internacionales."
+    ],
+    correct: 1,
+    explanation: "El art. 66.2 señala que las Cortes Generales ejercen la potestad legislativa del Estado, aprueban sus Presupuestos, controlan la acción del Gobierno y tienen las demás competencias que les atribuya la Constitución."
+  },
+  {
+    id: 3,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 67.2 de la CE, los miembros de las Cortes Generales:",
+    options: [
+      "Estarán ligados por mandato imperativo de sus electores.",
+      "No estarán ligados por mandato imperativo.",
+      "Estarán ligados por mandato imperativo de su grupo parlamentario.",
+      "Podrán estar ligados por mandato imperativo si así lo establece su partido."
+    ],
+    correct: 1,
+    explanation: "El art. 67.2 CE dispone expresamente que los miembros de las Cortes Generales NO estarán ligados por mandato imperativo. Es una garantía de independencia del parlamentario."
+  },
+  {
+    id: 4,
+    category: "Cap. I – De las Cámaras",
+    question: "El Congreso de los Diputados se compone, según el artículo 68.1 CE, de un mínimo y un máximo de Diputados de:",
+    options: [
+      "200 y 350 Diputados.",
+      "300 y 400 Diputados.",
+      "350 y 500 Diputados.",
+      "250 y 400 Diputados."
+    ],
+    correct: 1,
+    explanation: "El art. 68.1 CE establece que el Congreso se compone de un mínimo de 300 y un máximo de 400 Diputados, elegidos por sufragio universal, libre, igual, directo y secreto."
+  },
+  {
+    id: 5,
+    category: "Cap. I – De las Cámaras",
+    question: "De acuerdo con el artículo 68.2 CE, la circunscripción electoral para el Congreso de los Diputados es:",
+    options: [
+      "La Comunidad Autónoma.",
+      "El municipio.",
+      "La provincia.",
+      "El partido judicial."
+    ],
+    correct: 2,
+    explanation: "El art. 68.2 CE indica que la circunscripción electoral es la provincia. Las poblaciones de Ceuta y Melilla estarán representadas cada una de ellas por un Diputado."
+  },
+  {
+    id: 6,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 68.4 CE, el Congreso es elegido por un período de:",
+    options: [
+      "Tres años.",
+      "Cinco años.",
+      "Cuatro años.",
+      "Seis años."
+    ],
+    correct: 2,
+    explanation: "El art. 68.4 CE señala que el Congreso es elegido por cuatro años. El mandato de los Diputados termina cuatro años después de su elección o el día de la disolución de la Cámara."
+  },
+  {
+    id: 7,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 68.6 CE, las elecciones al Congreso tendrán lugar entre los treinta días y los sesenta días desde la terminación del mandato. El Congreso electo deberá ser convocado dentro de los:",
+    options: [
+      "Quince días siguientes a la celebración de las elecciones.",
+      "Veinticinco días siguientes a la celebración de las elecciones.",
+      "Treinta días siguientes a la celebración de las elecciones.",
+      "Veinte días siguientes a la celebración de las elecciones."
+    ],
+    correct: 1,
+    explanation: "El art. 68.6 CE establece que el Congreso electo deberá ser convocado dentro de los veinticinco días siguientes a la celebración de las elecciones."
+  },
+  {
+    id: 8,
+    category: "Cap. I – De las Cámaras",
+    question: "El artículo 69.1 de la CE define al Senado como:",
+    options: [
+      "La Cámara de representación proporcional.",
+      "La Cámara Alta del Parlamento.",
+      "La Cámara de representación territorial.",
+      "La Cámara de primera lectura legislativa."
+    ],
+    correct: 2,
+    explanation: "El art. 69.1 CE establece literalmente que «el Senado es la Cámara de representación territorial»."
+  },
+  {
+    id: 9,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 69.2 CE, ¿cuántos Senadores se eligen en cada provincia?",
+    options: [
+      "Dos Senadores.",
+      "Tres Senadores.",
+      "Cuatro Senadores.",
+      "Un Senador por cada 200.000 habitantes."
+    ],
+    correct: 2,
+    explanation: "El art. 69.2 CE indica que en cada provincia se elegirán cuatro Senadores por sufragio universal, libre, igual, directo y secreto."
+  },
+  {
+    id: 10,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 69.4 CE, las poblaciones de Ceuta y Melilla elegirán cada una de ellas:",
+    options: [
+      "Un Senador.",
+      "Dos Senadores.",
+      "Tres Senadores.",
+      "Cuatro Senadores."
+    ],
+    correct: 1,
+    explanation: "El art. 69.4 CE establece que las poblaciones de Ceuta y Melilla elegirán cada una de ellas dos Senadores."
+  },
+  {
+    id: 11,
+    category: "Cap. I – De las Cámaras",
+    question: "Las Comunidades Autónomas designarán, según el artículo 69.5 CE, además de un Senador:",
+    options: [
+      "Otro más por cada 500.000 habitantes de su respectivo territorio.",
+      "Otro más por cada millón de habitantes de su respectivo territorio.",
+      "Otro más por cada dos millones de habitantes de su respectivo territorio.",
+      "Un número fijo de dos Senadores adicionales por Comunidad."
+    ],
+    correct: 1,
+    explanation: "El art. 69.5 CE señala que las CCAA designarán un Senador y otro más por cada millón de habitantes de su respectivo territorio."
+  },
+  {
+    id: 12,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 69.3 CE, en las provincias insulares, ¿cuántos Senadores corresponden a cada una de las islas mayores (Gran Canaria, Mallorca y Tenerife)?",
+    options: [
+      "Un Senador cada una.",
+      "Dos Senadores cada una.",
+      "Tres Senadores cada una.",
+      "Cuatro Senadores cada una."
+    ],
+    correct: 2,
+    explanation: "El art. 69.3 CE establece que corresponden tres Senadores a cada una de las islas mayores —Gran Canaria, Mallorca y Tenerife— y uno a cada una de las siguientes islas o agrupaciones: Ibiza-Formentera, Menorca, Fuerteventura, Gomera, Hierro, Lanzarote y La Palma."
+  },
+  {
+    id: 13,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 71.2 CE, durante el período de su mandato, los Diputados y Senadores gozan de inmunidad y solo podrán ser detenidos en caso de:",
+    options: [
+      "Delito grave.",
+      "Flagrante delito.",
+      "Delito contra la Constitución.",
+      "Orden judicial motivada."
+    ],
+    correct: 1,
+    explanation: "El art. 71.2 CE dispone que durante el período de su mandato los Diputados y Senadores gozarán asimismo de inmunidad y solo podrán ser detenidos en caso de flagrante delito."
+  },
+  {
+    id: 14,
+    category: "Cap. I – De las Cámaras",
+    question: "En las causas contra Diputados y Senadores, según el artículo 71.3 CE, será competente:",
+    options: [
+      "La Audiencia Nacional.",
+      "El Tribunal Constitucional.",
+      "La Sala de lo Penal del Tribunal Supremo.",
+      "El Juzgado de Instrucción correspondiente."
+    ],
+    correct: 2,
+    explanation: "El art. 71.3 CE establece que en las causas contra Diputados y Senadores será competente la Sala de lo Penal del Tribunal Supremo."
+  },
+  {
+    id: 15,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 72.1 CE, los Reglamentos de las Cámaras y su reforma serán sometidos a una votación final sobre su totalidad, que requerirá:",
+    options: [
+      "Mayoría simple.",
+      "Mayoría de dos tercios.",
+      "Mayoría absoluta.",
+      "Unanimidad de la Cámara."
+    ],
+    correct: 2,
+    explanation: "El art. 72.1 CE dispone que los Reglamentos y su reforma serán sometidos a una votación final sobre su totalidad, que requerirá la mayoría absoluta."
+  },
+  {
+    id: 16,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 72.2 CE, las sesiones conjuntas de ambas Cámaras serán presididas por:",
+    options: [
+      "El Presidente del Senado.",
+      "El Presidente del Gobierno.",
+      "El Presidente del Congreso.",
+      "El miembro de mayor edad de ambas Cámaras."
+    ],
+    correct: 2,
+    explanation: "El art. 72.2 CE establece que las sesiones conjuntas serán presididas por el Presidente del Congreso y se regirán por un Reglamento de las Cortes Generales aprobado por mayoría absoluta de cada Cámara."
+  },
+  {
+    id: 17,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 73.1 CE, las Cámaras se reunirán anualmente en dos períodos ordinarios de sesiones:",
+    options: [
+      "El primero, de octubre a enero, y el segundo, de marzo a julio.",
+      "El primero, de septiembre a diciembre, y el segundo, de febrero a junio.",
+      "El primero, de septiembre a enero, y el segundo, de febrero a julio.",
+      "El primero, de octubre a diciembre, y el segundo, de enero a junio."
+    ],
+    correct: 1,
+    explanation: "El art. 73.1 CE señala que las Cámaras se reunirán anualmente en dos períodos ordinarios de sesiones: el primero, de septiembre a diciembre, y el segundo, de febrero a junio."
+  },
+  {
+    id: 18,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 73.2 CE, las Cámaras podrán reunirse en sesiones extraordinarias a petición de:",
+    options: [
+      "El Gobierno, la Diputación Permanente o la mayoría absoluta de los miembros de cualquiera de las Cámaras.",
+      "El Rey, el Gobierno o la Diputación Permanente.",
+      "El Presidente del Congreso, el Gobierno o un tercio de los Diputados.",
+      "El Gobierno o la mayoría simple de los miembros de cualquiera de las Cámaras."
+    ],
+    correct: 0,
+    explanation: "El art. 73.2 CE indica que las Cámaras podrán reunirse en sesiones extraordinarias a petición del Gobierno, de la Diputación Permanente o de la mayoría absoluta de los miembros de cualquiera de las Cámaras."
+  },
+  {
+    id: 19,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 75.3 CE, quedan exceptuados de la delegación en Comisiones Legislativas Permanentes, entre otros:",
+    options: [
+      "La reforma constitucional, las leyes orgánicas y los Presupuestos Generales del Estado.",
+      "Las leyes ordinarias, los tratados internacionales y las leyes de armonización.",
+      "Los Decretos-leyes, las leyes de transferencia y las leyes marco.",
+      "Las proposiciones de ley de iniciativa popular y las leyes de delegación."
+    ],
+    correct: 0,
+    explanation: "El art. 75.3 CE exceptúa de la delegación en Comisiones: la reforma constitucional, las cuestiones internacionales, las leyes orgánicas y de bases, y los Presupuestos Generales del Estado."
+  },
+  {
+    id: 20,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 78.1 CE, en cada Cámara habrá una Diputación Permanente compuesta por un mínimo de:",
+    options: [
+      "Quince miembros.",
+      "Veintiún miembros.",
+      "Veinticinco miembros.",
+      "Treinta miembros."
+    ],
+    correct: 1,
+    explanation: "El art. 78.1 CE dispone que en cada Cámara habrá una Diputación Permanente compuesta por un mínimo de veintiún miembros, que representarán a los grupos parlamentarios en proporción a su importancia numérica."
+  },
+  {
+    id: 21,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 79.3 CE, el voto de Senadores y Diputados es:",
+    options: [
+      "Personal y delegable en otro miembro de su grupo parlamentario.",
+      "Personal e indelegable.",
+      "Delegable mediante autorización escrita.",
+      "Personal, salvo en los casos previstos en el Reglamento."
+    ],
+    correct: 1,
+    explanation: "El art. 79.3 CE establece de forma tajante que el voto de Senadores y Diputados es personal e indelegable."
+  },
+  {
+    id: 22,
+    category: "Cap. I – De las Cámaras",
+    question: "Las sesiones plenarias de las Cámaras serán públicas, según el artículo 80 CE, salvo acuerdo en contrario de cada Cámara, adoptado por:",
+    options: [
+      "Mayoría simple.",
+      "Mayoría de dos tercios.",
+      "Mayoría absoluta o con arreglo al Reglamento.",
+      "Unanimidad de los miembros presentes."
+    ],
+    correct: 2,
+    explanation: "El art. 80 CE indica que las sesiones plenarias de las Cámaras serán públicas, salvo acuerdo en contrario de cada Cámara, adoptado por mayoría absoluta o con arreglo al Reglamento."
+  },
+  {
+    id: 23,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 67.1 CE, nadie podrá ser miembro de las dos Cámaras simultáneamente, ni acumular el acta de una Asamblea de Comunidad Autónoma con la de:",
+    options: [
+      "Senador.",
+      "Diputado al Congreso.",
+      "Diputado al Congreso o Senador.",
+      "Miembro de una corporación local."
+    ],
+    correct: 1,
+    explanation: "El art. 67.1 CE prohíbe acumular el acta de una Asamblea de Comunidad Autónoma con la de Diputado al Congreso. Nótese que no menciona la incompatibilidad con el Senado en este supuesto."
+  },
+  {
+    id: 24,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 76.1 CE, las conclusiones de las Comisiones de investigación:",
+    options: [
+      "Serán vinculantes para los Tribunales.",
+      "No serán vinculantes para los Tribunales, pero afectarán a las resoluciones judiciales.",
+      "No serán vinculantes para los Tribunales, ni afectarán a las resoluciones judiciales.",
+      "Serán vinculantes para el Gobierno pero no para los Tribunales."
+    ],
+    correct: 2,
+    explanation: "El art. 76.1 CE establece que las conclusiones de las Comisiones de investigación no serán vinculantes para los Tribunales, ni afectarán a las resoluciones judiciales."
+  },
+  // === CAPÍTULO SEGUNDO: DE LA ELABORACIÓN DE LAS LEYES (Arts. 81-92) ===
+  {
+    id: 25,
+    category: "Cap. II – Elaboración de las leyes",
+    question: "Según el artículo 81.2 CE, la aprobación, modificación o derogación de las leyes orgánicas exigirá:",
+    options: [
+      "Mayoría simple del Congreso.",
+      "Mayoría absoluta del Congreso, en una votación final sobre el conjunto del proyecto.",
+      "Mayoría de dos tercios de ambas Cámaras.",
+      "Mayoría absoluta de ambas Cámaras."
+    ],
+    correct: 1,
+    explanation: "El art. 81.2 CE exige mayoría absoluta del Congreso, en una votación final sobre el conjunto del proyecto, para la aprobación, modificación o derogación de las leyes orgánicas."
+  },
+  {
+    id: 26,
+    category: "Cap. II – Elaboración de las leyes",
+    question: "Según el artículo 82.3 CE, la delegación legislativa habrá de otorgarse al Gobierno de forma expresa, para materia concreta y con fijación del plazo para su ejercicio. La delegación:",
+    options: [
+      "Podrá entenderse concedida de modo implícito.",
+      "Podrá concederse por tiempo indeterminado.",
+      "No podrá entenderse concedida de modo implícito ni por tiempo indeterminado.",
+      "Podrá ser subdelegada a autoridades distintas del Gobierno."
+    ],
+    correct: 2,
+    explanation: "El art. 82.3 CE es muy claro: la delegación no podrá entenderse concedida de modo implícito o por tiempo indeterminado. Tampoco podrá permitir la subdelegación a autoridades distintas del propio Gobierno."
+  },
+  {
+    id: 27,
+    category: "Cap. II – Elaboración de las leyes",
+    question: "Según el artículo 83 CE, las leyes de bases NO podrán en ningún caso:",
+    options: [
+      "Regular materias de competencia exclusiva del Estado.",
+      "Autorizar la modificación de la propia ley de bases ni facultar para dictar normas con carácter retroactivo.",
+      "Contener disposiciones transitorias.",
+      "Establecer sanciones administrativas."
+    ],
+    correct: 1,
+    explanation: "El art. 83 CE prohíbe expresamente que las leyes de bases autoricen la modificación de la propia ley de bases o faculten para dictar normas con carácter retroactivo."
+  },
+  {
+    id: 28,
+    category: "Cap. II – Elaboración de las leyes",
+    question: "Las disposiciones del Gobierno que contengan legislación delegada recibirán, según el artículo 85 CE, el título de:",
+    options: [
+      "Decretos-leyes.",
+      "Reales Decretos.",
+      "Decretos Legislativos.",
+      "Leyes de bases."
+    ],
+    correct: 2,
+    explanation: "El art. 85 CE establece que las disposiciones del Gobierno que contengan legislación delegada recibirán el título de Decretos Legislativos. No deben confundirse con los Decretos-leyes del art. 86."
+  },
+  {
+    id: 29,
+    category: "Cap. II – Elaboración de las leyes",
+    question: "Según el artículo 86.1 CE, los Decretos-leyes NO podrán afectar, entre otros, a:",
+    options: [
+      "La regulación de los impuestos.",
+      "El ordenamiento de las instituciones básicas del Estado, los derechos, deberes y libertades del Título I y el régimen de las CCAA.",
+      "Las materias de competencia exclusiva del Estado.",
+      "Las relaciones internacionales."
+    ],
+    correct: 1,
+    explanation: "El art. 86.1 CE establece que los Decretos-leyes no podrán afectar al ordenamiento de las instituciones básicas del Estado, a los derechos, deberes y libertades de los ciudadanos regulados en el Título I, al régimen de las CCAA ni al Derecho electoral general."
+  },
+  {
+    id: 30,
+    category: "Cap. II – Elaboración de las leyes",
+    question: "Según el artículo 86.2 CE, los Decretos-leyes deberán ser sometidos a debate y votación de totalidad al Congreso de los Diputados en el plazo de:",
+    options: [
+      "Los quince días siguientes a su promulgación.",
+      "Los treinta días siguientes a su promulgación.",
+      "Los veinte días siguientes a su promulgación.",
+      "Los sesenta días siguientes a su promulgación."
+    ],
+    correct: 1,
+    explanation: "El art. 86.2 CE establece el plazo de los treinta días siguientes a su promulgación para que los Decretos-leyes sean sometidos a debate y votación de totalidad al Congreso de los Diputados."
+  },
+  {
+    id: 31,
+    category: "Cap. II – Elaboración de las leyes",
+    question: "Según el artículo 87.1 CE, la iniciativa legislativa corresponde a:",
+    options: [
+      "El Gobierno y el Congreso de los Diputados exclusivamente.",
+      "El Gobierno, al Congreso y al Senado.",
+      "El Gobierno, al Congreso, al Senado y a las Asambleas de las CCAA.",
+      "El Gobierno y las Cortes Generales."
+    ],
+    correct: 1,
+    explanation: "El art. 87.1 CE señala que la iniciativa legislativa corresponde al Gobierno, al Congreso y al Senado, de acuerdo con la Constitución y los Reglamentos de las Cámaras. Las CCAA tienen una vía distinta regulada en el art. 87.2."
+  },
+  {
+    id: 32,
+    category: "Cap. II – Elaboración de las leyes",
+    question: "Según el artículo 87.3 CE, para la iniciativa legislativa popular se exigirán no menos de:",
+    options: [
+      "100.000 firmas acreditadas.",
+      "250.000 firmas acreditadas.",
+      "500.000 firmas acreditadas.",
+      "1.000.000 de firmas acreditadas."
+    ],
+    correct: 2,
+    explanation: "El art. 87.3 CE exige no menos de 500.000 firmas acreditadas para la iniciativa legislativa popular. Además, no procederá en materias propias de ley orgánica, tributarias, de carácter internacional ni en lo relativo a la prerrogativa de gracia."
+  },
+  {
+    id: 33,
+    category: "Cap. II – Elaboración de las leyes",
+    question: "Según el artículo 90.2 CE, el Senado dispone de un plazo para vetar o enmendar un proyecto de ley de:",
+    options: [
+      "Un mes a partir de la recepción del texto.",
+      "Dos meses a partir del día de la recepción del texto.",
+      "Treinta días naturales a partir de la recepción del texto.",
+      "Cuarenta y cinco días a partir de la recepción del texto."
+    ],
+    correct: 1,
+    explanation: "El art. 90.2 CE establece que el Senado, en el plazo de dos meses a partir del día de la recepción del texto, puede oponer su veto o introducir enmiendas. El veto deberá ser aprobado por mayoría absoluta."
+  },
+  {
+    id: 34,
+    category: "Cap. II – Elaboración de las leyes",
+    question: "Según el artículo 90.3 CE, el plazo de dos meses de que el Senado dispone para vetar se reducirá a veinte días naturales en los proyectos declarados urgentes por:",
+    options: [
+      "El Congreso de los Diputados exclusivamente.",
+      "El Gobierno o el Congreso de los Diputados.",
+      "El Gobierno exclusivamente.",
+      "Las Cortes Generales en sesión conjunta."
+    ],
+    correct: 1,
+    explanation: "El art. 90.3 CE indica que el plazo se reducirá al de veinte días naturales en los proyectos declarados urgentes por el Gobierno o por el Congreso de los Diputados."
+  },
+  {
+    id: 35,
+    category: "Cap. II – Elaboración de las leyes",
+    question: "Según el artículo 91 CE, el Rey sancionará las leyes aprobadas por las Cortes Generales en el plazo de:",
+    options: [
+      "Diez días.",
+      "Quince días.",
+      "Veinte días.",
+      "Treinta días."
+    ],
+    correct: 1,
+    explanation: "El art. 91 CE establece que el Rey sancionará en el plazo de quince días las leyes aprobadas por las Cortes Generales, y las promulgará y ordenará su inmediata publicación."
+  },
+  {
+    id: 36,
+    category: "Cap. II – Elaboración de las leyes",
+    question: "Según el artículo 92.2 CE, el referéndum consultivo será convocado por el Rey, mediante propuesta del Presidente del Gobierno, previamente autorizada por:",
+    options: [
+      "El Senado.",
+      "El Congreso de los Diputados.",
+      "Ambas Cámaras en sesión conjunta.",
+      "El Consejo de Ministros."
+    ],
+    correct: 1,
+    explanation: "El art. 92.2 CE dispone que el referéndum será convocado por el Rey, mediante propuesta del Presidente del Gobierno, previamente autorizada por el Congreso de los Diputados."
+  },
+  {
+    id: 37,
+    category: "Cap. II – Elaboración de las leyes",
+    question: "Según el artículo 88 CE, los proyectos de ley serán aprobados en:",
+    options: [
+      "El Pleno del Congreso de los Diputados.",
+      "La Mesa del Congreso.",
+      "Consejo de Ministros.",
+      "La Comisión correspondiente del Congreso."
+    ],
+    correct: 2,
+    explanation: "El art. 88 CE establece que los proyectos de ley serán aprobados en Consejo de Ministros, que los someterá al Congreso, acompañados de una exposición de motivos y de los antecedentes necesarios."
+  },
+  // === CAPÍTULO TERCERO: DE LOS TRATADOS INTERNACIONALES (Arts. 93-96) ===
+  {
+    id: 38,
+    category: "Cap. III – Tratados Internacionales",
+    question: "Según el artículo 93 CE, mediante qué tipo de ley se podrá autorizar la celebración de tratados por los que se atribuya a una organización internacional el ejercicio de competencias derivadas de la Constitución:",
+    options: [
+      "Ley ordinaria.",
+      "Ley de bases.",
+      "Ley orgánica.",
+      "Decreto legislativo."
+    ],
+    correct: 2,
+    explanation: "El art. 93 CE exige una ley orgánica para autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución."
+  },
+  {
+    id: 39,
+    category: "Cap. III – Tratados Internacionales",
+    question: "Según el artículo 94.1 CE, la prestación del consentimiento del Estado para obligarse por medio de tratados requerirá la previa autorización de las Cortes Generales en varios supuestos. ¿Cuál de los siguientes NO es uno de ellos?",
+    options: [
+      "Tratados de carácter político.",
+      "Tratados que impliquen obligaciones financieras para la Hacienda Pública.",
+      "Tratados sobre materias de competencia exclusiva de las Comunidades Autónomas.",
+      "Tratados que supongan modificación o derogación de alguna ley."
+    ],
+    correct: 2,
+    explanation: "El art. 94.1 CE enumera: tratados de carácter político, de carácter militar, que afecten a la integridad territorial o derechos del Título I, que impliquen obligaciones financieras, y que supongan modificación o derogación de alguna ley. No menciona las materias de competencia exclusiva de las CCAA."
+  },
+  {
+    id: 40,
+    category: "Cap. III – Tratados Internacionales",
+    question: "Según el artículo 95.1 CE, la celebración de un tratado internacional que contenga estipulaciones contrarias a la Constitución exigirá:",
+    options: [
+      "La autorización del Tribunal Constitucional.",
+      "La aprobación por mayoría de dos tercios de ambas Cámaras.",
+      "La previa revisión constitucional.",
+      "Un referéndum consultivo."
+    ],
+    correct: 2,
+    explanation: "El art. 95.1 CE dispone que la celebración de un tratado internacional que contenga estipulaciones contrarias a la Constitución exigirá la previa revisión constitucional."
+  },
+  {
+    id: 41,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 68.3 CE, la elección en cada circunscripción se verificará atendiendo a criterios de:",
+    options: [
+      "Representación mayoritaria.",
+      "Representación proporcional.",
+      "Representación mixta.",
+      "Representación territorial."
+    ],
+    correct: 1,
+    explanation: "El art. 68.3 CE establece que la elección se verificará en cada circunscripción atendiendo a criterios de representación proporcional."
+  },
+  {
+    id: 42,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 77.1 CE, las Cámaras pueden recibir peticiones individuales y colectivas:",
+    options: [
+      "De forma oral o por escrito.",
+      "Siempre por escrito, quedando prohibida la presentación directa por manifestaciones ciudadanas.",
+      "Solo por escrito y canalizadas a través de los grupos parlamentarios.",
+      "De forma oral durante las sesiones plenarias."
+    ],
+    correct: 1,
+    explanation: "El art. 77.1 CE indica que las Cámaras pueden recibir peticiones individuales y colectivas, siempre por escrito, quedando prohibida la presentación directa por manifestaciones ciudadanas."
+  },
+  {
+    id: 43,
+    category: "Cap. II – Elaboración de las leyes",
+    question: "Según el artículo 82.2 CE, la delegación legislativa deberá otorgarse mediante una ley de bases cuando su objeto sea la formación de textos articulados, o por una ley ordinaria cuando se trate de:",
+    options: [
+      "Regular derechos fundamentales.",
+      "Refundir varios textos legales en uno solo.",
+      "Aprobar los Presupuestos Generales del Estado.",
+      "Establecer el régimen electoral."
+    ],
+    correct: 1,
+    explanation: "El art. 82.2 CE diferencia: ley de bases para la formación de textos articulados, y ley ordinaria para refundir varios textos legales en uno solo."
+  },
+  {
+    id: 44,
+    category: "Cap. I – De las Cámaras",
+    question: "Según el artículo 71.1 CE, los Diputados y Senadores gozarán de inviolabilidad por:",
+    options: [
+      "Todos los actos realizados durante su mandato.",
+      "Las opiniones manifestadas en el ejercicio de sus funciones.",
+      "Los actos realizados tanto dentro como fuera de la Cámara.",
+      "Las opiniones manifestadas en campaña electoral."
+    ],
+    correct: 1,
+    explanation: "El art. 71.1 CE limita la inviolabilidad a las opiniones manifestadas en el ejercicio de sus funciones. Es distinta de la inmunidad del art. 71.2."
+  },
+  {
+    id: 45,
+    category: "Cap. III – Tratados Internacionales",
+    question: "Según el artículo 96.1 CE, los tratados internacionales válidamente celebrados, una vez publicados oficialmente en España:",
+    options: [
+      "Tendrán rango de ley orgánica.",
+      "Formarán parte del ordenamiento interno.",
+      "Prevalecerán sobre la Constitución.",
+      "Necesitarán desarrollo mediante ley ordinaria."
+    ],
+    correct: 1,
+    explanation: "El art. 96.1 CE establece que los tratados internacionales válidamente celebrados, una vez publicados oficialmente en España, formarán parte del ordenamiento interno."
+  }
+];
+
+// Estado de la aplicación
+let state = {
+  screen: 'start', // start, quiz, results
+  questions: [],
+  currentIndex: 0,
+  answers: {},
+  showExplanation: false,
+  questionCount: 20,
+  categoryFilter: 'all'
+};
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function getCategories() {
+  const cats = new Set(ALL_QUESTIONS.map(q => q.category));
+  return [...cats].sort();
+}
+
+function startQuiz() {
+  let pool = state.categoryFilter === 'all'
+    ? [...ALL_QUESTIONS]
+    : ALL_QUESTIONS.filter(q => q.category === state.categoryFilter);
+
+  pool = shuffle(pool).slice(0, state.questionCount);
+  state.questions = pool;
+  state.currentIndex = 0;
+  state.answers = {};
+  state.showExplanation = false;
+  state.screen = 'quiz';
+  render();
+}
+
+function selectAnswer(idx) {
+  const qId = state.questions[state.currentIndex].id;
+  if (state.answers[qId] !== undefined) return;
+  state.answers[qId] = idx;
+  state.showExplanation = true;
+  render();
+}
+
+function nextQuestion() {
+  if (state.currentIndex < state.questions.length - 1) {
+    state.currentIndex++;
+    state.showExplanation = state.answers[state.questions[state.currentIndex].id] !== undefined;
+    render();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+}
+
+function prevQuestion() {
+  if (state.currentIndex > 0) {
+    state.currentIndex--;
+    state.showExplanation = state.answers[state.questions[state.currentIndex].id] !== undefined;
+    render();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+}
+
+function finishQuiz() {
+  state.screen = 'results';
+  render();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function restartQuiz() {
+  state.screen = 'start';
+  render();
+}
+
+function render() {
+  const app = document.getElementById('app');
+  if (state.screen === 'start') renderStart(app);
+  else if (state.screen === 'quiz') renderQuiz(app);
+  else renderResults(app);
+}
+
+function renderStart(app) {
+  const cats = getCategories();
+  app.innerHTML = `
+    <div class="start-screen">
+      <h2>Cuestionario: Título III de la Constitución Española</h2>
+      <p>De las Cortes Generales — Artículos 66 a 96</p>
+      <div class="info-box">
+        <strong>Formato tipo oposiciones:</strong> Preguntas con 4 opciones (a, b, c, d) y una sola respuesta correcta.
+        Las preguntas están diseñadas al estilo de los exámenes de Auxiliar Administrativo del Estado,
+        con opciones trampa basadas en detalles numéricos, plazos, mayorías y matices del articulado.
+        <br><br>
+        <strong>Banco de preguntas:</strong> ${ALL_QUESTIONS.length} preguntas disponibles.
+      </div>
+      <div class="config-section">
+        <label for="cat-filter">Filtrar por capítulo:</label>
+        <select id="cat-filter" onchange="state.categoryFilter = this.value">
+          <option value="all">Todos los capítulos (${ALL_QUESTIONS.length} preguntas)</option>
+          ${cats.map(c => {
+            const count = ALL_QUESTIONS.filter(q => q.category === c).length;
+            return `<option value="${c}" ${state.categoryFilter === c ? 'selected' : ''}>${c} (${count} preguntas)</option>`;
+          }).join('')}
+        </select>
+      </div>
+      <div class="config-section">
+        <label for="q-count">Número de preguntas:</label>
+        <select id="q-count" onchange="state.questionCount = parseInt(this.value)">
+          <option value="10" ${state.questionCount===10?'selected':''}>10 preguntas</option>
+          <option value="15" ${state.questionCount===15?'selected':''}>15 preguntas</option>
+          <option value="20" ${state.questionCount===20?'selected':''}>20 preguntas</option>
+          <option value="30" ${state.questionCount===30?'selected':''}>30 preguntas</option>
+          <option value="${ALL_QUESTIONS.length}" ${state.questionCount===ALL_QUESTIONS.length?'selected':''}>Todas (${ALL_QUESTIONS.length})</option>
+        </select>
+      </div>
+      <button class="btn btn-primary" onclick="startQuiz()" style="margin-top: 16px;">Comenzar Test</button>
+    </div>
+  `;
+}
+
+function renderQuiz(app) {
+  const q = state.questions[state.currentIndex];
+  const answered = state.answers[q.id] !== undefined;
+  const userAnswer = state.answers[q.id];
+  const total = state.questions.length;
+  const answeredCount = Object.keys(state.answers).length;
+  const pct = ((state.currentIndex + 1) / total * 100).toFixed(0);
+  const letters = ['a)', 'b)', 'c)', 'd)'];
+
+  let optionsHtml = q.options.map((opt, i) => {
+    let cls = 'option';
+    if (answered) {
+      cls += ' disabled';
+      if (i === q.correct) cls += ' correct was-correct';
+      else if (i === userAnswer && i !== q.correct) cls += ' incorrect';
+    } else {
+      // no extra class
+    }
+    return `<div class="${cls}" onclick="${answered ? '' : 'selectAnswer('+i+')'}">
+      <div class="option-letter">${letters[i]}</div>
+      <div class="option-text">${opt}</div>
+    </div>`;
+  }).join('');
+
+  let explanationHtml = '';
+  if (state.showExplanation && answered) {
+    const isCorrect = userAnswer === q.correct;
+    explanationHtml = `<div class="explanation show">
+      <strong>${isCorrect ? '✓ ¡Correcto!' : '✗ Incorrecto.'}</strong>
+      <p style="margin-top:6px;">${q.explanation}</p>
+    </div>`;
+  }
+
+  const isLast = state.currentIndex === total - 1;
+  const allAnswered = answeredCount === total;
+
+  app.innerHTML = `
+    <div class="progress-bar-container">
+      <div class="progress-info">
+        <span>Pregunta ${state.currentIndex + 1} de ${total}</span>
+        <span>${answeredCount} respondidas</span>
+      </div>
+      <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>
+    </div>
+    <div class="question-card">
+      <span class="category-tag">${q.category}</span>
+      <div class="question-number">Pregunta ${state.currentIndex + 1}</div>
+      <div class="question-text">${q.question}</div>
+      <div class="options">${optionsHtml}</div>
+      ${explanationHtml}
+      <div class="nav-buttons">
+        <button class="btn btn-secondary" onclick="prevQuestion()" ${state.currentIndex === 0 ? 'disabled style="opacity:0.4"' : ''}>← Anterior</button>
+        ${isLast && answered
+          ? `<button class="btn btn-success" onclick="finishQuiz()">Ver Resultados</button>`
+          : `<button class="btn btn-primary" onclick="nextQuestion()" ${!answered ? 'disabled style="opacity:0.4"' : ''}>Siguiente →</button>`
+        }
+      </div>
+    </div>
+    ${allAnswered && !isLast ? `<div style="text-align:center;margin-top:10px;"><button class="btn btn-success" onclick="finishQuiz()">Finalizar Test</button></div>` : ''}
+  `;
+}
+
+function renderResults(app) {
+  const total = state.questions.length;
+  let correct = 0;
+  let incorrect = 0;
+  let unanswered = 0;
+
+  state.questions.forEach(q => {
+    const a = state.answers[q.id];
+    if (a === undefined) unanswered++;
+    else if (a === q.correct) correct++;
+    else incorrect++;
+  });
+
+  const pct = Math.round(correct / total * 100);
+  const scoreClass = pct >= 70 ? 'high' : pct >= 50 ? 'medium' : 'low';
+
+  // Puntuación tipo oposiciones: acierto = 1, error = -0.33, blanco = 0
+  const rawScore = (correct * 1 + incorrect * (-1/3)).toFixed(2);
+  const maxScore = total;
+  const scaledScore = (rawScore / maxScore * 10).toFixed(2);
+
+  const letters = ['a)', 'b)', 'c)', 'd)'];
+
+  let reviewHtml = state.questions.map((q, i) => {
+    const a = state.answers[q.id];
+    const isCorrect = a === q.correct;
+    const cls = a === undefined ? 'review-incorrect' : isCorrect ? 'review-correct' : 'review-incorrect';
+    const yourAnswer = a !== undefined ? `${letters[a]} ${q.options[a]}` : 'Sin responder';
+    const correctAnswer = `${letters[q.correct]} ${q.options[q.correct]}`;
+
+    return `<div class="review-item ${cls}">
+      <div class="review-q">${i+1}. ${q.question}</div>
+      <div class="review-answer">Tu respuesta: <span style="color:${isCorrect ? '#38a169' : '#e53e3e'}">${yourAnswer}</span></div>
+      ${!isCorrect ? `<div class="review-answer">Respuesta correcta: <span style="color:#38a169">${correctAnswer}</span></div>` : ''}
+      <div class="review-explanation">${q.explanation}</div>
+    </div>`;
+  }).join('');
+
+  app.innerHTML = `
+    <div class="results-screen">
+      <h2>Resultados del Test</h2>
+      <div class="score-display">
+        <div class="score-circle ${scoreClass}">${pct}%</div>
+        <div class="score-label">${correct} de ${total} correctas</div>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number green">${correct}</div>
+          <div class="stat-label">Aciertos</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number red">${incorrect}</div>
+          <div class="stat-label">Errores</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number gray">${unanswered}</div>
+          <div class="stat-label">En blanco</div>
+        </div>
+      </div>
+      <div class="penalty-note">
+        <strong>Puntuación con penalización (estilo oposiciones):</strong><br>
+        Acierto: +1 | Error: −0,33 | Blanco: 0<br>
+        Puntuación bruta: ${rawScore} / ${maxScore}<br>
+        <div class="final-score" style="margin-top:8px;">Nota: ${scaledScore} / 10</div>
+      </div>
+      <div style="text-align:center; margin: 24px 0;">
+        <button class="btn btn-primary" onclick="restartQuiz()">Nuevo Test</button>
+      </div>
+      <div class="review-section">
+        <h3>Revisión de respuestas</h3>
+        ${reviewHtml}
+      </div>
+      <div style="text-align:center; margin-top: 24px;">
+        <button class="btn btn-primary" onclick="restartQuiz()">Nuevo Test</button>
+      </div>
+    </div>
+  `;
+}
+
+// Inicializar
+render();
+</script>
+</body>
+</html>

@@ -47,9 +47,21 @@ def extract_wikilinks(text: str) -> list[str]:
     return [m.group(1) for m in WIKILINK_RE.finditer(text)]
 
 
+def _first_meaningful_block(body: str) -> str:
+    for block in re.split(r"\n\s*\n", body):
+        lines = [line for line in block.strip().splitlines() if line.strip()]
+        while lines and lines[0].lstrip().startswith("#"):
+            lines.pop(0)
+        stripped = "\n".join(lines).strip()
+        if not stripped:
+            continue
+        return stripped
+    return ""
+
+
 def extract_alias_target(body: str) -> str | None:
     canonical_section_match = re.search(
-        r"^##\s+(Canonical note|Nota canonica)\s*$([\s\S]*?)(?=^##\s+|$)",
+        r"^##\s+(Canonical note|Nota can[oó]nica)\s*$\n?([\s\S]*?)(?=^##\s+|(?![\s\S]))",
         body,
         re.IGNORECASE | re.MULTILINE,
     )
@@ -58,16 +70,20 @@ def extract_alias_target(body: str) -> str | None:
         if scoped_links:
             return scoped_links[0].split("|", 1)[0].strip()
 
-    inline_match = re.search(
-        r"(?:entrada canonica es|canonical note[\s\S]{0,120}?\bis\b|v[ée]ase|vease)[\s\S]*?\[\[([^[\]]+)\]\]",
-        body,
-        re.IGNORECASE,
-    )
-    raw = inline_match.group(1).strip() if inline_match else ""
-    if not raw:
+    first_block = _first_meaningful_block(body)
+    if not first_block:
         return None
 
-    return raw.split("|", 1)[0].strip() or None
+    scoped_links = extract_wikilinks(first_block)
+    if not scoped_links:
+        return None
+
+    normalized_block = normalize_text(first_block)
+    is_alias_block = normalized_block.startswith("vease [[") or "entrada canonica es [[" in normalized_block
+    if not is_alias_block and not re.search(r"canonical note[\s\S]{0,120}\bis\s+\[\[", normalized_block):
+        return None
+
+    return scoped_links[0].split("|", 1)[0].strip() or None
 
 
 def normalize_markdown_text(content: str) -> str:

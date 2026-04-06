@@ -5,8 +5,32 @@
     <link>https://jotapedia.vercel.app</link>
     <description>Articulos recientes y datos curiosos de sociologia</description>
     <language>es</language>
-    <lastBuildDate>Mon, 06 Apr 2026 07:31:21 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 09:19:03 GMT</lastBuildDate>
     <atom:link href="https://jotapedia.vercel.app/generated/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Urbanización</title>
+      <link>https://jotapedia.vercel.app/conceptos/urbanizacion</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/urbanizacion</guid>
+      <pubDate>Mon, 06 Apr 2026 18:10:00 GMT</pubDate>
+      <category>Concepto</category>
+      <description>La urbanización es el proceso mediante el cual una proporción creciente de la poblacion se concentra en asentamientos urbanos y organiza su vida cotidiana alrededor de actividades no agrarias, infraestructuras densas...</description>
+    </item>
+    <item>
+      <title>Burbuja Inmobiliaria</title>
+      <link>https://jotapedia.vercel.app/conceptos/burbuja-inmobiliaria</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/burbuja-inmobiliaria</guid>
+      <pubDate>Mon, 06 Apr 2026 18:00:00 GMT</pubDate>
+      <category>Concepto</category>
+      <description>Una burbuja inmobiliaria (también: burbuja del ladrillo, burbuja de la vivienda) es un fenómeno especulativo en el que los precios de los activos inmobiliarios se desvinculan de sus fundamentos económicos (renta dispo...</description>
+    </item>
+    <item>
+      <title>Capital Físico</title>
+      <link>https://jotapedia.vercel.app/conceptos/capital-fisico</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/capital-fisico</guid>
+      <pubDate>Mon, 06 Apr 2026 18:00:00 GMT</pubDate>
+      <category>Concepto</category>
+      <description>El capital físico designa el conjunto de bienes materiales — maquinaria, equipos, instalaciones e infraestructuras — que se emplean en el proceso productivo para generar bienes y servicios. A diferencia del capital hu...</description>
+    </item>
     <item>
       <title>Capital Humano</title>
       <link>https://jotapedia.vercel.app/conceptos/capital-humano</link>
@@ -32,6 +56,14 @@
       <description>La estructura productiva de una economía designa la composición de su producción entre los distintos sectores de actividad — primario (agricultura, ganadería, pesca), secundario (industria, energía, construcción) y te...</description>
     </item>
     <item>
+      <title>Inflación Dual</title>
+      <link>https://jotapedia.vercel.app/conceptos/inflacion-dual</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/inflacion-dual</guid>
+      <pubDate>Mon, 06 Apr 2026 18:00:00 GMT</pubDate>
+      <category>Concepto</category>
+      <description>La inflación dual (también: dualismo inflacionario) designa el fenómeno estructural por el cual los precios de los servicios avanzan sistemáticamente más rápido que los precios de los productos industriales en las eco...</description>
+    </item>
+    <item>
       <title>La estructura productiva</title>
       <link>https://jotapedia.vercel.app/fuentes/2026-s1/estructura-economica/la-estructura-productiva</link>
       <guid isPermaLink="true">https://jotapedia.vercel.app/fuentes/2026-s1/estructura-economica/la-estructura-productiva</guid>
@@ -48,12 +80,156 @@
       <description>Quinto módulo de Estructura Económica (UOC, PID 00275128). Analiza los tres grandes factores de producción — capital humano, capital tecnologico y capital fisico — como determinantes del diferencial de productividad e...</description>
     </item>
     <item>
+      <title>Migraciones</title>
+      <link>https://jotapedia.vercel.app/conceptos/migraciones</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/migraciones</guid>
+      <pubDate>Mon, 06 Apr 2026 18:00:00 GMT</pubDate>
+      <category>Concepto</category>
+      <description>Las migraciones son desplazamientos de población entre territorios que implican cambio de residencia temporal o permanente. Pueden ser internas o internacionales, voluntarias o forzadas, y responden a combinaciones de...</description>
+    </item>
+    <item>
+      <title>Modelo energético</title>
+      <link>https://jotapedia.vercel.app/conceptos/modelo-energetico</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/modelo-energetico</guid>
+      <pubDate>Mon, 06 Apr 2026 18:00:00 GMT</pubDate>
+      <category>Concepto</category>
+      <description>El modelo energético es la combinación históricamente dominante de fuentes de energía, tecnologías de conversión, infraestructuras de transporte y marcos institucionales que sostienen la producción, la movilidad y el...</description>
+    </item>
+    <item>
+      <title>Población</title>
+      <link>https://jotapedia.vercel.app/conceptos/poblacion</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/poblacion</guid>
+      <pubDate>Mon, 06 Apr 2026 18:00:00 GMT</pubDate>
+      <category>Concepto</category>
+      <description>La población es el conjunto de personas que habitan un territorio en un momento dado y, al mismo tiempo, la principal fuerza productiva y reproductiva de toda sociedad. En sociología y economía no se reduce a un mero...</description>
+    </item>
+    <item>
+      <title>Productividad</title>
+      <link>https://jotapedia.vercel.app/conceptos/productividad</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/productividad</guid>
+      <pubDate>Mon, 06 Apr 2026 18:00:00 GMT</pubDate>
+      <category>Concepto</category>
+      <description>La productividad mide la eficiencia con que una economía transforma los factores de producción (capital humano, capital tecnologico, capital fisico, trabajo) en bienes y servicios. En su acepción más utilizada, la pro...</description>
+    </item>
+    <item>
+      <title>Reconversión Industrial</title>
+      <link>https://jotapedia.vercel.app/conceptos/reconversion-industrial</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/reconversion-industrial</guid>
+      <pubDate>Mon, 06 Apr 2026 18:00:00 GMT</pubDate>
+      <category>Concepto</category>
+      <description>La reconversión industrial designa el conjunto de políticas de reestructuración de sectores industriales que han perdido competitividad, orientadas a reducir la capacidad productiva obsoleta, modernizar los procesos,...</description>
+    </item>
+    <item>
+      <title>Recursos naturales</title>
+      <link>https://jotapedia.vercel.app/conceptos/recursos-naturales</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/recursos-naturales</guid>
+      <pubDate>Mon, 06 Apr 2026 18:00:00 GMT</pubDate>
+      <category>Concepto</category>
+      <description>Los recursos naturales son los elementos y procesos de la naturaleza susceptibles de ser apropiados, transformados o utilizados para sostener la vida social y la actividad económica: suelo, agua, bosques, minerales, b...</description>
+    </item>
+    <item>
       <title>Terciarización</title>
       <link>https://jotapedia.vercel.app/conceptos/terciarizacion</link>
       <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/terciarizacion</guid>
       <pubDate>Mon, 06 Apr 2026 18:00:00 GMT</pubDate>
       <category>Concepto</category>
       <description>La terciarización (también: tercerización, tertiarization , economía de servicios) designa el proceso histórico por el cual el sector servicios (o sector terciario) se convierte en predominante en la producción, la oc...</description>
+    </item>
+    <item>
+      <title>Angus Maddison</title>
+      <link>https://jotapedia.vercel.app/autores/angus-maddison</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/angus-maddison</guid>
+      <pubDate>Mon, 06 Apr 2026 17:15:00 GMT</pubDate>
+      <category>Autor</category>
+      <description>Angus Maddison (1926 2010) fue un economista e historiador económico británico especializado en la reconstrucción de series largas de producción, población y renta comparada. Tras trabajar en la OECE y en la OCDE, des...</description>
+    </item>
+    <item>
+      <title>Arghiri Emmanuel</title>
+      <link>https://jotapedia.vercel.app/autores/arghiri-emmanuel</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/arghiri-emmanuel</guid>
+      <pubDate>Mon, 06 Apr 2026 17:15:00 GMT</pubDate>
+      <category>Autor</category>
+      <description>Arghiri Emmanuel (1911 2001) fue un economista greco francés asociado a las corrientes marxistas heterodoxas que estudiaron la economía mundial desde la óptica del intercambio desigual. Tras una trayectoria política e...</description>
+    </item>
+    <item>
+      <title>Autarquía</title>
+      <link>https://jotapedia.vercel.app/conceptos/autarquia</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/autarquia</guid>
+      <pubDate>Mon, 06 Apr 2026 17:15:00 GMT</pubDate>
+      <category>Concepto</category>
+      <description>La autarquía es una estrategia de organización económica orientada a minimizar la dependencia exterior mediante controles sobre el comercio, los movimientos de capital, el abastecimiento y la asignación interna de rec...</description>
+    </item>
+    <item>
+      <title>Celso Furtado</title>
+      <link>https://jotapedia.vercel.app/autores/celso-furtado</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/celso-furtado</guid>
+      <pubDate>Mon, 06 Apr 2026 17:15:00 GMT</pubDate>
+      <category>Autor</category>
+      <description>Celso Furtado (1920 2004) fue uno de los grandes economistas latinoamericanos del siglo XX y una figura central del estructuralismo de la CEPAL. Brasileño, formado en derecho y doctorado en economía en París, particip...</description>
+    </item>
+    <item>
+      <title>Colin Clark</title>
+      <link>https://jotapedia.vercel.app/autores/colin-clark</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/colin-clark</guid>
+      <pubDate>Mon, 06 Apr 2026 17:15:00 GMT</pubDate>
+      <category>Autor</category>
+      <description>Colin Clark (1905 1989) fue un economista y estadístico británico australiano, pionero en la cuantificación de la renta nacional y en el análisis del cambio sectorial de las economías modernas. Formado en Oxford y act...</description>
+    </item>
+    <item>
+      <title>Frederick Winslow Taylor</title>
+      <link>https://jotapedia.vercel.app/autores/frederick-winslow-taylor</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/frederick-winslow-taylor</guid>
+      <pubDate>Mon, 06 Apr 2026 17:15:00 GMT</pubDate>
+      <category>Autor</category>
+      <description>Frederick Winslow Taylor (1856 1915) fue un ingeniero estadounidense y el formulador clásico de la organización científica del trabajo. Su experiencia en talleres metalúrgicos estadounidenses de finales del siglo XIX...</description>
+    </item>
+    <item>
+      <title>Henry Ford</title>
+      <link>https://jotapedia.vercel.app/autores/henry-ford</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/henry-ford</guid>
+      <pubDate>Mon, 06 Apr 2026 17:15:00 GMT</pubDate>
+      <category>Autor</category>
+      <description>Henry Ford (1863 1947) no fue un teórico académico, sino un industrial cuya práctica empresarial se convirtió en categoría analítica decisiva para comprender el capitalismo del siglo XX. Fundador de Ford Motor Company...</description>
+    </item>
+    <item>
+      <title>Ruy Mauro Marini</title>
+      <link>https://jotapedia.vercel.app/autores/ruy-mauro-marini</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/ruy-mauro-marini</guid>
+      <pubDate>Mon, 06 Apr 2026 17:15:00 GMT</pubDate>
+      <category>Autor</category>
+      <description>Ruy Mauro Marini (1932 1997) fue un sociólogo y economista brasileño, uno de los principales representantes de la vertiente marxista de la teoria de la dependencia. Exiliado tras la dictadura militar brasileña, desarr...</description>
+    </item>
+    <item>
+      <title>Samir Amin</title>
+      <link>https://jotapedia.vercel.app/autores/samir-amin</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/samir-amin</guid>
+      <pubDate>Mon, 06 Apr 2026 17:15:00 GMT</pubDate>
+      <category>Autor</category>
+      <description>Samir Amin (1931 2018) fue un economista egipcio francés, uno de los grandes teóricos del capitalismo mundial desde una perspectiva marxista y anticolonial. Formado entre Egipto y Francia, desarrolló una obra de gran...</description>
+    </item>
+    <item>
+      <title>Theotonio dos Santos</title>
+      <link>https://jotapedia.vercel.app/autores/theotonio-dos-santos</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/theotonio-dos-santos</guid>
+      <pubDate>Mon, 06 Apr 2026 17:15:00 GMT</pubDate>
+      <category>Autor</category>
+      <description>Theotonio dos Santos (1936 2018) fue un sociólogo y economista brasileño, figura decisiva de la teoria de la dependencia en su vertiente marxista. Militante e intelectual público, desarrolló su obra en Brasil, Chile,...</description>
+    </item>
+    <item>
+      <title>André Gunder Frank</title>
+      <link>https://jotapedia.vercel.app/autores/andre-gunder-frank</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/andre-gunder-frank</guid>
+      <pubDate>Mon, 06 Apr 2026 14:00:00 GMT</pubDate>
+      <category>Autor</category>
+      <description>André Gunder Frank (1929 2005) fue un economista y sociólogo germano estadounidense, figura central de la rama marxista de la teoria de la dependencia. Nacido en Berlín, emigró a EE.UU. de niño y se doctoró en economí...</description>
+    </item>
+    <item>
+      <title>Arthur Lewis</title>
+      <link>https://jotapedia.vercel.app/autores/arthur-lewis</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/arthur-lewis</guid>
+      <pubDate>Mon, 06 Apr 2026 14:00:00 GMT</pubDate>
+      <category>Autor</category>
+      <description>Sir William Arthur Lewis (1915 1991) fue un economista santaluciano británico, Premio Nobel de Economía (1979, compartido con Theodore Schultz) por sus contribuciones a la economía del desarrollo. Nacido en Santa Lucí...</description>
     </item>
     <item>
       <title>Centro-Periferia</title>
@@ -64,228 +240,52 @@
       <description>Centro periferia es un modelo analítico que describe la estructura del sistema capitalista mundial como una división jerárquica entre un grupo de países centrales (economías articuladas, integradas y autónomas) y una...</description>
     </item>
     <item>
-      <title>Desarrollo Económico</title>
-      <link>https://jotapedia.vercel.app/conceptos/desarrollo-economico</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/desarrollo-economico</guid>
+      <title>Convergencia Económica</title>
+      <link>https://jotapedia.vercel.app/conceptos/convergencia-economica</link>
+      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/convergencia-economica</guid>
       <pubDate>Mon, 06 Apr 2026 14:00:00 GMT</pubDate>
       <category>Concepto</category>
-      <description>El desarrollo económico es, simultáneamente, un proceso y un objetivo. Como proceso, comprende la serie de mecanismos que combinan el crecimiento económico con el cambio estructural de una economía — es decir, la tran...</description>
+      <description>La convergencia económica designa el proceso por el cual las economías con menor nivel de renta per cápita tienden (o no) a acercarse a las más ricas a lo largo del tiempo. Se distinguen dos acepciones: la convergenci...</description>
     </item>
     <item>
-      <title>Elies Furió Blasco</title>
-      <link>https://jotapedia.vercel.app/autores/elies-furio-blasco</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/elies-furio-blasco</guid>
-      <pubDate>Mon, 06 Apr 2026 14:00:00 GMT</pubDate>
-      <category>Autor</category>
-      <description>Elies Furió Blasco es catedrático de la Universidad de Lyon (Jean Moulin, Lyon 3, Francia) y profesor colaborador de la Universitat Oberta de Catalunya. Doctor en Economía por la Universidad de Valencia (Estudio Gener...</description>
+      <title>¿Sabías que...? — Deuda externa</title>
+      <link>https://jotapedia.vercel.app/conceptos/deuda-externa</link>
+      <guid isPermaLink="false">fact-0-2290383552</guid>
+      <pubDate>Mon, 06 Apr 2026 09:19:03 GMT</pubDate>
+      <category>Sabias que</category>
+      <description>La deuda externa es el conjunto de obligaciones financieras que un país (gobierno, empresas, bancos) tiene contraídas con acreedores extranjeros (bancos comerciales, organismos internacionales, gobiernos).</description>
     </item>
     <item>
-      <title>Estructura Económica</title>
-      <link>https://jotapedia.vercel.app/cursos/estructura-economica</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/cursos/estructura-economica</guid>
-      <pubDate>Mon, 06 Apr 2026 14:00:00 GMT</pubDate>
-      <category>Curso</category>
-      <description>Asignatura de Estructura Económica (UOC, Grado en Sociología, 2026 S1). Analiza el funcionamiento del sistema capitalista mundial: su dinámica interna (acumulacion de capital, ciclo economico), las formas de organizac...</description>
-    </item>
-    <item>
-      <title>Índice de Desarrollo Humano (IDH)</title>
-      <link>https://jotapedia.vercel.app/conceptos/idh</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/idh</guid>
-      <pubDate>Mon, 06 Apr 2026 14:00:00 GMT</pubDate>
-      <category>Concepto</category>
-      <description>El Índice de Desarrollo Humano (IDH) es un indicador compuesto creado por el Programa de las Naciones Unidas para el Desarrollo (PNUD) en 1990 que mide el desarrollo economico más allá del pib, combinando tres dimensi...</description>
-    </item>
-    <item>
-      <title>Integración Económica</title>
-      <link>https://jotapedia.vercel.app/conceptos/integracion-economica</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/integracion-economica</guid>
-      <pubDate>Mon, 06 Apr 2026 14:00:00 GMT</pubDate>
-      <category>Concepto</category>
-      <description>La integración económica es el proceso por el cual dos o más estados nacionales eliminan progresivamente las barreras a los intercambios de mercancías, servicios, capitales y personas, creando un espacio económico com...</description>
-    </item>
-    <item>
-      <title>La estructura y la dinámica del sistema</title>
-      <link>https://jotapedia.vercel.app/fuentes/2026-s1/estructura-economica/la-estructura-y-la-dinamica-del-sistema</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/fuentes/2026-s1/estructura-economica/la-estructura-y-la-dinamica-del-sistema</guid>
-      <pubDate>Mon, 06 Apr 2026 14:00:00 GMT</pubDate>
-      <category>Fuente</category>
-      <description>Tercer módulo de Estructura Económica (UOC). Aborda tres grandes bloques del sistema capitalista mundial: (1) las teorías del desarrollo y el subdesarrollo — desde los modelos convencionales (Rostow, Harrod Domar, Lew...</description>
-    </item>
-    <item>
-      <title>La evolución de la economía española a lo largo del tiempo</title>
-      <link>https://jotapedia.vercel.app/fuentes/2026-s1/estructura-economica/la-evolucion-de-la-economia-espanola</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/fuentes/2026-s1/estructura-economica/la-evolucion-de-la-economia-espanola</guid>
-      <pubDate>Mon, 06 Apr 2026 14:00:00 GMT</pubDate>
-      <category>Fuente</category>
-      <description>Cuarto módulo de Estructura Económica (UOC). Analiza la posición y evolución de la economía española en perspectiva comparada internacional utilizando series largas (1850 2015) de PIB per cápita de la base de datos Ma...</description>
-    </item>
-    <item>
-      <title>Matilde Alonso Pérez</title>
-      <link>https://jotapedia.vercel.app/autores/matilde-alonso-perez</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/matilde-alonso-perez</guid>
-      <pubDate>Mon, 06 Apr 2026 14:00:00 GMT</pubDate>
-      <category>Autor</category>
-      <description>Matilde Alonso Pérez es catedrática de la Universidad de Lyon (Lumière, Lyon 2, Francia) y profesora asociada al Institut d'Études Politiques de Lyon. Doctora en Historia Económica por la Universidad de Poitiers (Fran...</description>
-    </item>
-    <item>
-      <title>Subdesarrollo</title>
-      <link>https://jotapedia.vercel.app/conceptos/subdesarrollo</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/subdesarrollo</guid>
-      <pubDate>Mon, 06 Apr 2026 14:00:00 GMT</pubDate>
-      <category>Concepto</category>
-      <description>El subdesarrollo es la condición económica, social e institucional de los países de la periferia del sistema capitalista mundial, caracterizada por economías desarticuladas (sin integración entre sectores productivos)...</description>
-    </item>
-    <item>
-      <title>Teoría de la Dependencia</title>
-      <link>https://jotapedia.vercel.app/conceptos/teoria-de-la-dependencia</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/teoria-de-la-dependencia</guid>
-      <pubDate>Mon, 06 Apr 2026 14:00:00 GMT</pubDate>
-      <category>Concepto</category>
-      <description>La teoría de la dependencia es una corriente teórica latinoamericana que explica el subdesarrollo como resultado de las relaciones de subordinación entre los países periféricos y los centrales dentro del sistema capit...</description>
-    </item>
-    <item>
-      <title>Unión Europea</title>
-      <link>https://jotapedia.vercel.app/conceptos/union-europea</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/union-europea</guid>
-      <pubDate>Mon, 06 Apr 2026 14:00:00 GMT</pubDate>
-      <category>Concepto</category>
-      <description>La Unión Europea (UE) es la experiencia de integracion economica más importante de la historia: un proceso que desde 1952 ha transitado de una simple coordinación sectorial (carbón y acero) a una unión económica y mon...</description>
-    </item>
-    <item>
-      <title>Base material del sistema</title>
-      <link>https://jotapedia.vercel.app/fuentes/2026-s1/estructura-economica/base-material-del-sistema</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/fuentes/2026-s1/estructura-economica/base-material-del-sistema</guid>
-      <pubDate>Mon, 06 Apr 2026 10:00:00 GMT</pubDate>
-      <category>Fuente</category>
-      <description>Este módulo estudia la infraestructura material de la economía mundial: el conjunto de recursos — naturales y producidos por la actividad humana — que están a disposición de la sociedad. Se organiza en cuatro bloques:...</description>
-    </item>
-    <item>
-      <title>Fordismo</title>
-      <link>https://jotapedia.vercel.app/conceptos/fordismo</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/fordismo</guid>
-      <pubDate>Mon, 06 Apr 2026 10:00:00 GMT</pubDate>
-      <category>Concepto</category>
-      <description>El fordismo es un modelo de organización del trabajo y de regulación social que combina la producción industrial en serie (cadena de montaje, producción masiva) con el consumo de masas y una regulación salarial que vi...</description>
-    </item>
-    <item>
-      <title>La evolución del capitalismo y el proceso de mundialización</title>
-      <link>https://jotapedia.vercel.app/fuentes/2026-s1/estructura-economica/la-evolucion-del-capitalismo-y-la-mundializacion</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/fuentes/2026-s1/estructura-economica/la-evolucion-del-capitalismo-y-la-mundializacion</guid>
-      <pubDate>Mon, 06 Apr 2026 10:00:00 GMT</pubDate>
-      <category>Fuente</category>
-      <description>Este módulo analiza la dinámica interna del capitalismo — la acumulacion de capital como motor y el ciclo economico como forma de su desarrollo — para luego recorrer su cristalización histórica a lo largo del siglo XX...</description>
-    </item>
-    <item>
-      <title>Modelo ISE (Industrialización por Sustitución de Exportaciones)</title>
-      <link>https://jotapedia.vercel.app/conceptos/modelo-ise</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/modelo-ise</guid>
-      <pubDate>Mon, 06 Apr 2026 10:00:00 GMT</pubDate>
-      <category>Concepto</category>
-      <description>El modelo ISE (Industrialización por Sustitución de Exportaciones), también llamado modelo exportador o de plataforma exportadora, es una estrategia de desarrollo adoptada principalmente por países del Sudeste Asiátic...</description>
-    </item>
-    <item>
-      <title>Modelo ISI (Industrialización por Sustitución de Importaciones)</title>
-      <link>https://jotapedia.vercel.app/conceptos/modelo-isi</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/modelo-isi</guid>
-      <pubDate>Mon, 06 Apr 2026 10:00:00 GMT</pubDate>
-      <category>Concepto</category>
-      <description>El modelo ISI (Industrialización por Sustitución de Importaciones) es una estrategia de desarrollo económico adoptada por países periféricos — principalmente latinoamericanos — que consiste en producir internamente lo...</description>
-    </item>
-    <item>
-      <title>OPEP (Organización de Países Exportadores de Petróleo)</title>
-      <link>https://jotapedia.vercel.app/conceptos/opep</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/opep</guid>
-      <pubDate>Mon, 06 Apr 2026 10:00:00 GMT</pubDate>
-      <category>Concepto</category>
-      <description>La OPEP (Organización de Países Exportadores de Petróleo, OPEC en inglés) es un cartel de países productores de petroleo petróleo creado en 1960 para coordinar la política de producción y precios del crudo, contrarres...</description>
-    </item>
-    <item>
-      <title>Petróleo</title>
-      <link>https://jotapedia.vercel.app/conceptos/petroleo</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/petroleo</guid>
-      <pubDate>Mon, 06 Apr 2026 10:00:00 GMT</pubDate>
-      <category>Concepto</category>
-      <description>El petróleo es un recurso natural no renovable que constituye la principal fuente de energía primaria del sistema capitalista mundial y una mercancía estratégica cuyo precio y control condicionan la geopolítica global...</description>
-    </item>
-    <item>
-      <title>Taylorismo</title>
-      <link>https://jotapedia.vercel.app/conceptos/taylorismo</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/taylorismo</guid>
-      <pubDate>Mon, 06 Apr 2026 10:00:00 GMT</pubDate>
-      <category>Concepto</category>
-      <description>El taylorismo es el sistema de organización científica del trabajo ( scientific management ) desarrollado por Frederick Winslow Taylor en Estados Unidos, basado en la máxima especialización del trabajador, el cronomet...</description>
-    </item>
-    <item>
-      <title>Relación espúrea</title>
-      <link>https://jotapedia.vercel.app/conceptos/relacion-espuria</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/conceptos/relacion-espuria</guid>
-      <pubDate>Mon, 06 Apr 2026 07:21:31 GMT</pubDate>
-      <category>Concepto</category>
-      <description>Una relación espúrea (o correlación espúrea) es una asociación estadística entre dos variables que no refleja una relación causal real entre ellas, sino que es producida por una tercera variable (variable antecedente...</description>
-    </item>
-    <item>
-      <title>Robert K. Merton</title>
-      <link>https://jotapedia.vercel.app/autores/robert-k-merton</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/robert-k-merton</guid>
-      <pubDate>Mon, 06 Apr 2026 04:34:10 GMT</pubDate>
-      <category>Autor</category>
-      <description>Robert King Merton (1910 2003), nacido como Meyer Robert Schkolnick en Filadelfia, fue uno de los sociólogos más influyentes del siglo XX. Hijo de una familia judía emigrada de Europa oriental, inició estudios en Temp...</description>
-    </item>
-    <item>
-      <title>Angus Maddison</title>
-      <link>https://jotapedia.vercel.app/autores/angus-maddison</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/angus-maddison</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-      <category>Autor</category>
-      <description>Angus Maddison fue un economista e historiador económico británico, conocido por reconstruir series largas de crecimiento, población y PIB per cápita a escala mundial. Su trabajo permitió comparar trayectorias naciona...</description>
-    </item>
-    <item>
-      <title>Arghiri Emmanuel</title>
-      <link>https://jotapedia.vercel.app/autores/arghiri-emmanuel</link>
-      <guid isPermaLink="true">https://jotapedia.vercel.app/autores/arghiri-emmanuel</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-      <category>Autor</category>
-      <description>Arghiri Emmanuel fue un economista greco francés conocido por su formulación del intercambio desigual. Analizó cómo las diferencias internacionales de salarios podían generar transferencias sistemáticas de valor entre...</description>
+      <title>¿Sabías que...? — Hipótesis descriptiva</title>
+      <link>https://jotapedia.vercel.app/conceptos/hipotesis-descriptiva</link>
+      <guid isPermaLink="false">fact-1-3477715866</guid>
+      <pubDate>Mon, 06 Apr 2026 09:19:03 GMT</pubDate>
+      <category>Sabias que</category>
+      <description>Una hipótesis descriptiva es una proposición declarativa que anticipa las características, la distribución o la frecuencia de un fenómeno social sin establecer relaciones causales entre variables.</description>
     </item>
     <item>
       <title>¿Sabías que...? — Sociólogas fundadoras, la memoria oculta de la sociología</title>
       <link>https://jotapedia.vercel.app/fuentes/2026-s1/introduccion-a-la-sociologia/sociologas-fundadoras-la-memoria-oculta-de-la-sociologia</link>
-      <guid isPermaLink="false">fact-0-2894997730</guid>
-      <pubDate>Mon, 06 Apr 2026 07:31:21 GMT</pubDate>
+      <guid isPermaLink="false">fact-2-2894997730</guid>
+      <pubDate>Mon, 06 Apr 2026 09:19:03 GMT</pubDate>
       <category>Sabias que</category>
       <description>¿Cuáles son las principales contribuciones de Harriet Martineau a la metodología sociológica?</description>
     </item>
     <item>
-      <title>¿Sabías que...? — Teoría</title>
-      <link>https://jotapedia.vercel.app/conceptos/teoria</link>
-      <guid isPermaLink="false">fact-1-4122937982</guid>
-      <pubDate>Mon, 06 Apr 2026 07:31:21 GMT</pubDate>
+      <title>¿Sabías que...? — Distribución normal</title>
+      <link>https://jotapedia.vercel.app/conceptos/distribucion-normal</link>
+      <guid isPermaLink="false">fact-3-863013536</guid>
+      <pubDate>Mon, 06 Apr 2026 09:19:03 GMT</pubDate>
       <category>Sabias que</category>
-      <description>Un caso paradigmático de la función de la teoría en la investigación social es el estudio de emile durkheim Durkheim sobre el suicidio (1897).</description>
+      <description>La distribución normal es una distribución de probabilidad continua y simétrica, con forma de campana, en la que la mayor parte de las observaciones se concentra en torno a la media.</description>
     </item>
     <item>
-      <title>¿Sabías que...? — Inducción</title>
-      <link>https://jotapedia.vercel.app/conceptos/induccion</link>
-      <guid isPermaLink="false">fact-2-66807260</guid>
-      <pubDate>Mon, 06 Apr 2026 07:31:21 GMT</pubDate>
+      <title>¿Sabías que...? — Democracia</title>
+      <link>https://jotapedia.vercel.app/conceptos/democracia</link>
+      <guid isPermaLink="false">fact-4-436854406</guid>
+      <pubDate>Mon, 06 Apr 2026 09:19:03 GMT</pubDate>
       <category>Sabias que</category>
-      <description>Un investigador social realiza entrevistas en profundidad a treinta trabajadores de plataformas digitales en Buenos Aires.</description>
-    </item>
-    <item>
-      <title>¿Sabías que...? — Dominación legal-racional</title>
-      <link>https://jotapedia.vercel.app/conceptos/dominacion-legal-racional</link>
-      <guid isPermaLink="false">fact-3-2409983998</guid>
-      <pubDate>Mon, 06 Apr 2026 07:31:21 GMT</pubDate>
-      <category>Sabias que</category>
-      <description>El sistema judicial de un Estado constitucional moderno ilustra la dominación legal racional en su forma más depurada.</description>
-    </item>
-    <item>
-      <title>¿Sabías que...? — Metodología de las Ciencias Sociales</title>
-      <link>https://jotapedia.vercel.app/fuentes/2026-s1/metodologia-de-las-ciencias-sociales/metodologia-de-las-ciencias-sociales</link>
-      <guid isPermaLink="false">fact-4-3949230275</guid>
-      <pubDate>Mon, 06 Apr 2026 07:31:21 GMT</pubDate>
-      <category>Sabias que</category>
-      <description>¿Cuál es el problema de la sobredeterminación en la investigación social?</description>
+      <description>El ejemplo metodológico clásico es la operacionalización de la democracia según robert a dahl Dahl en Polyarchy (1971).</description>
     </item>
   </channel>
 </rss>

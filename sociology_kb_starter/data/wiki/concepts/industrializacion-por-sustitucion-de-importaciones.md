@@ -2,12 +2,9 @@
 id: industrializacion-por-sustitucion-de-importaciones
 title: "Industrialización por sustitución de importaciones"
 note_type: concept
-updated_at: "2026-04-06"
+updated_at: '2026-04-06T17:15:00+00:00'
 ---
 
-## Canonical note
-Esta ficha se mantiene por compatibilidad historica. La entrada canonica es [[modelo-isi]].
+Véase [[modelo-isi]].
 
-## Why this alias exists
-- En los materiales del curso se alterna la sigla "Modelo ISI" con el nombre completo.
-- Se conserva para no romper referencias internas bibliograficas y conceptuales.
+Este alias se conserva porque los materiales del curso alternan la sigla ISI con el nombre desplegado de la estrategia. La elaboración completa, las conexiones y la bibliografía se concentran en [[modelo-isi]] para evitar duplicar contenido y crear divergencias internas.

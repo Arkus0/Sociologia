@@ -348,6 +348,101 @@ Material metodologico.
   assert.ok(publicSearchIndex.length > 0);
 });
 
+test("buildWikiArtifacts no trata 'Vease tambien' como alias", async () => {
+  const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "jotapedia-web-"));
+  const wikiRoot = path.join(tempRoot, "wiki");
+  const outputRoot = path.join(tempRoot, ".generated");
+
+  await fs.mkdir(path.join(wikiRoot, "concepts"), { recursive: true });
+  await fs.mkdir(path.join(wikiRoot, "authors"), { recursive: true });
+  await fs.mkdir(path.join(wikiRoot, "courses"), { recursive: true });
+  await fs.mkdir(path.join(wikiRoot, "sources"), { recursive: true });
+
+  const files = new Map<string, string>([
+    [
+      path.join(wikiRoot, "concepts", "integracion-economica.md"),
+      `---
+id: integracion-economica
+title: "Integracion economica"
+note_type: concept
+updated_at: "2026-04-06"
+---
+
+# Integracion economica
+
+## Definicion
+
+Marco general para procesos de apertura regional.
+`,
+    ],
+    [
+      path.join(wikiRoot, "concepts", "mercado-comun.md"),
+      `---
+id: mercado-comun
+title: "Mercado comun"
+note_type: concept
+updated_at: "2026-04-06"
+---
+
+# Mercado comun
+
+## Definicion
+
+Categoria de prueba para enlaces relacionados.
+`,
+    ],
+    [
+      path.join(wikiRoot, "concepts", "tlcan.md"),
+      `---
+id: tlcan
+title: "TLCAN"
+note_type: concept
+updated_at: "2026-04-06"
+---
+
+# TLCAN
+
+## Definicion
+
+Nota completa con desarrollo propio y contexto historico.
+
+## Vease tambien
+
+- [[integracion-economica]]
+- [[mercado-comun]]
+`,
+    ],
+  ]);
+
+  for (const [filePath, contents] of files) {
+    await fs.writeFile(filePath, contents, "utf8");
+  }
+
+  await buildWikiArtifacts({
+    wikiRoot,
+    outputRoot,
+  });
+
+  const article = JSON.parse(
+    await fs.readFile(
+      path.join(outputRoot, "articles", "conceptos", "tlcan.json"),
+      "utf8",
+    ),
+  ) as {
+    isAlias: boolean;
+    canonicalEntry?: unknown;
+  };
+  assert.equal(article.isAlias, false);
+  assert.equal(article.canonicalEntry, undefined);
+
+  const searchIndex = JSON.parse(
+    await fs.readFile(path.join(outputRoot, "search-index.json"), "utf8"),
+  ) as {
+    docs: Array<{ route: string }>;
+  };
+  assert.ok(searchIndex.docs.some((entry) => entry.route === "/conceptos/tlcan"));
+});
+
 async function snapshotMarkdownFiles(root: string) {
   const files = await collectMarkdownFiles(root);
   const snapshot = new Map<string, string>();

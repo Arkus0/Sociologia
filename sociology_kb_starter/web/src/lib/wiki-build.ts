@@ -1087,7 +1087,7 @@ function buildQualityReport(
 
 function extractAliasTargetReference(markdown: string): string | undefined {
   const canonicalSectionMatch = markdown.match(
-    /^##\s+(Canonical note|Nota canonica)\s*$([\s\S]*?)(?=^##\s+|$)/im,
+    /^##\s+(Canonical note|Nota can[oó]nica)\s*$\n?([\s\S]*?)(?=^##\s+|(?![\s\S]))/im,
   );
   if (canonicalSectionMatch?.[2]) {
     const scopedLink = extractWikiReferences(canonicalSectionMatch[2])[0];
@@ -1096,15 +1096,46 @@ function extractAliasTargetReference(markdown: string): string | undefined {
     }
   }
 
-  const inlineMatch = markdown.match(
-    /(entrada canonica es|canonical note[\s\S]{0,120}?\bis\b|v[ée]ase|vease)[\s\S]*?\[\[([^[\]]+)\]\]/i,
-  );
-  const raw = inlineMatch?.[2]?.trim();
-  if (!raw) {
+  const firstBlock = extractFirstMeaningfulBlock(markdown);
+  if (!firstBlock) {
     return undefined;
   }
 
-  return raw.split("|")[0]?.trim();
+  const firstBlockRaw = extractWikiReferences(firstBlock)[0]?.trim();
+  if (!firstBlockRaw) {
+    return undefined;
+  }
+
+  const normalizedBlock = normalizeText(firstBlock);
+  const isAliasBlock =
+    normalizedBlock.startsWith("vease [[") ||
+    normalizedBlock.includes("entrada canonica es [[") ||
+    /canonical note[\s\S]{0,120}\bis\s+\[\[/.test(normalizedBlock);
+  if (!isAliasBlock) {
+    return undefined;
+  }
+
+  return firstBlockRaw.split("|")[0]?.trim();
+}
+
+function extractFirstMeaningfulBlock(markdown: string): string | undefined {
+  for (const block of markdown.split(/\n\s*\n/)) {
+    const lines = block
+      .trim()
+      .split(/\n/)
+      .map((line) => line.trim())
+      .filter(Boolean);
+    while (lines[0]?.startsWith("#")) {
+      lines.shift();
+    }
+    const trimmed = lines.join("\n").trim();
+    if (!trimmed) {
+      continue;
+    }
+    return trimmed;
+  }
+
+  return undefined;
 }
 
 function normalizeMarkdownSource(raw: string): string {
