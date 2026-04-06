@@ -33,6 +33,7 @@ export interface WikiDocument {
   aliasTargetReference?: string;
   frontmatterSubset: FrontmatterSubset;
   frontmatter: Record<string, unknown>;
+  wordCount: number;
 }
 
 export interface CatalogEntry {
@@ -52,6 +53,7 @@ export interface CatalogEntry {
   canonicalRoute?: string;
   canonicalTitle?: string;
   backlinkCount: number;
+  wordCount: number;
 }
 
 export interface TocEntry {
@@ -98,6 +100,7 @@ export interface ArticlePayload {
   relatedLinks: RelatedLink[];
   backlinks: RelatedLink[];
   frontmatterSubset: FrontmatterSubset;
+  wordCount: number;
 }
 
 export interface SearchFieldTokenMap {

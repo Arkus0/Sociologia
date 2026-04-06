@@ -4,6 +4,9 @@ import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
 
 import { PrimaryNav } from "@/components/primary-nav";
 import { SearchShortcut } from "@/components/search-shortcut";
+import { ThemeToggle } from "@/components/theme-toggle";
+import { WikilinkTooltips } from "@/components/wikilink-tooltips";
+import { SearchAutocomplete } from "@/components/search-autocomplete";
 
 import "./globals.css";
 
@@ -32,6 +35,7 @@ export default function RootLayout({
     <html lang="es" className={`${uiSans.variable} ${readingSerif.variable}`}>
       <body>
         <SearchShortcut />
+        <WikilinkTooltips />
         <a className="skip-link" href="#contenido">
           Saltar al contenido
         </a>
@@ -51,14 +55,13 @@ export default function RootLayout({
               <form action="/buscar" className="site-search">
                 <label htmlFor="site-search-input">Buscar</label>
                 <div className="site-search__controls">
-                  <input
-                    id="site-search-input"
-                    data-jotapedia-search="site"
-                    name="q"
-                    type="search"
+                  <SearchAutocomplete
+                    inputId="site-search-input"
+                    inputName="q"
                     placeholder="Buscar en Jotapedia"
                   />
                   <button type="submit">Ir</button>
+                  <ThemeToggle />
                 </div>
               </form>
 
@@ -67,6 +70,8 @@ export default function RootLayout({
                 <Link href="/autores">Autores</Link>
                 <Link href="/cursos">Cursos</Link>
                 <Link href="/fuentes">Fuentes</Link>
+                <Link href="/grafo">Grafo</Link>
+                <Link href="/stats">Stats</Link>
               </nav>
             </div>
           </header>

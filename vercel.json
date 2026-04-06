@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm --prefix sociology_kb_starter/web ci",
+  "buildCommand": "npm --prefix sociology_kb_starter/web run build",
+  "outputDirectory": "sociology_kb_starter/web/out",
+  "cleanUrls": true
+}

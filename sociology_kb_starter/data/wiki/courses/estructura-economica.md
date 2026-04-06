@@ -9,7 +9,7 @@ updated_at: '2026-04-06T14:00:00+00:00'
 
 ## Scope
 
-Asignatura de **Estructura Económica** (UOC, Grado en Sociología, 2026-S1). Analiza el funcionamiento del sistema capitalista mundial: su dinámica interna ([[acumulacion-de-capital]], [[ciclo-economico]]), las formas de organización del trabajo ([[taylorismo]], [[fordismo]], [[toyotismo]]), la evolución histórica del siglo XX (crisis monetarias, del petróleo, de la deuda), el proceso de [[mundializacion]], las instituciones económicas internacionales, la base material del sistema (población, recursos naturales, producción, tecnología), las teorías del [[desarrollo-economico]] y el [[subdesarrollo]] (modelo [[centro-periferia]], [[teoria-de-la-dependencia]]), los procesos de [[integracion-economica]] ([[union-europea]], [[eurozona]], MERCOSUR, TLCAN, ASEAN), y la [[convergencia-economica]] de la economía española en perspectiva internacional.
+Asignatura de **Estructura Económica** (UOC, Grado en Sociología, 2026-S1). Analiza el funcionamiento del sistema capitalista mundial: su dinámica interna ([[acumulacion-de-capital]], [[ciclo-economico]]), las formas de organización del trabajo ([[taylorismo]], [[fordismo]], [[toyotismo]]), la evolución histórica del siglo XX (crisis monetarias, del petróleo, de la deuda), el proceso de [[mundializacion]], las instituciones económicas internacionales, la base material del sistema (población, recursos naturales, producción, tecnología), las teorías del [[desarrollo-economico]] y el [[subdesarrollo]] (modelo [[centro-periferia]], [[teoria-de-la-dependencia]]), los procesos de [[integracion-economica]] ([[union-europea]], [[eurozona]], MERCOSUR, TLCAN, ASEAN), la [[convergencia-economica]] de la economía española en perspectiva internacional, los factores de producción ([[capital-humano]], [[capital-tecnologico]], [[capital-fisico]]) como determinantes de la [[productividad]], y la [[estructura-productiva]] española (sector primario, industria, construcción y [[burbuja-inmobiliaria]], [[terciarizacion]] de los servicios, [[inflacion-dual]]).
 
 ## Core concepts
 
@@ -48,6 +48,15 @@ Asignatura de **Estructura Económica** (UOC, Grado en Sociología, 2026-S1). An
 - [[convergencia-economica]]
 - [[idh]]
 - [[sociedad-del-conocimiento]]
+- [[capital-humano]]
+- [[capital-tecnologico]]
+- [[capital-fisico]]
+- [[productividad]]
+- [[estructura-productiva]]
+- [[terciarizacion]]
+- [[burbuja-inmobiliaria]]
+- [[inflacion-dual]]
+- [[reconversion-industrial]]
 
 ## Authors
 
@@ -73,3 +82,5 @@ Asignatura de **Estructura Económica** (UOC, Grado en Sociología, 2026-S1). An
 - [[base-material-del-sistema|Módulo 2: Base material del sistema]]
 - [[la-estructura-y-la-dinamica-del-sistema|Módulo 3: La estructura y la dinámica del sistema]]
 - [[la-evolucion-de-la-economia-espanola|Módulo 4: La evolución de la economía española a lo largo del tiempo]]
+- [[los-factores-de-produccion|Módulo 5: Los factores de producción]]
+- [[la-estructura-productiva|Módulo 6: La estructura productiva]]

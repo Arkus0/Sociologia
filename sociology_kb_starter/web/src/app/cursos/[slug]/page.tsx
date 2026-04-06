@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { ArticleView } from "@/components/article-view";
@@ -8,6 +9,22 @@ export async function generateStaticParams() {
   return catalog
     .filter((entry) => entry.noteType === "course")
     .map((entry) => ({ slug: entry.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const article = await loadArticlePayload(`/cursos/${slug}`);
+  if (!article) return {};
+  return {
+    title: `${article.title} — Jotapedia`,
+    description: article.preview,
+    openGraph: { title: `${article.title} — Jotapedia`, description: article.preview, type: "article" },
+    twitter: { card: "summary", title: `${article.title} — Jotapedia`, description: article.preview },
+  };
 }
 
 export default async function CourseArticlePage({

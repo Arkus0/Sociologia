@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { ArticleView } from "@/components/article-view";
@@ -11,6 +12,22 @@ export async function generateStaticParams() {
       const [, semestre, curso, slug] = entry.routeSegments;
       return { semestre, curso, slug };
     });
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ semestre: string; curso: string; slug: string }>;
+}): Promise<Metadata> {
+  const { semestre, curso, slug } = await params;
+  const article = await loadArticlePayload(`/fuentes/${semestre}/${curso}/${slug}`);
+  if (!article) return {};
+  return {
+    title: `${article.title} — Jotapedia`,
+    description: article.preview,
+    openGraph: { title: `${article.title} — Jotapedia`, description: article.preview, type: "article" },
+    twitter: { card: "summary", title: `${article.title} — Jotapedia`, description: article.preview },
+  };
 }
 
 export default async function SourceArticlePage({

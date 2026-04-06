@@ -3,10 +3,15 @@ import Link from "next/link";
 import { formatDateEs } from "@/lib/wiki-text";
 import { NOTE_TYPE_LABELS } from "@/lib/wiki-routes";
 import type { ArticlePayload } from "@/lib/wiki-types";
+import { ReadingProgress } from "./reading-progress";
+import { ShareBar } from "./share-bar";
 
 export function ArticleView({ article }: { article: ArticlePayload }) {
+  const readingMinutes = Math.max(1, Math.round(article.wordCount / 200));
+
   return (
     <article className="article-page">
+      <ReadingProgress />
       <nav className="breadcrumbs" aria-label="Migas de pan">
         <ol>
           {article.breadcrumbs.map((item) => (
@@ -24,7 +29,12 @@ export function ArticleView({ article }: { article: ArticlePayload }) {
           <p className="article-summary">{article.preview}</p>
           <p className="article-timestamp">
             Ultima actualizacion: {formatDateEs(article.timestamp)}
+            {" · "}
+            <span className="article-reading-time">
+              📖 {readingMinutes} min de lectura
+            </span>
           </p>
+          <ShareBar title={article.title} path={article.route} />
         </div>
       </header>
 

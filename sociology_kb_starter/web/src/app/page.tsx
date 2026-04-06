@@ -15,6 +15,8 @@ export default async function HomePage() {
     .sort((left, right) => right.timestamp.localeCompare(left.timestamp))
     .slice(0, 10);
 
+  const articleOfTheDay = pickArticleOfTheDay(catalog);
+
   return (
     <section className="home-page">
       <Suspense fallback={null}>
@@ -45,6 +47,19 @@ export default async function HomePage() {
       </header>
 
       <section className="home-grid">
+        {articleOfTheDay ? (
+          <article className="article-of-the-day portal-card--wide">
+            <p className="article-of-the-day__label">Articulo del dia</p>
+            <h2>
+              <Link href={articleOfTheDay.route}>{articleOfTheDay.title}</Link>
+            </h2>
+            <p>{articleOfTheDay.preview}</p>
+            <Link href={articleOfTheDay.route} className="article-of-the-day__cta">
+              Leer articulo →
+            </Link>
+          </article>
+        ) : null}
+
         <article className="portal-card portal-card--highlight">
           <h2>Explorar por secciones</h2>
           <ul className="portal-card__list">
@@ -74,16 +89,13 @@ export default async function HomePage() {
               <Link href="/buscar?q=sociologia">Buscar sociologia</Link>
             </li>
             <li>
-              <Link href="/conceptos">Indice de conceptos</Link>
+              <Link href="/grafo">Grafo de conocimiento</Link>
             </li>
             <li>
-              <Link href="/autores">Autores citados</Link>
+              <Link href="/stats">Estadisticas</Link>
             </li>
             <li>
-              <Link href="/fuentes">Materiales de curso</Link>
-            </li>
-            <li>
-              <Link href="/aleatoria">Articulo aleatorio</Link>
+              <Link href="/aleatoria">🎲 Articulo aleatorio</Link>
             </li>
           </ul>
         </article>
@@ -139,4 +151,24 @@ function countByType(noteTypes: NoteType[]) {
     }),
     { concept: 0, author: 0, course: 0, source: 0 },
   );
+}
+
+function pickArticleOfTheDay(catalog: Awaited<ReturnType<typeof loadCatalog>>) {
+  const candidates = catalog.filter(
+    (entry) =>
+      (entry.noteType === "concept" || entry.noteType === "author") &&
+      !entry.isAlias &&
+      entry.preview.trim().length > 50,
+  );
+  if (candidates.length === 0) {
+    return null;
+  }
+
+  const today = new Date().toISOString().slice(0, 10);
+  let hash = 0;
+  for (const char of today) {
+    hash = (hash * 31 + char.charCodeAt(0)) >>> 0;
+  }
+
+  return candidates[hash % candidates.length] ?? candidates[0];
 }

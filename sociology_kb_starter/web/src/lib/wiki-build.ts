@@ -117,6 +117,17 @@ export async function buildWikiArtifacts(
     await fs.rm(options.publicRoot, { recursive: true, force: true });
     await fs.mkdir(options.publicRoot, { recursive: true });
     await writeJson(path.join(options.publicRoot, "search-index.json"), searchIndex);
+    await writeJson(path.join(options.publicRoot, "catalog.json"), catalog);
+
+    // Copy atlas graph if available (for /grafo page)
+    const graphDir = path.join(path.dirname(options.wikiRoot), "graph");
+    const graphPath = path.join(graphDir, "atlas_graph.json");
+    try {
+      await fs.access(graphPath);
+      await fs.copyFile(graphPath, path.join(options.publicRoot, "atlas_graph.json"));
+    } catch {
+      // Graph file not available — skip
+    }
   }
 }
 
@@ -404,6 +415,7 @@ export function buildArticlePayload(
     relatedLinks: buildRelatedLinks(referenceDocument, registry),
     backlinks: registry.backlinksByRoute.get(canonicalDocument.route) ?? [],
     frontmatterSubset: document.frontmatterSubset,
+    wordCount: document.wordCount,
   };
 }
 
@@ -509,6 +521,7 @@ async function readWikiDocument(
     aliasTargetReference: extractAliasTargetReference(body),
     frontmatterSubset,
     frontmatter: data,
+    wordCount: body.split(/\s+/).filter(Boolean).length,
   };
 }
 
@@ -832,6 +845,7 @@ function toCatalogEntry(
     canonicalRoute: isAlias ? canonicalDocument.route : undefined,
     canonicalTitle: isAlias ? canonicalDocument.title : undefined,
     backlinkCount: registry.backlinksByRoute.get(canonicalDocument.route)?.length ?? 0,
+    wordCount: document.wordCount,
   };
 }
 

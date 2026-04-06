@@ -1,13 +1,39 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { ArticleView } from "@/components/article-view";
 import { loadArticlePayload, loadCatalog } from "@/lib/generated-data";
+import { getNoteTypeLabel } from "@/lib/wiki-routes";
 
 export async function generateStaticParams() {
   const catalog = await loadCatalog();
   return catalog
     .filter((entry) => entry.noteType === "concept")
     .map((entry) => ({ slug: entry.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const article = await loadArticlePayload(`/conceptos/${slug}`);
+  if (!article) return {};
+  return {
+    title: `${article.title} — Jotapedia`,
+    description: article.preview,
+    openGraph: {
+      title: `${article.title} — Jotapedia`,
+      description: article.preview,
+      type: "article",
+    },
+    twitter: {
+      card: "summary",
+      title: `${article.title} — Jotapedia`,
+      description: article.preview,
+    },
+  };
 }
 
 export default async function ConceptArticlePage({

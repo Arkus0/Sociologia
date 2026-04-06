@@ -1,0 +1,13 @@
+{
+  "name": "sociologia-root-deploy",
+  "private": true,
+  "scripts": {
+    "vercel-build": "npm --prefix sociology_kb_starter/web ci && npm --prefix sociology_kb_starter/web run build",
+    "build": "npm run vercel-build",
+    "lint": "npm --prefix sociology_kb_starter/web run lint",
+    "test": "npm --prefix sociology_kb_starter/web run test"
+  },
+  "dependencies": {
+    "next": "16.2.2"
+  }
+}
