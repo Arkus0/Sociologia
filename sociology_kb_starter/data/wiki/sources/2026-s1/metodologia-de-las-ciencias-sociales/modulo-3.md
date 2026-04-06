@@ -1,5 +1,5 @@
 ---
-id: la-investigacion-cuantitativa
+id: modulo-3
 title: La investigación cuantitativa
 note_type: source
 semester: 2026-S1

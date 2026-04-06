@@ -1,5 +1,5 @@
 ---
-id: la-perspectiva-sociologica
+id: modulo-1
 title: La perspectiva sociológica
 note_type: source
 semester: 2026-S1

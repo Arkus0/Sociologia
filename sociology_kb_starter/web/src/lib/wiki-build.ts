@@ -51,7 +51,7 @@ interface LinkRegistry {
   byRelativePath: Map<string, WikiDocument>;
   bySlug: Map<string, WikiDocument[]>;
   byId: Map<string, WikiDocument[]>;
-  byNormalizedTitle: Map<string, WikiDocument[]>;
+  byTitleVariant: Map<string, WikiDocument[]>;
   byRoute: Map<string, WikiDocument>;
   aliasByRoute: Map<string, WikiDocument>;
   aliasesByCanonicalRoute: Map<string, WikiDocument[]>;
@@ -245,7 +245,7 @@ function resolveReferenceInternal(
       ...(registry.byId.get(slugCandidate) ?? []),
       ...(registry.bySlug.get(trimmed) ?? []),
       ...(registry.bySlug.get(slugCandidate) ?? []),
-      ...(registry.byNormalizedTitle.get(normalizedTitle) ?? []),
+      ...(registry.byTitleVariant.get(normalizedTitle) ?? []),
       ...findLooseMatches(trimmed, registry.byId),
       ...findLooseMatches(slugCandidate, registry.bySlug),
     ].map((document) =>
@@ -516,7 +516,7 @@ function buildLinkRegistry(documents: WikiDocument[]): LinkRegistry {
   const byRelativePath = new Map<string, WikiDocument>();
   const bySlug = new Map<string, WikiDocument[]>();
   const byId = new Map<string, WikiDocument[]>();
-  const byNormalizedTitle = new Map<string, WikiDocument[]>();
+  const byTitleVariant = new Map<string, WikiDocument[]>();
   const byRoute = new Map<string, WikiDocument>();
   const aliasByRoute = new Map<string, WikiDocument>();
   const aliasesByCanonicalRoute = new Map<string, WikiDocument[]>();
@@ -526,14 +526,16 @@ function buildLinkRegistry(documents: WikiDocument[]): LinkRegistry {
     byRoute.set(document.route, document);
     appendMapValue(bySlug, document.slug, document);
     appendMapValue(byId, document.id, document);
-    appendMapValue(byNormalizedTitle, normalizeText(document.title), document);
+    for (const titleVariant of getTitleVariants(document.title, document.noteType)) {
+      appendMapValue(byTitleVariant, titleVariant, document);
+    }
   }
 
   const registry: LinkRegistry = {
     byRelativePath,
     bySlug,
     byId,
-    byNormalizedTitle,
+    byTitleVariant,
     byRoute,
     aliasByRoute,
     aliasesByCanonicalRoute,
@@ -1124,6 +1126,41 @@ function normalizeReferenceValue(value: string): string {
 
   const [target] = normalized.split("|");
   return target?.trim() ?? "";
+}
+
+function getTitleVariants(title: string, noteType?: NoteType): string[] {
+  const variants = new Set<string>();
+  const normalizedTitle = normalizeText(title);
+
+  if (normalizedTitle) {
+    variants.add(normalizedTitle);
+  }
+
+  const stem = title.split(/[:\u2014-]/, 1)[0]?.trim();
+  const normalizedStem = normalizeText(stem ?? "");
+  if (normalizedStem) {
+    variants.add(normalizedStem);
+  }
+
+  if (noteType === "author" && normalizedTitle) {
+    const tokens = normalizedTitle.split(" ").filter(Boolean);
+    const withoutInitials = tokens.filter((token, index) => {
+      if (index === 0 || index === tokens.length - 1) {
+        return true;
+      }
+      return token.length > 1;
+    });
+
+    if (withoutInitials.length >= 2 && withoutInitials.length !== tokens.length) {
+      variants.add(withoutInitials.join(" "));
+    }
+
+    if (tokens.length >= 3) {
+      variants.add(`${tokens[0]} ${tokens[tokens.length - 1]}`);
+    }
+  }
+
+  return [...variants];
 }
 
 function asString(value: unknown): string | undefined {
