@@ -28,7 +28,7 @@ La **competitividad** es la capacidad de una economía, un sector o una empresa 
 
 ## Origen y contexto histórico
 
-La idea de competitividad se consolidó en la economía internacional del siglo XX, especialmente tras la crisis del fordismo y la intensificación de la competencia global desde los años setenta. Autores como [[adam-smith|Adam Smith]] y [[david-ricardo|David Ricardo]] habían pensado ya en ventajas productivas y comerciales, pero el término adquirió centralidad en los debates contemporáneos sobre globalización, especialización y desarrollo desigual. En la literatura reciente, Michael Porter (*The Competitive Advantage of Nations*, 1990) convirtió la competitividad en una categoría clave para pensar estrategias nacionales y sectoriales.
+La idea de competitividad se consolidó en la economía internacional del siglo XX, especialmente tras la crisis del fordismo y la intensificación de la competencia global desde los años setenta. Autores como [[adam-smith|Adam Smith]] habían pensado ya en ventajas productivas y comerciales, pero el término adquirió centralidad en los debates contemporáneos sobre globalización, especialización y desarrollo desigual. En la literatura reciente, Michael Porter (*The Competitive Advantage of Nations*, 1990) convirtió la competitividad en una categoría clave para pensar estrategias nacionales y sectoriales.
 
 ## Desarrollo teórico
 
