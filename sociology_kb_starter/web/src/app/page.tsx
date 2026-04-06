@@ -16,7 +16,7 @@ export default async function HomePage() {
     .sort((left, right) => right.timestamp.localeCompare(left.timestamp))
     .slice(0, 10);
 
-  const articleOfTheDay = pickArticleOfTheDay(catalog);
+  const articleOfTheWeek = pickArticleOfTheWeek(catalog);
 
   return (
     <section className="home-page">
@@ -48,14 +48,14 @@ export default async function HomePage() {
       </header>
 
       <section className="home-grid">
-        {articleOfTheDay ? (
-          <article className="article-of-the-day portal-card--wide">
-            <p className="article-of-the-day__label">Articulo del dia</p>
+        {articleOfTheWeek ? (
+          <article className="article-of-the-week portal-card--wide">
+            <p className="article-of-the-week__label">Articulo de la semana</p>
             <h2>
-              <Link href={articleOfTheDay.route}>{articleOfTheDay.title}</Link>
+              <Link href={articleOfTheWeek.route}>{articleOfTheWeek.title}</Link>
             </h2>
-            <p>{articleOfTheDay.preview}</p>
-            <Link href={articleOfTheDay.route} className="article-of-the-day__cta">
+            <p>{articleOfTheWeek.preview}</p>
+            <Link href={articleOfTheWeek.route} className="article-of-the-week__cta">
               Leer articulo →
             </Link>
           </article>
@@ -105,7 +105,7 @@ export default async function HomePage() {
           <article className="portal-card portal-card--wide sabias-que">
             <h2>¿Sabias que...?</h2>
             <ul className="sabias-que__list">
-              {pickDailyFacts(facts, 4).map((fact, i) => (
+              {pickWeeklyFacts(facts, 4).map((fact, i) => (
                 <li key={i} className="sabias-que__item">
                   <p>{fact.text}</p>
                   <Link href={fact.articleRoute}>
@@ -120,37 +120,29 @@ export default async function HomePage() {
         <article className="portal-card subscribe-card">
           <h2>📬 Suscribete</h2>
           <p>
-            Recibe el articulo del dia, datos curiosos y nuevas entradas
-            directamente en tu correo.
+            Cada lunes recibiras el articulo de la semana, datos curiosos y las
+            ultimas novedades de Jotapedia.
           </p>
-          {process.env.NEXT_PUBLIC_BUTTONDOWN_USERNAME ? (
-            <form
-              action={`https://buttondown.com/api/emails/embed-subscribe/${process.env.NEXT_PUBLIC_BUTTONDOWN_USERNAME}`}
-              method="post"
-              target="popupwindow"
-              className="subscribe-card__form"
-            >
-              <input
-                type="email"
-                name="email"
-                placeholder="tu@email.com"
-                required
-                className="subscribe-card__input"
-              />
-              <button type="submit" className="subscribe-card__btn">
-                Suscribirme
-              </button>
-            </form>
-          ) : (
-            <a
-              href="/generated/feed.xml"
-              className="subscribe-card__btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Suscribirse via RSS
-            </a>
-          )}
+          <form
+            action="https://buttondown.com/api/emails/embed-subscribe/jota_sociopedia"
+            method="post"
+            className="subscribe-card__form"
+          >
+            <label htmlFor="bd-email" className="sr-only">
+              Tu email
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="bd-email"
+              placeholder="tu@email.com"
+              required
+              className="subscribe-card__input"
+            />
+            <button type="submit" className="subscribe-card__btn">
+              Suscribirme
+            </button>
+          </form>
           <p className="subscribe-card__hint">
             Tambien puedes seguirnos via{" "}
             <a href="/generated/feed.xml" target="_blank" rel="noopener noreferrer">
@@ -213,34 +205,35 @@ function countByType(noteTypes: NoteType[]) {
   );
 }
 
-function pickArticleOfTheDay(catalog: Awaited<ReturnType<typeof loadCatalog>>) {
+/** ISO week key: "2026-W15" — changes every Monday. */
+function isoWeekKey(): string {
+  const now = new Date();
+  const jan4 = new Date(now.getFullYear(), 0, 4);
+  const start = new Date(jan4.getTime() - ((jan4.getDay() || 7) - 1) * 86_400_000);
+  const week = Math.ceil(((now.getTime() - start.getTime()) / 86_400_000 + 1) / 7);
+  return `${now.getFullYear()}-W${String(week).padStart(2, "0")}`;
+}
+
+function hashString(s: string): number {
+  let h = 0;
+  for (const ch of s) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return h;
+}
+
+function pickArticleOfTheWeek(catalog: Awaited<ReturnType<typeof loadCatalog>>) {
   const candidates = catalog.filter(
     (entry) =>
       (entry.noteType === "concept" || entry.noteType === "author") &&
       !entry.isAlias &&
       entry.preview.trim().length > 50,
   );
-  if (candidates.length === 0) {
-    return null;
-  }
-
-  const today = new Date().toISOString().slice(0, 10);
-  let hash = 0;
-  for (const char of today) {
-    hash = (hash * 31 + char.charCodeAt(0)) >>> 0;
-  }
-
-  return candidates[hash % candidates.length] ?? candidates[0];
+  if (candidates.length === 0) return null;
+  return candidates[hashString(isoWeekKey()) % candidates.length] ?? candidates[0];
 }
 
-function pickDailyFacts(facts: Awaited<ReturnType<typeof loadFacts>>, count: number) {
+function pickWeeklyFacts(facts: Awaited<ReturnType<typeof loadFacts>>, count: number) {
   if (facts.length <= count) return facts;
-  const today = new Date().toISOString().slice(0, 10);
-  let hash = 0;
-  for (const char of today) {
-    hash = (hash * 31 + char.charCodeAt(0)) >>> 0;
-  }
-  const start = hash % facts.length;
+  const start = hashString(isoWeekKey()) % facts.length;
   const result = [];
   for (let i = 0; i < count; i++) {
     result.push(facts[(start + i) % facts.length]);

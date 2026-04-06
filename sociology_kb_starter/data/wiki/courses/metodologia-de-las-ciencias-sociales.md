@@ -2,6 +2,7 @@
 id: metodologia-de-las-ciencias-sociales
 title: Metodologia de las ciencias sociales
 note_type: course
+semester: 2026-S1
 updated_at: '2026-04-05T15:33:06+00:00'
 ---
 

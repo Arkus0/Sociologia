@@ -70,6 +70,12 @@ Cuarto módulo de Estructura Económica (UOC). Analiza la posición y evolución
 - [[matilde-alonso-perez|Matilde Alonso Pérez]]
 - [[elies-furio-blasco|Elies Furió Blasco]]
 
+## Source anchors
+
+- UOC, modulo 4: "La evolucion de la economia espanola a lo largo del tiempo".
+- Series largas de Angus Maddison para PIB per capita relativo a EE.UU. y comparacion internacional.
+- Periodificacion de los ciclos economicos espanoles desde 1970 y contraste Noruega/Venezuela.
+
 ## Exam prep
 
 ### Preguntas clave

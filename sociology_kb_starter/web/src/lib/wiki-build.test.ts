@@ -73,6 +73,22 @@ Una hipotesis de ejemplo.
 `,
     ],
     [
+      path.join(wikiRoot, "concepts", "modelo-isi.md"),
+      `---
+id: modelo-isi
+title: "Modelo ISI (Industrializacion por Sustitucion de Importaciones)"
+note_type: concept
+updated_at: "2026-04-05"
+---
+
+# Modelo ISI
+
+## Definicion
+
+Concepto de prueba para validar referencias humanizadas.
+`,
+    ],
+    [
       path.join(wikiRoot, "authors", "karl-marx.md"),
       `---
 id: karl-marx
@@ -88,6 +104,22 @@ source_notes:
 ## Resumen
 
 Autor de prueba para validar alias y backlinks.
+`,
+    ],
+    [
+      path.join(wikiRoot, "authors", "salvador-cardus.md"),
+      `---
+id: salvador-cardus
+title: "Salvador Cardus i Ros"
+note_type: author
+updated_at: "2026-04-05"
+---
+
+# Salvador Cardus i Ros
+
+## Biographical sketch
+
+Autor de prueba para validar referencias humanizadas.
 `,
     ],
     [
@@ -132,6 +164,10 @@ title: "Modulo 2"
 note_type: source
 semester: 2026-S1
 course: Introduccion a la sociologia
+concepts:
+  - Modelo ISI
+authors:
+  - Salvador Cardús
 compiled_at: "2026-04-05T00:00:00+00:00"
 ---
 
@@ -286,6 +322,22 @@ Material metodologico.
       (issue) =>
         issue.documentRoute === "/conceptos/proceso-social" &&
         issue.detail === "Referencia sin resolver: [[hipotesis-social]]",
+    ),
+  );
+  assert.ok(
+    !qualityReport.issues.some(
+      (issue) =>
+        issue.documentRoute ===
+          "/fuentes/2026-s1/introduccion-a-la-sociologia/modulo-2" &&
+        issue.detail === "Referencia sin resolver: Modelo ISI",
+    ),
+  );
+  assert.ok(
+    !qualityReport.issues.some(
+      (issue) =>
+        issue.documentRoute ===
+          "/fuentes/2026-s1/introduccion-a-la-sociologia/modulo-2" &&
+        issue.detail === "Referencia sin resolver: Salvador Cardús",
     ),
   );
 

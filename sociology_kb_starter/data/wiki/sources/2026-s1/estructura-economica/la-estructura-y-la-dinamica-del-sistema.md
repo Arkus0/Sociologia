@@ -131,6 +131,12 @@ Tercer módulo de Estructura Económica (UOC). Aborda tres grandes bloques del s
 - [[walt-whitman-rostow|Walt Whitman Rostow]]
 - [[andre-gunder-frank|André Gunder Frank]]
 
+## Source anchors
+
+- UOC, modulo 3: "La estructura y la dinamica del sistema".
+- Bloques tematicos sobre desarrollo/subdesarrollo, integracion economica y transicion hacia la sociedad del conocimiento.
+- Referencias de apoyo recurrentes: Prebisch, dependencia latinoamericana, UE/eurozona, IDH e ICT Development Index.
+
 ## Exam prep
 
 ### Preguntas clave

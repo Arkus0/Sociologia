@@ -6,8 +6,10 @@ const SUMMARY_HEADING_PREFIXES = [
   "definicion",
   "datos biograficos",
   "biografia",
+  "biographical sketch",
   "biografia intelectual",
   "biografia y trayectoria",
+  "panorama biografico",
   "trayectoria",
 ];
 

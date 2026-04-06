@@ -77,10 +77,103 @@ def test_lint_ignores_auxiliary_files_and_bom_aliases(kb_tmp: Path):
         "# Graph\n\nAuxiliary artifact.",
         encoding="utf-8",
     )
+    source_dir = SETTINGS.sources_dir / "2026-s1" / "metodologia"
+    source_dir.mkdir(parents=True, exist_ok=True)
+    write_note(
+        source_dir / "cuadernos.md",
+        {
+            "id": "cuadernos",
+            "title": "Cuadernos",
+            "note_type": "source",
+            "semester": "2026-S1",
+            "course": "Metodologia",
+        },
+        "## Canonical note\nEsta ficha se mantiene por compatibilidad historica. La entrada canonica es [[cuaderno-canonico]].",
+    )
 
     issues = run_lint_checks()
 
     alias_issues = [issue for issue in issues if issue["path"].endswith(r"authors\g-king.md")]
     assert not any(issue["type"] == "missing_frontmatter" for issue in alias_issues)
     assert not any(issue["type"] == "missing_summary_section" for issue in alias_issues)
+    source_alias_issues = [issue for issue in issues if issue["path"].endswith(r"sources\2026-s1\metodologia\cuadernos.md")]
+    assert not any(issue["type"] == "missing_source_anchors_section" for issue in source_alias_issues)
+    assert not any(issue["type"] == "missing_concepts" for issue in source_alias_issues)
     assert not any(issue["path"] == r"wiki\GRAPH.md" for issue in issues)
+
+
+def test_lint_accepts_extended_author_summary_headings(kb_tmp: Path):
+    """Lint accepts author summary headings already used in the wiki."""
+    ensure_project_dirs()
+    from kb_core.config import SETTINGS
+
+    write_note(
+        SETTINGS.authors_dir / "esther-fernandez-mostaza.md",
+        {
+            "id": "esther-fernandez-mostaza",
+            "title": "Esther Fernandez Mostaza",
+            "note_type": "author",
+            "updated_at": "2026-04-05",
+        },
+        "# Esther Fernandez Mostaza\n\n## Biographical sketch\n\nAutora de referencia.",
+    )
+    write_note(
+        SETTINGS.authors_dir / "san-agustin.md",
+        {
+            "id": "san-agustin",
+            "title": "San Agustin",
+            "note_type": "author",
+            "updated_at": "2026-04-05",
+        },
+        "# San Agustin\n\n## Panorama biografico\n\nAutor de referencia.",
+    )
+
+    issues = run_lint_checks()
+
+    summary_issues = [
+        issue
+        for issue in issues
+        if issue["type"] == "missing_summary_section"
+        and issue["path"] in {
+            r"wiki\authors\esther-fernandez-mostaza.md",
+            r"wiki\authors\san-agustin.md",
+        }
+    ]
+    assert not summary_issues
+
+
+def test_lint_duplicate_titles_are_scoped_by_note_type(kb_tmp: Path):
+    """Lint should not flag a course and a source that legitimately share a title."""
+    ensure_project_dirs()
+    from kb_core.config import SETTINGS
+
+    write_note(
+        SETTINGS.courses_dir / "metodologia.md",
+        {
+            "id": "metodologia",
+            "title": "Metodologia de las ciencias sociales",
+            "note_type": "course",
+            "semester": "2026-S1",
+        },
+        "# Metodologia\n\n## Scope\nCurso.",
+    )
+
+    note_dir = SETTINGS.sources_dir / "2026-s1" / "metodologia"
+    note_dir.mkdir(parents=True, exist_ok=True)
+    write_note(
+        note_dir / "metodologia-de-las-ciencias-sociales.md",
+        {
+            "id": "metodologia-de-las-ciencias-sociales",
+            "title": "Metodologia de las ciencias sociales",
+            "note_type": "source",
+            "semester": "2026-S1",
+            "course": "Metodologia",
+            "concepts": ["diseno de investigacion"],
+        },
+        "# Metodologia\n\n## Summary\nFuente.\n\n## Source anchors\n- p.1",
+    )
+
+    issues = run_lint_checks()
+
+    duplicate_title_issues = [issue for issue in issues if issue["type"] == "duplicate_title"]
+    assert not duplicate_title_issues

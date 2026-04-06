@@ -73,6 +73,12 @@ Quinto módulo de Estructura Económica (UOC, PID_00275128). Analiza los tres gr
 - [[union-europea]]
 - [[economia-del-conocimiento]]
 
+## Source anchors
+
+- UOC, PID_00275128, modulo 5: "Los factores de produccion".
+- Descomposicion de renta per capita y comparativa Espana-Eurozona con datos de Eurostat, INE y Banco de Espana.
+- Indicadores sobre I+D+i, balanza tecnologica, capital humano e infraestructuras utilizados en el modulo.
+
 ## Questions
 
 1. ¿Por qué el diferencial de productividad España-UE persiste pese a la convergencia en estructura sectorial?

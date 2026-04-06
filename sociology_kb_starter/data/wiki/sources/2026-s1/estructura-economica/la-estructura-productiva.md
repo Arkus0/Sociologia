@@ -78,6 +78,12 @@ Sexto módulo de Estructura Económica (UOC, PID_00275132). Examina la transform
 - [[mundializacion]]
 - [[fordismo]]
 
+## Source anchors
+
+- UOC, PID_00275132, modulo 6: "La estructura productiva".
+- Series comparadas de Eurostat e INE sobre VAB, ocupacion y comercio exterior por sectores.
+- Datos de turismo, vivienda y energia utilizados en los apartados de servicios, construccion y eficiencia energetica.
+
 ## Questions
 
 1. ¿Es la terciarización de la economía un signo de madurez o de debilidad industrial?

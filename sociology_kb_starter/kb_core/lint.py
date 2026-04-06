@@ -22,8 +22,10 @@ SUMMARY_HEADING_PREFIXES = ("definicion", "resumen", "summary")
 AUTHOR_SUMMARY_HEADING_PREFIXES = (
     "datos biograficos",
     "biografia",
+    "biographical sketch",
     "biografia intelectual",
     "biografia y trayectoria",
+    "panorama biografico",
     "trayectoria",
 )
 
@@ -64,7 +66,7 @@ def _has_summary_content(body: str, note_type: str) -> bool:
 
 def run_lint_checks() -> list[dict]:
     issues: list[dict] = []
-    titles: dict[str, list[Path]] = defaultdict(list)
+    titles: dict[tuple[str, str], list[Path]] = defaultdict(list)
     concept_references: set[str] = set()
     all_note_slugs: set[str] = set()
     all_wikilinks: list[tuple[Path, str]] = []
@@ -91,7 +93,7 @@ def run_lint_checks() -> list[dict]:
         all_note_slugs.add(slugify(str(note_id)))
         if title:
             if not is_alias:
-                titles[title].append(path)
+                titles[(title, str(frontmatter.get("note_type", "")))].append(path)
             all_note_slugs.add(slugify(title))
 
         missing_keys = REQUIRED_FRONTMATTER_KEYS - set(frontmatter.keys())
@@ -105,7 +107,7 @@ def run_lint_checks() -> list[dict]:
                 }
             )
 
-        if frontmatter.get("note_type") == "source":
+        if frontmatter.get("note_type") == "source" and not is_alias:
             if "## Source anchors" not in body:
                 issues.append(
                     {
@@ -156,7 +158,7 @@ def run_lint_checks() -> list[dict]:
                 }
             )
 
-    for title, paths in titles.items():
+    for (title, _note_type), paths in titles.items():
         if len(paths) > 1:
             issues.append(
                 {

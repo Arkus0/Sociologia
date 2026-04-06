@@ -199,5 +199,8 @@ export function titleFromReference(reference: string): string {
 }
 
 export function matchesLooseSlug(candidate: string, value: string): boolean {
-  return normalizeText(candidate) === normalizeText(value);
+  return (
+    normalizeText(candidate) === normalizeText(value) ||
+    slugifyText(candidate) === slugifyText(value)
+  );
 }
