@@ -158,10 +158,11 @@ def rebuild_indexes() -> None:
             existing_front, existing_body = load_markdown_file(note_path)
             if _is_enriched(existing_body):
                 body = existing_body
-                # Preserve extra frontmatter keys from enriched entries
-                for key in ("semester", "course", "related_concepts", "tags"):
-                    if key in existing_front and key not in new_frontmatter:
-                        new_frontmatter[key] = existing_front[key]
+            # Merge: existing frontmatter is base, new keys update on top
+            merged = dict(existing_front)
+            merged["source_notes"] = new_frontmatter["source_notes"]
+            merged["updated_at"] = new_frontmatter["updated_at"]
+            new_frontmatter = merged
         write_note(note_path, new_frontmatter, body)
 
     for author, notes in author_map.items():
@@ -178,14 +179,23 @@ def rebuild_indexes() -> None:
             existing_front, existing_body = load_markdown_file(note_path)
             if _is_enriched(existing_body):
                 body = existing_body
-                for key in ("semester", "course", "related_concepts", "tags"):
-                    if key in existing_front and key not in new_frontmatter:
-                        new_frontmatter[key] = existing_front[key]
+            # Merge: existing frontmatter is base, new keys update on top
+            merged = dict(existing_front)
+            merged["source_notes"] = new_frontmatter["source_notes"]
+            merged["updated_at"] = new_frontmatter["updated_at"]
+            new_frontmatter = merged
         write_note(note_path, new_frontmatter, body)
 
     for course, notes in course_map.items():
+        course_path = SETTINGS.courses_dir / f"{slugify(course)}.md"
         all_concepts = sorted({c for n in notes for c in n["frontmatter"].get("concepts", [])})
         all_authors = sorted({a for n in notes for a in n["frontmatter"].get("authors", [])})
+        new_course_front = {
+            "id": slugify(course),
+            "title": course,
+            "note_type": "course",
+            "updated_at": utc_now_iso(),
+        }
         body = "\n".join(
             [
                 "## Scope",
@@ -201,16 +211,14 @@ def rebuild_indexes() -> None:
                 "\n".join(f"- {wikilink(n['frontmatter'].get('title', n['path'].stem), n['frontmatter'].get('title', n['path'].stem))}" for n in notes),
             ]
         )
-        write_note(
-            SETTINGS.courses_dir / f"{slugify(course)}.md",
-            {
-                "id": slugify(course),
-                "title": course,
-                "note_type": "course",
-                "updated_at": utc_now_iso(),
-            },
-            body,
-        )
+        if course_path.exists():
+            existing_front, existing_body = load_markdown_file(course_path)
+            if _is_enriched(existing_body):
+                body = existing_body
+            merged = dict(existing_front)
+            merged["updated_at"] = new_course_front["updated_at"]
+            new_course_front = merged
+        write_note(course_path, new_course_front, body)
 
     build_graph_index()
 

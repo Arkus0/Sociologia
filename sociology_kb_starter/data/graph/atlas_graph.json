@@ -1861,6 +1861,12 @@
       "path": null
     },
     {
+      "id": "course::estructura-economica",
+      "title": "Estructura economica",
+      "type": "course",
+      "path": null
+    },
+    {
       "id": "course::introduccion-a-la-sociologia",
       "title": "Introduccion a la sociologia",
       "type": "course",
@@ -1957,6 +1963,18 @@
       "path": "wiki\\sources\\2026-s1\\metodologia-de-las-ciencias-sociales\\metodologia-de-las-ciencias-sociales.md"
     },
     {
+      "id": "source::modulo-1",
+      "title": "Modulo 1",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\estructura-economica\\modulo-1.md"
+    },
+    {
+      "id": "source::modulo-2",
+      "title": "Modulo 2",
+      "type": "source",
+      "path": "wiki\\sources\\2026-s1\\estructura-economica\\modulo-2.md"
+    },
+    {
       "id": "source::normalidad-desviacion-y-poder",
       "title": "Normalidad, desviación y poder",
       "type": "source",
@@ -1982,6 +2000,11 @@
     }
   ],
   "edges": [
+    {
+      "source": "course::estructura-economica",
+      "target": "semester::2026-s1",
+      "type": "course_to_semester"
+    },
     {
       "source": "course::introduccion-a-la-sociologia",
       "target": "author::adam-ferguson",
@@ -5315,6 +5338,16 @@
     {
       "source": "source::metodologia-de-las-ciencias-sociales",
       "target": "course::metodologia-de-las-ciencias-sociales",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::modulo-1",
+      "target": "course::estructura-economica",
+      "type": "source_to_course"
+    },
+    {
+      "source": "source::modulo-2",
+      "target": "course::estructura-economica",
       "type": "source_to_course"
     },
     {
@@ -5884,7 +5917,7 @@
     }
   ],
   "stats": {
-    "node_count": 330,
-    "edge_count": 780
+    "node_count": 333,
+    "edge_count": 783
   }
 }

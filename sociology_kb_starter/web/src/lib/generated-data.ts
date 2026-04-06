@@ -8,6 +8,7 @@ import type {
   ArticlePayload,
   CatalogEntry,
   LegacyLookupEntry,
+  QualityReport,
   SearchIndex,
 } from "./wiki-types";
 
@@ -23,6 +24,10 @@ export const loadSearchIndex = cache(async (): Promise<SearchIndex> => {
 
 export const loadLegacyMap = cache(async (): Promise<LegacyLookupEntry[]> => {
   return readJson<LegacyLookupEntry[]>("legacy-map.json");
+});
+
+export const loadQualityReport = cache(async (): Promise<QualityReport> => {
+  return readJson<QualityReport>("quality-report.json");
 });
 
 export async function loadArticlePayload(

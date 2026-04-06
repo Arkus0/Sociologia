@@ -1,0 +1,13 @@
+{
+  "name": "sociology-kb-starter",
+  "private": true,
+  "scripts": {
+    "build": "cd web && npm run build",
+    "dev": "cd web && npm run dev",
+    "lint": "cd web && npm run lint",
+    "test": "cd web && npm run test"
+  },
+  "dependencies": {
+    "next": "16.2.2"
+  }
+}

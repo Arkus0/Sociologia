@@ -28,6 +28,30 @@ export function ArticleView({ article }: { article: ArticlePayload }) {
         </div>
       </header>
 
+      {article.isAlias && article.canonicalEntry ? (
+        <section className="article-banner article-banner--alias">
+          <p>
+            Esta pagina actua como alias historico. La entrada canonica es{" "}
+            <Link href={article.canonicalEntry.route}>{article.canonicalEntry.title}</Link>.
+          </p>
+        </section>
+      ) : null}
+
+      {article.aliases.length > 0 && !article.isAlias ? (
+        <section className="article-banner">
+          <p>
+            Tambien puedes encontrar esta entrada como:{" "}
+            {article.aliases.map((alias, index) => (
+              <span key={alias}>
+                {index > 0 ? ", " : null}
+                <strong>{alias}</strong>
+              </span>
+            ))}
+            .
+          </p>
+        </section>
+      ) : null}
+
       <div className="article-layout">
         <div className="article-main">
           <div
@@ -63,6 +87,20 @@ export function ArticleView({ article }: { article: ArticlePayload }) {
                   </li>
                 ))}
               </ol>
+            </section>
+          ) : null}
+
+          {article.backlinks.length > 0 ? (
+            <section className="backlinks-panel">
+              <h2>Que enlaza aqui</h2>
+              <ul>
+                {article.backlinks.map((link) => (
+                  <li key={link.route}>
+                    <Link href={link.route}>{link.title}</Link>
+                    <span>{NOTE_TYPE_LABELS[link.noteType]}</span>
+                  </li>
+                ))}
+              </ul>
             </section>
           ) : null}
         </aside>

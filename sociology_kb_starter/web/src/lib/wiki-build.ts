@@ -36,6 +36,8 @@ import type {
   LegacyLookupEntry,
   LinkResolution,
   NoteType,
+  QualityIssue,
+  QualityReport,
   RelatedLink,
   SearchEntry,
   SearchFieldTokenMap,
@@ -48,6 +50,10 @@ interface LinkRegistry {
   byRelativePath: Map<string, WikiDocument>;
   bySlug: Map<string, WikiDocument[]>;
   byId: Map<string, WikiDocument[]>;
+  byRoute: Map<string, WikiDocument>;
+  aliasByRoute: Map<string, WikiDocument>;
+  aliasesByCanonicalRoute: Map<string, WikiDocument[]>;
+  backlinksByRoute: Map<string, RelatedLink[]>;
 }
 
 interface RenderEnv {
@@ -62,18 +68,21 @@ interface BuildWikiArtifactsOptions {
 
 const WIKI_SECTIONS = ["concepts", "authors", "courses", "sources"] as const;
 const NOTE_PRIORITY: NoteType[] = ["concept", "author", "course"];
+const QUALITY_PREVIEW_MIN = 72;
 
 export async function buildWikiArtifacts(
   options: BuildWikiArtifactsOptions,
 ): Promise<void> {
   const documents = await collectWikiDocuments(options.wikiRoot);
   const registry = buildLinkRegistry(documents);
-  const catalog = documents.map(toCatalogEntry);
+  registry.backlinksByRoute = buildBacklinkMap(documents, registry);
+  const catalog = documents.map((document) => toCatalogEntry(document, registry));
   const articles = documents.map((document) =>
     buildArticlePayload(document, registry),
   );
-  const searchIndex = buildSearchIndex(documents);
+  const searchIndex = buildSearchIndex(documents, registry);
   const legacyMap = buildLegacyMap(documents);
+  const qualityReport = buildQualityReport(documents, registry);
 
   await fs.rm(options.outputRoot, { recursive: true, force: true });
   await fs.mkdir(options.outputRoot, { recursive: true });
@@ -81,6 +90,10 @@ export async function buildWikiArtifacts(
   await writeJson(path.join(options.outputRoot, "catalog.json"), catalog);
   await writeJson(path.join(options.outputRoot, "search-index.json"), searchIndex);
   await writeJson(path.join(options.outputRoot, "legacy-map.json"), legacyMap);
+  await writeJson(
+    path.join(options.outputRoot, "quality-report.json"),
+    qualityReport,
+  );
 
   for (const article of articles) {
     const payloadPath = path.join(
@@ -110,10 +123,14 @@ export async function collectWikiDocuments(
   );
 }
 
-export function buildSearchIndex(documents: WikiDocument[]): SearchIndex {
+export function buildSearchIndex(
+  documents: WikiDocument[],
+  registry: LinkRegistry,
+): SearchIndex {
   const docFreq = new Map<string, number>();
-  const docs = documents.map<SearchEntry>((document) => {
-    const fieldTokens = buildSearchFieldTokens(document);
+  const docs = getCanonicalDocuments(documents, registry).map<SearchEntry>((document) => {
+    const aliases = collectCanonicalAliases(document, registry);
+    const fieldTokens = buildSearchFieldTokens(document, aliases);
     const mergedTokens = new Set<string>();
 
     for (const field of Object.values(fieldTokens)) {
@@ -133,6 +150,8 @@ export function buildSearchIndex(documents: WikiDocument[]): SearchIndex {
       preview: document.preview,
       semester: document.semester,
       course: document.course,
+      aliases,
+      isAlias: false,
       fieldTokens,
     };
   });
@@ -182,6 +201,14 @@ export function resolveReference(
   reference: string,
   registry: LinkRegistry,
 ): LinkResolution {
+  return resolveReferenceInternal(reference, registry, true);
+}
+
+function resolveReferenceInternal(
+  reference: string,
+  registry: LinkRegistry,
+  collapseAliases: boolean,
+): LinkResolution {
   const trimmed = reference.trim();
   if (!trimmed) {
     return {
@@ -197,23 +224,22 @@ export function resolveReference(
 
   const directPathMatch = registry.byRelativePath.get(pathWithExtension);
   if (directPathMatch) {
-    return {
-      status: "exact",
-      title: directPathMatch.title,
-      route: directPathMatch.route,
-      noteType: directPathMatch.noteType,
-    };
+    return toLinkResolution(directPathMatch, registry, collapseAliases);
   }
 
   const slugCandidate = path.basename(normalizedPath.replace(/\.md$/i, ""));
-  const candidates = dedupeDocuments([
-    ...(registry.byId.get(trimmed) ?? []),
-    ...(registry.byId.get(slugCandidate) ?? []),
-    ...(registry.bySlug.get(trimmed) ?? []),
-    ...(registry.bySlug.get(slugCandidate) ?? []),
-    ...findLooseMatches(trimmed, registry.byId),
-    ...findLooseMatches(slugCandidate, registry.bySlug),
-  ]);
+  const candidates = dedupeDocuments(
+    [
+      ...(registry.byId.get(trimmed) ?? []),
+      ...(registry.byId.get(slugCandidate) ?? []),
+      ...(registry.bySlug.get(trimmed) ?? []),
+      ...(registry.bySlug.get(slugCandidate) ?? []),
+      ...findLooseMatches(trimmed, registry.byId),
+      ...findLooseMatches(slugCandidate, registry.bySlug),
+    ].map((document) =>
+      collapseAliases ? getCanonicalDocument(document, registry) : document,
+    ),
+  );
 
   if (candidates.length === 0) {
     return {
@@ -223,23 +249,12 @@ export function resolveReference(
   }
 
   if (candidates.length === 1) {
-    const [match] = candidates;
-    return {
-      status: "exact",
-      title: match.title,
-      route: match.route,
-      noteType: match.noteType,
-    };
+    return toLinkResolution(candidates[0], registry, false);
   }
 
   const prioritized = pickPreferredCandidate(candidates);
   if (prioritized) {
-    return {
-      status: "exact",
-      title: prioritized.title,
-      route: prioritized.route,
-      noteType: prioritized.noteType,
-    };
+    return toLinkResolution(prioritized, registry, false);
   }
 
   return {
@@ -247,6 +262,23 @@ export function resolveReference(
     title: titleFromReference(trimmed),
     route: buildLegacySourceRoute(slugCandidate),
     noteType: "source",
+  };
+}
+
+function toLinkResolution(
+  document: WikiDocument,
+  registry: LinkRegistry,
+  collapseAliases: boolean,
+): LinkResolution {
+  const resolvedDocument = collapseAliases
+    ? getCanonicalDocument(document, registry)
+    : document;
+
+  return {
+    status: "exact",
+    title: resolvedDocument.title,
+    route: resolvedDocument.route,
+    noteType: resolvedDocument.noteType,
   };
 }
 
@@ -310,10 +342,13 @@ export function buildArticlePayload(
   document: WikiDocument,
   registry: LinkRegistry,
 ): ArticlePayload {
-  const courseRoute = document.course
-    ? resolveReference(slugifyText(document.course), registry).route
+  const canonicalDocument = getCanonicalDocument(document, registry);
+  const referenceDocument = canonicalDocument;
+  const courseRoute = referenceDocument.course
+    ? resolveReference(slugifyText(referenceDocument.course), registry).route
     : undefined;
   const { html, toc } = renderMarkdownDocument(document.body, registry);
+  const isAlias = canonicalDocument.route !== document.route;
 
   return {
     id: document.id,
@@ -344,8 +379,18 @@ export function buildArticlePayload(
             },
             { label: document.title },
           ],
-    infobox: buildInfobox(document, registry),
-    relatedLinks: buildRelatedLinks(document, registry),
+    infobox: buildInfobox(document, canonicalDocument, registry),
+    aliases: collectCanonicalAliases(canonicalDocument, registry),
+    isAlias,
+    canonicalEntry: isAlias
+      ? {
+          title: canonicalDocument.title,
+          route: canonicalDocument.route,
+          noteType: canonicalDocument.noteType,
+        }
+      : undefined,
+    relatedLinks: buildRelatedLinks(referenceDocument, registry),
+    backlinks: registry.backlinksByRoute.get(canonicalDocument.route) ?? [],
     frontmatterSubset: document.frontmatterSubset,
   };
 }
@@ -449,6 +494,7 @@ async function readWikiDocument(
     sourceNotes,
     tags,
     outgoingLinks: extractWikiReferences(body),
+    aliasTargetReference: extractAliasTargetReference(body),
     frontmatterSubset,
     frontmatter: data,
   };
@@ -458,20 +504,74 @@ function buildLinkRegistry(documents: WikiDocument[]): LinkRegistry {
   const byRelativePath = new Map<string, WikiDocument>();
   const bySlug = new Map<string, WikiDocument[]>();
   const byId = new Map<string, WikiDocument[]>();
+  const byRoute = new Map<string, WikiDocument>();
+  const aliasByRoute = new Map<string, WikiDocument>();
+  const aliasesByCanonicalRoute = new Map<string, WikiDocument[]>();
 
   for (const document of documents) {
     byRelativePath.set(normalizeRelativePath(document.relativePath), document);
+    byRoute.set(document.route, document);
     appendMapValue(bySlug, document.slug, document);
     appendMapValue(byId, document.id, document);
   }
 
-  return { byRelativePath, bySlug, byId };
+  const registry: LinkRegistry = {
+    byRelativePath,
+    bySlug,
+    byId,
+    byRoute,
+    aliasByRoute,
+    aliasesByCanonicalRoute,
+    backlinksByRoute: new Map<string, RelatedLink[]>(),
+  };
+
+  for (const document of documents) {
+    if (!document.aliasTargetReference) {
+      continue;
+    }
+
+    const resolution = resolveReferenceInternal(
+      document.aliasTargetReference,
+      registry,
+      false,
+    );
+
+    if (resolution.status !== "exact" || !resolution.route) {
+      continue;
+    }
+
+    const targetDocument = byRoute.get(resolution.route);
+    if (!targetDocument || targetDocument.route === document.route) {
+      continue;
+    }
+
+    aliasByRoute.set(document.route, targetDocument);
+  }
+
+  for (const [aliasRoute, targetDocument] of aliasByRoute.entries()) {
+    const aliasDocument = byRoute.get(aliasRoute);
+    const canonicalTarget = getCanonicalDocument(targetDocument, registry);
+
+    if (!aliasDocument) {
+      continue;
+    }
+
+    aliasByRoute.set(aliasRoute, canonicalTarget);
+    appendMapValue(aliasesByCanonicalRoute, canonicalTarget.route, aliasDocument);
+  }
+
+  return registry;
 }
 
 function buildInfobox(
   document: WikiDocument,
+  canonicalDocument: WikiDocument,
   registry: LinkRegistry,
 ): InfoboxItem[] {
+  const isAlias = canonicalDocument.route !== document.route;
+  const aliases = collectCanonicalAliases(canonicalDocument, registry);
+  const backlinks = registry.backlinksByRoute.get(canonicalDocument.route) ?? [];
+  const backlinkSummary = summarizeBacklinks(backlinks);
   const items: InfoboxItem[] = [
     {
       label: "Tipo",
@@ -483,59 +583,126 @@ function buildInfobox(
     },
   ];
 
-  if (document.semester) {
-    items.push({ label: "Semestre", value: document.semester });
-  }
-
-  if (document.course) {
-    const courseMatch = resolveReference(slugifyText(document.course), registry);
+  if (isAlias) {
     items.push({
-      label: "Curso",
-      value: document.course,
-      href: courseMatch.status === "exact" ? courseMatch.route : undefined,
+      label: "Entrada canonica",
+      value: canonicalDocument.title,
+      href: canonicalDocument.route,
     });
   }
 
-  if (document.sourcePath) {
-    items.push({
-      label: "Archivo fuente",
-      value: path.basename(document.sourcePath),
-    });
-  }
-
-  if (typeof document.reviewed === "boolean") {
-    items.push({
-      label: "Revisado",
-      value: document.reviewed ? "Si" : "No",
-    });
-  }
-
-  if (document.relatedConcepts.length > 0) {
-    items.push({
-      label: "Relacionados",
-      value: String(document.relatedConcepts.length),
-    });
-  }
-
-  if (document.sourceNotes.length > 0) {
-    items.push({
-      label: "Notas fuente",
-      value: String(document.sourceNotes.length),
-    });
-  }
-
-  if (document.authors.length > 0) {
-    items.push({
-      label: "Autores citados",
-      value: String(document.authors.length),
-    });
-  }
-
-  if (document.concepts.length > 0) {
-    items.push({
-      label: "Conceptos citados",
-      value: String(document.concepts.length),
-    });
+  switch (document.noteType) {
+    case "author":
+      if (aliases.length > 0 && !isAlias) {
+        items.push({
+          label: "Alias",
+          value: summarizeList(aliases),
+        });
+      }
+      if (canonicalDocument.sourceNotes.length > 0) {
+        items.push({
+          label: "Fuentes",
+          value: String(canonicalDocument.sourceNotes.length),
+        });
+      }
+      if (backlinkSummary.total > 0) {
+        items.push({
+          label: "Entradas que lo citan",
+          value: String(backlinkSummary.total),
+        });
+      }
+      break;
+    case "concept":
+      if (canonicalDocument.course) {
+        const courseMatch = resolveReference(
+          slugifyText(canonicalDocument.course),
+          registry,
+        );
+        items.push({
+          label: "Curso",
+          value: canonicalDocument.course,
+          href: courseMatch.status === "exact" ? courseMatch.route : undefined,
+        });
+      }
+      if (canonicalDocument.relatedConcepts.length > 0) {
+        items.push({
+          label: "Relacionados",
+          value: String(canonicalDocument.relatedConcepts.length),
+        });
+      }
+      if (canonicalDocument.sourceNotes.length > 0) {
+        items.push({
+          label: "Notas fuente",
+          value: String(canonicalDocument.sourceNotes.length),
+        });
+      }
+      if (backlinkSummary.total > 0) {
+        items.push({
+          label: "Entradas que enlazan aqui",
+          value: String(backlinkSummary.total),
+        });
+      }
+      break;
+    case "course":
+      if (backlinkSummary.sources > 0) {
+        items.push({
+          label: "Fuentes del curso",
+          value: String(backlinkSummary.sources),
+        });
+      }
+      if (backlinkSummary.concepts > 0) {
+        items.push({
+          label: "Conceptos asociados",
+          value: String(backlinkSummary.concepts),
+        });
+      }
+      if (backlinkSummary.total > 0) {
+        items.push({
+          label: "Entradas relacionadas",
+          value: String(backlinkSummary.total),
+        });
+      }
+      break;
+    case "source":
+      if (canonicalDocument.semester) {
+        items.push({ label: "Semestre", value: canonicalDocument.semester });
+      }
+      if (canonicalDocument.course) {
+        const courseMatch = resolveReference(
+          slugifyText(canonicalDocument.course),
+          registry,
+        );
+        items.push({
+          label: "Curso",
+          value: canonicalDocument.course,
+          href: courseMatch.status === "exact" ? courseMatch.route : undefined,
+        });
+      }
+      if (canonicalDocument.sourcePath) {
+        items.push({
+          label: "Archivo fuente",
+          value: path.basename(canonicalDocument.sourcePath),
+        });
+      }
+      if (typeof canonicalDocument.reviewed === "boolean") {
+        items.push({
+          label: "Revisado",
+          value: canonicalDocument.reviewed ? "Si" : "No",
+        });
+      }
+      if (canonicalDocument.authors.length > 0) {
+        items.push({
+          label: "Autores tratados",
+          value: String(canonicalDocument.authors.length),
+        });
+      }
+      if (canonicalDocument.concepts.length > 0) {
+        items.push({
+          label: "Conceptos tratados",
+          value: String(canonicalDocument.concepts.length),
+        });
+      }
+      break;
   }
 
   return items;
@@ -546,14 +713,7 @@ function buildRelatedLinks(
   registry: LinkRegistry,
   limit = 12,
 ): RelatedLink[] {
-  const seeds = [
-    ...document.relatedConcepts,
-    ...document.sourceNotes,
-    ...document.concepts.map((concept) => slugifyText(concept)),
-    ...document.authors.map((author) => slugifyText(author)),
-    ...document.outgoingLinks,
-  ];
-
+  const seeds = collectReferenceSeeds(document);
   const relatedLinks: RelatedLink[] = [];
   const seenRoutes = new Set<string>();
 
@@ -581,10 +741,14 @@ function buildRelatedLinks(
   return relatedLinks;
 }
 
-function buildSearchFieldTokens(document: WikiDocument): SearchFieldTokenMap {
+function buildSearchFieldTokens(
+  document: WikiDocument,
+  aliases: string[],
+): SearchFieldTokenMap {
   const summary = extractSummary(document.body) || document.preview;
   return {
     title: countTokens(document.title),
+    aliases: countTokens(aliases.join(" ")),
     concepts: countTokens(document.concepts.join(" ")),
     authors: countTokens(document.authors.join(" ")),
     summary: countTokens(summary),
@@ -627,7 +791,13 @@ function createUniqueSlug(title: string, counts: Map<string, number>): string {
   return current === 0 ? base : `${base}-${current + 1}`;
 }
 
-function toCatalogEntry(document: WikiDocument): CatalogEntry {
+function toCatalogEntry(
+  document: WikiDocument,
+  registry: LinkRegistry,
+): CatalogEntry {
+  const canonicalDocument = getCanonicalDocument(document, registry);
+  const isAlias = canonicalDocument.route !== document.route;
+
   return {
     id: document.id,
     slug: document.slug,
@@ -640,6 +810,11 @@ function toCatalogEntry(document: WikiDocument): CatalogEntry {
     timestamp: document.timestamp,
     semester: document.semester,
     course: document.course,
+    aliases: collectCanonicalAliases(canonicalDocument, registry),
+    isAlias,
+    canonicalRoute: isAlias ? canonicalDocument.route : undefined,
+    canonicalTitle: isAlias ? canonicalDocument.title : undefined,
+    backlinkCount: registry.backlinksByRoute.get(canonicalDocument.route)?.length ?? 0,
   };
 }
 
@@ -677,6 +852,229 @@ function pickPreferredCandidate(
   }
 
   return undefined;
+}
+
+function getCanonicalDocuments(
+  documents: WikiDocument[],
+  registry: LinkRegistry,
+): WikiDocument[] {
+  return dedupeDocuments(
+    documents.map((document) => getCanonicalDocument(document, registry)),
+  ).sort((left, right) => left.title.localeCompare(right.title, "es"));
+}
+
+function getCanonicalDocument(
+  document: WikiDocument,
+  registry: LinkRegistry,
+): WikiDocument {
+  let current = document;
+  const seenRoutes = new Set<string>();
+
+  while (registry.aliasByRoute.has(current.route)) {
+    if (seenRoutes.has(current.route)) {
+      break;
+    }
+
+    seenRoutes.add(current.route);
+    current = registry.aliasByRoute.get(current.route) ?? current;
+  }
+
+  return current;
+}
+
+function collectCanonicalAliases(
+  canonicalDocument: WikiDocument,
+  registry: LinkRegistry,
+): string[] {
+  const aliasDocs = registry.aliasesByCanonicalRoute.get(canonicalDocument.route) ?? [];
+  return aliasDocs
+    .map((document) => document.title)
+    .filter((title) => title !== canonicalDocument.title)
+    .sort((left, right) => left.localeCompare(right, "es"));
+}
+
+function collectReferenceSeeds(document: WikiDocument): string[] {
+  const seeds = [
+    ...document.outgoingLinks,
+    ...document.relatedConcepts,
+    ...document.concepts,
+    ...document.authors,
+    ...document.sourceNotes,
+  ];
+
+  if (document.course) {
+    seeds.push(slugifyText(document.course));
+  }
+
+  return [...new Set(seeds.map((seed) => seed.trim()).filter(Boolean))];
+}
+
+function summarizeBacklinks(backlinks: RelatedLink[]): BacklinkSummary {
+  return backlinks.reduce(
+    (summary, backlink) => ({
+      total: summary.total + 1,
+      concepts: summary.concepts + (backlink.noteType === "concept" ? 1 : 0),
+      authors: summary.authors + (backlink.noteType === "author" ? 1 : 0),
+      courses: summary.courses + (backlink.noteType === "course" ? 1 : 0),
+      sources: summary.sources + (backlink.noteType === "source" ? 1 : 0),
+    }),
+    { total: 0, concepts: 0, authors: 0, courses: 0, sources: 0 },
+  );
+}
+
+function summarizeList(values: string[], limit = 3): string {
+  if (values.length <= limit) {
+    return values.join(", ");
+  }
+
+  const visible = values.slice(0, limit).join(", ");
+  return `${visible} y ${values.length - limit} mas`;
+}
+
+function buildBacklinkMap(
+  documents: WikiDocument[],
+  registry: LinkRegistry,
+): Map<string, RelatedLink[]> {
+  const backlinks = new Map<string, RelatedLink[]>();
+  const seenPairs = new Set<string>();
+
+  for (const document of documents) {
+    const canonicalSource = getCanonicalDocument(document, registry);
+    const seeds = collectReferenceSeeds(document);
+
+    for (const seed of seeds) {
+      const resolution = resolveReference(seed, registry);
+      if (resolution.status !== "exact" || !resolution.route || !resolution.noteType) {
+        continue;
+      }
+
+      if (resolution.route === canonicalSource.route) {
+        continue;
+      }
+
+      const pairKey = `${resolution.route}::${canonicalSource.route}`;
+      if (seenPairs.has(pairKey)) {
+        continue;
+      }
+
+      seenPairs.add(pairKey);
+      appendMapValue(backlinks, resolution.route, {
+        title: canonicalSource.title,
+        route: canonicalSource.route,
+        noteType: canonicalSource.noteType,
+      });
+    }
+  }
+
+  for (const [route, links] of backlinks.entries()) {
+    backlinks.set(
+      route,
+      links.sort((left, right) => left.title.localeCompare(right.title, "es")),
+    );
+  }
+
+  return backlinks;
+}
+
+function buildQualityReport(
+  documents: WikiDocument[],
+  registry: LinkRegistry,
+): QualityReport {
+  const issues: QualityIssue[] = [];
+  const ids = new Map<string, WikiDocument[]>();
+
+  for (const document of documents) {
+    appendMapValue(ids, document.id, document);
+
+    if (document.preview.length < QUALITY_PREVIEW_MIN) {
+      issues.push({
+        level: "warning",
+        kind: "thin_preview",
+        documentRoute: document.route,
+        documentTitle: document.title,
+        detail: `La vista previa es demasiado breve (${document.preview.length} caracteres).`,
+      });
+    }
+
+    for (const reference of collectReferenceSeeds(document)) {
+      const resolution = resolveReference(reference, registry);
+      if (resolution.status === "missing") {
+        issues.push({
+          level: "warning",
+          kind: "broken_reference",
+          documentRoute: document.route,
+          documentTitle: document.title,
+          detail: `Referencia sin resolver: ${reference}`,
+        });
+        continue;
+      }
+
+      if (resolution.status === "ambiguous") {
+        issues.push({
+          level: "warning",
+          kind: "ambiguous_reference",
+          documentRoute: document.route,
+          documentTitle: document.title,
+          detail: `Referencia ambigua: ${reference}`,
+        });
+      }
+    }
+  }
+
+  for (const [id, matches] of ids.entries()) {
+    if (matches.length < 2) {
+      continue;
+    }
+
+    issues.push({
+      level: "warning",
+      kind: "duplicate_id",
+      detail: `ID duplicado "${id}" en ${matches
+        .map((document) => document.route)
+        .sort((left, right) => left.localeCompare(right, "es"))
+        .join(", ")}`,
+    });
+  }
+
+  const byKind = issues.reduce<Record<string, number>>((summary, issue) => {
+    summary[issue.kind] = (summary[issue.kind] ?? 0) + 1;
+    return summary;
+  }, {});
+
+  return {
+    generatedAt: new Date().toISOString(),
+    summary: {
+      issues: issues.length,
+      byKind,
+    },
+    issues: issues.sort((left, right) => {
+      const leftLabel = `${left.documentTitle ?? ""}${left.detail}`;
+      const rightLabel = `${right.documentTitle ?? ""}${right.detail}`;
+      return leftLabel.localeCompare(rightLabel, "es");
+    }),
+  };
+}
+
+function extractAliasTargetReference(markdown: string): string | undefined {
+  const canonicalSectionMatch = markdown.match(
+    /^##\s+(Canonical note|Nota canonica)\s*$([\s\S]*?)(?=^##\s+|$)/im,
+  );
+  const scopedText = canonicalSectionMatch?.[2] ?? markdown;
+  const scopedLink = extractWikiReferences(scopedText)[0];
+
+  if (scopedLink) {
+    return scopedLink;
+  }
+
+  const inlineMatch = markdown.match(
+    /(entrada canonica es|canonical note[\s\S]{0,120}?\bis\b)[\s\S]*?\[\[([^[\]]+)\]\]/i,
+  );
+  const raw = inlineMatch?.[2]?.trim();
+  if (!raw) {
+    return undefined;
+  }
+
+  return raw.split("|")[0]?.trim();
 }
 
 function appendMapValue<T>(map: Map<string, T[]>, key: string, value: T): void {

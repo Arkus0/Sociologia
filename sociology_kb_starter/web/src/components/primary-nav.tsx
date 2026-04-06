@@ -10,6 +10,7 @@ const PRIMARY_LINKS = [
   { href: "/cursos", label: "Cursos" },
   { href: "/fuentes", label: "Fuentes" },
   { href: "/buscar", label: "Buscar" },
+  { href: "/aleatoria", label: "Articulo aleatorio" },
 ];
 
 export function PrimaryNav() {

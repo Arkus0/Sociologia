@@ -30,6 +30,7 @@ export interface WikiDocument {
   sourceNotes: string[];
   tags: string[];
   outgoingLinks: string[];
+  aliasTargetReference?: string;
   frontmatterSubset: FrontmatterSubset;
   frontmatter: Record<string, unknown>;
 }
@@ -46,6 +47,11 @@ export interface CatalogEntry {
   timestamp: string;
   semester?: string;
   course?: string;
+  aliases: string[];
+  isAlias: boolean;
+  canonicalRoute?: string;
+  canonicalTitle?: string;
+  backlinkCount: number;
 }
 
 export interface TocEntry {
@@ -86,12 +92,17 @@ export interface ArticlePayload {
   toc: TocEntry[];
   breadcrumbs: BreadcrumbItem[];
   infobox: InfoboxItem[];
+  aliases: string[];
+  isAlias: boolean;
+  canonicalEntry?: RelatedLink;
   relatedLinks: RelatedLink[];
+  backlinks: RelatedLink[];
   frontmatterSubset: FrontmatterSubset;
 }
 
 export interface SearchFieldTokenMap {
   title: Record<string, number>;
+  aliases: Record<string, number>;
   concepts: Record<string, number>;
   authors: Record<string, number>;
   summary: Record<string, number>;
@@ -105,6 +116,10 @@ export interface SearchEntry {
   preview: string;
   semester?: string;
   course?: string;
+  aliases: string[];
+  isAlias: boolean;
+  canonicalRoute?: string;
+  canonicalTitle?: string;
   fieldTokens: SearchFieldTokenMap;
 }
 
@@ -127,4 +142,25 @@ export interface LinkResolution {
   title: string;
   route?: string;
   noteType?: NoteType;
+}
+
+export interface QualityIssue {
+  level: "warning";
+  kind:
+    | "broken_reference"
+    | "ambiguous_reference"
+    | "duplicate_id"
+    | "thin_preview";
+  documentRoute?: string;
+  documentTitle?: string;
+  detail: string;
+}
+
+export interface QualityReport {
+  generatedAt: string;
+  summary: {
+    issues: number;
+    byKind: Record<string, number>;
+  };
+  issues: QualityIssue[];
 }

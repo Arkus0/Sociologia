@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
 
 import { PrimaryNav } from "@/components/primary-nav";
+import { SearchShortcut } from "@/components/search-shortcut";
 
 import "./globals.css";
 
@@ -19,6 +20,7 @@ const readingSerif = Source_Serif_4({
 export const metadata: Metadata = {
   title: "Jotapedia",
   description: "Enciclopedia sociologica en castellano construida sobre la wiki del repositorio.",
+  metadataBase: new URL(resolveSiteUrl()),
 };
 
 export default function RootLayout({
@@ -29,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${uiSans.variable} ${readingSerif.variable}`}>
       <body>
+        <SearchShortcut />
         <a className="skip-link" href="#contenido">
           Saltar al contenido
         </a>
@@ -50,6 +53,7 @@ export default function RootLayout({
                 <div className="site-search__controls">
                   <input
                     id="site-search-input"
+                    data-jotapedia-search="site"
                     name="q"
                     type="search"
                     placeholder="Buscar en Jotapedia"
@@ -79,4 +83,17 @@ export default function RootLayout({
       </body>
     </html>
   );
+}
+
+function resolveSiteUrl(): string {
+  const candidate =
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    process.env.VERCEL_PROJECT_PRODUCTION_URL ||
+    process.env.VERCEL_URL;
+
+  if (!candidate) {
+    return "http://localhost:3000";
+  }
+
+  return candidate.startsWith("http") ? candidate : `https://${candidate}`;
 }

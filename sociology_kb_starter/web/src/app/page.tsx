@@ -2,13 +2,14 @@ import { Suspense } from "react";
 import Link from "next/link";
 
 import { LegacyQueryRedirector } from "@/components/legacy-query-redirector";
-import { loadCatalog } from "@/lib/generated-data";
+import { loadCatalog, loadQualityReport } from "@/lib/generated-data";
 import { getNoteTypeLabel } from "@/lib/wiki-routes";
 import { formatDateEs } from "@/lib/wiki-text";
 import type { NoteType } from "@/lib/wiki-types";
 
 export default async function HomePage() {
   const catalog = await loadCatalog();
+  const quality = await loadQualityReport();
   const counts = countByType(catalog.map((entry) => entry.noteType));
   const recent = [...catalog]
     .sort((left, right) => right.timestamp.localeCompare(left.timestamp))
@@ -80,6 +81,31 @@ export default async function HomePage() {
             </li>
             <li>
               <Link href="/fuentes">Materiales de curso</Link>
+            </li>
+            <li>
+              <Link href="/aleatoria">Articulo aleatorio</Link>
+            </li>
+          </ul>
+        </article>
+
+        <article className="portal-card">
+          <h2>Control editorial</h2>
+          <ul className="portal-card__list">
+            <li>
+              <span>Incidencias detectadas</span>
+              <span>{quality.summary.issues}</span>
+            </li>
+            <li>
+              <span>Referencias rotas</span>
+              <span>{quality.summary.byKind.broken_reference ?? 0}</span>
+            </li>
+            <li>
+              <span>Referencias ambiguas</span>
+              <span>{quality.summary.byKind.ambiguous_reference ?? 0}</span>
+            </li>
+            <li>
+              <span>IDs duplicados</span>
+              <span>{quality.summary.byKind.duplicate_id ?? 0}</span>
             </li>
           </ul>
         </article>

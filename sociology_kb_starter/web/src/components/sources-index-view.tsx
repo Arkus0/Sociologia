@@ -72,6 +72,16 @@ export function SourcesIndexView({ entries }: { entries: CatalogEntry[] }) {
                       <li key={entry.route} className="index-card">
                         <Link href={entry.route}>{entry.title}</Link>
                         <p>{entry.preview}</p>
+                        <div className="index-card__meta">
+                          {entry.backlinkCount > 0 ? (
+                            <span>
+                              {entry.backlinkCount}{" "}
+                              {entry.backlinkCount === 1
+                                ? "entrada relacionada"
+                                : "entradas relacionadas"}
+                            </span>
+                          ) : null}
+                        </div>
                       </li>
                     ))}
                   </ul>

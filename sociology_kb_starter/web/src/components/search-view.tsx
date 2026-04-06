@@ -1,23 +1,35 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import {
+  startTransition,
+  useDeferredValue,
+  useEffect,
+  useState,
+} from "react";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 import { NOTE_TYPE_LABELS } from "@/lib/wiki-routes";
-import { searchDocuments } from "@/lib/wiki-search";
-import type { SearchIndex } from "@/lib/wiki-types";
+import { searchDocuments, suggestDocuments } from "@/lib/wiki-search";
+import type { NoteType, SearchIndex } from "@/lib/wiki-types";
+
+const SEARCH_TYPES: NoteType[] = ["concept", "author", "course", "source"];
 
 export function SearchView() {
   const pathname = usePathname();
   const router = useRouter();
   const searchParams = useSearchParams();
   const [query, setQuery] = useState(searchParams.get("q") ?? "");
+  const [selectedTypes, setSelectedTypes] = useState<NoteType[]>(
+    readSelectedTypes(searchParams),
+  );
   const [index, setIndex] = useState<SearchIndex | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const deferredQuery = useDeferredValue(query);
 
   useEffect(() => {
     setQuery(searchParams.get("q") ?? "");
+    setSelectedTypes(readSelectedTypes(searchParams));
   }, [searchParams]);
 
   useEffect(() => {
@@ -30,6 +42,7 @@ export function SearchView() {
         if (!response.ok) {
           throw new Error("No se pudo cargar el indice de busqueda");
         }
+
         const data = (await response.json()) as SearchIndex;
         if (!cancelled) {
           setIndex(data);
@@ -52,20 +65,47 @@ export function SearchView() {
     };
   }, []);
 
-  const results = index && query.trim() ? searchDocuments(index, query.trim(), 25) : [];
+  const results =
+    index && query.trim()
+      ? searchDocuments(index, query.trim(), 25, { noteTypes: selectedTypes })
+      : [];
+  const suggestions =
+    index && deferredQuery.trim()
+      ? suggestDocuments(index, deferredQuery.trim(), 6, { noteTypes: selectedTypes })
+      : [];
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    replaceSearchParams(query, selectedTypes);
+  }
+
+  function toggleType(noteType: NoteType) {
+    const nextTypes = selectedTypes.includes(noteType)
+      ? selectedTypes.filter((value) => value !== noteType)
+      : [...selectedTypes, noteType];
+
+    setSelectedTypes(nextTypes);
+    replaceSearchParams(query, nextTypes);
+  }
+
+  function replaceSearchParams(nextQuery: string, nextTypes: NoteType[]) {
     const params = new URLSearchParams(searchParams.toString());
 
-    if (query.trim()) {
-      params.set("q", query.trim());
+    if (nextQuery.trim()) {
+      params.set("q", nextQuery.trim());
     } else {
       params.delete("q");
     }
 
+    params.delete("tipo");
+    for (const noteType of nextTypes) {
+      params.append("tipo", noteType);
+    }
+
     const next = params.toString();
-    router.replace(next ? `${pathname}?${next}` : pathname);
+    startTransition(() => {
+      router.replace(next ? `${pathname}?${next}` : pathname);
+    });
   }
 
   return (
@@ -82,6 +122,8 @@ export function SearchView() {
         <label>
           <span>Consulta</span>
           <input
+            id="search-page-input"
+            data-jotapedia-search="active"
             type="search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
@@ -91,9 +133,27 @@ export function SearchView() {
         <button type="submit">Buscar</button>
       </form>
 
+      <div className="search-filters" aria-label="Filtrar resultados por tipo">
+        {SEARCH_TYPES.map((noteType) => {
+          const active = selectedTypes.includes(noteType);
+          return (
+            <button
+              key={noteType}
+              type="button"
+              className={active ? "is-active" : undefined}
+              aria-pressed={active}
+              onClick={() => toggleType(noteType)}
+            >
+              {NOTE_TYPE_LABELS[noteType]}
+            </button>
+          );
+        })}
+        <span className="search-filters__hint">Atajo de teclado: /</span>
+      </div>
+
       {error ? <p className="empty-state">{error}</p> : null}
       {!index && !error ? (
-        <p className="empty-state">Cargando indice de busqueda…</p>
+        <p className="empty-state">Cargando indice de busqueda...</p>
       ) : null}
 
       {index && !query.trim() ? (
@@ -104,8 +164,22 @@ export function SearchView() {
 
       {index && query.trim() && results.length === 0 ? (
         <p className="empty-state">
-          No se han encontrado resultados para esa consulta.
+          No se han encontrado resultados exactos para esa consulta.
         </p>
+      ) : null}
+
+      {query.trim() && suggestions.length > 0 && results.length === 0 ? (
+        <section className="search-suggestions">
+          <h2>Quizas buscabas</h2>
+          <ul>
+            {suggestions.map((result) => (
+              <li key={result.route}>
+                <Link href={result.route}>{result.title}</Link>
+                <span>{NOTE_TYPE_LABELS[result.noteType]}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
       ) : null}
 
       {results.length > 0 ? (
@@ -120,6 +194,9 @@ export function SearchView() {
                 <p>{result.preview}</p>
                 <div className="search-result__meta">
                   <span>{NOTE_TYPE_LABELS[result.noteType]}</span>
+                  {result.aliases.length > 0 ? (
+                    <span>Alias: {result.aliases.join(", ")}</span>
+                  ) : null}
                   {result.course ? <span>{result.course}</span> : null}
                   {result.semester ? <span>{result.semester}</span> : null}
                 </div>
@@ -130,4 +207,12 @@ export function SearchView() {
       ) : null}
     </section>
   );
+}
+
+function readSelectedTypes(searchParams: ReturnType<typeof useSearchParams>): NoteType[] {
+  const rawTypes = searchParams.getAll("tipo");
+  const selected = rawTypes.filter((value): value is NoteType =>
+    SEARCH_TYPES.includes(value as NoteType),
+  );
+  return selected.length > 0 ? selected : [...SEARCH_TYPES];
 }

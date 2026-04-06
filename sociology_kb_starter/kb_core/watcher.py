@@ -1,4 +1,8 @@
-"""Watched-folder daemon: monitors data/inbox/ for new PDFs and auto-ingests them."""
+"""Watched-folder daemon: DISABLED.
+
+This module is intentionally disabled. PDF processing is now done manually
+by Claude via Copilot. Do not run this module.
+"""
 from __future__ import annotations
 
 import argparse
@@ -132,49 +136,17 @@ class InboxHandler(FileSystemEventHandler):
 
 
 def watch(inbox_path: Path | None = None) -> None:
-    """Start the continuous watcher on the inbox directory."""
-    inbox = inbox_path or SETTINGS.inbox_dir
-    inbox.mkdir(parents=True, exist_ok=True)
-    SETTINGS.inbox_processed_dir.mkdir(parents=True, exist_ok=True)
-
-    logger.info("Watching %s for new files...", inbox)
-    logger.info("Drop PDFs, TXT, or MD files here. Subfolder convention: inbox/{semester}/{course}/")
-    logger.info("Press Ctrl+C to stop.")
-
-    # Process any files already in inbox
-    existing = process_inbox_once()
-    if existing:
-        logger.info("Processed %d existing file(s) from inbox.", existing)
-
-    handler = InboxHandler()
-    observer = Observer()
-    observer.schedule(handler, str(inbox), recursive=True)
-    observer.start()
-
-    try:
-        while True:
-            time.sleep(1)
-    except KeyboardInterrupt:
-        logger.info("Stopping watcher...")
-        observer.stop()
-    observer.join()
+    """DISABLED — PDF processing is now done manually by Claude via Copilot."""
+    raise RuntimeError(
+        "Watcher is disabled. PDF processing is done manually by Claude via Copilot. "
+        "Drop PDFs in inbox/ and tell Claude to process them."
+    )
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Watch inbox/ for new documents and auto-ingest them")
-    parser.add_argument("--once", action="store_true", help="Process current inbox contents and exit (no watching)")
-    parser.add_argument("--inbox", type=str, default=None, help="Override inbox directory path")
-    args = parser.parse_args()
-
-    inbox = Path(args.inbox) if args.inbox else None
-
-    if args.once:
-        target = inbox or SETTINGS.inbox_dir
-        target.mkdir(parents=True, exist_ok=True)
-        count = process_inbox_once()
-        print(f"Processed {count} file(s).")
-    else:
-        watch(inbox)
+    raise RuntimeError(
+        "Watcher is disabled. PDF processing is done manually by Claude via Copilot."
+    )
 
 
 if __name__ == "__main__":

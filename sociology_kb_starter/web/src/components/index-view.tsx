@@ -70,7 +70,18 @@ export function IndexView({
                   <li key={entry.route} className="index-card">
                     <Link href={entry.route}>{entry.title}</Link>
                     <p>{entry.preview}</p>
-                    <span>{NOTE_TYPE_LABELS[entry.noteType]}</span>
+                    <div className="index-card__meta">
+                      <span>{NOTE_TYPE_LABELS[entry.noteType]}</span>
+                      {entry.isAlias ? (
+                        <span>Alias de {entry.canonicalTitle}</span>
+                      ) : null}
+                      {entry.backlinkCount > 0 ? (
+                        <span>
+                          {entry.backlinkCount}{" "}
+                          {entry.backlinkCount === 1 ? "enlace entrante" : "enlaces entrantes"}
+                        </span>
+                      ) : null}
+                    </div>
                   </li>
                 ))}
               </ul>
