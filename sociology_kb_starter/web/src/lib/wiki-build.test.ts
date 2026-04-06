@@ -38,14 +38,16 @@ title: "Proceso social"
 note_type: concept
 updated_at: "2026-04-05"
 related_concepts:
-  - hipotesis-social
+  - "[[hipotesis-social]]"
+authors:
+  - Karl Marx
 ---
 
 # Proceso social
 
 ## Definicion
 
-Enlace a [[hipotesis-social]] y enlace ambiguo a [[modulo-2]].
+Enlace a [[hipotesis-social]], enlace ambiguo a [[modulo-2]] y referencia a [[marx]].
 
 > Cita de apoyo
 
@@ -68,6 +70,37 @@ updated_at: "2026-04-05"
 ## Definicion
 
 Una hipotesis de ejemplo.
+`,
+    ],
+    [
+      path.join(wikiRoot, "authors", "karl-marx.md"),
+      `---
+id: karl-marx
+title: "Karl Marx"
+note_type: author
+updated_at: "2026-04-05"
+source_notes:
+  - modulo-2
+---
+
+# Karl Marx
+
+## Resumen
+
+Autor de prueba para validar alias y backlinks.
+`,
+    ],
+    [
+      path.join(wikiRoot, "authors", "marx.md"),
+      `---
+id: marx
+title: "Marx"
+note_type: author
+updated_at: "2026-04-05"
+---
+
+## Canonical note
+Esta ficha es un alias historico. La entrada canonica es [[karl-marx]].
 `,
     ],
     [
@@ -188,11 +221,67 @@ Material metodologico.
 
   assert.match(article.html, /href="\/conceptos\/hipotesis-social"/);
   assert.match(article.html, /href="\/legado\/fuentes\/modulo-2"/);
+  assert.match(article.html, /href="\/autores\/karl-marx"/);
   assert.match(article.html, /<blockquote>/);
   assert.match(article.html, /<table>/);
   assert.deepEqual(article.toc, [
     { id: "definicion", text: "Definicion", level: 2 },
   ]);
+
+  const aliasArticle = JSON.parse(
+    await fs.readFile(
+      path.join(outputRoot, "articles", "autores", "marx.json"),
+      "utf8",
+    ),
+  ) as {
+    isAlias: boolean;
+    canonicalEntry?: { route: string; title: string };
+    backlinks: Array<{ route: string }>;
+  };
+  assert.equal(aliasArticle.isAlias, true);
+  assert.deepEqual(aliasArticle.canonicalEntry, {
+    route: "/autores/karl-marx",
+    title: "Karl Marx",
+    noteType: "author",
+  });
+  assert.ok(
+    aliasArticle.backlinks.some((entry) => entry.route === "/conceptos/proceso-social"),
+  );
+
+  const searchIndex = JSON.parse(
+    await fs.readFile(path.join(outputRoot, "search-index.json"), "utf8"),
+  ) as {
+    docs: Array<{ route: string; aliases: string[] }>;
+  };
+  assert.ok(searchIndex.docs.some((entry) => entry.route === "/autores/karl-marx"));
+  assert.ok(!searchIndex.docs.some((entry) => entry.route === "/autores/marx"));
+  assert.deepEqual(
+    searchIndex.docs.find((entry) => entry.route === "/autores/karl-marx")?.aliases,
+    ["Marx"],
+  );
+
+  const qualityReport = JSON.parse(
+    await fs.readFile(path.join(outputRoot, "quality-report.json"), "utf8"),
+  ) as {
+    summary: { byKind: Record<string, number> };
+    issues: Array<{ detail: string; documentRoute?: string }>;
+  };
+  assert.ok((qualityReport.summary.byKind.ambiguous_reference ?? 0) >= 1);
+  assert.ok((qualityReport.summary.byKind.duplicate_id ?? 0) >= 1);
+  assert.ok(
+    !qualityReport.issues.some(
+      (issue) =>
+        issue.documentRoute === "/conceptos/proceso-social" &&
+        issue.detail === "Referencia sin resolver: Karl Marx",
+    ),
+  );
+  assert.ok(
+    !qualityReport.issues.some(
+      (issue) =>
+        issue.documentRoute === "/conceptos/proceso-social" &&
+        issue.detail === "Referencia sin resolver: [[hipotesis-social]]",
+    ),
+  );
 
   const publicSearchIndex = await fs.readFile(
     path.join(publicRoot, "search-index.json"),

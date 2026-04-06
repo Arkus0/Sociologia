@@ -23,11 +23,11 @@ updated_at: '2026-04-06T10:00:00+00:00'
 
 ## Definición
 
-La acumulación de capital es el proceso por el cual el capital crece de un período productivo a otro mediante la reinversión del excedente (beneficios) en nuevos medios de producción y fuerza de trabajo. Constituye la reproducción ampliada del capital, en contraposición a la reproducción simple (donde el capital se mantiene sin crecer). Es el mecanismo fundamental que impulsa la tendencia intrínseca del [[capitalismo]] a la expansión: un capital que no crece se extingue.
+La acumulación de capital es el proceso por el cual el capital crece de un período productivo a otro mediante la reinversión del excedente (beneficios) en nuevos medios de producción y fuerza de trabajo. [[karl-marx|Marx]] la formalizó en el libro I de *El Capital* (1867, caps. XXII-XXV) como la «ley general de la acumulación capitalista», mostrando que la acumulación es la reproducción ampliada del capital, en contraposición a la reproducción simple (donde el capital se mantiene sin crecer). Es el mecanismo fundamental que impulsa la tendencia intrínseca del [[capitalismo]] a la expansión: un capital que no crece se extingue, una dinámica que Rosa Luxemburg (*La acumulación del capital*, 1913) analizó como la necesidad estructural del capitalismo de incorporar permanentemente espacios no capitalistas para realizar la plusvalía.
 
 ## Origen y contexto histórico
 
-El concepto tiene sus raíces en la economía política clásica. [[adam-smith]] lo describió como la re-inversión del ahorro en actividad productiva. [[karl-marx]] le dio formulación sistemática en *El Capital* (1867), donde distinguió entre reproducción simple y reproducción ampliada, y mostró que la acumulación se basa en la extracción de [[plusvalia]] del trabajo asalariado. Los modelos neoclásicos, marxistas y keynesianos coinciden en que la acumulación es un fenómeno intrínseco al capitalismo, aunque difieren en sus condiciones de equilibrio.
+El concepto tiene sus raíces en la economía política clásica. [[adam-smith]] lo describió en *La riqueza de las naciones* (1776) como la re-inversión del ahorro en actividad productiva. [[karl-marx]] le dio formulación sistemática en *El Capital* (1867), donde distinguió entre reproducción simple y reproducción ampliada (libro II), y mostró que la acumulación se basa en la extracción de [[plusvalia]] del trabajo asalariado. Ernest Mandel (*Late Capitalism*, 1975) reformuló la teoría marxista para explicar las «ondas largas» de acumulación del siglo XX, vinculando los ciclos de expansión y crisis a las revoluciones tecnológicas. David Harvey (*The Limits to Capital*, 1982) reelaboró los esquemas de reproducción de Marx incorporando la dimensión espacial: la acumulación necesita producir y reorganizar el espacio geográfico mediante lo que denominó «ajuste espacial» (*spatial fix*). Los modelos neoclásicos, marxistas y keynesianos coinciden en que la acumulación es un fenómeno intrínseco al capitalismo, aunque difieren en sus condiciones de equilibrio.
 
 ## Desarrollo teórico
 
@@ -57,11 +57,11 @@ El resultado es un equilibrio (precario) entre la oferta de mercancías de ambos
 
 ## Debates y críticas
 
-La teoría del subconsumo (que la acumulación genera necesariamente crisis porque los salarios son siempre inferiores al valor producido) ha sido criticada tanto desde el marxismo (Rosa Luxemburg) como desde el keynesianismo (que propone resolver el problema mediante políticas de demanda). El debate entre austeridad y estímulo fiscal tras la [[gran-recesion]] (Reinhart-Rogoff vs. Herndon-Ash-Pollin) es una reactualización contemporánea de este problema.
+La teoría del subconsumo (que la acumulación genera necesariamente crisis porque los salarios son siempre inferiores al valor producido) ha sido criticada tanto desde el marxismo —Rosa Luxemburg (*La acumulación del capital*, 1913) argumentó que el capitalismo requiere mercados externos no capitalistas para absorber el excedente— como desde el keynesianismo (que propone resolver el problema mediante políticas de demanda efectiva). Mandel (*Late Capitalism*, 1975) propuso una síntesis: las crisis no obedecen a una sola causa (subconsumo, sobreproducción o caída tendencial de la tasa de ganancia) sino a la combinación variable de todas ellas en cada onda larga. El debate entre austeridad y estímulo fiscal tras la [[gran-recesion]] (Reinhart-Rogoff vs. Herndon-Ash-Pollin) es una reactualización contemporánea de este problema.
 
 ## Vigencia contemporánea
 
-La acumulación adopta hoy formas financiarizadas: los excedentes de la economía real fluyen hacia mercados de derivados, titulización y especulación bursátil, cuadruplicando la economía financiera respecto a la real. La desregulación del sector financiero e inmobiliario que condujo a la [[gran-recesion]] de 2007 es un ejemplo de acumulación desligada de la producción material.
+La acumulación adopta hoy formas financiarizadas: los excedentes de la economía real fluyen hacia mercados de derivados, titulización y especulación bursátil, cuadruplicando la economía financiera respecto a la real. Harvey (*The New Imperialism*, 2003) conceptualizó este fenómeno como «acumulación por desposesión»: privatizaciones, mercantilización de bienes comunes, especulación financiera y gestión de crisis de deuda como mecanismos de redistribución de riqueza hacia arriba. Thomas Piketty (*Capital in the Twenty-First Century*, 2013) aportó evidencia empírica masiva demostrando que cuando la tasa de rendimiento del capital ($r$) supera la tasa de crecimiento económico ($g$), la desigualdad patrimonial se amplía indefinidamente, reactualizando la cuestión clásica de la acumulación con datos de tres siglos. La desregulación del sector financiero e inmobiliario que condujo a la [[gran-recesion]] de 2007 es un ejemplo de acumulación desligada de la producción material.
 
 ## Ejemplo empírico
 
@@ -78,3 +78,12 @@ El módulo describe cómo en la posguerra, la combinación de [[taylorismo]], [[
 ## Fuentes
 
 - [[la-evolucion-del-capitalismo-y-la-mundializacion]] (Estructura Económica, Módulo 1)
+- Marx, K. (1867). *El Capital*, vol. I. Hamburgo: Verlag von Otto Meissner.
+- Marx, K. (1885). *El Capital*, vol. II (ed. póstuma por F. Engels). Hamburgo: Verlag von Otto Meissner.
+- Luxemburg, R. (1913). *La acumulación del capital*. Berlín: Buchhandlung Vorwärts Paul Singer.
+- Harvey, D. (1982). *The Limits to Capital*. Blackwell.
+- Harvey, D. (2003). *The New Imperialism*. Oxford University Press.
+- Mandel, E. (1975). *Late Capitalism*. New Left Books.
+- Piketty, T. (2013). *Le capital au XXIe siècle*. Seuil. [Trad. esp.: *El capital en el siglo XXI*. Fondo de Cultura Económica, 2014].
+- Smith, A. (1776). *An Inquiry into the Nature and Causes of the Wealth of Nations*. W. Strahan & T. Cadell.
+- Sweezy, P. (1942). *The Theory of Capitalist Development*. Monthly Review Press.

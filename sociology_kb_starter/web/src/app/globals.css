@@ -336,6 +336,15 @@ input {
   color: var(--muted);
 }
 
+.index-card__meta,
+.search-suggestions li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  color: var(--muted);
+  font-size: 0.93rem;
+}
+
 .page-header {
   display: grid;
   gap: 0.6rem;
@@ -422,6 +431,30 @@ input {
   flex: 1 1 34rem;
 }
 
+.search-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.search-filters button {
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--border);
+  background: var(--paper);
+  cursor: pointer;
+}
+
+.search-filters button.is-active {
+  background: linear-gradient(180deg, rgba(241, 230, 199, 0.95), rgba(255, 255, 255, 1));
+  border-color: #8c7d54;
+}
+
+.search-filters__hint {
+  color: var(--muted);
+  font-size: 0.93rem;
+}
+
 .search-results {
   display: grid;
   gap: 0.8rem;
@@ -436,6 +469,25 @@ input {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
+}
+
+.search-suggestions {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 1px solid var(--border-soft);
+  background: linear-gradient(180deg, rgba(248, 249, 250, 0.9), rgba(255, 255, 255, 1));
+}
+
+.search-suggestions h2 {
+  font-family: var(--font-reading), "Source Serif 4", serif;
+  font-size: 1.3rem;
+}
+
+.search-suggestions ul {
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
 }
 
 .breadcrumbs ol {
@@ -462,6 +514,19 @@ input {
   gap: 0.65rem;
 }
 
+.article-banner {
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--border-soft);
+  background: linear-gradient(180deg, rgba(248, 249, 250, 0.9), rgba(255, 255, 255, 1));
+}
+
+.article-banner--alias {
+  border-color: #8c7d54;
+  background:
+    linear-gradient(180deg, rgba(241, 230, 199, 0.95), rgba(255, 255, 255, 0.98)),
+    var(--paper);
+}
+
 .article-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 300px;
@@ -480,6 +545,7 @@ input {
 
 .infobox,
 .toc,
+.backlinks-panel,
 .related-panel {
   border: 1px solid var(--border);
   background: linear-gradient(180deg, #fbfbfb, #f3f4f6);
@@ -487,6 +553,7 @@ input {
 
 .infobox h2,
 .toc h2,
+.backlinks-panel h2,
 .related-panel h2 {
   padding: 0.85rem 1rem;
   border-bottom: 1px solid var(--border-soft);
@@ -518,6 +585,20 @@ input {
 
 .toc-level-3 {
   padding-left: 1rem;
+}
+
+.backlinks-panel ul {
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.backlinks-panel li {
+  display: grid;
+  gap: 0.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-soft);
 }
 
 .wiki-article-body {

@@ -23,6 +23,7 @@ import {
   extractWikiReferences,
   formatDateEs,
   humanizeSlug,
+  normalizeText,
   slugifyText,
   stripMarkdown,
   stripTitleHeading,
@@ -50,6 +51,7 @@ interface LinkRegistry {
   byRelativePath: Map<string, WikiDocument>;
   bySlug: Map<string, WikiDocument[]>;
   byId: Map<string, WikiDocument[]>;
+  byNormalizedTitle: Map<string, WikiDocument[]>;
   byRoute: Map<string, WikiDocument>;
   aliasByRoute: Map<string, WikiDocument>;
   aliasesByCanonicalRoute: Map<string, WikiDocument[]>;
@@ -64,6 +66,14 @@ interface BuildWikiArtifactsOptions {
   wikiRoot: string;
   outputRoot: string;
   publicRoot?: string;
+}
+
+interface BacklinkSummary {
+  total: number;
+  concepts: number;
+  authors: number;
+  courses: number;
+  sources: number;
 }
 
 const WIKI_SECTIONS = ["concepts", "authors", "courses", "sources"] as const;
@@ -209,7 +219,7 @@ function resolveReferenceInternal(
   registry: LinkRegistry,
   collapseAliases: boolean,
 ): LinkResolution {
-  const trimmed = reference.trim();
+  const trimmed = normalizeReferenceValue(reference);
   if (!trimmed) {
     return {
       status: "missing",
@@ -228,12 +238,14 @@ function resolveReferenceInternal(
   }
 
   const slugCandidate = path.basename(normalizedPath.replace(/\.md$/i, ""));
+  const normalizedTitle = normalizeText(trimmed);
   const candidates = dedupeDocuments(
     [
       ...(registry.byId.get(trimmed) ?? []),
       ...(registry.byId.get(slugCandidate) ?? []),
       ...(registry.bySlug.get(trimmed) ?? []),
       ...(registry.bySlug.get(slugCandidate) ?? []),
+      ...(registry.byNormalizedTitle.get(normalizedTitle) ?? []),
       ...findLooseMatches(trimmed, registry.byId),
       ...findLooseMatches(slugCandidate, registry.bySlug),
     ].map((document) =>
@@ -504,6 +516,7 @@ function buildLinkRegistry(documents: WikiDocument[]): LinkRegistry {
   const byRelativePath = new Map<string, WikiDocument>();
   const bySlug = new Map<string, WikiDocument[]>();
   const byId = new Map<string, WikiDocument[]>();
+  const byNormalizedTitle = new Map<string, WikiDocument[]>();
   const byRoute = new Map<string, WikiDocument>();
   const aliasByRoute = new Map<string, WikiDocument>();
   const aliasesByCanonicalRoute = new Map<string, WikiDocument[]>();
@@ -513,12 +526,14 @@ function buildLinkRegistry(documents: WikiDocument[]): LinkRegistry {
     byRoute.set(document.route, document);
     appendMapValue(bySlug, document.slug, document);
     appendMapValue(byId, document.id, document);
+    appendMapValue(byNormalizedTitle, normalizeText(document.title), document);
   }
 
   const registry: LinkRegistry = {
     byRelativePath,
     bySlug,
     byId,
+    byNormalizedTitle,
     byRoute,
     aliasByRoute,
     aliasesByCanonicalRoute,
@@ -1059,11 +1074,11 @@ function extractAliasTargetReference(markdown: string): string | undefined {
   const canonicalSectionMatch = markdown.match(
     /^##\s+(Canonical note|Nota canonica)\s*$([\s\S]*?)(?=^##\s+|$)/im,
   );
-  const scopedText = canonicalSectionMatch?.[2] ?? markdown;
-  const scopedLink = extractWikiReferences(scopedText)[0];
-
-  if (scopedLink) {
-    return scopedLink;
+  if (canonicalSectionMatch?.[2]) {
+    const scopedLink = extractWikiReferences(canonicalSectionMatch[2])[0];
+    if (scopedLink) {
+      return scopedLink;
+    }
   }
 
   const inlineMatch = markdown.match(
@@ -1096,7 +1111,19 @@ function normalizeStringArray(value: unknown): string[] {
 
   return value
     .map((item) => asString(item))
+    .map((item) => (item ? normalizeReferenceValue(item) : undefined))
     .filter((item): item is string => Boolean(item));
+}
+
+function normalizeReferenceValue(value: string): string {
+  let normalized = value.trim();
+
+  while (normalized.startsWith("[[") && normalized.endsWith("]]")) {
+    normalized = normalized.slice(2, -2).trim();
+  }
+
+  const [target] = normalized.split("|");
+  return target?.trim() ?? "";
 }
 
 function asString(value: unknown): string | undefined {

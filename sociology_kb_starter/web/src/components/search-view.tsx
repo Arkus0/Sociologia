@@ -83,9 +83,10 @@ export function SearchView() {
     const nextTypes = selectedTypes.includes(noteType)
       ? selectedTypes.filter((value) => value !== noteType)
       : [...selectedTypes, noteType];
+    const resolvedTypes = nextTypes.length > 0 ? nextTypes : [...SEARCH_TYPES];
 
-    setSelectedTypes(nextTypes);
-    replaceSearchParams(query, nextTypes);
+    setSelectedTypes(resolvedTypes);
+    replaceSearchParams(query, resolvedTypes);
   }
 
   function replaceSearchParams(nextQuery: string, nextTypes: NoteType[]) {

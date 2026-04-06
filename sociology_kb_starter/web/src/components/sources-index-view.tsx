@@ -15,7 +15,16 @@ export function SourcesIndexView({ entries }: { entries: CatalogEntry[] }) {
     }
 
     const haystack = normalizeText(
-      [entry.title, entry.preview, entry.course, entry.semester].filter(Boolean).join(" "),
+      [
+        entry.title,
+        entry.preview,
+        entry.course,
+        entry.semester,
+        entry.canonicalTitle,
+        ...entry.aliases,
+      ]
+        .filter(Boolean)
+        .join(" "),
     );
     return haystack.includes(normalizedQuery);
   });

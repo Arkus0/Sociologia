@@ -41,7 +41,7 @@ export function SearchShortcut() {
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
-  }, [handleKeyDown]);
+  }, []);
 
   return null;
 }
