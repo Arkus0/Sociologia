@@ -8,8 +8,8 @@ Sociology-only knowledge base where raw documents are evidence and markdown note
 
 - `data/raw/<semester>/<course>/...` raw files and sidecars (`*.meta.json`)
 - `data/wiki/sources/...` compiled source notes (canonical)
-- `data/wiki/concepts/...` derived concept notes from canonical source notes
-- `data/wiki/authors/...` derived author notes from canonical source notes
+- `data/wiki/concepts/...` derived concept notes — **225 enriched, 0 stubs** (REVIEW_LOG 1–206)
+- `data/wiki/authors/...` derived author notes — **89 enriched + 6 redirects + 8 aliases = 103 files, 0 stubs** (REVIEW_LOG 207–295)
 - `data/wiki/courses/...` derived course notes from canonical source notes
 - `data/qa/answered_questions/...` answered QA artifacts with evidence
 - `data/qa/open_questions/...` unresolved questions extracted from source notes

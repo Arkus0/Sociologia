@@ -34,6 +34,27 @@
 
 ---
 
+## Wiki Enrichment Status (updated 2025-04)
+
+### Concepts — COMPLETE
+- **225 concept entries** in `data/wiki/concepts/`, **0 stubs remaining**.
+- All enriched with 8 mandatory sections per WIKI_RULES.md (Definición, Contexto histórico, Desarrollo teórico, Aplicaciones, Debates, Véase también, Fuentes, Notas de origen).
+- REVIEW_LOG entries 1–206.
+
+### Authors — COMPLETE
+- **103 author files** in `data/wiki/authors/`:
+  - **89 fully enriched articles** (8 sections per WIKI_RULES.md: Biografía intelectual, Contribuciones principales, Método y enfoque, Obras fundamentales, Influencia y legado, Críticas, Véase también, Fuentes).
+  - **6 redirect pages** (abbreviated slugs → canonical: g-king→gary-king, i-lago→ignacio-lago, r-keohane→robert-keohane, s-verba→sidney-verba, peter-l-berger→peter-berger, roger-martinez→roger-martinez-sanmarti).
+  - **8 short-name aliases** (pre-existing redirects: durkheim, marx, kant, etc.).
+- **0 stubs remaining.**
+- REVIEW_LOG entries 207–295.
+
+### Sources, Courses, Research — pending
+- Source notes exist from PDF ingestion pipeline.
+- Course and research wiki pages not yet enriched.
+
+---
+
 ## CRITICAL RULE
 
 **NEVER edit `.canvas` files directly.** All canvas modifications MUST go through the CLI tool:
