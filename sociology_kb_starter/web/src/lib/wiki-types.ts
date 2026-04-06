@@ -167,3 +167,10 @@ export interface QualityReport {
   };
   issues: QualityIssue[];
 }
+
+export interface FactCard {
+  text: string;
+  articleTitle: string;
+  articleRoute: string;
+  noteType: NoteType;
+}

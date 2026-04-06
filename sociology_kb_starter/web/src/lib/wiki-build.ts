@@ -32,6 +32,7 @@ import {
 import type {
   ArticlePayload,
   CatalogEntry,
+  FactCard,
   FrontmatterSubset,
   InfoboxItem,
   LegacyLookupEntry,
@@ -93,6 +94,7 @@ export async function buildWikiArtifacts(
   const searchIndex = buildSearchIndex(documents, registry);
   const legacyMap = buildLegacyMap(documents);
   const qualityReport = buildQualityReport(documents, registry);
+  const facts = buildFactCards(documents, registry);
 
   await fs.rm(options.outputRoot, { recursive: true, force: true });
   await fs.mkdir(options.outputRoot, { recursive: true });
@@ -104,6 +106,7 @@ export async function buildWikiArtifacts(
     path.join(options.outputRoot, "quality-report.json"),
     qualityReport,
   );
+  await writeJson(path.join(options.outputRoot, "facts.json"), facts);
 
   for (const article of articles) {
     const payloadPath = path.join(
@@ -128,6 +131,15 @@ export async function buildWikiArtifacts(
     } catch {
       // Graph file not available — skip
     }
+
+    // Generate RSS feed
+    const siteUrl =
+      process.env.NEXT_PUBLIC_SITE_URL ||
+      process.env.VERCEL_PROJECT_PRODUCTION_URL ||
+      "https://jotapedia.vercel.app";
+    const baseUrl = siteUrl.startsWith("http") ? siteUrl : `https://${siteUrl}`;
+    const rssXml = buildRssFeed(catalog, facts, baseUrl);
+    await fs.writeFile(path.join(options.publicRoot, "feed.xml"), rssXml, "utf8");
   }
 }
 
@@ -1199,6 +1211,152 @@ function normalizeTimestamp(value: unknown, fallbackDate: Date): string {
   }
 
   return fallbackDate.toISOString();
+}
+
+export function buildFactCards(
+  documents: WikiDocument[],
+  registry: LinkRegistry,
+): FactCard[] {
+  const facts: FactCard[] = [];
+  const canonical = getCanonicalDocuments(documents, registry);
+
+  for (const doc of canonical) {
+    const candidates = extractFactCandidates(doc);
+    for (const text of candidates) {
+      facts.push({
+        text,
+        articleTitle: doc.title,
+        articleRoute: doc.route,
+        noteType: doc.noteType,
+      });
+    }
+  }
+
+  // Deterministic shuffle so the set varies across builds but is stable within one
+  const seed = new Date().toISOString().slice(0, 10);
+  let h = 0;
+  for (const ch of seed) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  facts.sort((a, b) => {
+    const ha = hashString(a.text, h);
+    const hb = hashString(b.text, h);
+    return ha - hb;
+  });
+
+  return facts.slice(0, 200);
+}
+
+function extractFactCandidates(doc: WikiDocument): string[] {
+  const results: string[] = [];
+
+  // 1. Core ideas bullets (sources)
+  const coreMatch = doc.body.match(/^## Core ideas\s*\n([\s\S]*?)(?=\n## |\n$|$)/m);
+  if (coreMatch) {
+    const bullets = coreMatch[1]
+      .split(/\n/)
+      .filter((l) => /^[-*]\s/.test(l.trim()))
+      .map((l) => stripMarkdown(l.replace(/^[-*]\s+/, "").trim()))
+      .filter((t) => t.length >= 40 && t.length <= 280);
+    results.push(...bullets);
+  }
+
+  // 2. Definición first sentence (concepts)
+  const defMatch = doc.body.match(/^## Definici[oó]n\s*\n([\s\S]*?)(?=\n## |\n$|$)/m);
+  if (defMatch) {
+    const plain = stripMarkdown(defMatch[1]).trim();
+    const firstSentence = plain.match(/^.+?[.!?](?:\s|$)/)?.[0]?.trim();
+    if (firstSentence && firstSentence.length >= 40 && firstSentence.length <= 300) {
+      results.push(firstSentence);
+    }
+  }
+
+  // 3. Ejemplo empírico section (concepts)
+  const exMatch = doc.body.match(/^## Ejemplo emp[ií]rico\s*\n([\s\S]*?)(?=\n## |\n$|$)/m);
+  if (exMatch) {
+    const plain = stripMarkdown(exMatch[1]).trim();
+    const firstSentence = plain.match(/^.+?[.!?](?:\s|$)/)?.[0]?.trim();
+    if (firstSentence && firstSentence.length >= 40 && firstSentence.length <= 300) {
+      results.push(firstSentence);
+    }
+  }
+
+  // 4. Possible exam questions (sources)
+  const examMatch = doc.body.match(/^## Possible exam questions\s*\n([\s\S]*?)(?=\n## |\n$|$)/m);
+  if (examMatch) {
+    const questions = examMatch[1]
+      .split(/\n/)
+      .filter((l) => /^[-*]\s/.test(l.trim()))
+      .map((l) => stripMarkdown(l.replace(/^[-*]\s+/, "").trim()))
+      .filter((t) => t.length >= 20 && t.length <= 200);
+    results.push(...questions.slice(0, 3));
+  }
+
+  return results;
+}
+
+function hashString(s: string, seed: number): number {
+  let h = seed;
+  for (let i = 0; i < s.length; i++) {
+    h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  }
+  return h;
+}
+
+function buildRssFeed(
+  catalog: CatalogEntry[],
+  facts: FactCard[],
+  baseUrl: string,
+): string {
+  const escXml = (s: string) =>
+    s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
+  const recent = [...catalog]
+    .filter((e) => !e.isAlias)
+    .sort((a, b) => b.timestamp.localeCompare(a.timestamp))
+    .slice(0, 30);
+
+  const now = new Date().toUTCString();
+
+  const items = recent.map((entry) => {
+    const link = `${baseUrl}${entry.route}`;
+    const pubDate = new Date(entry.timestamp).toUTCString();
+    const category = getNoteTypeLabel(entry.noteType);
+
+    return `    <item>
+      <title>${escXml(entry.title)}</title>
+      <link>${escXml(link)}</link>
+      <guid isPermaLink="true">${escXml(link)}</guid>
+      <pubDate>${pubDate}</pubDate>
+      <category>${escXml(category)}</category>
+      <description>${escXml(entry.preview)}</description>
+    </item>`;
+  });
+
+  // Add a few "¿Sabías que...?" items as bonus content
+  const factItems = facts.slice(0, 5).map((fact, i) => {
+    const link = `${baseUrl}${fact.articleRoute}`;
+    return `    <item>
+      <title>${escXml(`¿Sabías que...? — ${fact.articleTitle}`)}</title>
+      <link>${escXml(link)}</link>
+      <guid isPermaLink="false">fact-${i}-${hashString(fact.text, 0)}</guid>
+      <pubDate>${now}</pubDate>
+      <category>Sabias que</category>
+      <description>${escXml(fact.text)}</description>
+    </item>`;
+  });
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jotapedia — Enciclopedia sociologica</title>
+    <link>${escXml(baseUrl)}</link>
+    <description>Articulos recientes y datos curiosos de sociologia</description>
+    <language>es</language>
+    <lastBuildDate>${now}</lastBuildDate>
+    <atom:link href="${escXml(baseUrl)}/generated/feed.xml" rel="self" type="application/rss+xml"/>
+${items.join("\n")}
+${factItems.join("\n")}
+  </channel>
+</rss>`;
 }
 
 async function writeJson(filePath: string, data: unknown): Promise<void> {

@@ -1181,3 +1181,172 @@ input {
   color: var(--muted);
   font-size: 0.85rem;
 }
+
+/* ---------- Report error ---------- */
+
+.report-error {
+  display: inline-block;
+}
+
+.report-error__trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+  background: none;
+  border: 1px solid var(--border-soft);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.report-error__trigger:hover {
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.report-error__form {
+  display: grid;
+  gap: 0.6rem;
+  margin-top: 0.75rem;
+  padding: 0.9rem;
+  border: 1px solid var(--border-soft);
+  background: var(--surface);
+  animation: tooltip-enter 0.15s ease;
+}
+
+.report-error__form textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 0.6rem;
+  font: inherit;
+  font-size: 0.9rem;
+  border: 1px solid var(--border);
+  background: var(--paper);
+  color: var(--text);
+  resize: vertical;
+}
+
+.report-error__actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.report-error__actions button {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+
+.report-error__actions button[type="submit"] {
+  background: linear-gradient(180deg, #f8f9fa, #dfe3e8);
+  color: var(--text);
+}
+
+[data-theme="dark"] .report-error__actions button[type="submit"] {
+  background: linear-gradient(180deg, #3a3d44, #2c2e33);
+}
+
+.report-error__actions button[type="button"] {
+  background: none;
+  color: var(--muted);
+}
+
+.report-error__success {
+  font-size: 0.88rem;
+  color: #22c55e;
+  padding: 0.5rem 0;
+}
+
+/* ---------- ¿Sabías que...? ---------- */
+
+.sabias-que__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sabias-que__item {
+  padding: 1rem;
+  background: var(--paper);
+  border-left: 3px solid var(--accent);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sabias-que__item p {
+  font-family: var(--font-reading), "Source Serif 4", serif;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--text);
+  margin: 0;
+}
+
+.sabias-que__item a {
+  font-size: 0.82rem;
+  color: var(--link);
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.sabias-que__item a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Subscribe card ---------- */
+
+.subscribe-card p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.subscribe-card__btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+.subscribe-card__btn:hover {
+  opacity: 0.85;
+}
+
+.subscribe-card__hint {
+  font-size: 0.8rem !important;
+  color: var(--muted) !important;
+}
+
+/* ---------- RSS header link ---------- */
+
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.15rem 0.45rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #f97316;
+  background: rgba(249, 115, 22, 0.1);
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.rss-link:hover {
+  background: rgba(249, 115, 22, 0.2);
+}

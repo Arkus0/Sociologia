@@ -5,6 +5,7 @@ import { NOTE_TYPE_LABELS } from "@/lib/wiki-routes";
 import type { ArticlePayload } from "@/lib/wiki-types";
 import { ReadingProgress } from "./reading-progress";
 import { ShareBar } from "./share-bar";
+import { ReportErrorButton } from "./report-error-button";
 
 export function ArticleView({ article }: { article: ArticlePayload }) {
   const readingMinutes = Math.max(1, Math.round(article.wordCount / 200));
@@ -34,7 +35,10 @@ export function ArticleView({ article }: { article: ArticlePayload }) {
               📖 {readingMinutes} min de lectura
             </span>
           </p>
-          <ShareBar title={article.title} path={article.route} />
+          <div style={{ display: "flex", alignItems: "start", gap: "0.75rem", flexWrap: "wrap" }}>
+            <ShareBar title={article.title} path={article.route} />
+            <ReportErrorButton title={article.title} route={article.route} />
+          </div>
         </div>
       </header>
 

@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import Link from "next/link";
 
 import { LegacyQueryRedirector } from "@/components/legacy-query-redirector";
-import { loadCatalog, loadQualityReport } from "@/lib/generated-data";
+import { loadCatalog, loadQualityReport, loadFacts } from "@/lib/generated-data";
 import { getNoteTypeLabel } from "@/lib/wiki-routes";
 import { formatDateEs } from "@/lib/wiki-text";
 import type { NoteType } from "@/lib/wiki-types";
@@ -10,6 +10,7 @@ import type { NoteType } from "@/lib/wiki-types";
 export default async function HomePage() {
   const catalog = await loadCatalog();
   const quality = await loadQualityReport();
+  const facts = await loadFacts();
   const counts = countByType(catalog.map((entry) => entry.noteType));
   const recent = [...catalog]
     .sort((left, right) => right.timestamp.localeCompare(left.timestamp))
@@ -100,6 +101,41 @@ export default async function HomePage() {
           </ul>
         </article>
 
+        {facts.length > 0 ? (
+          <article className="portal-card portal-card--wide sabias-que">
+            <h2>¿Sabias que...?</h2>
+            <ul className="sabias-que__list">
+              {pickDailyFacts(facts, 4).map((fact, i) => (
+                <li key={i} className="sabias-que__item">
+                  <p>{fact.text}</p>
+                  <Link href={fact.articleRoute}>
+                    {fact.articleTitle} →
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </article>
+        ) : null}
+
+        <article className="portal-card subscribe-card">
+          <h2>📬 Suscribete</h2>
+          <p>
+            Recibe articulos destacados y datos curiosos de sociologia
+            directamente en tu lector RSS favorito.
+          </p>
+          <a
+            href="/generated/feed.xml"
+            className="subscribe-card__btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Suscribirse via RSS
+          </a>
+          <p className="subscribe-card__hint">
+            Usa apps como Feedly, Inoreader o Thunderbird para seguir el feed.
+          </p>
+        </article>
+
         <article className="portal-card">
           <h2>Control editorial</h2>
           <ul className="portal-card__list">
@@ -171,4 +207,19 @@ function pickArticleOfTheDay(catalog: Awaited<ReturnType<typeof loadCatalog>>) {
   }
 
   return candidates[hash % candidates.length] ?? candidates[0];
+}
+
+function pickDailyFacts(facts: Awaited<ReturnType<typeof loadFacts>>, count: number) {
+  if (facts.length <= count) return facts;
+  const today = new Date().toISOString().slice(0, 10);
+  let hash = 0;
+  for (const char of today) {
+    hash = (hash * 31 + char.charCodeAt(0)) >>> 0;
+  }
+  const start = hash % facts.length;
+  const result = [];
+  for (let i = 0; i < count; i++) {
+    result.push(facts[(start + i) % facts.length]);
+  }
+  return result;
 }

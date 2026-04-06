@@ -24,6 +24,11 @@ export const metadata: Metadata = {
   title: "Jotapedia",
   description: "Enciclopedia sociologica en castellano construida sobre la wiki del repositorio.",
   metadataBase: new URL(resolveSiteUrl()),
+  alternates: {
+    types: {
+      "application/rss+xml": "/generated/feed.xml",
+    },
+  },
 };
 
 export default function RootLayout({
@@ -72,6 +77,9 @@ export default function RootLayout({
                 <Link href="/fuentes">Fuentes</Link>
                 <Link href="/grafo">Grafo</Link>
                 <Link href="/stats">Stats</Link>
+                <a href="/generated/feed.xml" className="rss-link" title="Suscribirse via RSS" target="_blank" rel="noopener noreferrer">
+                  RSS
+                </a>
               </nav>
             </div>
           </header>

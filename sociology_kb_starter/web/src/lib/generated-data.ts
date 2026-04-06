@@ -7,6 +7,7 @@ import { routeToArticlePayloadPath } from "./wiki-routes";
 import type {
   ArticlePayload,
   CatalogEntry,
+  FactCard,
   LegacyLookupEntry,
   QualityReport,
   SearchIndex,
@@ -28,6 +29,10 @@ export const loadLegacyMap = cache(async (): Promise<LegacyLookupEntry[]> => {
 
 export const loadQualityReport = cache(async (): Promise<QualityReport> => {
   return readJson<QualityReport>("quality-report.json");
+});
+
+export const loadFacts = cache(async (): Promise<FactCard[]> => {
+  return readJson<FactCard[]>("facts.json");
 });
 
 export async function loadArticlePayload(
