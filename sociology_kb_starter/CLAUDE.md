@@ -1,57 +1,75 @@
 # Canvas Workflow — Agent Instructions
 
-## Pipeline Architecture (updated 2026-04-05)
+## PDF Processing Workflow (updated 2026-04-06)
 
-### PDF Extraction (`kb_core/extraction.py`)
-- **OCR**: Real Tesseract OCR via `page.get_textpage_ocr(language="spa+eng", dpi=300)` for scanned pages (<100 chars). Falls back gracefully to text-only if Tesseract is not installed.
-- **Text cleaning**: `clean_extracted_text()` removes repeated headers/footers (3+ occurrences), rejoins end-of-line hyphens, strips bare page numbers, collapses excessive blank lines.
+### CRITICAL: No Automated Processing
 
-### LLM Calls (`kb_core/llm.py`)
-- **JSON mode**: Groq and OpenAI use `response_format={"type": "json_object"}`. Anthropic uses string parsing.
-- **Retries**: 3 attempts with exponential backoff (2s → 4s → 8s) for rate limits (429), connection errors, and timeouts.
-- **Providers**: Groq (primary/cheapest), OpenAI (`gpt-4.1-mini`), Anthropic (`claude-3-7-sonnet-latest`).
+- **Watcher DISABLED**: `kb_core/watcher.py` raises `RuntimeError` — NEVER re-enable it.
+- **NO LLM API for wiki generation**: Groq/OpenAI/Anthropic are NOT used to generate wiki content from PDFs. The `.env` keys exist for search/embeddings only.
+- **Claude processes PDFs manually**: the user drops PDFs in `data/inbox/2026-S1/`, tells Claude, and Claude reads, analyzes, and creates all wiki entries by hand.
 
-### Compilation (`kb_core/compiler.py`)
-- **Smart chunking**: Page-aware excerpt up to 32k chars (head + tail on `[Page N]` markers) instead of arbitrary `text[:12000]`.
-- **LLM max_tokens**: 4000 (up from 2000) for richer compilation output.
-- **Post-compile**: Rebuilds graph index, search index, AND embedding index (if OpenAI key is available).
+### Manual Processing Steps
 
-### Search & RAG (`kb_core/search_engine.py`, `kb_core/embeddings.py`)
-- **Hybrid search**: Combines TF-IDF lexical search with OpenAI embedding vectors via Reciprocal Rank Fusion (RRF, k=60).
-- **EmbeddingIndex**: `text-embedding-3-small` (1536 dims), numpy-based cosine similarity, persisted as `.npy` + JSON in `data/graph/`.
-- **HybridSearchEngine**: Drop-in replacement for `SearchEngine`. Falls back to lexical-only when embeddings are unavailable.
-- **CLI**: `python -m kb_core.search_engine "query"` uses hybrid by default, `--lexical-only` for pure TF-IDF.
+1. **Extract text**: Use `kb_core/extraction.py` (`extract_pdf()`) to get raw text from the PDF
+2. **Read and analyze**: Claude reads the full extracted text, identifies concepts, authors, arguments, structure
+3. **Create source note**: One per PDF module in `data/wiki/sources/{semester}/{course}/`
+4. **Create/update course entry**: In `data/wiki/courses/`
+5. **Create concept entries**: One per major concept in `data/wiki/concepts/`
+6. **Create author entries**: One per significant author in `data/wiki/authors/`
+7. **Enrich with academic sources**: Add inline citations and full bibliographic references (see WIKI_RULES.md §9)
+8. **Move PDF**: From `data/inbox/` to `data/inbox/processed/`
+9. **Git commit**: Stage and commit all new entries
 
-### Wiki Renderer (`kb_core/wiki_renderer.py`)
-- Resolves `[[wikilinks]]` to clickable HTML links for Streamlit Wikipedia-style browsing.
-- Extracts table of contents from H2/H3 headings.
-- Renders Wikipedia-style infoboxes, breadcrumbs, and category listings.
+### Why Not Automated?
 
-### Streamlit App (`app.py`)
-- **Three layers**: Atlas (graph exploration), Wiki (Wikipedia-style article browser), Studio (ingestion/maintenance).
-- **Wiki tab**: Search bar (hybrid search), category index (Conceptos, Autores, Fuentes, Cursos), article pages with TOC, infobox, breadcrumbs, resolved wikilinks.
-- **Routing**: `st.query_params` — `?article=slug&type=concept`, `?view=category&type=author`, `?view=home`.
+The automated pipeline (compiler.py + watcher.py + Groq) produced garbage when the API failed (fallback mode) and its `rebuild_indexes()` **overwrote 310 enriched files** in April 2026. The fix:
+- `rebuild_indexes()` now uses a merge strategy (preserves existing frontmatter, only updates `source_notes` and `updated_at`)
+- Watcher is permanently disabled
+- Claude provides richer analysis than any LLM API pipeline (concepts, relationships, debates, exam questions, full academic references)
 
 ---
 
-## Wiki Enrichment Status (updated 2025-04)
+## Existing Infrastructure (still used)
 
-### Concepts — COMPLETE
-- **225 concept entries** in `data/wiki/concepts/`, **0 stubs remaining**.
-- All enriched with 8 mandatory sections per WIKI_RULES.md (Definición, Contexto histórico, Desarrollo teórico, Aplicaciones, Debates, Véase también, Fuentes, Notas de origen).
-- REVIEW_LOG entries 1–206.
+### PDF Extraction (`kb_core/extraction.py`)
+- **OCR**: Tesseract OCR via `page.get_textpage_ocr(language="spa+eng", dpi=300)` for scanned pages.
+- **Text cleaning**: `clean_extracted_text()` removes repeated headers/footers, rejoins hyphens, strips page numbers.
+- Used by Claude for step 1 of manual processing.
 
-### Authors — COMPLETE
-- **103 author files** in `data/wiki/authors/`:
-  - **89 fully enriched articles** (8 sections per WIKI_RULES.md: Biografía intelectual, Contribuciones principales, Método y enfoque, Obras fundamentales, Influencia y legado, Críticas, Véase también, Fuentes).
-  - **6 redirect pages** (abbreviated slugs → canonical: g-king→gary-king, i-lago→ignacio-lago, r-keohane→robert-keohane, s-verba→sidney-verba, peter-l-berger→peter-berger, roger-martinez→roger-martinez-sanmarti).
-  - **8 short-name aliases** (pre-existing redirects: durkheim, marx, kant, etc.).
-- **0 stubs remaining.**
-- REVIEW_LOG entries 207–295.
+### Search & RAG (`kb_core/search_engine.py`, `kb_core/embeddings.py`)
+- **Hybrid search**: TF-IDF + OpenAI embedding vectors via RRF (k=60).
+- **CLI**: `python -m kb_core.search_engine "query"`
 
-### Sources, Courses, Research — pending
-- Source notes exist from PDF ingestion pipeline.
-- Course and research wiki pages not yet enriched.
+### Wiki Renderer (`kb_core/wiki_renderer.py`)
+- Resolves `[[wikilinks]]` to HTML links for Streamlit browsing.
+
+### Streamlit App (`app.py`)
+- Atlas (graph), Wiki (articles), Studio (maintenance).
+- Routing: `st.query_params` — `?article=slug&type=concept`.
+
+---
+
+## Wiki Enrichment Status (updated 2026-04-06)
+
+### Concepts
+- **242+ concept entries** in `data/wiki/concepts/`.
+- Original 225 from Intro Sociología + Metodología (enriched, REVIEW_LOG 1–206).
+- **17 new** from Estructura Económica (2026-04-06): mundialización, fordismo, taylorismo, toyotismo, acumulación de capital, ciclo económico, bretton-woods, plan-marshall, deuda-externa, gran-recesión, estanflación, titulización, modelo-isi, modelo-ise, petróleo, opep, transición-demográfica, sector-tic, economía-del-conocimiento.
+- All new entries enriched with inline academic citations + full bibliographic references.
+
+### Authors
+- **109+ author files** in `data/wiki/authors/`.
+- Original 103 (89 enriched + 6 redirects + 8 aliases).
+- **6 new** from Estructura Económica: Vidal Villa, Kondrátiev, Keynes, Lipietz, Malthus, Vilaseca Requena.
+
+### Courses
+- `introduccion-a-la-sociologia.md` — existing
+- `metodologia-de-las-ciencias-sociales.md` — existing
+- `estructura-economica.md` — **NEW** (2026-04-06), links 26 concepts + 8 authors
+
+### Sources
+- Estructura Económica: `la-evolucion-del-capitalismo-y-la-mundializacion.md`, `base-material-del-sistema.md`
+- Plus existing source notes from Intro Sociología and Metodología.
 
 ---
 

@@ -248,3 +248,61 @@ Toda entrada debe pasar este checklist antes de considerarse completa:
 El compiler detecta automáticamente si una entrada ha sido enriquecida. Las entradas que
 contienen el texto "This page aggregates references to" se consideran stubs y serán
 regeneradas. Las que no lo contienen se preservan y solo se actualiza su frontmatter.
+
+---
+
+## 9. Enriquecimiento con Fuentes Académicas
+
+Toda entrada (concepto o autor) debe incluir fuentes académicas de alta calidad,
+siguiendo el modelo de `alienacion.md`.
+
+### Citas inline (en el cuerpo del texto)
+
+Intercalar referencias a obras reales **dentro de la prosa**, no solo en la sección Fuentes:
+
+```markdown
+## Origen y contexto histórico
+Michel Aglietta (*Régulation et crises du capitalisme*, 1976) formalizó el concepto
+de "modo de regulación fordista". Gramsci lo había anticipado en sus notas sobre
+"Americanismo y fordismo" (*Cuadernos de la cárcel*, 1929-35).
+```
+
+**Reglas para citas inline**:
+- Formato: `Autor (*Título*, año)` o `(Autor, año)` estilo APA simplificado
+- Deben ser obras **reales y verificables** — nunca inventar referencias
+- Cada sección del cuerpo debe tener al menos 1-2 citas inline
+- No solo insertar paréntesis: añadir 1-2 frases de contenido sustantivo con cada cita
+- Mencionar la contribución específica del autor citado, no solo su nombre
+
+### Sección Fuentes (al final de la entrada)
+
+Estructura de la sección Fuentes con dos bloques:
+
+```markdown
+## Fuentes
+
+- [[source-note-del-modulo]] (Curso, semestre)
+- Aglietta, M. (1976). *Régulation et crises du capitalisme*. Calmann-Lévy.
+- Harvey, D. (2005). *A Brief History of Neoliberalism*. Oxford University Press.
+- Braverman, H. (1974). *Labor and Monopoly Capital*. Monthly Review Press.
+```
+
+**Reglas para la sección Fuentes**:
+- Primero los wikilinks a source notes (módulos del curso)
+- Luego 6-10 referencias bibliográficas completas
+- Formato: `Apellido, Inicial. (Año). *Título*. Editorial.`
+- Para artículos: `Apellido, Inicial. (Año). "Título del artículo". *Revista*, vol(num), pp.`
+- Incluir las obras propias del autor tratado + bibliografía secundaria sobre él
+- Todas las fuentes deben ser reales y verificables
+- Priorizar: obras originales de los autores mencionados > manuales de referencia > artículos de revista
+
+### Mínimo de fuentes por tipo de entrada
+
+| Tipo | Citas inline mínimas | Refs en Fuentes |
+|------|---------------------|-----------------|
+| Concepto fundamental | 6-8 en el cuerpo | 8-10 |
+| Concepto metodológico | 4-6 | 6-8 |
+| Concepto menor | 2-4 | 4-6 |
+| Autor "indiscutible" | 8-10 | 8-12 |
+| Autor relevante | 4-6 | 5-8 |
+| Autor menor | 2-3 | 3-5 |
