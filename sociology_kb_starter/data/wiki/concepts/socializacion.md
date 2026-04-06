@@ -24,6 +24,22 @@ source_notes:
 updated_at: '2026-04-05T15:33:05+00:00'
 ---
 
+## En 30 segundos
+
+La socializacion es el proceso por el que aprendemos a hablar, obedecer, sentir verguenza y entender quienes somos dentro de un mundo ya organizado por otros.
+
+- Empieza en la familia, pero no termina ahi.
+- Convierte normas externas en habitos propios.
+- Produce identidad y tambien autocontrol.
+
+## Por que importa hoy
+
+Sigue siendo clave para entender como cambian la infancia, la autoridad o la vida publica cuando escuela, redes sociales y plataformas compiten por definir lo normal.
+
+## Ejemplo cotidiano
+
+Un adolescente aprende muy rapido que no basta con saber algo: tambien debe saber como decirlo, con que tono y ante que audiencia para no quedar fuera del grupo.
+
 ## Definición
 La socialización es el proceso continuo mediante el cual los individuos aprenden e interiorizan las normas, valores, roles y expectativas de la sociedad en que viven, convirtiéndose así en miembros competentes de una comunidad. No se limita a la infancia: se extiende a lo largo de toda la vida, desde la adquisición del lenguaje y los primeros vínculos afectivos hasta la adaptación a nuevos entornos laborales, culturales o migratorios. Como señaló Karl Marx, "la naturaleza real del hombre es la totalidad de las relaciones sociales".
 

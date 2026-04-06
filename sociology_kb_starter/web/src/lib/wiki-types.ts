@@ -1,4 +1,5 @@
 export type NoteType = "concept" | "author" | "course" | "source";
+export type FactKind = "hook" | "quick_point" | "why_now" | "example";
 
 export interface FrontmatterSubset {
   semester?: string;
@@ -18,7 +19,12 @@ export interface WikiDocument {
   route: string;
   routeSegments: string[];
   body: string;
+  renderBody: string;
   preview: string;
+  hook?: string;
+  quickPoints: string[];
+  whyNow?: string;
+  everydayExample?: string;
   timestamp: string;
   rawSemester?: string;
   semester?: string;
@@ -48,6 +54,7 @@ export interface CatalogEntry {
   routeSegments: string[];
   relativePath: string;
   preview: string;
+  hook?: string;
   timestamp: string;
   semester?: string;
   course?: string;
@@ -91,6 +98,10 @@ export interface ArticlePayload {
   routeSegments: string[];
   html: string;
   preview: string;
+  hook?: string;
+  quickPoints?: string[];
+  whyNow?: string;
+  everydayExample?: string;
   timestamp: string;
   semester?: string;
   course?: string;
@@ -120,6 +131,7 @@ export interface SearchEntry {
   title: string;
   noteType: NoteType;
   preview: string;
+  hook?: string;
   semester?: string;
   course?: string;
   aliases: string[];
@@ -202,4 +214,5 @@ export interface FactCard {
   articleTitle: string;
   articleRoute: string;
   noteType: NoteType;
+  kind: FactKind;
 }

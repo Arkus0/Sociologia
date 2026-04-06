@@ -35,6 +35,22 @@ updated_at: '2026-04-05T22:00:00+00:00'
 
 # Émile Durkheim
 
+## En 30 segundos
+
+Durkheim quiso demostrar que la sociedad pesa sobre cada individuo como una realidad propia, visible en normas, rituales, moral colectiva y formas de integracion.
+
+- Definio el hecho social como objeto de la sociologia.
+- Explico cohesion y crisis sin reducirlas a psicologia.
+- Volvio cientifico el estudio de la moral y la norma.
+
+## Por que importa hoy
+
+Sigue siendo clave para leer desintegracion social, crisis de sentido, anomia y debates sobre que instituciones sostienen todavia algun tipo de solidaridad compartida.
+
+## Ejemplo cotidiano
+
+Si una persona se siente sola en medio de una ciudad llena de gente, Durkheim obliga a preguntar por lazos, reglas e integracion, no solo por estados de animo individuales.
+
 ## Biografía intelectual
 
 David Émile Durkheim nació el 15 de abril de 1858 en Épinal (Lorena, Francia), en el seno de una familia de rabinos. Pese a sus orígenes religiosos, abandonó tempranamente la fe y orientó su vocación hacia la filosofía y las ciencias sociales. Se formó en la prestigiosa École Normale Supérieure de París, donde fue alumno de Fustel de Coulanges y del filósofo Émile Boutroux. Posteriormente completó estudios en la Universidad de Leipzig con Wilhelm Wundt, cuyo laboratorio de psicología experimental influyó en su concepción de un abordaje empírico de los fenómenos sociales.

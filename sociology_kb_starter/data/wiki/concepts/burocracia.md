@@ -22,6 +22,22 @@ source_notes:
 updated_at: '2026-04-05T15:33:05+00:00'
 ---
 
+## En 30 segundos
+
+La burocracia promete orden, previsibilidad y eficacia, pero lo hace a costa de convertir decisiones vivas en tramites, expedientes y reglas impersonales.
+
+- Funciona con jerarquias, papeles y procedimientos.
+- Gana eficiencia al mismo tiempo que enfria relaciones.
+- Es central para entender la modernidad segun Weber.
+
+## Por que importa hoy
+
+Sigue marcando la experiencia de universidades, hospitales, empresas, plataformas y administraciones donde la promesa de eficiencia convive con la sensacion de despersonalizacion.
+
+## Ejemplo cotidiano
+
+Cuando una ayuda urgente queda bloqueada porque falta una casilla o un codigo, la burocracia muestra su fuerza: nadie quiere negarte algo, pero el procedimiento manda.
+
 ## Definición
 La burocracia es la forma de organización racional-legal caracterizada por una jerarquía definida, una división sistemática del trabajo, reglas impersonales codificadas, procedimientos estandarizados y la selección del personal según competencias técnicas. [[max-weber]] la identificó como el tipo de [[dominacion-legal-racional|dominación legal-racional]] propio de la [[modernidad]], al mismo tiempo eficiente e inevitable, pero también potencialmente alienante — una "jaula de hierro" de la [[racionalizacion]].
 

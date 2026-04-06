@@ -28,6 +28,22 @@ updated_at: '2026-04-05T23:00:00+00:00'
 
 # Thomas Luckmann
 
+## En 30 segundos
+
+Luckmann ayudo a explicar por que el mundo cotidiano parece tan natural: porque se sostiene en conocimientos compartidos, instituciones sedimentadas y socializacion constante.
+
+- Llevo la fenomenologia al nucleo de la sociologia del conocimiento.
+- Analizo la realidad cotidiana como produccion social.
+- Trabajo con Berger la idea de objetivacion e interiorizacion.
+
+## Por que importa hoy
+
+Su obra es muy util para pensar como se estabilizan rutinas, marcos de sentido y formas de evidencia en sociedades atravesadas por informacion, plataformas y pluralidad cultural.
+
+## Ejemplo cotidiano
+
+Cuando una persona entra en una oficina nueva y entiende rapido como se habla, que bromas caben y que silencios convienen, Luckmann ayuda a leer esa adaptacion.
+
 ## Biografía intelectual
 
 Tomaž Luckmann nació el 14 de octubre de 1927 en Jesenice, una ciudad industrial del norte de Eslovenia, entonces parte del Reino de Yugoslavia. Su padre era austriaco y su madre eslovena de Liubliana, por lo que creció en un ambiente bilingüe alemán-esloveno. Tras la Segunda Guerra Mundial, la familia emigró a Austria, donde Luckmann inició estudios de sociología en la Universidad de Viena y la Universidad de Innsbruck.

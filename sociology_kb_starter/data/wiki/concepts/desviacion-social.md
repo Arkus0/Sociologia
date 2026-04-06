@@ -27,6 +27,22 @@ source_notes:
 updated_at: "2026-04-05"
 ---
 
+## En 30 segundos
+
+La desviacion social no describe conductas raras por si mismas: describe conductas que un grupo decide marcar como impropias, peligrosas o intolerables.
+
+- No existe sin una norma previa.
+- Cambia segun epoca, clase, genero y contexto.
+- Dice tanto del infractor como del poder que etiqueta.
+
+## Por que importa hoy
+
+Sirve para entender cancelacion, vigilancia digital, criminalizacion selectiva y disputas sobre quien puede definir publicamente lo normal y lo desviado.
+
+## Ejemplo cotidiano
+
+Beber en la calle puede verse como ocio juvenil en un barrio y como amenaza al orden en otro, segun quien lo haga, donde lo haga y quien mire.
+
 ## Definición
 
 La desviación social designa toda conducta, atributo o creencia que transgrede las [[norma-social|normas sociales]] vigentes en un grupo o sociedad determinada y que, como consecuencia, provoca una reacción de sanción, rechazo o [[estigma]]. No se trata de una propiedad intrínseca de un acto, sino de una relación entre el comportamiento, la norma que lo califica y la audiencia que lo juzga. Un mismo acto puede ser considerado desviado en un contexto y perfectamente aceptable en otro, lo cual subraya el carácter relativo, histórico y político del concepto.

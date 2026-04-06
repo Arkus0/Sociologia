@@ -108,9 +108,9 @@ function scoreDocument(
 function scoreSuggestion(doc: SearchEntry, normalizedQuery: string): number {
   const exactTitle = normalizeText(doc.title);
   const aliasText = doc.aliases.map((alias) => normalizeText(alias));
-  const preview = normalizeText(doc.preview);
+  const teaser = normalizeText(doc.hook ?? doc.preview);
   const context = normalizeText(
-    [doc.title, ...doc.aliases, doc.preview, doc.course, doc.semester]
+    [doc.title, ...doc.aliases, doc.hook, doc.preview, doc.course, doc.semester]
       .filter(Boolean)
       .join(" "),
   );
@@ -135,7 +135,7 @@ function scoreSuggestion(doc: SearchEntry, normalizedQuery: string): number {
     return 64;
   }
 
-  if (preview.includes(normalizedQuery) || context.includes(normalizedQuery)) {
+  if (teaser.includes(normalizedQuery) || context.includes(normalizedQuery)) {
     return 36;
   }
 

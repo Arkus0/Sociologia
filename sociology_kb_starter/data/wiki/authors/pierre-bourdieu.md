@@ -23,6 +23,22 @@ updated_at: "2026-04-06"
 
 # Pierre Bourdieu
 
+## En 30 segundos
+
+Bourdieu ayuda a ver que gustos, modales, estudios y contactos no son simples preferencias: tambien son recursos sociales que reproducen desigualdad con apariencia de normalidad.
+
+- Conecto habitus, capital y campo en un mismo marco.
+- Explico como domina tambien lo simbolico.
+- Mostro que la escuela puede premiar privilegios heredados.
+
+## Por que importa hoy
+
+Su obra sigue siendo central para discutir merito, elitismo cultural, desigualdad educativa y filtros invisibles en instituciones que se presentan como neutrales.
+
+## Ejemplo cotidiano
+
+Cuando alguien parece "encajar" mejor en una entrevista por su forma de hablar, vestir o citar referencias culturales, Bourdieu ayuda a ver capital cultural en accion.
+
 ## Biografia intelectual
 
 Pierre Bourdieu fue uno de los sociologos mas influyentes de la segunda mitad del siglo XX. Formado en filosofia y marcado por su experiencia etnografica en Argelia, construyo una sociologia orientada a explicar como las desigualdades se reproducen sin necesidad de coercion permanente. Su obra se mueve entre la teoria social, la investigacion empirica y la critica de los mecanismos culturales que presentan el orden social como natural.

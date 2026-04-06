@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 
+import { getEditorialTeaser } from "@/lib/editorial";
 import { NOTE_TYPE_LABELS } from "@/lib/wiki-routes";
 import type { CatalogEntry, NoteType } from "@/lib/wiki-types";
 
@@ -36,7 +37,9 @@ export function WikilinkTooltips() {
 
       const href = anchor.getAttribute("href") ?? "";
       const entry = catalog.find((e) => e.route === href);
-      if (!entry || !entry.preview) return;
+      if (!entry) return;
+      const teaser = getEditorialTeaser(entry);
+      if (!teaser) return;
 
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
@@ -44,7 +47,7 @@ export function WikilinkTooltips() {
       const rect = anchor.getBoundingClientRect();
       setTooltip({
         title: entry.title,
-        preview: entry.preview,
+        preview: teaser,
         noteType: entry.noteType,
         x: rect.left + rect.width / 2,
         y: rect.top,

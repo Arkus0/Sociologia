@@ -29,6 +29,22 @@ updated_at: "2026-04-05"
 
 # Poder
 
+## En 30 segundos
+
+El poder no es solo mandar: es conseguir que otros actuen, obedezcan o acepten una definicion de la realidad incluso cuando no parece que haya fuerza directa de por medio.
+
+- Puede apoyarse en coercion, prestigio o rutina.
+- Se mete en instituciones y relaciones cotidianas.
+- Organiza quien decide y quien debe adaptarse.
+
+## Por que importa hoy
+
+Es indispensable para entender vigilancia digital, burocracias, desigualdad, autoridad experta y luchas por controlar que narrativas cuentan como normales o legitimas.
+
+## Ejemplo cotidiano
+
+Cuando una plataforma cambia sus reglas y millones de usuarios se adaptan sin haber participado en la decision, ahi hay poder aunque no aparezca un jefe visible.
+
 ## Definición
 
 El **poder** designa, en sentido sociológico amplio, la capacidad de un actor —individual o colectivo— de influir sobre la conducta, las creencias o las oportunidades de otros actores, incluso frente a resistencia. No se reduce al ejercicio de la fuerza física: abarca mecanismos institucionales, simbólicos, discursivos y económicos. Max Weber definió el poder (*Macht*) como «la probabilidad de imponer la propia voluntad dentro de una relación social, aun contra toda resistencia y cualquiera que sea el fundamento de esa probabilidad» (*Wirtschaft und Gesellschaft*, 1922). Esta formulación sigue siendo el punto de partida canónico, si bien ha sido complementada, contestada y reformulada por tradiciones teóricas diversas a lo largo del siglo XX y XXI.

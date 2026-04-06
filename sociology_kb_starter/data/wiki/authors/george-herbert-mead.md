@@ -28,6 +28,22 @@ updated_at: "2026-04-06"
 
 # George Herbert Mead
 
+## En 30 segundos
+
+Mead mostro que el yo no nace hecho: se forma al aprender a verse desde la mirada ajena y a actuar dentro de mundos compartidos de simbolos.
+
+- Conecto lenguaje, interaccion y formacion del self.
+- Hizo social la identidad, no meramente interior.
+- Abrio el camino al interaccionismo simbolico.
+
+## Por que importa hoy
+
+Sigue siendo util para leer socializacion, identidad digital, reconocimiento y los efectos de vivir expuestos a miradas multiples, inmediatas y medibles.
+
+## Ejemplo cotidiano
+
+Cuando una persona corrige su manera de hablar porque imagina como la vera el grupo, Mead permite entender como opera el otro generalizado.
+
 ## Biografia intelectual
 
 George Herbert Mead (1863-1931) fue un filosofo, psicologo social y sociologo estadounidense, figura clave del pragmatismo y antecedente mayor del interaccionismo simbolico. Desarrolló la mayor parte de su carrera en la Universidad de Chicago, donde participo en un clima intelectual marcado por la experimentacion social, la urbanizacion acelerada y el interes por la conducta situada. Aunque publico poco en vida, sus clases y manuscritos influyeron profundamente en la sociologia del siglo XX.

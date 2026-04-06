@@ -27,6 +27,22 @@ updated_at: "2026-04-05"
 
 # Sociología
 
+## En 30 segundos
+
+La sociologia empieza cuando dejas de leer tu vida como un asunto puramente privado y empiezas a verla como efecto de reglas, instituciones, desigualdades e historia.
+
+- Convierte lo cotidiano en una pregunta publica.
+- Une biografia personal con estructura social.
+- Sirve para discutir poder, normas y cambio con metodo.
+
+## Por que importa hoy
+
+En una epoca de algoritmos, polarizacion y precariedad, la sociologia ayuda a ver que problemas parecen individuales solo porque las condiciones colectivas quedan fuera de foco.
+
+## Ejemplo cotidiano
+
+Cuando alguien dice que no puede emanciparse porque no se esfuerza bastante, la mirada sociologica obliga a meter en escena alquileres, salarios, apoyos familiares y politica de vivienda.
+
 ## Definición
 
 La sociología es el estudio científico de la [[sociedad]], las relaciones sociales, las instituciones y los procesos que configuran la vida colectiva. Busca explicar cómo las estructuras sociales condicionan la acción individual y cómo la acción de los individuos reproduce o transforma dichas estructuras. La disciplina adopta una [[perspectiva-sociologica]] sistemática —parcial, crítica, desenmascaradora y relativizadora, según Joan Estruch i Gibert— y emplea métodos cuantitativos y cualitativos para producir conocimiento verificable sobre el orden y el cambio social.

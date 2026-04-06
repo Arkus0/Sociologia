@@ -39,6 +39,22 @@ updated_at: '2026-04-05T22:00:00+00:00'
 
 Karl Marx (Tréveris, 1818 – Londres, 1883) fue un filósofo, economista, sociólogo, historiador y periodista alemán de origen prusiano. Junto a Friedrich Engels, es considerado cofundador del [[materialismo-historico]], del socialismo científico y de la tradición teórica que lleva su nombre. Su obra constituye uno de los pilares fundamentales de la sociología clásica junto a las de [[emile-durkheim]] y [[max-weber]], y su influencia se extiende a prácticamente todas las ciencias sociales contemporáneas.
 
+## En 30 segundos
+
+Marx sigue siendo potente cuando quieres entender por que trabajo, propiedad y desigualdad no son accidentes morales, sino piezas de una organizacion historica del capitalismo.
+
+- Le dio centralidad a clase, explotacion y conflicto.
+- Explico la historia como proceso material y contradictorio.
+- Mostro que las ideas tambien tienen base social.
+
+## Por que importa hoy
+
+Su obra reaparece cada vez que se discuten alquileres imposibles, beneficios empresariales, precariedad, crisis recurrentes y el poder de quienes controlan recursos basicos.
+
+## Ejemplo cotidiano
+
+Cuando una empresa presume de cultura horizontal mientras decide sueldos, ritmos y despidos desde arriba, Marx ayuda a mirar la relacion salarial mas alla del marketing.
+
 ## Biografía intelectual
 
 Marx nació en el seno de una familia judía conversa de clase media en Tréveris, Renania. Su padre, Heinrich Marx, abogado influido por la Ilustración, se convirtió al protestantismo para sortear las restricciones antisemitas prusianas. Estudió derecho en la Universidad de Bonn (1835) y luego en la Universidad Humboldt de Berlín, donde se vinculó al círculo de los jóvenes hegelianos y reorientó sus intereses hacia la filosofía. Obtuvo el doctorado en la Universidad de Jena en 1841 con una tesis sobre la filosofía de la naturaleza en Demócrito y Epicuro.

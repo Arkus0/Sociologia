@@ -306,3 +306,40 @@ Estructura de la sección Fuentes con dos bloques:
 | Autor "indiscutible" | 8-10 | 8-12 |
 | Autor relevante | 4-6 | 5-8 |
 | Autor menor | 2-3 | 3-5 |
+
+---
+
+## 10. Capa Editorial Opcional para Jotapedia Web
+
+Estos bloques NO sustituyen la estructura obligatoria anterior. Son una capa
+editorial breve, pensada para la portada, las tarjetas, la busqueda y la
+newsletter de la version web.
+
+### Bloques opcionales
+
+Se pueden anadir antes de las secciones academicas principales:
+
+```markdown
+## En 30 segundos
+Parrafo breve de 120-220 caracteres.
+
+- Punto rapido 1
+- Punto rapido 2
+- Punto rapido 3
+
+## Por que importa hoy
+Parrafo breve de 50-90 palabras.
+
+## Ejemplo cotidiano
+Parrafo breve de 50-90 palabras.
+```
+
+### Reglas de uso
+
+- Estos bloques son opcionales en fase 1 y no forman parte del checklist obligatorio.
+- Deben mantener tono academico accesible, no estilo magazine.
+- Deben ser legibles por publico general: frases cortas, concretas y sin jerga innecesaria.
+- `En 30 segundos` debe resumir la idea central sin repetir mecanicamente la definicion.
+- `Por que importa hoy` debe conectar con problemas actuales: plataformas, trabajo, reputacion, desigualdad, polarizacion, etc.
+- `Ejemplo cotidiano` debe usar una escena reconocible de vida diaria y no duplicar el ejemplo empirico formal.
+- Evitar preguntas de examen, frases vacias o cierres en signo de interrogacion cuando el bloque vaya a reutilizarse como fact o teaser.

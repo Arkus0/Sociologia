@@ -37,6 +37,22 @@ updated_at: '2026-04-05T22:00:00+00:00'
 
 Maximilian Karl Emil Weber, nacido en Erfurt (Turingia, Alemania) el 21 de abril de 1864 y fallecido en Múnich el 14 de junio de 1920, es reconocido como uno de los tres fundadores indiscutibles de la sociología moderna junto con [[karl-marx]] y [[emile-durkheim]]. Jurista de formación, historiador por vocación y sociólogo por resultado, Weber desarrolló una tradición intelectual —la *sociología comprensiva* (verstehende Soziologie)— que transformó las ciencias sociales al situar la interpretación del sentido de la [[accion-social]] en el centro del análisis sociológico.
 
+## En 30 segundos
+
+Weber sigue siendo indispensable cuando quieres entender por que la gente obedece reglas, acepta jerarquias o acaba viviendo dentro de organizaciones que prometen eficiencia y enfrían la vida.
+
+- Puso la accion con sentido en el centro de la sociologia.
+- Explico como se legitima la dominacion.
+- Convirtio la racionalizacion en clave para leer la modernidad.
+
+## Por que importa hoy
+
+Sirve para analizar burocracias, expertocracias, liderazgos carismaticos y la sensacion contemporanea de vivir rodeados de procedimientos que parecen inevitables.
+
+## Ejemplo cotidiano
+
+Cuando una persona acepta una norma de empresa porque "asi funciona el sistema", Weber ayuda a ver si ahi manda la costumbre, la ley formal o el prestigio de una autoridad.
+
 ## Biografía intelectual
 
 Weber creció en un hogar político e intelectualmente estimulante: su padre era jurista y diputado del Partido Liberal Nacional; su madre, Helene Fallenstein, una calvinista cultivada. Estudió derecho, historia y economía en las universidades de Heidelberg, Berlín y Gotinga. Obtuvo el doctorado en 1889 con una tesis sobre historia legal medieval y se habilitó en 1891 con un estudio sobre la historia agraria romana.

@@ -25,6 +25,22 @@ source_notes:
 updated_at: '2025-07-13'
 ---
 
+## En 30 segundos
+
+El lenguaje no solo sirve para comunicar: tambien clasifica, ordena y hace parecer natural un mundo social que en realidad ha sido construido historicamente.
+
+- Nos permite nombrar la realidad y tambien discutirla.
+- Hace posible la identidad, la memoria y la norma.
+- Nunca es neutral del todo: siempre selecciona y jerarquiza.
+
+## Por que importa hoy
+
+Importa mas que nunca en debates sobre lenguaje inclusivo, discursos de odio, cultura meme y autoridad de quienes consiguen fijar el significado legitimo de las palabras.
+
+## Ejemplo cotidiano
+
+En una entrevista de trabajo, un mismo contenido puede sonar competente o impropio segun el acento, el registro o las palabras que una organizacion considera profesionales.
+
 ## Definición
 
 El **lenguaje** es, desde una perspectiva sociológica, un sistema de signos compartidos mediante el cual los seres humanos construyen, transmiten y reproducen significados sociales. Más allá de su dimensión lingüística como código de comunicación, la sociología lo concibe como la **institución social más fundamental** (Berger y Luckmann, 1968): un hecho social que presenta externalidad, objetividad, coerción, historicidad y autoridad moral. El lenguaje constituye el vehículo principal de la [[socializacion]], pues permite tanto la incorporación del individuo a la vida colectiva como la construcción de su identidad personal. Ferdinand de Saussure lo definió como un sistema de signos en el que la relación entre significante y significado es arbitraria y convencional, sentando las bases para comprender su carácter intrínsecamente social.

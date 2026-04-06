@@ -3,6 +3,7 @@
 import { useDeferredValue, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 
+import { getEditorialTeaser } from "@/lib/editorial";
 import { NOTE_TYPE_LABELS } from "@/lib/wiki-routes";
 import { suggestDocuments } from "@/lib/wiki-search";
 import type { SearchIndex } from "@/lib/wiki-types";
@@ -123,7 +124,9 @@ export function SearchAutocomplete({
               <span className="search-autocomplete__item-title">{entry.title}</span>
               <span className="search-autocomplete__item-meta">
                 {NOTE_TYPE_LABELS[entry.noteType]}
-                {entry.preview ? ` - ${entry.preview.slice(0, 80)}...` : ""}
+                {getEditorialTeaser(entry)
+                  ? ` - ${getEditorialTeaser(entry).slice(0, 80)}${getEditorialTeaser(entry).length > 80 ? "..." : ""}`
+                  : ""}
               </span>
             </li>
           ))}

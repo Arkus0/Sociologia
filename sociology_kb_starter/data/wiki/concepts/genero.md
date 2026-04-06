@@ -26,6 +26,22 @@ source_notes:
 updated_at: "2026-04-05"
 ---
 
+## En 30 segundos
+
+El genero no describe una esencia natural: describe un conjunto de expectativas sociales sobre como debe actuar, sentir y presentarse una persona segun su posicion sexualizada.
+
+- Organiza roles, identidades y jerarquias.
+- Se aprende en familia, escuela, medios y trabajo.
+- Cambia historicamente y tambien se disputa.
+
+## Por que importa hoy
+
+Sigue siendo central para leer brechas salariales, cuidados, violencia, debates sobre diversidad y conflictos politicos en torno a quien puede definir lo masculino y lo femenino.
+
+## Ejemplo cotidiano
+
+Cuando a una niña se le celebra la docilidad y a un niño la iniciativa, no se esta describiendo un rasgo natural: se esta entrenando una expectativa de genero.
+
 ## Definición
 
 El **género** designa el conjunto de atributos psicológicos, sociales y culturales que cada sociedad asigna a las personas en función de su sexo biológico. A diferencia del sexo —categoría referida a las diferencias anatómicas y fisiológicas entre machos y hembras—, el género es una construcción social: un sistema de expectativas, roles y significados que varía históricamente y entre culturas. La distinción analítica sexo/género constituye una de las herramientas fundamentales de la sociología contemporánea para comprender cómo se producen y reproducen las desigualdades entre hombres y mujeres, así como las identidades que escapan a la clasificación binaria.

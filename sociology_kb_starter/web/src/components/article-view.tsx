@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { getEditorialTeaser } from "@/lib/editorial";
 import { formatDateEs } from "@/lib/wiki-text";
 import { NOTE_TYPE_LABELS } from "@/lib/wiki-routes";
 import type { ArticlePayload } from "@/lib/wiki-types";
@@ -27,15 +28,15 @@ export function ArticleView({ article }: { article: ArticlePayload }) {
         <div className="article-header__main">
           <p className="article-kicker">{NOTE_TYPE_LABELS[article.noteType]}</p>
           <h1>{article.title}</h1>
-          <p className="article-summary">{article.preview}</p>
+          <p className="article-summary">{getEditorialTeaser(article)}</p>
           <p className="article-timestamp">
             Ultima actualizacion: {formatDateEs(article.timestamp)}
             {" · "}
-            <span className="article-reading-time">
-              📖 {readingMinutes} min de lectura
-            </span>
+            <span className="article-reading-time">{readingMinutes} min de lectura</span>
           </p>
-          <div style={{ display: "flex", alignItems: "start", gap: "0.75rem", flexWrap: "wrap" }}>
+          <div
+            style={{ display: "flex", alignItems: "start", gap: "0.75rem", flexWrap: "wrap" }}
+          >
             <ShareBar title={article.title} path={article.route} />
             <ReportErrorButton title={article.title} route={article.route} />
           </div>
@@ -63,6 +64,34 @@ export function ArticleView({ article }: { article: ArticlePayload }) {
             ))}
             .
           </p>
+        </section>
+      ) : null}
+
+      {article.quickPoints && article.quickPoints.length > 0 ? (
+        <section className="article-editorial article-editorial--quick">
+          <h2>En 30 segundos</h2>
+          <ul>
+            {article.quickPoints.map((point) => (
+              <li key={point}>{point}</li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
+
+      {article.whyNow || article.everydayExample ? (
+        <section className="article-editorial-grid">
+          {article.whyNow ? (
+            <article className="article-editorial">
+              <h2>Por que importa hoy</h2>
+              <p>{article.whyNow}</p>
+            </article>
+          ) : null}
+          {article.everydayExample ? (
+            <article className="article-editorial">
+              <h2>Ejemplo cotidiano</h2>
+              <p>{article.everydayExample}</p>
+            </article>
+          ) : null}
         </section>
       ) : null}
 

@@ -17,6 +17,7 @@ const FIXTURE_INDEX: SearchIndex = {
       title: "Karl Marx",
       noteType: "author",
       preview: "Autor central en la teoria del conflicto.",
+      hook: "Marx sirve para leer como el conflicto atraviesa trabajo, clase y poder.",
       semester: "2026-S1",
       course: "Introduccion a la sociologia",
       aliases: ["Marx"],
@@ -35,6 +36,7 @@ const FIXTURE_INDEX: SearchIndex = {
       title: "Clase social",
       noteType: "concept",
       preview: "Concepto sociologico sobre estratificacion.",
+      hook: "La clase social sigue ordenando oportunidades muy concretas en vivienda, estudios y empleo.",
       semester: "2026-S1",
       course: "Metodologia de las ciencias sociales",
       aliases: [],
@@ -89,4 +91,9 @@ test("suggestDocuments respeta los filtros de curso", () => {
   assert.deepEqual(suggestions.map((result) => result.route), [
     "/autores/karl-marx",
   ]);
+});
+
+test("suggestDocuments tambien encuentra coincidencias presentes en el hook editorial", () => {
+  const suggestions = suggestDocuments(FIXTURE_INDEX, "vivienda");
+  assert.equal(suggestions[0]?.route, "/conceptos/clase-social");
 });

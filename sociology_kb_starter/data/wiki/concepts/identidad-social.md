@@ -26,6 +26,22 @@ source_notes:
 updated_at: "2026-04-05"
 ---
 
+## En 30 segundos
+
+La identidad social es la parte de quienes creemos ser que depende de los grupos a los que sentimos que pertenecemos y de como esos grupos valen en la vida social.
+
+- Nos ubica dentro de un "nosotros" y un "ellos".
+- Se construye en la interaccion, no en el aislamiento.
+- Une reconocimiento, orgullo, verguenza y conflicto.
+
+## Por que importa hoy
+
+Ayuda a entender polarizacion, pertenencia digital, orgullo colectivo, estigma y disputas intensas por reconocimiento en sociedades donde muchas identidades se vuelven visibles a la vez.
+
+## Ejemplo cotidiano
+
+Ponerse una camiseta, usar un acento o defender una etiqueta politica no solo expresa gusto personal: tambien dice a que colectivo se quiere pertenecer o parecerse.
+
 ## Definición
 
 La identidad social designa la porción del autoconcepto de un individuo que se deriva de su pertenencia percibida a uno o varios grupos sociales, junto con el valor y el significado emocional asociados a dicha pertenencia. A diferencia de la identidad personal —que remite a atributos idiosincrásicos—, la identidad social se construye en la intersección entre el sujeto y las estructuras colectivas: [[clase-social]], [[genero]], etnia, nación, profesión. Para George Herbert Mead, la identidad (el *self*) emerge del proceso de [[interaccion-social]]; para Berger y Luckmann, constituye un elemento de la realidad subjetiva que se forma y se mantiene a través de la [[socializacion-primaria]] y la socialización secundaria. En la psicología social contemporánea, Henri Tajfel definió la identidad social como «el conocimiento que posee un individuo de que pertenece a determinados grupos sociales junto con la significación emocional y valorativa que atribuye a esa pertenencia» (Tajfel, 1978).

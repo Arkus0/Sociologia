@@ -33,6 +33,7 @@ import type {
   ArticlePayload,
   CatalogEntry,
   FactCard,
+  FactKind,
   FrontmatterSubset,
   InfoboxItem,
   LegacyLookupEntry,
@@ -81,6 +82,14 @@ interface BacklinkSummary {
   sources: number;
 }
 
+interface EditorialSnapshot {
+  body: string;
+  hook?: string;
+  quickPoints: string[];
+  whyNow?: string;
+  everydayExample?: string;
+}
+
 const WIKI_SECTIONS = ["concepts", "authors", "courses", "sources"] as const;
 const NOTE_PRIORITY: NoteType[] = ["concept", "author", "course"];
 const QUALITY_PREVIEW_MIN = 72;
@@ -122,6 +131,23 @@ const REQUIRED_SECTIONS: Record<"concept" | "author", Array<{ key: string; patte
     { key: "Vease tambien", patterns: [/^vease tambien$/] },
     { key: "Fuentes", patterns: [/^fuentes$/] },
   ],
+};
+const EDITORIAL_HEADING_NAMES = {
+  en30: "en 30 segundos",
+  whyNow: "por que importa hoy",
+  everydayExample: "ejemplo cotidiano",
+} as const;
+const RELATED_LINK_PRIORITY: Record<NoteType, number> = {
+  concept: 0,
+  author: 1,
+  course: 2,
+  source: 3,
+};
+const FACT_KIND_PRIORITY: Record<FactKind, number> = {
+  hook: 0,
+  quick_point: 1,
+  why_now: 2,
+  example: 3,
 };
 
 export async function buildWikiArtifacts(
@@ -228,6 +254,7 @@ export function buildSearchIndex(
       title: document.title,
       noteType: document.noteType,
       preview: document.preview,
+      hook: document.hook,
       semester: document.semester,
       course: document.course,
       aliases,
@@ -439,7 +466,7 @@ export function buildArticlePayload(
         currentDocument: referenceDocument,
       }).route
     : undefined;
-  const { html, toc } = renderMarkdownDocument(document.body, registry, document);
+  const { html, toc } = renderMarkdownDocument(document.renderBody, registry, document);
   const isAlias = canonicalDocument.route !== document.route;
 
   return {
@@ -451,6 +478,10 @@ export function buildArticlePayload(
     routeSegments: document.routeSegments,
     html,
     preview: document.preview,
+    hook: document.hook,
+    quickPoints: document.quickPoints.length > 0 ? document.quickPoints : undefined,
+    whyNow: document.whyNow,
+    everydayExample: document.everydayExample,
     timestamp: document.timestamp,
     semester: document.semester,
     course: document.course,
@@ -531,6 +562,8 @@ async function readWikiDocument(
   );
   const title = asString(data.title) ?? humanizeSlug(slug);
   const body = stripTitleHeading(content, title);
+  const editorial = extractEditorialSnapshot(body);
+  const renderBody = editorial.body || body;
   const timestamp = normalizeTimestamp(data.updated_at ?? data.compiled_at, stat.mtime);
 
   const rawSemester = asString(data.semester);
@@ -575,7 +608,12 @@ async function readWikiDocument(
     route,
     routeSegments: route.replace(/^\/+/, "").split("/"),
     body,
-    preview: extractPreview(body),
+    renderBody,
+    preview: extractPreview(renderBody),
+    hook: editorial.hook,
+    quickPoints: editorial.quickPoints,
+    whyNow: editorial.whyNow,
+    everydayExample: editorial.everydayExample,
     timestamp,
     rawSemester,
     semester: rawSemester,
@@ -588,12 +626,121 @@ async function readWikiDocument(
     relatedConcepts,
     sourceNotes,
     tags,
-    outgoingLinks: extractWikiReferences(body),
+    outgoingLinks: extractWikiReferences(renderBody),
     aliasTargetReference: extractAliasTargetReference(body),
     frontmatterSubset,
     frontmatter: data,
-    wordCount: body.split(/\s+/).filter(Boolean).length,
+    wordCount: stripMarkdown(renderBody).split(/\s+/).filter(Boolean).length,
   };
+}
+
+function extractEditorialSnapshot(markdown: string): EditorialSnapshot {
+  const lines = markdown.replace(/\r\n/g, "\n").split("\n");
+  const sections: Array<{ heading: string; raw: string; body: string }> = [];
+  const preambleLines: string[] = [];
+  let currentHeading: string | null = null;
+  let currentLines: string[] = [];
+
+  function pushCurrentSection() {
+    if (!currentHeading) {
+      return;
+    }
+    sections.push({
+      heading: currentHeading,
+      raw: currentLines.join("\n").trim(),
+      body: currentLines.slice(1).join("\n").trim(),
+    });
+  }
+
+  for (const line of lines) {
+    const headingMatch = line.match(/^##\s+(.+?)\s*$/);
+    if (headingMatch) {
+      pushCurrentSection();
+      currentHeading = headingMatch[1];
+      currentLines = [line];
+      continue;
+    }
+
+    if (currentHeading) {
+      currentLines.push(line);
+    } else {
+      preambleLines.push(line);
+    }
+  }
+
+  pushCurrentSection();
+
+  const retainedBlocks: string[] = [];
+  const preamble = preambleLines.join("\n").trim();
+  if (preamble) {
+    retainedBlocks.push(preamble);
+  }
+
+  let hook: string | undefined;
+  let whyNow: string | undefined;
+  let everydayExample: string | undefined;
+  let quickPoints: string[] = [];
+
+  for (const section of sections) {
+    const normalizedHeading = normalizeText(section.heading);
+    if (normalizedHeading === EDITORIAL_HEADING_NAMES.en30) {
+      hook = normalizeEditorialText(firstNarrativeParagraph(section.body));
+      quickPoints = extractBulletPoints(section.body, 3);
+      continue;
+    }
+    if (normalizedHeading === EDITORIAL_HEADING_NAMES.whyNow) {
+      whyNow = normalizeEditorialText(firstNarrativeParagraph(section.body));
+      continue;
+    }
+    if (normalizedHeading === EDITORIAL_HEADING_NAMES.everydayExample) {
+      everydayExample = normalizeEditorialText(firstNarrativeParagraph(section.body));
+      continue;
+    }
+    retainedBlocks.push(section.raw);
+  }
+
+  return {
+    body: retainedBlocks.join("\n\n").trim(),
+    hook,
+    quickPoints,
+    whyNow,
+    everydayExample,
+  };
+}
+
+function firstNarrativeParagraph(markdown: string): string {
+  const blocks = markdown.replace(/^\uFEFF/, "").split(/\n\s*\n/);
+
+  for (const block of blocks) {
+    const trimmed = block.trim();
+    if (!trimmed) {
+      continue;
+    }
+    if (/^#{1,6}\s+/.test(trimmed)) {
+      continue;
+    }
+    if (/^(?:[-*+]\s+|\d+\.\s+)/m.test(trimmed) && !/[.!?]/.test(trimmed)) {
+      continue;
+    }
+    return stripMarkdown(trimmed);
+  }
+
+  return stripMarkdown(markdown);
+}
+
+function extractBulletPoints(markdown: string, limit: number): string[] {
+  return markdown
+    .split(/\n/)
+    .map((line) => line.trim())
+    .filter((line) => /^[-*+]\s+/.test(line))
+    .map((line) => normalizeEditorialText(stripMarkdown(line.replace(/^[-*+]\s+/, ""))))
+    .filter((line): line is string => Boolean(line))
+    .slice(0, limit);
+}
+
+function normalizeEditorialText(value: string): string | undefined {
+  const normalized = stripMarkdown(value).replace(/\s+/g, " ").trim();
+  return normalized.length > 0 ? normalized : undefined;
 }
 
 function normalizeWikiDocuments(documents: WikiDocument[]): WikiDocument[] {
@@ -980,27 +1127,34 @@ function buildRelatedLinks(
       route: match.route,
       noteType: match.noteType,
     });
-
-    if (relatedLinks.length >= limit) {
-      break;
-    }
   }
 
-  return relatedLinks;
+  return relatedLinks
+    .sort((left, right) => {
+      const leftPriority = RELATED_LINK_PRIORITY[left.noteType] ?? Number.MAX_SAFE_INTEGER;
+      const rightPriority = RELATED_LINK_PRIORITY[right.noteType] ?? Number.MAX_SAFE_INTEGER;
+      if (leftPriority !== rightPriority) {
+        return leftPriority - rightPriority;
+      }
+      return left.title.localeCompare(right.title, "es");
+    })
+    .slice(0, limit);
 }
 
 function buildSearchFieldTokens(
   document: WikiDocument,
   aliases: string[],
 ): SearchFieldTokenMap {
-  const summary = extractSummary(document.body) || document.preview;
+  const summary = [document.hook, extractSummary(document.renderBody) || document.preview]
+    .filter(Boolean)
+    .join(" ");
   return {
     title: countTokens(document.title),
     aliases: countTokens(aliases.join(" ")),
     concepts: countTokens(document.concepts.join(" ")),
     authors: countTokens(document.authors.join(" ")),
     summary: countTokens(summary),
-    body: countTokens(stripMarkdown(document.body)),
+    body: countTokens(stripMarkdown(document.renderBody)),
   };
 }
 
@@ -1059,6 +1213,7 @@ function toCatalogEntry(
     routeSegments: document.routeSegments,
     relativePath: document.relativePath,
     preview: document.preview,
+    hook: document.hook,
     timestamp: document.timestamp,
     semester: document.semester,
     course: document.course,
@@ -1666,15 +1821,22 @@ export function buildFactCards(
 ): FactCard[] {
   const facts: FactCard[] = [];
   const canonical = getCanonicalDocuments(documents, registry);
+  const seenFacts = new Set<string>();
 
   for (const doc of canonical) {
     const candidates = extractFactCandidates(doc);
-    for (const text of candidates) {
+    for (const candidate of candidates) {
+      const key = `${doc.route}::${normalizeText(candidate.text)}`;
+      if (seenFacts.has(key)) {
+        continue;
+      }
+      seenFacts.add(key);
       facts.push({
-        text,
+        text: candidate.text,
         articleTitle: doc.title,
         articleRoute: doc.route,
         noteType: doc.noteType,
+        kind: candidate.kind,
       });
     }
   }
@@ -1684,6 +1846,10 @@ export function buildFactCards(
   let h = 0;
   for (const ch of seed) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
   facts.sort((a, b) => {
+    const priorityDelta = (FACT_KIND_PRIORITY[a.kind] ?? 99) - (FACT_KIND_PRIORITY[b.kind] ?? 99);
+    if (priorityDelta !== 0) {
+      return priorityDelta;
+    }
     const ha = hashString(a.text, h);
     const hb = hashString(b.text, h);
     return ha - hb;
@@ -1692,7 +1858,7 @@ export function buildFactCards(
   return facts.slice(0, 200);
 }
 
-function extractFactCandidates(doc: WikiDocument): string[] {
+function extractDeprecatedFactCandidates(doc: WikiDocument): string[] {
   const results: string[] = [];
 
   // 1. Core ideas bullets (sources)
@@ -1738,6 +1904,40 @@ function extractFactCandidates(doc: WikiDocument): string[] {
   }
 
   return results;
+}
+
+function extractFactCandidates(
+  doc: WikiDocument,
+): Array<{ kind: FactKind; text: string }> {
+  const results: Array<{ kind: FactKind; text: string }> = [];
+
+  appendFactCandidate(results, "hook", doc.hook);
+  for (const quickPoint of doc.quickPoints) {
+    appendFactCandidate(results, "quick_point", quickPoint);
+  }
+  appendFactCandidate(results, "why_now", doc.whyNow);
+  appendFactCandidate(results, "example", doc.everydayExample);
+
+  return results;
+}
+
+function appendFactCandidate(
+  facts: Array<{ kind: FactKind; text: string }>,
+  kind: FactKind,
+  text: string | undefined,
+): void {
+  const normalized = text?.replace(/\s+/g, " ").trim();
+  if (!isEligibleFactText(normalized)) {
+    return;
+  }
+  facts.push({ kind, text: normalized });
+}
+
+function isEligibleFactText(text: string | undefined): text is string {
+  if (!text || text.length < 40) {
+    return false;
+  }
+  return !text.endsWith("?");
 }
 
 function hashString(s: string, seed: number): number {
@@ -1812,7 +2012,7 @@ function buildRssFeed(
       <guid isPermaLink="true">${escXml(link)}</guid>
       <pubDate>${pubDate}</pubDate>
       <category>${escXml(category)}</category>
-      <description>${escXml(entry.preview)}</description>
+      <description>${escXml(entry.hook ?? entry.preview)}</description>
     </item>`;
   });
 

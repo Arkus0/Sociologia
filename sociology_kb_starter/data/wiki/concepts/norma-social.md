@@ -19,6 +19,22 @@ updated_at: "2026-04-06"
 
 # Norma social
 
+## En 30 segundos
+
+Las normas sociales te dicen cuando hablar, cuando callar y que costes puede tener salirte del guion, incluso cuando nadie ha escrito la regla en ningun sitio.
+
+- No son solo leyes: tambien son habitos, miradas y expectativas.
+- Funcionan porque anticipamos la reaccion del grupo.
+- Ordenan la convivencia haciendo previsible la conducta ajena.
+
+## Por que importa hoy
+
+Siguen organizando reputacion, visibilidad y autocontrol en plataformas digitales, trabajos flexibles y espacios donde la sancion llega antes por comentarios que por castigos formales.
+
+## Ejemplo cotidiano
+
+En un chat laboral, contestar tarde puede percibirse como falta de implicacion aunque nadie haya fijado por escrito un tiempo obligatorio de respuesta.
+
 ## Definicion
 
 Una **norma social** es una expectativa compartida acerca de lo que se considera apropiado, permitido u obligatorio en un contexto determinado. Las normas orientan la accion, reducen la incertidumbre en la convivencia y hacen posible que los actores anticipen la conducta ajena. No son solo reglas juridicas formales: tambien incluyen habitos cotidianos, codigos de cortesia, criterios morales y pautas tacitas que rara vez se enuncian, pero cuya infraccion suele generar desaprobacion, sancion o extrañamiento.

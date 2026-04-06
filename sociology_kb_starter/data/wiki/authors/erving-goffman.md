@@ -17,6 +17,22 @@ updated_at: "2026-04-05"
 
 # Erving Goffman
 
+## En 30 segundos
+
+Goffman enseña a mirar la vida diaria como una escena: no actuamos solos, sino ante audiencias, reglas de situacion y rituales que sostienen la interaccion.
+
+- Llevo la sociologia al cara a cara cotidiano.
+- Mostro como gestionamos impresiones y fachadas.
+- Hizo visible el orden fragil de las situaciones normales.
+
+## Por que importa hoy
+
+Es muy util para leer perfiles digitales, reputacion online, estigma, autocuracion de la imagen y la presion constante por parecer competente, autentico o deseable.
+
+## Ejemplo cotidiano
+
+En una videollamada, cuidar el fondo, el tono y el momento de hablar no es un detalle tecnico: es trabajo de presentacion de uno mismo.
+
 ## Datos biográficos
 
 Erving Goffman (Mannville, Alberta, Canadá, 1922 – Filadelfia, Estados Unidos, 1982) fue un sociólogo y escritor canadiense-estadounidense, considerado el padre de la [[interaccion-social|microsociología]]. Hijo de una familia de inmigrantes judíos ucranianos, estudió en la Universidad de Toronto (licenciatura en Sociología y Antropología, 1945) y obtuvo su maestría (1949) y doctorado (1953) en Sociología en la Universidad de Chicago, donde fue discípulo de Everett Hughes y compañero de Edward Shils y W. Lloyd Warner. Ejerció como profesor en la Universidad de California en Berkeley y posteriormente en la Universidad de Pensilvania. Fue nombrado presidente de la American Sociological Association en 1982, pocos meses antes de su muerte. En 2007, *The Times Higher Education Guide* lo situó como el sexto autor más citado en humanidades y ciencias sociales.

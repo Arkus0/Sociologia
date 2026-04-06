@@ -9,6 +9,7 @@ import {
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
+import { getEditorialTeaser } from "@/lib/editorial";
 import { NOTE_TYPE_LABELS } from "@/lib/wiki-routes";
 import { searchDocuments, suggestDocuments } from "@/lib/wiki-search";
 import type { NoteType, SearchIndex } from "@/lib/wiki-types";
@@ -266,7 +267,10 @@ export function SearchView() {
             {results.map((result) => (
               <li key={result.route} className="search-result">
                 <Link href={result.route}>{result.title}</Link>
-                <p>{result.preview}</p>
+                <p>{getEditorialTeaser(result)}</p>
+                {result.hook && result.hook !== result.preview ? (
+                  <p className="search-result__extended">{result.preview}</p>
+                ) : null}
                 <div className="search-result__meta">
                   <span>{NOTE_TYPE_LABELS[result.noteType]}</span>
                   {result.aliases.length > 0 ? (

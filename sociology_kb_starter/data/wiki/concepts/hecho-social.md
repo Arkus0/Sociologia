@@ -22,6 +22,22 @@ source_notes:
 updated_at: '2026-04-05T18:00:00+00:00'
 ---
 
+## En 30 segundos
+
+Un hecho social es una forma de actuar, pensar o sentir que parece venir de fuera del individuo y que pesa sobre el como una regla, una costumbre o una obligacion.
+
+- Existe antes de que cada persona nazca.
+- Se impone incluso cuando no se ve a simple vista.
+- Es la apuesta de Durkheim para definir que estudia la sociologia.
+
+## Por que importa hoy
+
+Sigue siendo una idea util para discutir por que ciertos comportamientos se repiten mas alla de la voluntad individual y por que el contexto social no es un simple decorado.
+
+## Ejemplo cotidiano
+
+Hacer cola, saludar de cierta forma o callarse en una biblioteca no suele vivirse como una decision creativa: se vive como algo que ya estaba ahi y habia que seguir.
+
 ## Definición
 
 El **hecho social** (*fait social*, *social fact*) es el concepto fundacional de la sociología durkheimiana, definido como toda manera de obrar, pensar y sentir que es exterior al individuo, está dotada de un poder coercitivo y posee existencia propia independiente de sus manifestaciones individuales. Durkheim lo formuló para delimitar el objeto de estudio específico de la sociología como disciplina científica autónoma, diferenciándola tanto de la psicología como de la filosofía. La máxima metodológica asociada —«tratar los hechos sociales como cosas»— constituye una de las formulaciones epistemológicas más influyentes y debatidas de las ciencias sociales modernas.

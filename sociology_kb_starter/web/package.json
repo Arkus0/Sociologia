@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "test": "tsx --test src/lib/wiki-build.test.ts src/lib/wiki-routes.test.ts src/lib/wiki-search.test.ts",
+    "test": "tsx --test src/lib/wiki-build.test.ts src/lib/wiki-routes.test.ts src/lib/wiki-search.test.ts src/lib/editorial.test.ts src/components/article-view.test.tsx",
     "wiki:audit": "tsx scripts/generate-wiki-audit.ts",
     "wiki:generate": "tsx scripts/generate-wiki.ts && tsx scripts/generate-wiki-audit.ts"
   },

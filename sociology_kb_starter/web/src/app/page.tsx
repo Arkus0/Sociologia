@@ -2,7 +2,14 @@ import { Suspense } from "react";
 import Link from "next/link";
 
 import { LegacyQueryRedirector } from "@/components/legacy-query-redirector";
-import { loadCatalog, loadQualityReport, loadFacts } from "@/lib/generated-data";
+import {
+  getEditorialTeaser,
+  getFactKindLabel,
+  pickArticleOfTheWeek,
+  pickEditorialStarts,
+  pickWeeklyFacts,
+} from "@/lib/editorial";
+import { loadCatalog, loadFacts } from "@/lib/generated-data";
 import { getNoteTypeLabel } from "@/lib/wiki-routes";
 import { formatDateEs } from "@/lib/wiki-text";
 import type { NoteType } from "@/lib/wiki-types";
@@ -10,7 +17,6 @@ import type { NoteType } from "@/lib/wiki-types";
 export default async function HomePage() {
   const catalog = await loadCatalog();
   const canonicalCatalog = catalog.filter((entry) => !entry.isAlias);
-  const quality = await loadQualityReport();
   const facts = await loadFacts();
   const counts = countByType(canonicalCatalog.map((entry) => entry.noteType));
   const recent = [...canonicalCatalog]
@@ -18,6 +24,8 @@ export default async function HomePage() {
     .slice(0, 10);
 
   const articleOfTheWeek = pickArticleOfTheWeek(canonicalCatalog);
+  const editorialStarts = pickEditorialStarts(canonicalCatalog, 3);
+  const weeklyFacts = pickWeeklyFacts(facts, 4);
 
   return (
     <section className="home-page">
@@ -55,14 +63,46 @@ export default async function HomePage() {
             <h2>
               <Link href={articleOfTheWeek.route}>{articleOfTheWeek.title}</Link>
             </h2>
-            <p>{articleOfTheWeek.preview}</p>
+            <p>{getEditorialTeaser(articleOfTheWeek)}</p>
             <Link href={articleOfTheWeek.route} className="article-of-the-week__cta">
-              Leer articulo →
+              Leer articulo -&gt;
             </Link>
           </article>
         ) : null}
 
-        <article className="portal-card portal-card--highlight">
+        {weeklyFacts.length > 0 ? (
+          <article className="portal-card portal-card--wide sabias-que">
+            <h2>¿Sabias que...?</h2>
+            <ul className="sabias-que__list">
+              {weeklyFacts.map((fact, index) => (
+                <li key={`${fact.articleRoute}-${fact.kind}-${index}`} className="sabias-que__item">
+                  <span className="sabias-que__badge">{getFactKindLabel(fact.kind)}</span>
+                  <p>{fact.text}</p>
+                  <Link href={fact.articleRoute}>{fact.articleTitle} -&gt;</Link>
+                </li>
+              ))}
+            </ul>
+          </article>
+        ) : null}
+
+        {editorialStarts.length > 0 ? (
+          <article className="portal-card portal-card--highlight">
+            <h2>Empieza aqui</h2>
+            <ul className="editorial-starts">
+              {editorialStarts.map((entry) => (
+                <li key={entry.route}>
+                  <div>
+                    <Link href={entry.route}>{entry.title}</Link>
+                    <p>{getEditorialTeaser(entry)}</p>
+                  </div>
+                  <span>{getNoteTypeLabel(entry.noteType)}</span>
+                </li>
+              ))}
+            </ul>
+          </article>
+        ) : null}
+
+        <article className="portal-card">
           <h2>Explorar por secciones</h2>
           <ul className="portal-card__list">
             <li>
@@ -77,10 +117,6 @@ export default async function HomePage() {
               <Link href="/cursos">Cursos</Link>
               <span>{counts.course}</span>
             </li>
-            <li>
-              <Link href="/fuentes">Fuentes</Link>
-              <span>{counts.source}</span>
-            </li>
           </ul>
         </article>
 
@@ -94,35 +130,16 @@ export default async function HomePage() {
               <Link href="/grafo">Grafo de conocimiento</Link>
             </li>
             <li>
-              <Link href="/stats">Estadisticas</Link>
+              <Link href="/aleatoria">Articulo aleatorio</Link>
             </li>
             <li>
-              <Link href="/calidad">Calidad editorial</Link>
-            </li>
-            <li>
-              <Link href="/aleatoria">🎲 Articulo aleatorio</Link>
+              <a href="/generated/feed.xml">RSS de Jotapedia</a>
             </li>
           </ul>
         </article>
 
-        {facts.length > 0 ? (
-          <article className="portal-card portal-card--wide sabias-que">
-            <h2>¿Sabias que...?</h2>
-            <ul className="sabias-que__list">
-              {pickWeeklyFacts(facts, 4).map((fact, i) => (
-                <li key={i} className="sabias-que__item">
-                  <p>{fact.text}</p>
-                  <Link href={fact.articleRoute}>
-                    {fact.articleTitle} →
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </article>
-        ) : null}
-
         <article className="portal-card subscribe-card">
-          <h2>📬 Suscribete</h2>
+          <h2>Suscribete</h2>
           <p>
             Cada lunes recibiras el articulo de la semana, datos curiosos y las
             ultimas novedades de Jotapedia.
@@ -156,31 +173,6 @@ export default async function HomePage() {
           </p>
         </article>
 
-        <article className="portal-card">
-          <h2>Control editorial</h2>
-          <ul className="portal-card__list">
-            <li>
-              <span>Incidencias detectadas</span>
-              <span>{quality.summary.issues}</span>
-            </li>
-            <li>
-              <span>Referencias rotas</span>
-              <span>{quality.summary.byKind.broken_reference ?? 0}</span>
-            </li>
-            <li>
-              <span>Referencias ambiguas</span>
-              <span>{quality.summary.byKind.ambiguous_reference ?? 0}</span>
-            </li>
-            <li>
-              <span>Previews breves</span>
-              <span>{quality.summary.byKind.thin_preview ?? 0}</span>
-            </li>
-          </ul>
-          <p style={{ marginTop: "0.9rem" }}>
-            <Link href="/calidad">Abrir dashboard editorial</Link>
-          </p>
-        </article>
-
         <article className="portal-card portal-card--wide">
           <h2>Articulos recientes</h2>
           <ul className="recent-list">
@@ -188,7 +180,7 @@ export default async function HomePage() {
               <li key={entry.route}>
                 <div>
                   <Link href={entry.route}>{entry.title}</Link>
-                  <p>{entry.preview}</p>
+                  <p>{getEditorialTeaser(entry)}</p>
                 </div>
                 <span>
                   {getNoteTypeLabel(entry.noteType)} · {formatDateEs(entry.timestamp)}
@@ -197,6 +189,12 @@ export default async function HomePage() {
             ))}
           </ul>
         </article>
+      </section>
+
+      <section className="home-utility-links" aria-label="Accesos utilitarios">
+        <Link href="/fuentes">Abrir fuentes ({counts.source})</Link>
+        <Link href="/calidad">Dashboard editorial</Link>
+        <Link href="/stats">Estadisticas</Link>
       </section>
     </section>
   );
@@ -210,40 +208,4 @@ function countByType(noteTypes: NoteType[]) {
     }),
     { concept: 0, author: 0, course: 0, source: 0 },
   );
-}
-
-/** ISO week key: "2026-W15" — changes every Monday. */
-function isoWeekKey(): string {
-  const now = new Date();
-  const jan4 = new Date(now.getFullYear(), 0, 4);
-  const start = new Date(jan4.getTime() - ((jan4.getDay() || 7) - 1) * 86_400_000);
-  const week = Math.ceil(((now.getTime() - start.getTime()) / 86_400_000 + 1) / 7);
-  return `${now.getFullYear()}-W${String(week).padStart(2, "0")}`;
-}
-
-function hashString(s: string): number {
-  let h = 0;
-  for (const ch of s) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
-  return h;
-}
-
-function pickArticleOfTheWeek(catalog: Awaited<ReturnType<typeof loadCatalog>>) {
-  const candidates = catalog.filter(
-    (entry) =>
-      (entry.noteType === "concept" || entry.noteType === "author") &&
-      !entry.isAlias &&
-      entry.preview.trim().length > 50,
-  );
-  if (candidates.length === 0) return null;
-  return candidates[hashString(isoWeekKey()) % candidates.length] ?? candidates[0];
-}
-
-function pickWeeklyFacts(facts: Awaited<ReturnType<typeof loadFacts>>, count: number) {
-  if (facts.length <= count) return facts;
-  const start = hashString(isoWeekKey()) % facts.length;
-  const result = [];
-  for (let i = 0; i < count; i++) {
-    result.push(facts[(start + i) % facts.length]);
-  }
-  return result;
 }

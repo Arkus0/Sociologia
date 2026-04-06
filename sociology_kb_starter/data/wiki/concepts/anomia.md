@@ -22,6 +22,22 @@ source_notes:
 updated_at: '2026-04-05T15:33:05+00:00'
 ---
 
+## En 30 segundos
+
+La anomia aparece cuando las reglas que orientaban la vida dejan de ordenar expectativas y la gente ya no sabe con claridad que puede esperar de si misma ni de los demas.
+
+- No es simple caos: es desajuste normativo.
+- Suele crecer con cambios rapidos y crisis fuertes.
+- Conecta malestar individual con desregulacion social.
+
+## Por que importa hoy
+
+Sirve para leer precariedad, incertidumbre vital, agotamiento y busquedas desesperadas de orden en contextos donde las promesas de estabilidad pierden credibilidad.
+
+## Ejemplo cotidiano
+
+Si una persona encadena empleos breves, alquileres inestables y reglas cambiantes, puede sentir que nada ofrece una medida clara de esfuerzo, exito o futuro.
+
 ## Definición
 La anomía (del griego *a-nomos*, sin ley) es la situación social caracterizada por la ausencia, debilitamiento o contradicción de las normas que regulan el comportamiento colectivo. En la teoría de [[emile-durkheim]], la anomía surge cuando los cambios sociales rápidos (industrialización, crisis económicas) destruyen los marcos normativos sin que se hayan consolidado otros nuevos, dejando a los individuos sin referentes para orientar su conducta. Es una patología social, no individual.
 

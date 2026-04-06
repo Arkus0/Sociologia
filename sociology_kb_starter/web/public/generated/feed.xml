@@ -5,7 +5,7 @@
     <link>https://jotapedia.vercel.app</link>
     <description>Articulos recientes y datos curiosos de sociologia</description>
     <language>es</language>
-    <lastBuildDate>Mon, 06 Apr 2026 16:08:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 17:05:44 GMT</lastBuildDate>
     <atom:link href="https://jotapedia.vercel.app/generated/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Urbanización</title>
@@ -248,44 +248,44 @@
       <description>La convergencia económica designa el proceso por el cual las economías con menor nivel de renta per cápita tienden (o no) a acercarse a las más ricas a lo largo del tiempo. Se distinguen dos acepciones: la convergenci...</description>
     </item>
     <item>
-      <title>¿Sabías que...? — Deuda externa</title>
-      <link>https://jotapedia.vercel.app/conceptos/deuda-externa</link>
-      <guid isPermaLink="false">fact-0-2290383552</guid>
-      <pubDate>Mon, 06 Apr 2026 16:08:30 GMT</pubDate>
+      <title>¿Sabías que...? — Hecho social</title>
+      <link>https://jotapedia.vercel.app/conceptos/hecho-social</link>
+      <guid isPermaLink="false">fact-0-2788955353</guid>
+      <pubDate>Mon, 06 Apr 2026 17:05:44 GMT</pubDate>
       <category>Sabias que</category>
-      <description>La deuda externa es el conjunto de obligaciones financieras que un país (gobierno, empresas, bancos) tiene contraídas con acreedores extranjeros (bancos comerciales, organismos internacionales, gobiernos).</description>
+      <description>Un hecho social es una forma de actuar, pensar o sentir que parece venir de fuera del individuo y que pesa sobre el como una regla, una costumbre o una obligacion.</description>
     </item>
     <item>
-      <title>¿Sabías que...? — Hipótesis descriptiva</title>
-      <link>https://jotapedia.vercel.app/conceptos/hipotesis-descriptiva</link>
-      <guid isPermaLink="false">fact-1-3477715866</guid>
-      <pubDate>Mon, 06 Apr 2026 16:08:30 GMT</pubDate>
+      <title>¿Sabías que...? — Thomas Luckmann</title>
+      <link>https://jotapedia.vercel.app/autores/thomas-luckmann</link>
+      <guid isPermaLink="false">fact-1-2118842295</guid>
+      <pubDate>Mon, 06 Apr 2026 17:05:44 GMT</pubDate>
       <category>Sabias que</category>
-      <description>Una hipótesis descriptiva es una proposición declarativa que anticipa las características, la distribución o la frecuencia de un fenómeno social sin establecer relaciones causales entre variables.</description>
+      <description>Luckmann ayudo a explicar por que el mundo cotidiano parece tan natural: porque se sostiene en conocimientos compartidos, instituciones sedimentadas y socializacion constante.</description>
     </item>
     <item>
-      <title>¿Sabías que...? — Sociólogas fundadoras, la memoria oculta de la sociología</title>
-      <link>https://jotapedia.vercel.app/fuentes/2026-s1/introduccion-a-la-sociologia/sociologas-fundadoras-la-memoria-oculta-de-la-sociologia</link>
-      <guid isPermaLink="false">fact-2-2894997730</guid>
-      <pubDate>Mon, 06 Apr 2026 16:08:30 GMT</pubDate>
+      <title>¿Sabías que...? — Género</title>
+      <link>https://jotapedia.vercel.app/conceptos/genero</link>
+      <guid isPermaLink="false">fact-2-71539779</guid>
+      <pubDate>Mon, 06 Apr 2026 17:05:44 GMT</pubDate>
       <category>Sabias que</category>
-      <description>¿Cuáles son las principales contribuciones de Harriet Martineau a la metodología sociológica?</description>
+      <description>El genero no describe una esencia natural: describe un conjunto de expectativas sociales sobre como debe actuar, sentir y presentarse una persona segun su posicion sexualizada.</description>
     </item>
     <item>
-      <title>¿Sabías que...? — Distribución normal</title>
-      <link>https://jotapedia.vercel.app/conceptos/distribucion-normal</link>
-      <guid isPermaLink="false">fact-3-863013536</guid>
-      <pubDate>Mon, 06 Apr 2026 16:08:30 GMT</pubDate>
+      <title>¿Sabías que...? — Poder</title>
+      <link>https://jotapedia.vercel.app/conceptos/poder</link>
+      <guid isPermaLink="false">fact-3-2026828040</guid>
+      <pubDate>Mon, 06 Apr 2026 17:05:44 GMT</pubDate>
       <category>Sabias que</category>
-      <description>La distribución normal es una distribución de probabilidad continua y simétrica, con forma de campana, en la que la mayor parte de las observaciones se concentra en torno a la media.</description>
+      <description>El poder no es solo mandar: es conseguir que otros actuen, obedezcan o acepten una definicion de la realidad incluso cuando no parece que haya fuerza directa de por medio.</description>
     </item>
     <item>
-      <title>¿Sabías que...? — Democracia</title>
-      <link>https://jotapedia.vercel.app/conceptos/democracia</link>
-      <guid isPermaLink="false">fact-4-436854406</guid>
-      <pubDate>Mon, 06 Apr 2026 16:08:30 GMT</pubDate>
+      <title>¿Sabías que...? — George Herbert Mead</title>
+      <link>https://jotapedia.vercel.app/autores/george-herbert-mead</link>
+      <guid isPermaLink="false">fact-4-1531717429</guid>
+      <pubDate>Mon, 06 Apr 2026 17:05:44 GMT</pubDate>
       <category>Sabias que</category>
-      <description>El ejemplo metodológico clásico es la operacionalización de la democracia según robert a dahl Dahl en Polyarchy (1971).</description>
+      <description>Mead mostro que el yo no nace hecho: se forma al aprender a verse desde la mirada ajena y a actuar dentro de mundos compartidos de simbolos.</description>
     </item>
   </channel>
 </rss>

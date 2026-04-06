@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
+import { getEditorialTeaser } from "@/lib/editorial";
 import { NOTE_TYPE_LABELS } from "@/lib/wiki-routes";
 import { normalizeText } from "@/lib/wiki-text";
 import type { CatalogEntry } from "@/lib/wiki-types";
@@ -42,6 +43,7 @@ export function IndexView({
     const haystack = normalizeText(
       [
         entry.title,
+        entry.hook,
         entry.preview,
         entry.course,
         entry.semester,
@@ -121,7 +123,7 @@ export function IndexView({
                 {items.map((entry) => (
                   <li key={entry.route} className="index-card">
                     <Link href={entry.route}>{entry.title}</Link>
-                    <p>{entry.preview}</p>
+                    <p>{getEditorialTeaser(entry)}</p>
                     <div className="index-card__meta">
                       <span>{NOTE_TYPE_LABELS[entry.noteType]}</span>
                       {entry.isAlias ? (

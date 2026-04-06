@@ -31,6 +31,22 @@ updated_at: '2026-04-05T22:00:00+00:00'
 
 # Peter L. Berger
 
+## En 30 segundos
+
+Berger enseño que la sociedad es una obra humana que despues se vuelve objetiva y nos enfrenta como si siempre hubiera estado ahi, firme y natural.
+
+- Hizo famosa la idea de construccion social de la realidad.
+- Reivindico una sociologia que desenmascara apariencias.
+- Llevo la sociologia del conocimiento a la vida cotidiana.
+
+## Por que importa hoy
+
+Su enfoque sigue siendo muy productivo para entender sentido comun, legitimidad social y procesos por los que instituciones historicas terminan pareciendo inevitables.
+
+## Ejemplo cotidiano
+
+Cuando alguien dice "las cosas son asi" para cerrar una discusion, Berger invita a preguntar quien construyo ese orden y como llego a parecer obvio.
+
 ## Biografía intelectual
 
 Peter Ludwig Berger nació el 17 de marzo de 1929 en Viena, Austria. Emigró a Estados Unidos poco después de la Segunda Guerra Mundial. En 1949 se graduó en el Wagner College de Nueva York con un bachillerato en artes y prosiguió sus estudios en la New School for Social Research, donde obtuvo el máster (1950) y el doctorado (1952), entrando en contacto con la tradición fenomenológica de Alfred Schütz que marcaría su orientación teórica.

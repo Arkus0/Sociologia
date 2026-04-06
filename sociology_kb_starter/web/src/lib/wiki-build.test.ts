@@ -752,6 +752,154 @@ Fuente de prueba.
   );
 });
 
+test("buildWikiArtifacts extrae bloques editoriales, limpia el cuerpo y filtra facts no validos", async () => {
+  const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "jotapedia-web-"));
+  const wikiRoot = path.join(tempRoot, "wiki");
+  const outputRoot = path.join(tempRoot, ".generated");
+
+  await fs.mkdir(path.join(wikiRoot, "concepts"), { recursive: true });
+  await fs.mkdir(path.join(wikiRoot, "authors"), { recursive: true });
+  await fs.mkdir(path.join(wikiRoot, "courses"), { recursive: true });
+  await fs.mkdir(path.join(wikiRoot, "sources", "2026-s1", "introduccion-a-la-sociologia"), {
+    recursive: true,
+  });
+
+  await fs.writeFile(
+    path.join(wikiRoot, "concepts", "norma-social.md"),
+    `---
+id: norma-social
+title: "Norma social"
+note_type: concept
+updated_at: "2026-04-06"
+---
+
+# Norma social
+
+## En 30 segundos
+
+Las normas sociales ordenan la convivencia cotidiana y vuelven previsibles interacciones que parecen espontaneas.
+
+- No son solo leyes: tambien son habitos, silencios y expectativas.
+- ¿Que pasa cuando nadie sabe ya que se espera de el?
+- El grupo sanciona incluso cuando no existe castigo formal.
+
+## Por que importa hoy
+
+Sigue siendo clave para entender reputacion online, trabajo remoto y conflictos sobre lo que se considera conducta aceptable en espacios digitales.
+
+## Ejemplo cotidiano
+
+En un grupo de WhatsApp laboral, contestar tarde puede interpretarse como falta aunque nadie haya escrito esa regla en ningun sitio.
+
+## Definicion
+
+Una norma social es una expectativa compartida sobre la conducta apropiada dentro de una situacion social determinada.
+
+## Relacion con otros conceptos
+
+Se conecta con [[control-social]] y [[desviacion-social]].
+`,
+    "utf8",
+  );
+
+  await fs.writeFile(
+    path.join(wikiRoot, "concepts", "control-social.md"),
+    `---
+id: control-social
+title: "Control social"
+note_type: concept
+updated_at: "2026-04-06"
+---
+
+## Definicion
+
+Mecanismos que orientan y corrigen conductas.
+`,
+    "utf8",
+  );
+
+  await fs.writeFile(
+    path.join(wikiRoot, "concepts", "desviacion-social.md"),
+    `---
+id: desviacion-social
+title: "Desviacion social"
+note_type: concept
+updated_at: "2026-04-06"
+---
+
+## Definicion
+
+Conducta que rompe expectativas compartidas.
+`,
+    "utf8",
+  );
+
+  await buildWikiArtifacts({
+    wikiRoot,
+    outputRoot,
+  });
+
+  const article = JSON.parse(
+    await fs.readFile(
+      path.join(outputRoot, "articles", "conceptos", "norma-social.json"),
+      "utf8",
+    ),
+  ) as {
+    html: string;
+    preview: string;
+    hook?: string;
+    quickPoints?: string[];
+    whyNow?: string;
+    everydayExample?: string;
+  };
+
+  assert.equal(
+    article.hook,
+    "Las normas sociales ordenan la convivencia cotidiana y vuelven previsibles interacciones que parecen espontaneas.",
+  );
+  assert.deepEqual(article.quickPoints, [
+    "No son solo leyes: tambien son habitos, silencios y expectativas.",
+    "¿Que pasa cuando nadie sabe ya que se espera de el?",
+    "El grupo sanciona incluso cuando no existe castigo formal.",
+  ]);
+  assert.match(article.preview, /^Una norma social es una expectativa compartida/);
+  assert.match(article.html, /Una norma social es una expectativa compartida/);
+  assert.doesNotMatch(article.html, /En 30 segundos/);
+  assert.doesNotMatch(article.html, /Por que importa hoy/);
+  assert.doesNotMatch(article.html, /Ejemplo cotidiano/);
+  assert.equal(
+    article.whyNow,
+    "Sigue siendo clave para entender reputacion online, trabajo remoto y conflictos sobre lo que se considera conducta aceptable en espacios digitales.",
+  );
+  assert.equal(
+    article.everydayExample,
+    "En un grupo de WhatsApp laboral, contestar tarde puede interpretarse como falta aunque nadie haya escrito esa regla en ningun sitio.",
+  );
+
+  const catalog = JSON.parse(
+    await fs.readFile(path.join(outputRoot, "catalog.json"), "utf8"),
+  ) as Array<{ route: string; hook?: string }>;
+  assert.equal(
+    catalog.find((entry) => entry.route === "/conceptos/norma-social")?.hook,
+    article.hook,
+  );
+
+  const searchIndex = JSON.parse(
+    await fs.readFile(path.join(outputRoot, "search-index.json"), "utf8"),
+  ) as { docs: Array<{ route: string; hook?: string }> };
+  assert.equal(
+    searchIndex.docs.find((entry) => entry.route === "/conceptos/norma-social")?.hook,
+    article.hook,
+  );
+
+  const facts = JSON.parse(
+    await fs.readFile(path.join(outputRoot, "facts.json"), "utf8"),
+  ) as Array<{ text: string; kind: string; articleRoute: string }>;
+  assert.ok(facts.some((fact) => fact.kind === "hook" && fact.articleRoute === "/conceptos/norma-social"));
+  assert.ok(facts.some((fact) => fact.kind === "quick_point" && fact.text.includes("silencios")));
+  assert.ok(!facts.some((fact) => fact.text.endsWith("?")));
+});
+
 async function snapshotMarkdownFiles(root: string) {
   const files = await collectMarkdownFiles(root);
   const snapshot = new Map<string, string>();

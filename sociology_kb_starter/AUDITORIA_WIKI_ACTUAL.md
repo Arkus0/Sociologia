@@ -1,6 +1,6 @@
 # Auditoria Wiki Actual
 
-Generada el 2026-04-06T16:08:30.375Z.
+Generada el 2026-04-06T17:05:43.935Z.
 
 ## Inventario
 
@@ -13,11 +13,11 @@ Generada el 2026-04-06T16:08:30.375Z.
 
 ## Calidad
 
-- Incidencias totales: 317
+- Incidencias totales: 315
 - broken_reference: 145
 - missing_required_section: 100
 - missing_related_concepts: 60
-- thin_entry: 12
+- thin_entry: 10
 
 ## Documentos prioritarios
 
