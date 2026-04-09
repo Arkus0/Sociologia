@@ -14,6 +14,10 @@ related_concepts:
   - hecho-social
   - alienacion
   - burocracia
+  - eleccion-racional
+  - consecuencias-no-intencionadas
+  - orden-social
+  - individualismo-metodologico
 tags:
   - sociologia-critica
   - mills
@@ -21,7 +25,7 @@ tags:
   - teoria-sociologica
 source_notes:
   - wiki\sources\2026-s1\introduccion-a-la-sociologia\modulo-1.md
-updated_at: "2026-04-05"
+updated_at: "2026-04-07"
 ---
 
 # Imaginación sociológica
@@ -56,11 +60,23 @@ La imaginación sociológica se conecta con la noción durkheimiana de [[hecho-s
 
 ## Debates y críticas
 
-Las principales objeciones señalan que Mills idealizó el papel del intelectual solitario en una época de investigación cada vez más institucionalizada. Se le ha reprochado cierto voluntarismo en su concepción de la agencia individual y una insuficiente sistematización teórica. Desde el empirismo, se cuestionó que su crítica a la investigación cuantitativa fuera demasiado totalizante, ignorando sus contribuciones al conocimiento de fenómenos como la [[estratificacion-social]]. Desde la gran teoría, se respondió que sin marcos abstractos resulta imposible dar coherencia a los hallazgos empíricos.
+Las principales objeciones a la imaginación sociológica abarcan un espectro amplio de tradiciones intelectuales.
+
+Desde la sociología institucional, se ha señalado que Mills idealizó el papel del intelectual solitario en una época de investigación cada vez más institucionalizada. **Edward Shils** (*The Intellectuals and the Powers*, 1972) argumentó que la retórica millsiana sobre la «élite del poder» simplificaba la complejidad de las relaciones entre conocimiento y autoridad, y que el intelectual crítico que Mills proponía era en sí mismo una figura elitista que se arrogaba la representación de intereses colectivos sin mandato democrático.
+
+Desde el empirismo cuantitativo, se cuestionó que su crítica a la investigación estadística fuera demasiado totalizante, ignorando sus contribuciones al conocimiento de fenómenos como la [[estratificacion-social]]. Lazarsfeld respondió que la investigación empírica rigurosa no excluye la teoría, sino que la disciplina. Desde la gran teoría, se argumentó que sin marcos abstractos resulta imposible dar coherencia a los hallazgos empíricos.
+
+Desde la [[eleccion-racional|teoría de la elección racional]], **James Coleman** (*Foundations of Social Theory*, 1990) ofreció una alternativa formal al tipo de conexión biografía-estructura que Mills reclamaba: el llamado «diagrama de Coleman» (o «barca de Coleman») modela rigurosamente las transiciones micro-macro sin recurrir a la retórica totalizante que Mills criticaba en Parsons pero que, según Coleman, él mismo reproducía al tratar «la estructura social» como un agente causal sin mecanismos especificados. Coleman demostró que los fenómenos macro pueden explicarse a partir de postulados de utilidad esperada combinados con configuraciones institucionales, ofreciendo una vía más parsimoniosa que la intuición millsiana.
+
+Desde la tradición liberal, **Friedrich Hayek** (*The Counter-Revolution of Science*, 1952) anticipó críticas aplicables al programa de Mills al denunciar el «cientificismo» —la transferencia acrítica de métodos de las ciencias naturales a las sociales— y el constructivismo racionalista que presume que un intelectual puede comprender y reformar la totalidad social. La imaginación sociológica, en esta lectura, corre el riesgo de convertirse en una forma de hubris intelectual que subestima los [[consecuencias-no-intencionadas|efectos no intencionados]] de las intervenciones sociales y la complejidad del [[orden-social|orden espontáneo]].
+
+Existe también una tensión interna frecuentemente señalada: Mills exige que el individuo reconozca las determinaciones estructurales de su vida, pero simultáneamente le pide que actúe políticamente para transformar esas estructuras, lo cual presupone una agencia difícilmente compatible con el determinismo estructural que su análisis implica (Horowitz, 1983).
 
 ## Vigencia contemporánea
 
 **Michael Burawoy** retomó explícitamente a Mills en su programa de «sociología pública» (discurso presidencial de la ASA, 2004), argumentando que la disciplina debe dialogar con públicos no académicos para cumplir la promesa millsiana de conectar biografía y estructura. En el siglo XXI, la imaginación sociológica resulta indispensable para comprender fenómenos que atraviesan simultáneamente la esfera personal y la estructural: las desigualdades amplificadas por la pandemia de COVID-19, la precarización laboral, la vigilancia digital masiva o la crisis climática. En cada caso, lo que el individuo experimenta como angustia privada —pérdida de empleo, exposición a desinformación, incertidumbre existencial— revela, bajo el análisis sociológico, patrones de [[estratificacion-social]] y configuraciones de [[poder]] que trascienden las circunstancias personales.
+
+No obstante, desde la economía conductual, **Daniel Kahneman** (*Thinking, Fast and Slow*, 2011) y **Richard Thaler** (*Nudge*, 2008, con Sunstein) han demostrado que muchos «problemas personales» tienen raíces cognitivas —sesgos heurísticos, aversión a la pérdida, descuento hiperbólico— que no se reducen ni a la estructura social ni a la elección racional pura. Esta perspectiva complementa y desafía la imaginación sociológica al sugerir que la conexión biografía-estructura debe incorporar también la arquitectura psicológica del agente. Asimismo, la sociología analítica contemporánea (Hedström y Bearman, *The Oxford Handbook of Analytical Sociology*, 2009) ha formalizado el programa millsiano mediante modelos de mecanismos causales que permiten una conexión micro-macro más rigurosa y contrastable que la formulación original de Mills.
 
 ## Ejemplo empírico
 
@@ -77,12 +93,23 @@ El desempleo juvenil ilustra la distinción millsiana. Cuando una persona joven 
 - [[hecho-social]]
 - [[alienacion]]
 - [[burocracia]]
+- [[eleccion-racional]]
+- [[individualismo-metodologico]]
+- [[consecuencias-no-intencionadas]]
+- [[orden-social]]
 
 ## Fuentes
 
+- [[modulo-1|Módulo 1: La perspectiva sociológica]] (Introducción a la Sociología, 2026-S1)
 - Mills, C. Wright (1959). *The Sociological Imagination*. Nueva York: Oxford University Press.
 - Berger, Peter L. (1963). *Invitation to Sociology: A Humanistic Perspective*. Nueva York: Doubleday.
 - Burawoy, Michael (2005). «2004 ASA Presidential Address: For Public Sociology». *British Journal of Sociology*, 56(2), 259-294.
 - Nisbet, Robert A. (1966). *The Sociological Tradition*. Nueva York: Basic Books.
+- Coleman, James S. (1990). *Foundations of Social Theory*. Cambridge, MA: Harvard University Press.
 - Hedström, Peter (2005). *Dissecting the Social: On the Principles of Analytical Sociology*. Cambridge: Cambridge University Press.
+- Hedström, Peter y Bearman, Peter (eds.) (2009). *The Oxford Handbook of Analytical Sociology*. Oxford: Oxford University Press.
+- Hayek, Friedrich A. (1952). *The Counter-Revolution of Science: Studies on the Abuse of Reason*. Glencoe, IL: Free Press.
+- Shils, Edward (1972). *The Intellectuals and the Powers and Other Essays*. Chicago: University of Chicago Press.
+- Horowitz, Irving Louis (1983). *C. Wright Mills: An American Utopian*. Nueva York: Free Press.
+- Kahneman, Daniel (2011). *Thinking, Fast and Slow*. Nueva York: Farrar, Straus and Giroux.
 - Estruch i Gibert, Joan (2019). «La perspectiva sociológica». Módulo 1, Introducción a la Sociología, UOC.

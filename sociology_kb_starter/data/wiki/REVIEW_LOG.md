@@ -42,3 +42,47 @@ Formato: stubâ†’enriched = reescritura completa | new = entrada creada desd
 - **Origen**: wikilink roto desde `adam-ferguson.md` + concepto infrarepresentado (lista de directriz de equilibrio: Merton, tradición liberal escocesa, Hayek)
 - **Contenido**: Definición, origen histórico (Ferguson, Smith, Mandeville, Weber, Merton), desarrollo teórico (tipología tripartita, efectos perversos de Boudon, orden espontáneo de Hayek, funciones latentes de Merton), debates desde marxismo y sociología analítica (Hedström, Elster), vigencia contemporánea (nudges, algoritmos, Ostrom), ejemplo empírico (Cuatro Plagas, China)
 - **Fuentes**: Merton (1936, 1949), Boudon (1977), Hayek (1973-1979), Ferguson (1767), Elster (1978, 1989), Hedström (2005), Ostrom (1990), Baert (1991), Wikipedia, Britannica, ResearchGate, CSIC
+## 2026-04-07
+
+### Entrada mejorada
+- **Archivo**: `concepts/imaginacion-sociologica.md`
+- **Estado anterior**: enriquecido
+- **Acción**: mejora parcial
+- **Equilibrio añadido**: Crítica de Edward Shils (1972) al elitismo intelectual de Mills; crítica desde la teoría de la elección racional vía Coleman (1990) y el diagrama de Coleman como alternativa formal al vínculo micro-macro; crítica liberal desde Hayek (1952) sobre cientificismo y hubris intelectual; tensión interna agencia-estructura señalada por Horowitz (1983); aporte de la economía conductual (Kahneman, Thaler) como complemento/desafío; sociología analítica (Hedström y Bearman, 2009) como formalización del programa millsiano. Ampliada sección Fuentes de 6 a 13 referencias. Añadidos wikilinks a eleccion-racional, consecuencias-no-intencionadas, orden-social, individualismo-metodologico.
+- **Fuentes añadidas**: Coleman (1990), Hayek (1952), Shils (1972), Horowitz (1983), Kahneman (2011), Hedström y Bearman (2009), Wikipedia, EBSCO, Springer, ResearchGate
+
+### Nueva entrada creada
+- **Archivo**: `authors/alexis-de-tocqueville.md`
+- **Origen**: wikilink roto desde `robert-nisbet.md` + autor infrarepresentado del liberalismo clásico (directriz de equilibrio: Tocqueville como pensador clave de la tradición liberal en sociología)
+- **Contenido**: Biografía intelectual, contribuciones principales (Democracia en América, ciencia de la asociación, Antiguo Régimen), método comparado e individualismo metodológico, obras fundamentales, influencia y legado (Nisbet, Boudon, Putnam, Hayek), críticas (marxista, Bourdieu, poscolonial/Pitts, empírica/Skocpol). 1554 palabras, 25 wikilinks, 10 referencias bibliográficas.
+- **Fuentes**: Wikipedia, Britannica, History.com, FLACSO, Scielo, Yale Open Courses, AEI, Liberty Fund, University of Chicago Press
+
+## 2026-04-08
+
+### Entrada mejorada
+- **Archivo**: `concepts/universalismo.md`
+- **Estado anterior**: enriquecido (sin equilibrio ideológico)
+- **Acción**: mejora parcial
+- **Equilibrio añadido**: Sección nueva sobre Popper y la sociedad abierta (defensa liberal del universalismo desde el racionalismo crítico); sección nueva sobre Boudon y el universalismo moral desde la sociología analítica (racionalidad ordinaria, progreso moral empírico); defensa liberal clásica en Debates (Popper, Hayek, Sowell con *A Conflict of Visions*); defensa desde la elección racional (Coleman, Boudon); universalismo meritocrático (Steele, Sowell); Vigencia contemporánea ampliada con Pinker (*Enlightenment Now*), Appiah (cosmopolitismo arraigado), Haidt (fundaciones morales y psicología evolutiva). Fuentes ampliadas de 8 a 16 referencias. Wikilinks ampliados de ~11 a 27, incluyendo enlaces a individualismo-metodologico, eleccion-racional, consecuencias-no-intencionadas, relativismo-cultural.
+- **Fuentes añadidas**: Popper (1945), Boudon (1995), Sowell (1987), Appiah (2006), Pinker (2018), Haidt (2012), MacIntyre (1981), Coleman (1990), Wikipedia, Stanford Encyclopedia of Philosophy, IEP, Goodreads, Appiah.net
+
+### Nueva entrada creada
+- **Archivo**: `concepts/relativismo-cultural.md`
+- **Origen**: wikilink roto desde `concepts/universalismo.md` (enlace [[relativismo-cultural]] sin entrada correspondiente)
+- **Contenido**: Definición (relativismo metodológico vs. normativo), origen histórico (Boas, Benedict, Mead, Herskovits, Statement on Human Rights de 1947), desarrollo teórico (distinción metodológico/normativo, Geertz, paradoja lógica de Gellner, funcionalismo de Parsons), debates con equilibrio completo: críticas desde liberalismo clásico (Popper, Hayek), sociología analítica (Boudon, Elster), feminismo universalista (Nussbaum, Sen); defensas contemporáneas (Santos, Clifford). Vigencia con Pinker, Haidt, Appiah. Ejemplo empírico: debate sobre MGF y movimientos endógenos de cambio (Tostan). 2018 palabras, 19 wikilinks, 14 referencias bibliográficas.
+- **Fuentes**: Wikipedia, Britannica, Stanford Encyclopedia of Philosophy, Oxford Bibliographies, ResearchGate, PhilArchive, Redalyc, Scielo
+
+## 2026-04-09
+
+### Entrada mejorada
+- **Archivo**: `concepts/construccion-social-de-la-realidad.md`
+- **Estado anterior**: enriquecido (muy breve, sin equilibrio ideológico)
+- **Acción**: reescritura completa
+- **Equilibrio añadido**: Crítica desde el realismo analítico (Searle 1995: hechos brutos vs. institucionales); crítica desde la filosofía analítica (Hacking 1999: ambigüedad del objeto construido, efecto bucle; Boghossian 2006: relativismo autorefutante); crítica desde la sociología analítica y la elección racional (Boudon 1986: génesis social ≠ invalidez epistémica; Coleman 1990: alternativa microfundacional); crítica desde el liberalismo clásico (Popper 1945: holismo metodológico; Hayek 1952: cientificismo y reificación de macro-entidades). Vigencia contemporánea ampliada con Kahneman, Thaler, Hedström. Ejemplo empírico con Goode (1963) y Nisbet (1953).
+- **Fuentes añadidas**: Searle (1995), Hacking (1999), Boghossian (2006), Boudon (1986), Coleman (1990), Popper (1945), Hayek (1952), Bourdieu (1972), Hedström (2005), Nisbet (1953), Goode (1963). Wikipedia, Simply Psychology, Project MUSE, Springer, Dialnet, PhilPapers, NDPR, Goodreads, Econlib.
+
+### Nueva entrada creada
+- **Archivo**: `concepts/orden-espontaneo.md`
+- **Origen**: wikilink roto desde `concepts/universalismo.md` + concepto infrarepresentado (directriz de equilibrio: orden espontáneo como concepto central de la tradición liberal clásica, Hayek)
+- **Contenido**: Definición (kosmos vs. taxis), origen histórico (Zhuangzi, Ferguson 1767, Smith 1776, Hume 1739, Menger 1883, Polanyi 1941, Hayek 1973-79), desarrollo teórico (distinción cosmos-taxis, reglas y evolución cultural, catalaxia), relación con otros conceptos (consecuencias no intencionadas, individualismo metodológico, solidaridad orgánica). Debates con equilibrio completo: crítica marxista/sociología económica (K. Polanyi 1944, Granovetter 1985), funcionalista (Parsons 1951), interna liberal (Kley 1994, Buchanan 1975), sociología analítica (Hedström 2005). Defensa con Ostrom (1990). Vigencia contemporánea (Internet, Wikipedia, criptomonedas, crisis 2008, economía de la complejidad). Ejemplo empírico: lex mercatoria medieval (Benson 1990, Berman 1983). ~2000 palabras, 18 wikilinks, 14 referencias bibliográficas.
+- **Fuentes**: Wikipedia, Britannica, Econlib/Liberty Fund, Minneapolis Fed, Cambridge Core, Springer, Taylor & Francis, Mises Institute, Dialnet, Cervantes Virtual
