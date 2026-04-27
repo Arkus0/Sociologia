@@ -101,3 +101,12 @@ Formato: stubâ†’enriched = reescritura completa | new = entrada creada desd
 - **Origen**: wikilink roto desde `concepts/construccion-social-de-la-realidad.md`, `concepts/orden-espontaneo.md`, `concepts/relativismo-cultural.md`, `concepts/universalismo.md` (4 entradas enlazaban `[[friedrich-hayek|Friedrich Hayek]]` sin página de autor). Además, 73 entradas del wiki mencionan a Hayek en prosa. Autor fundamental para la directriz de equilibrio ideológico: referencia central del liberalismo clásico del siglo XX, Escuela Austriaca, Nobel 1974.
 - **Contenido**: Biografía intelectual (Viena, LSE, Chicago, Friburgo, debate con Keynes, Mont Pèlerin Society); contribuciones principales en cinco ejes (teoría del conocimiento disperso, orden espontáneo cosmos/taxis, crítica del socialismo y la planificación, evolución cultural y selección de reglas de conducta, psicología teórica en *The Sensory Order*); método composicional y crítica del cientificismo; once obras fundamentales con fechas y descripciones; influencia y legado en filosofía política (Nozick, Buchanan, Gaus), sociología analítica (Boudon, Elster), economía experimental (V. Smith, H. Simon) y política aplicada (Thatcher, Reagan, Chicago Boys, con matización Farrant et al. 2012); críticas desde marxismo/poskeynesianismo (Polanyi, Harvey), sociología económica (Granovetter), institucionalismo (Ostrom), filosofía política (Rawls, Barry, Plant) y filosofía de la ciencia (Caldwell). ~2000 palabras, 10+ wikilinks, 14 referencias bibliográficas.
 - **Fuentes**: Stanford Encyclopedia of Philosophy, Wikipedia (Hayek, Constitution of Liberty, Law Legislation and Liberty, Road to Serfdom, Spontaneous Order), Federal Reserve Bank of Minneapolis (legacy essay), Cambridge Core, Springer, ResearchGate, University of Chicago Press, Mises.org, Unión Editorial.
+
+## 2026-04-27
+
+| # | Entrada | Acción | Origen |
+|---|---------|--------|--------|
+| 1 | `comunidad` | stub→enriched | ampliación solicitada por usuario |
+| 2 | `ideologia` | stub→enriched | ampliación solicitada por usuario |
+| 3 | `aleatorizacion` | new | referencia recurrente sin entrada propia |
+| 4 | `hegemonia` | new | concepto clave enlazado desde ideologia |
